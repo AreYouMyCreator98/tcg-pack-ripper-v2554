@@ -39,5 +39,5 @@ test('collection bridge preserves rank tiers and counts reserved cards in master
 });
 test('startup session restoration holds a saved financial receipt before autosync',async()=>{
  const source=await read('public/runtime/progression.js');const section=source.slice(source.indexOf('  async function refreshSession(){'),source.indexOf('  async function getRemote(){'));
- let holds=0;const ctx=vm.createContext({client:{auth:{getSession:async()=>({data:{session:{user:{id:'A'}}}})}},user:null,setPendingEmail:()=>{},syncUI:()=>{},localStorage:{getItem:key=>key.endsWith(':A')?JSON.stringify({action:'listing_buy',id:'saved-request'}):null},holdHubTransaction:()=>holds++,JSON});vm.runInContext(section,ctx);await ctx.refreshSession();assert.equal(holds,1);assert.equal(ctx.user.id,'A');
+ let holds=0;const ctx=vm.createContext({sessionState:'restoring',sessionRetry:null,clearTimeout,setTimeout,client:{auth:{getSession:async()=>({data:{session:{user:{id:'A'}}}})}},user:null,setPendingEmail:()=>{},syncUI:()=>{},localStorage:{getItem:key=>key.endsWith(':A')?JSON.stringify({action:'listing_buy',id:'saved-request'}):null},holdHubTransaction:()=>holds++,JSON});vm.runInContext(section,ctx);await ctx.refreshSession();assert.equal(holds,1);assert.equal(ctx.user.id,'A');
 });
