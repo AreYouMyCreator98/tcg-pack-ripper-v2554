@@ -8,7 +8,7 @@ export function installNavigationInput(doc=document, win=window) {
     return target?.closest?.('.nav button[data-s],#profile.profile-studio button,#profile.profile-studio summary,#settings.studio-settings button,#settings.studio-settings summary');
   };
   const unavailable=button=>!button||button.disabled||button.closest('[inert]')||
-    (!button.closest('.nav')&&doc.documentElement.classList.contains('hub-transaction-pending'));
+    (!button.closest('.nav,#closeProfileSettingsV158,#closeSettingsShadeV158')&&doc.documentElement.classList.contains('hub-transaction-pending'));
   const down=e=>{
     if(e.isPrimary===false||e.touches?.length>1){start=null;return;}
     if(e.button>0||e.pointerType==='mouse')return;
