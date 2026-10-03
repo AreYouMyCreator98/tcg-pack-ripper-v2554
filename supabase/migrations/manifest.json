@@ -55,17 +55,19 @@
     {
       "version": "20261003073323",
       "name": "trade_hub_v256",
-      "status": "not_applied"
+      "status": "applied",
+      "deployedVersion": "20261003091126"
     },
     {
       "after": "20261003073323",
       "file": "../seed-hub-catalog.sql",
-      "status": "not_applied"
+      "status": "applied"
     },
     {
       "version": "20261003082036",
       "name": "trade_hub_v256_cutover",
-      "status": "not_applied"
+      "status": "applied",
+      "deployedVersion": "20261003092631"
     }
   ]
 }
