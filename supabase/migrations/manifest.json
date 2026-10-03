@@ -68,6 +68,11 @@
       "name": "trade_hub_v256_cutover",
       "status": "applied",
       "deployedVersion": "20261003092631"
+    },
+    {
+      "version": "20261003101824",
+      "name": "trade_hub_identity_ranked",
+      "status": "pending"
     }
   ]
 }
