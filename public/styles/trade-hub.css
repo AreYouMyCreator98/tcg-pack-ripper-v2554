@@ -41,7 +41,11 @@
 @media(prefers-reduced-motion:reduce){.trade-hub *{animation:none!important;transition:none!important}}
 
 /* Prevent collection mutations outside the hub during its short cloud transaction. */
-.hub-transaction-pending .nav,.hub-transaction-pending .screen:not(#earn){pointer-events:none!important}
+.hub-transaction-pending .screen:not(#earn){pointer-events:none!important}
+
+.hub-match-alert{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0;padding:14px 18px;background:#fff8dd;border:1px solid #e7dba8;border-radius:16px;color:#27374c}
+.hub-new-room{margin-top:24px}.hub-new-room>summary{cursor:pointer;padding:14px;font-weight:700}
+.hub-room-actions{margin:16px 0}.hub-room-actions>[data-hub-action="ready"]{width:100%;min-height:52px;background:#e9e3fa;color:#312651;font-size:16px}
 
 .hub-versus{display:grid;grid-template-columns:1fr 30px 1fr;gap:12px;align-items:center;margin:20px 0}.hub-versus>b{text-align:center;color:var(--hub-accent)}.hub-banner{display:flex;gap:16px;align-items:center;padding:22px;border-radius:18px;background:linear-gradient(130deg,#eef6ff,#eee8fc);border:1px solid #cbd4e780}.hub-banner h3{margin:4px 0}.hub-banner p{font-size:11px}.hub-banner small{color:#5c6980}.hub-banner-obsidian{background:linear-gradient(130deg,#f2f2f7,#e5e7ed)}.hub-banner-gold{background:linear-gradient(130deg,#fff7de,#f2ebd9)}.hub-banner-neon{background:linear-gradient(130deg,#eee0fc,#e1f6fb)}.hub-banner-crystal{background:linear-gradient(130deg,#e3f6ff,#e8edfc)}.hub-banner-ember{background:linear-gradient(130deg,#fff0e3,#f6e8f3)}.hub-portrait{position:relative;flex-shrink:0;width:68px;height:68px;display:grid;place-items:center;background:#f5f6fc;border-radius:50%;font-size:23px}.hub-portrait>img{width:100%;height:100%;object-fit:cover;border-radius:50%}.hub-portrait>.hub-frame{position:absolute;inset:-8px;width:84px;height:84px;object-fit:contain}.hub-badges{display:flex;gap:6px;flex-wrap:wrap;font-size:10px}.hub-badges span{padding:3px 6px;background:#ffffffc9;border-radius:8px}@media(max-width:700px){.hub-versus{grid-template-columns:1fr}.hub-banner{padding:18px}.hub-versus>b{font-size:12px}}
 
