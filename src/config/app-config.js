@@ -1,10 +1,10 @@
 export const APP_CONFIG = Object.freeze({
   name: 'TCG Pack Ripper+',
-  version: '0.255.4',
-  buildId: 'v2554-system-reliability-1',
+  version: '0.256.0',
+  buildId: 'v256-trade-hub-1',
   saveSchemaVersion: 1,
   assetSchemaVersion: 1,
-  cacheVersion: 'tcg-v2554-1',
+  cacheVersion: 'tcg-v256-1',
   supabase: Object.freeze({
     projectRef: 'ddeuwrnfmdgvizkrjhii',
     url: 'https://ddeuwrnfmdgvizkrjhii.supabase.co',
@@ -21,8 +21,9 @@ export const APP_CONFIG = Object.freeze({
     revealEngineV253: true,
     revealFxV254: true,
     launchExperienceV2541: true,
-    multiplayerArenaV255: true,
-    globalChatV255: true,
+    multiplayerArenaV255: false,
+    globalChatV255: false,
+    tradeHubV256: true,
     nativeShell: false,
     experimentalRenderer: false
   })

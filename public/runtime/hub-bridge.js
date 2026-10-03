@@ -1,0 +1,2 @@
+// Narrow bridge to the collection state. No online decisions are made here.
+window.tcgHubBridge={applyRank(p,data){if(!p)return;state.hubEscrowV256=data?.escrow||[];state.hubTotalsV256=data?.totals||{};state.profileV227=state.profileV227||{};state.profileV227.name=p.name;state.rankedV221=Object.assign(state.rankedV221||{history:[],processed:{}},{rp:p.rp,wins:p.wins,losses:p.losses,ties:p.ties,streak:p.streak,seasonHigh:p.season_high});try{window.tcgProfileV227?.renderIdentity?.();if(document.querySelector('#profile.screen.active'))renderProfile()}catch{}}};

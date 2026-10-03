@@ -1,0 +1,3926 @@
+[
+  {
+    "id": "sv05-001",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/001.ts",
+    "card": {
+      "id": "sv05-001",
+      "name": "Scyther",
+      "number": "001",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-002",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/002.ts",
+    "card": {
+      "id": "sv05-002",
+      "name": "Pineco",
+      "number": "002",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-003",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/003.ts",
+    "card": {
+      "id": "sv05-003",
+      "name": "Seedot",
+      "number": "003",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-004",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/004.ts",
+    "card": {
+      "id": "sv05-004",
+      "name": "Nuzleaf",
+      "number": "004",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-005",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/005.ts",
+    "card": {
+      "id": "sv05-005",
+      "name": "Shiftry",
+      "number": "005",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-006",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/006.ts",
+    "card": {
+      "id": "sv05-006",
+      "name": "Shroomish",
+      "number": "006",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-007",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/007.ts",
+    "card": {
+      "id": "sv05-007",
+      "name": "Breloom",
+      "number": "007",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-008",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/008.ts",
+    "card": {
+      "id": "sv05-008",
+      "name": "Roselia",
+      "number": "008",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-009",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/009.ts",
+    "card": {
+      "id": "sv05-009",
+      "name": "Roserade",
+      "number": "009",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-010",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/010.ts",
+    "card": {
+      "id": "sv05-010",
+      "name": "Turtwig",
+      "number": "010",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-011",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/011.ts",
+    "card": {
+      "id": "sv05-011",
+      "name": "Grotle",
+      "number": "011",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-012",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/012.ts",
+    "card": {
+      "id": "sv05-012",
+      "name": "Torterra ex",
+      "number": "012",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-013",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/013.ts",
+    "card": {
+      "id": "sv05-013",
+      "name": "Shaymin",
+      "number": "013",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-014",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/014.ts",
+    "card": {
+      "id": "sv05-014",
+      "name": "Cottonee",
+      "number": "014",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-015",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/015.ts",
+    "card": {
+      "id": "sv05-015",
+      "name": "Whimsicott",
+      "number": "015",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-016",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/016.ts",
+    "card": {
+      "id": "sv05-016",
+      "name": "Deerling",
+      "number": "016",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-017",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/017.ts",
+    "card": {
+      "id": "sv05-017",
+      "name": "Sawsbuck",
+      "number": "017",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-018",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/018.ts",
+    "card": {
+      "id": "sv05-018",
+      "name": "Grubbin",
+      "number": "018",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-019",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/019.ts",
+    "card": {
+      "id": "sv05-019",
+      "name": "Dhelmise",
+      "number": "019",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-020",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/020.ts",
+    "card": {
+      "id": "sv05-020",
+      "name": "Bramblin",
+      "number": "020",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-021",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/021.ts",
+    "card": {
+      "id": "sv05-021",
+      "name": "Brambleghast",
+      "number": "021",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-022",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/022.ts",
+    "card": {
+      "id": "sv05-022",
+      "name": "Scovillain ex",
+      "number": "022",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-023",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/023.ts",
+    "card": {
+      "id": "sv05-023",
+      "name": "Rellor",
+      "number": "023",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-024",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/024.ts",
+    "card": {
+      "id": "sv05-024",
+      "name": "Rabsca",
+      "number": "024",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-025",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/025.ts",
+    "card": {
+      "id": "sv05-025",
+      "name": "Iron Leaves ex",
+      "number": "025",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-026",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/026.ts",
+    "card": {
+      "id": "sv05-026",
+      "name": "Ponyta",
+      "number": "026",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-027",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/027.ts",
+    "card": {
+      "id": "sv05-027",
+      "name": "Rapidash",
+      "number": "027",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-028",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/028.ts",
+    "card": {
+      "id": "sv05-028",
+      "name": "Slugma",
+      "number": "028",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-029",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/029.ts",
+    "card": {
+      "id": "sv05-029",
+      "name": "Magcargo",
+      "number": "029",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-030",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/030.ts",
+    "card": {
+      "id": "sv05-030",
+      "name": "Victini",
+      "number": "030",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-031",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/031.ts",
+    "card": {
+      "id": "sv05-031",
+      "name": "Heatmor",
+      "number": "031",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-032",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/032.ts",
+    "card": {
+      "id": "sv05-032",
+      "name": "Litten",
+      "number": "032",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-033",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/033.ts",
+    "card": {
+      "id": "sv05-033",
+      "name": "Torracat",
+      "number": "033",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-034",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/034.ts",
+    "card": {
+      "id": "sv05-034",
+      "name": "Incineroar ex",
+      "number": "034",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-035",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/035.ts",
+    "card": {
+      "id": "sv05-035",
+      "name": "Turtonator",
+      "number": "035",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-036",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/036.ts",
+    "card": {
+      "id": "sv05-036",
+      "name": "Sizzlipede",
+      "number": "036",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-037",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/037.ts",
+    "card": {
+      "id": "sv05-037",
+      "name": "Centiskorch",
+      "number": "037",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-038",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/038.ts",
+    "card": {
+      "id": "sv05-038",
+      "name": "Gouging Fire ex",
+      "number": "038",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-039",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/039.ts",
+    "card": {
+      "id": "sv05-039",
+      "name": "Totodile",
+      "number": "039",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-040",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/040.ts",
+    "card": {
+      "id": "sv05-040",
+      "name": "Croconaw",
+      "number": "040",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-041",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/041.ts",
+    "card": {
+      "id": "sv05-041",
+      "name": "Feraligatr",
+      "number": "041",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-042",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/042.ts",
+    "card": {
+      "id": "sv05-042",
+      "name": "Carvanha",
+      "number": "042",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-043",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/043.ts",
+    "card": {
+      "id": "sv05-043",
+      "name": "Sharpedo",
+      "number": "043",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-044",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/044.ts",
+    "card": {
+      "id": "sv05-044",
+      "name": "Keldeo",
+      "number": "044",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-045",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/045.ts",
+    "card": {
+      "id": "sv05-045",
+      "name": "Snom",
+      "number": "045",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-046",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/046.ts",
+    "card": {
+      "id": "sv05-046",
+      "name": "Frosmoth",
+      "number": "046",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-047",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/047.ts",
+    "card": {
+      "id": "sv05-047",
+      "name": "Wiglett",
+      "number": "047",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-048",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/048.ts",
+    "card": {
+      "id": "sv05-048",
+      "name": "Finizen",
+      "number": "048",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-049",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/049.ts",
+    "card": {
+      "id": "sv05-049",
+      "name": "Palafin",
+      "number": "049",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-050",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/050.ts",
+    "card": {
+      "id": "sv05-050",
+      "name": "Walking Wake ex",
+      "number": "050",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-051",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/051.ts",
+    "card": {
+      "id": "sv05-051",
+      "name": "Pikachu",
+      "number": "051",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-052",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/052.ts",
+    "card": {
+      "id": "sv05-052",
+      "name": "Raichu",
+      "number": "052",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-053",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/053.ts",
+    "card": {
+      "id": "sv05-053",
+      "name": "Electabuzz",
+      "number": "053",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-054",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/054.ts",
+    "card": {
+      "id": "sv05-054",
+      "name": "Electivire",
+      "number": "054",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-055",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/055.ts",
+    "card": {
+      "id": "sv05-055",
+      "name": "Charjabug",
+      "number": "055",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-056",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/056.ts",
+    "card": {
+      "id": "sv05-056",
+      "name": "Vikavolt",
+      "number": "056",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-057",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/057.ts",
+    "card": {
+      "id": "sv05-057",
+      "name": "Zeraora",
+      "number": "057",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-058",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/058.ts",
+    "card": {
+      "id": "sv05-058",
+      "name": "Yamper",
+      "number": "058",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-059",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/059.ts",
+    "card": {
+      "id": "sv05-059",
+      "name": "Boltund",
+      "number": "059",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-060",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/060.ts",
+    "card": {
+      "id": "sv05-060",
+      "name": "Wugtrio ex",
+      "number": "060",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-061",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/061.ts",
+    "card": {
+      "id": "sv05-061",
+      "name": "Iron Hands",
+      "number": "061",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-062",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/062.ts",
+    "card": {
+      "id": "sv05-062",
+      "name": "Iron Thorns",
+      "number": "062",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-063",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/063.ts",
+    "card": {
+      "id": "sv05-063",
+      "name": "Mr. Mime",
+      "number": "063",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-064",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/064.ts",
+    "card": {
+      "id": "sv05-064",
+      "name": "Marill",
+      "number": "064",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-065",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/065.ts",
+    "card": {
+      "id": "sv05-065",
+      "name": "Azumarill",
+      "number": "065",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-066",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/066.ts",
+    "card": {
+      "id": "sv05-066",
+      "name": "Girafarig",
+      "number": "066",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-067",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/067.ts",
+    "card": {
+      "id": "sv05-067",
+      "name": "Latias",
+      "number": "067",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-068",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/068.ts",
+    "card": {
+      "id": "sv05-068",
+      "name": "Bronzor",
+      "number": "068",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-069",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/069.ts",
+    "card": {
+      "id": "sv05-069",
+      "name": "Bronzong",
+      "number": "069",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-070",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/070.ts",
+    "card": {
+      "id": "sv05-070",
+      "name": "Solosis",
+      "number": "070",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-071",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/071.ts",
+    "card": {
+      "id": "sv05-071",
+      "name": "Duosion",
+      "number": "071",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-072",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/072.ts",
+    "card": {
+      "id": "sv05-072",
+      "name": "Reuniclus",
+      "number": "072",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-073",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/073.ts",
+    "card": {
+      "id": "sv05-073",
+      "name": "Elgyem",
+      "number": "073",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-074",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/074.ts",
+    "card": {
+      "id": "sv05-074",
+      "name": "Beheeyem",
+      "number": "074",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-075",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/075.ts",
+    "card": {
+      "id": "sv05-075",
+      "name": "Cutiefly",
+      "number": "075",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-076",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/076.ts",
+    "card": {
+      "id": "sv05-076",
+      "name": "Ribombee",
+      "number": "076",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-077",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/077.ts",
+    "card": {
+      "id": "sv05-077",
+      "name": "Scream Tail",
+      "number": "077",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-078",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/078.ts",
+    "card": {
+      "id": "sv05-078",
+      "name": "Flutter Mane",
+      "number": "078",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-079",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/079.ts",
+    "card": {
+      "id": "sv05-079",
+      "name": "Iron Valiant",
+      "number": "079",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-080",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/080.ts",
+    "card": {
+      "id": "sv05-080",
+      "name": "Iron Valiant",
+      "number": "080",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-081",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/081.ts",
+    "card": {
+      "id": "sv05-081",
+      "name": "Iron Crown ex",
+      "number": "081",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-082",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/082.ts",
+    "card": {
+      "id": "sv05-082",
+      "name": "Meditite",
+      "number": "082",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-083",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/083.ts",
+    "card": {
+      "id": "sv05-083",
+      "name": "Medicham",
+      "number": "083",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-084",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/084.ts",
+    "card": {
+      "id": "sv05-084",
+      "name": "Relicanth",
+      "number": "084",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-085",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/085.ts",
+    "card": {
+      "id": "sv05-085",
+      "name": "Drilbur",
+      "number": "085",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-086",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/086.ts",
+    "card": {
+      "id": "sv05-086",
+      "name": "Excadrill",
+      "number": "086",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-087",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/087.ts",
+    "card": {
+      "id": "sv05-087",
+      "name": "Golett",
+      "number": "087",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-088",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/088.ts",
+    "card": {
+      "id": "sv05-088",
+      "name": "Golurk",
+      "number": "088",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-089",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/089.ts",
+    "card": {
+      "id": "sv05-089",
+      "name": "Rockruff",
+      "number": "089",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-090",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/090.ts",
+    "card": {
+      "id": "sv05-090",
+      "name": "Lycanroc",
+      "number": "090",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-091",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/091.ts",
+    "card": {
+      "id": "sv05-091",
+      "name": "Mudbray",
+      "number": "091",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-092",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/092.ts",
+    "card": {
+      "id": "sv05-092",
+      "name": "Mudsdale",
+      "number": "092",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-093",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/093.ts",
+    "card": {
+      "id": "sv05-093",
+      "name": "Rolycoly",
+      "number": "093",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-094",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/094.ts",
+    "card": {
+      "id": "sv05-094",
+      "name": "Carkol",
+      "number": "094",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-095",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/095.ts",
+    "card": {
+      "id": "sv05-095",
+      "name": "Coalossal",
+      "number": "095",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-096",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/096.ts",
+    "card": {
+      "id": "sv05-096",
+      "name": "Great Tusk",
+      "number": "096",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-097",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/097.ts",
+    "card": {
+      "id": "sv05-097",
+      "name": "Great Tusk",
+      "number": "097",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-098",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/098.ts",
+    "card": {
+      "id": "sv05-098",
+      "name": "Sandy Shocks",
+      "number": "098",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-099",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/099.ts",
+    "card": {
+      "id": "sv05-099",
+      "name": "Iron Boulder ex",
+      "number": "099",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-100",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/100.ts",
+    "card": {
+      "id": "sv05-100",
+      "name": "Ekans",
+      "number": "100",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-101",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/101.ts",
+    "card": {
+      "id": "sv05-101",
+      "name": "Arbok",
+      "number": "101",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-102",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/102.ts",
+    "card": {
+      "id": "sv05-102",
+      "name": "Gastly",
+      "number": "102",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-103",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/103.ts",
+    "card": {
+      "id": "sv05-103",
+      "name": "Haunter",
+      "number": "103",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-104",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/104.ts",
+    "card": {
+      "id": "sv05-104",
+      "name": "Gengar ex",
+      "number": "104",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-105",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/105.ts",
+    "card": {
+      "id": "sv05-105",
+      "name": "Poochyena",
+      "number": "105",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-106",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/106.ts",
+    "card": {
+      "id": "sv05-106",
+      "name": "Mightyena",
+      "number": "106",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-107",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/107.ts",
+    "card": {
+      "id": "sv05-107",
+      "name": "Sableye",
+      "number": "107",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-108",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/108.ts",
+    "card": {
+      "id": "sv05-108",
+      "name": "Farigiraf ex",
+      "number": "108",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-109",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/109.ts",
+    "card": {
+      "id": "sv05-109",
+      "name": "Roaring Moon",
+      "number": "109",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-110",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/110.ts",
+    "card": {
+      "id": "sv05-110",
+      "name": "Forretress",
+      "number": "110",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-111",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/111.ts",
+    "card": {
+      "id": "sv05-111",
+      "name": "Scizor ex",
+      "number": "111",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-112",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/112.ts",
+    "card": {
+      "id": "sv05-112",
+      "name": "Mawile",
+      "number": "112",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-113",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/113.ts",
+    "card": {
+      "id": "sv05-113",
+      "name": "Beldum",
+      "number": "113",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-114",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/114.ts",
+    "card": {
+      "id": "sv05-114",
+      "name": "Metang",
+      "number": "114",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-115",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/115.ts",
+    "card": {
+      "id": "sv05-115",
+      "name": "Metagross",
+      "number": "115",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-116",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/116.ts",
+    "card": {
+      "id": "sv05-116",
+      "name": "Meltan",
+      "number": "116",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-117",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/117.ts",
+    "card": {
+      "id": "sv05-117",
+      "name": "Melmetal",
+      "number": "117",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-118",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/118.ts",
+    "card": {
+      "id": "sv05-118",
+      "name": "Iron Treads",
+      "number": "118",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-119",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/119.ts",
+    "card": {
+      "id": "sv05-119",
+      "name": "Koraidon",
+      "number": "119",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-120",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/120.ts",
+    "card": {
+      "id": "sv05-120",
+      "name": "Koraidon ex",
+      "number": "120",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-121",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/121.ts",
+    "card": {
+      "id": "sv05-121",
+      "name": "Miraidon",
+      "number": "121",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-122",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/122.ts",
+    "card": {
+      "id": "sv05-122",
+      "name": "Miraidon ex",
+      "number": "122",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-123",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/123.ts",
+    "card": {
+      "id": "sv05-123",
+      "name": "Raging Bolt ex",
+      "number": "123",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-124",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/124.ts",
+    "card": {
+      "id": "sv05-124",
+      "name": "Lickitung",
+      "number": "124",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-125",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/125.ts",
+    "card": {
+      "id": "sv05-125",
+      "name": "Lickilicky",
+      "number": "125",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-126",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/126.ts",
+    "card": {
+      "id": "sv05-126",
+      "name": "Hoothoot",
+      "number": "126",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-127",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/127.ts",
+    "card": {
+      "id": "sv05-127",
+      "name": "Noctowl",
+      "number": "127",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-128",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/128.ts",
+    "card": {
+      "id": "sv05-128",
+      "name": "Dunsparce",
+      "number": "128",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-129",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/129.ts",
+    "card": {
+      "id": "sv05-129",
+      "name": "Dudunsparce",
+      "number": "129",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-130",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/130.ts",
+    "card": {
+      "id": "sv05-130",
+      "name": "Skitty",
+      "number": "130",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-131",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/131.ts",
+    "card": {
+      "id": "sv05-131",
+      "name": "Delcatty",
+      "number": "131",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-132",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/132.ts",
+    "card": {
+      "id": "sv05-132",
+      "name": "Chatot",
+      "number": "132",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-133",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/133.ts",
+    "card": {
+      "id": "sv05-133",
+      "name": "Pidove",
+      "number": "133",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-134",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/134.ts",
+    "card": {
+      "id": "sv05-134",
+      "name": "Tranquill",
+      "number": "134",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-135",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/135.ts",
+    "card": {
+      "id": "sv05-135",
+      "name": "Unfezant",
+      "number": "135",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-136",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/136.ts",
+    "card": {
+      "id": "sv05-136",
+      "name": "Minccino",
+      "number": "136",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-137",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/137.ts",
+    "card": {
+      "id": "sv05-137",
+      "name": "Cinccino",
+      "number": "137",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-138",
+    "set_id": "sv05",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/138.ts",
+    "card": {
+      "id": "sv05-138",
+      "name": "Drampa",
+      "number": "138",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-139",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/139.ts",
+    "card": {
+      "id": "sv05-139",
+      "name": "Iron Jugulis",
+      "number": "139",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-140",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/140.ts",
+    "card": {
+      "id": "sv05-140",
+      "name": "Ancient Booster Energy Capsule",
+      "number": "140",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-141",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/141.ts",
+    "card": {
+      "id": "sv05-141",
+      "name": "Awakening Drum",
+      "number": "141",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-142",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/142.ts",
+    "card": {
+      "id": "sv05-142",
+      "name": "Bianca's Devotion",
+      "number": "142",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-143",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/143.ts",
+    "card": {
+      "id": "sv05-143",
+      "name": "Boxed Order",
+      "number": "143",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-144",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/144.ts",
+    "card": {
+      "id": "sv05-144",
+      "name": "Buddy-Buddy Poffin",
+      "number": "144",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-145",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/145.ts",
+    "card": {
+      "id": "sv05-145",
+      "name": "Ciphermaniac's Codebreaking",
+      "number": "145",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-146",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/146.ts",
+    "card": {
+      "id": "sv05-146",
+      "name": "Eri",
+      "number": "146",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-147",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/147.ts",
+    "card": {
+      "id": "sv05-147",
+      "name": "Explorer's Guidance",
+      "number": "147",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-148",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/148.ts",
+    "card": {
+      "id": "sv05-148",
+      "name": "Full Metal Lab",
+      "number": "148",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-149",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/149.ts",
+    "card": {
+      "id": "sv05-149",
+      "name": "Future Booster Energy Capsule",
+      "number": "149",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-150",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/150.ts",
+    "card": {
+      "id": "sv05-150",
+      "name": "Hand Trimmer",
+      "number": "150",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-151",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/151.ts",
+    "card": {
+      "id": "sv05-151",
+      "name": "Heavy Baton",
+      "number": "151",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-152",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/152.ts",
+    "card": {
+      "id": "sv05-152",
+      "name": "Hero's Cape",
+      "number": "152",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-153",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/153.ts",
+    "card": {
+      "id": "sv05-153",
+      "name": "Master Ball",
+      "number": "153",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-154",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/154.ts",
+    "card": {
+      "id": "sv05-154",
+      "name": "Maximum Belt",
+      "number": "154",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-155",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/155.ts",
+    "card": {
+      "id": "sv05-155",
+      "name": "Morty's Conviction",
+      "number": "155",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-156",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/156.ts",
+    "card": {
+      "id": "sv05-156",
+      "name": "Perilous Jungle",
+      "number": "156",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-157",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/157.ts",
+    "card": {
+      "id": "sv05-157",
+      "name": "Prime Catcher",
+      "number": "157",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-158",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/158.ts",
+    "card": {
+      "id": "sv05-158",
+      "name": "Reboot Pod",
+      "number": "158",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-159",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/159.ts",
+    "card": {
+      "id": "sv05-159",
+      "name": "Rescue Board",
+      "number": "159",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-160",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/160.ts",
+    "card": {
+      "id": "sv05-160",
+      "name": "Salvatore",
+      "number": "160",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-161",
+    "set_id": "sv05",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/161.ts",
+    "card": {
+      "id": "sv05-161",
+      "name": "Mist Energy",
+      "number": "161",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-162",
+    "set_id": "sv05",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/162.ts",
+    "card": {
+      "id": "sv05-162",
+      "name": "Neo Upper Energy",
+      "number": "162",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-163",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/163.ts",
+    "card": {
+      "id": "sv05-163",
+      "name": "Shiftry",
+      "number": "163",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-164",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/164.ts",
+    "card": {
+      "id": "sv05-164",
+      "name": "Grotle",
+      "number": "164",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-165",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/165.ts",
+    "card": {
+      "id": "sv05-165",
+      "name": "Deerling",
+      "number": "165",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-166",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/166.ts",
+    "card": {
+      "id": "sv05-166",
+      "name": "Sawsbuck",
+      "number": "166",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-167",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/167.ts",
+    "card": {
+      "id": "sv05-167",
+      "name": "Litten",
+      "number": "167",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-168",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/168.ts",
+    "card": {
+      "id": "sv05-168",
+      "name": "Snom",
+      "number": "168",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-169",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/169.ts",
+    "card": {
+      "id": "sv05-169",
+      "name": "Charjabug",
+      "number": "169",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-170",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/170.ts",
+    "card": {
+      "id": "sv05-170",
+      "name": "Bronzor",
+      "number": "170",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-171",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/171.ts",
+    "card": {
+      "id": "sv05-171",
+      "name": "Reuniclus",
+      "number": "171",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-172",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/172.ts",
+    "card": {
+      "id": "sv05-172",
+      "name": "Cutiefly",
+      "number": "172",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-173",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/173.ts",
+    "card": {
+      "id": "sv05-173",
+      "name": "Relicanth",
+      "number": "173",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-174",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/174.ts",
+    "card": {
+      "id": "sv05-174",
+      "name": "Excadrill",
+      "number": "174",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-175",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/175.ts",
+    "card": {
+      "id": "sv05-175",
+      "name": "Mudsdale",
+      "number": "175",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-176",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/176.ts",
+    "card": {
+      "id": "sv05-176",
+      "name": "Arbok",
+      "number": "176",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-177",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/177.ts",
+    "card": {
+      "id": "sv05-177",
+      "name": "Gastly",
+      "number": "177",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-178",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/178.ts",
+    "card": {
+      "id": "sv05-178",
+      "name": "Metagross",
+      "number": "178",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-179",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/179.ts",
+    "card": {
+      "id": "sv05-179",
+      "name": "Meltan",
+      "number": "179",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-180",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/180.ts",
+    "card": {
+      "id": "sv05-180",
+      "name": "Lickitung",
+      "number": "180",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-181",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/181.ts",
+    "card": {
+      "id": "sv05-181",
+      "name": "Chatot",
+      "number": "181",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-182",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/182.ts",
+    "card": {
+      "id": "sv05-182",
+      "name": "Minccino",
+      "number": "182",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-183",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/183.ts",
+    "card": {
+      "id": "sv05-183",
+      "name": "Cinccino",
+      "number": "183",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-184",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/184.ts",
+    "card": {
+      "id": "sv05-184",
+      "name": "Drampa",
+      "number": "184",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-185",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/185.ts",
+    "card": {
+      "id": "sv05-185",
+      "name": "Torterra ex",
+      "number": "185",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-186",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/186.ts",
+    "card": {
+      "id": "sv05-186",
+      "name": "Iron Leaves ex",
+      "number": "186",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-187",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/187.ts",
+    "card": {
+      "id": "sv05-187",
+      "name": "Incineroar ex",
+      "number": "187",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/187/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-188",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/188.ts",
+    "card": {
+      "id": "sv05-188",
+      "name": "Gouging Fire ex",
+      "number": "188",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/188/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-189",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/189.ts",
+    "card": {
+      "id": "sv05-189",
+      "name": "Walking Wake ex",
+      "number": "189",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/189/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-190",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/190.ts",
+    "card": {
+      "id": "sv05-190",
+      "name": "Wugtrio ex",
+      "number": "190",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/190/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-191",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/191.ts",
+    "card": {
+      "id": "sv05-191",
+      "name": "Iron Crown ex",
+      "number": "191",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/191/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-192",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/192.ts",
+    "card": {
+      "id": "sv05-192",
+      "name": "Iron Boulder ex",
+      "number": "192",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/192/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-193",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/193.ts",
+    "card": {
+      "id": "sv05-193",
+      "name": "Gengar ex",
+      "number": "193",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/193/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-194",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/194.ts",
+    "card": {
+      "id": "sv05-194",
+      "name": "Farigiraf ex",
+      "number": "194",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/194/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-195",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/195.ts",
+    "card": {
+      "id": "sv05-195",
+      "name": "Scizor ex",
+      "number": "195",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/195/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-196",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/196.ts",
+    "card": {
+      "id": "sv05-196",
+      "name": "Raging Bolt ex",
+      "number": "196",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/196/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-197",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/197.ts",
+    "card": {
+      "id": "sv05-197",
+      "name": "Bianca's Devotion",
+      "number": "197",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/197/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-198",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/198.ts",
+    "card": {
+      "id": "sv05-198",
+      "name": "Ciphermaniac's Codebreaking",
+      "number": "198",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/198/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-199",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/199.ts",
+    "card": {
+      "id": "sv05-199",
+      "name": "Eri",
+      "number": "199",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/199/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-200",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/200.ts",
+    "card": {
+      "id": "sv05-200",
+      "name": "Explorer's Guidance",
+      "number": "200",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/200/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-201",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/201.ts",
+    "card": {
+      "id": "sv05-201",
+      "name": "Morty's Conviction",
+      "number": "201",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/201/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-202",
+    "set_id": "sv05",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/202.ts",
+    "card": {
+      "id": "sv05-202",
+      "name": "Salvatore",
+      "number": "202",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/202/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-203",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/203.ts",
+    "card": {
+      "id": "sv05-203",
+      "name": "Iron Leaves ex",
+      "number": "203",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/203/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-204",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/204.ts",
+    "card": {
+      "id": "sv05-204",
+      "name": "Gouging Fire ex",
+      "number": "204",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/204/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-205",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/205.ts",
+    "card": {
+      "id": "sv05-205",
+      "name": "Walking Wake ex",
+      "number": "205",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/205/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-206",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/206.ts",
+    "card": {
+      "id": "sv05-206",
+      "name": "Iron Crown ex",
+      "number": "206",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/206/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-207",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/207.ts",
+    "card": {
+      "id": "sv05-207",
+      "name": "Iron Boulder ex",
+      "number": "207",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/207/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-208",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/208.ts",
+    "card": {
+      "id": "sv05-208",
+      "name": "Raging Bolt ex",
+      "number": "208",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/208/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-209",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/209.ts",
+    "card": {
+      "id": "sv05-209",
+      "name": "Bianca's Devotion",
+      "number": "209",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/209/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-210",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/210.ts",
+    "card": {
+      "id": "sv05-210",
+      "name": "Eri",
+      "number": "210",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/210/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-211",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/211.ts",
+    "card": {
+      "id": "sv05-211",
+      "name": "Morty's Conviction",
+      "number": "211",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/211/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-212",
+    "set_id": "sv05",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/212.ts",
+    "card": {
+      "id": "sv05-212",
+      "name": "Salvatore",
+      "number": "212",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/212/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-213",
+    "set_id": "sv05",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/213.ts",
+    "card": {
+      "id": "sv05-213",
+      "name": "Iron Leaves ex",
+      "number": "213",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/213/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-214",
+    "set_id": "sv05",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/214.ts",
+    "card": {
+      "id": "sv05-214",
+      "name": "Gouging Fire ex",
+      "number": "214",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/214/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-215",
+    "set_id": "sv05",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/215.ts",
+    "card": {
+      "id": "sv05-215",
+      "name": "Walking Wake ex",
+      "number": "215",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/215/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-216",
+    "set_id": "sv05",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/216.ts",
+    "card": {
+      "id": "sv05-216",
+      "name": "Iron Crown ex",
+      "number": "216",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/216/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-217",
+    "set_id": "sv05",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/217.ts",
+    "card": {
+      "id": "sv05-217",
+      "name": "Iron Boulder ex",
+      "number": "217",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/217/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/217/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv05-218",
+    "set_id": "sv05",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Temporal Forces/218.ts",
+    "card": {
+      "id": "sv05-218",
+      "name": "Raging Bolt ex",
+      "number": "218",
+      "set": "Temporal Forces",
+      "setId": "sv05",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv05/218/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv05/218/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

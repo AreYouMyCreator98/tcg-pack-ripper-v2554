@@ -34,7 +34,7 @@ const staticChecks = [
   'src/packs/index.js', 'src/packs/pack-engine.js', 'src/packs/pack-generator.js', 'src/packs/pack-results.js', 'src/packs/pack-session.js', 'src/packs/pack-history.js', 'src/packs/pack-costs.js', 'src/packs/pack-hud.js',
   'src/animations/packs/reveal-profile.js', 'src/animations/packs/reveal-controller.js', 'src/animations/packs/ten-pack-controller.js', 'src/animations/packs/pack-summary.js',
   'runtime/core.js', 'runtime/progression.js', 'runtime/special-collection.js', 'runtime/packs.js', 'runtime/pack-bridge.js', 'runtime/binder-bridge.js',
-  'runtime/multiplayer.js', 'runtime/rank-frames.js', 'runtime/ranked.js',
+  'runtime/profile-extras.js', 'runtime/rank-frames.js', 'runtime/hub-bridge.js', 'src/trade-hub/index.js', 'src/trade-hub/controller.js', 'src/trade-hub/model.js', 'src/trade-hub/view.js', 'styles/trade-hub.css',
   'styles/core.css', 'styles/pack-v253.css', 'styles/binder.css', 'ui/chrome.html', 'ui/screens/rip.html', 'ui/screens/binder.html',
   'assets/manifest.json', 'manifest.webmanifest', 'sw.js'
 ];

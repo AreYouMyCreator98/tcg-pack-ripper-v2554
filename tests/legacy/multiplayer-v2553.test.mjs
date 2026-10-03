@@ -2,11 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-const legacy = fs.readFileSync('public/runtime/multiplayer.js','utf8');
-const arena = fs.readFileSync('public/runtime/multiplayer-v255.js','utf8');
+const legacy = fs.readFileSync('archive/v255/runtime/multiplayer.js','utf8');
+const arena = fs.readFileSync('archive/v255/runtime/multiplayer-v255.js','utf8');
 const core = fs.readFileSync('public/runtime/core.js','utf8');
 const reveal = fs.readFileSync('src/animations/packs/reveal-profile.js','utf8');
-const css = fs.readFileSync('public/styles/multiplayer-v255.css','utf8');
+const css = fs.readFileSync('archive/v255/styles/multiplayer-v255.css','utf8');
 
 test('battle scoring recognizes Holo Rare VMAX and name fallbacks',()=>{
   assert.match(legacy,/holo rare vmax/);

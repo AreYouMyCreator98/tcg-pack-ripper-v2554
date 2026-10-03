@@ -1,0 +1,4646 @@
+[
+  {
+    "id": "sv01-001",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/001.ts",
+    "card": {
+      "id": "sv01-001",
+      "name": "Pineco",
+      "number": "001",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-002",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/002.ts",
+    "card": {
+      "id": "sv01-002",
+      "name": "Heracross",
+      "number": "002",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-003",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/003.ts",
+    "card": {
+      "id": "sv01-003",
+      "name": "Shroomish",
+      "number": "003",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-004",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/004.ts",
+    "card": {
+      "id": "sv01-004",
+      "name": "Breloom",
+      "number": "004",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-005",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/005.ts",
+    "card": {
+      "id": "sv01-005",
+      "name": "Cacnea",
+      "number": "005",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-006",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/006.ts",
+    "card": {
+      "id": "sv01-006",
+      "name": "Cacturne",
+      "number": "006",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-007",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/007.ts",
+    "card": {
+      "id": "sv01-007",
+      "name": "Tropius",
+      "number": "007",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-008",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/008.ts",
+    "card": {
+      "id": "sv01-008",
+      "name": "Scatterbug",
+      "number": "008",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-009",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/009.ts",
+    "card": {
+      "id": "sv01-009",
+      "name": "Spewpa",
+      "number": "009",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-010",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/010.ts",
+    "card": {
+      "id": "sv01-010",
+      "name": "Vivillon",
+      "number": "010",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-011",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/011.ts",
+    "card": {
+      "id": "sv01-011",
+      "name": "Skiddo",
+      "number": "011",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-012",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/012.ts",
+    "card": {
+      "id": "sv01-012",
+      "name": "Gogoat",
+      "number": "012",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-013",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/013.ts",
+    "card": {
+      "id": "sv01-013",
+      "name": "Sprigatito",
+      "number": "013",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-014",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/014.ts",
+    "card": {
+      "id": "sv01-014",
+      "name": "Floragato",
+      "number": "014",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-015",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/015.ts",
+    "card": {
+      "id": "sv01-015",
+      "name": "Meowscarada",
+      "number": "015",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-016",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/016.ts",
+    "card": {
+      "id": "sv01-016",
+      "name": "Tarountula",
+      "number": "016",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-017",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/017.ts",
+    "card": {
+      "id": "sv01-017",
+      "name": "Tarountula",
+      "number": "017",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-018",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/018.ts",
+    "card": {
+      "id": "sv01-018",
+      "name": "Tarountula",
+      "number": "018",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-019",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/019.ts",
+    "card": {
+      "id": "sv01-019",
+      "name": "Spidops ex",
+      "number": "019",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-020",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/020.ts",
+    "card": {
+      "id": "sv01-020",
+      "name": "Smoliv",
+      "number": "020",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-021",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/021.ts",
+    "card": {
+      "id": "sv01-021",
+      "name": "Smoliv",
+      "number": "021",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-022",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/022.ts",
+    "card": {
+      "id": "sv01-022",
+      "name": "Dolliv",
+      "number": "022",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-023",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/023.ts",
+    "card": {
+      "id": "sv01-023",
+      "name": "Arboliva",
+      "number": "023",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-024",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/024.ts",
+    "card": {
+      "id": "sv01-024",
+      "name": "Toedscool",
+      "number": "024",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-025",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/025.ts",
+    "card": {
+      "id": "sv01-025",
+      "name": "Toedscool",
+      "number": "025",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-026",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/026.ts",
+    "card": {
+      "id": "sv01-026",
+      "name": "Toedscruel",
+      "number": "026",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-027",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/027.ts",
+    "card": {
+      "id": "sv01-027",
+      "name": "Capsakid",
+      "number": "027",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-028",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/028.ts",
+    "card": {
+      "id": "sv01-028",
+      "name": "Capsakid",
+      "number": "028",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-029",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/029.ts",
+    "card": {
+      "id": "sv01-029",
+      "name": "Scovillain",
+      "number": "029",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-030",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/030.ts",
+    "card": {
+      "id": "sv01-030",
+      "name": "Growlithe",
+      "number": "030",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-031",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/031.ts",
+    "card": {
+      "id": "sv01-031",
+      "name": "Growlithe",
+      "number": "031",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-032",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/032.ts",
+    "card": {
+      "id": "sv01-032",
+      "name": "Arcanine ex",
+      "number": "032",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-033",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/033.ts",
+    "card": {
+      "id": "sv01-033",
+      "name": "Houndour",
+      "number": "033",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-034",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/034.ts",
+    "card": {
+      "id": "sv01-034",
+      "name": "Houndoom",
+      "number": "034",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-035",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/035.ts",
+    "card": {
+      "id": "sv01-035",
+      "name": "Torkoal",
+      "number": "035",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-036",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/036.ts",
+    "card": {
+      "id": "sv01-036",
+      "name": "Fuecoco",
+      "number": "036",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-037",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/037.ts",
+    "card": {
+      "id": "sv01-037",
+      "name": "Crocalor",
+      "number": "037",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-038",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/038.ts",
+    "card": {
+      "id": "sv01-038",
+      "name": "Skeledirge",
+      "number": "038",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-039",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/039.ts",
+    "card": {
+      "id": "sv01-039",
+      "name": "Charcadet",
+      "number": "039",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-040",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/040.ts",
+    "card": {
+      "id": "sv01-040",
+      "name": "Charcadet",
+      "number": "040",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-041",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/041.ts",
+    "card": {
+      "id": "sv01-041",
+      "name": "Armarouge",
+      "number": "041",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-042",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/042.ts",
+    "card": {
+      "id": "sv01-042",
+      "name": "Slowpoke",
+      "number": "042",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-043",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/043.ts",
+    "card": {
+      "id": "sv01-043",
+      "name": "Slowbro",
+      "number": "043",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-044",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/044.ts",
+    "card": {
+      "id": "sv01-044",
+      "name": "Magikarp",
+      "number": "044",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-045",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/045.ts",
+    "card": {
+      "id": "sv01-045",
+      "name": "Gyarados ex",
+      "number": "045",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-046",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/046.ts",
+    "card": {
+      "id": "sv01-046",
+      "name": "Buizel",
+      "number": "046",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-047",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/047.ts",
+    "card": {
+      "id": "sv01-047",
+      "name": "Floatzel",
+      "number": "047",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-048",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/048.ts",
+    "card": {
+      "id": "sv01-048",
+      "name": "Alomomola",
+      "number": "048",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-049",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/049.ts",
+    "card": {
+      "id": "sv01-049",
+      "name": "Clauncher",
+      "number": "049",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-050",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/050.ts",
+    "card": {
+      "id": "sv01-050",
+      "name": "Clawitzer",
+      "number": "050",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-051",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/051.ts",
+    "card": {
+      "id": "sv01-051",
+      "name": "Bruxish",
+      "number": "051",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-052",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/052.ts",
+    "card": {
+      "id": "sv01-052",
+      "name": "Quaxly",
+      "number": "052",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-053",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/053.ts",
+    "card": {
+      "id": "sv01-053",
+      "name": "Quaxwell",
+      "number": "053",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-054",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/054.ts",
+    "card": {
+      "id": "sv01-054",
+      "name": "Quaquaval",
+      "number": "054",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-055",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/055.ts",
+    "card": {
+      "id": "sv01-055",
+      "name": "Wiglett",
+      "number": "055",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-056",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/056.ts",
+    "card": {
+      "id": "sv01-056",
+      "name": "Wiglett",
+      "number": "056",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-057",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/057.ts",
+    "card": {
+      "id": "sv01-057",
+      "name": "Wugtrio",
+      "number": "057",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-058",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/058.ts",
+    "card": {
+      "id": "sv01-058",
+      "name": "Cetoddle",
+      "number": "058",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-059",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/059.ts",
+    "card": {
+      "id": "sv01-059",
+      "name": "Cetoddle",
+      "number": "059",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-060",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/060.ts",
+    "card": {
+      "id": "sv01-060",
+      "name": "Cetitan",
+      "number": "060",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-061",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/061.ts",
+    "card": {
+      "id": "sv01-061",
+      "name": "Dondozo",
+      "number": "061",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-062",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/062.ts",
+    "card": {
+      "id": "sv01-062",
+      "name": "Tatsugiri",
+      "number": "062",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-063",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/063.ts",
+    "card": {
+      "id": "sv01-063",
+      "name": "Magnemite",
+      "number": "063",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-064",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/064.ts",
+    "card": {
+      "id": "sv01-064",
+      "name": "Magneton",
+      "number": "064",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-065",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/065.ts",
+    "card": {
+      "id": "sv01-065",
+      "name": "Magnezone ex",
+      "number": "065",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-066",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/066.ts",
+    "card": {
+      "id": "sv01-066",
+      "name": "Mareep",
+      "number": "066",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-067",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/067.ts",
+    "card": {
+      "id": "sv01-067",
+      "name": "Flaaffy",
+      "number": "067",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-068",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/068.ts",
+    "card": {
+      "id": "sv01-068",
+      "name": "Pachirisu",
+      "number": "068",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-069",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/069.ts",
+    "card": {
+      "id": "sv01-069",
+      "name": "Rotom",
+      "number": "069",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-070",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/070.ts",
+    "card": {
+      "id": "sv01-070",
+      "name": "Rotom",
+      "number": "070",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-071",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/071.ts",
+    "card": {
+      "id": "sv01-071",
+      "name": "Toxel",
+      "number": "071",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-072",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/072.ts",
+    "card": {
+      "id": "sv01-072",
+      "name": "Toxtricity",
+      "number": "072",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-073",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/073.ts",
+    "card": {
+      "id": "sv01-073",
+      "name": "Pawmi",
+      "number": "073",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-074",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/074.ts",
+    "card": {
+      "id": "sv01-074",
+      "name": "Pawmi",
+      "number": "074",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-075",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/075.ts",
+    "card": {
+      "id": "sv01-075",
+      "name": "Pawmo",
+      "number": "075",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-076",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/076.ts",
+    "card": {
+      "id": "sv01-076",
+      "name": "Pawmot",
+      "number": "076",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-077",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/077.ts",
+    "card": {
+      "id": "sv01-077",
+      "name": "Wattrel",
+      "number": "077",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-078",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/078.ts",
+    "card": {
+      "id": "sv01-078",
+      "name": "Wattrel",
+      "number": "078",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-079",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/079.ts",
+    "card": {
+      "id": "sv01-079",
+      "name": "Kilowattrel",
+      "number": "079",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-080",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/080.ts",
+    "card": {
+      "id": "sv01-080",
+      "name": "Miraidon",
+      "number": "080",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-081",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/081.ts",
+    "card": {
+      "id": "sv01-081",
+      "name": "Miraidon ex",
+      "number": "081",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-082",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/082.ts",
+    "card": {
+      "id": "sv01-082",
+      "name": "Drowzee",
+      "number": "082",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-083",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/083.ts",
+    "card": {
+      "id": "sv01-083",
+      "name": "Hypno",
+      "number": "083",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-084",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/084.ts",
+    "card": {
+      "id": "sv01-084",
+      "name": "Ralts",
+      "number": "084",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-085",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/085.ts",
+    "card": {
+      "id": "sv01-085",
+      "name": "Kirlia",
+      "number": "085",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-086",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/086.ts",
+    "card": {
+      "id": "sv01-086",
+      "name": "Gardevoir ex",
+      "number": "086",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-087",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/087.ts",
+    "card": {
+      "id": "sv01-087",
+      "name": "Shuppet",
+      "number": "087",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-088",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/088.ts",
+    "card": {
+      "id": "sv01-088",
+      "name": "Banette ex",
+      "number": "088",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-089",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/089.ts",
+    "card": {
+      "id": "sv01-089",
+      "name": "Drifloon",
+      "number": "089",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-090",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/090.ts",
+    "card": {
+      "id": "sv01-090",
+      "name": "Drifblim",
+      "number": "090",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-091",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/091.ts",
+    "card": {
+      "id": "sv01-091",
+      "name": "Flabébé",
+      "number": "091",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-092",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/092.ts",
+    "card": {
+      "id": "sv01-092",
+      "name": "Floette",
+      "number": "092",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-093",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/093.ts",
+    "card": {
+      "id": "sv01-093",
+      "name": "Florges",
+      "number": "093",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-094",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/094.ts",
+    "card": {
+      "id": "sv01-094",
+      "name": "Dedenne",
+      "number": "094",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-095",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/095.ts",
+    "card": {
+      "id": "sv01-095",
+      "name": "Dedenne",
+      "number": "095",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-096",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/096.ts",
+    "card": {
+      "id": "sv01-096",
+      "name": "Klefki",
+      "number": "096",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-097",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/097.ts",
+    "card": {
+      "id": "sv01-097",
+      "name": "Fidough",
+      "number": "097",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-098",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/098.ts",
+    "card": {
+      "id": "sv01-098",
+      "name": "Fidough",
+      "number": "098",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-099",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/099.ts",
+    "card": {
+      "id": "sv01-099",
+      "name": "Dachsbun",
+      "number": "099",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-100",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/100.ts",
+    "card": {
+      "id": "sv01-100",
+      "name": "Flittle",
+      "number": "100",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-101",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/101.ts",
+    "card": {
+      "id": "sv01-101",
+      "name": "Flittle",
+      "number": "101",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-102",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/102.ts",
+    "card": {
+      "id": "sv01-102",
+      "name": "Flittle",
+      "number": "102",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-103",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/103.ts",
+    "card": {
+      "id": "sv01-103",
+      "name": "Espathra",
+      "number": "103",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-104",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/104.ts",
+    "card": {
+      "id": "sv01-104",
+      "name": "Greavard",
+      "number": "104",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-105",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/105.ts",
+    "card": {
+      "id": "sv01-105",
+      "name": "Greavard",
+      "number": "105",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-106",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/106.ts",
+    "card": {
+      "id": "sv01-106",
+      "name": "Houndstone",
+      "number": "106",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-107",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/107.ts",
+    "card": {
+      "id": "sv01-107",
+      "name": "Mankey",
+      "number": "107",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-108",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/108.ts",
+    "card": {
+      "id": "sv01-108",
+      "name": "Primeape",
+      "number": "108",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-109",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/109.ts",
+    "card": {
+      "id": "sv01-109",
+      "name": "Annihilape",
+      "number": "109",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-110",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/110.ts",
+    "card": {
+      "id": "sv01-110",
+      "name": "Meditite",
+      "number": "110",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-111",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/111.ts",
+    "card": {
+      "id": "sv01-111",
+      "name": "Medicham",
+      "number": "111",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-112",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/112.ts",
+    "card": {
+      "id": "sv01-112",
+      "name": "Riolu",
+      "number": "112",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-113",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/113.ts",
+    "card": {
+      "id": "sv01-113",
+      "name": "Riolu",
+      "number": "113",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-114",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/114.ts",
+    "card": {
+      "id": "sv01-114",
+      "name": "Lucario",
+      "number": "114",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-115",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/115.ts",
+    "card": {
+      "id": "sv01-115",
+      "name": "Sandile",
+      "number": "115",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-116",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/116.ts",
+    "card": {
+      "id": "sv01-116",
+      "name": "Krokorok",
+      "number": "116",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-117",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/117.ts",
+    "card": {
+      "id": "sv01-117",
+      "name": "Krookodile",
+      "number": "117",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-118",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/118.ts",
+    "card": {
+      "id": "sv01-118",
+      "name": "Hawlucha",
+      "number": "118",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-119",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/119.ts",
+    "card": {
+      "id": "sv01-119",
+      "name": "Silicobra",
+      "number": "119",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-120",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/120.ts",
+    "card": {
+      "id": "sv01-120",
+      "name": "Sandaconda",
+      "number": "120",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-121",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/121.ts",
+    "card": {
+      "id": "sv01-121",
+      "name": "Stonjourner",
+      "number": "121",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-122",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/122.ts",
+    "card": {
+      "id": "sv01-122",
+      "name": "Klawf",
+      "number": "122",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-123",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/123.ts",
+    "card": {
+      "id": "sv01-123",
+      "name": "Great Tusk ex",
+      "number": "123",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-124",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/124.ts",
+    "card": {
+      "id": "sv01-124",
+      "name": "Koraidon",
+      "number": "124",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-125",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/125.ts",
+    "card": {
+      "id": "sv01-125",
+      "name": "Koraidon ex",
+      "number": "125",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-126",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/126.ts",
+    "card": {
+      "id": "sv01-126",
+      "name": "Grimer",
+      "number": "126",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-127",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/127.ts",
+    "card": {
+      "id": "sv01-127",
+      "name": "Muk",
+      "number": "127",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-128",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/128.ts",
+    "card": {
+      "id": "sv01-128",
+      "name": "Seviper",
+      "number": "128",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-129",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/129.ts",
+    "card": {
+      "id": "sv01-129",
+      "name": "Spiritomb",
+      "number": "129",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-130",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/130.ts",
+    "card": {
+      "id": "sv01-130",
+      "name": "Croagunk",
+      "number": "130",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-131",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/131.ts",
+    "card": {
+      "id": "sv01-131",
+      "name": "Toxicroak ex",
+      "number": "131",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-132",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/132.ts",
+    "card": {
+      "id": "sv01-132",
+      "name": "Pawniard",
+      "number": "132",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-133",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/133.ts",
+    "card": {
+      "id": "sv01-133",
+      "name": "Bisharp",
+      "number": "133",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-134",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/134.ts",
+    "card": {
+      "id": "sv01-134",
+      "name": "Kingambit",
+      "number": "134",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-135",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/135.ts",
+    "card": {
+      "id": "sv01-135",
+      "name": "Maschiff",
+      "number": "135",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-136",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/136.ts",
+    "card": {
+      "id": "sv01-136",
+      "name": "Maschiff",
+      "number": "136",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-137",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/137.ts",
+    "card": {
+      "id": "sv01-137",
+      "name": "Mabosstiff",
+      "number": "137",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-138",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/138.ts",
+    "card": {
+      "id": "sv01-138",
+      "name": "Bombirdier",
+      "number": "138",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-139",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/139.ts",
+    "card": {
+      "id": "sv01-139",
+      "name": "Forretress",
+      "number": "139",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-140",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/140.ts",
+    "card": {
+      "id": "sv01-140",
+      "name": "Varoom",
+      "number": "140",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-141",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/141.ts",
+    "card": {
+      "id": "sv01-141",
+      "name": "Varoom",
+      "number": "141",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-142",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/142.ts",
+    "card": {
+      "id": "sv01-142",
+      "name": "Revavroom",
+      "number": "142",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-143",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/143.ts",
+    "card": {
+      "id": "sv01-143",
+      "name": "Iron Treads ex",
+      "number": "143",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-144",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/144.ts",
+    "card": {
+      "id": "sv01-144",
+      "name": "Chansey",
+      "number": "144",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-145",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/145.ts",
+    "card": {
+      "id": "sv01-145",
+      "name": "Blissey",
+      "number": "145",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-146",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/146.ts",
+    "card": {
+      "id": "sv01-146",
+      "name": "Zangoose",
+      "number": "146",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-147",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/147.ts",
+    "card": {
+      "id": "sv01-147",
+      "name": "Zangoose",
+      "number": "147",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-148",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/148.ts",
+    "card": {
+      "id": "sv01-148",
+      "name": "Starly",
+      "number": "148",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-149",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/149.ts",
+    "card": {
+      "id": "sv01-149",
+      "name": "Staravia",
+      "number": "149",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-150",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/150.ts",
+    "card": {
+      "id": "sv01-150",
+      "name": "Staraptor",
+      "number": "150",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-151",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/151.ts",
+    "card": {
+      "id": "sv01-151",
+      "name": "Skwovet",
+      "number": "151",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-152",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/152.ts",
+    "card": {
+      "id": "sv01-152",
+      "name": "Greedent",
+      "number": "152",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-153",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/153.ts",
+    "card": {
+      "id": "sv01-153",
+      "name": "Indeedee",
+      "number": "153",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-154",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/154.ts",
+    "card": {
+      "id": "sv01-154",
+      "name": "Lechonk",
+      "number": "154",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-155",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/155.ts",
+    "card": {
+      "id": "sv01-155",
+      "name": "Lechonk",
+      "number": "155",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-156",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/156.ts",
+    "card": {
+      "id": "sv01-156",
+      "name": "Lechonk",
+      "number": "156",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-157",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/157.ts",
+    "card": {
+      "id": "sv01-157",
+      "name": "Oinkologne",
+      "number": "157",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-158",
+    "set_id": "sv01",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/158.ts",
+    "card": {
+      "id": "sv01-158",
+      "name": "Oinkologne ex",
+      "number": "158",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-159",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/159.ts",
+    "card": {
+      "id": "sv01-159",
+      "name": "Tandemaus",
+      "number": "159",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-160",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/160.ts",
+    "card": {
+      "id": "sv01-160",
+      "name": "Tandemaus",
+      "number": "160",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-161",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/161.ts",
+    "card": {
+      "id": "sv01-161",
+      "name": "Maushold",
+      "number": "161",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-162",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/162.ts",
+    "card": {
+      "id": "sv01-162",
+      "name": "Squawkabilly",
+      "number": "162",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-163",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/163.ts",
+    "card": {
+      "id": "sv01-163",
+      "name": "Cyclizar",
+      "number": "163",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-164",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/164.ts",
+    "card": {
+      "id": "sv01-164",
+      "name": "Cyclizar",
+      "number": "164",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-165",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/165.ts",
+    "card": {
+      "id": "sv01-165",
+      "name": "Flamigo",
+      "number": "165",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-166",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/166.ts",
+    "card": {
+      "id": "sv01-166",
+      "name": "Arven",
+      "number": "166",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-167",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/167.ts",
+    "card": {
+      "id": "sv01-167",
+      "name": "Beach Court",
+      "number": "167",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-168",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/168.ts",
+    "card": {
+      "id": "sv01-168",
+      "name": "Crushing Hammer",
+      "number": "168",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-169",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/169.ts",
+    "card": {
+      "id": "sv01-169",
+      "name": "Defiance Band",
+      "number": "169",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-170",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/170.ts",
+    "card": {
+      "id": "sv01-170",
+      "name": "Electric Generator",
+      "number": "170",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-171",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/171.ts",
+    "card": {
+      "id": "sv01-171",
+      "name": "Energy Retrieval",
+      "number": "171",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-172",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/172.ts",
+    "card": {
+      "id": "sv01-172",
+      "name": "Energy Search",
+      "number": "172",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-173",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/173.ts",
+    "card": {
+      "id": "sv01-173",
+      "name": "Energy Switch",
+      "number": "173",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-174",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/174.ts",
+    "card": {
+      "id": "sv01-174",
+      "name": "Exp. Share",
+      "number": "174",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-175",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/175.ts",
+    "card": {
+      "id": "sv01-175",
+      "name": "Jacq",
+      "number": "175",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-176",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/176.ts",
+    "card": {
+      "id": "sv01-176",
+      "name": "Judge",
+      "number": "176",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-177",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/177.ts",
+    "card": {
+      "id": "sv01-177",
+      "name": "Katy",
+      "number": "177",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-178",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/178.ts",
+    "card": {
+      "id": "sv01-178",
+      "name": "Mesagoza",
+      "number": "178",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-179",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/179.ts",
+    "card": {
+      "id": "sv01-179",
+      "name": "Miriam",
+      "number": "179",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-180",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/180.ts",
+    "card": {
+      "id": "sv01-180",
+      "name": "Nemona",
+      "number": "180",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-181",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/181.ts",
+    "card": {
+      "id": "sv01-181",
+      "name": "Nest Ball",
+      "number": "181",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-182",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/182.ts",
+    "card": {
+      "id": "sv01-182",
+      "name": "Pal Pad",
+      "number": "182",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-183",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/183.ts",
+    "card": {
+      "id": "sv01-183",
+      "name": "Penny",
+      "number": "183",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-184",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/184.ts",
+    "card": {
+      "id": "sv01-184",
+      "name": "Picnic Basket",
+      "number": "184",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-185",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/185.ts",
+    "card": {
+      "id": "sv01-185",
+      "name": "Poké Ball",
+      "number": "185",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-186",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/186.ts",
+    "card": {
+      "id": "sv01-186",
+      "name": "Pokégear 3.0",
+      "number": "186",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-187",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/187.ts",
+    "card": {
+      "id": "sv01-187",
+      "name": "Pokémon Catcher",
+      "number": "187",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/187/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-188",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/188.ts",
+    "card": {
+      "id": "sv01-188",
+      "name": "Potion",
+      "number": "188",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/188/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-189",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/189.ts",
+    "card": {
+      "id": "sv01-189",
+      "name": "Professor's Research",
+      "number": "189",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/189/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-190",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/190.ts",
+    "card": {
+      "id": "sv01-190",
+      "name": "Professor's Research",
+      "number": "190",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/190/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-191",
+    "set_id": "sv01",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/191.ts",
+    "card": {
+      "id": "sv01-191",
+      "name": "Rare Candy",
+      "number": "191",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/191/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-192",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/192.ts",
+    "card": {
+      "id": "sv01-192",
+      "name": "Rock Chestplate",
+      "number": "192",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/192/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-193",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/193.ts",
+    "card": {
+      "id": "sv01-193",
+      "name": "Rocky Helmet",
+      "number": "193",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/193/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-194",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/194.ts",
+    "card": {
+      "id": "sv01-194",
+      "name": "Switch",
+      "number": "194",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/194/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-195",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/195.ts",
+    "card": {
+      "id": "sv01-195",
+      "name": "Team Star Grunt",
+      "number": "195",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/195/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-196",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/196.ts",
+    "card": {
+      "id": "sv01-196",
+      "name": "Ultra Ball",
+      "number": "196",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/196/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-197",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/197.ts",
+    "card": {
+      "id": "sv01-197",
+      "name": "Vitality Band",
+      "number": "197",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/197/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-198",
+    "set_id": "sv01",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/198.ts",
+    "card": {
+      "id": "sv01-198",
+      "name": "Youngster",
+      "number": "198",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/198/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-199",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/199.ts",
+    "card": {
+      "id": "sv01-199",
+      "name": "Tarountula",
+      "number": "199",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/199/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-200",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/200.ts",
+    "card": {
+      "id": "sv01-200",
+      "name": "Dolliv",
+      "number": "200",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/200/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-201",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/201.ts",
+    "card": {
+      "id": "sv01-201",
+      "name": "Toedscool",
+      "number": "201",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/201/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-202",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/202.ts",
+    "card": {
+      "id": "sv01-202",
+      "name": "Scovillain",
+      "number": "202",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/202/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-203",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/203.ts",
+    "card": {
+      "id": "sv01-203",
+      "name": "Armarouge",
+      "number": "203",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/203/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-204",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/204.ts",
+    "card": {
+      "id": "sv01-204",
+      "name": "Slowpoke",
+      "number": "204",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/204/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-205",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/205.ts",
+    "card": {
+      "id": "sv01-205",
+      "name": "Clauncher",
+      "number": "205",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/205/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-206",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/206.ts",
+    "card": {
+      "id": "sv01-206",
+      "name": "Wiglett",
+      "number": "206",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/206/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-207",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/207.ts",
+    "card": {
+      "id": "sv01-207",
+      "name": "Dondozo",
+      "number": "207",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/207/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-208",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/208.ts",
+    "card": {
+      "id": "sv01-208",
+      "name": "Pachirisu",
+      "number": "208",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/208/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-209",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/209.ts",
+    "card": {
+      "id": "sv01-209",
+      "name": "Pawmot",
+      "number": "209",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/209/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-210",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/210.ts",
+    "card": {
+      "id": "sv01-210",
+      "name": "Drowzee",
+      "number": "210",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/210/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-211",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/211.ts",
+    "card": {
+      "id": "sv01-211",
+      "name": "Ralts",
+      "number": "211",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/211/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-212",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/212.ts",
+    "card": {
+      "id": "sv01-212",
+      "name": "Kirlia",
+      "number": "212",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/212/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-213",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/213.ts",
+    "card": {
+      "id": "sv01-213",
+      "name": "Fidough",
+      "number": "213",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/213/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-214",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/214.ts",
+    "card": {
+      "id": "sv01-214",
+      "name": "Greavard",
+      "number": "214",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/214/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-215",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/215.ts",
+    "card": {
+      "id": "sv01-215",
+      "name": "Riolu",
+      "number": "215",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/215/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-216",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/216.ts",
+    "card": {
+      "id": "sv01-216",
+      "name": "Sandile",
+      "number": "216",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/216/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-217",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/217.ts",
+    "card": {
+      "id": "sv01-217",
+      "name": "Klawf",
+      "number": "217",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/217/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/217/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-218",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/218.ts",
+    "card": {
+      "id": "sv01-218",
+      "name": "Mabosstiff",
+      "number": "218",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/218/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/218/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-219",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/219.ts",
+    "card": {
+      "id": "sv01-219",
+      "name": "Bombirdier",
+      "number": "219",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/219/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/219/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-220",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/220.ts",
+    "card": {
+      "id": "sv01-220",
+      "name": "Kingambit",
+      "number": "220",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/220/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/220/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-221",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/221.ts",
+    "card": {
+      "id": "sv01-221",
+      "name": "Starly",
+      "number": "221",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/221/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/221/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-222",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/222.ts",
+    "card": {
+      "id": "sv01-222",
+      "name": "Skwovet",
+      "number": "222",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/222/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/222/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-223",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/223.ts",
+    "card": {
+      "id": "sv01-223",
+      "name": "Spidops ex",
+      "number": "223",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/223/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/223/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-224",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/224.ts",
+    "card": {
+      "id": "sv01-224",
+      "name": "Arcanine ex",
+      "number": "224",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/224/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/224/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-225",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/225.ts",
+    "card": {
+      "id": "sv01-225",
+      "name": "Gyarados ex",
+      "number": "225",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/225/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/225/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-226",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/226.ts",
+    "card": {
+      "id": "sv01-226",
+      "name": "Magnezone ex",
+      "number": "226",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/226/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/226/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-227",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/227.ts",
+    "card": {
+      "id": "sv01-227",
+      "name": "Miraidon ex",
+      "number": "227",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/227/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/227/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-228",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/228.ts",
+    "card": {
+      "id": "sv01-228",
+      "name": "Gardevoir ex",
+      "number": "228",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/228/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/228/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-229",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/229.ts",
+    "card": {
+      "id": "sv01-229",
+      "name": "Banette ex",
+      "number": "229",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/229/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/229/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-230",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/230.ts",
+    "card": {
+      "id": "sv01-230",
+      "name": "Great Tusk ex",
+      "number": "230",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/230/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/230/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-231",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/231.ts",
+    "card": {
+      "id": "sv01-231",
+      "name": "Koraidon ex",
+      "number": "231",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/231/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/231/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-232",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/232.ts",
+    "card": {
+      "id": "sv01-232",
+      "name": "Toxicroak ex",
+      "number": "232",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/232/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/232/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-233",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/233.ts",
+    "card": {
+      "id": "sv01-233",
+      "name": "Iron Treads ex",
+      "number": "233",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/233/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/233/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-234",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/234.ts",
+    "card": {
+      "id": "sv01-234",
+      "name": "Oinkologne ex",
+      "number": "234",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/234/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/234/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-235",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/235.ts",
+    "card": {
+      "id": "sv01-235",
+      "name": "Arven",
+      "number": "235",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/235/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/235/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-236",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/236.ts",
+    "card": {
+      "id": "sv01-236",
+      "name": "Jacq",
+      "number": "236",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/236/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/236/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-237",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/237.ts",
+    "card": {
+      "id": "sv01-237",
+      "name": "Katy",
+      "number": "237",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/237/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/237/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-238",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/238.ts",
+    "card": {
+      "id": "sv01-238",
+      "name": "Miriam",
+      "number": "238",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/238/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/238/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-239",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/239.ts",
+    "card": {
+      "id": "sv01-239",
+      "name": "Penny",
+      "number": "239",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/239/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/239/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-240",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/240.ts",
+    "card": {
+      "id": "sv01-240",
+      "name": "Professor's Research",
+      "number": "240",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/240/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/240/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-241",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/241.ts",
+    "card": {
+      "id": "sv01-241",
+      "name": "Professor's Research",
+      "number": "241",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/241/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/241/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-242",
+    "set_id": "sv01",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/242.ts",
+    "card": {
+      "id": "sv01-242",
+      "name": "Team Star Grunt",
+      "number": "242",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/242/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/242/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-243",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/243.ts",
+    "card": {
+      "id": "sv01-243",
+      "name": "Spidops ex",
+      "number": "243",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/243/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/243/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-244",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/244.ts",
+    "card": {
+      "id": "sv01-244",
+      "name": "Miraidon ex",
+      "number": "244",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/244/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/244/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-245",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/245.ts",
+    "card": {
+      "id": "sv01-245",
+      "name": "Gardevoir ex",
+      "number": "245",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/245/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/245/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-246",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/246.ts",
+    "card": {
+      "id": "sv01-246",
+      "name": "Great Tusk ex",
+      "number": "246",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/246/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/246/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-247",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/247.ts",
+    "card": {
+      "id": "sv01-247",
+      "name": "Koraidon ex",
+      "number": "247",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/247/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/247/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-248",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/248.ts",
+    "card": {
+      "id": "sv01-248",
+      "name": "Iron Treads ex",
+      "number": "248",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/248/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/248/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-249",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/249.ts",
+    "card": {
+      "id": "sv01-249",
+      "name": "Arven",
+      "number": "249",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/249/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/249/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-250",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/250.ts",
+    "card": {
+      "id": "sv01-250",
+      "name": "Jacq",
+      "number": "250",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/250/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/250/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-251",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/251.ts",
+    "card": {
+      "id": "sv01-251",
+      "name": "Miriam",
+      "number": "251",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/251/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/251/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-252",
+    "set_id": "sv01",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/252.ts",
+    "card": {
+      "id": "sv01-252",
+      "name": "Penny",
+      "number": "252",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/252/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/252/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-253",
+    "set_id": "sv01",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/253.ts",
+    "card": {
+      "id": "sv01-253",
+      "name": "Miraidon ex",
+      "number": "253",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/253/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/253/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-254",
+    "set_id": "sv01",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/254.ts",
+    "card": {
+      "id": "sv01-254",
+      "name": "Koraidon ex",
+      "number": "254",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/254/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/254/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-255",
+    "set_id": "sv01",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/255.ts",
+    "card": {
+      "id": "sv01-255",
+      "name": "Nest Ball",
+      "number": "255",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/255/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/255/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-256",
+    "set_id": "sv01",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/256.ts",
+    "card": {
+      "id": "sv01-256",
+      "name": "Rare Candy",
+      "number": "256",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/256/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/256/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-257",
+    "set_id": "sv01",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/257.ts",
+    "card": {
+      "id": "sv01-257",
+      "name": "Basic Lightning Energy",
+      "number": "257",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/257/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/257/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv01-258",
+    "set_id": "sv01",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Scarlet & Violet/258.ts",
+    "card": {
+      "id": "sv01-258",
+      "name": "Basic Fighting Energy",
+      "number": "258",
+      "set": "Scarlet & Violet",
+      "setId": "sv01",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv01/258/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv01/258/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

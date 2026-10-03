@@ -1,0 +1,4430 @@
+[
+  {
+    "id": "swsh10-001",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/001.ts",
+    "card": {
+      "id": "swsh10-001",
+      "name": "Beedrill V",
+      "number": "001",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-002",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/002.ts",
+    "card": {
+      "id": "swsh10-002",
+      "name": "Hisuian Voltorb",
+      "number": "002",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-003",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/003.ts",
+    "card": {
+      "id": "swsh10-003",
+      "name": "Hisuian Electrode",
+      "number": "003",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-004",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/004.ts",
+    "card": {
+      "id": "swsh10-004",
+      "name": "Scyther",
+      "number": "004",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-005",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/005.ts",
+    "card": {
+      "id": "swsh10-005",
+      "name": "Scyther",
+      "number": "005",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-006",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/006.ts",
+    "card": {
+      "id": "swsh10-006",
+      "name": "Yanma",
+      "number": "006",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-007",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/007.ts",
+    "card": {
+      "id": "swsh10-007",
+      "name": "Yanmega",
+      "number": "007",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-008",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/008.ts",
+    "card": {
+      "id": "swsh10-008",
+      "name": "Heracross",
+      "number": "008",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-009",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/009.ts",
+    "card": {
+      "id": "swsh10-009",
+      "name": "Kricketot",
+      "number": "009",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-010",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/010.ts",
+    "card": {
+      "id": "swsh10-010",
+      "name": "Kricketune",
+      "number": "010",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-011",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/011.ts",
+    "card": {
+      "id": "swsh10-011",
+      "name": "Combee",
+      "number": "011",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-012",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/012.ts",
+    "card": {
+      "id": "swsh10-012",
+      "name": "Vespiquen",
+      "number": "012",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-013",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/013.ts",
+    "card": {
+      "id": "swsh10-013",
+      "name": "Leafeon",
+      "number": "013",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-014",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/014.ts",
+    "card": {
+      "id": "swsh10-014",
+      "name": "Shaymin",
+      "number": "014",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-015",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/015.ts",
+    "card": {
+      "id": "swsh10-015",
+      "name": "Petilil",
+      "number": "015",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-016",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/016.ts",
+    "card": {
+      "id": "swsh10-016",
+      "name": "Hisuian Lilligant",
+      "number": "016",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-017",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/017.ts",
+    "card": {
+      "id": "swsh10-017",
+      "name": "Hisuian Lilligant V",
+      "number": "017",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-018",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/018.ts",
+    "card": {
+      "id": "swsh10-018",
+      "name": "Hisuian Lilligant VSTAR",
+      "number": "018",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-019",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/019.ts",
+    "card": {
+      "id": "swsh10-019",
+      "name": "Rowlet",
+      "number": "019",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-020",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/020.ts",
+    "card": {
+      "id": "swsh10-020",
+      "name": "Dartrix",
+      "number": "020",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-021",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/021.ts",
+    "card": {
+      "id": "swsh10-021",
+      "name": "Ponyta",
+      "number": "021",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-022",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/022.ts",
+    "card": {
+      "id": "swsh10-022",
+      "name": "Rapidash",
+      "number": "022",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-023",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/023.ts",
+    "card": {
+      "id": "swsh10-023",
+      "name": "Cyndaquil",
+      "number": "023",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-024",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/024.ts",
+    "card": {
+      "id": "swsh10-024",
+      "name": "Quilava",
+      "number": "024",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-025",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/025.ts",
+    "card": {
+      "id": "swsh10-025",
+      "name": "Heatran V",
+      "number": "025",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-026",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/026.ts",
+    "card": {
+      "id": "swsh10-026",
+      "name": "Heatran VMAX",
+      "number": "026",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-027",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/027.ts",
+    "card": {
+      "id": "swsh10-027",
+      "name": "Radiant Heatran",
+      "number": "027",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-028",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/028.ts",
+    "card": {
+      "id": "swsh10-028",
+      "name": "Psyduck",
+      "number": "028",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-029",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/029.ts",
+    "card": {
+      "id": "swsh10-029",
+      "name": "Golduck",
+      "number": "029",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-030",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/030.ts",
+    "card": {
+      "id": "swsh10-030",
+      "name": "Starmie V",
+      "number": "030",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-031",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/031.ts",
+    "card": {
+      "id": "swsh10-031",
+      "name": "Swinub",
+      "number": "031",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-032",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/032.ts",
+    "card": {
+      "id": "swsh10-032",
+      "name": "Piloswine",
+      "number": "032",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-033",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/033.ts",
+    "card": {
+      "id": "swsh10-033",
+      "name": "Mamoswine",
+      "number": "033",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-034",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/034.ts",
+    "card": {
+      "id": "swsh10-034",
+      "name": "Mantine",
+      "number": "034",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-035",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/035.ts",
+    "card": {
+      "id": "swsh10-035",
+      "name": "Barboach",
+      "number": "035",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-036",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/036.ts",
+    "card": {
+      "id": "swsh10-036",
+      "name": "Whiscash",
+      "number": "036",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-037",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/037.ts",
+    "card": {
+      "id": "swsh10-037",
+      "name": "Regice",
+      "number": "037",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-038",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/038.ts",
+    "card": {
+      "id": "swsh10-038",
+      "name": "Glaceon",
+      "number": "038",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-039",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/039.ts",
+    "card": {
+      "id": "swsh10-039",
+      "name": "Origin Forme Palkia V",
+      "number": "039",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-040",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/040.ts",
+    "card": {
+      "id": "swsh10-040",
+      "name": "Origin Forme Palkia VSTAR",
+      "number": "040",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-041",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/041.ts",
+    "card": {
+      "id": "swsh10-041",
+      "name": "Oshawott",
+      "number": "041",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-042",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/042.ts",
+    "card": {
+      "id": "swsh10-042",
+      "name": "Dewott",
+      "number": "042",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-043",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/043.ts",
+    "card": {
+      "id": "swsh10-043",
+      "name": "Hisuian Basculin",
+      "number": "043",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-044",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/044.ts",
+    "card": {
+      "id": "swsh10-044",
+      "name": "Hisuian Basculegion",
+      "number": "044",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-045",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/045.ts",
+    "card": {
+      "id": "swsh10-045",
+      "name": "Keldeo",
+      "number": "045",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-046",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/046.ts",
+    "card": {
+      "id": "swsh10-046",
+      "name": "Radiant Greninja",
+      "number": "046",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-047",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/047.ts",
+    "card": {
+      "id": "swsh10-047",
+      "name": "Bergmite",
+      "number": "047",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-048",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/048.ts",
+    "card": {
+      "id": "swsh10-048",
+      "name": "Hisuian Avalugg",
+      "number": "048",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-049",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/049.ts",
+    "card": {
+      "id": "swsh10-049",
+      "name": "Galarian Mr. Rime V",
+      "number": "049",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-050",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/050.ts",
+    "card": {
+      "id": "swsh10-050",
+      "name": "Luxray V",
+      "number": "050",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-051",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/051.ts",
+    "card": {
+      "id": "swsh10-051",
+      "name": "Regieleki",
+      "number": "051",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-052",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/052.ts",
+    "card": {
+      "id": "swsh10-052",
+      "name": "Hisuian Typhlosion",
+      "number": "052",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-053",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/053.ts",
+    "card": {
+      "id": "swsh10-053",
+      "name": "Hisuian Typhlosion V",
+      "number": "053",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-054",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/054.ts",
+    "card": {
+      "id": "swsh10-054",
+      "name": "Hisuian Typhlosion VSTAR",
+      "number": "054",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-055",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/055.ts",
+    "card": {
+      "id": "swsh10-055",
+      "name": "Togepi",
+      "number": "055",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-056",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/056.ts",
+    "card": {
+      "id": "swsh10-056",
+      "name": "Togetic",
+      "number": "056",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-057",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/057.ts",
+    "card": {
+      "id": "swsh10-057",
+      "name": "Togekiss",
+      "number": "057",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-058",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/058.ts",
+    "card": {
+      "id": "swsh10-058",
+      "name": "Misdreavus",
+      "number": "058",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-059",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/059.ts",
+    "card": {
+      "id": "swsh10-059",
+      "name": "Mismagius",
+      "number": "059",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-060",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/060.ts",
+    "card": {
+      "id": "swsh10-060",
+      "name": "Ralts",
+      "number": "060",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-061",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/061.ts",
+    "card": {
+      "id": "swsh10-061",
+      "name": "Kirlia",
+      "number": "061",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-062",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/062.ts",
+    "card": {
+      "id": "swsh10-062",
+      "name": "Gallade",
+      "number": "062",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-063",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/063.ts",
+    "card": {
+      "id": "swsh10-063",
+      "name": "Drifloon",
+      "number": "063",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-064",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/064.ts",
+    "card": {
+      "id": "swsh10-064",
+      "name": "Drifblim",
+      "number": "064",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-065",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/065.ts",
+    "card": {
+      "id": "swsh10-065",
+      "name": "Uxie",
+      "number": "065",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-066",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/066.ts",
+    "card": {
+      "id": "swsh10-066",
+      "name": "Mesprit",
+      "number": "066",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-067",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/067.ts",
+    "card": {
+      "id": "swsh10-067",
+      "name": "Azelf",
+      "number": "067",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-068",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/068.ts",
+    "card": {
+      "id": "swsh10-068",
+      "name": "Diancie",
+      "number": "068",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-069",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/069.ts",
+    "card": {
+      "id": "swsh10-069",
+      "name": "Wyrdeer",
+      "number": "069",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-070",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/070.ts",
+    "card": {
+      "id": "swsh10-070",
+      "name": "Hisuian Growlithe",
+      "number": "070",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-071",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/071.ts",
+    "card": {
+      "id": "swsh10-071",
+      "name": "Hisuian Arcanine",
+      "number": "071",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-072",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/072.ts",
+    "card": {
+      "id": "swsh10-072",
+      "name": "Machamp V",
+      "number": "072",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-073",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/073.ts",
+    "card": {
+      "id": "swsh10-073",
+      "name": "Machamp VMAX",
+      "number": "073",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-074",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/074.ts",
+    "card": {
+      "id": "swsh10-074",
+      "name": "Sudowoodo",
+      "number": "074",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-075",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/075.ts",
+    "card": {
+      "id": "swsh10-075",
+      "name": "Regirock",
+      "number": "075",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-076",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/076.ts",
+    "card": {
+      "id": "swsh10-076",
+      "name": "Cranidos",
+      "number": "076",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-077",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/077.ts",
+    "card": {
+      "id": "swsh10-077",
+      "name": "Rampardos",
+      "number": "077",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-078",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/078.ts",
+    "card": {
+      "id": "swsh10-078",
+      "name": "Lucario V",
+      "number": "078",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-079",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/079.ts",
+    "card": {
+      "id": "swsh10-079",
+      "name": "Hippopotas",
+      "number": "079",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-080",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/080.ts",
+    "card": {
+      "id": "swsh10-080",
+      "name": "Hippowdon",
+      "number": "080",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-081",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/081.ts",
+    "card": {
+      "id": "swsh10-081",
+      "name": "Radiant Hawlucha",
+      "number": "081",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-082",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/082.ts",
+    "card": {
+      "id": "swsh10-082",
+      "name": "Hisuian Decidueye",
+      "number": "082",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-083",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/083.ts",
+    "card": {
+      "id": "swsh10-083",
+      "name": "Hisuian Decidueye V",
+      "number": "083",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-084",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/084.ts",
+    "card": {
+      "id": "swsh10-084",
+      "name": "Hisuian Decidueye VSTAR",
+      "number": "084",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-085",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/085.ts",
+    "card": {
+      "id": "swsh10-085",
+      "name": "Kleavor",
+      "number": "085",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-086",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/086.ts",
+    "card": {
+      "id": "swsh10-086",
+      "name": "Kleavor",
+      "number": "086",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-087",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/087.ts",
+    "card": {
+      "id": "swsh10-087",
+      "name": "Kleavor V",
+      "number": "087",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-088",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/088.ts",
+    "card": {
+      "id": "swsh10-088",
+      "name": "Hisuian Qwilfish",
+      "number": "088",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-089",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/089.ts",
+    "card": {
+      "id": "swsh10-089",
+      "name": "Hisuian Qwilfish",
+      "number": "089",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-090",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/090.ts",
+    "card": {
+      "id": "swsh10-090",
+      "name": "Hisuian Overqwil",
+      "number": "090",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-091",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/091.ts",
+    "card": {
+      "id": "swsh10-091",
+      "name": "Hisuian Overqwil",
+      "number": "091",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-092",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/092.ts",
+    "card": {
+      "id": "swsh10-092",
+      "name": "Hisuian Sneasel",
+      "number": "092",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-093",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/093.ts",
+    "card": {
+      "id": "swsh10-093",
+      "name": "Hisuian Sneasler",
+      "number": "093",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-094",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/094.ts",
+    "card": {
+      "id": "swsh10-094",
+      "name": "Hisuian Sneasler V",
+      "number": "094",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-095",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/095.ts",
+    "card": {
+      "id": "swsh10-095",
+      "name": "Poochyena",
+      "number": "095",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-096",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/096.ts",
+    "card": {
+      "id": "swsh10-096",
+      "name": "Mightyena",
+      "number": "096",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-097",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/097.ts",
+    "card": {
+      "id": "swsh10-097",
+      "name": "Absol",
+      "number": "097",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-098",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/098.ts",
+    "card": {
+      "id": "swsh10-098",
+      "name": "Darkrai V",
+      "number": "098",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-099",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/099.ts",
+    "card": {
+      "id": "swsh10-099",
+      "name": "Darkrai VSTAR",
+      "number": "099",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-100",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/100.ts",
+    "card": {
+      "id": "swsh10-100",
+      "name": "Hisuian Samurott",
+      "number": "100",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-101",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/101.ts",
+    "card": {
+      "id": "swsh10-101",
+      "name": "Hisuian Samurott V",
+      "number": "101",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-102",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/102.ts",
+    "card": {
+      "id": "swsh10-102",
+      "name": "Hisuian Samurott VSTAR",
+      "number": "102",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-103",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/103.ts",
+    "card": {
+      "id": "swsh10-103",
+      "name": "Nickit",
+      "number": "103",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-104",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/104.ts",
+    "card": {
+      "id": "swsh10-104",
+      "name": "Thievul",
+      "number": "104",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-105",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/105.ts",
+    "card": {
+      "id": "swsh10-105",
+      "name": "Magnemite",
+      "number": "105",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-106",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/106.ts",
+    "card": {
+      "id": "swsh10-106",
+      "name": "Magneton",
+      "number": "106",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-107",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/107.ts",
+    "card": {
+      "id": "swsh10-107",
+      "name": "Magnezone",
+      "number": "107",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-108",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/108.ts",
+    "card": {
+      "id": "swsh10-108",
+      "name": "Registeel",
+      "number": "108",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-109",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/109.ts",
+    "card": {
+      "id": "swsh10-109",
+      "name": "Shieldon",
+      "number": "109",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-110",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/110.ts",
+    "card": {
+      "id": "swsh10-110",
+      "name": "Bastiodon",
+      "number": "110",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-111",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/111.ts",
+    "card": {
+      "id": "swsh10-111",
+      "name": "Bronzor",
+      "number": "111",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-112",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/112.ts",
+    "card": {
+      "id": "swsh10-112",
+      "name": "Bronzong",
+      "number": "112",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-113",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/113.ts",
+    "card": {
+      "id": "swsh10-113",
+      "name": "Origin Forme Dialga V",
+      "number": "113",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-114",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/114.ts",
+    "card": {
+      "id": "swsh10-114",
+      "name": "Origin Forme Dialga VSTAR",
+      "number": "114",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-115",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/115.ts",
+    "card": {
+      "id": "swsh10-115",
+      "name": "Pawniard",
+      "number": "115",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-116",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/116.ts",
+    "card": {
+      "id": "swsh10-116",
+      "name": "Bisharp",
+      "number": "116",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-117",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/117.ts",
+    "card": {
+      "id": "swsh10-117",
+      "name": "Garchomp V",
+      "number": "117",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-118",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/118.ts",
+    "card": {
+      "id": "swsh10-118",
+      "name": "Regidrago",
+      "number": "118",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-119",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/119.ts",
+    "card": {
+      "id": "swsh10-119",
+      "name": "Eevee",
+      "number": "119",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-120",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/120.ts",
+    "card": {
+      "id": "swsh10-120",
+      "name": "Hoothoot",
+      "number": "120",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-121",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/121.ts",
+    "card": {
+      "id": "swsh10-121",
+      "name": "Noctowl",
+      "number": "121",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-122",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/122.ts",
+    "card": {
+      "id": "swsh10-122",
+      "name": "Teddiursa",
+      "number": "122",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-123",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/123.ts",
+    "card": {
+      "id": "swsh10-123",
+      "name": "Ursaring",
+      "number": "123",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-124",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/124.ts",
+    "card": {
+      "id": "swsh10-124",
+      "name": "Ursaluna",
+      "number": "124",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-125",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/125.ts",
+    "card": {
+      "id": "swsh10-125",
+      "name": "Stantler",
+      "number": "125",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-126",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/126.ts",
+    "card": {
+      "id": "swsh10-126",
+      "name": "Miltank",
+      "number": "126",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-127",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/127.ts",
+    "card": {
+      "id": "swsh10-127",
+      "name": "Glameow",
+      "number": "127",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-128",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/128.ts",
+    "card": {
+      "id": "swsh10-128",
+      "name": "Purugly",
+      "number": "128",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-129",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/129.ts",
+    "card": {
+      "id": "swsh10-129",
+      "name": "Chatot",
+      "number": "129",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-130",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/130.ts",
+    "card": {
+      "id": "swsh10-130",
+      "name": "Regigigas",
+      "number": "130",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-131",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/131.ts",
+    "card": {
+      "id": "swsh10-131",
+      "name": "Rufflet",
+      "number": "131",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-132",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/132.ts",
+    "card": {
+      "id": "swsh10-132",
+      "name": "Hisuian Braviary",
+      "number": "132",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-133",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/133.ts",
+    "card": {
+      "id": "swsh10-133",
+      "name": "Oranguru V",
+      "number": "133",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-134",
+    "set_id": "swsh10",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/134.ts",
+    "card": {
+      "id": "swsh10-134",
+      "name": "Wyrdeer V",
+      "number": "134",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-135",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/135.ts",
+    "card": {
+      "id": "swsh10-135",
+      "name": "Adaman",
+      "number": "135",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-136",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/136.ts",
+    "card": {
+      "id": "swsh10-136",
+      "name": "Canceling Cologne",
+      "number": "136",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-137",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/137.ts",
+    "card": {
+      "id": "swsh10-137",
+      "name": "Choy",
+      "number": "137",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-138",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/138.ts",
+    "card": {
+      "id": "swsh10-138",
+      "name": "Cyllene",
+      "number": "138",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-139",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/139.ts",
+    "card": {
+      "id": "swsh10-139",
+      "name": "Dark Patch",
+      "number": "139",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-140",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/140.ts",
+    "card": {
+      "id": "swsh10-140",
+      "name": "Energy Loto",
+      "number": "140",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-141",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/141.ts",
+    "card": {
+      "id": "swsh10-141",
+      "name": "Feather Ball",
+      "number": "141",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-142",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/142.ts",
+    "card": {
+      "id": "swsh10-142",
+      "name": "Gapejaw Bog",
+      "number": "142",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-143",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/143.ts",
+    "card": {
+      "id": "swsh10-143",
+      "name": "Gardenia's Vigor",
+      "number": "143",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-144",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/144.ts",
+    "card": {
+      "id": "swsh10-144",
+      "name": "Grant",
+      "number": "144",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-145",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/145.ts",
+    "card": {
+      "id": "swsh10-145",
+      "name": "Gutsy Pickaxe",
+      "number": "145",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-146",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/146.ts",
+    "card": {
+      "id": "swsh10-146",
+      "name": "Hisuian Heavy Ball",
+      "number": "146",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-147",
+    "set_id": "swsh10",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/147.ts",
+    "card": {
+      "id": "swsh10-147",
+      "name": "Irida",
+      "number": "147",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-148",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/148.ts",
+    "card": {
+      "id": "swsh10-148",
+      "name": "Jubilife Village",
+      "number": "148",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-149",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/149.ts",
+    "card": {
+      "id": "swsh10-149",
+      "name": "Kamado",
+      "number": "149",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-150",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/150.ts",
+    "card": {
+      "id": "swsh10-150",
+      "name": "Roxanne",
+      "number": "150",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-151",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/151.ts",
+    "card": {
+      "id": "swsh10-151",
+      "name": "Spicy Seasoned Curry",
+      "number": "151",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-152",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/152.ts",
+    "card": {
+      "id": "swsh10-152",
+      "name": "Supereffective Glasses",
+      "number": "152",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-153",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/153.ts",
+    "card": {
+      "id": "swsh10-153",
+      "name": "Sweet Honey",
+      "number": "153",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-154",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/154.ts",
+    "card": {
+      "id": "swsh10-154",
+      "name": "Switch Cart",
+      "number": "154",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-155",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/155.ts",
+    "card": {
+      "id": "swsh10-155",
+      "name": "Temple of Sinnoh",
+      "number": "155",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-156",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/156.ts",
+    "card": {
+      "id": "swsh10-156",
+      "name": "Trekking Shoes",
+      "number": "156",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-157",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/157.ts",
+    "card": {
+      "id": "swsh10-157",
+      "name": "Unidentified Fossil",
+      "number": "157",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-158",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/158.ts",
+    "card": {
+      "id": "swsh10-158",
+      "name": "Wait and See Turbo",
+      "number": "158",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-159",
+    "set_id": "swsh10",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/159.ts",
+    "card": {
+      "id": "swsh10-159",
+      "name": "Zisu",
+      "number": "159",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-160",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/160.ts",
+    "card": {
+      "id": "swsh10-160",
+      "name": "Beedrill V",
+      "number": "160",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-161",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/161.ts",
+    "card": {
+      "id": "swsh10-161",
+      "name": "Beedrill V",
+      "number": "161",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-162",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/162.ts",
+    "card": {
+      "id": "swsh10-162",
+      "name": "Hisuian Lilligant V",
+      "number": "162",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-163",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/163.ts",
+    "card": {
+      "id": "swsh10-163",
+      "name": "Hisuian Lilligant V",
+      "number": "163",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-164",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/164.ts",
+    "card": {
+      "id": "swsh10-164",
+      "name": "Virizion V",
+      "number": "164",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-165",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/165.ts",
+    "card": {
+      "id": "swsh10-165",
+      "name": "Heatran V",
+      "number": "165",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-166",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/166.ts",
+    "card": {
+      "id": "swsh10-166",
+      "name": "Starmie V",
+      "number": "166",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-167",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/167.ts",
+    "card": {
+      "id": "swsh10-167",
+      "name": "Origin Forme Palkia V",
+      "number": "167",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-168",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/168.ts",
+    "card": {
+      "id": "swsh10-168",
+      "name": "Luxray V",
+      "number": "168",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-169",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/169.ts",
+    "card": {
+      "id": "swsh10-169",
+      "name": "Hisuian Typhlosion V",
+      "number": "169",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-170",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/170.ts",
+    "card": {
+      "id": "swsh10-170",
+      "name": "Jirachi V",
+      "number": "170",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-171",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/171.ts",
+    "card": {
+      "id": "swsh10-171",
+      "name": "Machamp V",
+      "number": "171",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-172",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/172.ts",
+    "card": {
+      "id": "swsh10-172",
+      "name": "Machamp V",
+      "number": "172",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-173",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/173.ts",
+    "card": {
+      "id": "swsh10-173",
+      "name": "Hisuian Decidueye V",
+      "number": "173",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-174",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/174.ts",
+    "card": {
+      "id": "swsh10-174",
+      "name": "Hisuian Sneasler V",
+      "number": "174",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-175",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/175.ts",
+    "card": {
+      "id": "swsh10-175",
+      "name": "Hisuian Sneasler V",
+      "number": "175",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-176",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/176.ts",
+    "card": {
+      "id": "swsh10-176",
+      "name": "Hisuian Samurott V",
+      "number": "176",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-177",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/177.ts",
+    "card": {
+      "id": "swsh10-177",
+      "name": "Origin Forme Dialga V",
+      "number": "177",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-178",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/178.ts",
+    "card": {
+      "id": "swsh10-178",
+      "name": "Garchomp V",
+      "number": "178",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-179",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/179.ts",
+    "card": {
+      "id": "swsh10-179",
+      "name": "Oranguru V",
+      "number": "179",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-180",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/180.ts",
+    "card": {
+      "id": "swsh10-180",
+      "name": "Wyrdeer V",
+      "number": "180",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-181",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/181.ts",
+    "card": {
+      "id": "swsh10-181",
+      "name": "Adaman",
+      "number": "181",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-182",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/182.ts",
+    "card": {
+      "id": "swsh10-182",
+      "name": "Choy",
+      "number": "182",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-183",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/183.ts",
+    "card": {
+      "id": "swsh10-183",
+      "name": "Cyllene",
+      "number": "183",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-184",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/184.ts",
+    "card": {
+      "id": "swsh10-184",
+      "name": "Gardenia's Vigor",
+      "number": "184",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-185",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/185.ts",
+    "card": {
+      "id": "swsh10-185",
+      "name": "Grant",
+      "number": "185",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-186",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/186.ts",
+    "card": {
+      "id": "swsh10-186",
+      "name": "Irida",
+      "number": "186",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-187",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/187.ts",
+    "card": {
+      "id": "swsh10-187",
+      "name": "Kamado",
+      "number": "187",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/187/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-188",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/188.ts",
+    "card": {
+      "id": "swsh10-188",
+      "name": "Roxanne",
+      "number": "188",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/188/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-189",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/189.ts",
+    "card": {
+      "id": "swsh10-189",
+      "name": "Zisu",
+      "number": "189",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/189/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-190",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/190.ts",
+    "card": {
+      "id": "swsh10-190",
+      "name": "Hisuian Lilligant VSTAR",
+      "number": "190",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/190/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-191",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/191.ts",
+    "card": {
+      "id": "swsh10-191",
+      "name": "Heatran VMAX",
+      "number": "191",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/191/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-192",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/192.ts",
+    "card": {
+      "id": "swsh10-192",
+      "name": "Origin Forme Palkia VSTAR",
+      "number": "192",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/192/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-193",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/193.ts",
+    "card": {
+      "id": "swsh10-193",
+      "name": "Hisuian Typhlosion VSTAR",
+      "number": "193",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/193/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-194",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/194.ts",
+    "card": {
+      "id": "swsh10-194",
+      "name": "Machamp VMAX",
+      "number": "194",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/194/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-195",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/195.ts",
+    "card": {
+      "id": "swsh10-195",
+      "name": "Hisuian Decidueye VSTAR",
+      "number": "195",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/195/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-196",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/196.ts",
+    "card": {
+      "id": "swsh10-196",
+      "name": "Kleavor VSTAR",
+      "number": "196",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/196/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-197",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/197.ts",
+    "card": {
+      "id": "swsh10-197",
+      "name": "Hisuian Samurott VSTAR",
+      "number": "197",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/197/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-198",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/198.ts",
+    "card": {
+      "id": "swsh10-198",
+      "name": "Origin Forme Dialga VSTAR",
+      "number": "198",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/198/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-199",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/199.ts",
+    "card": {
+      "id": "swsh10-199",
+      "name": "Adaman",
+      "number": "199",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/199/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-200",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/200.ts",
+    "card": {
+      "id": "swsh10-200",
+      "name": "Choy",
+      "number": "200",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/200/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-201",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/201.ts",
+    "card": {
+      "id": "swsh10-201",
+      "name": "Cyllene",
+      "number": "201",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/201/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-202",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/202.ts",
+    "card": {
+      "id": "swsh10-202",
+      "name": "Gardenia's Vigor",
+      "number": "202",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/202/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-203",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/203.ts",
+    "card": {
+      "id": "swsh10-203",
+      "name": "Grant",
+      "number": "203",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/203/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-204",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/204.ts",
+    "card": {
+      "id": "swsh10-204",
+      "name": "Irida",
+      "number": "204",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/204/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-205",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/205.ts",
+    "card": {
+      "id": "swsh10-205",
+      "name": "Kamado",
+      "number": "205",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/205/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-206",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/206.ts",
+    "card": {
+      "id": "swsh10-206",
+      "name": "Roxanne",
+      "number": "206",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/206/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-207",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/207.ts",
+    "card": {
+      "id": "swsh10-207",
+      "name": "Zisu",
+      "number": "207",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/207/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-208",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/208.ts",
+    "card": {
+      "id": "swsh10-208",
+      "name": "Origin Forme Palkia VSTAR",
+      "number": "208",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/208/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-209",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/209.ts",
+    "card": {
+      "id": "swsh10-209",
+      "name": "Hisuian Samurott VSTAR",
+      "number": "209",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/209/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-210",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/210.ts",
+    "card": {
+      "id": "swsh10-210",
+      "name": "Origin Forme Dialga VSTAR",
+      "number": "210",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/210/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-211",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/211.ts",
+    "card": {
+      "id": "swsh10-211",
+      "name": "Choice Belt",
+      "number": "211",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/211/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-212",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/212.ts",
+    "card": {
+      "id": "swsh10-212",
+      "name": "Jubilife Village",
+      "number": "212",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/212/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-213",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/213.ts",
+    "card": {
+      "id": "swsh10-213",
+      "name": "Path to the Peak",
+      "number": "213",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/213/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-214",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/214.ts",
+    "card": {
+      "id": "swsh10-214",
+      "name": "Temple of Sinnoh",
+      "number": "214",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/214/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-215",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/215.ts",
+    "card": {
+      "id": "swsh10-215",
+      "name": "Trekking Shoes",
+      "number": "215",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/215/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10-216",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance/216.ts",
+    "card": {
+      "id": "swsh10-216",
+      "name": "Double Turbo Energy",
+      "number": "216",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/216/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG01",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG01.ts",
+    "card": {
+      "id": "swsh10tg-TG01",
+      "name": "Abomasnow",
+      "number": "TG01",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG01/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG01/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG02",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG02.ts",
+    "card": {
+      "id": "swsh10tg-TG02",
+      "name": "Flapple",
+      "number": "TG02",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG02/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG02/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG03",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG03.ts",
+    "card": {
+      "id": "swsh10tg-TG03",
+      "name": "Kingdra",
+      "number": "TG03",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG03/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG03/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG04",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG04.ts",
+    "card": {
+      "id": "swsh10tg-TG04",
+      "name": "Frosmoth",
+      "number": "TG04",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG04/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG04/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG05",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG05.ts",
+    "card": {
+      "id": "swsh10tg-TG05",
+      "name": "Gardevoir",
+      "number": "TG05",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG05/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG05/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG06",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG06.ts",
+    "card": {
+      "id": "swsh10tg-TG06",
+      "name": "Wyrdeer",
+      "number": "TG06",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG06/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG06/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG07",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG07.ts",
+    "card": {
+      "id": "swsh10tg-TG07",
+      "name": "Falinks",
+      "number": "TG07",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG07/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG07/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG08",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG08.ts",
+    "card": {
+      "id": "swsh10tg-TG08",
+      "name": "Kleavor",
+      "number": "TG08",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG08/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG08/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG09",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG09.ts",
+    "card": {
+      "id": "swsh10tg-TG09",
+      "name": "Mightyena",
+      "number": "TG09",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG09/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG09/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG10",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG10.ts",
+    "card": {
+      "id": "swsh10tg-TG10",
+      "name": "Galarian Obstagoon",
+      "number": "TG10",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG10/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG10/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG11",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG11.ts",
+    "card": {
+      "id": "swsh10tg-TG11",
+      "name": "Bronzong",
+      "number": "TG11",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG11/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG11/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG12",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG12.ts",
+    "card": {
+      "id": "swsh10tg-TG12",
+      "name": "Hoothoot",
+      "number": "TG12",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG12/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG12/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG13",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG13.ts",
+    "card": {
+      "id": "swsh10tg-TG13",
+      "name": "Starmie V",
+      "number": "TG13",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG13/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG13/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG14",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG14.ts",
+    "card": {
+      "id": "swsh10tg-TG14",
+      "name": "Ice Rider Calyrex V",
+      "number": "TG14",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG14/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG14/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG15",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG15.ts",
+    "card": {
+      "id": "swsh10tg-TG15",
+      "name": "Ice Rider Calyrex VMAX",
+      "number": "TG15",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG15/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG15/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG16",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG16.ts",
+    "card": {
+      "id": "swsh10tg-TG16",
+      "name": "Galarian Articuno V",
+      "number": "TG16",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG16/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG16/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG17",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG17.ts",
+    "card": {
+      "id": "swsh10tg-TG17",
+      "name": "Shadow Rider Calyrex V",
+      "number": "TG17",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG17/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG17/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG18",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG18.ts",
+    "card": {
+      "id": "swsh10tg-TG18",
+      "name": "Shadow Rider Calyrex VMAX",
+      "number": "TG18",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG18/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG18/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG19",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG19.ts",
+    "card": {
+      "id": "swsh10tg-TG19",
+      "name": "Galarian Zapdos V",
+      "number": "TG19",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG19/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG19/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG20",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG20.ts",
+    "card": {
+      "id": "swsh10tg-TG20",
+      "name": "Galarian Moltres V",
+      "number": "TG20",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG20/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG20/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG21",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG21.ts",
+    "card": {
+      "id": "swsh10tg-TG21",
+      "name": "Zacian V",
+      "number": "TG21",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG21/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG21/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG22",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG22.ts",
+    "card": {
+      "id": "swsh10tg-TG22",
+      "name": "Zamazenta V",
+      "number": "TG22",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG22/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG22/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG23",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG23.ts",
+    "card": {
+      "id": "swsh10tg-TG23",
+      "name": "Garchomp V",
+      "number": "TG23",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG23/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG23/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG24",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG24.ts",
+    "card": {
+      "id": "swsh10tg-TG24",
+      "name": "Allister",
+      "number": "TG24",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG24/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG24/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG25",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG25.ts",
+    "card": {
+      "id": "swsh10tg-TG25",
+      "name": "Bea",
+      "number": "TG25",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG25/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG25/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG26",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG26.ts",
+    "card": {
+      "id": "swsh10tg-TG26",
+      "name": "Melony",
+      "number": "TG26",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG26/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG26/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG27",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG27.ts",
+    "card": {
+      "id": "swsh10tg-TG27",
+      "name": "Milo",
+      "number": "TG27",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG27/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG27/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG28",
+    "set_id": "swsh10",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG28.ts",
+    "card": {
+      "id": "swsh10tg-TG28",
+      "name": "Piers",
+      "number": "TG28",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG28/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG28/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG29",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG29.ts",
+    "card": {
+      "id": "swsh10tg-TG29",
+      "name": "Ice Rider Calyrex VMAX",
+      "number": "TG29",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG29/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG29/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh10tg-TG30",
+    "set_id": "swsh10",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Astral Radiance Trainer Gallery/TG30.ts",
+    "card": {
+      "id": "swsh10tg-TG30",
+      "name": "Shadow Rider Calyrex VMAX",
+      "number": "TG30",
+      "set": "Astral Radiance",
+      "setId": "swsh10",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh10/TG30/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh10/TG30/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

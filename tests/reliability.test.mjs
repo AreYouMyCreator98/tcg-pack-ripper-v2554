@@ -21,7 +21,7 @@ test('corrupt numeric values cannot poison pack totals or persistent counters', 
 });
 test('service worker activation preserves unrelated origin caches', async () => {
  const handlers={},deleted=[]; let pending;
- const context={self:{addEventListener:(name,fn)=>handlers[name]=fn,clients:{claim:async()=>{} }},caches:{keys:async()=>['other-app-cache','tcg-pack-ripper-old-static','tcg-pack-ripper-0.255.4-1-static'],delete:async key=>deleted.push(key)}};
+ const context={self:{addEventListener:(name,fn)=>handlers[name]=fn,clients:{claim:async()=>{} }},caches:{keys:async()=>['other-app-cache','tcg-pack-ripper-old-static','tcg-pack-ripper-0.256.0-1-static'],delete:async key=>deleted.push(key)}};
  vm.runInNewContext(await readFile(new URL('../public/sw.js',import.meta.url),'utf8'),context);
  handlers.activate({waitUntil:value=>pending=value}); await pending;
  assert.deepEqual(deleted,['tcg-pack-ripper-old-static']);
