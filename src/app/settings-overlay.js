@@ -45,7 +45,13 @@ export function installSettingsOverlay(doc=document, win=window) {
   root.addEventListener('keydown',event=>{
     if(event.key==='Escape'){event.preventDefault();close();return;}
     if(event.key!=='Tab')return;
-    const controls=[...card.querySelectorAll('button,input,select,summary,a[href],[tabindex="0"]')].filter(el=>!el.disabled&&el.getClientRects().length);
+    const controls=[...card.querySelectorAll('button,input,select,summary,a[href],[tabindex="0"]')].filter(el=>{
+      // Some engines return layout rectangles for controls inside closed details,
+      // even though those controls cannot receive focus.
+      const folded=el.closest('details:not([open])');
+      return !el.disabled&&!el.closest('[hidden]')&&el.getClientRects().length&&
+        (!folded||(el.tagName==='SUMMARY'&&el.parentElement===folded));
+    });
     const first=controls[0],last=controls.at(-1);
     if(event.shiftKey&&doc.activeElement===first){event.preventDefault();last?.focus();}
     else if(!event.shiftKey&&doc.activeElement===last){event.preventDefault();first?.focus();}
