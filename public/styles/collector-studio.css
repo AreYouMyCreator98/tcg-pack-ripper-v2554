@@ -1,0 +1,152 @@
+/* Collector Room: presentation only; inventory and opening rules stay in the engine. */
+:root{--collector-glass:linear-gradient(135deg,#ffffffed,#f4f0fbe6);--collector-ink:#30364a;--collector-muted:#858b9f;--collector-line:#ffffff;--collector-shadow:0 12px 38px #675e8512,inset 0 1px 0 #fff}
+body:has(#rip.rip-studio.active),html:has(#rip.rip-studio.active){height:auto!important;overflow-y:auto!important;background:#f5f3fa!important}
+html.v100PageScroll body #rip.rip-studio.active,body #rip.rip-studio.active{position:relative!important;inset:auto!important;min-height:100dvh!important;height:auto!important;padding:26px max(18px,calc((100vw - 1100px)/2)) 235px!important;overflow:hidden!important;background:#f4f2fa!important;color:var(--collector-ink)!important;isolation:isolate}
+#rip.rip-studio:before,#rip.rip-studio:after{display:none!important}
+.rip-studio-backdrop{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse at 0 0,#fff9e5,transparent 60%),#eae5f7}
+.rip-studio-backdrop img{width:100%;height:100%;object-fit:cover;filter:blur(65px) saturate(.9);transform:scale(1.18);opacity:.25;content-visibility:visible}
+.rip-studio-backdrop i{position:absolute;inset:0;background:linear-gradient(125deg,#fffcf5c9,#f5f7ffb3 55%,#f2eafa9c)}
+.rip-studio-header,.rip-studio-selection{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;z-index:3}
+.rip-studio-header{margin-bottom:28px}.rip-studio-header small,.rip-studio-selection small,.rip-studio-open small,.studio-set-card header small{font:800 9px/1.4 system-ui;letter-spacing:2.1px;color:#9684ae}
+#rip.rip-studio .rip-studio-header h1{font:850 clamp(25px,3.4vw,43px)/1.12 system-ui;letter-spacing:-1.6px;color:#30364a;margin:8px 0}
+.rip-studio-tools{display:flex;align-items:center;gap:8px;flex-shrink:0}
+#rip.rip-studio #gameClockV170{position:static!important;transform:none!important;background:var(--collector-glass)!important;box-shadow:var(--collector-shadow)!important;border:1px solid #fff!important;color:#7d7590!important;width:auto!important;min-height:42px!important;padding:10px!important;z-index:auto!important}
+#rip.rip-studio #gameClockV170 :is(small,b){color:#83778e!important;font-size:9px!important}.gameClockResetV170{display:none}
+#rip.rip-studio #openPullRates{position:static!important;transform:none!important;display:block!important;opacity:1!important;min-height:42px;padding:10px 13px!important;font-size:9px!important}
+#rip.rip-studio :is(button,input){touch-action:manipulation;font-family:system-ui}
+#rip.rip-studio button:not(.set):not(#zipPull),#binder.binder-studio button{border:1px solid #fff!important;border-radius:13px!important;background:var(--collector-glass)!important;color:#6a5b84!important;box-shadow:var(--collector-shadow)!important;min-height:42px;font-weight:750;cursor:pointer;text-shadow:none!important}
+#rip.rip-studio button:disabled,#binder.binder-studio button:disabled{opacity:.42!important;cursor:default}
+#rip.rip-studio :is(button,input):focus-visible,#binder.binder-studio :is(button,input,select,summary,[role=button]):focus-visible{outline:3px solid #ad95cc!important;outline-offset:3px}
+.rip-studio-selection{border:1px solid #fff;border-radius:22px;background:#ffffff9c;padding:18px 22px;box-shadow:var(--collector-shadow)}
+#rip.rip-studio .rip-studio-selection h2{font:800 24px/1.2 system-ui;letter-spacing:-.6px;color:#48516a;margin:5px 0}.rip-studio-selection p{font:11px/1.5 system-ui;color:#9294a5;margin:5px 0}.rip-studio-selection button{padding:12px 18px;white-space:nowrap}
+#rip.rip-studio .layout{display:block!important;padding:0!important;margin:0!important;height:auto!important;min-height:0!important;overflow:visible!important;background:none!important}
+#rip.rip-studio .layout>.panel.rip-studio-stage{position:relative!important;inset:auto!important;height:auto!important;width:100%!important;max-width:none!important;display:block!important;padding:0!important;margin:0!important;background:none!important;border:0!important;box-shadow:none!important;overflow:visible!important;pointer-events:auto!important}
+#rip.rip-studio #stage{position:relative!important;inset:auto!important;height:clamp(400px,60vh,620px)!important;min-height:0!important;width:100%!important;margin:0!important;padding:0!important;border:0!important;background:none!important;box-shadow:none!important;overflow:visible!important}
+#rip.rip-studio #stage:before{content:''!important;position:absolute!important;inset:auto 10% 3%!important;height:12%!important;display:block!important;border-radius:50%!important;background:radial-gradient(ellipse,#8e78b92b,transparent 70%)!important;filter:blur(14px)!important;pointer-events:none!important}
+#rip.rip-studio #pack{left:50%!important;top:48%!important;width:clamp(190px,24vw,260px)!important;height:auto!important;aspect-ratio:126/184!important;margin:0!important;translate:-50% -50%;transform:perspective(1000px) rotateY(-8deg) rotateZ(-3deg);filter:drop-shadow(18px 28px 25px #6e608b40)!important;z-index:10!important}
+#rip.rip-studio #pack .foil{border:1px solid #fff9!important;box-shadow:inset 0 0 0 1px #fff6,0 0 45px #fff5!important}
+#rip.rip-studio #pack .foil:after{content:''!important;position:absolute!important;inset:0!important;background:linear-gradient(112deg,transparent 12%,#ffffff0a 30%,#fff9 40%,#c6eaff5c 44%,transparent 57%)!important;background-size:260% 100%!important;mix-blend-mode:screen;animation:collector-foil 5s ease-in-out infinite!important;pointer-events:none!important;z-index:10}
+@keyframes collector-foil{0%,22%{background-position:170% 0}75%,100%{background-position:-100% 0}}
+#rip.rip-studio #packGestureHint{font-size:8px!important;background:#ffffffdc!important;color:#71647e!important;text-shadow:none!important;border:1px solid #fff!important;border-radius:20px!important;padding:8px!important}
+#rip.rip-studio #instruction{position:absolute!important;bottom:8px!important;left:0!important;width:100%!important;top:auto!important;color:#82768d!important;font-size:10px!important;letter-spacing:1px!important;text-shadow:none!important}
+#rip.rip-studio #stage .tearProgress{bottom:0!important;background:#ffffff80!important;height:3px!important}
+.rip-studio-open{display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px 20px;margin:0 auto;padding:18px 22px;max-width:650px;background:#ffffffb8;border:1px solid #fff;border-radius:22px;box-shadow:var(--collector-shadow);position:relative;z-index:3}
+.rip-studio-open p{font:12px system-ui;color:#687288;margin:5px 0}.rip-studio-open>span{grid-column:1/-1;text-align:center;font:10px system-ui;color:#9b96a8;padding-top:4px}
+#rip.rip-studio #studioOpenPack{padding:16px 30px!important;background:linear-gradient(120deg,#ddd2f2,#f9f7ff 65%,#d9eaf6)!important;color:#665081!important;font-size:14px;min-height:52px;box-shadow:0 7px 25px #977cb52e!important}
+#rip.rip-studio.studio-opening .rip-studio-open{visibility:hidden}
+#rip.rip-studio.studio-opening .rip-studio-backdrop img{opacity:.5;filter:blur(45px) saturate(1.35)}
+#rip.rip-studio #v253PackHUD{bottom:150px!important;background:var(--collector-glass)!important;border:1px solid #fff!important;box-shadow:var(--collector-shadow)!important}
+body:has(#rip.rip-studio.active) #v114PackMode{bottom:82px!important;background:var(--collector-glass)!important;border:1px solid #fff!important;box-shadow:0 8px 30px #8c7da226!important}
+body:has(#rip.rip-studio.active) #v114PackMode button{background:transparent!important;color:#897999!important;min-height:44px!important}
+body:has(#rip.rip-studio.active) #v114PackMode button.active{background:#e4dcf2!important;color:#675083!important}
+body:has(#rip.rip-studio.active) #v114Cost{color:#8e7c9e!important}
+#rip.rip-studio #v253PackHUD :is(b,small,span){color:#8b7b9d!important}
+.studio-set-drawer[hidden]{display:none!important}.studio-set-drawer{position:fixed;inset:0;z-index:22000;display:grid;place-items:center;padding:20px}
+#rip.rip-studio .studio-set-shade{position:absolute;inset:0;background:#342d4b66!important;border:0!important;border-radius:0!important;backdrop-filter:blur(10px)}
+.studio-set-card{position:relative;width:min(900px,100%);max-height:88dvh;overflow:auto;background:linear-gradient(135deg,#fffdf4,#f0edfc,#ecf7f9);border:1px solid #fff;border-radius:28px;padding:25px;box-shadow:0 35px 100px #20172c44}
+.studio-set-card header{display:flex;justify-content:space-between;align-items:center;gap:12px}.studio-set-card header h2{font:800 26px system-ui;color:#485069;margin:5px 0 20px}.studio-set-card header button{min-width:42px;font-size:22px}.studio-set-card label{display:block;font:11px system-ui;color:#8a8199}.studio-set-card input{display:block;width:100%;box-sizing:border-box;padding:13px;border:1px solid #dfdce8;border-radius:12px;background:#fffd;color:#42485b;margin-top:6px;font:14px system-ui}.studio-set-card>p{font:11px system-ui;color:#8c83a0}
+#rip.rip-studio #sets{position:static!important;inset:auto!important;transform:none!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:12px!important;width:100%!important;height:auto!important;padding:0!important;margin:0!important;overflow:visible!important;background:none!important;border:0!important;backdrop-filter:none!important;pointer-events:auto!important;opacity:1!important}
+#rip.rip-studio #sets .set{width:auto!important;min-width:0!important;height:auto!important;min-height:165px!important;max-height:none!important;aspect-ratio:auto!important;margin:0!important;padding:14px 8px!important;border:1px solid #fff!important;border-radius:18px!important;background:#ffffffb3!important;box-shadow:0 7px 22px #78648d12!important;transform:none!important;filter:none!important;color:#5b6178!important;opacity:1!important}
+#rip.rip-studio #sets .set.selected{background:#eae3f8!important;border-color:#b9a2d1!important}#rip.rip-studio #sets .set[hidden]{display:none!important}
+#rip.rip-studio #sets .set img{position:static!important;width:100%!important;height:65px!important;object-fit:contain!important;filter:none!important;margin:8px auto!important}
+#rip.rip-studio #sets .set b{color:#60667b!important;font-size:10px!important;display:block!important;text-shadow:none!important}#rip.rip-studio #sets .set small{color:#8d91a4!important;font-size:9px!important;display:block!important;text-shadow:none!important}
+#rip.rip-studio #sets .set.locked:after{font-size:20px!important;background:#ffffff55!important;place-items:end!important;padding:10px!important;pointer-events:none!important}
+#rip.rip-studio #sets :is(.setLock,.setLevelTag){font-size:8px!important;color:#8a769c!important;background:#fff9!important;border-color:#eee!important}
+/* Binder gallery keeps the original inventory, themes and physical book. */
+html.v100PageScroll body #binder.binder-studio.active,body #binder.binder-studio.active{padding:26px max(16px,calc((100vw - 1100px)/2)) 115px!important;background:radial-gradient(ellipse at 10% 0,#fff9e9,transparent 45%),radial-gradient(ellipse at 100% 28%,#e8e2fb,transparent 55%),linear-gradient(130deg,#fbfdff,#eff7f8 60%,#f6eef9)!important;color:#30364a!important}
+#binder.binder-studio .binderBackdropV147{display:none!important}
+#binder.binder-studio .binderChromeV147{padding:0!important;margin:0 0 22px!important;background:none!important;border:0!important;box-shadow:none!important}
+#binder.binder-studio .binderTitleV147 h1{font:850 34px/1.15 system-ui!important;letter-spacing:-1.3px!important;color:#30364a!important;margin:7px 0!important}
+#binder.binder-studio .binderTitleV147 small{font-size:9px!important;letter-spacing:2px!important;color:#9784ad!important}#binder.binder-studio #binderStat{font:12px/1.5 system-ui!important;color:#8690a2!important}
+#binder.binder-studio .binderCashV147{background:#ffffffc7!important;border:1px solid #fff!important;box-shadow:var(--collector-shadow)!important;color:#6e7b91!important}
+#binder.binder-studio .binderCashV147>*{color:#8a78a4!important;background:transparent!important}
+.binder-studio-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:20px}.binder-studio-metrics>div{padding:17px 20px;background:var(--collector-glass);border:1px solid #fff;border-radius:18px;box-shadow:var(--collector-shadow)}.binder-studio-metrics small{display:block;font:800 8px system-ui;letter-spacing:1.1px;color:#91839f}.binder-studio-metrics b{display:block;margin-top:7px;font:800 23px system-ui;color:#65627f;overflow-wrap:anywhere}
+#binder.binder-studio .binderModeTabsV147{display:flex!important;max-width:none!important;width:100%!important;padding:5px!important;background:#ffffffad!important;border:1px solid #fff!important;border-radius:17px!important;margin:0 0 20px!important;box-sizing:border-box}
+#binder.binder-studio .binderModeTabsV147 button{flex:1;background:transparent!important;box-shadow:none!important;color:#8b819c!important;border-color:transparent!important;font-size:10px!important}
+#binder.binder-studio .binderModeTabsV147 button.active{background:#eae3f5!important;color:#6b508a!important}
+.binder-studio-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:16px}.binder-studio-toolbar p{font:11px system-ui;color:#9a91a8}.binder-view-switch{display:flex;gap:6px}.binder-view-switch button{padding:9px 18px;font-size:11px}#binder.binder-studio .binder-view-switch button[aria-pressed=true]{background:#e8e0f4!important;color:#66517f!important}
+#binder.binder-studio .binderShelfHeaderV147{margin:0 0 12px!important;padding:0!important}#binder.binder-studio .binderShelfHeaderV147 small{color:#a08eae!important;font-size:8px!important}#binder.binder-studio #binderThemeNameV147{color:#736981!important;font-size:14px!important}
+.binder-owned-shelf{border:1px solid #fff;border-radius:18px;background:#ffffffa6;margin-bottom:18px;overflow:hidden}.binder-owned-shelf>summary{display:flex;gap:12px;align-items:center;padding:16px 18px;cursor:pointer;font:750 12px system-ui;color:#7a668d;touch-action:manipulation}.binder-owned-shelf>summary span{font:10px system-ui;color:#9a91a6}
+#binder.binder-studio #binderShelfV147{padding:12px!important;margin:0!important;gap:12px!important;background:none!important}#binder.binder-studio .binderShelfItemV147{box-shadow:none!important}
+#binder.binder-studio.binder-gallery .binderScene,#binder.binder-studio.binder-gallery .binderBook,#binder.binder-studio.binder-gallery .binderInside,#binder.binder-studio.binder-gallery .binderPage{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;background:none!important;border:0!important;box-shadow:none!important;transform:none!important;perspective:none!important;opacity:1!important;visibility:visible!important;overflow:visible!important;display:block!important;pointer-events:auto!important}
+#binder.binder-studio.binder-gallery :is(.binderCover,.rings,.closeBinderTab){display:none!important}
+#binder.binder-studio.binder-gallery #binderGrid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important;width:100%!important;padding:0!important;position:relative!important;inset:auto!important;height:auto!important;min-height:0!important;transform:none!important}
+#binder.binder-studio.binder-gallery #binderGrid>.slot{position:relative!important;aspect-ratio:auto!important;height:auto!important;min-height:0!important;padding:12px 12px 0!important;background:var(--collector-glass)!important;border:1px solid #fff!important;border-radius:20px!important;box-shadow:0 10px 30px #80708b12!important;overflow:hidden!important;cursor:pointer;isolation:isolate}
+#binder.binder-studio.binder-gallery #binderGrid>.slot img{display:block;width:100%!important;height:auto!important;aspect-ratio:63/88;object-fit:contain!important;border-radius:12px!important;filter:drop-shadow(0 6px 8px #67587426)}
+#binder.binder-studio.binder-gallery #binderGrid>.emptySlot{aspect-ratio:63/100!important;min-height:130px!important;background:linear-gradient(135deg,#ffffff80,#eae5f180)!important;border:1px dashed #d5cce1!important;opacity:.55!important}
+#binder.binder-studio.binder-gallery #binderGrid>.emptySlot:before{content:'◇'!important;position:absolute;inset:0;display:grid;place-items:center;font:35px system-ui;color:#c1b6d0;background:none!important;animation:none!important}
+.binder-card-caption{display:none}#binder.binder-studio.binder-gallery .binder-card-caption{display:block;padding:14px 2px 16px;position:relative;z-index:4;background:transparent}#binder.binder-studio .binder-card-caption b{display:block;font:750 14px system-ui;color:#575a72;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#binder.binder-studio .binder-card-caption small{display:block;font:10px system-ui;color:#9892a5;margin-top:5px}
+#binder.binder-studio.binder-gallery .qty{top:20px!important;right:20px!important;bottom:auto!important;background:#fffef5e8!important;color:#766284!important;border:1px solid #fff!important;border-radius:20px!important;padding:5px 9px!important;font:750 10px system-ui!important;box-shadow:0 3px 10px #65557326!important}
+#binder.binder-studio .pageControls{position:static!important;margin:22px auto 0!important;padding:0!important;background:none!important;max-width:440px!important}#binder.binder-studio .pageControls span{color:#94869f!important;font-size:12px!important}#binder.binder-studio .pageControls button{width:48px!important;height:44px!important;color:#9376ad!important;font-size:23px!important}
+#binder.binder-studio .binderGestureHintV147{color:#a198ab!important;font-size:10px!important}
+#binder.binder-studio :is(.gradingHeroV147,.vaultHeroV147,.gradingDockV147,.vaultStatsV147,.slabToolsV147){background:var(--collector-glass)!important;border:1px solid #fff!important;border-radius:20px!important;color:#73778c!important;box-shadow:var(--collector-shadow)!important;padding:18px!important}
+#binder.binder-studio :is(.gradingHeroV147,.vaultHeroV147,.gradingDockV147,.vaultStatsV147) :is(h2,b,strong){color:#65627f!important;text-shadow:none!important}#binder.binder-studio :is(.gradingHeroV147,.vaultHeroV147) :is(p,small){color:#9991a6!important}
+#binder.binder-studio :is(.binderFilterCardV147,.inspectCard){background:linear-gradient(135deg,#fffdf4,#efebf9 60%,#eff8fa)!important;border:1px solid #fff!important;border-radius:25px!important;box-shadow:0 30px 100px #34294455!important;color:#555b70!important}
+#binder.binder-studio :is(.binderFilterCardV147,.inspectCard) :is(h3,b,small,.sub,.rar){color:#797089!important;text-shadow:none!important}
+#binder.binder-studio .tools{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important}#binder.binder-studio #search{grid-column:1/-1}
+#binder.binder-studio :is(input:not([type=checkbox]),select){box-sizing:border-box;min-height:44px;border:1px solid #dfdbe7!important;border-radius:12px!important;background:#fff9!important;color:#69667f!important;padding:10px!important;font:12px system-ui!important;min-width:0}
+.binder-duplicate-filter{display:flex;gap:8px;align-items:center;color:#8b7b9b;font:12px system-ui}.binder-duplicate-filter input{accent-color:#a388bc}
+#binder.binder-studio .v254ArtFailurePanel{background:linear-gradient(130deg,#ece5f6f5,#f5f6fcf5)!important;color:#786888!important}
+body:has(#rip.rip-studio.active) .nav,body:has(#binder.binder-studio.active) .nav{opacity:1!important;background:linear-gradient(135deg,#fcfdfff5,#f0edf9f5)!important;border-color:#fff!important;box-shadow:0 8px 30px #80749326!important}
+body:has(#rip.rip-studio.active) .nav button,body:has(#binder.binder-studio.active) .nav button{color:#8c809b!important;text-shadow:none!important}
+body:has(#rip.rip-studio.active) .nav button.active,body:has(#binder.binder-studio.active) .nav button.active{color:#775c98!important;background:#eae3f6!important}
+@media(max-width:700px){
+ html.v100PageScroll body #rip.rip-studio.active,body #rip.rip-studio.active{padding:20px 14px 230px!important}
+ .rip-studio-header{align-items:flex-start;gap:12px;margin-bottom:18px}.rip-studio-tools{flex-direction:column;gap:6px}#rip.rip-studio .rip-studio-header h1{max-width:240px;font-size:29px}.rip-studio-header small{font-size:7px;letter-spacing:1.4px}#rip.rip-studio #gameClockV170{display:flex!important;padding:6px!important;min-height:32px!important}
+ .rip-studio-selection{padding:15px;gap:10px}#rip.rip-studio .rip-studio-selection h2{font-size:20px}.rip-studio-selection button{font-size:10px;padding:10px}.rip-studio-selection small{font-size:8px}.rip-studio-selection p{font-size:9px}
+ #rip.rip-studio #stage{height:400px!important}#rip.rip-studio #pack{width:200px!important}.rip-studio-open{padding:14px;gap:6px 10px}#rip.rip-studio #studioOpenPack{padding:12px 22px!important;font-size:12px}.rip-studio-open small{font-size:8px}.rip-studio-open p{font-size:10px}
+ .studio-set-drawer{padding:10px}.studio-set-card{padding:18px;border-radius:23px}.studio-set-card header h2{font-size:22px}#rip.rip-studio #sets{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}
+ .binder-studio-metrics{grid-template-columns:1fr 1fr;gap:8px}.binder-studio-metrics>div{padding:14px}.binder-studio-metrics b{font-size:21px}.binder-studio-toolbar p{display:none}
+ #binder.binder-studio.binder-gallery #binderGrid{gap:12px!important;grid-template-columns:repeat(2,minmax(0,1fr))!important}#binder.binder-studio.binder-gallery #binderGrid>.slot{padding:8px 8px 0!important;border-radius:15px!important}.binder-card-caption{padding:10px 1px 12px!important}#binder.binder-studio .binder-card-caption b{font-size:11px}#binder.binder-studio .binder-card-caption small{font-size:8px}#binder.binder-studio.binder-gallery .qty{top:14px!important;right:14px!important;padding:4px 6px!important;font-size:9px!important}
+}
+@media(prefers-reduced-motion:reduce){#rip.rip-studio *,#binder.binder-studio *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+html.v158ReducedMotion :is(#rip.rip-studio,#binder.binder-studio) *{animation:none!important;transition:none!important}
+
+/* Keep idle controls in the page flow, above the persistent pack mode. */
+#rip.rip-studio #pack{translate:none!important;animation:collector-pack-float 5s ease-in-out infinite!important;transform:translate(-50%,-50%) rotate(-3deg)!important;height:330px!important;aspect-ratio:auto!important}
+#rip.rip-studio #pack.v91Rip{animation:none!important}
+@keyframes collector-pack-float{0%,100%{transform:translate(-50%,-50%) rotate(-3deg)}50%{transform:translate(-50%,calc(-50% - 8px)) rotate(1deg)}}
+#rip.rip-studio #v253PackHUD{position:relative!important;inset:auto!important;transform:none!important;margin:18px auto 0!important;width:min(100%,440px)!important;box-sizing:border-box}
+body:has(#rip.rip-studio.active) #v114PackMode{position:fixed!important;left:50%!important;top:auto!important;transform:translateX(-50%)!important;width:min(350px,90vw)!important}
+#rip.rip-studio #stage{height:390px!important}
+#rip.rip-studio #pack .foil,#rip.rip-studio #pack .packArt{width:100%!important;height:100%!important;object-fit:fill!important}
+#rip.rip-studio #pack .foil{position:absolute!important;inset:0!important}
+@media(max-width:700px){#rip.rip-studio #pack{height:290px!important}#rip.rip-studio #stage{height:345px!important}}
+
+html body #binder.binder-studio.binder-gallery #binderBook{max-width:none!important;filter:none!important;width:100%!important}
+html body #binder.binder-studio .binderModeV147{max-width:none!important}
+html body #binder.binder-studio.binder-gallery #binderGrid>.emptySlot{display:none!important}
+html body #binder.binder-studio.binder-gallery #binderGrid:not(:has([data-card-id]))>.emptySlot:first-child{display:block!important;grid-column:1/-1;aspect-ratio:auto!important;height:180px!important}
+html body #binder.binder-studio.binder-gallery #binderGrid:not(:has([data-card-id]))>.emptySlot:first-child:before{content:'No cards match this view. Try another filter or open a pack.'!important;font:14px system-ui!important;padding:25px;text-align:center}
+html body #binder.binder-studio.binder-gallery #binderClose,html body #binder.binder-studio.binder-gallery #closeBinder{display:none!important}
+html body #binder.binder-studio.binder-gallery .binderGestureHintV147{display:none!important}
+html body #binder.binder-studio #binderArtworkStatus{margin-bottom:10px!important}
+
+html body #binder.binder-studio.binder-gallery #closeBinderTab{display:none!important}
+html body #binder.binder-studio .inspectCard button{background:var(--collector-glass)!important;color:#736084!important;border:1px solid #fff!important;box-shadow:var(--collector-shadow)!important}
+@media(max-width:700px){
+ .rip-studio-header{display:block;margin-bottom:16px}.rip-studio-tools{flex-direction:row;justify-content:space-between;margin-top:14px}#rip.rip-studio .rip-studio-header h1{max-width:none;font-size:28px;letter-spacing:-1px}.rip-studio-header small{white-space:nowrap}
+ #binder.binder-studio .binderTitleV147 h1{font-size:25px!important;letter-spacing:-.8px!important}#binder.binder-studio .binderTitleV147{min-width:0!important;max-width:none!important}
+ .binder-studio-metrics{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;margin-bottom:14px}.binder-studio-metrics>div{padding:12px 7px;border-radius:13px}.binder-studio-metrics small{font-size:6px;letter-spacing:.4px}.binder-studio-metrics b{font-size:16px}
+ .binder-studio-toolbar{margin-bottom:10px}.binder-owned-shelf>summary{padding:13px;font-size:10px}.binder-owned-shelf>summary span{font-size:8px}
+}
+
+html body:has(#rip.rip-studio.active) #v114PackMode{z-index:100!important}
+html body #rip.rip-studio{isolation:auto!important}
+html body #rip.rip-studio .rip-studio-backdrop{z-index:0}
+html body #rip.rip-studio .layout{position:relative;z-index:1}
+html body:has(#studioSetDrawer:not([hidden])) #v114PackMode,html body:has(#starterGuideV199.show) #v114PackMode{visibility:hidden!important;pointer-events:none!important}
+
+/* Once the foil is torn, give the cards the whole viewport. */
+html body #rip.rip-studio.studio-opening.active{position:fixed!important;inset:0!important;height:100dvh!important;padding:0!important;overflow:hidden!important}
+#rip.rip-studio.studio-opening>.rip-studio-header,#rip.rip-studio.studio-opening>.rip-studio-selection{visibility:hidden!important}
+html body #rip.rip-studio.studio-opening #stage{position:fixed!important;inset:0!important;height:100dvh!important;width:100vw!important}
+body:has(#rip.rip-studio.studio-opening) .nav{opacity:0!important;pointer-events:none!important}
+#rip.rip-studio #v253TenTools{position:fixed!important;left:50%!important;top:auto!important;bottom:max(45px,8vh)!important;transform:translateX(-50%)!important;z-index:120!important}
+body:has(#rip #v88Summary.v253SummaryActive) .nav{opacity:0!important;pointer-events:none!important}
+html body #rip.rip-studio #v88Summary{z-index:500!important}
+
+html body #binder.binder-studio.binder-gallery #binderBook .pageControls,html body #binder.binder-studio.binder-gallery #binderBook .pageControls button{pointer-events:auto!important}
+html body #binder.binder-studio.binder-gallery #binderBook #closeBinderTab{display:none!important}
+
+html body #binder.binder-studio.binder-gallery .pageControlsV147,html body #binder.binder-studio.binder-gallery #prevPage,html body #binder.binder-studio.binder-gallery #nextPage{pointer-events:auto!important;opacity:1!important}
