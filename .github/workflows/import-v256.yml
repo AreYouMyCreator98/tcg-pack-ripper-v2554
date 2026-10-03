@@ -1,0 +1,60 @@
+name: Import and validate V256
+on:
+  push:
+    branches: [release/v256-trade-hub]
+    paths: [.github/workflows/import-v256.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: release/v256-trade-hub
+      - name: Verify and import reviewed source
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import hashlib, io, json, subprocess, zipfile
+          root = Path.cwd().resolve()
+          data = Path('tcg-pack-ripper-v256-source.zip').read_bytes()
+          assert hashlib.sha256(data).hexdigest() == '6596e3891c720db1cbabb63271e44a2b95defc2d9054100896d1077bb8cff2ca'
+          files = {}
+          with zipfile.ZipFile(io.BytesIO(data)) as archive:
+              assert archive.testzip() is None
+              for name in archive.namelist():
+                  parts = PurePosixPath(name).parts
+                  assert parts[0] == 'tcg-pack-ripper-v256'
+                  assert len(parts) > 1 and not any(p in ('..', '.git', 'node_modules', 'dist', 'deploy') for p in parts)
+                  rel = PurePosixPath(*parts[1:]).as_posix()
+                  assert (root / rel).resolve().is_relative_to(root)
+                  assert not Path(rel).name.startswith('.env') or rel == '.env.example'
+                  files[rel] = archive.read(name)
+          assert json.loads(files['package.json'])['version'] == '0.256.0'
+          for rel in subprocess.check_output(['git','ls-files','-z']).decode().split('\0'):
+              if rel and rel not in files:
+                  target = (root / rel).resolve()
+                  assert target.is_relative_to(root)
+                  target.unlink()
+          for rel, data in files.items():
+              target = root / rel
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(data)
+          print(f'Imported {len(files)} verified source files')
+          PY
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.19.0
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm run release:check
+      - name: Commit validated source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Rebuild Trade Hub for V256 with verified transactions and ranked battles'
+          git push origin HEAD:release/v256-trade-hub
