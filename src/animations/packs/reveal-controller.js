@@ -1,4 +1,5 @@
 import { revealProfile } from './reveal-profile.js';
+import { cinematicProfile } from './cinematic-profile.js';
 
 const FAST_KEY = 'tcgFastRevealV253';
 const STACK_CLASSES = [
@@ -10,6 +11,7 @@ function ensureFxRoot() {
   if (root) return root;
   root = document.createElement('div');
   root.id = 'v254RevealFX';
+  root.setAttribute('aria-hidden', 'true');
   root.innerHTML = `
     <div class="v254FxBackdrop"></div>
     <div class="v254FxFlash"></div>
@@ -17,6 +19,8 @@ function ensureFxRoot() {
     <div class="v254FxRays"></div>
     <div class="v254FxBolts"></div>
     <div class="v254FxParticles"></div>
+    <div class="collectorFxRings"></div>
+    <div class="collectorFxAurora"></div>
     <div class="v254FxBadge"><span></span></div>`;
   document.body.appendChild(root);
   return root;
@@ -27,6 +31,7 @@ function clearFx(root = ensureFxRoot()) {
   root.dataset.v254Effect = '';
   root.querySelector('.v254FxParticles').innerHTML = '';
   root.querySelector('.v254FxBolts').innerHTML = '';
+  root.querySelector('.collectorFxRings').innerHTML = '';
 }
 
 function spawnParticles(root, profile) {
@@ -50,11 +55,10 @@ function spawnParticles(root, profile) {
 function spawnBolts(root, profile) {
   const host = root.querySelector('.v254FxBolts');
   host.innerHTML = '';
-  if (!(profile.effect === 'chase' || profile.effect === 'apex' || profile.effect === 'god')) return;
-  const count = profile.effect === 'god' ? 4 : profile.effect === 'apex' ? 3 : 2;
+  const count = profile.bolts || 0;
   for (let i = 0; i < count; i++) {
     const bolt = document.createElement('i');
-    bolt.style.setProperty('--x', `${18 + Math.random() * 64}%`);
+    bolt.style.setProperty('--x', `${i % 2 ? 80 + Math.random() * 12 : 8 + Math.random() * 12}%`);
     bolt.style.setProperty('--rot', `${-14 + Math.random() * 28}deg`);
     bolt.style.setProperty('--delay', `${(i * 0.06).toFixed(2)}s`);
     host.appendChild(bolt);
@@ -75,17 +79,19 @@ export function installRevealController(target = window) {
   const originalHero = typeof target.v128PlayHero === 'function' ? target.v128PlayHero : null;
   const originalRare = typeof target.v125ForceRareReveal === 'function' ? target.v125ForceRareReveal : null;
   let clearTimer = null;
+  let readyFrame = 0, serial = 0;
+  const reduced = () => document.documentElement.classList.contains('v158ReducedMotion') || !!target.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
   if (originalHero) {
     target.v128PlayHero = function(card) {
-      if (fast) return false;
+      if (fast || reduced()) return false;
       return originalHero.apply(this, arguments);
     };
   }
 
   if (originalRare) {
     target.v125ForceRareReveal = function(card, stack) {
-      if (!fast) return originalRare.apply(this, arguments);
+      if (!fast && !reduced()) return originalRare.apply(this, arguments);
       const st = stack || document.getElementById('stack');
       if (!st) return;
       target.v124RareLockUntil = Date.now() + 220;
@@ -95,6 +101,9 @@ export function installRevealController(target = window) {
   }
 
   function cleanupVisuals() {
+    serial++;
+    clearTimeout(clearTimer);
+    target.cancelAnimationFrame(readyFrame);
     const stack = document.getElementById('stack');
     if (stack) stack.classList.remove(...STACK_CLASSES);
     clearFx();
@@ -106,7 +115,7 @@ export function installRevealController(target = window) {
     const stack = document.getElementById('stack');
     const img = document.getElementById('cardImg');
     if (!card || !stack) return;
-    const profile = revealProfile(card);
+    const profile = cinematicProfile(card, { fast, reduced: reduced(), compact: target.innerWidth < 700 });
     const fx = ensureFxRoot();
     stack.classList.remove(...STACK_CLASSES);
     stack.classList.add('v254RevealStage', `v254-${profile.effect}`);
@@ -120,21 +129,47 @@ export function installRevealController(target = window) {
     fx.classList.remove('v254-active');
     void fx.offsetWidth;
     fx.querySelector('.v254FxBadge span').textContent = profile.badge ? profile.label : '';
-    spawnParticles(fx, fast ? { ...profile, particles: Math.max(4, Math.floor((profile.particles || 0) * 0.45)) } : profile);
+    fx.dataset.quiet = String(profile.quiet);
+    spawnParticles(fx, profile);
     spawnBolts(fx, profile);
+    const rings = fx.querySelector('.collectorFxRings');
+    rings.innerHTML = '';
+    for(let i=0;i<profile.rings;i++){
+      const ring=document.createElement('i');
+      ring.style.setProperty('--delay', `${i*.14}s`);
+      rings.appendChild(ring);
+    }
     fx.classList.add('v254-active');
-    vibrate(profile, fast);
+    vibrate(profile, profile.quiet);
 
     clearTimeout(clearTimer);
     clearTimer = setTimeout(() => clearFx(fx), Math.max(260, fast ? 360 : profile.duration));
   }
 
+  // Match the effect to the decoded card, never the previous image still on screen.
+  function awaitCard(detail) {
+    cleanupVisuals();
+    const token=serial, started=Date.now();
+    const poll=()=>{
+      if(token!==serial || document.hidden) return;
+      const stack=document.getElementById('stack'), hero=document.getElementById('v128Hero');
+      const key=`${detail.card?.id||''}|${detail.card?.set||''}|${detail.card?.number||''}|${detail.card?.name||''}`;
+      const heroReady=hero?.dataset.cardKey===key && hero.classList.contains('play');
+      if(heroReady || (!target.v128HeroPlaying && stack?.dataset.faceReady==='1')) { paint(detail);return; }
+      if(Date.now()-started<8000) readyFrame=target.requestAnimationFrame(poll);
+    };
+    readyFrame=target.requestAnimationFrame(poll);
+  }
+
   target.addEventListener('tcg:card-reveal-start', cleanupVisuals);
-  target.addEventListener('tcg:card-reveal', event => paint(event.detail));
+  target.addEventListener('tcg:card-reveal', event => awaitCard(event.detail));
   target.addEventListener('tcg:pack-summary', () => cleanupVisuals());
   target.addEventListener('tcg:pack-open-start', () => cleanupVisuals());
+  document.addEventListener('visibilitychange', () => { if(document.hidden) cleanupVisuals(); });
+  document.addEventListener('click', event => { if(event.target.closest?.('.nav button')) cleanupVisuals(); });
 
   function setFast(next) {
+    cleanupVisuals();
     fast = !!next;
     document.documentElement.classList.toggle('v254FastReveal', fast);
     try { localStorage.setItem(FAST_KEY, fast ? '1' : '0'); } catch {}
