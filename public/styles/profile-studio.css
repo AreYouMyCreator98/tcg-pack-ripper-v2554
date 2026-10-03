@@ -15,9 +15,9 @@ html.v100PageScroll body #profile.profile-studio.active,body #profile.profile-st
 #profile.profile-studio .profileChromeV158 small,.studio-section-heading small{font-size:9px;letter-spacing:2px;font-weight:800;color:#9584b4!important}
 #profile.profile-studio #profileHeaderSubV158{font-size:11px!important;color:var(--studio-muted)!important;margin:5px 0 0!important}
 #profile.profile-studio #openProfileSettingsV158{width:44px;min-width:44px;height:44px;font-size:21px}
-#profile.profile-studio :is(button,input,select){font:inherit;max-width:100%;touch-action:manipulation}
+#profile.profile-studio :is(button,input,select,summary){font:inherit;max-width:100%;touch-action:manipulation}
 #profile.profile-studio button{min-height:42px;border:1px solid #fff!important;background:var(--studio-glass)!important;color:#536078!important;box-shadow:var(--studio-shadow)!important;border-radius:13px!important;padding:10px 13px;font-size:11px;font-weight:750;letter-spacing:0!important;cursor:pointer;text-shadow:none!important;transition:transform .15s,box-shadow .15s,background .15s;white-space:normal}
-#profile.profile-studio button:hover:not(:disabled){box-shadow:0 6px 18px #8d80aa20,inset 0 1px 0 #fff!important;transform:translateY(-1px)}
+@media(hover:hover) and (pointer:fine){#profile.profile-studio button:hover:not(:disabled){box-shadow:0 6px 18px #8d80aa20,inset 0 1px 0 #fff!important;transform:translateY(-1px)}}
 #profile.profile-studio button:active:not(:disabled){transform:translateY(1px)}
 #profile.profile-studio button:disabled{opacity:.45;cursor:default}
 #profile.profile-studio :is(button,input,select,summary):focus-visible{outline:3px solid #9d89c6!important;outline-offset:3px}
@@ -288,3 +288,5 @@ html.studio-profile-active body:has(#profile.profile-studio.active) .nav button.
 #settings.studio-settings :is(button,input,summary):focus-visible{outline:3px solid #a48bbf;outline-offset:2px}
 #settings.studio-settings .cloudNoteV190{font-size:10px!important}
 @media(max-width:400px){#settings.studio-settings .settingsCardV158{padding:15px!important}}
+
+#settings.studio-settings :is(button,summary){touch-action:manipulation}
