@@ -52,3 +52,7 @@ html body #rip.rip-studio .rip-studio-stage{backdrop-filter:none!important;-webk
 
 /* Preserve the hit target when the shared button :active animation runs. */
 html body #studioExtract,html body #studioCollect{transform:translateX(-50%)!important;background:linear-gradient(120deg,#fffdf1f2,#ece5faf2)!important;color:#735d8d!important;border:1px solid #fff!important}
+
+/* The legacy hero card uses layer 12000; surround it with the new effects. */
+#v254RevealFX{z-index:13000!important}
+#v128Hero.v145Hyper:before{inset:-45px!important;width:auto!important;height:auto!important;aspect-ratio:auto!important;transform:none!important;border-radius:0!important;box-shadow:none!important;z-index:-1!important;animation:none!important;opacity:1!important}
