@@ -1293,7 +1293,7 @@ function renderBulkV64(){
  const hintEl=document.getElementById('bulkHintV150');if(hintEl)hintEl.textContent=copies?'Drag cards around • press and hold to inspect':'Rip a few packs and your loose cards will appear here';
  tub.innerHTML='';
  tub.classList.toggle('bulkEmptyV102',copies===0);tub.classList.toggle('bulkEmptyV150',copies===0);
- const sellBtnV102=document.getElementById('sellBulkTubV64');if(sellBtnV102){sellBtnV102.disabled=copies===0;sellBtnV102.textContent=copies?`SELL BULK • ${copies} • $${totalValue.toFixed(2)}`:'SELL BULK • EMPTY'}
+ const sellBtnV102=document.getElementById('sellBulkTubV64');if(sellBtnV102){sellBtnV102.disabled=copies===0;sellBtnV102.textContent=copies?`Review bulk sale · ${copies} cards`:'Tub empty'}
  if(!cards.length){tub.innerHTML='<div class="bulkEmptySceneV150"><div class="bulkEmptyCopyV150"><b>BULK STORAGE EMPTY</b><span>Keep ripping and your commons, uncommons and extras will land here.</span></div></div>';return}
  if(bulkSortV151==='stacks')cards=cards.slice().sort((a,b)=>Number(b.qty||0)-Number(a.qty||0)||String(a.name).localeCompare(String(b.name)));
  else if(bulkSortV151==='value')cards=cards.slice().sort((a,b)=>(sellPrice(b)*Number(b.qty||0))-(sellPrice(a)*Number(a.qty||0)));
