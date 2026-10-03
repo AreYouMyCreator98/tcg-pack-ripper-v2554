@@ -4,6 +4,14 @@
 #earn>.exchangeV154:not([hidden]){margin:0 auto 110px;max-width:1180px;padding:20px;border-radius:24px;background:#eef3fa;color:#17243b}
 .trade-hub{--hub-border:#ffffff16;--hub-muted:#a0aec4;--hub-accent:#9df0d2;font:400 15px/1.5 system-ui,sans-serif;max-width:1240px;padding:32px 32px 120px;margin:auto;box-sizing:border-box;color:#edf1ff;min-height:100%;text-align:left}
 .trade-hub *{box-sizing:border-box}
+/* Older global theme rules use !important; contain their overrides at this boundary. */
+#earn .trade-hub :is(h1,h2,h3,h4,strong,b){color:#edf1ff!important;text-shadow:none!important}
+#earn .trade-hub button{background:var(--hub-button-bg,#243249)!important;color:var(--hub-button-color,#edf1ff)!important;border:1px solid var(--hub-border)!important;border-radius:12px!important;box-shadow:none!important;backdrop-filter:none!important}
+#earn .trade-hub button:hover{--hub-button-bg:#33465f}
+#earn .trade-hub .hub-tabs button{--hub-button-bg:transparent;--hub-button-color:var(--hub-muted);border-color:transparent!important}
+#earn .trade-hub .hub-tabs button.active{--hub-button-bg:#213f40;--hub-button-color:#bcffdf}
+#earn .trade-hub form>button[type=submit],#earn .trade-hub .hub-feature>button{--hub-button-bg:var(--hub-accent);--hub-button-color:#092621}
+#earn .trade-hub .hub-message button{--hub-button-bg:transparent;--hub-button-color:var(--hub-muted);border-color:transparent!important}
 .trade-hub h1,.trade-hub h2,.trade-hub h3,.trade-hub h4,.trade-hub p{margin:0 0 12px;letter-spacing:normal}
 .trade-hub h1{font-size:clamp(32px,5vw,56px);line-height:1.1;font-weight:800;letter-spacing:-2px}
 .trade-hub h1 span{color:var(--hub-accent)}
