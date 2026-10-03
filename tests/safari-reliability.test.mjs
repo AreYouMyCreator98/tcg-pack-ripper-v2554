@@ -50,6 +50,16 @@ test('pending trade action still permits settings dismissal but blocks account/s
  events.click(event('cloudSyncBtnV190'));assert.equal(blocked,1);
 });
 
+test('keyboard focus wraps past folded settings without targeting their hidden controls',()=>{
+ const {document,window}=parseHTML('<html><body><section id="settings"><div class="settingsCardV158"><button id="closeProfileSettingsV158"></button><details><summary>Data</summary><button id="hiddenAction">Restore</button></details></div></section></body></html>');
+ const root=document.getElementById('settings'),close=document.getElementById('closeProfileSettingsV158'),last=root.querySelector('summary');
+ let focused=close;Object.defineProperty(document,'activeElement',{get:()=>focused});
+ for(const e of root.querySelectorAll('button,summary')){e.getClientRects=()=>[{}];e.focus=()=>{focused=e;};}
+ installSettingsOverlay(document,{MutationObserver:window.MutationObserver,addEventListener:()=>{}});
+ const key=shift=>{const e=new window.Event('keydown',{bubbles:true,cancelable:true});e.key='Tab';e.shiftKey=shift;root.dispatchEvent(e);};
+ key(true);assert.equal(focused,last);key(false);assert.equal(focused,close);
+});
+
 test('touch dismissal works during a pending action, without enabling other settings buttons',()=>{
  const {document}=parseHTML('<html class="hub-transaction-pending"><body><section id="settings" class="studio-settings"><button id="closeProfileSettingsV158"></button><button id="cloudSyncBtnV190"></button></section></body></html>');
  const handlers={};document.addEventListener=(n,fn)=>handlers[n]=fn;
