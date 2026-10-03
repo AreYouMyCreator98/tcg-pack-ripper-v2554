@@ -1,0 +1,3982 @@
+[
+  {
+    "id": "swsh12.5-001",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-001",
+      "name": "Oddish",
+      "number": "001",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/001/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-002",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-002",
+      "name": "Gloom",
+      "number": "002",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/002/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-003",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-003",
+      "name": "Bellossom",
+      "number": "003",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/003/low.webp",
+      "market": 0.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-004",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-004",
+      "name": "Tangela",
+      "number": "004",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/004/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-005",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-005",
+      "name": "Tangrowth",
+      "number": "005",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/005/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-006",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-006",
+      "name": "Scyther",
+      "number": "006",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/006/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-007",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-007",
+      "name": "Sunkern",
+      "number": "007",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-008",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-008",
+      "name": "Yanma",
+      "number": "008",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/008/low.webp",
+      "market": 0.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-009",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-009",
+      "name": "Yanmega",
+      "number": "009",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/009/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-010",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-010",
+      "name": "Kricketot",
+      "number": "010",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-011",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-011",
+      "name": "Cherubi",
+      "number": "011",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/011/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-012",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-012",
+      "name": "Carnivine",
+      "number": "012",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/012/low.webp",
+      "market": 0.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-013",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-013",
+      "name": "Leafeon V",
+      "number": "013",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/013/low.webp",
+      "market": 2.27,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-014",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-014",
+      "name": "Leafeon VSTAR",
+      "number": "014",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/014/low.webp",
+      "market": 3.33,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-015",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-015",
+      "name": "Grubbin",
+      "number": "015",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-016",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-016",
+      "name": "Zarude",
+      "number": "016",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/016/low.webp",
+      "market": 0.32,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-017",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-017",
+      "name": "Calyrex",
+      "number": "017",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/017/low.webp",
+      "market": 0.51,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-018",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-018",
+      "name": "Charizard V",
+      "number": "018",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/018/low.webp",
+      "market": 7.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-019",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-019",
+      "name": "Charizard VSTAR",
+      "number": "019",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/019/low.webp",
+      "market": 10.99,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-020",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-020",
+      "name": "Radiant Charizard",
+      "number": "020",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/020/low.webp",
+      "market": 11.35,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-021",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-021",
+      "name": "Entei",
+      "number": "021",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/021/low.webp",
+      "market": 0.39,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-022",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-022",
+      "name": "Simisear V",
+      "number": "022",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/022/low.webp",
+      "market": 0.85,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-023",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-023",
+      "name": "Simisear VSTAR",
+      "number": "023",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/023/low.webp",
+      "market": 1.37,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-024",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-024",
+      "name": "Larvesta",
+      "number": "024",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/024/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-025",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-025",
+      "name": "Volcarona",
+      "number": "025",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/025/low.webp",
+      "market": 0.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-026",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-026",
+      "name": "Volcanion",
+      "number": "026",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/026/low.webp",
+      "market": 0.3,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-027",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-027",
+      "name": "Salandit",
+      "number": "027",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/027/low.webp",
+      "market": 0.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-028",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-028",
+      "name": "Salazzle",
+      "number": "028",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-029",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-029",
+      "name": "Seel",
+      "number": "029",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-030",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-030",
+      "name": "Galarian Mr. Mime",
+      "number": "030",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-031",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-031",
+      "name": "Wailmer",
+      "number": "031",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-032",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-032",
+      "name": "Wailord",
+      "number": "032",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/032/low.webp",
+      "market": 0.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-033",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-033",
+      "name": "Corphish",
+      "number": "033",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-034",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-034",
+      "name": "Snorunt",
+      "number": "034",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-035",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-035",
+      "name": "Luvdisc",
+      "number": "035",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/035/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-036",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-036",
+      "name": "Kyogre",
+      "number": "036",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/036/low.webp",
+      "market": 0.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-037",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-037",
+      "name": "Kyogre V",
+      "number": "037",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/037/low.webp",
+      "market": 0.89,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-038",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-038",
+      "name": "Glaceon V",
+      "number": "038",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/038/low.webp",
+      "market": 2.37,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-039",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-039",
+      "name": "Shinx",
+      "number": "039",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/039/low.webp",
+      "market": 0.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-040",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-040",
+      "name": "Shinx",
+      "number": "040",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/040/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-041",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-041",
+      "name": "Luxio",
+      "number": "041",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/041/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-042",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-042",
+      "name": "Luxio",
+      "number": "042",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/042/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-043",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-043",
+      "name": "Luxray",
+      "number": "043",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/043/low.webp",
+      "market": 0.26,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-044",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-044",
+      "name": "Luxray",
+      "number": "044",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/044/low.webp",
+      "market": 0.24,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-045",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-045",
+      "name": "Rotom V",
+      "number": "045",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/045/low.webp",
+      "market": 0.79,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-046",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-046",
+      "name": "Rotom VSTAR",
+      "number": "046",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/046/low.webp",
+      "market": 1.38,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-047",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-047",
+      "name": "Emolga",
+      "number": "047",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/047/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-048",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-048",
+      "name": "Eelektrik",
+      "number": "048",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-049",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-049",
+      "name": "Helioptile",
+      "number": "049",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-050",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-050",
+      "name": "Heliolisk",
+      "number": "050",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-051",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-051",
+      "name": "Radiant Charjabug",
+      "number": "051",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/051/low.webp",
+      "market": 0.6,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-052",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-052",
+      "name": "Zeraora",
+      "number": "052",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/052/low.webp",
+      "market": 0.21,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-053",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-053",
+      "name": "Zeraora V",
+      "number": "053",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/053/low.webp",
+      "market": 1.08,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-054",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-054",
+      "name": "Zeraora VMAX",
+      "number": "054",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/054/low.webp",
+      "market": 2.76,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-055",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-055",
+      "name": "Zeraora VSTAR",
+      "number": "055",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/055/low.webp",
+      "market": 1.79,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-056",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-056",
+      "name": "Pincurchin",
+      "number": "056",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-057",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-057",
+      "name": "Exeggcute",
+      "number": "057",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-058",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-058",
+      "name": "Exeggutor",
+      "number": "058",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/058/low.webp",
+      "market": 0.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-059",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-059",
+      "name": "Mewtwo",
+      "number": "059",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/059/low.webp",
+      "market": 2.55,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-060",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-060",
+      "name": "Mew V",
+      "number": "060",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/060/low.webp",
+      "market": 6.52,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-061",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-061",
+      "name": "Girafarig",
+      "number": "061",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-062",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-062",
+      "name": "Lunatone",
+      "number": "062",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-063",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-063",
+      "name": "Dusclops",
+      "number": "063",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-064",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-064",
+      "name": "Tapu Lele",
+      "number": "064",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/064/low.webp",
+      "market": 0.38,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-065",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-065",
+      "name": "Hatterene V",
+      "number": "065",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/065/low.webp",
+      "market": 0.85,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-066",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-066",
+      "name": "Hatterene VMAX",
+      "number": "066",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/066/low.webp",
+      "market": 1.82,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-067",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-067",
+      "name": "Enamorus",
+      "number": "067",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/067/low.webp",
+      "market": 0.21,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-068",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-068",
+      "name": "Graveler",
+      "number": "068",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-069",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-069",
+      "name": "Solrock",
+      "number": "069",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-070",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-070",
+      "name": "Baltoy",
+      "number": "070",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-071",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-071",
+      "name": "Riolu",
+      "number": "071",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/071/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-072",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-072",
+      "name": "Pancham",
+      "number": "072",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-073",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-073",
+      "name": "Rockruff",
+      "number": "073",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/073/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-074",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-074",
+      "name": "Lycanroc",
+      "number": "074",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/074/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-075",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-075",
+      "name": "Koffing",
+      "number": "075",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-076",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-076",
+      "name": "Absol",
+      "number": "076",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/076/low.webp",
+      "market": 0.39,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-077",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-077",
+      "name": "Purrloin",
+      "number": "077",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/077/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-078",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-078",
+      "name": "Liepard",
+      "number": "078",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/078/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-079",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-079",
+      "name": "Krokorok",
+      "number": "079",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-080",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-080",
+      "name": "Pangoro",
+      "number": "080",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/080/low.webp",
+      "market": 0.2,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-081",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-081",
+      "name": "Skrelp",
+      "number": "081",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/081/low.webp",
+      "market": 0.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-082",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-082",
+      "name": "Dragalge",
+      "number": "082",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/082/low.webp",
+      "market": 0.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-083",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-083",
+      "name": "Hoopa",
+      "number": "083",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/083/low.webp",
+      "market": 0.27,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-084",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-084",
+      "name": "Galarian Meowth",
+      "number": "084",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/084/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-085",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-085",
+      "name": "Galarian Perrserker",
+      "number": "085",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/085/low.webp",
+      "market": 0.21,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-086",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-086",
+      "name": "Scizor",
+      "number": "086",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/086/low.webp",
+      "market": 0.2,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-087",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-087",
+      "name": "Aron",
+      "number": "087",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/087/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-088",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-088",
+      "name": "Lairon",
+      "number": "088",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-089",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-089",
+      "name": "Aggron",
+      "number": "089",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/089/low.webp",
+      "market": 0.37,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-090",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-090",
+      "name": "Metang",
+      "number": "090",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/090/low.webp",
+      "market": 0.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-091",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-091",
+      "name": "Pawniard",
+      "number": "091",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-092",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-092",
+      "name": "Pawniard",
+      "number": "092",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/092/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-093",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-093",
+      "name": "Bisharp",
+      "number": "093",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-094",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-094",
+      "name": "Zacian",
+      "number": "094",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/094/low.webp",
+      "market": 0.33,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-095",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-095",
+      "name": "Zacian V",
+      "number": "095",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/095/low.webp",
+      "market": 0.85,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-096",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-096",
+      "name": "Zacian VSTAR",
+      "number": "096",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/096/low.webp",
+      "market": 1.52,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-097",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-097",
+      "name": "Zamazenta",
+      "number": "097",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/097/low.webp",
+      "market": 0.32,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-098",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-098",
+      "name": "Zamazenta V",
+      "number": "098",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/098/low.webp",
+      "market": 0.99,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-099",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-099",
+      "name": "Zamazenta VSTAR",
+      "number": "099",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/099/low.webp",
+      "market": 1.73,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-100",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-100",
+      "name": "Rayquaza V",
+      "number": "100",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/100/low.webp",
+      "market": 1.99,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-101",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-101",
+      "name": "Rayquaza VMAX",
+      "number": "101",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/101/low.webp",
+      "market": 10.4,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-102",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-102",
+      "name": "Rayquaza VMAX",
+      "number": "102",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/102/low.webp",
+      "market": 12.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-103",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-103",
+      "name": "Duraludon V",
+      "number": "103",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/103/low.webp",
+      "market": 0.9,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-104",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-104",
+      "name": "Duraludon VMAX",
+      "number": "104",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/104/low.webp",
+      "market": 1.54,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-105",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-105",
+      "name": "Radiant Eternatus",
+      "number": "105",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/105/low.webp",
+      "market": 0.66,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-106",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-106",
+      "name": "Tauros",
+      "number": "106",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/106/low.webp",
+      "market": 0.2,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-107",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-107",
+      "name": "Ditto",
+      "number": "107",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/107/low.webp",
+      "market": 2.41,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-108",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-108",
+      "name": "Eevee V",
+      "number": "108",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/108/low.webp",
+      "market": 7.08,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-109",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-109",
+      "name": "Snorlax",
+      "number": "109",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/109/low.webp",
+      "market": 2.89,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-110",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-110",
+      "name": "Starly",
+      "number": "110",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-111",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-111",
+      "name": "Bidoof",
+      "number": "111",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/111/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-112",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-112",
+      "name": "Chatot",
+      "number": "112",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/112/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-113",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-113",
+      "name": "Regigigas V",
+      "number": "113",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/113/low.webp",
+      "market": 0.93,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-114",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-114",
+      "name": "Regigigas VSTAR",
+      "number": "114",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/114/low.webp",
+      "market": 1.73,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-115",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-115",
+      "name": "Shaymin",
+      "number": "115",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-116",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-116",
+      "name": "Stoutland V",
+      "number": "116",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/116/low.webp",
+      "market": 0.78,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-117",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-117",
+      "name": "Yungoos",
+      "number": "117",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-118",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-118",
+      "name": "Gumshoos",
+      "number": "118",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/118/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-119",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-119",
+      "name": "Oranguru",
+      "number": "119",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/119/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-120",
+    "set_id": "swsh12.5",
+    "tier": 2,
+    "card": {
+      "id": "swsh12.5-120",
+      "name": "Greedent V",
+      "number": "120",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/120/low.webp",
+      "market": 1.08,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-121",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-121",
+      "name": "Wooloo",
+      "number": "121",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/121/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-122",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-122",
+      "name": "Dubwool",
+      "number": "122",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/122/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-123",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-123",
+      "name": "Bea",
+      "number": "123",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/123/low.webp",
+      "market": 0.39,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-124",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-124",
+      "name": "Bede",
+      "number": "124",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/124/low.webp",
+      "market": 0.37,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-125",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-125",
+      "name": "Crushing Hammer",
+      "number": "125",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/125/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-126",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-126",
+      "name": "Digging Duo",
+      "number": "126",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-127",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-127",
+      "name": "Energy Retrieval",
+      "number": "127",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/127/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-128",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-128",
+      "name": "Energy Search",
+      "number": "128",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/128/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-129",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-129",
+      "name": "Energy Switch",
+      "number": "129",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/129/low.webp",
+      "market": 0.21,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-130",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-130",
+      "name": "Friends in Hisui",
+      "number": "130",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-131",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-131",
+      "name": "Friends in Sinnoh",
+      "number": "131",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/131/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-132",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-132",
+      "name": "Great Ball",
+      "number": "132",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/132/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-133",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-133",
+      "name": "Hop",
+      "number": "133",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/133/low.webp",
+      "market": 0.28,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-134",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-134",
+      "name": "Leon",
+      "number": "134",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/134/low.webp",
+      "market": 0.32,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-135",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-135",
+      "name": "Lost Vacuum",
+      "number": "135",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/135/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-136",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-136",
+      "name": "Nessa",
+      "number": "136",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/136/low.webp",
+      "market": 0.41,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-137",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-137",
+      "name": "Poké Ball",
+      "number": "137",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/137/low.webp",
+      "market": 0.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-138",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-138",
+      "name": "Pokémon Catcher",
+      "number": "138",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-139",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-139",
+      "name": "Potion",
+      "number": "139",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/139/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-140",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-140",
+      "name": "Raihan",
+      "number": "140",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/140/low.webp",
+      "market": 0.36,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-141",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-141",
+      "name": "Rare Candy",
+      "number": "141",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/141/low.webp",
+      "market": 0.24,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-142",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-142",
+      "name": "Rescue Carrier",
+      "number": "142",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/142/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-143",
+    "set_id": "swsh12.5",
+    "tier": 1,
+    "card": {
+      "id": "swsh12.5-143",
+      "name": "Sky Seal Stone",
+      "number": "143",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/143/low.webp",
+      "market": 0.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-144",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-144",
+      "name": "Switch",
+      "number": "144",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/144/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-145",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-145",
+      "name": "Trekking Shoes",
+      "number": "145",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-146",
+    "set_id": "swsh12.5",
+    "tier": 0,
+    "card": {
+      "id": "swsh12.5-146",
+      "name": "Ultra Ball",
+      "number": "146",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/146/low.webp",
+      "market": 0.24,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-147",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-147",
+      "name": "Elesa's Sparkle",
+      "number": "147",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/147/low.webp",
+      "market": 15.09,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-148",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-148",
+      "name": "Friends in Hisui",
+      "number": "148",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/148/low.webp",
+      "market": 6.3,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-149",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-149",
+      "name": "Friends in Sinnoh",
+      "number": "149",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/149/low.webp",
+      "market": 7.95,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-150",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-150",
+      "name": "Professor's Research",
+      "number": "150",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/150/low.webp",
+      "market": 1.86,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-151",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-151",
+      "name": "Volo",
+      "number": "151",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/151/low.webp",
+      "market": 1.98,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-152",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-152",
+      "name": "Grass Energy",
+      "number": "152",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/152/low.webp",
+      "market": 2.76,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-153",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-153",
+      "name": "Fire Energy",
+      "number": "153",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/153/low.webp",
+      "market": 3.07,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-154",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-154",
+      "name": "Water Energy",
+      "number": "154",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/154/low.webp",
+      "market": 4.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-155",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-155",
+      "name": "Lightning Energy",
+      "number": "155",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/155/low.webp",
+      "market": 2.42,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-156",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-156",
+      "name": "Psychic Energy",
+      "number": "156",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/156/low.webp",
+      "market": 3.86,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-157",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-157",
+      "name": "Fighting Energy",
+      "number": "157",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/157/low.webp",
+      "market": 3.93,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-158",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-158",
+      "name": "Darkness Energy",
+      "number": "158",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/158/low.webp",
+      "market": 5.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-159",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "card": {
+      "id": "swsh12.5-159",
+      "name": "Metal Energy",
+      "number": "159",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/159/low.webp",
+      "market": 3.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5-160",
+    "set_id": "swsh12.5",
+    "tier": 5,
+    "card": {
+      "id": "swsh12.5-160",
+      "name": "Pikachu",
+      "number": "160",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/160/low.webp",
+      "market": 44.34,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG01",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG01.ts",
+    "card": {
+      "id": "swsh12.5gg-GG01",
+      "name": "Hisuian Voltorb",
+      "number": "GG01",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG01/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG01/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG02",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG02.ts",
+    "card": {
+      "id": "swsh12.5gg-GG02",
+      "name": "Kricketune",
+      "number": "GG02",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG02/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG02/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG03",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG03.ts",
+    "card": {
+      "id": "swsh12.5gg-GG03",
+      "name": "Magmortar",
+      "number": "GG03",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG03/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG03/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG04",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG04.ts",
+    "card": {
+      "id": "swsh12.5gg-GG04",
+      "name": "Oricorio",
+      "number": "GG04",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG04/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG04/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG05",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG05.ts",
+    "card": {
+      "id": "swsh12.5gg-GG05",
+      "name": "Lapras",
+      "number": "GG05",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG05/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG05/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG06",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG06.ts",
+    "card": {
+      "id": "swsh12.5gg-GG06",
+      "name": "Manaphy",
+      "number": "GG06",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG06/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG06/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG07",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG07.ts",
+    "card": {
+      "id": "swsh12.5gg-GG07",
+      "name": "Keldeo",
+      "number": "GG07",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG07/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG07/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG08",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG08.ts",
+    "card": {
+      "id": "swsh12.5gg-GG08",
+      "name": "Electivire",
+      "number": "GG08",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG08/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG08/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG09",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG09.ts",
+    "card": {
+      "id": "swsh12.5gg-GG09",
+      "name": "Toxtricity",
+      "number": "GG09",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG09/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG09/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG10",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG10.ts",
+    "card": {
+      "id": "swsh12.5gg-GG10",
+      "name": "Mew",
+      "number": "GG10",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG10/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG10/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG11",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG11.ts",
+    "card": {
+      "id": "swsh12.5gg-GG11",
+      "name": "Lunatone",
+      "number": "GG11",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG11/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG11/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG12",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG12.ts",
+    "card": {
+      "id": "swsh12.5gg-GG12",
+      "name": "Deoxys",
+      "number": "GG12",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG12/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG12/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG13",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG13.ts",
+    "card": {
+      "id": "swsh12.5gg-GG13",
+      "name": "Diancie",
+      "number": "GG13",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG13/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG13/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG14",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG14.ts",
+    "card": {
+      "id": "swsh12.5gg-GG14",
+      "name": "Comfey",
+      "number": "GG14",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG14/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG14/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG15",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG15.ts",
+    "card": {
+      "id": "swsh12.5gg-GG15",
+      "name": "Solrock",
+      "number": "GG15",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG15/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG15/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG16",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG16.ts",
+    "card": {
+      "id": "swsh12.5gg-GG16",
+      "name": "Absol",
+      "number": "GG16",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG16/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG16/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG17",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG17.ts",
+    "card": {
+      "id": "swsh12.5gg-GG17",
+      "name": "Thievul",
+      "number": "GG17",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG17/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG17/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG18",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG18.ts",
+    "card": {
+      "id": "swsh12.5gg-GG18",
+      "name": "Magnezone",
+      "number": "GG18",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG18/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG18/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG19",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG19.ts",
+    "card": {
+      "id": "swsh12.5gg-GG19",
+      "name": "Altaria",
+      "number": "GG19",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG19/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG19/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG20",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG20.ts",
+    "card": {
+      "id": "swsh12.5gg-GG20",
+      "name": "Latias",
+      "number": "GG20",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG20/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG20/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG21",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG21.ts",
+    "card": {
+      "id": "swsh12.5gg-GG21",
+      "name": "Hisuian Goodra",
+      "number": "GG21",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG21/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG21/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG22",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG22.ts",
+    "card": {
+      "id": "swsh12.5gg-GG22",
+      "name": "Ditto",
+      "number": "GG22",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG22/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG22/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG23",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG23.ts",
+    "card": {
+      "id": "swsh12.5gg-GG23",
+      "name": "Dunsparce",
+      "number": "GG23",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG23/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG23/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG24",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG24.ts",
+    "card": {
+      "id": "swsh12.5gg-GG24",
+      "name": "Miltank",
+      "number": "GG24",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG24/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG24/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG25",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG25.ts",
+    "card": {
+      "id": "swsh12.5gg-GG25",
+      "name": "Bibarel",
+      "number": "GG25",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG25/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG25/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG26",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG26.ts",
+    "card": {
+      "id": "swsh12.5gg-GG26",
+      "name": "Riolu",
+      "number": "GG26",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG26/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG26/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG27",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG27.ts",
+    "card": {
+      "id": "swsh12.5gg-GG27",
+      "name": "Swablu",
+      "number": "GG27",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG27/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG27/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG28",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG28.ts",
+    "card": {
+      "id": "swsh12.5gg-GG28",
+      "name": "Duskull",
+      "number": "GG28",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG28/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG28/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG29",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG29.ts",
+    "card": {
+      "id": "swsh12.5gg-GG29",
+      "name": "Bidoof",
+      "number": "GG29",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG29/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG29/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG30",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG30.ts",
+    "card": {
+      "id": "swsh12.5gg-GG30",
+      "name": "Pikachu",
+      "number": "GG30",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG30/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG30/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG31",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG31.ts",
+    "card": {
+      "id": "swsh12.5gg-GG31",
+      "name": "Turtwig",
+      "number": "GG31",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG31/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG31/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG32",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG32.ts",
+    "card": {
+      "id": "swsh12.5gg-GG32",
+      "name": "Paras",
+      "number": "GG32",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG32/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG32/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG33",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG33.ts",
+    "card": {
+      "id": "swsh12.5gg-GG33",
+      "name": "Poochyena",
+      "number": "GG33",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG33/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG33/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG34",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG34.ts",
+    "card": {
+      "id": "swsh12.5gg-GG34",
+      "name": "Mareep",
+      "number": "GG34",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG34/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG34/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG35",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG35.ts",
+    "card": {
+      "id": "swsh12.5gg-GG35",
+      "name": "Leafeon VSTAR",
+      "number": "GG35",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG35/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG35/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG36",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG36.ts",
+    "card": {
+      "id": "swsh12.5gg-GG36",
+      "name": "Entei V",
+      "number": "GG36",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG36/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG36/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG37",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG37.ts",
+    "card": {
+      "id": "swsh12.5gg-GG37",
+      "name": "Simisear VSTAR",
+      "number": "GG37",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG37/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG37/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG38",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG38.ts",
+    "card": {
+      "id": "swsh12.5gg-GG38",
+      "name": "Suicune V",
+      "number": "GG38",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG38/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG38/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG39",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG39.ts",
+    "card": {
+      "id": "swsh12.5gg-GG39",
+      "name": "Lumineon V",
+      "number": "GG39",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG39/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG39/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG40",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG40.ts",
+    "card": {
+      "id": "swsh12.5gg-GG40",
+      "name": "Glaceon VSTAR",
+      "number": "GG40",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG40/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG40/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG41",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG41.ts",
+    "card": {
+      "id": "swsh12.5gg-GG41",
+      "name": "Raikou V",
+      "number": "GG41",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG41/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG41/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG42",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG42.ts",
+    "card": {
+      "id": "swsh12.5gg-GG42",
+      "name": "Zeraora VMAX",
+      "number": "GG42",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG42/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG42/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG43",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG43.ts",
+    "card": {
+      "id": "swsh12.5gg-GG43",
+      "name": "Zeraora VSTAR",
+      "number": "GG43",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG43/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG43/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG44",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG44.ts",
+    "card": {
+      "id": "swsh12.5gg-GG44",
+      "name": "Mewtwo VSTAR",
+      "number": "GG44",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG44/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG44/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG45",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG45.ts",
+    "card": {
+      "id": "swsh12.5gg-GG45",
+      "name": "Deoxys VMAX",
+      "number": "GG45",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG45/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG45/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG46",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG46.ts",
+    "card": {
+      "id": "swsh12.5gg-GG46",
+      "name": "Deoxys VSTAR",
+      "number": "GG46",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG46/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG46/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG47",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG47.ts",
+    "card": {
+      "id": "swsh12.5gg-GG47",
+      "name": "Hatterene VMAX",
+      "number": "GG47",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG47/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG47/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG48",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG48.ts",
+    "card": {
+      "id": "swsh12.5gg-GG48",
+      "name": "Zacian V",
+      "number": "GG48",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG48/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG48/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG49",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG49.ts",
+    "card": {
+      "id": "swsh12.5gg-GG49",
+      "name": "Drapion V",
+      "number": "GG49",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG49/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG49/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG50",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG50.ts",
+    "card": {
+      "id": "swsh12.5gg-GG50",
+      "name": "Darkrai VSTAR",
+      "number": "GG50",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG50/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG50/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG51",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG51.ts",
+    "card": {
+      "id": "swsh12.5gg-GG51",
+      "name": "Hisuian Samurott V",
+      "number": "GG51",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG51/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG51/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG52",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG52.ts",
+    "card": {
+      "id": "swsh12.5gg-GG52",
+      "name": "Hisuian Samurott VSTAR",
+      "number": "GG52",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG52/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG52/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG53",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG53.ts",
+    "card": {
+      "id": "swsh12.5gg-GG53",
+      "name": "Hoopa V",
+      "number": "GG53",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG53/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG53/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG54",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG54.ts",
+    "card": {
+      "id": "swsh12.5gg-GG54",
+      "name": "Zamazenta V",
+      "number": "GG54",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG54/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG54/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG55",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG55.ts",
+    "card": {
+      "id": "swsh12.5gg-GG55",
+      "name": "Regigigas VSTAR",
+      "number": "GG55",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG55/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG55/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG56",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG56.ts",
+    "card": {
+      "id": "swsh12.5gg-GG56",
+      "name": "Hisuian Zoroark VSTAR",
+      "number": "GG56",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG56/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG56/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG57",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG57.ts",
+    "card": {
+      "id": "swsh12.5gg-GG57",
+      "name": "Adaman",
+      "number": "GG57",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG57/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG57/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG58",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG58.ts",
+    "card": {
+      "id": "swsh12.5gg-GG58",
+      "name": "Cheren's Care",
+      "number": "GG58",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG58/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG58/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG59",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG59.ts",
+    "card": {
+      "id": "swsh12.5gg-GG59",
+      "name": "Colress's Experiment",
+      "number": "GG59",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG59/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG59/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG60",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG60.ts",
+    "card": {
+      "id": "swsh12.5gg-GG60",
+      "name": "Cynthia's Ambition",
+      "number": "GG60",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG60/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG60/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG61",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG61.ts",
+    "card": {
+      "id": "swsh12.5gg-GG61",
+      "name": "Gardenia's Vigor",
+      "number": "GG61",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG61/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG61/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG62",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG62.ts",
+    "card": {
+      "id": "swsh12.5gg-GG62",
+      "name": "Grant",
+      "number": "GG62",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG62/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG62/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG63",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG63.ts",
+    "card": {
+      "id": "swsh12.5gg-GG63",
+      "name": "Irida",
+      "number": "GG63",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG63/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG63/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG64",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG64.ts",
+    "card": {
+      "id": "swsh12.5gg-GG64",
+      "name": "Melony",
+      "number": "GG64",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG64/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG64/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG65",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG65.ts",
+    "card": {
+      "id": "swsh12.5gg-GG65",
+      "name": "Raihan",
+      "number": "GG65",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG65/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG65/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG66",
+    "set_id": "swsh12.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG66.ts",
+    "card": {
+      "id": "swsh12.5gg-GG66",
+      "name": "Roxanne",
+      "number": "GG66",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG66/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG66/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG67",
+    "set_id": "swsh12.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG67.ts",
+    "card": {
+      "id": "swsh12.5gg-GG67",
+      "name": "Origin Forme Palkia VSTAR",
+      "number": "GG67",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG67/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG67/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG68",
+    "set_id": "swsh12.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG68.ts",
+    "card": {
+      "id": "swsh12.5gg-GG68",
+      "name": "Origin Forme Dialga VSTAR",
+      "number": "GG68",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG68/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG68/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG69",
+    "set_id": "swsh12.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG69.ts",
+    "card": {
+      "id": "swsh12.5gg-GG69",
+      "name": "Giratina VSTAR",
+      "number": "GG69",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG69/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG69/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh12.5gg-GG70",
+    "set_id": "swsh12.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Crown Zenith Galarian Gallery/GG70.ts",
+    "card": {
+      "id": "swsh12.5gg-GG70",
+      "name": "Arceus VSTAR",
+      "number": "GG70",
+      "set": "Crown Zenith",
+      "setId": "swsh12.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG70/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh12.5/GG70/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

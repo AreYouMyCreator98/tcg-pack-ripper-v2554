@@ -10,14 +10,14 @@ const required = [
   'src/packs/index.js','src/packs/pack-engine.js','src/packs/pack-session.js','src/packs/pack-results.js','src/systems/packs.js',
   'src/animations/packs/reveal-controller.js','src/animations/packs/reveal-profile.js',
   'public/runtime/core.js','public/runtime/packs.js','public/runtime/progression.js','public/runtime/pack-bridge.js','public/runtime/binder-bridge.js',
-  'public/runtime/multiplayer.js','public/runtime/ranked.js','public/manifest.webmanifest','public/sw.js','public/assets/manifest.json'
+  'public/runtime/profile-extras.js','src/trade-hub/index.js','public/manifest.webmanifest','public/sw.js','public/assets/manifest.json'
 ];
 let failed = false;
 for (const file of required) {
   try { await access(join(root, file)); }
   catch { console.error(`Missing required file: ${file}`); failed = true; }
 }
-const runtimeFiles = ['core','packs','progression','multiplayer','ranked','rank-frames','special-collection','pack-bridge','binder-bridge'];
+const runtimeFiles = ['core','packs','progression','profile-extras','hub-bridge','rank-frames','special-collection','pack-bridge','binder-bridge'];
 for (const name of runtimeFiles) {
   const path = join(root, `public/runtime/${name}.js`);
   try {

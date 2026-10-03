@@ -1,0 +1,5024 @@
+[
+  {
+    "id": "sv02-001",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/001.ts",
+    "card": {
+      "id": "sv02-001",
+      "name": "Hoppip",
+      "number": "001",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-002",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/002.ts",
+    "card": {
+      "id": "sv02-002",
+      "name": "Skiploom",
+      "number": "002",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-003",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/003.ts",
+    "card": {
+      "id": "sv02-003",
+      "name": "Jumpluff",
+      "number": "003",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-004",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/004.ts",
+    "card": {
+      "id": "sv02-004",
+      "name": "Pineco",
+      "number": "004",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-005",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/005.ts",
+    "card": {
+      "id": "sv02-005",
+      "name": "Forretress ex",
+      "number": "005",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-006",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/006.ts",
+    "card": {
+      "id": "sv02-006",
+      "name": "Heracross",
+      "number": "006",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-007",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/007.ts",
+    "card": {
+      "id": "sv02-007",
+      "name": "Tropius",
+      "number": "007",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-008",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/008.ts",
+    "card": {
+      "id": "sv02-008",
+      "name": "Combee",
+      "number": "008",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-009",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/009.ts",
+    "card": {
+      "id": "sv02-009",
+      "name": "Vespiquen",
+      "number": "009",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-010",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/010.ts",
+    "card": {
+      "id": "sv02-010",
+      "name": "Snover",
+      "number": "010",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-011",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/011.ts",
+    "card": {
+      "id": "sv02-011",
+      "name": "Abomasnow",
+      "number": "011",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-012",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/012.ts",
+    "card": {
+      "id": "sv02-012",
+      "name": "Sprigatito",
+      "number": "012",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-013",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/013.ts",
+    "card": {
+      "id": "sv02-013",
+      "name": "Sprigatito",
+      "number": "013",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-014",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/014.ts",
+    "card": {
+      "id": "sv02-014",
+      "name": "Floragato",
+      "number": "014",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-015",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/015.ts",
+    "card": {
+      "id": "sv02-015",
+      "name": "Meowscarada ex",
+      "number": "015",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-016",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/016.ts",
+    "card": {
+      "id": "sv02-016",
+      "name": "Tarountula",
+      "number": "016",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-017",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/017.ts",
+    "card": {
+      "id": "sv02-017",
+      "name": "Tarountula",
+      "number": "017",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-018",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/018.ts",
+    "card": {
+      "id": "sv02-018",
+      "name": "Spidops",
+      "number": "018",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-019",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/019.ts",
+    "card": {
+      "id": "sv02-019",
+      "name": "Nymble",
+      "number": "019",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-020",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/020.ts",
+    "card": {
+      "id": "sv02-020",
+      "name": "Nymble",
+      "number": "020",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-021",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/021.ts",
+    "card": {
+      "id": "sv02-021",
+      "name": "Lokix",
+      "number": "021",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-022",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/022.ts",
+    "card": {
+      "id": "sv02-022",
+      "name": "Bramblin",
+      "number": "022",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-023",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/023.ts",
+    "card": {
+      "id": "sv02-023",
+      "name": "Bramblin",
+      "number": "023",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-024",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/024.ts",
+    "card": {
+      "id": "sv02-024",
+      "name": "Brambleghast",
+      "number": "024",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-025",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/025.ts",
+    "card": {
+      "id": "sv02-025",
+      "name": "Rellor",
+      "number": "025",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-026",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/026.ts",
+    "card": {
+      "id": "sv02-026",
+      "name": "Rellor",
+      "number": "026",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-027",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/027.ts",
+    "card": {
+      "id": "sv02-027",
+      "name": "Wo-Chien ex",
+      "number": "027",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-028",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/028.ts",
+    "card": {
+      "id": "sv02-028",
+      "name": "Paldean Tauros",
+      "number": "028",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-029",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/029.ts",
+    "card": {
+      "id": "sv02-029",
+      "name": "Fletchinder",
+      "number": "029",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-030",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/030.ts",
+    "card": {
+      "id": "sv02-030",
+      "name": "Talonflame",
+      "number": "030",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-031",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/031.ts",
+    "card": {
+      "id": "sv02-031",
+      "name": "Litleo",
+      "number": "031",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-032",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/032.ts",
+    "card": {
+      "id": "sv02-032",
+      "name": "Pyroar",
+      "number": "032",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-033",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/033.ts",
+    "card": {
+      "id": "sv02-033",
+      "name": "Oricorio",
+      "number": "033",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-034",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/034.ts",
+    "card": {
+      "id": "sv02-034",
+      "name": "Fuecoco",
+      "number": "034",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-035",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/035.ts",
+    "card": {
+      "id": "sv02-035",
+      "name": "Fuecoco",
+      "number": "035",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-036",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/036.ts",
+    "card": {
+      "id": "sv02-036",
+      "name": "Crocalor",
+      "number": "036",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-037",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/037.ts",
+    "card": {
+      "id": "sv02-037",
+      "name": "Skeledirge ex",
+      "number": "037",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-038",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/038.ts",
+    "card": {
+      "id": "sv02-038",
+      "name": "Charcadet",
+      "number": "038",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-039",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/039.ts",
+    "card": {
+      "id": "sv02-039",
+      "name": "Charcadet",
+      "number": "039",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-040",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/040.ts",
+    "card": {
+      "id": "sv02-040",
+      "name": "Chi-Yu ex",
+      "number": "040",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-041",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/041.ts",
+    "card": {
+      "id": "sv02-041",
+      "name": "Paldean Tauros",
+      "number": "041",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-042",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/042.ts",
+    "card": {
+      "id": "sv02-042",
+      "name": "Magikarp",
+      "number": "042",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-043",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/043.ts",
+    "card": {
+      "id": "sv02-043",
+      "name": "Gyarados",
+      "number": "043",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-044",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/044.ts",
+    "card": {
+      "id": "sv02-044",
+      "name": "Marill",
+      "number": "044",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-045",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/045.ts",
+    "card": {
+      "id": "sv02-045",
+      "name": "Azumarill",
+      "number": "045",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-046",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/046.ts",
+    "card": {
+      "id": "sv02-046",
+      "name": "Delibird",
+      "number": "046",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-047",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/047.ts",
+    "card": {
+      "id": "sv02-047",
+      "name": "Luvdisc",
+      "number": "047",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-048",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/048.ts",
+    "card": {
+      "id": "sv02-048",
+      "name": "Eiscue",
+      "number": "048",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-049",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/049.ts",
+    "card": {
+      "id": "sv02-049",
+      "name": "Quaxly",
+      "number": "049",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-050",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/050.ts",
+    "card": {
+      "id": "sv02-050",
+      "name": "Quaxly",
+      "number": "050",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-051",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/051.ts",
+    "card": {
+      "id": "sv02-051",
+      "name": "Quaxwell",
+      "number": "051",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-052",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/052.ts",
+    "card": {
+      "id": "sv02-052",
+      "name": "Quaquaval ex",
+      "number": "052",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-053",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/053.ts",
+    "card": {
+      "id": "sv02-053",
+      "name": "Cetoddle",
+      "number": "053",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-054",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/054.ts",
+    "card": {
+      "id": "sv02-054",
+      "name": "Cetoddle",
+      "number": "054",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-055",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/055.ts",
+    "card": {
+      "id": "sv02-055",
+      "name": "Cetitan",
+      "number": "055",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-056",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/056.ts",
+    "card": {
+      "id": "sv02-056",
+      "name": "Veluza",
+      "number": "056",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-057",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/057.ts",
+    "card": {
+      "id": "sv02-057",
+      "name": "Frigibax",
+      "number": "057",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-058",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/058.ts",
+    "card": {
+      "id": "sv02-058",
+      "name": "Frigibax",
+      "number": "058",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-059",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/059.ts",
+    "card": {
+      "id": "sv02-059",
+      "name": "Arctibax",
+      "number": "059",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-060",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/060.ts",
+    "card": {
+      "id": "sv02-060",
+      "name": "Baxcalibur",
+      "number": "060",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-061",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/061.ts",
+    "card": {
+      "id": "sv02-061",
+      "name": "Chien-Pao ex",
+      "number": "061",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-062",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/062.ts",
+    "card": {
+      "id": "sv02-062",
+      "name": "Pikachu",
+      "number": "062",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-063",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/063.ts",
+    "card": {
+      "id": "sv02-063",
+      "name": "Pikachu ex",
+      "number": "063",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-064",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/064.ts",
+    "card": {
+      "id": "sv02-064",
+      "name": "Raichu",
+      "number": "064",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-065",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/065.ts",
+    "card": {
+      "id": "sv02-065",
+      "name": "Magnemite",
+      "number": "065",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-066",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/066.ts",
+    "card": {
+      "id": "sv02-066",
+      "name": "Voltorb",
+      "number": "066",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-067",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/067.ts",
+    "card": {
+      "id": "sv02-067",
+      "name": "Electrode",
+      "number": "067",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-068",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/068.ts",
+    "card": {
+      "id": "sv02-068",
+      "name": "Shinx",
+      "number": "068",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-069",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/069.ts",
+    "card": {
+      "id": "sv02-069",
+      "name": "Shinx",
+      "number": "069",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-070",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/070.ts",
+    "card": {
+      "id": "sv02-070",
+      "name": "Luxio",
+      "number": "070",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-071",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/071.ts",
+    "card": {
+      "id": "sv02-071",
+      "name": "Luxray",
+      "number": "071",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-072",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/072.ts",
+    "card": {
+      "id": "sv02-072",
+      "name": "Pincurchin",
+      "number": "072",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-073",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/073.ts",
+    "card": {
+      "id": "sv02-073",
+      "name": "Pincurchin",
+      "number": "073",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-074",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/074.ts",
+    "card": {
+      "id": "sv02-074",
+      "name": "Pawmi",
+      "number": "074",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-075",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/075.ts",
+    "card": {
+      "id": "sv02-075",
+      "name": "Pawmo",
+      "number": "075",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-076",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/076.ts",
+    "card": {
+      "id": "sv02-076",
+      "name": "Pawmot",
+      "number": "076",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-077",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/077.ts",
+    "card": {
+      "id": "sv02-077",
+      "name": "Tadbulb",
+      "number": "077",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-078",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/078.ts",
+    "card": {
+      "id": "sv02-078",
+      "name": "Tadbulb",
+      "number": "078",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-079",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/079.ts",
+    "card": {
+      "id": "sv02-079",
+      "name": "Bellibolt ex",
+      "number": "079",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-080",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/080.ts",
+    "card": {
+      "id": "sv02-080",
+      "name": "Wattrel",
+      "number": "080",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-081",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/081.ts",
+    "card": {
+      "id": "sv02-081",
+      "name": "Wattrel",
+      "number": "081",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-082",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/082.ts",
+    "card": {
+      "id": "sv02-082",
+      "name": "Kilowattrel",
+      "number": "082",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-083",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/083.ts",
+    "card": {
+      "id": "sv02-083",
+      "name": "Jigglypuff",
+      "number": "083",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-084",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/084.ts",
+    "card": {
+      "id": "sv02-084",
+      "name": "Wigglytuff",
+      "number": "084",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-085",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/085.ts",
+    "card": {
+      "id": "sv02-085",
+      "name": "Slowpoke",
+      "number": "085",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-086",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/086.ts",
+    "card": {
+      "id": "sv02-086",
+      "name": "Slowking ex",
+      "number": "086",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-087",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/087.ts",
+    "card": {
+      "id": "sv02-087",
+      "name": "Misdreavus",
+      "number": "087",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-088",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/088.ts",
+    "card": {
+      "id": "sv02-088",
+      "name": "Mismagius",
+      "number": "088",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-089",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/089.ts",
+    "card": {
+      "id": "sv02-089",
+      "name": "Spiritomb",
+      "number": "089",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-090",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/090.ts",
+    "card": {
+      "id": "sv02-090",
+      "name": "Gothita",
+      "number": "090",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-091",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/091.ts",
+    "card": {
+      "id": "sv02-091",
+      "name": "Gothorita",
+      "number": "091",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-092",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/092.ts",
+    "card": {
+      "id": "sv02-092",
+      "name": "Gothitelle",
+      "number": "092",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-093",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/093.ts",
+    "card": {
+      "id": "sv02-093",
+      "name": "Dedenne ex",
+      "number": "093",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-094",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/094.ts",
+    "card": {
+      "id": "sv02-094",
+      "name": "Oranguru",
+      "number": "094",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-095",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/095.ts",
+    "card": {
+      "id": "sv02-095",
+      "name": "Sandygast",
+      "number": "095",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-096",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/096.ts",
+    "card": {
+      "id": "sv02-096",
+      "name": "Palossand",
+      "number": "096",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-097",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/097.ts",
+    "card": {
+      "id": "sv02-097",
+      "name": "Mimikyu",
+      "number": "097",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-098",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/098.ts",
+    "card": {
+      "id": "sv02-098",
+      "name": "Ceruledge",
+      "number": "098",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-099",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/099.ts",
+    "card": {
+      "id": "sv02-099",
+      "name": "Rabsca",
+      "number": "099",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-100",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/100.ts",
+    "card": {
+      "id": "sv02-100",
+      "name": "Tinkatink",
+      "number": "100",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-101",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/101.ts",
+    "card": {
+      "id": "sv02-101",
+      "name": "Tinkatink",
+      "number": "101",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-102",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/102.ts",
+    "card": {
+      "id": "sv02-102",
+      "name": "Tinkatink",
+      "number": "102",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-103",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/103.ts",
+    "card": {
+      "id": "sv02-103",
+      "name": "Tinkatuff",
+      "number": "103",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-104",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/104.ts",
+    "card": {
+      "id": "sv02-104",
+      "name": "Tinkatuff",
+      "number": "104",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-105",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/105.ts",
+    "card": {
+      "id": "sv02-105",
+      "name": "Tinkaton",
+      "number": "105",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-106",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/106.ts",
+    "card": {
+      "id": "sv02-106",
+      "name": "Mankey",
+      "number": "106",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-107",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/107.ts",
+    "card": {
+      "id": "sv02-107",
+      "name": "Primeape",
+      "number": "107",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-108",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/108.ts",
+    "card": {
+      "id": "sv02-108",
+      "name": "Paldean Tauros",
+      "number": "108",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-109",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/109.ts",
+    "card": {
+      "id": "sv02-109",
+      "name": "Sudowoodo",
+      "number": "109",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-110",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/110.ts",
+    "card": {
+      "id": "sv02-110",
+      "name": "Larvitar",
+      "number": "110",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-111",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/111.ts",
+    "card": {
+      "id": "sv02-111",
+      "name": "Pupitar",
+      "number": "111",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-112",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/112.ts",
+    "card": {
+      "id": "sv02-112",
+      "name": "Makuhita",
+      "number": "112",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-113",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/113.ts",
+    "card": {
+      "id": "sv02-113",
+      "name": "Hariyama",
+      "number": "113",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-114",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/114.ts",
+    "card": {
+      "id": "sv02-114",
+      "name": "Croagunk",
+      "number": "114",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-115",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/115.ts",
+    "card": {
+      "id": "sv02-115",
+      "name": "Toxicroak",
+      "number": "115",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-116",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/116.ts",
+    "card": {
+      "id": "sv02-116",
+      "name": "Rockruff",
+      "number": "116",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-117",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/117.ts",
+    "card": {
+      "id": "sv02-117",
+      "name": "Lycanroc ex",
+      "number": "117",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-118",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/118.ts",
+    "card": {
+      "id": "sv02-118",
+      "name": "Passimian",
+      "number": "118",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-119",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/119.ts",
+    "card": {
+      "id": "sv02-119",
+      "name": "Falinks",
+      "number": "119",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-120",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/120.ts",
+    "card": {
+      "id": "sv02-120",
+      "name": "Nacli",
+      "number": "120",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-121",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/121.ts",
+    "card": {
+      "id": "sv02-121",
+      "name": "Nacli",
+      "number": "121",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-122",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/122.ts",
+    "card": {
+      "id": "sv02-122",
+      "name": "Naclstack",
+      "number": "122",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-123",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/123.ts",
+    "card": {
+      "id": "sv02-123",
+      "name": "Garganacl",
+      "number": "123",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-124",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/124.ts",
+    "card": {
+      "id": "sv02-124",
+      "name": "Glimmet",
+      "number": "124",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-125",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/125.ts",
+    "card": {
+      "id": "sv02-125",
+      "name": "Glimmet",
+      "number": "125",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-126",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/126.ts",
+    "card": {
+      "id": "sv02-126",
+      "name": "Glimmora",
+      "number": "126",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-127",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/127.ts",
+    "card": {
+      "id": "sv02-127",
+      "name": "Ting-Lu ex",
+      "number": "127",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-128",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/128.ts",
+    "card": {
+      "id": "sv02-128",
+      "name": "Paldean Wooper",
+      "number": "128",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-129",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/129.ts",
+    "card": {
+      "id": "sv02-129",
+      "name": "Paldean Wooper",
+      "number": "129",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-130",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/130.ts",
+    "card": {
+      "id": "sv02-130",
+      "name": "Paldean Clodsire ex",
+      "number": "130",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-131",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/131.ts",
+    "card": {
+      "id": "sv02-131",
+      "name": "Murkrow",
+      "number": "131",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-132",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/132.ts",
+    "card": {
+      "id": "sv02-132",
+      "name": "Honchkrow",
+      "number": "132",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-133",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/133.ts",
+    "card": {
+      "id": "sv02-133",
+      "name": "Sneasel",
+      "number": "133",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-134",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/134.ts",
+    "card": {
+      "id": "sv02-134",
+      "name": "Weavile",
+      "number": "134",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-135",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/135.ts",
+    "card": {
+      "id": "sv02-135",
+      "name": "Tyranitar",
+      "number": "135",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-136",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/136.ts",
+    "card": {
+      "id": "sv02-136",
+      "name": "Sableye",
+      "number": "136",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-137",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/137.ts",
+    "card": {
+      "id": "sv02-137",
+      "name": "Seviper",
+      "number": "137",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-138",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/138.ts",
+    "card": {
+      "id": "sv02-138",
+      "name": "Deino",
+      "number": "138",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-139",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/139.ts",
+    "card": {
+      "id": "sv02-139",
+      "name": "Zweilous",
+      "number": "139",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-140",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/140.ts",
+    "card": {
+      "id": "sv02-140",
+      "name": "Hydreigon",
+      "number": "140",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-141",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/141.ts",
+    "card": {
+      "id": "sv02-141",
+      "name": "Maschiff",
+      "number": "141",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-142",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/142.ts",
+    "card": {
+      "id": "sv02-142",
+      "name": "Maschiff",
+      "number": "142",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-143",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/143.ts",
+    "card": {
+      "id": "sv02-143",
+      "name": "Mabosstiff",
+      "number": "143",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-144",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/144.ts",
+    "card": {
+      "id": "sv02-144",
+      "name": "Shroodle",
+      "number": "144",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-145",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/145.ts",
+    "card": {
+      "id": "sv02-145",
+      "name": "Shroodle",
+      "number": "145",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-146",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/146.ts",
+    "card": {
+      "id": "sv02-146",
+      "name": "Grafaiai",
+      "number": "146",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-147",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/147.ts",
+    "card": {
+      "id": "sv02-147",
+      "name": "Bombirdier",
+      "number": "147",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-148",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/148.ts",
+    "card": {
+      "id": "sv02-148",
+      "name": "Corviknight",
+      "number": "148",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-149",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/149.ts",
+    "card": {
+      "id": "sv02-149",
+      "name": "Cufant",
+      "number": "149",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-150",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/150.ts",
+    "card": {
+      "id": "sv02-150",
+      "name": "Copperajah ex",
+      "number": "150",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-151",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/151.ts",
+    "card": {
+      "id": "sv02-151",
+      "name": "Orthworm",
+      "number": "151",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-152",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/152.ts",
+    "card": {
+      "id": "sv02-152",
+      "name": "Noibat",
+      "number": "152",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-153",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/153.ts",
+    "card": {
+      "id": "sv02-153",
+      "name": "Noivern ex",
+      "number": "153",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-154",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/154.ts",
+    "card": {
+      "id": "sv02-154",
+      "name": "Girafarig",
+      "number": "154",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-155",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/155.ts",
+    "card": {
+      "id": "sv02-155",
+      "name": "Farigiraf",
+      "number": "155",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-156",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/156.ts",
+    "card": {
+      "id": "sv02-156",
+      "name": "Dunsparce",
+      "number": "156",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-157",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/157.ts",
+    "card": {
+      "id": "sv02-157",
+      "name": "Dudunsparce",
+      "number": "157",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-158",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/158.ts",
+    "card": {
+      "id": "sv02-158",
+      "name": "Wingull",
+      "number": "158",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-159",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/159.ts",
+    "card": {
+      "id": "sv02-159",
+      "name": "Pelipper",
+      "number": "159",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-160",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/160.ts",
+    "card": {
+      "id": "sv02-160",
+      "name": "Slakoth",
+      "number": "160",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-161",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/161.ts",
+    "card": {
+      "id": "sv02-161",
+      "name": "Vigoroth",
+      "number": "161",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-162",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/162.ts",
+    "card": {
+      "id": "sv02-162",
+      "name": "Slaking",
+      "number": "162",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-163",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/163.ts",
+    "card": {
+      "id": "sv02-163",
+      "name": "Fletchling",
+      "number": "163",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-164",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/164.ts",
+    "card": {
+      "id": "sv02-164",
+      "name": "Rookidee",
+      "number": "164",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-165",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/165.ts",
+    "card": {
+      "id": "sv02-165",
+      "name": "Corvisquire",
+      "number": "165",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-166",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/166.ts",
+    "card": {
+      "id": "sv02-166",
+      "name": "Tandemaus",
+      "number": "166",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-167",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/167.ts",
+    "card": {
+      "id": "sv02-167",
+      "name": "Tandemaus",
+      "number": "167",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-168",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/168.ts",
+    "card": {
+      "id": "sv02-168",
+      "name": "Maushold",
+      "number": "168",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-169",
+    "set_id": "sv02",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/169.ts",
+    "card": {
+      "id": "sv02-169",
+      "name": "Squawkabilly ex",
+      "number": "169",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-170",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/170.ts",
+    "card": {
+      "id": "sv02-170",
+      "name": "Flamigo",
+      "number": "170",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-171",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/171.ts",
+    "card": {
+      "id": "sv02-171",
+      "name": "Artazon",
+      "number": "171",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-172",
+    "set_id": "sv02",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/172.ts",
+    "card": {
+      "id": "sv02-172",
+      "name": "Boss's Orders",
+      "number": "172",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-173",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/173.ts",
+    "card": {
+      "id": "sv02-173",
+      "name": "Bravery Charm",
+      "number": "173",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-174",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/174.ts",
+    "card": {
+      "id": "sv02-174",
+      "name": "Calamitous Snowy Mountain",
+      "number": "174",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-175",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/175.ts",
+    "card": {
+      "id": "sv02-175",
+      "name": "Calamitous Wasteland",
+      "number": "175",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-176",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/176.ts",
+    "card": {
+      "id": "sv02-176",
+      "name": "Choice Belt",
+      "number": "176",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-177",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/177.ts",
+    "card": {
+      "id": "sv02-177",
+      "name": "Clavell",
+      "number": "177",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-178",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/178.ts",
+    "card": {
+      "id": "sv02-178",
+      "name": "Delivery Drone",
+      "number": "178",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-179",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/179.ts",
+    "card": {
+      "id": "sv02-179",
+      "name": "Dendra",
+      "number": "179",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-180",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/180.ts",
+    "card": {
+      "id": "sv02-180",
+      "name": "Falkner",
+      "number": "180",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-181",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/181.ts",
+    "card": {
+      "id": "sv02-181",
+      "name": "Fighting Au Lait",
+      "number": "181",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-182",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/182.ts",
+    "card": {
+      "id": "sv02-182",
+      "name": "Giacomo",
+      "number": "182",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-183",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/183.ts",
+    "card": {
+      "id": "sv02-183",
+      "name": "Great Ball",
+      "number": "183",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-184",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/184.ts",
+    "card": {
+      "id": "sv02-184",
+      "name": "Grusha",
+      "number": "184",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-185",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/185.ts",
+    "card": {
+      "id": "sv02-185",
+      "name": "Iono",
+      "number": "185",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-186",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/186.ts",
+    "card": {
+      "id": "sv02-186",
+      "name": "Practice Studio",
+      "number": "186",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-187",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/187.ts",
+    "card": {
+      "id": "sv02-187",
+      "name": "Saguaro",
+      "number": "187",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/187/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-188",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/188.ts",
+    "card": {
+      "id": "sv02-188",
+      "name": "Super Rod",
+      "number": "188",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/188/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-189",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/189.ts",
+    "card": {
+      "id": "sv02-189",
+      "name": "Superior Energy Retrieval",
+      "number": "189",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/189/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-190",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/190.ts",
+    "card": {
+      "id": "sv02-190",
+      "name": "Jet Energy",
+      "number": "190",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/190/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-191",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/191.ts",
+    "card": {
+      "id": "sv02-191",
+      "name": "Luminous Energy",
+      "number": "191",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/191/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-192",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/192.ts",
+    "card": {
+      "id": "sv02-192",
+      "name": "Reversal Energy",
+      "number": "192",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/192/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-193",
+    "set_id": "sv02",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/193.ts",
+    "card": {
+      "id": "sv02-193",
+      "name": "Therapeutic Energy",
+      "number": "193",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/193/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-194",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/194.ts",
+    "card": {
+      "id": "sv02-194",
+      "name": "Heracross",
+      "number": "194",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/194/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-195",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/195.ts",
+    "card": {
+      "id": "sv02-195",
+      "name": "Tropius",
+      "number": "195",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/195/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-196",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/196.ts",
+    "card": {
+      "id": "sv02-196",
+      "name": "Sprigatito",
+      "number": "196",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/196/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-197",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/197.ts",
+    "card": {
+      "id": "sv02-197",
+      "name": "Floragato",
+      "number": "197",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/197/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-198",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/198.ts",
+    "card": {
+      "id": "sv02-198",
+      "name": "Bramblin",
+      "number": "198",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/198/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-199",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/199.ts",
+    "card": {
+      "id": "sv02-199",
+      "name": "Fletchinder",
+      "number": "199",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/199/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-200",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/200.ts",
+    "card": {
+      "id": "sv02-200",
+      "name": "Pyroar",
+      "number": "200",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/200/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-201",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/201.ts",
+    "card": {
+      "id": "sv02-201",
+      "name": "Fuecoco",
+      "number": "201",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/201/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-202",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/202.ts",
+    "card": {
+      "id": "sv02-202",
+      "name": "Crocalor",
+      "number": "202",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/202/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-203",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/203.ts",
+    "card": {
+      "id": "sv02-203",
+      "name": "Magikarp",
+      "number": "203",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/203/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-204",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/204.ts",
+    "card": {
+      "id": "sv02-204",
+      "name": "Marill",
+      "number": "204",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/204/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-205",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/205.ts",
+    "card": {
+      "id": "sv02-205",
+      "name": "Eiscue",
+      "number": "205",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/205/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-206",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/206.ts",
+    "card": {
+      "id": "sv02-206",
+      "name": "Quaxly",
+      "number": "206",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/206/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-207",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/207.ts",
+    "card": {
+      "id": "sv02-207",
+      "name": "Quaxwell",
+      "number": "207",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/207/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-208",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/208.ts",
+    "card": {
+      "id": "sv02-208",
+      "name": "Frigibax",
+      "number": "208",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/208/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-209",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/209.ts",
+    "card": {
+      "id": "sv02-209",
+      "name": "Arctibax",
+      "number": "209",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/209/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-210",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/210.ts",
+    "card": {
+      "id": "sv02-210",
+      "name": "Baxcalibur",
+      "number": "210",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/210/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-211",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/211.ts",
+    "card": {
+      "id": "sv02-211",
+      "name": "Raichu",
+      "number": "211",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/211/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-212",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/212.ts",
+    "card": {
+      "id": "sv02-212",
+      "name": "Mismagius",
+      "number": "212",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/212/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-213",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/213.ts",
+    "card": {
+      "id": "sv02-213",
+      "name": "Gothorita",
+      "number": "213",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/213/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-214",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/214.ts",
+    "card": {
+      "id": "sv02-214",
+      "name": "Sandygast",
+      "number": "214",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/214/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-215",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/215.ts",
+    "card": {
+      "id": "sv02-215",
+      "name": "Rabsca",
+      "number": "215",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/215/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-216",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/216.ts",
+    "card": {
+      "id": "sv02-216",
+      "name": "Tinkatink",
+      "number": "216",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/216/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-217",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/217.ts",
+    "card": {
+      "id": "sv02-217",
+      "name": "Tinkatuff",
+      "number": "217",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/217/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/217/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-218",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/218.ts",
+    "card": {
+      "id": "sv02-218",
+      "name": "Paldean Tauros",
+      "number": "218",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/218/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/218/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-219",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/219.ts",
+    "card": {
+      "id": "sv02-219",
+      "name": "Sudowoodo",
+      "number": "219",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/219/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/219/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-220",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/220.ts",
+    "card": {
+      "id": "sv02-220",
+      "name": "Nacli",
+      "number": "220",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/220/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/220/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-221",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/221.ts",
+    "card": {
+      "id": "sv02-221",
+      "name": "Paldean Wooper",
+      "number": "221",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/221/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/221/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-222",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/222.ts",
+    "card": {
+      "id": "sv02-222",
+      "name": "Tyranitar",
+      "number": "222",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/222/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/222/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-223",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/223.ts",
+    "card": {
+      "id": "sv02-223",
+      "name": "Grafaiai",
+      "number": "223",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/223/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/223/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-224",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/224.ts",
+    "card": {
+      "id": "sv02-224",
+      "name": "Orthworm",
+      "number": "224",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/224/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/224/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-225",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/225.ts",
+    "card": {
+      "id": "sv02-225",
+      "name": "Rookidee",
+      "number": "225",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/225/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/225/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-226",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/226.ts",
+    "card": {
+      "id": "sv02-226",
+      "name": "Maushold",
+      "number": "226",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/226/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/226/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-227",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/227.ts",
+    "card": {
+      "id": "sv02-227",
+      "name": "Flamigo",
+      "number": "227",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/227/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/227/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-228",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/228.ts",
+    "card": {
+      "id": "sv02-228",
+      "name": "Farigiraf",
+      "number": "228",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/228/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/228/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-229",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/229.ts",
+    "card": {
+      "id": "sv02-229",
+      "name": "Dudunsparce",
+      "number": "229",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/229/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/229/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-230",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/230.ts",
+    "card": {
+      "id": "sv02-230",
+      "name": "Forretress ex",
+      "number": "230",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/230/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/230/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-231",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/231.ts",
+    "card": {
+      "id": "sv02-231",
+      "name": "Meowscarada ex",
+      "number": "231",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/231/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/231/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-232",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/232.ts",
+    "card": {
+      "id": "sv02-232",
+      "name": "Wo-Chien ex",
+      "number": "232",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/232/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/232/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-233",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/233.ts",
+    "card": {
+      "id": "sv02-233",
+      "name": "Skeledirge ex",
+      "number": "233",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/233/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/233/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-234",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/234.ts",
+    "card": {
+      "id": "sv02-234",
+      "name": "Chi-Yu ex",
+      "number": "234",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/234/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/234/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-235",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/235.ts",
+    "card": {
+      "id": "sv02-235",
+      "name": "Quaquaval ex",
+      "number": "235",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/235/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/235/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-236",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/236.ts",
+    "card": {
+      "id": "sv02-236",
+      "name": "Chien-Pao ex",
+      "number": "236",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/236/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/236/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-237",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/237.ts",
+    "card": {
+      "id": "sv02-237",
+      "name": "Bellibolt ex",
+      "number": "237",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/237/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/237/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-238",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/238.ts",
+    "card": {
+      "id": "sv02-238",
+      "name": "Slowking ex",
+      "number": "238",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/238/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/238/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-239",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/239.ts",
+    "card": {
+      "id": "sv02-239",
+      "name": "Dedenne ex",
+      "number": "239",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/239/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/239/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-240",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/240.ts",
+    "card": {
+      "id": "sv02-240",
+      "name": "Tinkaton ex",
+      "number": "240",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/240/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/240/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-241",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/241.ts",
+    "card": {
+      "id": "sv02-241",
+      "name": "Lycanroc ex",
+      "number": "241",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/241/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/241/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-242",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/242.ts",
+    "card": {
+      "id": "sv02-242",
+      "name": "Annihilape ex",
+      "number": "242",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/242/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/242/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-243",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/243.ts",
+    "card": {
+      "id": "sv02-243",
+      "name": "Ting-Lu ex",
+      "number": "243",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/243/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/243/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-244",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/244.ts",
+    "card": {
+      "id": "sv02-244",
+      "name": "Paldean Clodsire ex",
+      "number": "244",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/244/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/244/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-245",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/245.ts",
+    "card": {
+      "id": "sv02-245",
+      "name": "Copperajah ex",
+      "number": "245",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/245/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/245/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-246",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/246.ts",
+    "card": {
+      "id": "sv02-246",
+      "name": "Noivern ex",
+      "number": "246",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/246/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/246/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-247",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/247.ts",
+    "card": {
+      "id": "sv02-247",
+      "name": "Squawkabilly ex",
+      "number": "247",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/247/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/247/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-248",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/248.ts",
+    "card": {
+      "id": "sv02-248",
+      "name": "Boss's Orders",
+      "number": "248",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/248/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/248/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-249",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/249.ts",
+    "card": {
+      "id": "sv02-249",
+      "name": "Clavell",
+      "number": "249",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/249/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/249/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-250",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/250.ts",
+    "card": {
+      "id": "sv02-250",
+      "name": "Dendra",
+      "number": "250",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/250/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/250/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-251",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/251.ts",
+    "card": {
+      "id": "sv02-251",
+      "name": "Falkner",
+      "number": "251",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/251/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/251/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-252",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/252.ts",
+    "card": {
+      "id": "sv02-252",
+      "name": "Giacomo",
+      "number": "252",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/252/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/252/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-253",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/253.ts",
+    "card": {
+      "id": "sv02-253",
+      "name": "Grusha",
+      "number": "253",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/253/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/253/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-254",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/254.ts",
+    "card": {
+      "id": "sv02-254",
+      "name": "Iono",
+      "number": "254",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/254/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/254/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-255",
+    "set_id": "sv02",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/255.ts",
+    "card": {
+      "id": "sv02-255",
+      "name": "Saguaro",
+      "number": "255",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/255/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/255/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-256",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/256.ts",
+    "card": {
+      "id": "sv02-256",
+      "name": "Meowscarada ex",
+      "number": "256",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/256/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/256/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-257",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/257.ts",
+    "card": {
+      "id": "sv02-257",
+      "name": "Wo-Chien ex",
+      "number": "257",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/257/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/257/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-258",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/258.ts",
+    "card": {
+      "id": "sv02-258",
+      "name": "Skeledirge ex",
+      "number": "258",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/258/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/258/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-259",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/259.ts",
+    "card": {
+      "id": "sv02-259",
+      "name": "Chi-Yu ex",
+      "number": "259",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/259/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/259/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-260",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/260.ts",
+    "card": {
+      "id": "sv02-260",
+      "name": "Quaquaval ex",
+      "number": "260",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/260/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/260/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-261",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/261.ts",
+    "card": {
+      "id": "sv02-261",
+      "name": "Chien-Pao ex",
+      "number": "261",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/261/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/261/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-262",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/262.ts",
+    "card": {
+      "id": "sv02-262",
+      "name": "Tinkaton ex",
+      "number": "262",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/262/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/262/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-263",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/263.ts",
+    "card": {
+      "id": "sv02-263",
+      "name": "Ting-Lu ex",
+      "number": "263",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/263/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/263/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-264",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/264.ts",
+    "card": {
+      "id": "sv02-264",
+      "name": "Squawkabilly ex",
+      "number": "264",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/264/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/264/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-265",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/265.ts",
+    "card": {
+      "id": "sv02-265",
+      "name": "Boss's Orders",
+      "number": "265",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/265/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/265/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-266",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/266.ts",
+    "card": {
+      "id": "sv02-266",
+      "name": "Dendra",
+      "number": "266",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/266/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/266/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-267",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/267.ts",
+    "card": {
+      "id": "sv02-267",
+      "name": "Giacomo",
+      "number": "267",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/267/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/267/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-268",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/268.ts",
+    "card": {
+      "id": "sv02-268",
+      "name": "Grusha",
+      "number": "268",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/268/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/268/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-269",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/269.ts",
+    "card": {
+      "id": "sv02-269",
+      "name": "Iono",
+      "number": "269",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/269/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/269/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-270",
+    "set_id": "sv02",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/270.ts",
+    "card": {
+      "id": "sv02-270",
+      "name": "Saguaro",
+      "number": "270",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/270/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/270/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-271",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/271.ts",
+    "card": {
+      "id": "sv02-271",
+      "name": "Meowscarada ex",
+      "number": "271",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/271/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/271/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-272",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/272.ts",
+    "card": {
+      "id": "sv02-272",
+      "name": "Skeledirge ex",
+      "number": "272",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/272/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/272/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-273",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/273.ts",
+    "card": {
+      "id": "sv02-273",
+      "name": "Quaquaval ex",
+      "number": "273",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/273/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/273/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-274",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/274.ts",
+    "card": {
+      "id": "sv02-274",
+      "name": "Chien-Pao ex",
+      "number": "274",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/274/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/274/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-275",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/275.ts",
+    "card": {
+      "id": "sv02-275",
+      "name": "Ting-Lu ex",
+      "number": "275",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/275/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/275/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-276",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/276.ts",
+    "card": {
+      "id": "sv02-276",
+      "name": "Super Rod",
+      "number": "276",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/276/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/276/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-277",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/277.ts",
+    "card": {
+      "id": "sv02-277",
+      "name": "Superior Energy Retrieval",
+      "number": "277",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/277/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/277/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-278",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/278.ts",
+    "card": {
+      "id": "sv02-278",
+      "name": "Basic Grass Energy",
+      "number": "278",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/278/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/278/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv02-279",
+    "set_id": "sv02",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paldea Evolved/279.ts",
+    "card": {
+      "id": "sv02-279",
+      "name": "Basic Water Energy",
+      "number": "279",
+      "set": "Paldea Evolved",
+      "setId": "sv02",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv02/279/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv02/279/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

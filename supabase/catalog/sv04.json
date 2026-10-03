@@ -1,0 +1,4790 @@
+[
+  {
+    "id": "sv04-001",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/001.ts",
+    "card": {
+      "id": "sv04-001",
+      "name": "Surskit",
+      "number": "001",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-002",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/002.ts",
+    "card": {
+      "id": "sv04-002",
+      "name": "Masquerain",
+      "number": "002",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-003",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/003.ts",
+    "card": {
+      "id": "sv04-003",
+      "name": "Froslass ex",
+      "number": "003",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-004",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/004.ts",
+    "card": {
+      "id": "sv04-004",
+      "name": "Pansage",
+      "number": "004",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-005",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/005.ts",
+    "card": {
+      "id": "sv04-005",
+      "name": "Simisage",
+      "number": "005",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-006",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/006.ts",
+    "card": {
+      "id": "sv04-006",
+      "name": "Dwebble",
+      "number": "006",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-007",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/007.ts",
+    "card": {
+      "id": "sv04-007",
+      "name": "Crustle",
+      "number": "007",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-008",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/008.ts",
+    "card": {
+      "id": "sv04-008",
+      "name": "Bounsweet",
+      "number": "008",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-009",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/009.ts",
+    "card": {
+      "id": "sv04-009",
+      "name": "Steenee",
+      "number": "009",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-010",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/010.ts",
+    "card": {
+      "id": "sv04-010",
+      "name": "Blipbug",
+      "number": "010",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-011",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/011.ts",
+    "card": {
+      "id": "sv04-011",
+      "name": "Dottler",
+      "number": "011",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-012",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/012.ts",
+    "card": {
+      "id": "sv04-012",
+      "name": "Orbeetle",
+      "number": "012",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-013",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/013.ts",
+    "card": {
+      "id": "sv04-013",
+      "name": "Nymble",
+      "number": "013",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-014",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/014.ts",
+    "card": {
+      "id": "sv04-014",
+      "name": "Nymble",
+      "number": "014",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-015",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/015.ts",
+    "card": {
+      "id": "sv04-015",
+      "name": "Toedscool",
+      "number": "015",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-016",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/016.ts",
+    "card": {
+      "id": "sv04-016",
+      "name": "Toedscool",
+      "number": "016",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-017",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/017.ts",
+    "card": {
+      "id": "sv04-017",
+      "name": "Toedscruel",
+      "number": "017",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-018",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/018.ts",
+    "card": {
+      "id": "sv04-018",
+      "name": "Wo-Chien",
+      "number": "018",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-019",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/019.ts",
+    "card": {
+      "id": "sv04-019",
+      "name": "Magby",
+      "number": "019",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-020",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/020.ts",
+    "card": {
+      "id": "sv04-020",
+      "name": "Pansear",
+      "number": "020",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-021",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/021.ts",
+    "card": {
+      "id": "sv04-021",
+      "name": "Simisear",
+      "number": "021",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-022",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/022.ts",
+    "card": {
+      "id": "sv04-022",
+      "name": "Volcanion",
+      "number": "022",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-023",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/023.ts",
+    "card": {
+      "id": "sv04-023",
+      "name": "Fuecoco",
+      "number": "023",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-024",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/024.ts",
+    "card": {
+      "id": "sv04-024",
+      "name": "Crocalor",
+      "number": "024",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-025",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/025.ts",
+    "card": {
+      "id": "sv04-025",
+      "name": "Charcadet",
+      "number": "025",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-026",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/026.ts",
+    "card": {
+      "id": "sv04-026",
+      "name": "Charcadet",
+      "number": "026",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-027",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/027.ts",
+    "card": {
+      "id": "sv04-027",
+      "name": "Armarouge ex",
+      "number": "027",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-028",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/028.ts",
+    "card": {
+      "id": "sv04-028",
+      "name": "Iron Moth",
+      "number": "028",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-029",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/029.ts",
+    "card": {
+      "id": "sv04-029",
+      "name": "Chi-Yu",
+      "number": "029",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-030",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/030.ts",
+    "card": {
+      "id": "sv04-030",
+      "name": "Horsea",
+      "number": "030",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-031",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/031.ts",
+    "card": {
+      "id": "sv04-031",
+      "name": "Seadra",
+      "number": "031",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-032",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/032.ts",
+    "card": {
+      "id": "sv04-032",
+      "name": "Kingdra",
+      "number": "032",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-033",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/033.ts",
+    "card": {
+      "id": "sv04-033",
+      "name": "Remoraid",
+      "number": "033",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-034",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/034.ts",
+    "card": {
+      "id": "sv04-034",
+      "name": "Octillery",
+      "number": "034",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-035",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/035.ts",
+    "card": {
+      "id": "sv04-035",
+      "name": "Feebas",
+      "number": "035",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-036",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/036.ts",
+    "card": {
+      "id": "sv04-036",
+      "name": "Milotic",
+      "number": "036",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-037",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/037.ts",
+    "card": {
+      "id": "sv04-037",
+      "name": "Snorunt",
+      "number": "037",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-038",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/038.ts",
+    "card": {
+      "id": "sv04-038",
+      "name": "Garchomp ex",
+      "number": "038",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-039",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/039.ts",
+    "card": {
+      "id": "sv04-039",
+      "name": "Mantyke",
+      "number": "039",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-040",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/040.ts",
+    "card": {
+      "id": "sv04-040",
+      "name": "Palkia",
+      "number": "040",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-041",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/041.ts",
+    "card": {
+      "id": "sv04-041",
+      "name": "Panpour",
+      "number": "041",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-042",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/042.ts",
+    "card": {
+      "id": "sv04-042",
+      "name": "Simipour",
+      "number": "042",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-043",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/043.ts",
+    "card": {
+      "id": "sv04-043",
+      "name": "Vanillite",
+      "number": "043",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-044",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/044.ts",
+    "card": {
+      "id": "sv04-044",
+      "name": "Vanillish",
+      "number": "044",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-045",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/045.ts",
+    "card": {
+      "id": "sv04-045",
+      "name": "Vanilluxe",
+      "number": "045",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-046",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/046.ts",
+    "card": {
+      "id": "sv04-046",
+      "name": "Tsareena ex",
+      "number": "046",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-047",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/047.ts",
+    "card": {
+      "id": "sv04-047",
+      "name": "Wimpod",
+      "number": "047",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-048",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/048.ts",
+    "card": {
+      "id": "sv04-048",
+      "name": "Wimpod",
+      "number": "048",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-049",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/049.ts",
+    "card": {
+      "id": "sv04-049",
+      "name": "Golisopod",
+      "number": "049",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-050",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/050.ts",
+    "card": {
+      "id": "sv04-050",
+      "name": "Golisopod ex",
+      "number": "050",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-051",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/051.ts",
+    "card": {
+      "id": "sv04-051",
+      "name": "Wiglett",
+      "number": "051",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-052",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/052.ts",
+    "card": {
+      "id": "sv04-052",
+      "name": "Wiglett",
+      "number": "052",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-053",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/053.ts",
+    "card": {
+      "id": "sv04-053",
+      "name": "Wugtrio",
+      "number": "053",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-054",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/054.ts",
+    "card": {
+      "id": "sv04-054",
+      "name": "Veluza",
+      "number": "054",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-055",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/055.ts",
+    "card": {
+      "id": "sv04-055",
+      "name": "Dondozo",
+      "number": "055",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-056",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/056.ts",
+    "card": {
+      "id": "sv04-056",
+      "name": "Iron Bundle",
+      "number": "056",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-057",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/057.ts",
+    "card": {
+      "id": "sv04-057",
+      "name": "Chien-Pao",
+      "number": "057",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-058",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/058.ts",
+    "card": {
+      "id": "sv04-058",
+      "name": "Mewtwo ex",
+      "number": "058",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-059",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/059.ts",
+    "card": {
+      "id": "sv04-059",
+      "name": "Elekid",
+      "number": "059",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-060",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/060.ts",
+    "card": {
+      "id": "sv04-060",
+      "name": "Plusle",
+      "number": "060",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-061",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/061.ts",
+    "card": {
+      "id": "sv04-061",
+      "name": "Minun",
+      "number": "061",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-062",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/062.ts",
+    "card": {
+      "id": "sv04-062",
+      "name": "Blitzle",
+      "number": "062",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-063",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/063.ts",
+    "card": {
+      "id": "sv04-063",
+      "name": "Zebstrika",
+      "number": "063",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-064",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/064.ts",
+    "card": {
+      "id": "sv04-064",
+      "name": "Joltik",
+      "number": "064",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-065",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/065.ts",
+    "card": {
+      "id": "sv04-065",
+      "name": "Galvantula",
+      "number": "065",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-066",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/066.ts",
+    "card": {
+      "id": "sv04-066",
+      "name": "Zekrom",
+      "number": "066",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-067",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/067.ts",
+    "card": {
+      "id": "sv04-067",
+      "name": "Oricorio",
+      "number": "067",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-068",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/068.ts",
+    "card": {
+      "id": "sv04-068",
+      "name": "Tapu Koko ex",
+      "number": "068",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-069",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/069.ts",
+    "card": {
+      "id": "sv04-069",
+      "name": "Toxel",
+      "number": "069",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-070",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/070.ts",
+    "card": {
+      "id": "sv04-070",
+      "name": "Iron Hands ex",
+      "number": "070",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-071",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/071.ts",
+    "card": {
+      "id": "sv04-071",
+      "name": "Natu",
+      "number": "071",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-072",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/072.ts",
+    "card": {
+      "id": "sv04-072",
+      "name": "Xatu",
+      "number": "072",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-073",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/073.ts",
+    "card": {
+      "id": "sv04-073",
+      "name": "Latios",
+      "number": "073",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-074",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/074.ts",
+    "card": {
+      "id": "sv04-074",
+      "name": "Deoxys",
+      "number": "074",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-075",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/075.ts",
+    "card": {
+      "id": "sv04-075",
+      "name": "Yamask",
+      "number": "075",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-076",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/076.ts",
+    "card": {
+      "id": "sv04-076",
+      "name": "Cofagrigus ex",
+      "number": "076",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-077",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/077.ts",
+    "card": {
+      "id": "sv04-077",
+      "name": "Pumpkaboo",
+      "number": "077",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-078",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/078.ts",
+    "card": {
+      "id": "sv04-078",
+      "name": "Gourgeist",
+      "number": "078",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-079",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/079.ts",
+    "card": {
+      "id": "sv04-079",
+      "name": "Flittle",
+      "number": "079",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-080",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/080.ts",
+    "card": {
+      "id": "sv04-080",
+      "name": "Flittle",
+      "number": "080",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-081",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/081.ts",
+    "card": {
+      "id": "sv04-081",
+      "name": "Espathra",
+      "number": "081",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-082",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/082.ts",
+    "card": {
+      "id": "sv04-082",
+      "name": "Tinkatink",
+      "number": "082",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-083",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/083.ts",
+    "card": {
+      "id": "sv04-083",
+      "name": "Tinkatink",
+      "number": "083",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-084",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/084.ts",
+    "card": {
+      "id": "sv04-084",
+      "name": "Tinkatuff",
+      "number": "084",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-085",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/085.ts",
+    "card": {
+      "id": "sv04-085",
+      "name": "Tinkaton",
+      "number": "085",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-086",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/086.ts",
+    "card": {
+      "id": "sv04-086",
+      "name": "Scream Tail",
+      "number": "086",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-087",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/087.ts",
+    "card": {
+      "id": "sv04-087",
+      "name": "Gimmighoul",
+      "number": "087",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-088",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/088.ts",
+    "card": {
+      "id": "sv04-088",
+      "name": "Gimmighoul",
+      "number": "088",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-089",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/089.ts",
+    "card": {
+      "id": "sv04-089",
+      "name": "Iron Valiant ex",
+      "number": "089",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-090",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/090.ts",
+    "card": {
+      "id": "sv04-090",
+      "name": "Onix",
+      "number": "090",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-091",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/091.ts",
+    "card": {
+      "id": "sv04-091",
+      "name": "Gligar",
+      "number": "091",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-092",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/092.ts",
+    "card": {
+      "id": "sv04-092",
+      "name": "Gliscor",
+      "number": "092",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-093",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/093.ts",
+    "card": {
+      "id": "sv04-093",
+      "name": "Groudon",
+      "number": "093",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-094",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/094.ts",
+    "card": {
+      "id": "sv04-094",
+      "name": "Gible",
+      "number": "094",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-095",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/095.ts",
+    "card": {
+      "id": "sv04-095",
+      "name": "Gabite",
+      "number": "095",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-096",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/096.ts",
+    "card": {
+      "id": "sv04-096",
+      "name": "Mienfoo",
+      "number": "096",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-097",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/097.ts",
+    "card": {
+      "id": "sv04-097",
+      "name": "Mienshao",
+      "number": "097",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-098",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/098.ts",
+    "card": {
+      "id": "sv04-098",
+      "name": "Hoopa ex",
+      "number": "098",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-099",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/099.ts",
+    "card": {
+      "id": "sv04-099",
+      "name": "Minior",
+      "number": "099",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-100",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/100.ts",
+    "card": {
+      "id": "sv04-100",
+      "name": "Toxtricity ex",
+      "number": "100",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-101",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/101.ts",
+    "card": {
+      "id": "sv04-101",
+      "name": "Nacli",
+      "number": "101",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-102",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/102.ts",
+    "card": {
+      "id": "sv04-102",
+      "name": "Nacli",
+      "number": "102",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-103",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/103.ts",
+    "card": {
+      "id": "sv04-103",
+      "name": "Naclstack",
+      "number": "103",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-104",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/104.ts",
+    "card": {
+      "id": "sv04-104",
+      "name": "Garganacl",
+      "number": "104",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-105",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/105.ts",
+    "card": {
+      "id": "sv04-105",
+      "name": "Klawf",
+      "number": "105",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-106",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/106.ts",
+    "card": {
+      "id": "sv04-106",
+      "name": "Flamigo",
+      "number": "106",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-107",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/107.ts",
+    "card": {
+      "id": "sv04-107",
+      "name": "Slither Wing",
+      "number": "107",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-108",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/108.ts",
+    "card": {
+      "id": "sv04-108",
+      "name": "Sandy Shocks ex",
+      "number": "108",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-109",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/109.ts",
+    "card": {
+      "id": "sv04-109",
+      "name": "Ting-Lu",
+      "number": "109",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-110",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/110.ts",
+    "card": {
+      "id": "sv04-110",
+      "name": "Zubat",
+      "number": "110",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-111",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/111.ts",
+    "card": {
+      "id": "sv04-111",
+      "name": "Golbat",
+      "number": "111",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-112",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/112.ts",
+    "card": {
+      "id": "sv04-112",
+      "name": "Crobat",
+      "number": "112",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-113",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/113.ts",
+    "card": {
+      "id": "sv04-113",
+      "name": "Absol",
+      "number": "113",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-114",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/114.ts",
+    "card": {
+      "id": "sv04-114",
+      "name": "Purrloin",
+      "number": "114",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-115",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/115.ts",
+    "card": {
+      "id": "sv04-115",
+      "name": "Liepard",
+      "number": "115",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-116",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/116.ts",
+    "card": {
+      "id": "sv04-116",
+      "name": "Trubbish",
+      "number": "116",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-117",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/117.ts",
+    "card": {
+      "id": "sv04-117",
+      "name": "Garbodor",
+      "number": "117",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-118",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/118.ts",
+    "card": {
+      "id": "sv04-118",
+      "name": "Yveltal",
+      "number": "118",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-119",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/119.ts",
+    "card": {
+      "id": "sv04-119",
+      "name": "Nickit",
+      "number": "119",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-120",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/120.ts",
+    "card": {
+      "id": "sv04-120",
+      "name": "Thievul",
+      "number": "120",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-121",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/121.ts",
+    "card": {
+      "id": "sv04-121",
+      "name": "Morpeko",
+      "number": "121",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-122",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/122.ts",
+    "card": {
+      "id": "sv04-122",
+      "name": "Lokix",
+      "number": "122",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-123",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/123.ts",
+    "card": {
+      "id": "sv04-123",
+      "name": "Brute Bonnet",
+      "number": "123",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-124",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/124.ts",
+    "card": {
+      "id": "sv04-124",
+      "name": "Roaring Moon ex",
+      "number": "124",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-125",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/125.ts",
+    "card": {
+      "id": "sv04-125",
+      "name": "Steelix",
+      "number": "125",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-126",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/126.ts",
+    "card": {
+      "id": "sv04-126",
+      "name": "Jirachi",
+      "number": "126",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-127",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/127.ts",
+    "card": {
+      "id": "sv04-127",
+      "name": "Ferroseed",
+      "number": "127",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-128",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/128.ts",
+    "card": {
+      "id": "sv04-128",
+      "name": "Ferrothorn",
+      "number": "128",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-129",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/129.ts",
+    "card": {
+      "id": "sv04-129",
+      "name": "Durant",
+      "number": "129",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-130",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/130.ts",
+    "card": {
+      "id": "sv04-130",
+      "name": "Honedge",
+      "number": "130",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-131",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/131.ts",
+    "card": {
+      "id": "sv04-131",
+      "name": "Honedge",
+      "number": "131",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-132",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/132.ts",
+    "card": {
+      "id": "sv04-132",
+      "name": "Doublade",
+      "number": "132",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-133",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/133.ts",
+    "card": {
+      "id": "sv04-133",
+      "name": "Doublade",
+      "number": "133",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-134",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/134.ts",
+    "card": {
+      "id": "sv04-134",
+      "name": "Aegislash",
+      "number": "134",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-135",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/135.ts",
+    "card": {
+      "id": "sv04-135",
+      "name": "Aegislash ex",
+      "number": "135",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-136",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/136.ts",
+    "card": {
+      "id": "sv04-136",
+      "name": "Zacian",
+      "number": "136",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-137",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/137.ts",
+    "card": {
+      "id": "sv04-137",
+      "name": "Skeledirge ex",
+      "number": "137",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-138",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/138.ts",
+    "card": {
+      "id": "sv04-138",
+      "name": "Orthworm",
+      "number": "138",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-139",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/139.ts",
+    "card": {
+      "id": "sv04-139",
+      "name": "Gholdengo ex",
+      "number": "139",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-140",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/140.ts",
+    "card": {
+      "id": "sv04-140",
+      "name": "Altaria ex",
+      "number": "140",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-141",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/141.ts",
+    "card": {
+      "id": "sv04-141",
+      "name": "Tatsugiri",
+      "number": "141",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-142",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/142.ts",
+    "card": {
+      "id": "sv04-142",
+      "name": "Porygon",
+      "number": "142",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-143",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/143.ts",
+    "card": {
+      "id": "sv04-143",
+      "name": "Porygon2",
+      "number": "143",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-144",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/144.ts",
+    "card": {
+      "id": "sv04-144",
+      "name": "Porygon-Z",
+      "number": "144",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-145",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/145.ts",
+    "card": {
+      "id": "sv04-145",
+      "name": "Aipom",
+      "number": "145",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-146",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/146.ts",
+    "card": {
+      "id": "sv04-146",
+      "name": "Ambipom",
+      "number": "146",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-147",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/147.ts",
+    "card": {
+      "id": "sv04-147",
+      "name": "Miltank",
+      "number": "147",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-148",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/148.ts",
+    "card": {
+      "id": "sv04-148",
+      "name": "Whismur",
+      "number": "148",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-149",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/149.ts",
+    "card": {
+      "id": "sv04-149",
+      "name": "Loudred",
+      "number": "149",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-150",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/150.ts",
+    "card": {
+      "id": "sv04-150",
+      "name": "Exploud",
+      "number": "150",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-151",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/151.ts",
+    "card": {
+      "id": "sv04-151",
+      "name": "Spinda",
+      "number": "151",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-152",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/152.ts",
+    "card": {
+      "id": "sv04-152",
+      "name": "Swablu",
+      "number": "152",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-153",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/153.ts",
+    "card": {
+      "id": "sv04-153",
+      "name": "Tandemaus",
+      "number": "153",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-154",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/154.ts",
+    "card": {
+      "id": "sv04-154",
+      "name": "Tandemaus",
+      "number": "154",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-155",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/155.ts",
+    "card": {
+      "id": "sv04-155",
+      "name": "Maushold ex",
+      "number": "155",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-156",
+    "set_id": "sv04",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/156.ts",
+    "card": {
+      "id": "sv04-156",
+      "name": "Bombirdier ex",
+      "number": "156",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-157",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/157.ts",
+    "card": {
+      "id": "sv04-157",
+      "name": "Cyclizar",
+      "number": "157",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-158",
+    "set_id": "sv04",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/158.ts",
+    "card": {
+      "id": "sv04-158",
+      "name": "Iron Jugulis",
+      "number": "158",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-159",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/159.ts",
+    "card": {
+      "id": "sv04-159",
+      "name": "Ancient Booster Energy Capsule",
+      "number": "159",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-160",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/160.ts",
+    "card": {
+      "id": "sv04-160",
+      "name": "Counter Catcher",
+      "number": "160",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-161",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/161.ts",
+    "card": {
+      "id": "sv04-161",
+      "name": "Cursed Duster",
+      "number": "161",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-162",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/162.ts",
+    "card": {
+      "id": "sv04-162",
+      "name": "Defiance Vest",
+      "number": "162",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-163",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/163.ts",
+    "card": {
+      "id": "sv04-163",
+      "name": "Earthen Vessel",
+      "number": "163",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-164",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/164.ts",
+    "card": {
+      "id": "sv04-164",
+      "name": "Future Booster Energy Capsule",
+      "number": "164",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-165",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/165.ts",
+    "card": {
+      "id": "sv04-165",
+      "name": "Larry",
+      "number": "165",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-166",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/166.ts",
+    "card": {
+      "id": "sv04-166",
+      "name": "Luxurious Cape",
+      "number": "166",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-167",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/167.ts",
+    "card": {
+      "id": "sv04-167",
+      "name": "Mela",
+      "number": "167",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-168",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/168.ts",
+    "card": {
+      "id": "sv04-168",
+      "name": "Norman",
+      "number": "168",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-169",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/169.ts",
+    "card": {
+      "id": "sv04-169",
+      "name": "Parasol Lady",
+      "number": "169",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-170",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/170.ts",
+    "card": {
+      "id": "sv04-170",
+      "name": "Professor Sada's Vitality",
+      "number": "170",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-171",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/171.ts",
+    "card": {
+      "id": "sv04-171",
+      "name": "Professor Turo's Scenario",
+      "number": "171",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-172",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/172.ts",
+    "card": {
+      "id": "sv04-172",
+      "name": "Rika",
+      "number": "172",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-173",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/173.ts",
+    "card": {
+      "id": "sv04-173",
+      "name": "Roark",
+      "number": "173",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-174",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/174.ts",
+    "card": {
+      "id": "sv04-174",
+      "name": "Shauntal",
+      "number": "174",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-175",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/175.ts",
+    "card": {
+      "id": "sv04-175",
+      "name": "Snorlax Doll",
+      "number": "175",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-176",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/176.ts",
+    "card": {
+      "id": "sv04-176",
+      "name": "Technical Machine: Blindside",
+      "number": "176",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-177",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/177.ts",
+    "card": {
+      "id": "sv04-177",
+      "name": "Technical Machine: Devolution",
+      "number": "177",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-178",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/178.ts",
+    "card": {
+      "id": "sv04-178",
+      "name": "Technical Machine: Evolution",
+      "number": "178",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-179",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/179.ts",
+    "card": {
+      "id": "sv04-179",
+      "name": "Technical Machine: Turbo Energize",
+      "number": "179",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-180",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/180.ts",
+    "card": {
+      "id": "sv04-180",
+      "name": "Techno Radar",
+      "number": "180",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-181",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/181.ts",
+    "card": {
+      "id": "sv04-181",
+      "name": "Tulip",
+      "number": "181",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-182",
+    "set_id": "sv04",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/182.ts",
+    "card": {
+      "id": "sv04-182",
+      "name": "Medical Energy",
+      "number": "182",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-183",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/183.ts",
+    "card": {
+      "id": "sv04-183",
+      "name": "Crustle",
+      "number": "183",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-184",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/184.ts",
+    "card": {
+      "id": "sv04-184",
+      "name": "Dottler",
+      "number": "184",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-185",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/185.ts",
+    "card": {
+      "id": "sv04-185",
+      "name": "Toedscruel",
+      "number": "185",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-186",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/186.ts",
+    "card": {
+      "id": "sv04-186",
+      "name": "Magby",
+      "number": "186",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-187",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/187.ts",
+    "card": {
+      "id": "sv04-187",
+      "name": "Iron Moth",
+      "number": "187",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/187/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-188",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/188.ts",
+    "card": {
+      "id": "sv04-188",
+      "name": "Snorunt",
+      "number": "188",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/188/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-189",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/189.ts",
+    "card": {
+      "id": "sv04-189",
+      "name": "Mantyke",
+      "number": "189",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/189/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-190",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/190.ts",
+    "card": {
+      "id": "sv04-190",
+      "name": "Vanillish",
+      "number": "190",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/190/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-191",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/191.ts",
+    "card": {
+      "id": "sv04-191",
+      "name": "Wimpod",
+      "number": "191",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/191/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-192",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/192.ts",
+    "card": {
+      "id": "sv04-192",
+      "name": "Veluza",
+      "number": "192",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/192/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-193",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/193.ts",
+    "card": {
+      "id": "sv04-193",
+      "name": "Plusle",
+      "number": "193",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/193/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-194",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/194.ts",
+    "card": {
+      "id": "sv04-194",
+      "name": "Minun",
+      "number": "194",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/194/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-195",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/195.ts",
+    "card": {
+      "id": "sv04-195",
+      "name": "Blitzle",
+      "number": "195",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/195/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-196",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/196.ts",
+    "card": {
+      "id": "sv04-196",
+      "name": "Joltik",
+      "number": "196",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/196/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-197",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/197.ts",
+    "card": {
+      "id": "sv04-197",
+      "name": "Espathra",
+      "number": "197",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/197/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-198",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/198.ts",
+    "card": {
+      "id": "sv04-198",
+      "name": "Gimmighoul",
+      "number": "198",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/198/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-199",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/199.ts",
+    "card": {
+      "id": "sv04-199",
+      "name": "Groudon",
+      "number": "199",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/199/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-200",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/200.ts",
+    "card": {
+      "id": "sv04-200",
+      "name": "Mienshao",
+      "number": "200",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/200/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-201",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/201.ts",
+    "card": {
+      "id": "sv04-201",
+      "name": "Minior",
+      "number": "201",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/201/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-202",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/202.ts",
+    "card": {
+      "id": "sv04-202",
+      "name": "Garganacl",
+      "number": "202",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/202/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-203",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/203.ts",
+    "card": {
+      "id": "sv04-203",
+      "name": "Slither Wing",
+      "number": "203",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/203/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-204",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/204.ts",
+    "card": {
+      "id": "sv04-204",
+      "name": "Garbodor",
+      "number": "204",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/204/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-205",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/205.ts",
+    "card": {
+      "id": "sv04-205",
+      "name": "Yveltal",
+      "number": "205",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/205/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-206",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/206.ts",
+    "card": {
+      "id": "sv04-206",
+      "name": "Morpeko",
+      "number": "206",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/206/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-207",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/207.ts",
+    "card": {
+      "id": "sv04-207",
+      "name": "Brute Bonnet",
+      "number": "207",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/207/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-208",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/208.ts",
+    "card": {
+      "id": "sv04-208",
+      "name": "Steelix",
+      "number": "208",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/208/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-209",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/209.ts",
+    "card": {
+      "id": "sv04-209",
+      "name": "Ferrothorn",
+      "number": "209",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/209/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-210",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/210.ts",
+    "card": {
+      "id": "sv04-210",
+      "name": "Aegislash",
+      "number": "210",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/210/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-211",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/211.ts",
+    "card": {
+      "id": "sv04-211",
+      "name": "Aipom",
+      "number": "211",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/211/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-212",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/212.ts",
+    "card": {
+      "id": "sv04-212",
+      "name": "Loudred",
+      "number": "212",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/212/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-213",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/213.ts",
+    "card": {
+      "id": "sv04-213",
+      "name": "Swablu",
+      "number": "213",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/213/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-214",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/214.ts",
+    "card": {
+      "id": "sv04-214",
+      "name": "Porygon-Z",
+      "number": "214",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/214/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-215",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/215.ts",
+    "card": {
+      "id": "sv04-215",
+      "name": "Cyclizar",
+      "number": "215",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/215/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-216",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/216.ts",
+    "card": {
+      "id": "sv04-216",
+      "name": "Iron Jugulis",
+      "number": "216",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/216/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-217",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/217.ts",
+    "card": {
+      "id": "sv04-217",
+      "name": "Froslass ex",
+      "number": "217",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/217/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/217/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-218",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/218.ts",
+    "card": {
+      "id": "sv04-218",
+      "name": "Armarouge ex",
+      "number": "218",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/218/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/218/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-219",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/219.ts",
+    "card": {
+      "id": "sv04-219",
+      "name": "Garchomp ex",
+      "number": "219",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/219/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/219/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-220",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/220.ts",
+    "card": {
+      "id": "sv04-220",
+      "name": "Tsareena ex",
+      "number": "220",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/220/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/220/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-221",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/221.ts",
+    "card": {
+      "id": "sv04-221",
+      "name": "Golisopod ex",
+      "number": "221",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/221/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/221/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-222",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/222.ts",
+    "card": {
+      "id": "sv04-222",
+      "name": "Tapu Koko ex",
+      "number": "222",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/222/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/222/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-223",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/223.ts",
+    "card": {
+      "id": "sv04-223",
+      "name": "Iron Hands ex",
+      "number": "223",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/223/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/223/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-224",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/224.ts",
+    "card": {
+      "id": "sv04-224",
+      "name": "Cofagrigus ex",
+      "number": "224",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/224/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/224/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-225",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/225.ts",
+    "card": {
+      "id": "sv04-225",
+      "name": "Iron Valiant ex",
+      "number": "225",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/225/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/225/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-226",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/226.ts",
+    "card": {
+      "id": "sv04-226",
+      "name": "Hoopa ex",
+      "number": "226",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/226/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/226/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-227",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/227.ts",
+    "card": {
+      "id": "sv04-227",
+      "name": "Toxtricity ex",
+      "number": "227",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/227/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/227/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-228",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/228.ts",
+    "card": {
+      "id": "sv04-228",
+      "name": "Sandy Shocks ex",
+      "number": "228",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/228/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/228/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-229",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/229.ts",
+    "card": {
+      "id": "sv04-229",
+      "name": "Roaring Moon ex",
+      "number": "229",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/229/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/229/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-230",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/230.ts",
+    "card": {
+      "id": "sv04-230",
+      "name": "Aegislash ex",
+      "number": "230",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/230/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/230/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-231",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/231.ts",
+    "card": {
+      "id": "sv04-231",
+      "name": "Gholdengo ex",
+      "number": "231",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/231/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/231/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-232",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/232.ts",
+    "card": {
+      "id": "sv04-232",
+      "name": "Altaria ex",
+      "number": "232",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/232/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/232/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-233",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/233.ts",
+    "card": {
+      "id": "sv04-233",
+      "name": "Maushold ex",
+      "number": "233",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/233/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/233/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-234",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/234.ts",
+    "card": {
+      "id": "sv04-234",
+      "name": "Bombirdier ex",
+      "number": "234",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/234/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/234/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-235",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/235.ts",
+    "card": {
+      "id": "sv04-235",
+      "name": "Larry",
+      "number": "235",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/235/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/235/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-236",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/236.ts",
+    "card": {
+      "id": "sv04-236",
+      "name": "Mela",
+      "number": "236",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/236/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/236/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-237",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/237.ts",
+    "card": {
+      "id": "sv04-237",
+      "name": "Norman",
+      "number": "237",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/237/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/237/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-238",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/238.ts",
+    "card": {
+      "id": "sv04-238",
+      "name": "Parasol Lady",
+      "number": "238",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/238/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/238/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-239",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/239.ts",
+    "card": {
+      "id": "sv04-239",
+      "name": "Professor Sada's Vitality",
+      "number": "239",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/239/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/239/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-240",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/240.ts",
+    "card": {
+      "id": "sv04-240",
+      "name": "Professor Turo's Scenario",
+      "number": "240",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/240/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/240/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-241",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/241.ts",
+    "card": {
+      "id": "sv04-241",
+      "name": "Rika",
+      "number": "241",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/241/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/241/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-242",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/242.ts",
+    "card": {
+      "id": "sv04-242",
+      "name": "Roark",
+      "number": "242",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/242/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/242/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-243",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/243.ts",
+    "card": {
+      "id": "sv04-243",
+      "name": "Shauntal",
+      "number": "243",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/243/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/243/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-244",
+    "set_id": "sv04",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/244.ts",
+    "card": {
+      "id": "sv04-244",
+      "name": "Tulip",
+      "number": "244",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/244/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/244/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-245",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/245.ts",
+    "card": {
+      "id": "sv04-245",
+      "name": "Garchomp ex",
+      "number": "245",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/245/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/245/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-246",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/246.ts",
+    "card": {
+      "id": "sv04-246",
+      "name": "Golisopod ex",
+      "number": "246",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/246/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/246/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-247",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/247.ts",
+    "card": {
+      "id": "sv04-247",
+      "name": "Tapu Koko ex",
+      "number": "247",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/247/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/247/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-248",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/248.ts",
+    "card": {
+      "id": "sv04-248",
+      "name": "Iron Hands ex",
+      "number": "248",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/248/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/248/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-249",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/249.ts",
+    "card": {
+      "id": "sv04-249",
+      "name": "Iron Valiant ex",
+      "number": "249",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/249/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/249/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-250",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/250.ts",
+    "card": {
+      "id": "sv04-250",
+      "name": "Sandy Shocks ex",
+      "number": "250",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/250/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/250/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-251",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/251.ts",
+    "card": {
+      "id": "sv04-251",
+      "name": "Roaring Moon ex",
+      "number": "251",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/251/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/251/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-252",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/252.ts",
+    "card": {
+      "id": "sv04-252",
+      "name": "Gholdengo ex",
+      "number": "252",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/252/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/252/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-253",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/253.ts",
+    "card": {
+      "id": "sv04-253",
+      "name": "Altaria ex",
+      "number": "253",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/253/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/253/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-254",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/254.ts",
+    "card": {
+      "id": "sv04-254",
+      "name": "Mela",
+      "number": "254",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/254/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/254/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-255",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/255.ts",
+    "card": {
+      "id": "sv04-255",
+      "name": "Parasol Lady",
+      "number": "255",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/255/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/255/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-256",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/256.ts",
+    "card": {
+      "id": "sv04-256",
+      "name": "Professor Sada's Vitality",
+      "number": "256",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/256/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/256/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-257",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/257.ts",
+    "card": {
+      "id": "sv04-257",
+      "name": "Professor Turo's Scenario",
+      "number": "257",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/257/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/257/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-258",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/258.ts",
+    "card": {
+      "id": "sv04-258",
+      "name": "Rika",
+      "number": "258",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/258/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/258/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-259",
+    "set_id": "sv04",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/259.ts",
+    "card": {
+      "id": "sv04-259",
+      "name": "Tulip",
+      "number": "259",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/259/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/259/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-260",
+    "set_id": "sv04",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/260.ts",
+    "card": {
+      "id": "sv04-260",
+      "name": "Garchomp ex",
+      "number": "260",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/260/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/260/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-261",
+    "set_id": "sv04",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/261.ts",
+    "card": {
+      "id": "sv04-261",
+      "name": "Iron Valiant ex",
+      "number": "261",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/261/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/261/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-262",
+    "set_id": "sv04",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/262.ts",
+    "card": {
+      "id": "sv04-262",
+      "name": "Roaring Moon ex",
+      "number": "262",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/262/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/262/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-263",
+    "set_id": "sv04",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/263.ts",
+    "card": {
+      "id": "sv04-263",
+      "name": "Beach Court",
+      "number": "263",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/263/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/263/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-264",
+    "set_id": "sv04",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/264.ts",
+    "card": {
+      "id": "sv04-264",
+      "name": "Counter Catcher",
+      "number": "264",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/264/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/264/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-265",
+    "set_id": "sv04",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/265.ts",
+    "card": {
+      "id": "sv04-265",
+      "name": "Luxurious Cape",
+      "number": "265",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/265/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/265/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04-266",
+    "set_id": "sv04",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Paradox Rift/266.ts",
+    "card": {
+      "id": "sv04-266",
+      "name": "Reversal Energy",
+      "number": "266",
+      "set": "Paradox Rift",
+      "setId": "sv04",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04/266/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04/266/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

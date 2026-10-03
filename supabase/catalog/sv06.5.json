@@ -1,0 +1,1784 @@
+[
+  {
+    "id": "sv06.5-001",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/001.ts",
+    "card": {
+      "id": "sv06.5-001",
+      "name": "Joltik",
+      "number": "001",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-002",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/002.ts",
+    "card": {
+      "id": "sv06.5-002",
+      "name": "Galvantula",
+      "number": "002",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-003",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/003.ts",
+    "card": {
+      "id": "sv06.5-003",
+      "name": "Rowlet",
+      "number": "003",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-004",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/004.ts",
+    "card": {
+      "id": "sv06.5-004",
+      "name": "Dartrix",
+      "number": "004",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-005",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/005.ts",
+    "card": {
+      "id": "sv06.5-005",
+      "name": "Decidueye",
+      "number": "005",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-006",
+    "set_id": "sv06.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/006.ts",
+    "card": {
+      "id": "sv06.5-006",
+      "name": "Tapu Bulu",
+      "number": "006",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-007",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/007.ts",
+    "card": {
+      "id": "sv06.5-007",
+      "name": "Houndour",
+      "number": "007",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-008",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/008.ts",
+    "card": {
+      "id": "sv06.5-008",
+      "name": "Houndoom",
+      "number": "008",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-009",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/009.ts",
+    "card": {
+      "id": "sv06.5-009",
+      "name": "Iron Moth",
+      "number": "009",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-010",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/010.ts",
+    "card": {
+      "id": "sv06.5-010",
+      "name": "Horsea",
+      "number": "010",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-011",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/011.ts",
+    "card": {
+      "id": "sv06.5-011",
+      "name": "Seadra",
+      "number": "011",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-012",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/012.ts",
+    "card": {
+      "id": "sv06.5-012",
+      "name": "Kingdra ex",
+      "number": "012",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-013",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/013.ts",
+    "card": {
+      "id": "sv06.5-013",
+      "name": "Sneasel",
+      "number": "013",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-014",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/014.ts",
+    "card": {
+      "id": "sv06.5-014",
+      "name": "Weavile",
+      "number": "014",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-015",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/015.ts",
+    "card": {
+      "id": "sv06.5-015",
+      "name": "Revavroom ex",
+      "number": "015",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-016",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/016.ts",
+    "card": {
+      "id": "sv06.5-016",
+      "name": "Drowzee",
+      "number": "016",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-017",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/017.ts",
+    "card": {
+      "id": "sv06.5-017",
+      "name": "Hypno",
+      "number": "017",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-018",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/018.ts",
+    "card": {
+      "id": "sv06.5-018",
+      "name": "Duskull",
+      "number": "018",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-019",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/019.ts",
+    "card": {
+      "id": "sv06.5-019",
+      "name": "Dusclops",
+      "number": "019",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-020",
+    "set_id": "sv06.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/020.ts",
+    "card": {
+      "id": "sv06.5-020",
+      "name": "Dusknoir",
+      "number": "020",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-021",
+    "set_id": "sv06.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/021.ts",
+    "card": {
+      "id": "sv06.5-021",
+      "name": "Cresselia",
+      "number": "021",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-022",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/022.ts",
+    "card": {
+      "id": "sv06.5-022",
+      "name": "Sylveon",
+      "number": "022",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-023",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/023.ts",
+    "card": {
+      "id": "sv06.5-023",
+      "name": "Croagunk",
+      "number": "023",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-024",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/024.ts",
+    "card": {
+      "id": "sv06.5-024",
+      "name": "Toxicroak",
+      "number": "024",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-025",
+    "set_id": "sv06.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/025.ts",
+    "card": {
+      "id": "sv06.5-025",
+      "name": "Bloodmoon Ursaluna",
+      "number": "025",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-026",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/026.ts",
+    "card": {
+      "id": "sv06.5-026",
+      "name": "Slither Wing",
+      "number": "026",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-027",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/027.ts",
+    "card": {
+      "id": "sv06.5-027",
+      "name": "Zubat",
+      "number": "027",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-028",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/028.ts",
+    "card": {
+      "id": "sv06.5-028",
+      "name": "Golbat",
+      "number": "028",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-029",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/029.ts",
+    "card": {
+      "id": "sv06.5-029",
+      "name": "Crobat",
+      "number": "029",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-030",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/030.ts",
+    "card": {
+      "id": "sv06.5-030",
+      "name": "Absol",
+      "number": "030",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-031",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/031.ts",
+    "card": {
+      "id": "sv06.5-031",
+      "name": "Zorua",
+      "number": "031",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-032",
+    "set_id": "sv06.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/032.ts",
+    "card": {
+      "id": "sv06.5-032",
+      "name": "Zoroark",
+      "number": "032",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-033",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/033.ts",
+    "card": {
+      "id": "sv06.5-033",
+      "name": "Inkay",
+      "number": "033",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-034",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/034.ts",
+    "card": {
+      "id": "sv06.5-034",
+      "name": "Malamar",
+      "number": "034",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-035",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/035.ts",
+    "card": {
+      "id": "sv06.5-035",
+      "name": "Yveltal",
+      "number": "035",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-036",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/036.ts",
+    "card": {
+      "id": "sv06.5-036",
+      "name": "Okidogi ex",
+      "number": "036",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-037",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/037.ts",
+    "card": {
+      "id": "sv06.5-037",
+      "name": "Munkidori ex",
+      "number": "037",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-038",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/038.ts",
+    "card": {
+      "id": "sv06.5-038",
+      "name": "Fezandipiti ex",
+      "number": "038",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-039",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/039.ts",
+    "card": {
+      "id": "sv06.5-039",
+      "name": "Pecharunt ex",
+      "number": "039",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-040",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/040.ts",
+    "card": {
+      "id": "sv06.5-040",
+      "name": "Genesect",
+      "number": "040",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-041",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/041.ts",
+    "card": {
+      "id": "sv06.5-041",
+      "name": "Cufant",
+      "number": "041",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-042",
+    "set_id": "sv06.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/042.ts",
+    "card": {
+      "id": "sv06.5-042",
+      "name": "Copperajah",
+      "number": "042",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-043",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/043.ts",
+    "card": {
+      "id": "sv06.5-043",
+      "name": "Varoom",
+      "number": "043",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-044",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/044.ts",
+    "card": {
+      "id": "sv06.5-044",
+      "name": "Axew",
+      "number": "044",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-045",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/045.ts",
+    "card": {
+      "id": "sv06.5-045",
+      "name": "Fraxure",
+      "number": "045",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-046",
+    "set_id": "sv06.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/046.ts",
+    "card": {
+      "id": "sv06.5-046",
+      "name": "Haxorus",
+      "number": "046",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-047",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/047.ts",
+    "card": {
+      "id": "sv06.5-047",
+      "name": "Kyurem",
+      "number": "047",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-048",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/048.ts",
+    "card": {
+      "id": "sv06.5-048",
+      "name": "Meowth",
+      "number": "048",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-049",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/049.ts",
+    "card": {
+      "id": "sv06.5-049",
+      "name": "Persian",
+      "number": "049",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-050",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/050.ts",
+    "card": {
+      "id": "sv06.5-050",
+      "name": "Eevee",
+      "number": "050",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-051",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/051.ts",
+    "card": {
+      "id": "sv06.5-051",
+      "name": "Furfrou",
+      "number": "051",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-052",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/052.ts",
+    "card": {
+      "id": "sv06.5-052",
+      "name": "Stufful",
+      "number": "052",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-053",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/053.ts",
+    "card": {
+      "id": "sv06.5-053",
+      "name": "Bewear",
+      "number": "053",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-054",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/054.ts",
+    "card": {
+      "id": "sv06.5-054",
+      "name": "Academy at Night",
+      "number": "054",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-055",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/055.ts",
+    "card": {
+      "id": "sv06.5-055",
+      "name": "Binding Mochi",
+      "number": "055",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-056",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/056.ts",
+    "card": {
+      "id": "sv06.5-056",
+      "name": "Cassiopeia",
+      "number": "056",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-057",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/057.ts",
+    "card": {
+      "id": "sv06.5-057",
+      "name": "Colress's Tenacity",
+      "number": "057",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-058",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/058.ts",
+    "card": {
+      "id": "sv06.5-058",
+      "name": "Dangerous Laser",
+      "number": "058",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-059",
+    "set_id": "sv06.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/059.ts",
+    "card": {
+      "id": "sv06.5-059",
+      "name": "Janine's Secret Art",
+      "number": "059",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-060",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/060.ts",
+    "card": {
+      "id": "sv06.5-060",
+      "name": "Neutralization Zone",
+      "number": "060",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-061",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/061.ts",
+    "card": {
+      "id": "sv06.5-061",
+      "name": "Night Stretcher",
+      "number": "061",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-062",
+    "set_id": "sv06.5",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/062.ts",
+    "card": {
+      "id": "sv06.5-062",
+      "name": "Poké Vital A",
+      "number": "062",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "ACE SPEC Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-063",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/063.ts",
+    "card": {
+      "id": "sv06.5-063",
+      "name": "Powerglass",
+      "number": "063",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-064",
+    "set_id": "sv06.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/064.ts",
+    "card": {
+      "id": "sv06.5-064",
+      "name": "Xerosic's Machinations",
+      "number": "064",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-065",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/065.ts",
+    "card": {
+      "id": "sv06.5-065",
+      "name": "Tapu Bulu",
+      "number": "065",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-066",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/066.ts",
+    "card": {
+      "id": "sv06.5-066",
+      "name": "Houndoom",
+      "number": "066",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-067",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/067.ts",
+    "card": {
+      "id": "sv06.5-067",
+      "name": "Horsea",
+      "number": "067",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-068",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/068.ts",
+    "card": {
+      "id": "sv06.5-068",
+      "name": "Duskull",
+      "number": "068",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-069",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/069.ts",
+    "card": {
+      "id": "sv06.5-069",
+      "name": "Dusclops",
+      "number": "069",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-070",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/070.ts",
+    "card": {
+      "id": "sv06.5-070",
+      "name": "Dusknoir",
+      "number": "070",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-071",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/071.ts",
+    "card": {
+      "id": "sv06.5-071",
+      "name": "Cresselia",
+      "number": "071",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-072",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/072.ts",
+    "card": {
+      "id": "sv06.5-072",
+      "name": "Munkidori",
+      "number": "072",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-073",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/073.ts",
+    "card": {
+      "id": "sv06.5-073",
+      "name": "Fezandipiti",
+      "number": "073",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-074",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/074.ts",
+    "card": {
+      "id": "sv06.5-074",
+      "name": "Okidogi",
+      "number": "074",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-075",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/075.ts",
+    "card": {
+      "id": "sv06.5-075",
+      "name": "Zorua",
+      "number": "075",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-076",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/076.ts",
+    "card": {
+      "id": "sv06.5-076",
+      "name": "Cufant",
+      "number": "076",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-077",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/077.ts",
+    "card": {
+      "id": "sv06.5-077",
+      "name": "Fraxure",
+      "number": "077",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-078",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/078.ts",
+    "card": {
+      "id": "sv06.5-078",
+      "name": "Persian",
+      "number": "078",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-079",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/079.ts",
+    "card": {
+      "id": "sv06.5-079",
+      "name": "Bewear",
+      "number": "079",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-080",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/080.ts",
+    "card": {
+      "id": "sv06.5-080",
+      "name": "Kingdra ex",
+      "number": "080",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-081",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/081.ts",
+    "card": {
+      "id": "sv06.5-081",
+      "name": "Revavroom ex",
+      "number": "081",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-082",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/082.ts",
+    "card": {
+      "id": "sv06.5-082",
+      "name": "Okidogi ex",
+      "number": "082",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-083",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/083.ts",
+    "card": {
+      "id": "sv06.5-083",
+      "name": "Munkidori ex",
+      "number": "083",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-084",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/084.ts",
+    "card": {
+      "id": "sv06.5-084",
+      "name": "Fezandipiti ex",
+      "number": "084",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-085",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/085.ts",
+    "card": {
+      "id": "sv06.5-085",
+      "name": "Pecharunt ex",
+      "number": "085",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-086",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/086.ts",
+    "card": {
+      "id": "sv06.5-086",
+      "name": "Cassiopeia",
+      "number": "086",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-087",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/087.ts",
+    "card": {
+      "id": "sv06.5-087",
+      "name": "Colress's Tenacity",
+      "number": "087",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-088",
+    "set_id": "sv06.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/088.ts",
+    "card": {
+      "id": "sv06.5-088",
+      "name": "Janine's Secret Art",
+      "number": "088",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-089",
+    "set_id": "sv06.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/089.ts",
+    "card": {
+      "id": "sv06.5-089",
+      "name": "Xerosic's Machinations",
+      "number": "089",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-090",
+    "set_id": "sv06.5",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/090.ts",
+    "card": {
+      "id": "sv06.5-090",
+      "name": "Okidogi ex",
+      "number": "090",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-091",
+    "set_id": "sv06.5",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/091.ts",
+    "card": {
+      "id": "sv06.5-091",
+      "name": "Munkidori ex",
+      "number": "091",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-092",
+    "set_id": "sv06.5",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/092.ts",
+    "card": {
+      "id": "sv06.5-092",
+      "name": "Fezandipiti ex",
+      "number": "092",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-093",
+    "set_id": "sv06.5",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/093.ts",
+    "card": {
+      "id": "sv06.5-093",
+      "name": "Pecharunt ex",
+      "number": "093",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-094",
+    "set_id": "sv06.5",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/094.ts",
+    "card": {
+      "id": "sv06.5-094",
+      "name": "Cassiopeia",
+      "number": "094",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-095",
+    "set_id": "sv06.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/095.ts",
+    "card": {
+      "id": "sv06.5-095",
+      "name": "Pecharunt ex",
+      "number": "095",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-096",
+    "set_id": "sv06.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/096.ts",
+    "card": {
+      "id": "sv06.5-096",
+      "name": "Earthen Vessel",
+      "number": "096",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-097",
+    "set_id": "sv06.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/097.ts",
+    "card": {
+      "id": "sv06.5-097",
+      "name": "Powerglass",
+      "number": "097",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-098",
+    "set_id": "sv06.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/098.ts",
+    "card": {
+      "id": "sv06.5-098",
+      "name": "Basic Darkness Energy",
+      "number": "098",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv06.5-099",
+    "set_id": "sv06.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Shrouded Fable/099.ts",
+    "card": {
+      "id": "sv06.5-099",
+      "name": "Basic Metal Energy",
+      "number": "099",
+      "set": "Shrouded Fable",
+      "setId": "sv06.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv06.5/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv06.5/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

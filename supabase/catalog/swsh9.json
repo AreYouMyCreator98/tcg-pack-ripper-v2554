@@ -1,0 +1,3890 @@
+[
+  {
+    "id": "swsh9-001",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/001.ts",
+    "card": {
+      "id": "swsh9-001",
+      "name": "Exeggcute",
+      "number": "001",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-002",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/002.ts",
+    "card": {
+      "id": "swsh9-002",
+      "name": "Exeggutor",
+      "number": "002",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-003",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/003.ts",
+    "card": {
+      "id": "swsh9-003",
+      "name": "Shroomish",
+      "number": "003",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-004",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/004.ts",
+    "card": {
+      "id": "swsh9-004",
+      "name": "Breloom",
+      "number": "004",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-005",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/005.ts",
+    "card": {
+      "id": "swsh9-005",
+      "name": "Tropius",
+      "number": "005",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-006",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/006.ts",
+    "card": {
+      "id": "swsh9-006",
+      "name": "Turtwig",
+      "number": "006",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-007",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/007.ts",
+    "card": {
+      "id": "swsh9-007",
+      "name": "Grotle",
+      "number": "007",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-008",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/008.ts",
+    "card": {
+      "id": "swsh9-008",
+      "name": "Torterra",
+      "number": "008",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-009",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/009.ts",
+    "card": {
+      "id": "swsh9-009",
+      "name": "Burmy",
+      "number": "009",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-010",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/010.ts",
+    "card": {
+      "id": "swsh9-010",
+      "name": "Wormadam",
+      "number": "010",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-011",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/011.ts",
+    "card": {
+      "id": "swsh9-011",
+      "name": "Mothim",
+      "number": "011",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-012",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/012.ts",
+    "card": {
+      "id": "swsh9-012",
+      "name": "Cherubi",
+      "number": "012",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-013",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/013.ts",
+    "card": {
+      "id": "swsh9-013",
+      "name": "Shaymin V",
+      "number": "013",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-014",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/014.ts",
+    "card": {
+      "id": "swsh9-014",
+      "name": "Shaymin VSTAR",
+      "number": "014",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-015",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/015.ts",
+    "card": {
+      "id": "swsh9-015",
+      "name": "Karrablast",
+      "number": "015",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-016",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/016.ts",
+    "card": {
+      "id": "swsh9-016",
+      "name": "Zarude V",
+      "number": "016",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-017",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/017.ts",
+    "card": {
+      "id": "swsh9-017",
+      "name": "Charizard V",
+      "number": "017",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-018",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/018.ts",
+    "card": {
+      "id": "swsh9-018",
+      "name": "Charizard VSTAR",
+      "number": "018",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-019",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/019.ts",
+    "card": {
+      "id": "swsh9-019",
+      "name": "Magmar",
+      "number": "019",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-020",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/020.ts",
+    "card": {
+      "id": "swsh9-020",
+      "name": "Magmortar",
+      "number": "020",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-021",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/021.ts",
+    "card": {
+      "id": "swsh9-021",
+      "name": "Moltres",
+      "number": "021",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-022",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/022.ts",
+    "card": {
+      "id": "swsh9-022",
+      "name": "Entei V",
+      "number": "022",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-023",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/023.ts",
+    "card": {
+      "id": "swsh9-023",
+      "name": "Torkoal",
+      "number": "023",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-024",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/024.ts",
+    "card": {
+      "id": "swsh9-024",
+      "name": "Chimchar",
+      "number": "024",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-025",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/025.ts",
+    "card": {
+      "id": "swsh9-025",
+      "name": "Monferno",
+      "number": "025",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-026",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/026.ts",
+    "card": {
+      "id": "swsh9-026",
+      "name": "Infernape",
+      "number": "026",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-027",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/027.ts",
+    "card": {
+      "id": "swsh9-027",
+      "name": "Simisear V",
+      "number": "027",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-028",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/028.ts",
+    "card": {
+      "id": "swsh9-028",
+      "name": "Kingler V",
+      "number": "028",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-029",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/029.ts",
+    "card": {
+      "id": "swsh9-029",
+      "name": "Kingler VMAX",
+      "number": "029",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-030",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/030.ts",
+    "card": {
+      "id": "swsh9-030",
+      "name": "Staryu",
+      "number": "030",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-031",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/031.ts",
+    "card": {
+      "id": "swsh9-031",
+      "name": "Lapras",
+      "number": "031",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-032",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/032.ts",
+    "card": {
+      "id": "swsh9-032",
+      "name": "Corphish",
+      "number": "032",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-033",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/033.ts",
+    "card": {
+      "id": "swsh9-033",
+      "name": "Crawdaunt",
+      "number": "033",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-034",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/034.ts",
+    "card": {
+      "id": "swsh9-034",
+      "name": "Snorunt",
+      "number": "034",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-035",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/035.ts",
+    "card": {
+      "id": "swsh9-035",
+      "name": "Piplup",
+      "number": "035",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-036",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/036.ts",
+    "card": {
+      "id": "swsh9-036",
+      "name": "Prinplup",
+      "number": "036",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-037",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/037.ts",
+    "card": {
+      "id": "swsh9-037",
+      "name": "Empoleon",
+      "number": "037",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-038",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/038.ts",
+    "card": {
+      "id": "swsh9-038",
+      "name": "Buizel",
+      "number": "038",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-039",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/039.ts",
+    "card": {
+      "id": "swsh9-039",
+      "name": "Floatzel",
+      "number": "039",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-040",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/040.ts",
+    "card": {
+      "id": "swsh9-040",
+      "name": "Lumineon V",
+      "number": "040",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-041",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/041.ts",
+    "card": {
+      "id": "swsh9-041",
+      "name": "Manaphy",
+      "number": "041",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-042",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/042.ts",
+    "card": {
+      "id": "swsh9-042",
+      "name": "Cubchoo",
+      "number": "042",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-043",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/043.ts",
+    "card": {
+      "id": "swsh9-043",
+      "name": "Beartic",
+      "number": "043",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-044",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/044.ts",
+    "card": {
+      "id": "swsh9-044",
+      "name": "Eiscue",
+      "number": "044",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-045",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/045.ts",
+    "card": {
+      "id": "swsh9-045",
+      "name": "Raichu V",
+      "number": "045",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-046",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/046.ts",
+    "card": {
+      "id": "swsh9-046",
+      "name": "Electabuzz",
+      "number": "046",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-047",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/047.ts",
+    "card": {
+      "id": "swsh9-047",
+      "name": "Electivire",
+      "number": "047",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-048",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/048.ts",
+    "card": {
+      "id": "swsh9-048",
+      "name": "Raikou V",
+      "number": "048",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-049",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/049.ts",
+    "card": {
+      "id": "swsh9-049",
+      "name": "Shinx",
+      "number": "049",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-050",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/050.ts",
+    "card": {
+      "id": "swsh9-050",
+      "name": "Luxio",
+      "number": "050",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-051",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/051.ts",
+    "card": {
+      "id": "swsh9-051",
+      "name": "Luxray",
+      "number": "051",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-052",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/052.ts",
+    "card": {
+      "id": "swsh9-052",
+      "name": "Pachirisu",
+      "number": "052",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-053",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/053.ts",
+    "card": {
+      "id": "swsh9-053",
+      "name": "Clefairy",
+      "number": "053",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-054",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/054.ts",
+    "card": {
+      "id": "swsh9-054",
+      "name": "Clefable",
+      "number": "054",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-055",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/055.ts",
+    "card": {
+      "id": "swsh9-055",
+      "name": "Starmie",
+      "number": "055",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-056",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/056.ts",
+    "card": {
+      "id": "swsh9-056",
+      "name": "Mewtwo",
+      "number": "056",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-057",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/057.ts",
+    "card": {
+      "id": "swsh9-057",
+      "name": "Granbull V",
+      "number": "057",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-058",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/058.ts",
+    "card": {
+      "id": "swsh9-058",
+      "name": "Baltoy",
+      "number": "058",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-059",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/059.ts",
+    "card": {
+      "id": "swsh9-059",
+      "name": "Claydol",
+      "number": "059",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-060",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/060.ts",
+    "card": {
+      "id": "swsh9-060",
+      "name": "Duskull",
+      "number": "060",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-061",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/061.ts",
+    "card": {
+      "id": "swsh9-061",
+      "name": "Dusclops",
+      "number": "061",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-062",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/062.ts",
+    "card": {
+      "id": "swsh9-062",
+      "name": "Dusknoir",
+      "number": "062",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-063",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/063.ts",
+    "card": {
+      "id": "swsh9-063",
+      "name": "Chimecho",
+      "number": "063",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-064",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/064.ts",
+    "card": {
+      "id": "swsh9-064",
+      "name": "Whimsicott V",
+      "number": "064",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-065",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/065.ts",
+    "card": {
+      "id": "swsh9-065",
+      "name": "Whimsicott VSTAR",
+      "number": "065",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-066",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/066.ts",
+    "card": {
+      "id": "swsh9-066",
+      "name": "Sigilyph",
+      "number": "066",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-067",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/067.ts",
+    "card": {
+      "id": "swsh9-067",
+      "name": "Dedenne",
+      "number": "067",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-068",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/068.ts",
+    "card": {
+      "id": "swsh9-068",
+      "name": "Mimikyu V",
+      "number": "068",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-069",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/069.ts",
+    "card": {
+      "id": "swsh9-069",
+      "name": "Mimikyu VMAX",
+      "number": "069",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-070",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/070.ts",
+    "card": {
+      "id": "swsh9-070",
+      "name": "Milcery",
+      "number": "070",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-071",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/071.ts",
+    "card": {
+      "id": "swsh9-071",
+      "name": "Alcremie",
+      "number": "071",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-072",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/072.ts",
+    "card": {
+      "id": "swsh9-072",
+      "name": "Hitmontop",
+      "number": "072",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-073",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/073.ts",
+    "card": {
+      "id": "swsh9-073",
+      "name": "Nosepass",
+      "number": "073",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-074",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/074.ts",
+    "card": {
+      "id": "swsh9-074",
+      "name": "Trapinch",
+      "number": "074",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-075",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/075.ts",
+    "card": {
+      "id": "swsh9-075",
+      "name": "Vibrava",
+      "number": "075",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-076",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/076.ts",
+    "card": {
+      "id": "swsh9-076",
+      "name": "Flygon",
+      "number": "076",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-077",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/077.ts",
+    "card": {
+      "id": "swsh9-077",
+      "name": "Wormadam",
+      "number": "077",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-078",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/078.ts",
+    "card": {
+      "id": "swsh9-078",
+      "name": "Riolu",
+      "number": "078",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-079",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/079.ts",
+    "card": {
+      "id": "swsh9-079",
+      "name": "Lucario",
+      "number": "079",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-080",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/080.ts",
+    "card": {
+      "id": "swsh9-080",
+      "name": "Throh",
+      "number": "080",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-081",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/081.ts",
+    "card": {
+      "id": "swsh9-081",
+      "name": "Sawk",
+      "number": "081",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-082",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/082.ts",
+    "card": {
+      "id": "swsh9-082",
+      "name": "Golett",
+      "number": "082",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-083",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/083.ts",
+    "card": {
+      "id": "swsh9-083",
+      "name": "Golurk",
+      "number": "083",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-084",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/084.ts",
+    "card": {
+      "id": "swsh9-084",
+      "name": "Grimer",
+      "number": "084",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-085",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/085.ts",
+    "card": {
+      "id": "swsh9-085",
+      "name": "Muk",
+      "number": "085",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-086",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/086.ts",
+    "card": {
+      "id": "swsh9-086",
+      "name": "Sneasel",
+      "number": "086",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-087",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/087.ts",
+    "card": {
+      "id": "swsh9-087",
+      "name": "Weavile",
+      "number": "087",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-088",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/088.ts",
+    "card": {
+      "id": "swsh9-088",
+      "name": "Honchkrow V",
+      "number": "088",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-089",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/089.ts",
+    "card": {
+      "id": "swsh9-089",
+      "name": "Spiritomb",
+      "number": "089",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-090",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/090.ts",
+    "card": {
+      "id": "swsh9-090",
+      "name": "Purrloin",
+      "number": "090",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-091",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/091.ts",
+    "card": {
+      "id": "swsh9-091",
+      "name": "Liepard",
+      "number": "091",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-092",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/092.ts",
+    "card": {
+      "id": "swsh9-092",
+      "name": "Impidimp",
+      "number": "092",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-093",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/093.ts",
+    "card": {
+      "id": "swsh9-093",
+      "name": "Morgrem",
+      "number": "093",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-094",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/094.ts",
+    "card": {
+      "id": "swsh9-094",
+      "name": "Grimmsnarl",
+      "number": "094",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-095",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/095.ts",
+    "card": {
+      "id": "swsh9-095",
+      "name": "Morpeko V",
+      "number": "095",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-096",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/096.ts",
+    "card": {
+      "id": "swsh9-096",
+      "name": "Aggron V",
+      "number": "096",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-097",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/097.ts",
+    "card": {
+      "id": "swsh9-097",
+      "name": "Aggron VMAX",
+      "number": "097",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-098",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/098.ts",
+    "card": {
+      "id": "swsh9-098",
+      "name": "Wormadam",
+      "number": "098",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-099",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/099.ts",
+    "card": {
+      "id": "swsh9-099",
+      "name": "Probopass",
+      "number": "099",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-100",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/100.ts",
+    "card": {
+      "id": "swsh9-100",
+      "name": "Heatran",
+      "number": "100",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-101",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/101.ts",
+    "card": {
+      "id": "swsh9-101",
+      "name": "Escavalier",
+      "number": "101",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-102",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/102.ts",
+    "card": {
+      "id": "swsh9-102",
+      "name": "Klink",
+      "number": "102",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-103",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/103.ts",
+    "card": {
+      "id": "swsh9-103",
+      "name": "Klang",
+      "number": "103",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-104",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/104.ts",
+    "card": {
+      "id": "swsh9-104",
+      "name": "Klinklang",
+      "number": "104",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-105",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/105.ts",
+    "card": {
+      "id": "swsh9-105",
+      "name": "Zamazenta V",
+      "number": "105",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-106",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/106.ts",
+    "card": {
+      "id": "swsh9-106",
+      "name": "Flygon V",
+      "number": "106",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-107",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/107.ts",
+    "card": {
+      "id": "swsh9-107",
+      "name": "Gible",
+      "number": "107",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-108",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/108.ts",
+    "card": {
+      "id": "swsh9-108",
+      "name": "Gabite",
+      "number": "108",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-109",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/109.ts",
+    "card": {
+      "id": "swsh9-109",
+      "name": "Garchomp",
+      "number": "109",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-110",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/110.ts",
+    "card": {
+      "id": "swsh9-110",
+      "name": "Axew",
+      "number": "110",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-111",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/111.ts",
+    "card": {
+      "id": "swsh9-111",
+      "name": "Fraxure",
+      "number": "111",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-112",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/112.ts",
+    "card": {
+      "id": "swsh9-112",
+      "name": "Haxorus",
+      "number": "112",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-113",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/113.ts",
+    "card": {
+      "id": "swsh9-113",
+      "name": "Druddigon",
+      "number": "113",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-114",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/114.ts",
+    "card": {
+      "id": "swsh9-114",
+      "name": "Dracovish V",
+      "number": "114",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-115",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/115.ts",
+    "card": {
+      "id": "swsh9-115",
+      "name": "Farfetch'd",
+      "number": "115",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-116",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/116.ts",
+    "card": {
+      "id": "swsh9-116",
+      "name": "Castform",
+      "number": "116",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-117",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/117.ts",
+    "card": {
+      "id": "swsh9-117",
+      "name": "Starly",
+      "number": "117",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-118",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/118.ts",
+    "card": {
+      "id": "swsh9-118",
+      "name": "Staravia",
+      "number": "118",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-119",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/119.ts",
+    "card": {
+      "id": "swsh9-119",
+      "name": "Staraptor",
+      "number": "119",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-120",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/120.ts",
+    "card": {
+      "id": "swsh9-120",
+      "name": "Bidoof",
+      "number": "120",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-121",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/121.ts",
+    "card": {
+      "id": "swsh9-121",
+      "name": "Bibarel",
+      "number": "121",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-122",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/122.ts",
+    "card": {
+      "id": "swsh9-122",
+      "name": "Arceus V",
+      "number": "122",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-123",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/123.ts",
+    "card": {
+      "id": "swsh9-123",
+      "name": "Arceus VSTAR",
+      "number": "123",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-124",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/124.ts",
+    "card": {
+      "id": "swsh9-124",
+      "name": "Minccino",
+      "number": "124",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-125",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/125.ts",
+    "card": {
+      "id": "swsh9-125",
+      "name": "Cinccino",
+      "number": "125",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-126",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/126.ts",
+    "card": {
+      "id": "swsh9-126",
+      "name": "Tornadus",
+      "number": "126",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-127",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/127.ts",
+    "card": {
+      "id": "swsh9-127",
+      "name": "Hawlucha",
+      "number": "127",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-128",
+    "set_id": "swsh9",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/128.ts",
+    "card": {
+      "id": "swsh9-128",
+      "name": "Drampa V",
+      "number": "128",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-129",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/129.ts",
+    "card": {
+      "id": "swsh9-129",
+      "name": "Acerola's Premonition",
+      "number": "129",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-130",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/130.ts",
+    "card": {
+      "id": "swsh9-130",
+      "name": "Barry",
+      "number": "130",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-131",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/131.ts",
+    "card": {
+      "id": "swsh9-131",
+      "name": "Blunder Policy",
+      "number": "131",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-132",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/132.ts",
+    "card": {
+      "id": "swsh9-132",
+      "name": "Boss's Orders",
+      "number": "132",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-133",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/133.ts",
+    "card": {
+      "id": "swsh9-133",
+      "name": "Café Master",
+      "number": "133",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-134",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/134.ts",
+    "card": {
+      "id": "swsh9-134",
+      "name": "Cheren's Care",
+      "number": "134",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-135",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/135.ts",
+    "card": {
+      "id": "swsh9-135",
+      "name": "Choice Belt",
+      "number": "135",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-136",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/136.ts",
+    "card": {
+      "id": "swsh9-136",
+      "name": "Cleansing Gloves",
+      "number": "136",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-137",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/137.ts",
+    "card": {
+      "id": "swsh9-137",
+      "name": "Collapsed Stadium",
+      "number": "137",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-138",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/138.ts",
+    "card": {
+      "id": "swsh9-138",
+      "name": "Cynthia's Ambition",
+      "number": "138",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-139",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/139.ts",
+    "card": {
+      "id": "swsh9-139",
+      "name": "Fresh Water Set",
+      "number": "139",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-140",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/140.ts",
+    "card": {
+      "id": "swsh9-140",
+      "name": "Friends in Galar",
+      "number": "140",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-141",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/141.ts",
+    "card": {
+      "id": "swsh9-141",
+      "name": "Gloria",
+      "number": "141",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-142",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/142.ts",
+    "card": {
+      "id": "swsh9-142",
+      "name": "Hunting Gloves",
+      "number": "142",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-143",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/143.ts",
+    "card": {
+      "id": "swsh9-143",
+      "name": "Kindler",
+      "number": "143",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-144",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/144.ts",
+    "card": {
+      "id": "swsh9-144",
+      "name": "Magma Basin",
+      "number": "144",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-145",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/145.ts",
+    "card": {
+      "id": "swsh9-145",
+      "name": "Marnie's Pride",
+      "number": "145",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-146",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/146.ts",
+    "card": {
+      "id": "swsh9-146",
+      "name": "Pot Helmet",
+      "number": "146",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-147",
+    "set_id": "swsh9",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/147.ts",
+    "card": {
+      "id": "swsh9-147",
+      "name": "Professor's Research",
+      "number": "147",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-148",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/148.ts",
+    "card": {
+      "id": "swsh9-148",
+      "name": "Roseanne's Backup",
+      "number": "148",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-149",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/149.ts",
+    "card": {
+      "id": "swsh9-149",
+      "name": "Team Yell's Cheer",
+      "number": "149",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-150",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/150.ts",
+    "card": {
+      "id": "swsh9-150",
+      "name": "Ultra Ball",
+      "number": "150",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-151",
+    "set_id": "swsh9",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/151.ts",
+    "card": {
+      "id": "swsh9-151",
+      "name": "Double Turbo Energy",
+      "number": "151",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-152",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/152.ts",
+    "card": {
+      "id": "swsh9-152",
+      "name": "Shaymin V",
+      "number": "152",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-153",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/153.ts",
+    "card": {
+      "id": "swsh9-153",
+      "name": "Charizard V",
+      "number": "153",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-154",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/154.ts",
+    "card": {
+      "id": "swsh9-154",
+      "name": "Charizard V",
+      "number": "154",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-155",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/155.ts",
+    "card": {
+      "id": "swsh9-155",
+      "name": "Lumineon V",
+      "number": "155",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-156",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/156.ts",
+    "card": {
+      "id": "swsh9-156",
+      "name": "Lumineon V",
+      "number": "156",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-157",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/157.ts",
+    "card": {
+      "id": "swsh9-157",
+      "name": "Pikachu V",
+      "number": "157",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-158",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/158.ts",
+    "card": {
+      "id": "swsh9-158",
+      "name": "Raichu V",
+      "number": "158",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-159",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/159.ts",
+    "card": {
+      "id": "swsh9-159",
+      "name": "Granbull V",
+      "number": "159",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-160",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/160.ts",
+    "card": {
+      "id": "swsh9-160",
+      "name": "Whimsicott V",
+      "number": "160",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-161",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/161.ts",
+    "card": {
+      "id": "swsh9-161",
+      "name": "Honchkrow V",
+      "number": "161",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-162",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/162.ts",
+    "card": {
+      "id": "swsh9-162",
+      "name": "Honchkrow V",
+      "number": "162",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-163",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/163.ts",
+    "card": {
+      "id": "swsh9-163",
+      "name": "Zamazenta V",
+      "number": "163",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-164",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/164.ts",
+    "card": {
+      "id": "swsh9-164",
+      "name": "Flygon V",
+      "number": "164",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-165",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/165.ts",
+    "card": {
+      "id": "swsh9-165",
+      "name": "Arceus V",
+      "number": "165",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-166",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/166.ts",
+    "card": {
+      "id": "swsh9-166",
+      "name": "Arceus V",
+      "number": "166",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-167",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/167.ts",
+    "card": {
+      "id": "swsh9-167",
+      "name": "Barry",
+      "number": "167",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-168",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/168.ts",
+    "card": {
+      "id": "swsh9-168",
+      "name": "Cheren's Care",
+      "number": "168",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-169",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/169.ts",
+    "card": {
+      "id": "swsh9-169",
+      "name": "Cynthia's Ambition",
+      "number": "169",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-170",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/170.ts",
+    "card": {
+      "id": "swsh9-170",
+      "name": "Kindler",
+      "number": "170",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-171",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/171.ts",
+    "card": {
+      "id": "swsh9-171",
+      "name": "Marnie's Pride",
+      "number": "171",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-172",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/172.ts",
+    "card": {
+      "id": "swsh9-172",
+      "name": "Roseanne's Backup",
+      "number": "172",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-173",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/173.ts",
+    "card": {
+      "id": "swsh9-173",
+      "name": "Shaymin VSTAR",
+      "number": "173",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-174",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/174.ts",
+    "card": {
+      "id": "swsh9-174",
+      "name": "Charizard VSTAR",
+      "number": "174",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-175",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/175.ts",
+    "card": {
+      "id": "swsh9-175",
+      "name": "Whimsicott VSTAR",
+      "number": "175",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-176",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/176.ts",
+    "card": {
+      "id": "swsh9-176",
+      "name": "Arceus VSTAR",
+      "number": "176",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-177",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/177.ts",
+    "card": {
+      "id": "swsh9-177",
+      "name": "Cheren's Care",
+      "number": "177",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-178",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/178.ts",
+    "card": {
+      "id": "swsh9-178",
+      "name": "Cynthia's Ambition",
+      "number": "178",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-179",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/179.ts",
+    "card": {
+      "id": "swsh9-179",
+      "name": "Kindler",
+      "number": "179",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-180",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/180.ts",
+    "card": {
+      "id": "swsh9-180",
+      "name": "Roseanne's Backup",
+      "number": "180",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-181",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/181.ts",
+    "card": {
+      "id": "swsh9-181",
+      "name": "Galarian Articuno V",
+      "number": "181",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-182",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/182.ts",
+    "card": {
+      "id": "swsh9-182",
+      "name": "Galarian Zapdos V",
+      "number": "182",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-183",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/183.ts",
+    "card": {
+      "id": "swsh9-183",
+      "name": "Galarian Moltres V",
+      "number": "183",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-184",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/184.ts",
+    "card": {
+      "id": "swsh9-184",
+      "name": "Arceus VSTAR",
+      "number": "184",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-185",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/185.ts",
+    "card": {
+      "id": "swsh9-185",
+      "name": "Magma Basin",
+      "number": "185",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9-186",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars/186.ts",
+    "card": {
+      "id": "swsh9-186",
+      "name": "Ultra Ball",
+      "number": "186",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG01",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG01.ts",
+    "card": {
+      "id": "swsh9tg-TG01",
+      "name": "Flareon",
+      "number": "TG01",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG01/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG01/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG02",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG02.ts",
+    "card": {
+      "id": "swsh9tg-TG02",
+      "name": "Vaporeon",
+      "number": "TG02",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG02/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG02/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG03",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG03.ts",
+    "card": {
+      "id": "swsh9tg-TG03",
+      "name": "Octillery",
+      "number": "TG03",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG03/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG03/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG04",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG04.ts",
+    "card": {
+      "id": "swsh9tg-TG04",
+      "name": "Jolteon",
+      "number": "TG04",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG04/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG04/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG05",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG05.ts",
+    "card": {
+      "id": "swsh9tg-TG05",
+      "name": "Zekrom",
+      "number": "TG05",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG05/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG05/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG06",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG06.ts",
+    "card": {
+      "id": "swsh9tg-TG06",
+      "name": "Dusknoir",
+      "number": "TG06",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG06/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG06/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG07",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG07.ts",
+    "card": {
+      "id": "swsh9tg-TG07",
+      "name": "Dedenne",
+      "number": "TG07",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG07/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG07/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG08",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG08.ts",
+    "card": {
+      "id": "swsh9tg-TG08",
+      "name": "Alcremie",
+      "number": "TG08",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG08/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG08/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG09",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG09.ts",
+    "card": {
+      "id": "swsh9tg-TG09",
+      "name": "Ariados",
+      "number": "TG09",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG09/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG09/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG10",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG10.ts",
+    "card": {
+      "id": "swsh9tg-TG10",
+      "name": "Houndoom",
+      "number": "TG10",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG10/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG10/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG11",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG11.ts",
+    "card": {
+      "id": "swsh9tg-TG11",
+      "name": "Eevee",
+      "number": "TG11",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG11/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG11/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG12",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG12.ts",
+    "card": {
+      "id": "swsh9tg-TG12",
+      "name": "Oranguru",
+      "number": "TG12",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG12/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG12/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG13",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG13.ts",
+    "card": {
+      "id": "swsh9tg-TG13",
+      "name": "Boltund V",
+      "number": "TG13",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG13/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG13/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG14",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG14.ts",
+    "card": {
+      "id": "swsh9tg-TG14",
+      "name": "Sylveon V",
+      "number": "TG14",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG14/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG14/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG15",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG15.ts",
+    "card": {
+      "id": "swsh9tg-TG15",
+      "name": "Sylveon VMAX",
+      "number": "TG15",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG15/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG15/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG16",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG16.ts",
+    "card": {
+      "id": "swsh9tg-TG16",
+      "name": "Mimikyu V",
+      "number": "TG16",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG16/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG16/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG17",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG17.ts",
+    "card": {
+      "id": "swsh9tg-TG17",
+      "name": "Mimikyu VMAX",
+      "number": "TG17",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG17/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG17/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG18",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG18.ts",
+    "card": {
+      "id": "swsh9tg-TG18",
+      "name": "Single Strike Urshifu V",
+      "number": "TG18",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG18/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG18/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG19",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG19.ts",
+    "card": {
+      "id": "swsh9tg-TG19",
+      "name": "Single Strike Urshifu VMAX",
+      "number": "TG19",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG19/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG19/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG20",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG20.ts",
+    "card": {
+      "id": "swsh9tg-TG20",
+      "name": "Rapid Strike Urshifu V",
+      "number": "TG20",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG20/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG20/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG21",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG21.ts",
+    "card": {
+      "id": "swsh9tg-TG21",
+      "name": "Rapid Strike Urshifu VMAX",
+      "number": "TG21",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG21/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG21/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG22",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG22.ts",
+    "card": {
+      "id": "swsh9tg-TG22",
+      "name": "Umbreon V",
+      "number": "TG22",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG22/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG22/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG23",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG23.ts",
+    "card": {
+      "id": "swsh9tg-TG23",
+      "name": "Umbreon VMAX",
+      "number": "TG23",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG23/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG23/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG24",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG24.ts",
+    "card": {
+      "id": "swsh9tg-TG24",
+      "name": "Acerola's Premonition",
+      "number": "TG24",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG24/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG24/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG25",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG25.ts",
+    "card": {
+      "id": "swsh9tg-TG25",
+      "name": "Café Master",
+      "number": "TG25",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG25/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG25/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG26",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG26.ts",
+    "card": {
+      "id": "swsh9tg-TG26",
+      "name": "Gloria",
+      "number": "TG26",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG26/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG26/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG27",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG27.ts",
+    "card": {
+      "id": "swsh9tg-TG27",
+      "name": "Rapid Strike Style Mustard",
+      "number": "TG27",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG27/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG27/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG28",
+    "set_id": "swsh9",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG28.ts",
+    "card": {
+      "id": "swsh9tg-TG28",
+      "name": "Single Strike Style Mustard",
+      "number": "TG28",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG28/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG28/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG29",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG29.ts",
+    "card": {
+      "id": "swsh9tg-TG29",
+      "name": "Single Strike Urshifu VMAX",
+      "number": "TG29",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG29/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG29/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh9tg-TG30",
+    "set_id": "swsh9",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Brilliant Stars Trainer Gallery/TG30.ts",
+    "card": {
+      "id": "swsh9tg-TG30",
+      "name": "Rapid Strike Urshifu VMAX",
+      "number": "TG30",
+      "set": "Brilliant Stars",
+      "setId": "swsh9",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh9/TG30/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh9/TG30/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

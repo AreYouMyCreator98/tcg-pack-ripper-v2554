@@ -1,0 +1,5 @@
+{
+  "source": "https://github.com/tcgdex/cards-database",
+  "archiveSha256": "07a406a6003c505b7bf929e0e0377d34ab95e42def78250907e519d2a390249e",
+  "note": "Literal name, rarity and identity metadata only. Source was not executed. Market values without API quotes use the existing $0.10 metadata fallback; battle scoring never uses prices."
+}

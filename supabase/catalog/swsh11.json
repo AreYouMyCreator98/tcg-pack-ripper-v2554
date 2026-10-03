@@ -1,0 +1,4448 @@
+[
+  {
+    "id": "swsh11-001",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/001.ts",
+    "card": {
+      "id": "swsh11-001",
+      "name": "Oddish",
+      "number": "001",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-002",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/002.ts",
+    "card": {
+      "id": "swsh11-002",
+      "name": "Gloom",
+      "number": "002",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-003",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/003.ts",
+    "card": {
+      "id": "swsh11-003",
+      "name": "Vileplume",
+      "number": "003",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-004",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/004.ts",
+    "card": {
+      "id": "swsh11-004",
+      "name": "Paras",
+      "number": "004",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-005",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/005.ts",
+    "card": {
+      "id": "swsh11-005",
+      "name": "Parasect",
+      "number": "005",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-006",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/006.ts",
+    "card": {
+      "id": "swsh11-006",
+      "name": "Wurmple",
+      "number": "006",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-007",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/007.ts",
+    "card": {
+      "id": "swsh11-007",
+      "name": "Silcoon",
+      "number": "007",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-008",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/008.ts",
+    "card": {
+      "id": "swsh11-008",
+      "name": "Beautifly",
+      "number": "008",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-009",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/009.ts",
+    "card": {
+      "id": "swsh11-009",
+      "name": "Cascoon",
+      "number": "009",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-010",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/010.ts",
+    "card": {
+      "id": "swsh11-010",
+      "name": "Dustox",
+      "number": "010",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-011",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/011.ts",
+    "card": {
+      "id": "swsh11-011",
+      "name": "Seedot",
+      "number": "011",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-012",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/012.ts",
+    "card": {
+      "id": "swsh11-012",
+      "name": "Nuzleaf",
+      "number": "012",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-013",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/013.ts",
+    "card": {
+      "id": "swsh11-013",
+      "name": "Shiftry",
+      "number": "013",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-014",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/014.ts",
+    "card": {
+      "id": "swsh11-014",
+      "name": "Roselia",
+      "number": "014",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-015",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/015.ts",
+    "card": {
+      "id": "swsh11-015",
+      "name": "Roserade",
+      "number": "015",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-016",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/016.ts",
+    "card": {
+      "id": "swsh11-016",
+      "name": "Phantump",
+      "number": "016",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-017",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/017.ts",
+    "card": {
+      "id": "swsh11-017",
+      "name": "Trevenant",
+      "number": "017",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-018",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/018.ts",
+    "card": {
+      "id": "swsh11-018",
+      "name": "Blipbug",
+      "number": "018",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-019",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/019.ts",
+    "card": {
+      "id": "swsh11-019",
+      "name": "Dottler",
+      "number": "019",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-020",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/020.ts",
+    "card": {
+      "id": "swsh11-020",
+      "name": "Orbeetle",
+      "number": "020",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-021",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/021.ts",
+    "card": {
+      "id": "swsh11-021",
+      "name": "Slugma",
+      "number": "021",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-022",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/022.ts",
+    "card": {
+      "id": "swsh11-022",
+      "name": "Magcargo",
+      "number": "022",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-023",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/023.ts",
+    "card": {
+      "id": "swsh11-023",
+      "name": "Torkoal",
+      "number": "023",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-024",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/024.ts",
+    "card": {
+      "id": "swsh11-024",
+      "name": "Litwick",
+      "number": "024",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-025",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/025.ts",
+    "card": {
+      "id": "swsh11-025",
+      "name": "Lampent",
+      "number": "025",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-026",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/026.ts",
+    "card": {
+      "id": "swsh11-026",
+      "name": "Chandelure",
+      "number": "026",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-027",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/027.ts",
+    "card": {
+      "id": "swsh11-027",
+      "name": "Delphox V",
+      "number": "027",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-028",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/028.ts",
+    "card": {
+      "id": "swsh11-028",
+      "name": "Litleo",
+      "number": "028",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-029",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/029.ts",
+    "card": {
+      "id": "swsh11-029",
+      "name": "Pyroar",
+      "number": "029",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-030",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/030.ts",
+    "card": {
+      "id": "swsh11-030",
+      "name": "Poliwag",
+      "number": "030",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-031",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/031.ts",
+    "card": {
+      "id": "swsh11-031",
+      "name": "Poliwhirl",
+      "number": "031",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-032",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/032.ts",
+    "card": {
+      "id": "swsh11-032",
+      "name": "Politoed",
+      "number": "032",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-033",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/033.ts",
+    "card": {
+      "id": "swsh11-033",
+      "name": "Seel",
+      "number": "033",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-034",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/034.ts",
+    "card": {
+      "id": "swsh11-034",
+      "name": "Dewgong",
+      "number": "034",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-035",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/035.ts",
+    "card": {
+      "id": "swsh11-035",
+      "name": "Horsea",
+      "number": "035",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-036",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/036.ts",
+    "card": {
+      "id": "swsh11-036",
+      "name": "Seadra",
+      "number": "036",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-037",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/037.ts",
+    "card": {
+      "id": "swsh11-037",
+      "name": "Kingdra",
+      "number": "037",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-038",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/038.ts",
+    "card": {
+      "id": "swsh11-038",
+      "name": "Luvdisc",
+      "number": "038",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-039",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/039.ts",
+    "card": {
+      "id": "swsh11-039",
+      "name": "Shellos",
+      "number": "039",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-040",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/040.ts",
+    "card": {
+      "id": "swsh11-040",
+      "name": "Finneon",
+      "number": "040",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-041",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/041.ts",
+    "card": {
+      "id": "swsh11-041",
+      "name": "Lumineon",
+      "number": "041",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-042",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/042.ts",
+    "card": {
+      "id": "swsh11-042",
+      "name": "Snover",
+      "number": "042",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-043",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/043.ts",
+    "card": {
+      "id": "swsh11-043",
+      "name": "Abomasnow",
+      "number": "043",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-044",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/044.ts",
+    "card": {
+      "id": "swsh11-044",
+      "name": "Hisuian Basculin",
+      "number": "044",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-045",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/045.ts",
+    "card": {
+      "id": "swsh11-045",
+      "name": "Hisuian Basculegion",
+      "number": "045",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-046",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/046.ts",
+    "card": {
+      "id": "swsh11-046",
+      "name": "Ducklett",
+      "number": "046",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-047",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/047.ts",
+    "card": {
+      "id": "swsh11-047",
+      "name": "Swanna",
+      "number": "047",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-048",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/048.ts",
+    "card": {
+      "id": "swsh11-048",
+      "name": "Kyurem V",
+      "number": "048",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-049",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/049.ts",
+    "card": {
+      "id": "swsh11-049",
+      "name": "Kyurem VMAX",
+      "number": "049",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare VMAX",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-050",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/050.ts",
+    "card": {
+      "id": "swsh11-050",
+      "name": "Cramorant",
+      "number": "050",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-051",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/051.ts",
+    "card": {
+      "id": "swsh11-051",
+      "name": "Glastrier",
+      "number": "051",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-052",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/052.ts",
+    "card": {
+      "id": "swsh11-052",
+      "name": "Pikachu",
+      "number": "052",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-053",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/053.ts",
+    "card": {
+      "id": "swsh11-053",
+      "name": "Raichu",
+      "number": "053",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-054",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/054.ts",
+    "card": {
+      "id": "swsh11-054",
+      "name": "Electrike",
+      "number": "054",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-055",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/055.ts",
+    "card": {
+      "id": "swsh11-055",
+      "name": "Manectric",
+      "number": "055",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-056",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/056.ts",
+    "card": {
+      "id": "swsh11-056",
+      "name": "Magnezone V",
+      "number": "056",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-057",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/057.ts",
+    "card": {
+      "id": "swsh11-057",
+      "name": "Magnezone VSTAR",
+      "number": "057",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-058",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/058.ts",
+    "card": {
+      "id": "swsh11-058",
+      "name": "Rotom V",
+      "number": "058",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-059",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/059.ts",
+    "card": {
+      "id": "swsh11-059",
+      "name": "Tynamo",
+      "number": "059",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-060",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/060.ts",
+    "card": {
+      "id": "swsh11-060",
+      "name": "Eelektrik",
+      "number": "060",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-061",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/061.ts",
+    "card": {
+      "id": "swsh11-061",
+      "name": "Eelektross",
+      "number": "061",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-062",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/062.ts",
+    "card": {
+      "id": "swsh11-062",
+      "name": "Clefairy",
+      "number": "062",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-063",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/063.ts",
+    "card": {
+      "id": "swsh11-063",
+      "name": "Clefable",
+      "number": "063",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-064",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/064.ts",
+    "card": {
+      "id": "swsh11-064",
+      "name": "Gastly",
+      "number": "064",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-065",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/065.ts",
+    "card": {
+      "id": "swsh11-065",
+      "name": "Haunter",
+      "number": "065",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-066",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/066.ts",
+    "card": {
+      "id": "swsh11-066",
+      "name": "Gengar",
+      "number": "066",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-067",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/067.ts",
+    "card": {
+      "id": "swsh11-067",
+      "name": "Mr. Mime",
+      "number": "067",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-068",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/068.ts",
+    "card": {
+      "id": "swsh11-068",
+      "name": "Jynx",
+      "number": "068",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-069",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/069.ts",
+    "card": {
+      "id": "swsh11-069",
+      "name": "Radiant Gardevoir",
+      "number": "069",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-070",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/070.ts",
+    "card": {
+      "id": "swsh11-070",
+      "name": "Sableye",
+      "number": "070",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-071",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/071.ts",
+    "card": {
+      "id": "swsh11-071",
+      "name": "Mawile",
+      "number": "071",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-072",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/072.ts",
+    "card": {
+      "id": "swsh11-072",
+      "name": "Shuppet",
+      "number": "072",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-073",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/073.ts",
+    "card": {
+      "id": "swsh11-073",
+      "name": "Banette",
+      "number": "073",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-074",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/074.ts",
+    "card": {
+      "id": "swsh11-074",
+      "name": "Cresselia",
+      "number": "074",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-075",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/075.ts",
+    "card": {
+      "id": "swsh11-075",
+      "name": "Hisuian Zorua",
+      "number": "075",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-076",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/076.ts",
+    "card": {
+      "id": "swsh11-076",
+      "name": "Hisuian Zoroark",
+      "number": "076",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-077",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/077.ts",
+    "card": {
+      "id": "swsh11-077",
+      "name": "Inkay",
+      "number": "077",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-078",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/078.ts",
+    "card": {
+      "id": "swsh11-078",
+      "name": "Malamar",
+      "number": "078",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-079",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/079.ts",
+    "card": {
+      "id": "swsh11-079",
+      "name": "Comfey",
+      "number": "079",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-080",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/080.ts",
+    "card": {
+      "id": "swsh11-080",
+      "name": "Mimikyu",
+      "number": "080",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-081",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/081.ts",
+    "card": {
+      "id": "swsh11-081",
+      "name": "Spectrier",
+      "number": "081",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-082",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/082.ts",
+    "card": {
+      "id": "swsh11-082",
+      "name": "Enamorus V",
+      "number": "082",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-083",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/083.ts",
+    "card": {
+      "id": "swsh11-083",
+      "name": "Hisuian Growlithe",
+      "number": "083",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-084",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/084.ts",
+    "card": {
+      "id": "swsh11-084",
+      "name": "Hisuian Arcanine",
+      "number": "084",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-085",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/085.ts",
+    "card": {
+      "id": "swsh11-085",
+      "name": "Poliwrath",
+      "number": "085",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-086",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/086.ts",
+    "card": {
+      "id": "swsh11-086",
+      "name": "Machop",
+      "number": "086",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-087",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/087.ts",
+    "card": {
+      "id": "swsh11-087",
+      "name": "Machoke",
+      "number": "087",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-088",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/088.ts",
+    "card": {
+      "id": "swsh11-088",
+      "name": "Machamp",
+      "number": "088",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-089",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/089.ts",
+    "card": {
+      "id": "swsh11-089",
+      "name": "Rhyhorn",
+      "number": "089",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-090",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/090.ts",
+    "card": {
+      "id": "swsh11-090",
+      "name": "Rhydon",
+      "number": "090",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-091",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/091.ts",
+    "card": {
+      "id": "swsh11-091",
+      "name": "Rhyperior",
+      "number": "091",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-092",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/092.ts",
+    "card": {
+      "id": "swsh11-092",
+      "name": "Aerodactyl V",
+      "number": "092",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-093",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/093.ts",
+    "card": {
+      "id": "swsh11-093",
+      "name": "Aerodactyl VSTAR",
+      "number": "093",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-094",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/094.ts",
+    "card": {
+      "id": "swsh11-094",
+      "name": "Sudowoodo",
+      "number": "094",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-095",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/095.ts",
+    "card": {
+      "id": "swsh11-095",
+      "name": "Gligar",
+      "number": "095",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-096",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/096.ts",
+    "card": {
+      "id": "swsh11-096",
+      "name": "Gliscor",
+      "number": "096",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-097",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/097.ts",
+    "card": {
+      "id": "swsh11-097",
+      "name": "Makuhita",
+      "number": "097",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-098",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/098.ts",
+    "card": {
+      "id": "swsh11-098",
+      "name": "Hariyama",
+      "number": "098",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-099",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/099.ts",
+    "card": {
+      "id": "swsh11-099",
+      "name": "Meditite",
+      "number": "099",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-100",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/100.ts",
+    "card": {
+      "id": "swsh11-100",
+      "name": "Medicham",
+      "number": "100",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-101",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/101.ts",
+    "card": {
+      "id": "swsh11-101",
+      "name": "Relicanth",
+      "number": "101",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-102",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/102.ts",
+    "card": {
+      "id": "swsh11-102",
+      "name": "Gastrodon",
+      "number": "102",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-103",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/103.ts",
+    "card": {
+      "id": "swsh11-103",
+      "name": "Mienfoo",
+      "number": "103",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-104",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/104.ts",
+    "card": {
+      "id": "swsh11-104",
+      "name": "Mienshao",
+      "number": "104",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-105",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/105.ts",
+    "card": {
+      "id": "swsh11-105",
+      "name": "Landorus",
+      "number": "105",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-106",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/106.ts",
+    "card": {
+      "id": "swsh11-106",
+      "name": "Binacle",
+      "number": "106",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-107",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/107.ts",
+    "card": {
+      "id": "swsh11-107",
+      "name": "Barbaracle",
+      "number": "107",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-108",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/108.ts",
+    "card": {
+      "id": "swsh11-108",
+      "name": "Carbink",
+      "number": "108",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-109",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/109.ts",
+    "card": {
+      "id": "swsh11-109",
+      "name": "Rockruff",
+      "number": "109",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-110",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/110.ts",
+    "card": {
+      "id": "swsh11-110",
+      "name": "Falinks",
+      "number": "110",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-111",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/111.ts",
+    "card": {
+      "id": "swsh11-111",
+      "name": "Stonjourner",
+      "number": "111",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-112",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/112.ts",
+    "card": {
+      "id": "swsh11-112",
+      "name": "Spinarak",
+      "number": "112",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-113",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/113.ts",
+    "card": {
+      "id": "swsh11-113",
+      "name": "Ariados",
+      "number": "113",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-114",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/114.ts",
+    "card": {
+      "id": "swsh11-114",
+      "name": "Murkrow",
+      "number": "114",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-115",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/115.ts",
+    "card": {
+      "id": "swsh11-115",
+      "name": "Honchkrow",
+      "number": "115",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-116",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/116.ts",
+    "card": {
+      "id": "swsh11-116",
+      "name": "Seviper",
+      "number": "116",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-117",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/117.ts",
+    "card": {
+      "id": "swsh11-117",
+      "name": "Spiritomb",
+      "number": "117",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-118",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/118.ts",
+    "card": {
+      "id": "swsh11-118",
+      "name": "Drapion V",
+      "number": "118",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-119",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/119.ts",
+    "card": {
+      "id": "swsh11-119",
+      "name": "Drapion VSTAR",
+      "number": "119",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-120",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/120.ts",
+    "card": {
+      "id": "swsh11-120",
+      "name": "Darkrai",
+      "number": "120",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-121",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/121.ts",
+    "card": {
+      "id": "swsh11-121",
+      "name": "Inkay",
+      "number": "121",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-122",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/122.ts",
+    "card": {
+      "id": "swsh11-122",
+      "name": "Hoopa",
+      "number": "122",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-123",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/123.ts",
+    "card": {
+      "id": "swsh11-123",
+      "name": "Radiant Hisuian Sneasler",
+      "number": "123",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-124",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/124.ts",
+    "card": {
+      "id": "swsh11-124",
+      "name": "Radiant Steelix",
+      "number": "124",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Radiant Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-125",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/125.ts",
+    "card": {
+      "id": "swsh11-125",
+      "name": "Bronzor",
+      "number": "125",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-126",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/126.ts",
+    "card": {
+      "id": "swsh11-126",
+      "name": "Bronzong",
+      "number": "126",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-127",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/127.ts",
+    "card": {
+      "id": "swsh11-127",
+      "name": "Galarian Stunfisk",
+      "number": "127",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-128",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/128.ts",
+    "card": {
+      "id": "swsh11-128",
+      "name": "Magearna",
+      "number": "128",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-129",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/129.ts",
+    "card": {
+      "id": "swsh11-129",
+      "name": "Galarian Perrserker V",
+      "number": "129",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-130",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/130.ts",
+    "card": {
+      "id": "swsh11-130",
+      "name": "Giratina V",
+      "number": "130",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-131",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/131.ts",
+    "card": {
+      "id": "swsh11-131",
+      "name": "Giratina VSTAR",
+      "number": "131",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-132",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/132.ts",
+    "card": {
+      "id": "swsh11-132",
+      "name": "Goomy",
+      "number": "132",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-133",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/133.ts",
+    "card": {
+      "id": "swsh11-133",
+      "name": "Hisuian Sliggoo",
+      "number": "133",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-134",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/134.ts",
+    "card": {
+      "id": "swsh11-134",
+      "name": "Hisuian Goodra",
+      "number": "134",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-135",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/135.ts",
+    "card": {
+      "id": "swsh11-135",
+      "name": "Hisuian Goodra V",
+      "number": "135",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-136",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/136.ts",
+    "card": {
+      "id": "swsh11-136",
+      "name": "Hisuian Goodra VSTAR",
+      "number": "136",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-137",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/137.ts",
+    "card": {
+      "id": "swsh11-137",
+      "name": "Pidgeot V",
+      "number": "137",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-138",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/138.ts",
+    "card": {
+      "id": "swsh11-138",
+      "name": "Lickitung",
+      "number": "138",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-139",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/139.ts",
+    "card": {
+      "id": "swsh11-139",
+      "name": "Lickilicky",
+      "number": "139",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-140",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/140.ts",
+    "card": {
+      "id": "swsh11-140",
+      "name": "Porygon",
+      "number": "140",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-141",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/141.ts",
+    "card": {
+      "id": "swsh11-141",
+      "name": "Porygon2",
+      "number": "141",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-142",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/142.ts",
+    "card": {
+      "id": "swsh11-142",
+      "name": "Porygon-Z",
+      "number": "142",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-143",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/143.ts",
+    "card": {
+      "id": "swsh11-143",
+      "name": "Snorlax",
+      "number": "143",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-144",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/144.ts",
+    "card": {
+      "id": "swsh11-144",
+      "name": "Aipom",
+      "number": "144",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-145",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/145.ts",
+    "card": {
+      "id": "swsh11-145",
+      "name": "Ambipom",
+      "number": "145",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-146",
+    "set_id": "swsh11",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/146.ts",
+    "card": {
+      "id": "swsh11-146",
+      "name": "Hisuian Zoroark V",
+      "number": "146",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare V",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-147",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/147.ts",
+    "card": {
+      "id": "swsh11-147",
+      "name": "Hisuian Zoroark VSTAR",
+      "number": "147",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare VSTAR",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-148",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/148.ts",
+    "card": {
+      "id": "swsh11-148",
+      "name": "Bouffalant",
+      "number": "148",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-149",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/149.ts",
+    "card": {
+      "id": "swsh11-149",
+      "name": "Komala",
+      "number": "149",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-150",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/150.ts",
+    "card": {
+      "id": "swsh11-150",
+      "name": "Skwovet",
+      "number": "150",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-151",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/151.ts",
+    "card": {
+      "id": "swsh11-151",
+      "name": "Greedent",
+      "number": "151",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-152",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/152.ts",
+    "card": {
+      "id": "swsh11-152",
+      "name": "Arc Phone",
+      "number": "152",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-153",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/153.ts",
+    "card": {
+      "id": "swsh11-153",
+      "name": "Arezu",
+      "number": "153",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-154",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/154.ts",
+    "card": {
+      "id": "swsh11-154",
+      "name": "Box of Disaster",
+      "number": "154",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-155",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/155.ts",
+    "card": {
+      "id": "swsh11-155",
+      "name": "Colress's Experiment",
+      "number": "155",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-156",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/156.ts",
+    "card": {
+      "id": "swsh11-156",
+      "name": "Damage Pump",
+      "number": "156",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-157",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/157.ts",
+    "card": {
+      "id": "swsh11-157",
+      "name": "Fantina",
+      "number": "157",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-158",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/158.ts",
+    "card": {
+      "id": "swsh11-158",
+      "name": "Iscan",
+      "number": "158",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-159",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/159.ts",
+    "card": {
+      "id": "swsh11-159",
+      "name": "Lady",
+      "number": "159",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-160",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/160.ts",
+    "card": {
+      "id": "swsh11-160",
+      "name": "Lake Acuity",
+      "number": "160",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-161",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/161.ts",
+    "card": {
+      "id": "swsh11-161",
+      "name": "Lost City",
+      "number": "161",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-162",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/162.ts",
+    "card": {
+      "id": "swsh11-162",
+      "name": "Lost Vacuum",
+      "number": "162",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-163",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/163.ts",
+    "card": {
+      "id": "swsh11-163",
+      "name": "Mirage Gate",
+      "number": "163",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-164",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/164.ts",
+    "card": {
+      "id": "swsh11-164",
+      "name": "Miss Fortune Sisters",
+      "number": "164",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-165",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/165.ts",
+    "card": {
+      "id": "swsh11-165",
+      "name": "Panic Mask",
+      "number": "165",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-166",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/166.ts",
+    "card": {
+      "id": "swsh11-166",
+      "name": "Riley",
+      "number": "166",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-167",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/167.ts",
+    "card": {
+      "id": "swsh11-167",
+      "name": "Thorton",
+      "number": "167",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-168",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/168.ts",
+    "card": {
+      "id": "swsh11-168",
+      "name": "Tool Box",
+      "number": "168",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-169",
+    "set_id": "swsh11",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/169.ts",
+    "card": {
+      "id": "swsh11-169",
+      "name": "Volo",
+      "number": "169",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Holo Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-170",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/170.ts",
+    "card": {
+      "id": "swsh11-170",
+      "name": "Windup Arm",
+      "number": "170",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-171",
+    "set_id": "swsh11",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/171.ts",
+    "card": {
+      "id": "swsh11-171",
+      "name": "Gift Energy",
+      "number": "171",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-172",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/172.ts",
+    "card": {
+      "id": "swsh11-172",
+      "name": "Hisuian Electrode V",
+      "number": "172",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-173",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/173.ts",
+    "card": {
+      "id": "swsh11-173",
+      "name": "Delphox V",
+      "number": "173",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-174",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/174.ts",
+    "card": {
+      "id": "swsh11-174",
+      "name": "Kyurem V",
+      "number": "174",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-175",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/175.ts",
+    "card": {
+      "id": "swsh11-175",
+      "name": "Magnezone V",
+      "number": "175",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-176",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/176.ts",
+    "card": {
+      "id": "swsh11-176",
+      "name": "Rotom V",
+      "number": "176",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-177",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/177.ts",
+    "card": {
+      "id": "swsh11-177",
+      "name": "Rotom V",
+      "number": "177",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-178",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/178.ts",
+    "card": {
+      "id": "swsh11-178",
+      "name": "Enamorus V",
+      "number": "178",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-179",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/179.ts",
+    "card": {
+      "id": "swsh11-179",
+      "name": "Aerodactyl V",
+      "number": "179",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-180",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/180.ts",
+    "card": {
+      "id": "swsh11-180",
+      "name": "Aerodactyl V",
+      "number": "180",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-181",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/181.ts",
+    "card": {
+      "id": "swsh11-181",
+      "name": "Gallade V",
+      "number": "181",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-182",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/182.ts",
+    "card": {
+      "id": "swsh11-182",
+      "name": "Drapion V",
+      "number": "182",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-183",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/183.ts",
+    "card": {
+      "id": "swsh11-183",
+      "name": "Galarian Perrserker V",
+      "number": "183",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-184",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/184.ts",
+    "card": {
+      "id": "swsh11-184",
+      "name": "Galarian Perrserker V",
+      "number": "184",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-185",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/185.ts",
+    "card": {
+      "id": "swsh11-185",
+      "name": "Giratina V",
+      "number": "185",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-186",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/186.ts",
+    "card": {
+      "id": "swsh11-186",
+      "name": "Giratina V",
+      "number": "186",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-187",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/187.ts",
+    "card": {
+      "id": "swsh11-187",
+      "name": "Hisuian Goodra V",
+      "number": "187",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/187/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-188",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/188.ts",
+    "card": {
+      "id": "swsh11-188",
+      "name": "Pidgeot V",
+      "number": "188",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/188/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-189",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/189.ts",
+    "card": {
+      "id": "swsh11-189",
+      "name": "Arezu",
+      "number": "189",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/189/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-190",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/190.ts",
+    "card": {
+      "id": "swsh11-190",
+      "name": "Colress's Experiment",
+      "number": "190",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/190/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-191",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/191.ts",
+    "card": {
+      "id": "swsh11-191",
+      "name": "Fantina",
+      "number": "191",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/191/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-192",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/192.ts",
+    "card": {
+      "id": "swsh11-192",
+      "name": "Iscan",
+      "number": "192",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/192/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-193",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/193.ts",
+    "card": {
+      "id": "swsh11-193",
+      "name": "Lady",
+      "number": "193",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/193/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-194",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/194.ts",
+    "card": {
+      "id": "swsh11-194",
+      "name": "Miss Fortune Sisters",
+      "number": "194",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/194/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-195",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/195.ts",
+    "card": {
+      "id": "swsh11-195",
+      "name": "Thorton",
+      "number": "195",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/195/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-196",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/196.ts",
+    "card": {
+      "id": "swsh11-196",
+      "name": "Volo",
+      "number": "196",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/196/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-197",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/197.ts",
+    "card": {
+      "id": "swsh11-197",
+      "name": "Kyurem VMAX",
+      "number": "197",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/197/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-198",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/198.ts",
+    "card": {
+      "id": "swsh11-198",
+      "name": "Magnezone VSTAR",
+      "number": "198",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/198/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-199",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/199.ts",
+    "card": {
+      "id": "swsh11-199",
+      "name": "Aerodactyl VSTAR",
+      "number": "199",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/199/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-200",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/200.ts",
+    "card": {
+      "id": "swsh11-200",
+      "name": "Drapion VSTAR",
+      "number": "200",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/200/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-201",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/201.ts",
+    "card": {
+      "id": "swsh11-201",
+      "name": "Giratina VSTAR",
+      "number": "201",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/201/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-202",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/202.ts",
+    "card": {
+      "id": "swsh11-202",
+      "name": "Hisuian Goodra VSTAR",
+      "number": "202",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/202/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-203",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/203.ts",
+    "card": {
+      "id": "swsh11-203",
+      "name": "Hisuian Zoroark VSTAR",
+      "number": "203",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/203/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-204",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/204.ts",
+    "card": {
+      "id": "swsh11-204",
+      "name": "Arezu",
+      "number": "204",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/204/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-205",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/205.ts",
+    "card": {
+      "id": "swsh11-205",
+      "name": "Colress's Experiment",
+      "number": "205",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/205/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-206",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/206.ts",
+    "card": {
+      "id": "swsh11-206",
+      "name": "Fantina",
+      "number": "206",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/206/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-207",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/207.ts",
+    "card": {
+      "id": "swsh11-207",
+      "name": "Iscan",
+      "number": "207",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/207/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-208",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/208.ts",
+    "card": {
+      "id": "swsh11-208",
+      "name": "Lady",
+      "number": "208",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/208/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-209",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/209.ts",
+    "card": {
+      "id": "swsh11-209",
+      "name": "Miss Fortune Sisters",
+      "number": "209",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/209/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-210",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/210.ts",
+    "card": {
+      "id": "swsh11-210",
+      "name": "Thorton",
+      "number": "210",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/210/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-211",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/211.ts",
+    "card": {
+      "id": "swsh11-211",
+      "name": "Volo",
+      "number": "211",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/211/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-212",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/212.ts",
+    "card": {
+      "id": "swsh11-212",
+      "name": "Giratina VSTAR",
+      "number": "212",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/212/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-213",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/213.ts",
+    "card": {
+      "id": "swsh11-213",
+      "name": "Hisuian Zoroark VSTAR",
+      "number": "213",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/213/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-214",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/214.ts",
+    "card": {
+      "id": "swsh11-214",
+      "name": "Box of Disaster",
+      "number": "214",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/214/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-215",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/215.ts",
+    "card": {
+      "id": "swsh11-215",
+      "name": "Collapsed Stadium",
+      "number": "215",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/215/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-216",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/216.ts",
+    "card": {
+      "id": "swsh11-216",
+      "name": "Dark Patch",
+      "number": "216",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/216/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11-217",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin/217.ts",
+    "card": {
+      "id": "swsh11-217",
+      "name": "Lost Vacuum",
+      "number": "217",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/217/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/217/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG01",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG01.ts",
+    "card": {
+      "id": "swsh11tg-TG01",
+      "name": "Parasect",
+      "number": "TG01",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG01/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG01/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG02",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG02.ts",
+    "card": {
+      "id": "swsh11tg-TG02",
+      "name": "Roserade",
+      "number": "TG02",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG02/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG02/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG03",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG03.ts",
+    "card": {
+      "id": "swsh11tg-TG03",
+      "name": "Charizard",
+      "number": "TG03",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG03/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG03/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG04",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG04.ts",
+    "card": {
+      "id": "swsh11tg-TG04",
+      "name": "Chandelure",
+      "number": "TG04",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG04/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG04/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG05",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG05.ts",
+    "card": {
+      "id": "swsh11tg-TG05",
+      "name": "Pikachu",
+      "number": "TG05",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG05/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG05/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG06",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG06.ts",
+    "card": {
+      "id": "swsh11tg-TG06",
+      "name": "Gengar",
+      "number": "TG06",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG06/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG06/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG07",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG07.ts",
+    "card": {
+      "id": "swsh11tg-TG07",
+      "name": "Banette",
+      "number": "TG07",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG07/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG07/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG08",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG08.ts",
+    "card": {
+      "id": "swsh11tg-TG08",
+      "name": "Hisuian Arcanine",
+      "number": "TG08",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG08/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG08/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG09",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG09.ts",
+    "card": {
+      "id": "swsh11tg-TG09",
+      "name": "Spiritomb",
+      "number": "TG09",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG09/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG09/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG10",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG10.ts",
+    "card": {
+      "id": "swsh11tg-TG10",
+      "name": "Snorlax",
+      "number": "TG10",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG10/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG10/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG11",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG11.ts",
+    "card": {
+      "id": "swsh11tg-TG11",
+      "name": "Castform",
+      "number": "TG11",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG11/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG11/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG12",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG12.ts",
+    "card": {
+      "id": "swsh11tg-TG12",
+      "name": "Orbeetle V",
+      "number": "TG12",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG12/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG12/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG13",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG13.ts",
+    "card": {
+      "id": "swsh11tg-TG13",
+      "name": "Orbeetle VMAX",
+      "number": "TG13",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG13/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG13/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG14",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG14.ts",
+    "card": {
+      "id": "swsh11tg-TG14",
+      "name": "Centiskorch V",
+      "number": "TG14",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG14/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG14/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG15",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG15.ts",
+    "card": {
+      "id": "swsh11tg-TG15",
+      "name": "Centiskorch VMAX",
+      "number": "TG15",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG15/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG15/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG16",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG16.ts",
+    "card": {
+      "id": "swsh11tg-TG16",
+      "name": "Pikachu V",
+      "number": "TG16",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG16/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG16/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG17",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG17.ts",
+    "card": {
+      "id": "swsh11tg-TG17",
+      "name": "Pikachu VMAX",
+      "number": "TG17",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG17/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG17/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG18",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG18.ts",
+    "card": {
+      "id": "swsh11tg-TG18",
+      "name": "Enamorus V",
+      "number": "TG18",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG18/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG18/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG19",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG19.ts",
+    "card": {
+      "id": "swsh11tg-TG19",
+      "name": "Gallade V",
+      "number": "TG19",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG19/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG19/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG20",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG20.ts",
+    "card": {
+      "id": "swsh11tg-TG20",
+      "name": "Crobat V",
+      "number": "TG20",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG20/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG20/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG21",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG21.ts",
+    "card": {
+      "id": "swsh11tg-TG21",
+      "name": "Eternatus V",
+      "number": "TG21",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG21/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG21/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG22",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG22.ts",
+    "card": {
+      "id": "swsh11tg-TG22",
+      "name": "Eternatus VMAX",
+      "number": "TG22",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG22/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG22/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG23",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG23.ts",
+    "card": {
+      "id": "swsh11tg-TG23",
+      "name": "Adventurer's Discovery",
+      "number": "TG23",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG23/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG23/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG24",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG24.ts",
+    "card": {
+      "id": "swsh11tg-TG24",
+      "name": "Boss's Orders",
+      "number": "TG24",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG24/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG24/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG25",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG25.ts",
+    "card": {
+      "id": "swsh11tg-TG25",
+      "name": "Cook",
+      "number": "TG25",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG25/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG25/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG26",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG26.ts",
+    "card": {
+      "id": "swsh11tg-TG26",
+      "name": "Kabu",
+      "number": "TG26",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG26/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG26/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG27",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG27.ts",
+    "card": {
+      "id": "swsh11tg-TG27",
+      "name": "Nessa",
+      "number": "TG27",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG27/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG27/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG28",
+    "set_id": "swsh11",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG28.ts",
+    "card": {
+      "id": "swsh11tg-TG28",
+      "name": "Opal",
+      "number": "TG28",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG28/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG28/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG29",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG29.ts",
+    "card": {
+      "id": "swsh11tg-TG29",
+      "name": "Pikachu VMAX",
+      "number": "TG29",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG29/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG29/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "swsh11tg-TG30",
+    "set_id": "swsh11",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sword & Shield/Lost Origin Trainer Gallery/TG30.ts",
+    "card": {
+      "id": "swsh11tg-TG30",
+      "name": "Mew VMAX",
+      "number": "TG30",
+      "set": "Lost Origin",
+      "setId": "swsh11",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/swsh/swsh11/TG30/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/swsh/swsh11/TG30/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

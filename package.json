@@ -1,6 +1,6 @@
 {
   "name": "tcg-pack-ripper-plus",
-  "version": "0.255.4",
+  "version": "0.256.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,17 +19,21 @@
     "cap:open:android": "pnpm exec cap open android",
     "cap:open:ios": "pnpm exec cap open ios",
     "deploy:static": "node scripts/generate-asset-manifest.mjs && node scripts/make-static-deploy.mjs",
-    "smoke:static": "node scripts/make-static-deploy.mjs && node scripts/smoke-static.mjs"
+    "smoke:static": "node scripts/make-static-deploy.mjs && node scripts/smoke-static.mjs",
+    "test:hub": "node --test tests/trade-hub*.test.mjs"
   },
   "devDependencies": {
-    "vite": "8.3.2",
-    "@capacitor/cli": "8.5.2"
+    "@capacitor/cli": "8.5.2",
+    "@electric-sql/pglite": "0.5.8",
+    "linkedom": "0.18.13",
+    "supabase": "2.119.0",
+    "vite": "8.3.2"
   },
   "dependencies": {
-    "@capacitor/core": "8.5.2",
     "@capacitor/android": "8.5.2",
-    "@capacitor/ios": "8.5.2",
-    "@capacitor/haptics": "8.0.2"
+    "@capacitor/core": "8.5.2",
+    "@capacitor/haptics": "8.0.2",
+    "@capacitor/ios": "8.5.2"
   },
   "packageManager": "pnpm@11.19.0",
   "engines": {

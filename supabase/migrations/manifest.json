@@ -50,5 +50,22 @@
       "version": "20261002121126",
       "name": "enable_pg_net_for_auth_recovery_v238"
     }
+  ],
+  "pendingV256": [
+    {
+      "version": "20261003073323",
+      "name": "trade_hub_v256",
+      "status": "not_applied"
+    },
+    {
+      "after": "20261003073323",
+      "file": "../seed-hub-catalog.sql",
+      "status": "not_applied"
+    },
+    {
+      "version": "20261003082036",
+      "name": "trade_hub_v256_cutover",
+      "status": "not_applied"
+    }
   ]
 }

@@ -1,0 +1,2936 @@
+[
+  {
+    "id": "sm115-1",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/1.ts",
+    "card": {
+      "id": "sm115-1",
+      "name": "Caterpie",
+      "number": "1",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/1/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/1/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-10",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/10.ts",
+    "card": {
+      "id": "sm115-10",
+      "name": "Magmar",
+      "number": "10",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/10/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/10/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-11",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/11.ts",
+    "card": {
+      "id": "sm115-11",
+      "name": "Psyduck",
+      "number": "11",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/11/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/11/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-12",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/12.ts",
+    "card": {
+      "id": "sm115-12",
+      "name": "Slowpoke",
+      "number": "12",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/12/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/12/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-13",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/13.ts",
+    "card": {
+      "id": "sm115-13",
+      "name": "Staryu",
+      "number": "13",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/13/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/13/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-14",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/14.ts",
+    "card": {
+      "id": "sm115-14",
+      "name": "Starmie GX",
+      "number": "14",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/14/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/14/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-15",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/15.ts",
+    "card": {
+      "id": "sm115-15",
+      "name": "Magikarp",
+      "number": "15",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/15/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/15/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-16",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/16.ts",
+    "card": {
+      "id": "sm115-16",
+      "name": "Gyarados GX",
+      "number": "16",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/16/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/16/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-17",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/17.ts",
+    "card": {
+      "id": "sm115-17",
+      "name": "Lapras",
+      "number": "17",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/17/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/17/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-18",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/18.ts",
+    "card": {
+      "id": "sm115-18",
+      "name": "Vaporeon",
+      "number": "18",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/18/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/18/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-19",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/19.ts",
+    "card": {
+      "id": "sm115-19",
+      "name": "Pikachu",
+      "number": "19",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/19/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/19/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-2",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/2.ts",
+    "card": {
+      "id": "sm115-2",
+      "name": "Metapod",
+      "number": "2",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/2/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/2/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-20",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/20.ts",
+    "card": {
+      "id": "sm115-20",
+      "name": "Raichu GX",
+      "number": "20",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/20/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/20/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-21",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/21.ts",
+    "card": {
+      "id": "sm115-21",
+      "name": "Voltorb",
+      "number": "21",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/21/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/21/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-22",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/22.ts",
+    "card": {
+      "id": "sm115-22",
+      "name": "Electrode",
+      "number": "22",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/22/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/22/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-23",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/23.ts",
+    "card": {
+      "id": "sm115-23",
+      "name": "Jolteon",
+      "number": "23",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/23/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/23/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-24",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/24.ts",
+    "card": {
+      "id": "sm115-24",
+      "name": "Zapdos",
+      "number": "24",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/24/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/24/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-25",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/25.ts",
+    "card": {
+      "id": "sm115-25",
+      "name": "Ekans",
+      "number": "25",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/25/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/25/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-26",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/26.ts",
+    "card": {
+      "id": "sm115-26",
+      "name": "Ekans",
+      "number": "26",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/26/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/26/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-27",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/27.ts",
+    "card": {
+      "id": "sm115-27",
+      "name": "Arbok",
+      "number": "27",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/27/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/27/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-28",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/28.ts",
+    "card": {
+      "id": "sm115-28",
+      "name": "Koffing",
+      "number": "28",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/28/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/28/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-29",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/29.ts",
+    "card": {
+      "id": "sm115-29",
+      "name": "Weezing",
+      "number": "29",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/29/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/29/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-3",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/3.ts",
+    "card": {
+      "id": "sm115-3",
+      "name": "Butterfree",
+      "number": "3",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/3/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/3/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-30",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/30.ts",
+    "card": {
+      "id": "sm115-30",
+      "name": "Jynx",
+      "number": "30",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/30/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/30/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-31",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/31.ts",
+    "card": {
+      "id": "sm115-31",
+      "name": "Mewtwo GX",
+      "number": "31",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/31/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/31/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-32",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/32.ts",
+    "card": {
+      "id": "sm115-32",
+      "name": "Mew",
+      "number": "32",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/32/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/32/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-33",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/33.ts",
+    "card": {
+      "id": "sm115-33",
+      "name": "Geodude",
+      "number": "33",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/33/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/33/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-34",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/34.ts",
+    "card": {
+      "id": "sm115-34",
+      "name": "Graveler",
+      "number": "34",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/34/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/34/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-35",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/35.ts",
+    "card": {
+      "id": "sm115-35",
+      "name": "Golem",
+      "number": "35",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/35/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/35/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-36",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/36.ts",
+    "card": {
+      "id": "sm115-36",
+      "name": "Onix GX",
+      "number": "36",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/36/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/36/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-37",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/37.ts",
+    "card": {
+      "id": "sm115-37",
+      "name": "Cubone",
+      "number": "37",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/37/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/37/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-38",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/38.ts",
+    "card": {
+      "id": "sm115-38",
+      "name": "Clefairy",
+      "number": "38",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/38/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/38/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-39",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/39.ts",
+    "card": {
+      "id": "sm115-39",
+      "name": "Clefairy",
+      "number": "39",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/39/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/39/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-4",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/4.ts",
+    "card": {
+      "id": "sm115-4",
+      "name": "Paras",
+      "number": "4",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/4/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/4/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-40",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/40.ts",
+    "card": {
+      "id": "sm115-40",
+      "name": "Clefable",
+      "number": "40",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/40/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/40/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-41",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/41.ts",
+    "card": {
+      "id": "sm115-41",
+      "name": "Jigglypuff",
+      "number": "41",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/41/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/41/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-42",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/42.ts",
+    "card": {
+      "id": "sm115-42",
+      "name": "Wigglytuff GX",
+      "number": "42",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/42/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/42/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-43",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/43.ts",
+    "card": {
+      "id": "sm115-43",
+      "name": "Mr. Mime",
+      "number": "43",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/43/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/43/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-44",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/44.ts",
+    "card": {
+      "id": "sm115-44",
+      "name": "Moltres & Zapdos & Articuno GX",
+      "number": "44",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/44/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/44/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-45",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/45.ts",
+    "card": {
+      "id": "sm115-45",
+      "name": "Farfetch’d",
+      "number": "45",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/45/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/45/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-46",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/46.ts",
+    "card": {
+      "id": "sm115-46",
+      "name": "Chansey",
+      "number": "46",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/46/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/46/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-47",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/47.ts",
+    "card": {
+      "id": "sm115-47",
+      "name": "Kangaskhan",
+      "number": "47",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/47/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/47/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-48",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/48.ts",
+    "card": {
+      "id": "sm115-48",
+      "name": "Eevee",
+      "number": "48",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/48/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/48/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-49",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/49.ts",
+    "card": {
+      "id": "sm115-49",
+      "name": "Eevee",
+      "number": "49",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/49/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/49/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-5",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/5.ts",
+    "card": {
+      "id": "sm115-5",
+      "name": "Scyther",
+      "number": "5",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/5/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/5/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-50",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/50.ts",
+    "card": {
+      "id": "sm115-50",
+      "name": "Snorlax",
+      "number": "50",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/50/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/50/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-51",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/51.ts",
+    "card": {
+      "id": "sm115-51",
+      "name": "Bill’s Analysis",
+      "number": "51",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/51/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/51/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-52",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/52.ts",
+    "card": {
+      "id": "sm115-52",
+      "name": "Blaine’s Last Stand",
+      "number": "52",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/52/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/52/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-53",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/53.ts",
+    "card": {
+      "id": "sm115-53",
+      "name": "Brock’s Grit",
+      "number": "53",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/53/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/53/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-54",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/54.ts",
+    "card": {
+      "id": "sm115-54",
+      "name": "Brock’s Pewter City Gym",
+      "number": "54",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/54/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/54/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-55",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/55.ts",
+    "card": {
+      "id": "sm115-55",
+      "name": "Brock’s Training",
+      "number": "55",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/55/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/55/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-56",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/56.ts",
+    "card": {
+      "id": "sm115-56",
+      "name": "Erika’s Hospitality",
+      "number": "56",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/56/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/56/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-57",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/57.ts",
+    "card": {
+      "id": "sm115-57",
+      "name": "Giovanni’s Exile",
+      "number": "57",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/57/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/57/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-58",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/58.ts",
+    "card": {
+      "id": "sm115-58",
+      "name": "Jessie & James",
+      "number": "58",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/58/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/58/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-59",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/59.ts",
+    "card": {
+      "id": "sm115-59",
+      "name": "Koga’s Trap",
+      "number": "59",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/59/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/59/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-6",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/6.ts",
+    "card": {
+      "id": "sm115-6",
+      "name": "Pinsir GX",
+      "number": "6",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/6/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/6/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-60",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/60.ts",
+    "card": {
+      "id": "sm115-60",
+      "name": "Lt. Surge’s Strategy",
+      "number": "60",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/60/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/60/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-61",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/61.ts",
+    "card": {
+      "id": "sm115-61",
+      "name": "Misty’s Cerulean City Gym",
+      "number": "61",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/61/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/61/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-62",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/62.ts",
+    "card": {
+      "id": "sm115-62",
+      "name": "Misty’s Determination",
+      "number": "62",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/62/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/62/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-63",
+    "set_id": "sm11.5",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/63.ts",
+    "card": {
+      "id": "sm115-63",
+      "name": "Misty’s Water Command",
+      "number": "63",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/63/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/63/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-64",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/64.ts",
+    "card": {
+      "id": "sm115-64",
+      "name": "Pokémon Center Lady",
+      "number": "64",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/64/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/64/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-65",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/65.ts",
+    "card": {
+      "id": "sm115-65",
+      "name": "Sabrina’s Suggestion",
+      "number": "65",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/65/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/65/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-66",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/66.ts",
+    "card": {
+      "id": "sm115-66",
+      "name": "Moltres & Zapdos & Articuno GX",
+      "number": "66",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/66/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/66/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-67",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/67.ts",
+    "card": {
+      "id": "sm115-67",
+      "name": "Giovanni’s Exile",
+      "number": "67",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/67/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/67/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-68",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/68.ts",
+    "card": {
+      "id": "sm115-68",
+      "name": "Jessie & James",
+      "number": "68",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/68/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/68/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-69",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/69.ts",
+    "card": {
+      "id": "sm115-69",
+      "name": "Moltres & Zapdos & Articuno GX",
+      "number": "69",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/69/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/69/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-7",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/7.ts",
+    "card": {
+      "id": "sm115-7",
+      "name": "Charmander",
+      "number": "7",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/7/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/7/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-8",
+    "set_id": "sm11.5",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/8.ts",
+    "card": {
+      "id": "sm115-8",
+      "name": "Charmeleon",
+      "number": "8",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/8/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/8/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sm115-9",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates/9.ts",
+    "card": {
+      "id": "sm115-9",
+      "name": "Charizard GX",
+      "number": "9",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sm115/9/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sm115/9/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV1",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV1.ts",
+    "card": {
+      "id": "sma-SV1",
+      "name": "Scyther",
+      "number": "SV1",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV1/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV1/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV10",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV10.ts",
+    "card": {
+      "id": "sma-SV10",
+      "name": "Quagsire",
+      "number": "SV10",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV10/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV10/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV11",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV11.ts",
+    "card": {
+      "id": "sma-SV11",
+      "name": "Froakie",
+      "number": "SV11",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV11/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV11/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV12",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV12.ts",
+    "card": {
+      "id": "sma-SV12",
+      "name": "Frogadier",
+      "number": "SV12",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV12/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV12/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV13",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV13.ts",
+    "card": {
+      "id": "sma-SV13",
+      "name": "Voltorb",
+      "number": "SV13",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV13/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV13/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV14",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV14.ts",
+    "card": {
+      "id": "sma-SV14",
+      "name": "Xurkitree",
+      "number": "SV14",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV14/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV14/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV15",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV15.ts",
+    "card": {
+      "id": "sma-SV15",
+      "name": "Seviper",
+      "number": "SV15",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV15/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV15/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV16",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV16.ts",
+    "card": {
+      "id": "sma-SV16",
+      "name": "Shuppet",
+      "number": "SV16",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV16/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV16/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV17",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV17.ts",
+    "card": {
+      "id": "sma-SV17",
+      "name": "Inkay",
+      "number": "SV17",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV17/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV17/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV18",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV18.ts",
+    "card": {
+      "id": "sma-SV18",
+      "name": "Malamar",
+      "number": "SV18",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV18/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV18/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV19",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV19.ts",
+    "card": {
+      "id": "sma-SV19",
+      "name": "Poipole",
+      "number": "SV19",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV19/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV19/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV2",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV2.ts",
+    "card": {
+      "id": "sma-SV2",
+      "name": "Rowlet",
+      "number": "SV2",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV2/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV2/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV20",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV20.ts",
+    "card": {
+      "id": "sma-SV20",
+      "name": "Sudowoodo",
+      "number": "SV20",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV20/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV20/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV21",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV21.ts",
+    "card": {
+      "id": "sma-SV21",
+      "name": "Riolu",
+      "number": "SV21",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV21/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV21/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV22",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV22.ts",
+    "card": {
+      "id": "sma-SV22",
+      "name": "Lucario",
+      "number": "SV22",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV22/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV22/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV23",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV23.ts",
+    "card": {
+      "id": "sma-SV23",
+      "name": "Rockruff",
+      "number": "SV23",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV23/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV23/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV24",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV24.ts",
+    "card": {
+      "id": "sma-SV24",
+      "name": "Buzzwole",
+      "number": "SV24",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV24/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV24/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV25",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV25.ts",
+    "card": {
+      "id": "sma-SV25",
+      "name": "Zorua",
+      "number": "SV25",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV25/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV25/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV26",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV26.ts",
+    "card": {
+      "id": "sma-SV26",
+      "name": "Guzzlord",
+      "number": "SV26",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV26/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV26/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV27",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV27.ts",
+    "card": {
+      "id": "sma-SV27",
+      "name": "Magnemite",
+      "number": "SV27",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV27/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV27/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV28",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV28.ts",
+    "card": {
+      "id": "sma-SV28",
+      "name": "Magneton",
+      "number": "SV28",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV28/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV28/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV29",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV29.ts",
+    "card": {
+      "id": "sma-SV29",
+      "name": "Magnezone",
+      "number": "SV29",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV29/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV29/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV3",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV3.ts",
+    "card": {
+      "id": "sma-SV3",
+      "name": "Dartrix",
+      "number": "SV3",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV3/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV3/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV30",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV30.ts",
+    "card": {
+      "id": "sma-SV30",
+      "name": "Beldum",
+      "number": "SV30",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV30/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV30/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV31",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV31.ts",
+    "card": {
+      "id": "sma-SV31",
+      "name": "Metang",
+      "number": "SV31",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV31/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV31/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV32",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV32.ts",
+    "card": {
+      "id": "sma-SV32",
+      "name": "Celesteela",
+      "number": "SV32",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV32/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV32/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV33",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV33.ts",
+    "card": {
+      "id": "sma-SV33",
+      "name": "Kartana",
+      "number": "SV33",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV33/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV33/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV34",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV34.ts",
+    "card": {
+      "id": "sma-SV34",
+      "name": "Ralts",
+      "number": "SV34",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV34/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV34/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV35",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV35.ts",
+    "card": {
+      "id": "sma-SV35",
+      "name": "Kirlia",
+      "number": "SV35",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV35/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV35/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV36",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV36.ts",
+    "card": {
+      "id": "sma-SV36",
+      "name": "Diancie",
+      "number": "SV36",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV36/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV36/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV37",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV37.ts",
+    "card": {
+      "id": "sma-SV37",
+      "name": "Altaria",
+      "number": "SV37",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV37/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV37/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV38",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV38.ts",
+    "card": {
+      "id": "sma-SV38",
+      "name": "Gible",
+      "number": "SV38",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV38/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV38/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV39",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV39.ts",
+    "card": {
+      "id": "sma-SV39",
+      "name": "Gabite",
+      "number": "SV39",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV39/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV39/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV4",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV4.ts",
+    "card": {
+      "id": "sma-SV4",
+      "name": "Wimpod",
+      "number": "SV4",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV4/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV4/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV40",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV40.ts",
+    "card": {
+      "id": "sma-SV40",
+      "name": "Garchomp",
+      "number": "SV40",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV40/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV40/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV41",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV41.ts",
+    "card": {
+      "id": "sma-SV41",
+      "name": "Eevee",
+      "number": "SV41",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV41/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV41/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV42",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV42.ts",
+    "card": {
+      "id": "sma-SV42",
+      "name": "Swablu",
+      "number": "SV42",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV42/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV42/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV43",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV43.ts",
+    "card": {
+      "id": "sma-SV43",
+      "name": "Noibat",
+      "number": "SV43",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV43/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV43/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV44",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV44.ts",
+    "card": {
+      "id": "sma-SV44",
+      "name": "Oranguru",
+      "number": "SV44",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV44/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV44/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV45",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV45.ts",
+    "card": {
+      "id": "sma-SV45",
+      "name": "Type: Null",
+      "number": "SV45",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV45/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV45/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV46",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV46.ts",
+    "card": {
+      "id": "sma-SV46",
+      "name": "Leafeon-GX",
+      "number": "SV46",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV46/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV46/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV47",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV47.ts",
+    "card": {
+      "id": "sma-SV47",
+      "name": "Decidueye-GX",
+      "number": "SV47",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV47/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV47/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV48",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV48.ts",
+    "card": {
+      "id": "sma-SV48",
+      "name": "Golisopod-GX",
+      "number": "SV48",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV48/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV48/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV49",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV49.ts",
+    "card": {
+      "id": "sma-SV49",
+      "name": "Charizard-GX",
+      "number": "SV49",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV49/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV49/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV5",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV5.ts",
+    "card": {
+      "id": "sma-SV5",
+      "name": "Pheromosa",
+      "number": "SV5",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV5/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV5/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV50",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV50.ts",
+    "card": {
+      "id": "sma-SV50",
+      "name": "Ho-Oh-GX",
+      "number": "SV50",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV50/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV50/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV51",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV51.ts",
+    "card": {
+      "id": "sma-SV51",
+      "name": "Reshiram-GX",
+      "number": "SV51",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV51/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV51/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV52",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV52.ts",
+    "card": {
+      "id": "sma-SV52",
+      "name": "Turtonator-GX",
+      "number": "SV52",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV52/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV52/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV53",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV53.ts",
+    "card": {
+      "id": "sma-SV53",
+      "name": "Alolan Ninetales-GX",
+      "number": "SV53",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV53/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV53/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV54",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV54.ts",
+    "card": {
+      "id": "sma-SV54",
+      "name": "Articuno-GX",
+      "number": "SV54",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV54/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV54/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV55",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV55.ts",
+    "card": {
+      "id": "sma-SV55",
+      "name": "Glaceon-GX",
+      "number": "SV55",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV55/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV55/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV56",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV56.ts",
+    "card": {
+      "id": "sma-SV56",
+      "name": "Greninja-GX",
+      "number": "SV56",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV56/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV56/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV57",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV57.ts",
+    "card": {
+      "id": "sma-SV57",
+      "name": "Electrode-GX",
+      "number": "SV57",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV57/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV57/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV58",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV58.ts",
+    "card": {
+      "id": "sma-SV58",
+      "name": "Xurkitree-GX",
+      "number": "SV58",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV58/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV58/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV59",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV59.ts",
+    "card": {
+      "id": "sma-SV59",
+      "name": "Mewtwo-GX",
+      "number": "SV59",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV59/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV59/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV6",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV6.ts",
+    "card": {
+      "id": "sma-SV6",
+      "name": "Charmander",
+      "number": "SV6",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV6/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV6/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV60",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV60.ts",
+    "card": {
+      "id": "sma-SV60",
+      "name": "Espeon-GX",
+      "number": "SV60",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV60/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV60/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV61",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV61.ts",
+    "card": {
+      "id": "sma-SV61",
+      "name": "Banette-GX",
+      "number": "SV61",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV61/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV61/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV62",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV62.ts",
+    "card": {
+      "id": "sma-SV62",
+      "name": "Nihilego-GX",
+      "number": "SV62",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV62/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV62/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV63",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV63.ts",
+    "card": {
+      "id": "sma-SV63",
+      "name": "Naganadel-GX",
+      "number": "SV63",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV63/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV63/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV64",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV64.ts",
+    "card": {
+      "id": "sma-SV64",
+      "name": "Lucario-GX",
+      "number": "SV64",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV64/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV64/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV65",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV65.ts",
+    "card": {
+      "id": "sma-SV65",
+      "name": "Zygarde-GX",
+      "number": "SV65",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV65/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV65/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV66",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV66.ts",
+    "card": {
+      "id": "sma-SV66",
+      "name": "Lycanroc-GX",
+      "number": "SV66",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV66/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV66/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV67",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV67.ts",
+    "card": {
+      "id": "sma-SV67",
+      "name": "Lycanroc-GX",
+      "number": "SV67",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV67/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV67/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV68",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV68.ts",
+    "card": {
+      "id": "sma-SV68",
+      "name": "Buzzwole-GX",
+      "number": "SV68",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV68/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV68/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV69",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV69.ts",
+    "card": {
+      "id": "sma-SV69",
+      "name": "Umbreon-GX",
+      "number": "SV69",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV69/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV69/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV7",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV7.ts",
+    "card": {
+      "id": "sma-SV7",
+      "name": "Charmeleon",
+      "number": "SV7",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV7/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV7/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV70",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV70.ts",
+    "card": {
+      "id": "sma-SV70",
+      "name": "Darkrai-GX",
+      "number": "SV70",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV70/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV70/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV71",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV71.ts",
+    "card": {
+      "id": "sma-SV71",
+      "name": "Guzzlord-GX",
+      "number": "SV71",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV71/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV71/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV72",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV72.ts",
+    "card": {
+      "id": "sma-SV72",
+      "name": "Scizor-GX",
+      "number": "SV72",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV72/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV72/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV73",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV73.ts",
+    "card": {
+      "id": "sma-SV73",
+      "name": "Kartana-GX",
+      "number": "SV73",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV73/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV73/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV74",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV74.ts",
+    "card": {
+      "id": "sma-SV74",
+      "name": "Stakataka-GX",
+      "number": "SV74",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV74/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV74/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV75",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV75.ts",
+    "card": {
+      "id": "sma-SV75",
+      "name": "Gardevoir-GX",
+      "number": "SV75",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV75/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV75/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV76",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV76.ts",
+    "card": {
+      "id": "sma-SV76",
+      "name": "Sylveon-GX",
+      "number": "SV76",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV76/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV76/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV77",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV77.ts",
+    "card": {
+      "id": "sma-SV77",
+      "name": "Altaria-GX",
+      "number": "SV77",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV77/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV77/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV78",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV78.ts",
+    "card": {
+      "id": "sma-SV78",
+      "name": "Noivern-GX",
+      "number": "SV78",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV78/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV78/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV79",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV79.ts",
+    "card": {
+      "id": "sma-SV79",
+      "name": "Silvally-GX",
+      "number": "SV79",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV79/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV79/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV8",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV8.ts",
+    "card": {
+      "id": "sma-SV8",
+      "name": "Alolan Vulpix",
+      "number": "SV8",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV8/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV8/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV80",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV80.ts",
+    "card": {
+      "id": "sma-SV80",
+      "name": "Drampa-GX",
+      "number": "SV80",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV80/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV80/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV81",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV81.ts",
+    "card": {
+      "id": "sma-SV81",
+      "name": "Aether Foundation Employee",
+      "number": "SV81",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV81/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV81/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV82",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV82.ts",
+    "card": {
+      "id": "sma-SV82",
+      "name": "Cynthia",
+      "number": "SV82",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV82/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV82/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV83",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV83.ts",
+    "card": {
+      "id": "sma-SV83",
+      "name": "Fisherman",
+      "number": "SV83",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV83/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV83/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV84",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV84.ts",
+    "card": {
+      "id": "sma-SV84",
+      "name": "Guzma",
+      "number": "SV84",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV84/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV84/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV85",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV85.ts",
+    "card": {
+      "id": "sma-SV85",
+      "name": "Hiker",
+      "number": "SV85",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV85/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV85/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV86",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV86.ts",
+    "card": {
+      "id": "sma-SV86",
+      "name": "Lady",
+      "number": "SV86",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV86/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV86/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV87",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV87.ts",
+    "card": {
+      "id": "sma-SV87",
+      "name": "Aether Paradise Conservation Area",
+      "number": "SV87",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV87/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV87/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV88",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV88.ts",
+    "card": {
+      "id": "sma-SV88",
+      "name": "Brooklet Hill",
+      "number": "SV88",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV88/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV88/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV89",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV89.ts",
+    "card": {
+      "id": "sma-SV89",
+      "name": "Mt. Coronet",
+      "number": "SV89",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV89/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV89/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV9",
+    "set_id": "sm11.5",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV9.ts",
+    "card": {
+      "id": "sma-SV9",
+      "name": "Wooper",
+      "number": "SV9",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV9/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV9/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV90",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV90.ts",
+    "card": {
+      "id": "sma-SV90",
+      "name": "Shrine of Punishment",
+      "number": "SV90",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV90/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV90/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV91",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV91.ts",
+    "card": {
+      "id": "sma-SV91",
+      "name": "Tapu Bulu-GX",
+      "number": "SV91",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV91/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV91/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV92",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV92.ts",
+    "card": {
+      "id": "sma-SV92",
+      "name": "Tapu Fini-GX",
+      "number": "SV92",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV92/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV92/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV93",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV93.ts",
+    "card": {
+      "id": "sma-SV93",
+      "name": "Tapu Koko-GX",
+      "number": "SV93",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV93/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV93/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sma-SV94",
+    "set_id": "sm11.5",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Sun & Moon/Hidden Fates Shiny Vault/SV94.ts",
+    "card": {
+      "id": "sma-SV94",
+      "name": "Tapu Lele-GX",
+      "number": "SV94",
+      "set": "Hidden Fates",
+      "setId": "sm11.5",
+      "rarity": "Secret Rare",
+      "img": "https://assets.tcgdex.net/en/sm/sma/SV94/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sm/sma/SV94/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

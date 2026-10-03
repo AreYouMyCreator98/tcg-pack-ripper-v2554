@@ -1,5 +1,8 @@
 node_modules/
 dist/
+deploy/
+.temp/
+__pycache__/
 android/
 ios/
 .DS_Store

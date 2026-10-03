@@ -1,10 +1,8 @@
-# TCG Pack Ripper+ — V255.4
+# TCG Pack Ripper+ — V256 Trade Hub
 
-Reliability update based on the supplied V255.3 source. See docs/VERIFICATION-V2554.md for test scope, results, and online-service gaps.
+Rebuilt marketplace, trading, multiplayer, global chat, pack battles, matchmaking and ranked play. Start with [the system guide](docs/TRADE-HUB-V256.md), [verification](docs/VERIFICATION-V256.md), and [deployment instructions](docs/DEPLOYMENT-V256.md). The new online backend has not yet been installed on the public deployment.
 
-Requires Node 22.12+ and pnpm 11.19.0. Install with `pnpm install --frozen-lockfile --ignore-scripts`, validate with `pnpm run validate`, and build with `pnpm run build`. The production output is `dist/`; `pnpm run deploy:static` creates the unbundled `deploy/` build. Serve either through HTTP(S), not file://.
-
-V255.4 fixes card taps, double-selling races, partial-batch refunds, pack-data failure recovery, Reveal All retries, account-client duplication, progression audit subsets, save-envelope downgrades, and offline build manifests. Saves keep schema 1.
+Requires Node 22.12+ and pnpm 11.19.0. Run `pnpm install --frozen-lockfile --ignore-scripts`, then `pnpm run release:check`. `dist/` is the production build; `deploy/` is the unbundled static build. Serve over HTTP(S).
 
 ## Earlier architecture notes
 

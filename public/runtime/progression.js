@@ -1603,6 +1603,7 @@ try{
   const LINK_BACKUP_KEY='tcgRipperLinkBackupV237';
   const CONFLICT_BACKUP_KEY='tcgRipperConflictBackupV237';
   let client=null,user=null,syncTimer=null,syncBusy=false,authBusy=false,pushPausedUntil=0,cloudVersion=null,recoveryPending=false;
+  let hubHold=false;
   let deviceId='';
   try{deviceId=localStorage.getItem(DEVICE_KEY)||('dev_'+crypto.randomUUID());localStorage.setItem(DEVICE_KEY,deviceId)}catch(_){deviceId='dev_'+Math.random().toString(36).slice(2)}
   const cfg=()=>window.TCG_CLOUD_CONFIG||{};
@@ -1696,14 +1697,14 @@ try{
   }
   async function refreshSession(){
     if(!client)return null;
-    try{const {data,error}=await client.auth.getSession();if(error)throw error;const session=data?.session||null;user=session?.user||null;if(user)setPendingEmail('');syncUI();return session}catch(e){user=null;syncUI();return null}
+    try{const {data,error}=await client.auth.getSession();if(error)throw error;const session=data?.session||null;user=session?.user||null;if(user){setPendingEmail('');try{const pending=JSON.parse(localStorage.getItem('tcg-hub-v256-pending:'+user.id)||'null');if(pending&&['listing_create','listing_buy','listing_cancel','trade_offer','room_ready','room_cancel','heartbeat'].includes(pending.action))holdHubTransaction();}catch(_){}}syncUI();return session}catch(e){user=null;syncUI();return null}
   }
   async function getRemote(){
     if(!client)return null;const session=await refreshSession();if(!session?.user)return null;
     const {data,error}=await client.from(CLOUD_TABLE).select('save_data,save_version,device_id,updated_at').eq('user_id',session.user.id).maybeSingle();if(error)throw error;return data||null;
   }
-  async function pushNow(showToast=false,force=false){
-    if(!client||syncBusy)return false;if(recoveryPending&&!force){if(showToast)toast('Choose which save to keep first.');return false}if(Date.now()<pushPausedUntil&&!showToast&&!force)return false;syncBusy=true;
+  async function pushNow(showToast=false,force=false,inPlaceConflict=false){
+    if(!client||syncBusy||hubHold)return false;if(recoveryPending&&!force){if(showToast)toast('Choose which save to keep first.');return false}if(Date.now()<pushPausedUntil&&!showToast&&!force)return false;syncBusy=true;
     try{
       const session=await refreshSession();if(!session?.user){if(showToast)toast('Log in before syncing account progress.');setStatus('warn','Sign-in required','Progress is only protected by the browser until you log in.');return false}
       const data=snapshot(),expected=(cloudVersion??storedVersion())||null;
@@ -1711,6 +1712,7 @@ try{
       if(result?.conflict){
         try{localStorage.setItem(CONFLICT_BACKUP_KEY,JSON.stringify(state))}catch(_){ }
         setStoredVersion(result.save_version);setDirty(false);
+        if(inPlaceConflict){await pullInPlace(false);setStatus('warn','Account collection refreshed','Review the updated collection before trying your action again.');return false;}
         if(result.save_data&&applySnapshot(result.save_data)){setStatus('warn','Account changed on another device','The newer account save was loaded. Your unsynced device copy was preserved as a safety backup.');if(showToast)toast('☁️ Newer account save loaded');setTimeout(()=>location.reload(),350)}
         return false;
       }
@@ -1718,9 +1720,9 @@ try{
     }catch(e){console.error('Account save failed',e);setDirty(true);const msg=String(e?.message||'');if(/row-level security|401|jwt|auth/i.test(msg))setStatus('warn','Sign-in required','Your account session needs to be refreshed. The offline backup is still safe on this device.');else setStatus('warn','Account sync pending','Your latest progress is queued on this device and will retry when the connection recovers.');if(showToast)toast('Account sync pending • offline backup is safe');return false}finally{syncBusy=false}
   }
   function pausePush(ms=3000){pushPausedUntil=Math.max(pushPausedUntil,Date.now()+Math.max(250,Number(ms)||3000));clearTimeout(syncTimer);syncTimer=null}
-  function queuePush(){if(!user||!client||recoveryPending)return;setDirty(true);clearTimeout(syncTimer);const wait=Date.now()<pushPausedUntil?Math.max(80,pushPausedUntil-Date.now()+80):350;syncTimer=setTimeout(()=>pushNow(false),wait)}
+  function queuePush(){if(!user||!client||recoveryPending)return;if(hubHold){setDirty(true);return;}setDirty(true);clearTimeout(syncTimer);const wait=Date.now()<pushPausedUntil?Math.max(80,pushPausedUntil-Date.now()+80):350;syncTimer=setTimeout(()=>pushNow(false),wait)}
   async function reconcile(){
-    if(!client||recoveryPending)return;const session=await refreshSession();if(!session?.user)return;
+    if(!client||recoveryPending||hubHold)return;const session=await refreshSession();if(!session?.user)return;
     try{
       const remote=await getRemote();
       if(!remote?.save_data){setBound();setStoredVersion(null);setDirty(true);await pushNow(false,true);return}
@@ -1757,7 +1759,7 @@ try{
   }
   async function pullInPlace(showToast=false){
     if(!client||recoveryPending)return false;const session=await refreshSession();if(!session?.user)return false;
-    try{const remote=await getRemote(),cloud=remote?.save_data;if(!cloud?.state)return false;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);state=clone(cloud.state);state.cloudV190=state.cloudV190||{};state.cloudV190.changedAt=Number(cloud.saved_at||Date.parse(remote.updated_at)||Date.now());localStorage.setItem('tcgRipperSave',JSON.stringify(state));if(cloud.prefs)localStorage.setItem('tcgPrefsV160',JSON.stringify(cloud.prefs));if(cloud.audio)localStorage.setItem('tcgAudioV68',JSON.stringify(cloud.audio));if(cloud.selectedSetId)localStorage.setItem('tcgCloudSelectedSetV190',cloud.selectedSetId);localStorage.setItem(STAMP_KEY,String(Date.now()));syncUI();try{stats()}catch(e){}try{updateProgressUI()}catch(e){}try{renderBinder()}catch(e){}try{renderSets()}catch(e){}try{renderMarketV57()}catch(e){}try{renderMarketHistoryV72()}catch(e){}try{renderProfile()}catch(e){}try{renderSlabVaultV52()}catch(e){}try{renderMasterV57()}catch(e){}if(showToast)toast('☁️ Live game state synced');return true}catch(e){console.error('Cloud in-place pull failed',e);return false}
+    try{const account=session.user.id,remote=await getRemote(),cloud=remote?.save_data;if(user?.id!==account||!cloud?.state)return false;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);state=clone(cloud.state);state.cloudV190=state.cloudV190||{};state.cloudV190.changedAt=Number(cloud.saved_at||Date.parse(remote.updated_at)||Date.now());localStorage.setItem('tcgRipperSave',JSON.stringify(state));if(cloud.prefs)localStorage.setItem('tcgPrefsV160',JSON.stringify(cloud.prefs));if(cloud.audio)localStorage.setItem('tcgAudioV68',JSON.stringify(cloud.audio));if(cloud.selectedSetId)localStorage.setItem('tcgCloudSelectedSetV190',cloud.selectedSetId);localStorage.setItem(STAMP_KEY,String(Date.now()));syncUI();try{stats()}catch(e){}try{updateProgressUI()}catch(e){}try{renderBinder()}catch(e){}try{renderSets()}catch(e){}try{renderMarketV57()}catch(e){}try{renderMarketHistoryV72()}catch(e){}try{renderProfile()}catch(e){}try{renderSlabVaultV52()}catch(e){}try{renderMasterV57()}catch(e){}if(showToast)toast('☁️ Live game state synced');return true}catch(e){console.error('Cloud in-place pull failed',e);return false}
   }
   function ensurePasswordRecoveryUI(){
     if(document.getElementById('v238PasswordRecovery'))return;
@@ -1798,7 +1800,46 @@ try{
     el('cloudLoginBtnV190')?.addEventListener('click',login);el('cloudSignupBtnV190')?.addEventListener('click',signup);el('cloudLogoutBtnV190')?.addEventListener('click',logout);el('cloudSyncBtnV190')?.addEventListener('click',()=>pushNow(true));const loginBox=el('cloudLoginV190');if(loginBox&&!document.getElementById('cloudForgotBtnV238')){const b=document.createElement('button');b.id='cloudForgotBtnV238';b.type='button';b.textContent='FORGOT PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',requestPasswordReset);loginBox.appendChild(b)}const signedBox=el('cloudSignedV190');if(signedBox&&!document.getElementById('cloudChangePasswordBtnV238')){const b=document.createElement('button');b.id='cloudChangePasswordBtnV238';b.type='button';b.textContent='CHANGE PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',showPasswordRecovery);signedBox.appendChild(b)}syncUI();if(user)setTimeout(reconcile,500);
   }
   try{const baseSave=save;save=function(){markLocalChange();const r=baseSave.apply(this,arguments);queuePush();return r}}catch(e){console.warn('Cloud save wrapper not installed',e)}
-  window.tcgCloudV192={push:()=>pushNow(true),pushSilent:()=>pushNow(false),reconcile,pullInPlace,pausePush,requestPasswordReset,get user(){return user},get saveVersion(){return cloudVersion??storedVersion()},get accountPrimary(){return !!user&&!recoveryPending},get recoveryPending(){return recoveryPending},configured,refreshSession};
+  async function beginHubTransaction(){
+    if(!user||recoveryPending)throw new Error('AUTH_REQUIRED');
+    if(typeof busy!=='undefined'&&busy)throw new Error('Finish opening your current pack first.');
+    const account=user.id;hubBarrier(true);
+    try{
+      if(hubHold)throw new Error('Retry the pending Trade Hub action first.');
+      const deadline=Date.now()+8000;
+      while(syncBusy&&Date.now()<deadline)await new Promise(r=>setTimeout(r,50));
+      if(syncBusy||!await pushNow(false,true,true)||user?.id!==account)throw new Error('SYNC_REQUIRED');
+      hubHold=true;clearTimeout(syncTimer);syncTimer=null;
+      return cloudVersion??storedVersion();
+    }catch(e){if(!hubHold)hubBarrier(false);throw e;}
+  }
+  const hubInert=new Map();
+  function hubBarrier(on){
+    document.documentElement.classList.toggle('hub-transaction-pending',on);
+    if(on){for(const node of document.querySelectorAll('.nav,.screen:not(#earn),#earn .exchangeV154')){if(!hubInert.has(node))hubInert.set(node,node.inert);node.inert=true;}}
+    else{for(const [node,value]of hubInert)node.inert=value;hubInert.clear();}
+  }
+  for(const type of ['click','submit','keydown','pointerdown'])document.addEventListener(type,e=>{
+    if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub')){e.preventDefault();e.stopImmediatePropagation();}
+  },true);
+  function holdHubTransaction(){hubHold=true;clearTimeout(syncTimer);syncTimer=null;hubBarrier(true);}
+  function resetHubTransaction(){hubHold=false;hubBarrier(false);}
+  async function syncHubSnapshot(version){
+    if(!user||recoveryPending)return;
+    if(hubHold){await finishHubTransaction();return;}
+    if(!version||Number(version)<=Number(cloudVersion??storedVersion()))return;
+    if(typeof busy!=='undefined'&&busy)return;
+    // Never silently overwrite unsynced local play. The normal version-conflict
+    // path preserves its backup and loads the newer account state.
+    if(isDirty()){await pushNow(false,true,true);if(Number(version)>Number(cloudVersion??storedVersion()))throw new Error('SYNC_REQUIRED');return;}
+    holdHubTransaction();await finishHubTransaction();
+  }
+  async function finishHubTransaction(){
+    if(!hubHold)return;
+    if(!await pullInPlace(false))throw Object.assign(new Error('Collection sync is pending. Reconnect before continuing.'),{uncertain:true});
+    resetHubTransaction();
+  }
+  window.tcgCloudV192={beginHubTransaction,holdHubTransaction,finishHubTransaction,resetHubTransaction,syncHubSnapshot,get hubHeld(){return hubHold},push:()=>pushNow(true),pushSilent:()=>pushNow(false),reconcile,pullInPlace,pausePush,requestPasswordReset,get user(){return user},get saveVersion(){return cloudVersion??storedVersion()},get accountPrimary(){return !!user&&!recoveryPending},get recoveryPending(){return recoveryPending},configured,refreshSession};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
 

@@ -1,3 +1,12 @@
+# V256 — Trade Hub rebuild
+
+- Replaced the layered online runtimes with a modular Hub and authenticated transactional service.
+- Added escrow, recoverable action receipts, cloud-version coordination and server-generated ranked outcomes.
+- Rebuilt marketplace, private trades, chat, matchmaking, battles, identity and leaderboard.
+- Preserved ranks, offline district, daily rewards and frames; added a coordinated migration for active listings.
+- Added 6,889 verified card identities, all 32 expansions and Gallery/Vault subsets, with existing unlock gates.
+- See docs/VERIFICATION-V256.md for test evidence and live-service limits.
+
 # 0.255.4
 
 See [release notes](docs/releases/0.255.4.md) and [verification report](docs/VERIFICATION-V2554.md).

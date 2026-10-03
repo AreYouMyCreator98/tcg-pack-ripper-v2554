@@ -11,7 +11,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2554';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=256';
 
 beginLaunch();
 exposeAppConfig();

@@ -1,0 +1,4167 @@
+[
+  {
+    "id": "sv04.5-001",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-001",
+      "name": "Pineco",
+      "number": "001",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-002",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-002",
+      "name": "Forretress ex",
+      "number": "002",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/002/low.webp",
+      "market": 0.63,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-003",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-003",
+      "name": "Maractus",
+      "number": "003",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-004",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-004",
+      "name": "Toedscool",
+      "number": "004",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-005",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-005",
+      "name": "Toedscruel ex",
+      "number": "005",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/005/low.webp",
+      "market": 0.67,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-006",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-006",
+      "name": "Espathra ex",
+      "number": "006",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/006/low.webp",
+      "market": 0.59,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-007",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-007",
+      "name": "Charmander",
+      "number": "007",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/007/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-008",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-008",
+      "name": "Charmeleon",
+      "number": "008",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/008/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-009",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-009",
+      "name": "Magmar",
+      "number": "009",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/009/low.webp",
+      "market": 0.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-010",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-010",
+      "name": "Magmortar",
+      "number": "010",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/010/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-011",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-011",
+      "name": "Numel",
+      "number": "011",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-012",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-012",
+      "name": "Camerupt",
+      "number": "012",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-013",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-013",
+      "name": "Heat Rotom",
+      "number": "013",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/013/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-014",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-014",
+      "name": "Charcadet",
+      "number": "014",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-015",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-015",
+      "name": "Armarouge",
+      "number": "015",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/015/low.webp",
+      "market": 0.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-016",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-016",
+      "name": "Lapras",
+      "number": "016",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/016/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-017",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-017",
+      "name": "Frigibax",
+      "number": "017",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/017/low.webp",
+      "market": 0.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-018",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-018",
+      "name": "Pikachu",
+      "number": "018",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/018/low.webp",
+      "market": 0.32,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-019",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-019",
+      "name": "Raichu",
+      "number": "019",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/019/low.webp",
+      "market": 0.24,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-020",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-020",
+      "name": "Chinchou",
+      "number": "020",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-021",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-021",
+      "name": "Lanturn",
+      "number": "021",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-022",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-022",
+      "name": "Kilowattrel",
+      "number": "022",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-023",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-023",
+      "name": "Exeggcute",
+      "number": "023",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-024",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-024",
+      "name": "Exeggutor",
+      "number": "024",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/024/low.webp",
+      "market": 0.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-025",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-025",
+      "name": "Natu",
+      "number": "025",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/025/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-026",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-026",
+      "name": "Xatu",
+      "number": "026",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/026/low.webp",
+      "market": 0.22,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-027",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-027",
+      "name": "Ralts",
+      "number": "027",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-028",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-028",
+      "name": "Kirlia",
+      "number": "028",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-029",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-029",
+      "name": "Gardevoir ex",
+      "number": "029",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/029/low.webp",
+      "market": 0.73,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-030",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-030",
+      "name": "Chimecho",
+      "number": "030",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/030/low.webp",
+      "market": 0.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-031",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-031",
+      "name": "Mime Jr.",
+      "number": "031",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/031/low.webp",
+      "market": 0.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-032",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-032",
+      "name": "Woobat",
+      "number": "032",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-033",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-033",
+      "name": "Swoobat",
+      "number": "033",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-034",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-034",
+      "name": "Cottonee",
+      "number": "034",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-035",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-035",
+      "name": "Whimsicott",
+      "number": "035",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/035/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-036",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-036",
+      "name": "Dedenne",
+      "number": "036",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/036/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-037",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-037",
+      "name": "Mimikyu",
+      "number": "037",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/037/low.webp",
+      "market": 0.26,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-038",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-038",
+      "name": "Fidough",
+      "number": "038",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-039",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-039",
+      "name": "Dachsbun",
+      "number": "039",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/039/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-040",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-040",
+      "name": "Ceruledge",
+      "number": "040",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/040/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-041",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-041",
+      "name": "Flittle",
+      "number": "041",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-042",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-042",
+      "name": "Greavard",
+      "number": "042",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-043",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-043",
+      "name": "Houndstone",
+      "number": "043",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/043/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-044",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-044",
+      "name": "Gimmighoul",
+      "number": "044",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/044/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-045",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-045",
+      "name": "Mankey",
+      "number": "045",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-046",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-046",
+      "name": "Primeape",
+      "number": "046",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-047",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-047",
+      "name": "Annihilape",
+      "number": "047",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/047/low.webp",
+      "market": 0.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-048",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-048",
+      "name": "Phanpy",
+      "number": "048",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/048/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-049",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-049",
+      "name": "Donphan",
+      "number": "049",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-050",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-050",
+      "name": "Barboach",
+      "number": "050",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-051",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-051",
+      "name": "Clobbopus",
+      "number": "051",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-052",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-052",
+      "name": "Grapploct",
+      "number": "052",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-053",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-053",
+      "name": "Great Tusk ex",
+      "number": "053",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/053/low.webp",
+      "market": 0.67,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-054",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-054",
+      "name": "Charizard ex",
+      "number": "054",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/054/low.webp",
+      "market": 4.97,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-055",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-055",
+      "name": "Gastly",
+      "number": "055",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/055/low.webp",
+      "market": 0.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-056",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-056",
+      "name": "Haunter",
+      "number": "056",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/056/low.webp",
+      "market": 0.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-057",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-057",
+      "name": "Gengar",
+      "number": "057",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/057/low.webp",
+      "market": 0.38,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-058",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-058",
+      "name": "Paldean Wooper",
+      "number": "058",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/058/low.webp",
+      "market": 0.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-059",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-059",
+      "name": "Paldean Clodsire ex",
+      "number": "059",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/059/low.webp",
+      "market": 0.69,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-060",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-060",
+      "name": "Scraggy",
+      "number": "060",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-061",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-061",
+      "name": "Scrafty",
+      "number": "061",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-062",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-062",
+      "name": "Maschiff",
+      "number": "062",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-063",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-063",
+      "name": "Mabosstiff",
+      "number": "063",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-064",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-064",
+      "name": "Varoom",
+      "number": "064",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-065",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-065",
+      "name": "Revavroom",
+      "number": "065",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-066",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-066",
+      "name": "Iron Treads ex",
+      "number": "066",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/066/low.webp",
+      "market": 0.56,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-067",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-067",
+      "name": "Gholdengo",
+      "number": "067",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/067/low.webp",
+      "market": 0.23,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-068",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-068",
+      "name": "Noibat",
+      "number": "068",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-069",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-069",
+      "name": "Noivern ex",
+      "number": "069",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/069/low.webp",
+      "market": 0.64,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-070",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-070",
+      "name": "Cyclizar",
+      "number": "070",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/070/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-071",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-071",
+      "name": "Lechonk",
+      "number": "071",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-072",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-072",
+      "name": "Oinkologne",
+      "number": "072",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-073",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-073",
+      "name": "Tandemaus",
+      "number": "073",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/073/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-074",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-074",
+      "name": "Maushold",
+      "number": "074",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/074/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-075",
+    "set_id": "sv04.5",
+    "tier": 2,
+    "card": {
+      "id": "sv04.5-075",
+      "name": "Squawkabilly ex",
+      "number": "075",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/075/low.webp",
+      "market": 0.56,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-076",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-076",
+      "name": "Artazon",
+      "number": "076",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/076/low.webp",
+      "market": 0.22,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-077",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-077",
+      "name": "Atticus",
+      "number": "077",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-078",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-078",
+      "name": "Clive",
+      "number": "078",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-079",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-079",
+      "name": "Electric Generator",
+      "number": "079",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/079/low.webp",
+      "market": 0.17,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-080",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-080",
+      "name": "Iono",
+      "number": "080",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/080/low.webp",
+      "market": 0.28,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-081",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-081",
+      "name": "Moonlit Hill",
+      "number": "081",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-082",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-082",
+      "name": "Nemona",
+      "number": "082",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-083",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-083",
+      "name": "Nemona's Backpack",
+      "number": "083",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-084",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-084",
+      "name": "Nest Ball",
+      "number": "084",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/084/low.webp",
+      "market": 0.27,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-085",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-085",
+      "name": "Paldean Student",
+      "number": "085",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-086",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-086",
+      "name": "Paldean Student",
+      "number": "086",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-087",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-087",
+      "name": "Professor's Research",
+      "number": "087",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/087/low.webp",
+      "market": 0.21,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-088",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-088",
+      "name": "Professor's Research",
+      "number": "088",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/088/low.webp",
+      "market": 0.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-089",
+    "set_id": "sv04.5",
+    "tier": 1,
+    "card": {
+      "id": "sv04.5-089",
+      "name": "Rare Candy",
+      "number": "089",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/089/low.webp",
+      "market": 0.22,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-090",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-090",
+      "name": "Technical Machine: Crisis Punch",
+      "number": "090",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-091",
+    "set_id": "sv04.5",
+    "tier": 0,
+    "card": {
+      "id": "sv04.5-091",
+      "name": "Ultra Ball",
+      "number": "091",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/091/low.webp",
+      "market": 0.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-092",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-092",
+      "name": "Oddish",
+      "number": "092",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/092/low.webp",
+      "market": 11.57,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-093",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-093",
+      "name": "Gloom",
+      "number": "093",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/093/low.webp",
+      "market": 5.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-094",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-094",
+      "name": "Vileplume",
+      "number": "094",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/094/low.webp",
+      "market": 8.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-095",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-095",
+      "name": "Scyther",
+      "number": "095",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/095/low.webp",
+      "market": 9.82,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-096",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-096",
+      "name": "Hoppip",
+      "number": "096",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/096/low.webp",
+      "market": 4.72,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-097",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-097",
+      "name": "Skiploom",
+      "number": "097",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/097/low.webp",
+      "market": 3.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-098",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-098",
+      "name": "Jumpluff",
+      "number": "098",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/098/low.webp",
+      "market": 6.54,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-099",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-099",
+      "name": "Pineco",
+      "number": "099",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/099/low.webp",
+      "market": 2.5,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-100",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-100",
+      "name": "Snover",
+      "number": "100",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/100/low.webp",
+      "market": 2.91,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-101",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-101",
+      "name": "Abomasnow",
+      "number": "101",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/101/low.webp",
+      "market": 2.56,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-102",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-102",
+      "name": "Smoliv",
+      "number": "102",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/102/low.webp",
+      "market": 5.2,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-103",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-103",
+      "name": "Dolliv",
+      "number": "103",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/103/low.webp",
+      "market": 3.23,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-104",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-104",
+      "name": "Arboliva",
+      "number": "104",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/104/low.webp",
+      "market": 3.04,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-105",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-105",
+      "name": "Toedscool",
+      "number": "105",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/105/low.webp",
+      "market": 2.67,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-106",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-106",
+      "name": "Capsakid",
+      "number": "106",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/106/low.webp",
+      "market": 2.89,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-107",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-107",
+      "name": "Scovillain",
+      "number": "107",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/107/low.webp",
+      "market": 2.34,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-108",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-108",
+      "name": "Rellor",
+      "number": "108",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/108/low.webp",
+      "market": 1.92,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-109",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-109",
+      "name": "Charmander",
+      "number": "109",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/109/low.webp",
+      "market": 41.29,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-110",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-110",
+      "name": "Charmeleon",
+      "number": "110",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/110/low.webp",
+      "market": 14.43,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-111",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-111",
+      "name": "Paldean Tauros",
+      "number": "111",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/111/low.webp",
+      "market": 3.45,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-112",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-112",
+      "name": "Entei",
+      "number": "112",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/112/low.webp",
+      "market": 12.72,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-113",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-113",
+      "name": "Oricorio",
+      "number": "113",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/113/low.webp",
+      "market": 2.63,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-114",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-114",
+      "name": "Charcadet",
+      "number": "114",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/114/low.webp",
+      "market": 6.56,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-115",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-115",
+      "name": "Armarouge",
+      "number": "115",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/115/low.webp",
+      "market": 7.59,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-116",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-116",
+      "name": "Slowpoke",
+      "number": "116",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/116/low.webp",
+      "market": 20.64,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-117",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-117",
+      "name": "Slowbro",
+      "number": "117",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/117/low.webp",
+      "market": 17.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-118",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-118",
+      "name": "Staryu",
+      "number": "118",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/118/low.webp",
+      "market": 8.98,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-119",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-119",
+      "name": "Starmie",
+      "number": "119",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/119/low.webp",
+      "market": 8.58,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-120",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-120",
+      "name": "Paldean Tauros",
+      "number": "120",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/120/low.webp",
+      "market": 4.7,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-121",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-121",
+      "name": "Wiglett",
+      "number": "121",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/121/low.webp",
+      "market": 3.34,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-122",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-122",
+      "name": "Wugtrio",
+      "number": "122",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/122/low.webp",
+      "market": 3.07,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-123",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-123",
+      "name": "Finizen",
+      "number": "123",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/123/low.webp",
+      "market": 5.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-124",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-124",
+      "name": "Palafin",
+      "number": "124",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/124/low.webp",
+      "market": 3.51,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-125",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-125",
+      "name": "Veluza",
+      "number": "125",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/125/low.webp",
+      "market": 2.63,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-126",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-126",
+      "name": "Dondozo",
+      "number": "126",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/126/low.webp",
+      "market": 4.39,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-127",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-127",
+      "name": "Tatsugiri",
+      "number": "127",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/127/low.webp",
+      "market": 7.41,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-128",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-128",
+      "name": "Frigibax",
+      "number": "128",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/128/low.webp",
+      "market": 3.96,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-129",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-129",
+      "name": "Arctibax",
+      "number": "129",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/129/low.webp",
+      "market": 4.89,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-130",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-130",
+      "name": "Baxcalibur",
+      "number": "130",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/130/low.webp",
+      "market": 4.25,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-131",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-131",
+      "name": "Pikachu",
+      "number": "131",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/131/low.webp",
+      "market": 73.95,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-132",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-132",
+      "name": "Raichu",
+      "number": "132",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/132/low.webp",
+      "market": 18.98,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-133",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-133",
+      "name": "Voltorb",
+      "number": "133",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/133/low.webp",
+      "market": 4.89,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-134",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-134",
+      "name": "Electrode",
+      "number": "134",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/134/low.webp",
+      "market": 4.31,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-135",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-135",
+      "name": "Shinx",
+      "number": "135",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/135/low.webp",
+      "market": 16.01,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-136",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-136",
+      "name": "Luxio",
+      "number": "136",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/136/low.webp",
+      "market": 7.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-137",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-137",
+      "name": "Luxray",
+      "number": "137",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/137/low.webp",
+      "market": 11.55,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-138",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-138",
+      "name": "Pachirisu",
+      "number": "138",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/138/low.webp",
+      "market": 10.44,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-139",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-139",
+      "name": "Thundurus",
+      "number": "139",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/139/low.webp",
+      "market": 2.27,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-140",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-140",
+      "name": "Toxel",
+      "number": "140",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/140/low.webp",
+      "market": 4.53,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-141",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-141",
+      "name": "Toxtricity",
+      "number": "141",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/141/low.webp",
+      "market": 4.27,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-142",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-142",
+      "name": "Pawmi",
+      "number": "142",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/142/low.webp",
+      "market": 6.22,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-143",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-143",
+      "name": "Pawmo",
+      "number": "143",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/143/low.webp",
+      "market": 5.52,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-144",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-144",
+      "name": "Pawmot",
+      "number": "144",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/144/low.webp",
+      "market": 3.68,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-145",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-145",
+      "name": "Wattrel",
+      "number": "145",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/145/low.webp",
+      "market": 3.05,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-146",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-146",
+      "name": "Kilowattrel",
+      "number": "146",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/146/low.webp",
+      "market": 2.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-147",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-147",
+      "name": "Wigglytuff",
+      "number": "147",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/147/low.webp",
+      "market": 6.57,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-148",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-148",
+      "name": "Abra",
+      "number": "148",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/148/low.webp",
+      "market": 13.6,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-149",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-149",
+      "name": "Kadabra",
+      "number": "149",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/149/low.webp",
+      "market": 8.12,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-150",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-150",
+      "name": "Cleffa",
+      "number": "150",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/150/low.webp",
+      "market": 7.98,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-151",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-151",
+      "name": "Natu",
+      "number": "151",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/151/low.webp",
+      "market": 2.79,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-152",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-152",
+      "name": "Xatu",
+      "number": "152",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/152/low.webp",
+      "market": 3.24,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-153",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-153",
+      "name": "Ralts",
+      "number": "153",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/153/low.webp",
+      "market": 11.23,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-154",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-154",
+      "name": "Kirlia",
+      "number": "154",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/154/low.webp",
+      "market": 8.2,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-155",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-155",
+      "name": "Drifloon",
+      "number": "155",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/155/low.webp",
+      "market": 6.08,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-156",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-156",
+      "name": "Drifblim",
+      "number": "156",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/156/low.webp",
+      "market": 4.51,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-157",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-157",
+      "name": "Mime Jr.",
+      "number": "157",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/157/low.webp",
+      "market": 5.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-158",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-158",
+      "name": "Spiritomb",
+      "number": "158",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/158/low.webp",
+      "market": 6.06,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-159",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-159",
+      "name": "Klefki",
+      "number": "159",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/159/low.webp",
+      "market": 4.85,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-160",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-160",
+      "name": "Mimikyu",
+      "number": "160",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/160/low.webp",
+      "market": 49.84,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-161",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-161",
+      "name": "Dachsbun",
+      "number": "161",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/161/low.webp",
+      "market": 11.5,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-162",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-162",
+      "name": "Ceruledge",
+      "number": "162",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/162/low.webp",
+      "market": 11.54,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-163",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-163",
+      "name": "Rabsca",
+      "number": "163",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/163/low.webp",
+      "market": 2.23,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-164",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-164",
+      "name": "Flittle",
+      "number": "164",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/164/low.webp",
+      "market": 3.01,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-165",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-165",
+      "name": "Tinkatink",
+      "number": "165",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/165/low.webp",
+      "market": 8.24,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-166",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-166",
+      "name": "Tinkatuff",
+      "number": "166",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/166/low.webp",
+      "market": 6.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-167",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-167",
+      "name": "Tinkaton",
+      "number": "167",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/167/low.webp",
+      "market": 11.97,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-168",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-168",
+      "name": "Houndstone",
+      "number": "168",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/168/low.webp",
+      "market": 2.38,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-169",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-169",
+      "name": "Mankey",
+      "number": "169",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/169/low.webp",
+      "market": 5.22,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-170",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-170",
+      "name": "Primeape",
+      "number": "170",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/170/low.webp",
+      "market": 4.77,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-171",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-171",
+      "name": "Annihilape",
+      "number": "171",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/171/low.webp",
+      "market": 4.7,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-172",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-172",
+      "name": "Paldean Tauros",
+      "number": "172",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/172/low.webp",
+      "market": 3.71,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-173",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-173",
+      "name": "Riolu",
+      "number": "173",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/173/low.webp",
+      "market": 12.87,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-174",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-174",
+      "name": "Lucario",
+      "number": "174",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/174/low.webp",
+      "market": 20.35,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-175",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-175",
+      "name": "Hawlucha",
+      "number": "175",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/175/low.webp",
+      "market": 7.18,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-176",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-176",
+      "name": "Nacli",
+      "number": "176",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/176/low.webp",
+      "market": 2.2,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-177",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-177",
+      "name": "Naclstack",
+      "number": "177",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/177/low.webp",
+      "market": 2.48,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-178",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-178",
+      "name": "Garganacl",
+      "number": "178",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/178/low.webp",
+      "market": 2.36,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-179",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-179",
+      "name": "Glimmet",
+      "number": "179",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/179/low.webp",
+      "market": 2.37,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-180",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-180",
+      "name": "Paldean Wooper",
+      "number": "180",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/180/low.webp",
+      "market": 12.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-181",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-181",
+      "name": "Murkrow",
+      "number": "181",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/181/low.webp",
+      "market": 3.94,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-182",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-182",
+      "name": "Sneasel",
+      "number": "182",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/182/low.webp",
+      "market": 3.89,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-183",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-183",
+      "name": "Weavile",
+      "number": "183",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/183/low.webp",
+      "market": 3.16,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-184",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-184",
+      "name": "Sableye",
+      "number": "184",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/184/low.webp",
+      "market": 10.33,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-185",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-185",
+      "name": "Pawniard",
+      "number": "185",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/185/low.webp",
+      "market": 2.95,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-186",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-186",
+      "name": "Bisharp",
+      "number": "186",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/186/low.webp",
+      "market": 3.04,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-187",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-187",
+      "name": "Kingambit",
+      "number": "187",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/187/low.webp",
+      "market": 3.32,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-188",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-188",
+      "name": "Mabosstiff",
+      "number": "188",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/188/low.webp",
+      "market": 2.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-189",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-189",
+      "name": "Shroodle",
+      "number": "189",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/189/low.webp",
+      "market": 2.36,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-190",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-190",
+      "name": "Grafaiai",
+      "number": "190",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/190/low.webp",
+      "market": 2.29,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-191",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-191",
+      "name": "Scizor",
+      "number": "191",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/191/low.webp",
+      "market": 10.05,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-192",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-192",
+      "name": "Varoom",
+      "number": "192",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/192/low.webp",
+      "market": 1.75,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-193",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-193",
+      "name": "Revavroom",
+      "number": "193",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/193/low.webp",
+      "market": 1.96,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-194",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-194",
+      "name": "Noibat",
+      "number": "194",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/194/low.webp",
+      "market": 5,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-195",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-195",
+      "name": "Cyclizar",
+      "number": "195",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/195/low.webp",
+      "market": 2.52,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-196",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-196",
+      "name": "Pidgey",
+      "number": "196",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/196/low.webp",
+      "market": 6.92,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-197",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-197",
+      "name": "Pidgeotto",
+      "number": "197",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/197/low.webp",
+      "market": 5.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-198",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-198",
+      "name": "Jigglypuff",
+      "number": "198",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/198/low.webp",
+      "market": 22.28,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-199",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-199",
+      "name": "Doduo",
+      "number": "199",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/199/low.webp",
+      "market": 4.73,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-200",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-200",
+      "name": "Dodrio",
+      "number": "200",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/200/low.webp",
+      "market": 4.48,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-201",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-201",
+      "name": "Ditto",
+      "number": "201",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/201/low.webp",
+      "market": 37.7,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-202",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-202",
+      "name": "Snorlax",
+      "number": "202",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/202/low.webp",
+      "market": 50.86,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-203",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-203",
+      "name": "Wingull",
+      "number": "203",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/203/low.webp",
+      "market": 3.41,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-204",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-204",
+      "name": "Pelipper",
+      "number": "204",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/204/low.webp",
+      "market": 3.09,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-205",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-205",
+      "name": "Skwovet",
+      "number": "205",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/205/low.webp",
+      "market": 3.52,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-206",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-206",
+      "name": "Greedent",
+      "number": "206",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/206/low.webp",
+      "market": 3.71,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-207",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-207",
+      "name": "Lechonk",
+      "number": "207",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/207/low.webp",
+      "market": 16.27,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-208",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-208",
+      "name": "Oinkologne",
+      "number": "208",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/208/low.webp",
+      "market": 4.68,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-209",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-209",
+      "name": "Tandemaus",
+      "number": "209",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/209/low.webp",
+      "market": 28.19,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-210",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-210",
+      "name": "Maushold",
+      "number": "210",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/210/low.webp",
+      "market": 30.99,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-211",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-211",
+      "name": "Flamigo",
+      "number": "211",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/211/low.webp",
+      "market": 3.38,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-212",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-212",
+      "name": "Forretress ex",
+      "number": "212",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/212/low.webp",
+      "market": 1.08,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-213",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-213",
+      "name": "Toedscruel ex",
+      "number": "213",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/213/low.webp",
+      "market": 1.5,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-214",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-214",
+      "name": "Espathra ex",
+      "number": "214",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/214/low.webp",
+      "market": 1.06,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-215",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-215",
+      "name": "Alakazam ex",
+      "number": "215",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/215/low.webp",
+      "market": 6.01,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-216",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-216",
+      "name": "Mew ex",
+      "number": "216",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/216/low.webp",
+      "market": 30.31,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-217",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-217",
+      "name": "Gardevoir ex",
+      "number": "217",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/217/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/217/low.webp",
+      "market": 8.35,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-218",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-218",
+      "name": "Glimmora ex",
+      "number": "218",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/218/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/218/low.webp",
+      "market": 1.09,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-219",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-219",
+      "name": "Paldean Clodsire ex",
+      "number": "219",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/219/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/219/low.webp",
+      "market": 2.67,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-220",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-220",
+      "name": "Noivern ex",
+      "number": "220",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/220/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/220/low.webp",
+      "market": 2.13,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-221",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-221",
+      "name": "Pidgeot ex",
+      "number": "221",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/221/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/221/low.webp",
+      "market": 2.77,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-222",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-222",
+      "name": "Wigglytuff ex",
+      "number": "222",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/222/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/222/low.webp",
+      "market": 2.69,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-223",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-223",
+      "name": "Squawkabilly ex",
+      "number": "223",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Shiny Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/223/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/223/low.webp",
+      "market": 1.26,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-224",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-224",
+      "name": "Wugtrio",
+      "number": "224",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/224/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/224/low.webp",
+      "market": 2.14,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-225",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-225",
+      "name": "Palafin",
+      "number": "225",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/225/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/225/low.webp",
+      "market": 1.98,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-226",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-226",
+      "name": "Pawmi",
+      "number": "226",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/226/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/226/low.webp",
+      "market": 2.88,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-227",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-227",
+      "name": "Clive",
+      "number": "227",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/227/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/227/low.webp",
+      "market": 0.48,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-228",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-228",
+      "name": "Judge",
+      "number": "228",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/228/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/228/low.webp",
+      "market": 1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-229",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-229",
+      "name": "Nemona",
+      "number": "229",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/229/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/229/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-230",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-230",
+      "name": "Paldean Student",
+      "number": "230",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/230/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/230/low.webp",
+      "market": 0.71,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-231",
+    "set_id": "sv04.5",
+    "tier": 3,
+    "card": {
+      "id": "sv04.5-231",
+      "name": "Paldean Student",
+      "number": "231",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/231/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/231/low.webp",
+      "market": 0.73,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-232",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-232",
+      "name": "Mew ex",
+      "number": "232",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/232/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/232/low.webp",
+      "market": 871.84,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-233",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-233",
+      "name": "Gardevoir ex",
+      "number": "233",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/233/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/233/low.webp",
+      "market": 166.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-234",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-234",
+      "name": "Charizard ex",
+      "number": "234",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/234/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/234/low.webp",
+      "market": 261.85,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-235",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-235",
+      "name": "Arven",
+      "number": "235",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/235/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/235/low.webp",
+      "market": 8.99,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-236",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-236",
+      "name": "Clive",
+      "number": "236",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/236/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/236/low.webp",
+      "market": 21.65,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-237",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-237",
+      "name": "Iono",
+      "number": "237",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/237/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/237/low.webp",
+      "market": 26.07,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-238",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-238",
+      "name": "Nemona",
+      "number": "238",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/238/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/238/low.webp",
+      "market": 7.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-239",
+    "set_id": "sv04.5",
+    "tier": 4,
+    "card": {
+      "id": "sv04.5-239",
+      "name": "Penny",
+      "number": "239",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/239/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/239/low.webp",
+      "market": 14.06,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-240",
+    "set_id": "sv04.5",
+    "tier": 5,
+    "card": {
+      "id": "sv04.5-240",
+      "name": "Wo-Chien ex",
+      "number": "240",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/240/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/240/low.webp",
+      "market": 6.85,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-241",
+    "set_id": "sv04.5",
+    "tier": 5,
+    "card": {
+      "id": "sv04.5-241",
+      "name": "Chi-Yu ex",
+      "number": "241",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/241/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/241/low.webp",
+      "market": 11.11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-242",
+    "set_id": "sv04.5",
+    "tier": 5,
+    "card": {
+      "id": "sv04.5-242",
+      "name": "Chien-Pao ex",
+      "number": "242",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/242/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/242/low.webp",
+      "market": 9.49,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-243",
+    "set_id": "sv04.5",
+    "tier": 5,
+    "card": {
+      "id": "sv04.5-243",
+      "name": "Miraidon ex",
+      "number": "243",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/243/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/243/low.webp",
+      "market": 14.96,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-244",
+    "set_id": "sv04.5",
+    "tier": 5,
+    "card": {
+      "id": "sv04.5-244",
+      "name": "Ting-Lu ex",
+      "number": "244",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/244/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/244/low.webp",
+      "market": 5.91,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv04.5-245",
+    "set_id": "sv04.5",
+    "tier": 5,
+    "card": {
+      "id": "sv04.5-245",
+      "name": "Koraidon ex",
+      "number": "245",
+      "set": "Paldean Fates",
+      "setId": "sv04.5",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv04.5/245/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv04.5/245/low.webp",
+      "market": 12.67,
+      "qty": 1
+    }
+  }
+]

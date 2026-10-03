@@ -28,5 +28,5 @@
  const oldIdentity=window.tcgProfileV227?.renderIdentity;if(typeof oldIdentity==='function'&&!oldIdentity.__v228){window.tcgProfileV227.renderIdentity=function(){const out=oldIdentity.apply(this,arguments);try{renderFrameVault();applyAvatarFrame()}catch(e){console.warn(e)}return out};window.tcgProfileV227.renderIdentity.__v228=true}
  setTimeout(()=>{try{renderFrameVault();applyAvatarFrame()}catch(_){}},900);
  window.tcgProfileFramesV228={renderFrameVault,applyAvatarFrame,claimSeasonFrames,equipFrame,clearFrame,FRAME_DEFS_V228,FRAME_ASSETS_V228};
- const row=[...document.querySelectorAll('.settingsDataLineV158')].find(x=>x.querySelector('span')?.textContent.trim()==='Game Version');if(row?.querySelector('b'))row.querySelector('b').textContent='V228 SEASON RANK FRAMES';
+ const row=[...document.querySelectorAll('.settingsDataLineV158')].find(x=>x.querySelector('span')?.textContent.trim()==='Game Version');if(row?.querySelector('b'))row.querySelector('b').textContent='V256 TRADE HUB';
 })();

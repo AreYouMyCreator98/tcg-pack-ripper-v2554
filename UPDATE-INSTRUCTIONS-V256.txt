@@ -1,0 +1,10 @@
+V256 TRADE HUB REBUILD
+
+Read docs/DEPLOYMENT-V256.md before publishing.
+This frontend requires the matching schema, catalog seed and coordinated cutover.
+The live V255.4 database and website have not been changed.
+
+Local: pnpm install --frozen-lockfile --ignore-scripts
+Verify: pnpm run release:check
+Source: src/trade-hub and supabase/migrations
+Production web files: dist/

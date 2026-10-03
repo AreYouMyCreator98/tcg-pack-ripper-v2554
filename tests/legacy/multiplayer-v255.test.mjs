@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-const js = fs.readFileSync('public/runtime/multiplayer-v255.js', 'utf8');
-const css = fs.readFileSync('public/styles/multiplayer-v255.css', 'utf8');
+const js = fs.readFileSync('archive/v255/runtime/multiplayer-v255.js', 'utf8');
+const css = fs.readFileSync('archive/v255/styles/multiplayer-v255.css', 'utf8');
 const manifest = fs.readFileSync('src/config/runtime-manifest.js', 'utf8');
 const sw = fs.readFileSync('public/sw.js', 'utf8');
 const index = fs.readFileSync('index.html', 'utf8');

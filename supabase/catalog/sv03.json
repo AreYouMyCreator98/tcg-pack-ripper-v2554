@@ -1,0 +1,4142 @@
+[
+  {
+    "id": "sv03-001",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/001.ts",
+    "card": {
+      "id": "sv03-001",
+      "name": "Oddish",
+      "number": "001",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/001/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/001/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-002",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/002.ts",
+    "card": {
+      "id": "sv03-002",
+      "name": "Gloom",
+      "number": "002",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/002/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/002/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-003",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/003.ts",
+    "card": {
+      "id": "sv03-003",
+      "name": "Bellossom",
+      "number": "003",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/003/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/003/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-004",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/004.ts",
+    "card": {
+      "id": "sv03-004",
+      "name": "Scyther",
+      "number": "004",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/004/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/004/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-005",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/005.ts",
+    "card": {
+      "id": "sv03-005",
+      "name": "Shuckle",
+      "number": "005",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/005/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/005/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-006",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/006.ts",
+    "card": {
+      "id": "sv03-006",
+      "name": "Surskit",
+      "number": "006",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/006/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/006/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-007",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/007.ts",
+    "card": {
+      "id": "sv03-007",
+      "name": "Masquerain",
+      "number": "007",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/007/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/007/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-008",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/008.ts",
+    "card": {
+      "id": "sv03-008",
+      "name": "Combee",
+      "number": "008",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/008/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/008/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-009",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/009.ts",
+    "card": {
+      "id": "sv03-009",
+      "name": "Foongus",
+      "number": "009",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/009/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/009/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-010",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/010.ts",
+    "card": {
+      "id": "sv03-010",
+      "name": "Amoonguss",
+      "number": "010",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/010/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/010/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-011",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/011.ts",
+    "card": {
+      "id": "sv03-011",
+      "name": "Phantump",
+      "number": "011",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/011/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/011/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-012",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/012.ts",
+    "card": {
+      "id": "sv03-012",
+      "name": "Trevenant",
+      "number": "012",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/012/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/012/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-013",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/013.ts",
+    "card": {
+      "id": "sv03-013",
+      "name": "Rowlet",
+      "number": "013",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/013/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/013/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-014",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/014.ts",
+    "card": {
+      "id": "sv03-014",
+      "name": "Dartrix",
+      "number": "014",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/014/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/014/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-015",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/015.ts",
+    "card": {
+      "id": "sv03-015",
+      "name": "Decidueye ex",
+      "number": "015",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/015/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/015/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-016",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/016.ts",
+    "card": {
+      "id": "sv03-016",
+      "name": "Bounsweet",
+      "number": "016",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/016/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/016/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-017",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/017.ts",
+    "card": {
+      "id": "sv03-017",
+      "name": "Steenee",
+      "number": "017",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/017/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/017/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-018",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/018.ts",
+    "card": {
+      "id": "sv03-018",
+      "name": "Tsareena",
+      "number": "018",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/018/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/018/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-019",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/019.ts",
+    "card": {
+      "id": "sv03-019",
+      "name": "Smoliv",
+      "number": "019",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/019/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/019/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-020",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/020.ts",
+    "card": {
+      "id": "sv03-020",
+      "name": "Dolliv",
+      "number": "020",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/020/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/020/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-021",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/021.ts",
+    "card": {
+      "id": "sv03-021",
+      "name": "Arboliva",
+      "number": "021",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/021/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/021/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-022",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/022.ts",
+    "card": {
+      "id": "sv03-022",
+      "name": "Toedscruel ex",
+      "number": "022",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/022/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/022/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-023",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/023.ts",
+    "card": {
+      "id": "sv03-023",
+      "name": "Capsakid",
+      "number": "023",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/023/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/023/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-024",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/024.ts",
+    "card": {
+      "id": "sv03-024",
+      "name": "Capsakid",
+      "number": "024",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/024/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/024/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-025",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/025.ts",
+    "card": {
+      "id": "sv03-025",
+      "name": "Scovillain",
+      "number": "025",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/025/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/025/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-026",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/026.ts",
+    "card": {
+      "id": "sv03-026",
+      "name": "Charmander",
+      "number": "026",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/026/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/026/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-027",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/027.ts",
+    "card": {
+      "id": "sv03-027",
+      "name": "Charmeleon",
+      "number": "027",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/027/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/027/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-028",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/028.ts",
+    "card": {
+      "id": "sv03-028",
+      "name": "Vulpix",
+      "number": "028",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/028/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/028/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-029",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/029.ts",
+    "card": {
+      "id": "sv03-029",
+      "name": "Ninetales",
+      "number": "029",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/029/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/029/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-030",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/030.ts",
+    "card": {
+      "id": "sv03-030",
+      "name": "Entei",
+      "number": "030",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/030/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/030/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-031",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/031.ts",
+    "card": {
+      "id": "sv03-031",
+      "name": "Numel",
+      "number": "031",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/031/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/031/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-032",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/032.ts",
+    "card": {
+      "id": "sv03-032",
+      "name": "Camerupt",
+      "number": "032",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/032/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/032/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-033",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/033.ts",
+    "card": {
+      "id": "sv03-033",
+      "name": "Victini ex",
+      "number": "033",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/033/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/033/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-034",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/034.ts",
+    "card": {
+      "id": "sv03-034",
+      "name": "Darumaka",
+      "number": "034",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/034/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/034/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-035",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/035.ts",
+    "card": {
+      "id": "sv03-035",
+      "name": "Darmanitan",
+      "number": "035",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/035/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/035/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-036",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/036.ts",
+    "card": {
+      "id": "sv03-036",
+      "name": "Litwick",
+      "number": "036",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/036/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/036/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-037",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/037.ts",
+    "card": {
+      "id": "sv03-037",
+      "name": "Lampent",
+      "number": "037",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/037/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/037/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-038",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/038.ts",
+    "card": {
+      "id": "sv03-038",
+      "name": "Chandelure",
+      "number": "038",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/038/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/038/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-039",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/039.ts",
+    "card": {
+      "id": "sv03-039",
+      "name": "Heatmor",
+      "number": "039",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/039/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/039/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-040",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/040.ts",
+    "card": {
+      "id": "sv03-040",
+      "name": "Larvesta",
+      "number": "040",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/040/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/040/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-041",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/041.ts",
+    "card": {
+      "id": "sv03-041",
+      "name": "Volcarona",
+      "number": "041",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/041/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/041/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-042",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/042.ts",
+    "card": {
+      "id": "sv03-042",
+      "name": "Eiscue ex",
+      "number": "042",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/042/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/042/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-043",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/043.ts",
+    "card": {
+      "id": "sv03-043",
+      "name": "Charcadet",
+      "number": "043",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/043/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/043/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-044",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/044.ts",
+    "card": {
+      "id": "sv03-044",
+      "name": "Armarouge",
+      "number": "044",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/044/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/044/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-045",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/045.ts",
+    "card": {
+      "id": "sv03-045",
+      "name": "Lapras",
+      "number": "045",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/045/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/045/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-046",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/046.ts",
+    "card": {
+      "id": "sv03-046",
+      "name": "Carvanha",
+      "number": "046",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/046/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/046/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-047",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/047.ts",
+    "card": {
+      "id": "sv03-047",
+      "name": "Sharpedo",
+      "number": "047",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/047/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/047/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-048",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/048.ts",
+    "card": {
+      "id": "sv03-048",
+      "name": "Buizel",
+      "number": "048",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/048/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/048/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-049",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/049.ts",
+    "card": {
+      "id": "sv03-049",
+      "name": "Floatzel",
+      "number": "049",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/049/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/049/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-050",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/050.ts",
+    "card": {
+      "id": "sv03-050",
+      "name": "Tympole",
+      "number": "050",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/050/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/050/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-051",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/051.ts",
+    "card": {
+      "id": "sv03-051",
+      "name": "Palpitoad",
+      "number": "051",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/051/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/051/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-052",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/052.ts",
+    "card": {
+      "id": "sv03-052",
+      "name": "Seismitoad",
+      "number": "052",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/052/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/052/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-053",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/053.ts",
+    "card": {
+      "id": "sv03-053",
+      "name": "Cubchoo",
+      "number": "053",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/053/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/053/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-054",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/054.ts",
+    "card": {
+      "id": "sv03-054",
+      "name": "Beartic",
+      "number": "054",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/054/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/054/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-055",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/055.ts",
+    "card": {
+      "id": "sv03-055",
+      "name": "Cryogonal",
+      "number": "055",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/055/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/055/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-056",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/056.ts",
+    "card": {
+      "id": "sv03-056",
+      "name": "Froakie",
+      "number": "056",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/056/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/056/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-057",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/057.ts",
+    "card": {
+      "id": "sv03-057",
+      "name": "Frogadier",
+      "number": "057",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/057/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/057/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-058",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/058.ts",
+    "card": {
+      "id": "sv03-058",
+      "name": "Wiglett",
+      "number": "058",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/058/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/058/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-059",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/059.ts",
+    "card": {
+      "id": "sv03-059",
+      "name": "Wugtrio",
+      "number": "059",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/059/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/059/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-060",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/060.ts",
+    "card": {
+      "id": "sv03-060",
+      "name": "Finizen",
+      "number": "060",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/060/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/060/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-061",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/061.ts",
+    "card": {
+      "id": "sv03-061",
+      "name": "Finizen",
+      "number": "061",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/061/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/061/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-062",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/062.ts",
+    "card": {
+      "id": "sv03-062",
+      "name": "Palafin",
+      "number": "062",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/062/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/062/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-063",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/063.ts",
+    "card": {
+      "id": "sv03-063",
+      "name": "Magnemite",
+      "number": "063",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/063/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/063/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-064",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/064.ts",
+    "card": {
+      "id": "sv03-064",
+      "name": "Magneton",
+      "number": "064",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/064/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/064/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-065",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/065.ts",
+    "card": {
+      "id": "sv03-065",
+      "name": "Magnezone",
+      "number": "065",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/065/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/065/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-066",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/066.ts",
+    "card": {
+      "id": "sv03-066",
+      "name": "Tyranitar ex",
+      "number": "066",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/066/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/066/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-067",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/067.ts",
+    "card": {
+      "id": "sv03-067",
+      "name": "Tynamo",
+      "number": "067",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/067/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/067/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-068",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/068.ts",
+    "card": {
+      "id": "sv03-068",
+      "name": "Eelektrik",
+      "number": "068",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/068/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/068/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-069",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/069.ts",
+    "card": {
+      "id": "sv03-069",
+      "name": "Eelektross",
+      "number": "069",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/069/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/069/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-070",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/070.ts",
+    "card": {
+      "id": "sv03-070",
+      "name": "Thundurus",
+      "number": "070",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/070/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/070/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-071",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/071.ts",
+    "card": {
+      "id": "sv03-071",
+      "name": "Toxel",
+      "number": "071",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/071/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/071/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-072",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/072.ts",
+    "card": {
+      "id": "sv03-072",
+      "name": "Toxtricity",
+      "number": "072",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/072/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/072/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-073",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/073.ts",
+    "card": {
+      "id": "sv03-073",
+      "name": "Pawmot ex",
+      "number": "073",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/073/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/073/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-074",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/074.ts",
+    "card": {
+      "id": "sv03-074",
+      "name": "Tadbulb",
+      "number": "074",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/074/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/074/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-075",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/075.ts",
+    "card": {
+      "id": "sv03-075",
+      "name": "Tadbulb",
+      "number": "075",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/075/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/075/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-076",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/076.ts",
+    "card": {
+      "id": "sv03-076",
+      "name": "Tadbulb",
+      "number": "076",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/076/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/076/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-077",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/077.ts",
+    "card": {
+      "id": "sv03-077",
+      "name": "Bellibolt",
+      "number": "077",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/077/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/077/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-078",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/078.ts",
+    "card": {
+      "id": "sv03-078",
+      "name": "Bellibolt",
+      "number": "078",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/078/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/078/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-079",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/079.ts",
+    "card": {
+      "id": "sv03-079",
+      "name": "Miraidon ex",
+      "number": "079",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/079/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/079/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-080",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/080.ts",
+    "card": {
+      "id": "sv03-080",
+      "name": "Cleffa",
+      "number": "080",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/080/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/080/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-081",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/081.ts",
+    "card": {
+      "id": "sv03-081",
+      "name": "Clefairy",
+      "number": "081",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/081/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/081/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-082",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/082.ts",
+    "card": {
+      "id": "sv03-082",
+      "name": "Clefable ex",
+      "number": "082",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/082/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/082/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-083",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/083.ts",
+    "card": {
+      "id": "sv03-083",
+      "name": "Togepi",
+      "number": "083",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/083/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/083/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-084",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/084.ts",
+    "card": {
+      "id": "sv03-084",
+      "name": "Togetic",
+      "number": "084",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/084/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/084/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-085",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/085.ts",
+    "card": {
+      "id": "sv03-085",
+      "name": "Togekiss",
+      "number": "085",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/085/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/085/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-086",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/086.ts",
+    "card": {
+      "id": "sv03-086",
+      "name": "Espeon",
+      "number": "086",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/086/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/086/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-087",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/087.ts",
+    "card": {
+      "id": "sv03-087",
+      "name": "Snubbull",
+      "number": "087",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/087/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/087/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-088",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/088.ts",
+    "card": {
+      "id": "sv03-088",
+      "name": "Granbull",
+      "number": "088",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/088/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/088/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-089",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/089.ts",
+    "card": {
+      "id": "sv03-089",
+      "name": "Mawile",
+      "number": "089",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/089/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/089/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-090",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/090.ts",
+    "card": {
+      "id": "sv03-090",
+      "name": "Spoink",
+      "number": "090",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/090/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/090/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-091",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/091.ts",
+    "card": {
+      "id": "sv03-091",
+      "name": "Grumpig",
+      "number": "091",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/091/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/091/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-092",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/092.ts",
+    "card": {
+      "id": "sv03-092",
+      "name": "Lunatone",
+      "number": "092",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/092/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/092/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-093",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/093.ts",
+    "card": {
+      "id": "sv03-093",
+      "name": "Solrock",
+      "number": "093",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/093/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/093/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-094",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/094.ts",
+    "card": {
+      "id": "sv03-094",
+      "name": "Baltoy",
+      "number": "094",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/094/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/094/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-095",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/095.ts",
+    "card": {
+      "id": "sv03-095",
+      "name": "Claydol",
+      "number": "095",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/095/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/095/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-096",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/096.ts",
+    "card": {
+      "id": "sv03-096",
+      "name": "Vespiquen ex",
+      "number": "096",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/096/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/096/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-097",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/097.ts",
+    "card": {
+      "id": "sv03-097",
+      "name": "Sinistea",
+      "number": "097",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/097/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/097/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-098",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/098.ts",
+    "card": {
+      "id": "sv03-098",
+      "name": "Polteageist",
+      "number": "098",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/098/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/098/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-099",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/099.ts",
+    "card": {
+      "id": "sv03-099",
+      "name": "Greavard",
+      "number": "099",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/099/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/099/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-100",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/100.ts",
+    "card": {
+      "id": "sv03-100",
+      "name": "Greavard",
+      "number": "100",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/100/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/100/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-101",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/101.ts",
+    "card": {
+      "id": "sv03-101",
+      "name": "Houndstone",
+      "number": "101",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/101/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/101/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-102",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/102.ts",
+    "card": {
+      "id": "sv03-102",
+      "name": "Houndstone ex",
+      "number": "102",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/102/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/102/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-103",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/103.ts",
+    "card": {
+      "id": "sv03-103",
+      "name": "Diglett",
+      "number": "103",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/103/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/103/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-104",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/104.ts",
+    "card": {
+      "id": "sv03-104",
+      "name": "Dugtrio",
+      "number": "104",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/104/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/104/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-105",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/105.ts",
+    "card": {
+      "id": "sv03-105",
+      "name": "Larvitar",
+      "number": "105",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/105/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/105/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-106",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/106.ts",
+    "card": {
+      "id": "sv03-106",
+      "name": "Pupitar",
+      "number": "106",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/106/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/106/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-107",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/107.ts",
+    "card": {
+      "id": "sv03-107",
+      "name": "Nosepass",
+      "number": "107",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/107/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/107/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-108",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/108.ts",
+    "card": {
+      "id": "sv03-108",
+      "name": "Barboach",
+      "number": "108",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/108/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/108/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-109",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/109.ts",
+    "card": {
+      "id": "sv03-109",
+      "name": "Whiscash",
+      "number": "109",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/109/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/109/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-110",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/110.ts",
+    "card": {
+      "id": "sv03-110",
+      "name": "Bonsly",
+      "number": "110",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/110/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/110/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-111",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/111.ts",
+    "card": {
+      "id": "sv03-111",
+      "name": "Drilbur",
+      "number": "111",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/111/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/111/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-112",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/112.ts",
+    "card": {
+      "id": "sv03-112",
+      "name": "Stunfisk",
+      "number": "112",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/112/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/112/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-113",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/113.ts",
+    "card": {
+      "id": "sv03-113",
+      "name": "Diggersby",
+      "number": "113",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/113/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/113/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-114",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/114.ts",
+    "card": {
+      "id": "sv03-114",
+      "name": "Crabrawler",
+      "number": "114",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/114/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/114/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-115",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/115.ts",
+    "card": {
+      "id": "sv03-115",
+      "name": "Crabominable",
+      "number": "115",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/115/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/115/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-116",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/116.ts",
+    "card": {
+      "id": "sv03-116",
+      "name": "Rockruff",
+      "number": "116",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/116/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/116/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-117",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/117.ts",
+    "card": {
+      "id": "sv03-117",
+      "name": "Lycanroc",
+      "number": "117",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/117/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/117/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-118",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/118.ts",
+    "card": {
+      "id": "sv03-118",
+      "name": "Toedscool",
+      "number": "118",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/118/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/118/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-119",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/119.ts",
+    "card": {
+      "id": "sv03-119",
+      "name": "Toedscruel",
+      "number": "119",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/119/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/119/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-120",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/120.ts",
+    "card": {
+      "id": "sv03-120",
+      "name": "Klawf ex",
+      "number": "120",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/120/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/120/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-121",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/121.ts",
+    "card": {
+      "id": "sv03-121",
+      "name": "Glimmet",
+      "number": "121",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/121/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/121/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-122",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/122.ts",
+    "card": {
+      "id": "sv03-122",
+      "name": "Glimmet",
+      "number": "122",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/122/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/122/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-123",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/123.ts",
+    "card": {
+      "id": "sv03-123",
+      "name": "Glimmora ex",
+      "number": "123",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/123/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/123/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-124",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/124.ts",
+    "card": {
+      "id": "sv03-124",
+      "name": "Koraidon ex",
+      "number": "124",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/124/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/124/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-125",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/125.ts",
+    "card": {
+      "id": "sv03-125",
+      "name": "Charizard ex",
+      "number": "125",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/125/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/125/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-126",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/126.ts",
+    "card": {
+      "id": "sv03-126",
+      "name": "Paldean Wooper",
+      "number": "126",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/126/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/126/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-127",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/127.ts",
+    "card": {
+      "id": "sv03-127",
+      "name": "Paldean Wooper",
+      "number": "127",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/127/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/127/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-128",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/128.ts",
+    "card": {
+      "id": "sv03-128",
+      "name": "Paldean Clodsire",
+      "number": "128",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/128/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/128/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-129",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/129.ts",
+    "card": {
+      "id": "sv03-129",
+      "name": "Paldean Clodsire",
+      "number": "129",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/129/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/129/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-130",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/130.ts",
+    "card": {
+      "id": "sv03-130",
+      "name": "Umbreon",
+      "number": "130",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/130/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/130/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-131",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/131.ts",
+    "card": {
+      "id": "sv03-131",
+      "name": "Houndour",
+      "number": "131",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/131/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/131/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-132",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/132.ts",
+    "card": {
+      "id": "sv03-132",
+      "name": "Houndour",
+      "number": "132",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/132/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/132/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-133",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/133.ts",
+    "card": {
+      "id": "sv03-133",
+      "name": "Houndoom",
+      "number": "133",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/133/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/133/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-134",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/134.ts",
+    "card": {
+      "id": "sv03-134",
+      "name": "Houndoom ex",
+      "number": "134",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/134/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/134/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-135",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/135.ts",
+    "card": {
+      "id": "sv03-135",
+      "name": "Absol ex",
+      "number": "135",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/135/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/135/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-136",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/136.ts",
+    "card": {
+      "id": "sv03-136",
+      "name": "Darkrai",
+      "number": "136",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/136/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/136/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-137",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/137.ts",
+    "card": {
+      "id": "sv03-137",
+      "name": "Inkay",
+      "number": "137",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/137/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/137/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-138",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/138.ts",
+    "card": {
+      "id": "sv03-138",
+      "name": "Malamar",
+      "number": "138",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/138/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/138/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-139",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/139.ts",
+    "card": {
+      "id": "sv03-139",
+      "name": "Salandit",
+      "number": "139",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/139/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/139/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-140",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/140.ts",
+    "card": {
+      "id": "sv03-140",
+      "name": "Salazzle",
+      "number": "140",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/140/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/140/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-141",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/141.ts",
+    "card": {
+      "id": "sv03-141",
+      "name": "Scizor",
+      "number": "141",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/141/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/141/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-142",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/142.ts",
+    "card": {
+      "id": "sv03-142",
+      "name": "Skarmory",
+      "number": "142",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/142/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/142/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-143",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/143.ts",
+    "card": {
+      "id": "sv03-143",
+      "name": "Mawile",
+      "number": "143",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/143/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/143/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-144",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/144.ts",
+    "card": {
+      "id": "sv03-144",
+      "name": "Bronzor",
+      "number": "144",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/144/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/144/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-145",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/145.ts",
+    "card": {
+      "id": "sv03-145",
+      "name": "Bronzong",
+      "number": "145",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/145/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/145/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-146",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/146.ts",
+    "card": {
+      "id": "sv03-146",
+      "name": "Probopass",
+      "number": "146",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/146/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/146/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-147",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/147.ts",
+    "card": {
+      "id": "sv03-147",
+      "name": "Excadrill",
+      "number": "147",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/147/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/147/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-148",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/148.ts",
+    "card": {
+      "id": "sv03-148",
+      "name": "Pawniard",
+      "number": "148",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/148/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/148/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-149",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/149.ts",
+    "card": {
+      "id": "sv03-149",
+      "name": "Bisharp",
+      "number": "149",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/149/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/149/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-150",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/150.ts",
+    "card": {
+      "id": "sv03-150",
+      "name": "Kingambit",
+      "number": "150",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/150/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/150/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-151",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/151.ts",
+    "card": {
+      "id": "sv03-151",
+      "name": "Togedemaru",
+      "number": "151",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/151/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/151/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-152",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/152.ts",
+    "card": {
+      "id": "sv03-152",
+      "name": "Meltan",
+      "number": "152",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/152/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/152/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-153",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/153.ts",
+    "card": {
+      "id": "sv03-153",
+      "name": "Melmetal ex",
+      "number": "153",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/153/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/153/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-154",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/154.ts",
+    "card": {
+      "id": "sv03-154",
+      "name": "Varoom",
+      "number": "154",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/154/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/154/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-155",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/155.ts",
+    "card": {
+      "id": "sv03-155",
+      "name": "Varoom",
+      "number": "155",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/155/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/155/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-156",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/156.ts",
+    "card": {
+      "id": "sv03-156",
+      "name": "Revavroom ex",
+      "number": "156",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/156/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/156/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-157",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/157.ts",
+    "card": {
+      "id": "sv03-157",
+      "name": "Dratini",
+      "number": "157",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/157/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/157/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-158",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/158.ts",
+    "card": {
+      "id": "sv03-158",
+      "name": "Dragonair",
+      "number": "158",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/158/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/158/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-159",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/159.ts",
+    "card": {
+      "id": "sv03-159",
+      "name": "Dragonite ex",
+      "number": "159",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/159/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/159/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-160",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/160.ts",
+    "card": {
+      "id": "sv03-160",
+      "name": "Altaria",
+      "number": "160",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/160/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/160/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-161",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/161.ts",
+    "card": {
+      "id": "sv03-161",
+      "name": "Drampa",
+      "number": "161",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/161/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/161/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-162",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/162.ts",
+    "card": {
+      "id": "sv03-162",
+      "name": "Pidgey",
+      "number": "162",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/162/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/162/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-163",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/163.ts",
+    "card": {
+      "id": "sv03-163",
+      "name": "Pidgeotto",
+      "number": "163",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/163/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/163/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-164",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/164.ts",
+    "card": {
+      "id": "sv03-164",
+      "name": "Pidgeot ex",
+      "number": "164",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/164/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/164/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-165",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/165.ts",
+    "card": {
+      "id": "sv03-165",
+      "name": "Kangaskhan",
+      "number": "165",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/165/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/165/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-166",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/166.ts",
+    "card": {
+      "id": "sv03-166",
+      "name": "Eevee",
+      "number": "166",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/166/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/166/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-167",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/167.ts",
+    "card": {
+      "id": "sv03-167",
+      "name": "Zigzagoon",
+      "number": "167",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/167/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/167/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-168",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/168.ts",
+    "card": {
+      "id": "sv03-168",
+      "name": "Linoone",
+      "number": "168",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/168/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/168/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-169",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/169.ts",
+    "card": {
+      "id": "sv03-169",
+      "name": "Swablu",
+      "number": "169",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/169/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/169/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-170",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/170.ts",
+    "card": {
+      "id": "sv03-170",
+      "name": "Lillipup",
+      "number": "170",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/170/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/170/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-171",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/171.ts",
+    "card": {
+      "id": "sv03-171",
+      "name": "Herdier",
+      "number": "171",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/171/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/171/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-172",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/172.ts",
+    "card": {
+      "id": "sv03-172",
+      "name": "Stoutland",
+      "number": "172",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/172/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/172/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-173",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/173.ts",
+    "card": {
+      "id": "sv03-173",
+      "name": "Audino",
+      "number": "173",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/173/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/173/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-174",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/174.ts",
+    "card": {
+      "id": "sv03-174",
+      "name": "Bouffalant",
+      "number": "174",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/174/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/174/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-175",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/175.ts",
+    "card": {
+      "id": "sv03-175",
+      "name": "Bunnelby",
+      "number": "175",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/175/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/175/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-176",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/176.ts",
+    "card": {
+      "id": "sv03-176",
+      "name": "Yungoos",
+      "number": "176",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/176/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/176/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-177",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/177.ts",
+    "card": {
+      "id": "sv03-177",
+      "name": "Gumshoos",
+      "number": "177",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/177/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/177/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-178",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/178.ts",
+    "card": {
+      "id": "sv03-178",
+      "name": "Skwovet",
+      "number": "178",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/178/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/178/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-179",
+    "set_id": "sv03",
+    "tier": 2,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/179.ts",
+    "card": {
+      "id": "sv03-179",
+      "name": "Greedent ex",
+      "number": "179",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Double rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/179/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/179/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-180",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/180.ts",
+    "card": {
+      "id": "sv03-180",
+      "name": "Lechonk",
+      "number": "180",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/180/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/180/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-181",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/181.ts",
+    "card": {
+      "id": "sv03-181",
+      "name": "Lechonk",
+      "number": "181",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/181/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/181/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-182",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/182.ts",
+    "card": {
+      "id": "sv03-182",
+      "name": "Lechonk",
+      "number": "182",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/182/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/182/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-183",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/183.ts",
+    "card": {
+      "id": "sv03-183",
+      "name": "Oinkologne",
+      "number": "183",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/183/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/183/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-184",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/184.ts",
+    "card": {
+      "id": "sv03-184",
+      "name": "Oinkologne",
+      "number": "184",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/184/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/184/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-185",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/185.ts",
+    "card": {
+      "id": "sv03-185",
+      "name": "Flamigo",
+      "number": "185",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/185/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/185/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-186",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/186.ts",
+    "card": {
+      "id": "sv03-186",
+      "name": "Arven",
+      "number": "186",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/186/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/186/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-187",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/187.ts",
+    "card": {
+      "id": "sv03-187",
+      "name": "Brassius",
+      "number": "187",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/187/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/187/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-188",
+    "set_id": "sv03",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/188.ts",
+    "card": {
+      "id": "sv03-188",
+      "name": "Geeta",
+      "number": "188",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/188/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/188/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-189",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/189.ts",
+    "card": {
+      "id": "sv03-189",
+      "name": "Letter of Encouragement",
+      "number": "189",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/189/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/189/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-190",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/190.ts",
+    "card": {
+      "id": "sv03-190",
+      "name": "Ortega",
+      "number": "190",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/190/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/190/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-191",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/191.ts",
+    "card": {
+      "id": "sv03-191",
+      "name": "Patrol Cap",
+      "number": "191",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/191/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/191/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-192",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/192.ts",
+    "card": {
+      "id": "sv03-192",
+      "name": "Pokémon League Headquarters",
+      "number": "192",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/192/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/192/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-193",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/193.ts",
+    "card": {
+      "id": "sv03-193",
+      "name": "Poppy",
+      "number": "193",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/193/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/193/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-194",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/194.ts",
+    "card": {
+      "id": "sv03-194",
+      "name": "Ryme",
+      "number": "194",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/194/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/194/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-195",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/195.ts",
+    "card": {
+      "id": "sv03-195",
+      "name": "Team Star Grunt",
+      "number": "195",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/195/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/195/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-196",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/196.ts",
+    "card": {
+      "id": "sv03-196",
+      "name": "Town Store",
+      "number": "196",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/196/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/196/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-197",
+    "set_id": "sv03",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/197.ts",
+    "card": {
+      "id": "sv03-197",
+      "name": "Vengeful Punch",
+      "number": "197",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/197/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/197/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-198",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/198.ts",
+    "card": {
+      "id": "sv03-198",
+      "name": "Gloom",
+      "number": "198",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/198/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/198/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-199",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/199.ts",
+    "card": {
+      "id": "sv03-199",
+      "name": "Ninetales",
+      "number": "199",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/199/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/199/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-200",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/200.ts",
+    "card": {
+      "id": "sv03-200",
+      "name": "Palafin",
+      "number": "200",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/200/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/200/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-201",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/201.ts",
+    "card": {
+      "id": "sv03-201",
+      "name": "Bellibolt",
+      "number": "201",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/201/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/201/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-202",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/202.ts",
+    "card": {
+      "id": "sv03-202",
+      "name": "Cleffa",
+      "number": "202",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/202/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/202/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-203",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/203.ts",
+    "card": {
+      "id": "sv03-203",
+      "name": "Larvitar",
+      "number": "203",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/203/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/203/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-204",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/204.ts",
+    "card": {
+      "id": "sv03-204",
+      "name": "Houndour",
+      "number": "204",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/204/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/204/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-205",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/205.ts",
+    "card": {
+      "id": "sv03-205",
+      "name": "Scizor",
+      "number": "205",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/205/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/205/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-206",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/206.ts",
+    "card": {
+      "id": "sv03-206",
+      "name": "Varoom",
+      "number": "206",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/206/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/206/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-207",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/207.ts",
+    "card": {
+      "id": "sv03-207",
+      "name": "Pidgey",
+      "number": "207",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/207/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/207/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-208",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/208.ts",
+    "card": {
+      "id": "sv03-208",
+      "name": "Pidgeotto",
+      "number": "208",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/208/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/208/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-209",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/209.ts",
+    "card": {
+      "id": "sv03-209",
+      "name": "Lechonk",
+      "number": "209",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/209/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/209/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-210",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/210.ts",
+    "card": {
+      "id": "sv03-210",
+      "name": "Eiscue ex",
+      "number": "210",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/210/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/210/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-211",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/211.ts",
+    "card": {
+      "id": "sv03-211",
+      "name": "Tyranitar ex",
+      "number": "211",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/211/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/211/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-212",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/212.ts",
+    "card": {
+      "id": "sv03-212",
+      "name": "Vespiquen ex",
+      "number": "212",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/212/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/212/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-213",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/213.ts",
+    "card": {
+      "id": "sv03-213",
+      "name": "Glimmora ex",
+      "number": "213",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/213/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/213/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-214",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/214.ts",
+    "card": {
+      "id": "sv03-214",
+      "name": "Absol ex",
+      "number": "214",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/214/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/214/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-215",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/215.ts",
+    "card": {
+      "id": "sv03-215",
+      "name": "Charizard ex",
+      "number": "215",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/215/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/215/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-216",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/216.ts",
+    "card": {
+      "id": "sv03-216",
+      "name": "Revavroom ex",
+      "number": "216",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/216/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/216/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-217",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/217.ts",
+    "card": {
+      "id": "sv03-217",
+      "name": "Pidgeot ex",
+      "number": "217",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/217/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/217/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-218",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/218.ts",
+    "card": {
+      "id": "sv03-218",
+      "name": "Geeta",
+      "number": "218",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/218/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/218/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-219",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/219.ts",
+    "card": {
+      "id": "sv03-219",
+      "name": "Ortega",
+      "number": "219",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/219/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/219/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-220",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/220.ts",
+    "card": {
+      "id": "sv03-220",
+      "name": "Poppy",
+      "number": "220",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/220/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/220/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-221",
+    "set_id": "sv03",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/221.ts",
+    "card": {
+      "id": "sv03-221",
+      "name": "Ryme",
+      "number": "221",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Ultra Rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/221/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/221/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-222",
+    "set_id": "sv03",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/222.ts",
+    "card": {
+      "id": "sv03-222",
+      "name": "Eiscue ex",
+      "number": "222",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/222/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/222/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-223",
+    "set_id": "sv03",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/223.ts",
+    "card": {
+      "id": "sv03-223",
+      "name": "Charizard ex",
+      "number": "223",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/223/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/223/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-224",
+    "set_id": "sv03",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/224.ts",
+    "card": {
+      "id": "sv03-224",
+      "name": "Revavroom ex",
+      "number": "224",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/224/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/224/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-225",
+    "set_id": "sv03",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/225.ts",
+    "card": {
+      "id": "sv03-225",
+      "name": "Pidgeot ex",
+      "number": "225",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/225/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/225/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-226",
+    "set_id": "sv03",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/226.ts",
+    "card": {
+      "id": "sv03-226",
+      "name": "Geeta",
+      "number": "226",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/226/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/226/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-227",
+    "set_id": "sv03",
+    "tier": 4,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/227.ts",
+    "card": {
+      "id": "sv03-227",
+      "name": "Poppy",
+      "number": "227",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Special illustration rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/227/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/227/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-228",
+    "set_id": "sv03",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/228.ts",
+    "card": {
+      "id": "sv03-228",
+      "name": "Charizard ex",
+      "number": "228",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/228/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/228/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-229",
+    "set_id": "sv03",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/229.ts",
+    "card": {
+      "id": "sv03-229",
+      "name": "Artazon",
+      "number": "229",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/229/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/229/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  },
+  {
+    "id": "sv03-230",
+    "set_id": "sv03",
+    "tier": 5,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Scarlet & Violet/Obsidian Flames/230.ts",
+    "card": {
+      "id": "sv03-230",
+      "name": "Basic Fire Energy",
+      "number": "230",
+      "set": "Obsidian Flames",
+      "setId": "sv03",
+      "rarity": "Hyper rare",
+      "img": "https://assets.tcgdex.net/en/sv/sv03/230/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/sv/sv03/230/low.webp",
+      "market": 0.1,
+      "qty": 1
+    }
+  }
+]

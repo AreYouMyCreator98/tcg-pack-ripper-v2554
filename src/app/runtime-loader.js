@@ -130,7 +130,11 @@ export function loadPackRuntime() {
 }
 
 export function loadSecondaryRuntime() {
-  return loadGroup('secondary', secondaryRuntime, 14000);
+  return loadGroup('secondary', secondaryRuntime, 14000).then(async () => {
+    const { installTradeHub } = await import('../trade-hub/index.js');
+    installTradeHub();
+    return true;
+  });
 }
 
 export function scheduleSecondaryRuntime() {
