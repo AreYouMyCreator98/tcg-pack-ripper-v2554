@@ -18,6 +18,7 @@ export async function database() {
   }
   const migration = await readFile(new URL('../supabase/migrations/20261003073323_trade_hub_v256.sql',import.meta.url),'utf8');
   await db.exec(migration);
+  await db.exec(await readFile(new URL('../supabase/migrations/20261003101824_trade_hub_identity_ranked.sql',import.meta.url),'utf8'));
   await db.exec("insert into hub_private.expansions(id,name) values('sv04.5','Test set')");
   for(let i=0;i<20;i++) await db.query('insert into hub_private.catalog(id,set_id,card,tier) values($1,$2,$3,$4)', ['catalog-'+i,'sv04.5',JSON.stringify({id:'catalog-'+i,name:'Test card '+i,set:'Test set',setId:'sv04.5',market:.1,rarity:'Rare'}),i%6]);
   // Commands run with the same role and auth.uid boundary as the real Data API.
