@@ -20,14 +20,14 @@ html[data-performance="balanced"] .top{backdrop-filter:blur(10px);-webkit-backdr
 
 /* Modal geometry is independent of page scrolling, paint containment and pack layers. */
 html body #settings.settingsOverlayV158{contain:none!important;transform:none!important;position:fixed!important;inset:auto 0 auto!important;top:var(--settings-top,0px)!important;height:var(--settings-height,100vh)!important;min-height:0!important;max-height:none!important;overflow:hidden!important;z-index:2147482800!important;isolation:isolate;touch-action:auto!important;padding:12px max(10px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left))!important;align-items:center!important}
-html body #settings .settingsShadeV158{z-index:0!important;transform:none!important;touch-action:none}
-html body #settings .settingsCardV158{z-index:1!important;min-height:0!important;max-height:100%!important;max-width:720px!important;overflow-x:hidden!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch;overscroll-behavior-y:contain;touch-action:pan-y!important;contain:none!important;padding:0 16px 20px!important;border-radius:24px!important}
-html body #settings .settingsTopV158{position:sticky;top:0;z-index:3;background:#f7f5fc;padding:16px 0 12px;margin:0 0 12px;align-items:center;isolation:isolate}
+html body #settings.settingsOverlayV158 .settingsShadeV158{z-index:0!important;transform:none!important;touch-action:none}
+html body #settings.settingsOverlayV158 .settingsCardV158{z-index:1!important;min-height:0!important;max-height:100%!important;max-width:720px!important;overflow-x:hidden!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch;overscroll-behavior-y:contain;touch-action:pan-y!important;contain:none!important;padding:0 16px 20px!important;border-radius:24px!important}
+html body #settings.settingsOverlayV158 .settingsTopV158{position:sticky;top:0;z-index:3;background:#f7f5fc;padding:16px 0 12px;margin:0 0 12px;align-items:center;isolation:isolate}
 html body #settings #closeProfileSettingsV158{width:48px!important;height:48px!important;min-width:48px!important;min-height:48px!important;font-size:28px!important;line-height:1!important;flex-shrink:0;transform:none!important;pointer-events:auto!important;touch-action:manipulation!important}
-html body #settings input:not([type=range]):not([type=file]){font-size:16px!important}
+html body #settings.settingsOverlayV158 input:not([type=range]):not([type=file]){font-size:16px!important}
 html.settings-modal-open body :is(#v114PackMode,#v253PackHUD,#studioExtract,#studioCollect){display:none!important;pointer-events:none!important}
 /* Older Safari does not support :has. These explicit state hooks prevent floating UI leaks. */
 html body #rip #v253PackHUD[hidden],html body #rip #v253PackHUD.v253HudHidden,
 html body.collector-pack-opening #v114PackMode,html body.collector-pack-opening #v253PackHUD{display:none!important;visibility:hidden!important;pointer-events:none!important}
 html body.collector-pack-opening .nav{opacity:0!important;pointer-events:none!important}
-@media(max-height:500px){html body #settings .settingsTopV158{padding:8px 0}.settingsTopV158 p{display:none}}
+@media(max-height:500px){html body #settings.settingsOverlayV158 .settingsTopV158{padding:8px 0}.settingsTopV158 p{display:none}}
