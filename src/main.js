@@ -2,6 +2,7 @@ import { mountUI } from './ui.js';
 import { configurePlatform } from './platform/mobile.js';
 import { loadCriticalRuntime, loadPackRuntime, loadBinderRuntime, loadSecondaryRuntime, scheduleSecondaryRuntime } from './app/runtime-loader.js';
 import { installNavigationPreload } from './app/navigation-preload.js';
+import { installNavigationInput } from './app/navigation-input.js';
 import { installDiagnostics, bootMark } from './app/diagnostics.js';
 import { installHealthCheck } from './app/health-check.js';
 import { registerPWA } from './pwa/register.js';
@@ -63,6 +64,7 @@ async function boot() {
     bootStage = 'installing interface systems';
     setLaunchStage('WIRING INTERFACE', 32, 'Preparing controls and mobile input…');
     installNavigationPreload();
+    installNavigationInput();
     installImagePolicy(document);
     installScreenTransitions(document);
     installBinderModule();

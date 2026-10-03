@@ -60,6 +60,9 @@ export class HubController {
     const epoch=this.epoch,revision=this.revision;
     const task=this.rpc('snapshot').then(async data=>{
       if(epoch!==this.epoch||revision!==this.revision||this.disposed)return;
+      // A slow collection pull must not hide a newly matched opponent.
+      // Economic controls still pass through beginHubTransaction before mutating.
+      this.emit({data,status:'connected',error:this.pending?'An action needs recovery. Use Retry pending action before making another change.':''});
       if(!this.pending)await this.bridge.sync?.(data.save_version);
       if(epoch!==this.epoch||revision!==this.revision||this.disposed)return;
       this.emit({data,status:'connected',error:this.pending?'An action needs recovery. Use Retry pending action before making another change.':''});

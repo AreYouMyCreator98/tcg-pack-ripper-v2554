@@ -23,6 +23,7 @@ test('cloud transaction holds keyboard and background collection operations unti
  const ctx=vm.createContext({document,Map,Date,Number,Promise,Error,Object,clearTimeout,setTimeout,user:{id:'A'},recoveryPending:false,syncBusy:false,hubHold:false,syncTimer:null,busy:false,cloudVersion:7,storedVersion:()=>7,isDirty:()=>false,pushNow:async()=>{pushes++;return true;},pullInPlace:async()=>canPull});
  vm.runInContext(section,ctx);assert.equal(await ctx.beginHubTransaction(),7);assert.equal(pushes,1);assert.equal(ctx.hubHold,true);assert.equal(document.querySelector('#rip').inert,true);
  let stopped=0;events.keydown({target:document.querySelector('#rip'),preventDefault:()=>stopped++,stopImmediatePropagation:()=>stopped++});assert.equal(stopped,2);
+ assert.notEqual(document.querySelector('.nav').inert,true);events.click({target:document.querySelector('.nav'),preventDefault:()=>stopped++,stopImmediatePropagation:()=>stopped++});assert.equal(stopped,2,'navigation stays available while collection controls remain protected');
  await assert.rejects(ctx.finishHubTransaction(),/pending/);assert.equal(ctx.hubHold,true);assert.equal(document.querySelector('#rip').inert,true);
  canPull=true;await ctx.finishHubTransaction();assert.equal(ctx.hubHold,false);assert.equal(document.documentElement.classList.contains('hub-transaction-pending'),false);
 });

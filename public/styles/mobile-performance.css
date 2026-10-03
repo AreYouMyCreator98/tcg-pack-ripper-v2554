@@ -13,3 +13,7 @@ html[data-performance="balanced"] .panel,
 html[data-performance="balanced"] .top{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 /* Status messages must never block the game, including after fading out. */
 .toast, .achievementToastV56 { pointer-events: none; }
+
+/* Do not require a hover-state tap before a bottom-navigation button activates. */
+.nav button[data-s]{touch-action:manipulation;-webkit-tap-highlight-color:transparent;user-select:none}
+@media(hover:none){body .nav{opacity:.96!important;transition:none!important}.nav button[data-s]{min-height:44px}}

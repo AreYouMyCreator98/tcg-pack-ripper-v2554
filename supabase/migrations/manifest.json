@@ -74,6 +74,18 @@
       "name": "trade_hub_identity_ranked",
       "status": "applied",
       "deployedVersion": "20261003104948"
+    },
+    {
+      "version": "20261003115512",
+      "name": "mobile_matchmaking",
+      "status": "applied",
+      "deployedVersion": "20261003120606"
+    },
+    {
+      "version": "20261003120858",
+      "name": "ranked_ready_race",
+      "status": "applied",
+      "deployedVersion": "20261003121028"
     }
   ]
 }

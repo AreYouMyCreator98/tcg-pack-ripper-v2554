@@ -12,6 +12,11 @@ function fixture(rpc){
  return {c,map,intervals,storage,client,clock,counts:()=>({channels,removed})};
 }
 const data=(uid='A',coins=100)=>({version:256,user_id:uid,coins,profile:{rp:0}});
+
+test('a matched opponent is visible before a slow collection synchronization finishes',async()=>{
+ const wait=deferred();const f=fixture(async()=>({data:{...data(),rooms:[{id:'match',status:'ready'}]}}));f.c.bridge={sync:()=>wait.promise};
+ const connecting=f.c.setUser({id:'A'});await tick();assert.equal(f.c.state.data.rooms[0].status,'ready');wait.resolve();await connecting;await f.c.dispose();
+});
 test('duplicate auth events create one subscription and timers are cleaned up',async()=>{
  const f=fixture(async()=>({data:data()}));await Promise.all([f.c.setUser({id:'A'}),f.c.setUser({id:'A'})]);
  assert.equal(f.counts().channels,1);assert.equal(f.intervals.size,2);await f.c.dispose();assert.equal(f.intervals.size,0);assert.equal(f.counts().removed,1);

@@ -4,6 +4,11 @@ export const HUB_VERSION = 256;
 export const TABS = ['market', 'trades', 'battles', 'chat', 'ranked', 'activity', 'shops'];
 export const TERMINAL = new Set(['completed', 'cancelled', 'expired']);
 export const MONEY_LIMIT = 100_000_000;
+export function battleCost(data,setId,packs=1) {
+  if(!data?.battle_resources)return null;
+  const free=Math.max(0,Number(data.battle_resources.starter)||0)+Math.max(0,Number(data.battle_resources.credits?.[setId])||0);
+  return Math.max(0,packs-free)*800;
+}
 export function money(cents) {
   return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format((Number(cents) || 0) / 100);
 }
