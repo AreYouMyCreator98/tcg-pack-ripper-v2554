@@ -1,24 +1,24 @@
-<section class="screen binderExperienceV147" id="binder">
+<section class="screen binderExperienceV147 binder-studio binder-gallery" id="binder">
 <div aria-hidden="true" class="binderBackdropV147"><i></i><i></i><i></i></div>
 <div class="binderChromeV147">
-<div class="binderTitleV147"><small>TCG COLLECTION</small><h1>Collection</h1><p id="binderStat">0 unique • 0 total cards</p></div>
+<div class="binderTitleV147"><small>THE COLLECTOR GALLERY</small><h1>Your collection.</h1><p id="binderStat">0 unique • 0 total cards</p></div>
 <div class="binderCashV147"><span>$</span><strong id="binderCashV147">0.00</strong></div>
 </div>
-<div aria-label="Collection sections" class="binderModeTabsV147" role="tablist">
+<div class="binder-studio-metrics"><div><small>UNIQUE CARDS</small><b id="binderUnique">0</b></div><div><small>TOTAL COPIES</small><b id="binderCopies">0</b></div><div><small>EXPANSIONS</small><b id="binderSets">0</b></div><div><small>COLLECTION VALUE</small><b id="binderValue">$0.00</b></div></div><div aria-label="Collection sections" class="binderModeTabsV147" role="tablist">
 <button class="active" data-binder-mode="binder" type="button">BINDER</button>
 <button data-binder-mode="grading" type="button">GRADING</button>
 <button data-binder-mode="vault" type="button">VAULT</button>
 </div>
 <div class="binderModeV147 active" data-binder-panel="binder">
-<div class="binderShelfHeaderV147">
+<div class="binder-studio-toolbar"><div class="binder-view-switch" aria-label="Collection view"><button type="button" data-binder-view="gallery" aria-pressed="true">Gallery</button><button type="button" data-binder-view="book" aria-pressed="false">Physical binder</button></div><p>Your cards, beautifully kept.</p></div><div class="binderShelfHeaderV147">
 <div><small>YOUR BINDERS</small><b id="binderThemeNameV147">Collection Binder</b></div>
 <div class="binderQuickActionsV147"><button aria-label="Search and filter cards" id="binderFilterBtnV147" type="button">⌕</button><button aria-label="Open binder shelf shop" id="openBinderShop" type="button">＋</button></div>
 </div>
-<div aria-label="Owned binder shelf" class="binderShelfV147" id="binderShelfV147"></div>
+<details class="binder-owned-shelf"><summary>Your binder wardrobe <span>View &amp; equip owned binders</span></summary><div aria-label="Owned binder shelf" class="binderShelfV147" id="binderShelfV147"></div></details>
 <div class="binderScene" id="binderScene">
 <div class="binderBook zipped" id="binderBook">
 <div class="binderCover" id="binderCoverV147">
-<div class="binderLogo">TCG<br/><b>COLLECTION</b></div>
+<div class="binderLogo">TCG<br><b>COLLECTION</b></div>
 <div class="zipTrack"></div>
 <div class="binderTapHintV147">TAP TO OPEN</div>
 <button aria-label="Open binder" class="zipPull" id="zipPull" type="button">◆</button>
@@ -57,15 +57,15 @@
 <span class="slabVaultCount" id="slabVaultCountV52">0 SLABS</span>
 </div>
 <div class="vaultStats vaultStatsV147" id="vaultStatsV56"></div>
-<div class="slabTools slabToolsV147"><input id="slabSearchV56" placeholder="Search slabs"/><select id="slabSortV56"><option value="new">Newest</option><option value="grade">Highest grade</option><option value="value">Highest value</option><option value="name">Card name</option></select></div>
+<div class="slabTools slabToolsV147"><input id="slabSearchV56" placeholder="Search slabs"><select id="slabSortV56"><option value="new">Newest</option><option value="grade">Highest grade</option><option value="value">Highest value</option><option value="name">Card name</option></select></div>
 <div class="slabVault slabVaultV147"><div class="slabShelf" id="slabShelfV52"></div></div>
 </div>
 <div aria-hidden="true" class="binderFilterSheetV147" id="binderFilterSheetV147">
 <button aria-label="Close filters" class="binderFilterShadeV147" id="binderFilterShadeV147" type="button"></button>
 <div class="binderFilterCardV147">
 <div class="binderFilterTopV147"><div><small>FIND CARDS</small><b>Search &amp; Filter</b></div><button id="binderFilterCloseV147" type="button">×</button></div>
-<div class="tools"><input id="search" placeholder="Search your collection"/><select id="setFilter"><option value="all">All sets</option></select></div>
+<div class="tools"><input aria-label="Search cards" id="search" placeholder="Name, number, rarity or set"><select aria-label="Filter expansion" id="setFilter"><option value="all">All sets</option></select><select id="binderRarity" aria-label="Filter card rarity"><option value="all">All rarities</option><option value="hits">Hits · EX and up</option><option value="chase">Chase · SIR and up</option><option value="holo">Holo &amp; base</option></select><select id="binderOrder" aria-label="Sort cards"><option value="rarity">Rarest first</option><option value="name">Card name</option><option value="value">Highest value</option><option value="copies">Most copies</option></select><label class="binder-duplicate-filter"><input type="checkbox" id="binderDuplicates">Duplicates only</label><button type="button" id="binderClearFilters">Reset filters</button></div>
 </div>
 </div>
-<div class="cardModal" id="cardModal"><div class="inspectCard"><button class="closeX" id="closeCard">×</button><div class="inspect3d" id="inspect3d"><img id="inspectImg"/></div><h3 id="inspectName"></h3><div class="sub" id="inspectInfo"></div><div class="rar" id="sellValue"></div><div class="inspectPrimaryV147"><button class="btn gradeLaunch" id="gradeOne">SEND TO GRADING</button><button class="btn listFromBinderV58" id="listMarketV58">LIST FOR SALE</button></div><div class="sellRow"><button class="btn" id="sellOne">SELL 1</button><button class="btn trash" id="sellAll">SELL ALL COPIES</button></div></div></div>
+<div class="cardModal" id="cardModal"><div class="inspectCard"><button class="closeX" id="closeCard">×</button><div class="inspect3d" id="inspect3d"><img id="inspectImg"></div><h3 id="inspectName"></h3><div class="sub" id="inspectInfo"></div><div class="rar" id="sellValue"></div><div class="inspectPrimaryV147"><button class="btn gradeLaunch" id="gradeOne">SEND TO GRADING</button><button class="btn listFromBinderV58" id="listMarketV58">LIST FOR SALE</button></div><div class="sellRow"><button class="btn" id="sellOne">SELL 1</button><button class="btn trash" id="sellAll">SELL ALL COPIES</button></div></div></div>
 </section>

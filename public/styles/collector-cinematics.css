@@ -1,0 +1,58 @@
+/* Finite, non-interactive effects. The card remains the focal point. */
+#v254RevealFX{z-index:9500!important;pointer-events:none!important}
+#v254RevealFX *{pointer-events:none!important}
+#v254RevealFX[data-v254-effect=base],#v254RevealFX[data-v254-effect=holo],#v254RevealFX[data-quiet=true]{display:none!important}
+#v254RevealFX .v254FxBackdrop,#v254RevealFX .v254FxFlash{display:none!important}
+#v254RevealFX .v254FxHalo{width:85vmin;height:85vmin;background:radial-gradient(circle,transparent 35%,var(--v254-c2) 47%,transparent 61%);filter:blur(18px)}
+#v254RevealFX .v254FxRays{background:repeating-conic-gradient(from 20deg,transparent 0 17deg,var(--v254-c2) 19deg,transparent 21deg 40deg);mask:radial-gradient(circle,transparent 25%,#000 60%,transparent 80%)}
+#v254RevealFX.v254-active .v254FxRays{animation:collector-rays 1.8s ease-out both}
+#v254RevealFX .v254FxBolts i{width:18px;top:0;height:100%;filter:drop-shadow(0 0 7px var(--v254-c2))}
+#v254RevealFX.v254-active .v254FxBolts i{animation:collector-bolt 1.2s ease-out var(--delay) both}
+#v254RevealFX .v254FxParticles span{width:5px;height:14px;border-radius:2px;background:linear-gradient(#fff,var(--v254-c2));box-shadow:0 0 15px var(--v254-c2)}
+#v254RevealFX.v254-active .v254FxParticles span{animation-duration:1.7s}
+.collectorFxRings i{position:absolute;left:50%;top:48%;width:72vmin;height:72vmin;border:2px solid var(--v254-c2);border-radius:50%;box-shadow:0 0 22px var(--v254-c3),inset 0 0 20px var(--v254-c2);opacity:0}
+#v254RevealFX.v254-active .collectorFxRings i{animation:collector-ring 1.7s cubic-bezier(.12,.65,.22,1) var(--delay) both}
+.collectorFxAurora{background:conic-gradient(from 20deg,transparent,var(--v254-c2),transparent 30%,var(--v254-c3),transparent 64%,var(--v254-c4),transparent);mask:radial-gradient(ellipse,transparent 30%,#000 75%);opacity:0;filter:blur(30px)}
+#v254RevealFX[data-v254-effect=ex] .collectorFxAurora{display:none}
+#v254RevealFX.v254-active .collectorFxAurora{animation:collector-aurora 2s ease-out both}
+#v254RevealFX .v254FxBadge{padding-bottom:max(90px,10vh)}
+#v254RevealFX .v254FxBadge span{background:linear-gradient(110deg,#fffcf1f5,#f3eafff5,#e5fbfff5);border:1px solid #fff;min-height:38px;letter-spacing:2px;padding:0 22px;box-shadow:0 0 35px var(--v254-c2)}
+#v254RevealFX[data-v254-effect=apex] .v254FxBadge span,#v254RevealFX[data-v254-effect=god] .v254FxBadge span{background:linear-gradient(115deg,#fff5bd,#fffdf1,#ffde8c);color:#88704d}
+#v254RevealFX.v254-active .v254FxBadge{animation:collector-badge 2s ease-out both}
+#v128Hero:before,#v128Extract:before{content:'';position:absolute;inset:-45px;background-image:linear-gradient(#e6e6f88c,#eee2f6ad),var(--studio-pack-art);background-position:center;background-size:cover;filter:blur(35px) saturate(1.3);pointer-events:none;z-index:-1}
+#v128Hero,#v128Extract{isolation:isolate;background:#e4dcef!important}
+#v128Hero .v128HeroBg{opacity:.3!important}
+#v128Extract .v128Wrapper{filter:drop-shadow(0 15px 35px #79699066)}
+#v128Extract .v128Wrapper:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,transparent 30%,#fff9 47%,transparent 63%);background-size:260% 100%;mix-blend-mode:screen;animation:collector-foil 3s ease-in-out infinite}
+#rip.rip-studio #stage.v91Cinematic:after{content:'';position:absolute;inset:0;pointer-events:none;z-index:11;border-radius:50%;background:radial-gradient(ellipse,transparent 28%,#d6bcff66 50%,transparent 68%);animation:collector-opening 900ms ease-out both}
+#rip.rip-studio #stage.cardModeV89:after{display:none}
+#rip.rip-studio #v91FoilBits i{background:linear-gradient(130deg,#fff,#a7e5ff,#ecd2ff,#ffefc2)!important;box-shadow:0 0 14px #fff}
+@keyframes collector-opening{0%{transform:scale(.3);opacity:0}30%{opacity:.85}100%{transform:scale(1.6);opacity:0}}
+@keyframes collector-ring{0%{opacity:0;transform:translate(-50%,-50%) scale(.45) rotateX(25deg)}20%{opacity:.85}100%{opacity:0;transform:translate(-50%,-50%) scale(1.85) rotateX(0deg)}}
+@keyframes collector-rays{0%{opacity:0;transform:scale(.7) rotate(-15deg)}30%{opacity:.5}100%{opacity:0;transform:scale(1.25) rotate(15deg)}}
+@keyframes collector-aurora{0%{opacity:0;transform:rotate(-25deg) scale(.8)}30%{opacity:.45}100%{opacity:0;transform:rotate(30deg) scale(1.15)}}
+@keyframes collector-bolt{0%{opacity:0;transform:scaleY(.2) rotate(var(--rot))}15%{opacity:.9}100%{opacity:0;transform:scaleY(1.2) rotate(var(--rot))}}
+@keyframes collector-badge{0%,10%{opacity:0;transform:translateY(12px)}28%,72%{opacity:1;transform:translateY(0)}100%{opacity:0}}
+html.v158ReducedMotion #v254RevealFX{display:none!important}
+html.v158ReducedMotion :is(#v128Hero,#v128Extract) *,html.v158ReducedMotion #v128Extract .v128Wrapper:after{animation:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){#v254RevealFX{display:none!important}#v128Hero *,#v128Extract *,#v128Extract .v128Wrapper:after,#rip.rip-studio #stage:after{animation:none!important;transition:none!important}}
+
+#studioExtract{position:absolute;z-index:50;bottom:max(32px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);padding:13px 24px;border:1px solid #fff;border-radius:18px;background:linear-gradient(115deg,#fffef5ed,#eae4fae8);color:#716181;font:750 12px system-ui;box-shadow:0 8px 30px #6b597533;touch-action:manipulation;cursor:pointer}
+#v128Extract .v128Hint{bottom:100px!important}
+#studioExtract:focus-visible{outline:3px solid #ad95cc;outline-offset:4px}
+
+#studioExtract{display:none;position:fixed!important;z-index:2147483646!important}
+body:has(#v128Extract.on) #studioExtract{display:block}
+#v128Hero .heroFlash{display:none!important}
+#studioCollect{display:none;position:fixed;bottom:max(38px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:120;padding:14px 28px;border:1px solid #fff;border-radius:18px;background:linear-gradient(120deg,#fffdf1f2,#ece5faf2);color:#735d8d;font:800 12px system-ui;box-shadow:0 8px 28px #76598d26;touch-action:manipulation}
+body:has(#rip.studio-opening.active #stage.cardModeV89) #studioCollect{display:block}
+body:has(#v128Hero.on) #studioCollect{visibility:hidden}
+body:has(#v253TenTools.show) #studioCollect{bottom:115px}
+html body #rip.rip-studio .rip-studio-stage{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+
+/* Preserve the hit target when the shared button :active animation runs. */
+html body #studioExtract,html body #studioCollect{transform:translateX(-50%)!important;background:linear-gradient(120deg,#fffdf1f2,#ece5faf2)!important;color:#735d8d!important;border:1px solid #fff!important}
+
+/* The legacy hero card uses layer 12000; surround it with the new effects. */
+#v254RevealFX{z-index:13000!important}
+#v128Hero.v145Hyper:before{inset:-45px!important;width:auto!important;height:auto!important;aspect-ratio:auto!important;transform:none!important;border-radius:0!important;box-shadow:none!important;z-index:-1!important;animation:none!important;opacity:1!important}

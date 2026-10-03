@@ -6,6 +6,7 @@ import { installRevealController } from '../animations/packs/reveal-controller.j
 import { installPackHUD } from './pack-hud.js';
 import { installTenPackController } from '../animations/packs/ten-pack-controller.js';
 import { renderV253Summary } from '../animations/packs/pack-summary.js';
+import { installRipStudio } from '../screens/rip/index.js';
 
 let installed = null;
 
@@ -86,6 +87,7 @@ export function installPackEngine(target = window) {
   });
 
   target.TCG_PACKS = api;
+  installRipStudio(target);
   target.dispatchEvent(new CustomEvent('tcg:pack-engine-ready', { detail: { version: api.version } }));
   target.TCG_DIAGNOSTICS?.mark?.('pack-engine-ready', { version: api.version });
   installed = api;

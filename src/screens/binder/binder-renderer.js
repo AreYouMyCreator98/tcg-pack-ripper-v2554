@@ -29,7 +29,10 @@ function ensureRemovalStyles() {
 function filterControls() {
   return {
     query: document.getElementById('search')?.value || '',
-    set: document.getElementById('setFilter')?.value || 'all'
+    set: document.getElementById('setFilter')?.value || 'all',
+    rarity: document.getElementById('binderRarity')?.value || 'all',
+    sort: document.getElementById('binderOrder')?.value || 'rarity',
+    duplicates: !!document.getElementById('binderDuplicates')?.checked
   };
 }
 
@@ -84,6 +87,8 @@ export function permanentlyRemoveBinderCard(card, { confirmRemoval = true } = {}
 function makeSlot(card, bridge) {
   const slot = document.createElement('div');
   slot.dataset.cardId = card.id;
+  slot.tabIndex=0;slot.setAttribute('role','button');slot.setAttribute('aria-label',`Inspect ${card.name}, ${card.rarity}, ${card.qty} copies`);
+  slot.addEventListener('keydown',event=>{if(event.target===slot&&(event.key==='Enter'||event.key===' ')){event.preventDefault();window.openBinderCard?.(card.id);}});
   const fx = bridge.effectClass(card);
   slot.className = `slot v252ArtPending${fx ? ` cardFx ${fx}` : ''}`;
 
@@ -103,6 +108,10 @@ function makeSlot(card, bridge) {
   qty.textContent = `${Math.max(1, Number(card.qty || 1))}x`;
 
   slot.append(img, stars, qty);
+  const caption=document.createElement('div');caption.className='binder-card-caption';
+  const name=document.createElement('b');name.textContent=card.name||'Card';
+  const info=document.createElement('small');info.textContent=`${card.rarity||'Card'} · #${card.number||'—'}`;
+  caption.append(name,info);slot.append(caption);
   slot.addEventListener('click', () => window.openBinderCard?.(card.id));
   return { slot, img };
 }
@@ -119,10 +128,10 @@ function showSlotFailure(slot, img, card) {
     panel.className = 'v254ArtFailurePanel';
     panel.innerHTML = `
       <b>ARTWORK UNAVAILABLE</b>
-      <span>Retry it or permanently remove this card.</span>
+      <span>Your card is safely saved.</span>
       <div class="v254ArtFailureActions">
         <button type="button" class="v254RetryBrokenCard">TRY AGAIN</button>
-        <button type="button" class="v254RemoveBrokenCard">REMOVE</button>
+        <button type="button" class="v254InspectSavedCard">INSPECT</button>
       </div>`;
     panel.addEventListener('click', event => event.stopPropagation());
 
@@ -144,9 +153,9 @@ function showSlotFailure(slot, img, card) {
       }
     });
 
-    panel.querySelector('.v254RemoveBrokenCard').addEventListener('click', event => {
+    panel.querySelector('.v254InspectSavedCard').addEventListener('click', event => {
       event.stopPropagation();
-      permanentlyRemoveBinderCard(card);
+      window.openBinderCard?.(card.id);
     });
     slot.appendChild(panel);
   }
@@ -187,6 +196,8 @@ export function renderBinderPage(anim = false) {
   bridge.renderShelf();
   const cards = currentBinderCards();
   const stats = binderStats(cards);
+  const all=binderEntries(bridge.getBinderMap()),total=binderStats(all);
+  for(const [id,value] of [['binderUnique',total.unique],['binderCopies',total.total],['binderSets',new Set(all.map(c=>c.setId||c.set)).size],['binderValue','$'+all.reduce((n,c)=>n+Number(c.market||0)*Number(c.qty||0),0).toFixed(2)]]){const el=document.getElementById(id);if(el)el.textContent=value;}
   const pagination = paginateBinder(cards, bridge.getPage(), bridge.pageSize);
   bridge.setPage(pagination.page);
 

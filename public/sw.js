@@ -1,7 +1,8 @@
-const VERSION = 'tcg-pack-ripper-0.256.0-9';
+const VERSION = 'tcg-pack-ripper-0.256.0-10';
 const STATIC = `${VERSION}-static`;
 const MEDIA = `${VERSION}-media`;
 const CORE = [
+  './styles/collector-studio.css','./styles/collector-cinematics.css','./src/screens/rip/index.js','./src/screens/binder/studio.js','./src/animations/packs/cinematic-profile.js',
   './styles/profile-studio.css','./runtime/profile-bridge.js','./src/screens/profile/index.js','./src/screens/profile/model.js',
   './styles/bulk.css','./runtime/bulk-bridge.js','./src/screens/bulk/index.js','./src/screens/bulk/model.js',
   './','./index.html','./src/main.js','./src/trade-hub/index.js','./src/trade-hub/model.js','./src/trade-hub/controller.js','./src/trade-hub/view.js','./src/data/ranks.js','./src/ui.js','./src/app/runtime-loader.js','./src/app/diagnostics.js','./src/app/launch-screen.js','./src/pwa/register.js',
