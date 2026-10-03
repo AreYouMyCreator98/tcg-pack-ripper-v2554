@@ -1816,11 +1816,11 @@ try{
   const hubInert=new Map();
   function hubBarrier(on){
     document.documentElement.classList.toggle('hub-transaction-pending',on);
-    if(on){for(const node of document.querySelectorAll('.nav,.screen:not(#earn),#earn .exchangeV154')){if(!hubInert.has(node))hubInert.set(node,node.inert);node.inert=true;}}
+    if(on){for(const node of document.querySelectorAll('.screen:not(#earn),#earn .exchangeV154')){if(!hubInert.has(node))hubInert.set(node,node.inert);node.inert=true;}}
     else{for(const [node,value]of hubInert)node.inert=value;hubInert.clear();}
   }
   for(const type of ['click','submit','keydown','pointerdown'])document.addEventListener(type,e=>{
-    if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub')){e.preventDefault();e.stopImmediatePropagation();}
+    if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub,.nav')){e.preventDefault();e.stopImmediatePropagation();}
   },true);
   function holdHubTransaction(){hubHold=true;clearTimeout(syncTimer);syncTimer=null;hubBarrier(true);}
   function resetHubTransaction(){hubHold=false;hubBarrier(false);}
