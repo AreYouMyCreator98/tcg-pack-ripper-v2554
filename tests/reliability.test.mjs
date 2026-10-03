@@ -6,6 +6,16 @@ import { PackSession } from '../src/packs/pack-session.js';
 import { createSaveEnvelope, CURRENT_SAVE_SCHEMA } from '../src/state/save-schema.js';
 import { migrateSave } from '../src/state/migrations/index.js';
 import { summarizePackCards } from '../src/packs/pack-results.js';
+import { APP_CONFIG } from '../src/config/app-config.js';
+
+test('published build metadata matches the application and package release', async () => {
+ const info=JSON.parse(await readFile(new URL('../public/build-info.json',import.meta.url),'utf8'));
+ const pkg=JSON.parse(await readFile(new URL('../package.json',import.meta.url),'utf8'));
+ assert.equal(info.version,pkg.version);
+ assert.equal(info.version,APP_CONFIG.version);
+ assert.equal(info.buildId,APP_CONFIG.buildId);
+ assert.equal(info.saveSchemaVersion,APP_CONFIG.saveSchemaVersion);
+});
 test('current saves preserve metadata and future saves cannot be downgraded', () => {
  const save=createSaveEnvelope({coins:80}); assert.equal(migrateSave(save).value,save);
  assert.throws(()=>migrateSave({...save,schemaVersion:CURRENT_SAVE_SCHEMA+1}), /newer/);
@@ -21,8 +31,10 @@ test('corrupt numeric values cannot poison pack totals or persistent counters', 
 });
 test('service worker activation preserves unrelated origin caches', async () => {
  const handlers={},deleted=[]; let pending;
- const context={self:{addEventListener:(name,fn)=>handlers[name]=fn,clients:{claim:async()=>{} }},caches:{keys:async()=>['other-app-cache','tcg-pack-ripper-old-static','tcg-pack-ripper-0.256.0-1-static'],delete:async key=>deleted.push(key)}};
- vm.runInNewContext(await readFile(new URL('../public/sw.js',import.meta.url),'utf8'),context);
+ const worker=await readFile(new URL('../public/sw.js',import.meta.url),'utf8');
+ const version=worker.match(/const VERSION = '([^']+)'/)[1];
+ const context={self:{addEventListener:(name,fn)=>handlers[name]=fn,clients:{claim:async()=>{} }},caches:{keys:async()=>['other-app-cache','tcg-pack-ripper-old-static',`${version}-static`,`${version}-media`],delete:async key=>deleted.push(key)}};
+ vm.runInNewContext(worker,context);
  handlers.activate({waitUntil:value=>pending=value}); await pending;
  assert.deepEqual(deleted,['tcg-pack-ripper-old-static']);
 });
