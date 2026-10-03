@@ -72,7 +72,8 @@
     {
       "version": "20261003101824",
       "name": "trade_hub_identity_ranked",
-      "status": "pending"
+      "status": "applied",
+      "deployedVersion": "20261003104948"
     }
   ]
 }
