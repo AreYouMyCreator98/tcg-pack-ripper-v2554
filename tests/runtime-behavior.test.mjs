@@ -52,3 +52,16 @@ test('Reveal All retry after finish failure never duplicates awards',()=>{
 test('failed batches do not publish provisional pack-generation events',async()=>{
  const {ctx,events}=bridge(true);events.length=0;assert.equal(await ctx.v114MakeBatch(),false);assert.equal(events.filter(e=>e.type==='tcg:pack-generated').length,0);
 });
+
+test('single-card collection waits for artwork and rarity locks, then awards once',()=>{
+ const {ctx,owned}=bridge();let ready='0',advanceTimer;
+ ctx.document={getElementById:()=>({dataset:{faceReady:ready}})};
+ ctx.setTimeout=fn=>{advanceTimer=fn};
+ ctx.autoCollectV74=c=>{if(ctx.v74CollectLock)return false;ctx.v74CollectLock=true;owned.push(c.id);return true};
+ assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),false);ready='1';
+ ctx.v128HeroPlaying=true;assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),false);ctx.v128HeroPlaying=false;
+ ctx.v124RareLockUntil=Date.now()+5000;assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),false);ctx.v124RareLockUntil=0;
+ assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),true);assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),false);
+ assert.deepEqual(owned,['card0']);advanceTimer();assert.equal(ctx.busy,false);
+ assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),false);
+});
