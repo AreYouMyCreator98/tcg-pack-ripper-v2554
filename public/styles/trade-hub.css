@@ -52,3 +52,44 @@
 .trade-hub button:disabled{opacity:.55}
 .hub-notice+.hub-body,.hub-empty+button{margin-top:16px}
 @media(max-width:500px){.hub-header{flex-wrap:wrap}.hub-status{align-items:flex-start;min-width:0}.hub-status strong{font-size:17px}.hub-tabs{gap:7px}.trade-hub h1{letter-spacing:-1px}}
+
+/* One portrait component in chat, the ranked summary and both battle banners. */
+.trade-hub .hub-portrait{--portrait-size:68px;width:var(--portrait-size);height:var(--portrait-size);aspect-ratio:1;isolation:isolate}
+.trade-hub .hub-portrait>.hub-avatar{width:100%;height:100%;max-width:none;object-fit:cover;border-radius:50%}
+.trade-hub .hub-portrait>.hub-frame{inset:-12%;width:124%;height:124%;max-width:none;object-fit:contain;pointer-events:none}
+.trade-hub .hub-rank-portrait{--portrait-size:clamp(80px,15vw,150px);margin:18px;font-size:36px}
+.hub-message header{align-items:center;justify-content:flex-start;min-height:44px}
+.hub-message header>.hub-portrait{--portrait-size:36px;font-size:13px;margin:5px 6px 5px 2px}
+.hub-message header>strong{flex:1;min-width:0}
+.hub-message header>time{flex-shrink:0}
+.hub-banner{min-width:0;flex-wrap:wrap;overflow-wrap:anywhere}
+.hub-banner-copy{flex:1;min-width:140px}
+.hub-trackers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:14px 0 0}
+.hub-trackers>div{padding:8px 6px;background:#ffffffbf;border:1px solid #ffffffeb;border-radius:10px;text-align:center}
+.hub-trackers dt{font-size:9px;line-height:1.3;color:#586980}
+.hub-trackers dd{margin:3px 0 0;font-size:17px;font-weight:750;color:#34435c}
+.hub-identity-preview{margin:20px 0 26px}
+.hub-identity-preview .hub-banner{flex-direction:column;text-align:center;padding:24px 14px 16px;gap:20px}
+.hub-identity-preview .hub-banner-copy{width:100%;min-width:0}
+.hub-identity-preview .hub-badges{justify-content:center}
+.hub-identity .hub-check{flex-direction:row;align-items:center}
+.hub-identity .hub-check input{flex-shrink:0}
+
+/* Local shops share the Trade Hub's opaque pearl-glass surfaces. */
+#earn>.exchangeV154:not([hidden]){width:min(100%,1180px)!important;padding:24px!important;margin:0 auto 110px!important;background:linear-gradient(145deg,#fffffff5,#f1f4fcf5)!important;border:1px solid #ffffffeb;box-shadow:inset 0 2px 1px #fff,0 8px 22px #7183a91c;color:#26344b!important}
+#earn .exchangeV154 button{background:linear-gradient(145deg,#fffffff5,#f0f2fcf5)!important;color:#34435c!important;border:1.5px solid #ffffffeb!important;border-radius:18px!important;box-shadow:inset 0 2px 1px #fff,inset 0 -2px 5px #b5bfd329,0 8px 22px #7183a91c!important;backdrop-filter:blur(18px) saturate(125%);-webkit-backdrop-filter:blur(18px) saturate(125%);min-height:44px;font-family:system-ui;transition:background .16s,box-shadow .16s,transform .16s}
+#earn .exchangeV154 button:hover{background:linear-gradient(145deg,#fff,#e9e7f8)!important}
+#earn .exchangeV154 button:focus-visible{outline:3px solid #7960b5;outline-offset:3px}
+#earn .exchangeV154 button:disabled{opacity:.55;cursor:not-allowed}
+#earn .exchangeV154 button.active{background:linear-gradient(135deg,#fefbff,#e3ddf6)!important;color:#503b7c!important;border-color:#c6b6e7!important}
+#earn .exchangeV154 :is(h1,h2,h3,h4,b,strong){color:#26344b!important;text-shadow:none!important}
+#earn .exchangeV154 :is(p,small){color:#586980!important;text-shadow:none!important}
+#earn .exchangeV154 :is(.exchangeCashV154,.exchangeStripV154,.tradeHeroV154,.sealedEntryHeroV180,.sealedEntryStatsV180>div){background:linear-gradient(135deg,#ffffffed,#f1eefbe8)!important;border-color:#ffffffeb!important;color:#34435c!important;box-shadow:inset 0 2px 1px #fff,0 8px 22px #7183a91c!important}
+#earn .exchangeV154 .exchangeSourceV154{grid-template-columns:48px minmax(0,1fr) 16px!important;gap:14px!important;padding:18px!important}
+#earn .exchangeV154 .exchangeSourceIconV154{display:grid;place-items:center;width:44px!important;height:44px!important;background:linear-gradient(145deg,#fff,#eae5f9)!important;border:1px solid #fff;border-radius:14px!important;color:#7960b5!important;box-shadow:inset 0 2px 1px #fff,0 4px 12px #7183a91c!important}
+.exchangeSourceIconV154 svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+#earn .exchangeV154 .exchangeSourceV154 b{font-size:14px!important;line-height:1.3!important}
+#earn .exchangeV154 .exchangeSourceV154 p{font-size:12px!important;line-height:1.5!important}
+#earn .exchangeV154 .exchangeSourceV154 small{font-size:9px!important}
+@media(max-width:500px){#earn>.exchangeV154:not([hidden]){padding:16px!important}.exchangeV154 .exchangeSourceGridV154{grid-template-columns:1fr!important}.hub-message header{flex-wrap:wrap}.hub-message header>time{margin-left:auto;font-size:9px}.trade-hub .hub-rank-portrait{margin:10px}.hub-rank-hero{gap:10px}}
+@media(prefers-reduced-motion:reduce){#earn .exchangeV154 button{transition:none!important}}

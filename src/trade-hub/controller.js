@@ -4,7 +4,7 @@ const ECONOMIC = new Set(['listing_create','listing_buy','listing_cancel','trade
 export class HubController {
   constructor({client,bridge={},storage=globalThis.localStorage,notify=()=>{},clock=globalThis,timeout=15000,uuid=()=>crypto.randomUUID()}) {
     Object.assign(this,{client,bridge,storage,notify,clock,timeout,uuid});
-    this.state={status:'signed-out',data:null,error:'',busy:false,online:0};
+    this.state={status:'signed-out',data:null,error:'',busy:false,background:false,action:null,online:0};
     this.epoch=0; this.revision=0; this.uid=null; this.pending=null; this.channel=null; this.timer=null; this.refreshTask=null; this.disposed=false;
   }
   emit(patch={}) {Object.assign(this.state,patch); this.notify(this.state);}
@@ -37,7 +37,7 @@ export class HubController {
     if(uid===this.uid && (this.state.data||this.state.status==='connecting'))return;
     const epoch=++this.epoch;
     this.uid=uid;
-    this.emit({data:null,error:'',busy:false,status:uid?'connecting':'signed-out'});
+    this.emit({data:null,error:'',busy:false,background:false,action:null,status:uid?'connecting':'signed-out'});
     await this.disconnect();
     if(epoch!==this.epoch)return;
     this.pending=null;this.refreshTask=null;
@@ -68,13 +68,21 @@ export class HubController {
     this.refreshTask=task;
     try {await task;} finally {if(this.refreshTask===task)this.refreshTask=null;}
   }
-  async command(action,payload={}, {quiet=false,retry=false}={}) {
+  async command(action,payload={},options={}) {
+    const epoch=this.epoch;
+    if(this.state.busy&&this.state.background&&!options.quiet)await this.commandTask;
+    if(epoch!==this.epoch||this.disposed)throw new Error('Account changed. Reconnect to continue.');
+    if(this.state.busy)throw new Error('Another action is still finishing.');
+    const task=this.performCommand(action,payload,options);this.commandTask=task;
+    try {return await task;} finally {if(this.commandTask===task)this.commandTask=null;}
+  }
+  async performCommand(action,payload={}, {quiet=false,retry=false}={}) {
     if(!this.uid)throw new Error('AUTH_REQUIRED');
     if(this.state.busy)throw new Error('Another action is still finishing.');
     if(this.pending&&!retry)throw new Error('Retry the pending action first.');
     const uid=this.uid,epoch=this.epoch;
     ++this.revision;
-    this.emit({busy:true,error:''});
+    this.emit({busy:true,background:quiet,action,error:''});
     let economic=false;
     try {
       await this.refreshTask;
@@ -104,7 +112,7 @@ export class HubController {
         this.emit({error:errorMessage(e),status:e.uncertain?'recovering':this.state.status});
       }
       if(!quiet)throw e;
-    } finally {if(epoch===this.epoch&&uid===this.uid&&!this.disposed)this.emit({busy:false});}
+    } finally {if(epoch===this.epoch&&uid===this.uid&&!this.disposed)this.emit({busy:false,background:false,action:null});}
   }
   retry() {if(!this.pending)return this.refresh();return this.command(this.pending.action,this.pending.payload,{retry:true});}
   async disconnect() {

@@ -59,7 +59,7 @@ export const ERROR_TEXT = {
   BLOCKED: 'This interaction is unavailable because a player is blocked.',
   CATALOG_UNAVAILABLE: 'Battle cards are temporarily unavailable. Try another set.',
   ROOM_EXPIRED: 'This room timed out. Leave it or refresh after the next connection check.',
-  RANKED_SET_LOCKED: 'Ranked battles use the same Paldean Fates card pool for both players.',
+  RANKED_SET_LOCKED: 'Ranked battles select one of the first five sets. Both players use the same locked card pool.',
   SET_LOCKED: 'Unlock this expansion in your collection before using it in a battle.',
   BOTH_OFFERS_REQUIRED: 'Both collectors must save an offer before confirming.',
   BADGE_NOT_EARNED: 'Only badges earned in your collection can be showcased.',

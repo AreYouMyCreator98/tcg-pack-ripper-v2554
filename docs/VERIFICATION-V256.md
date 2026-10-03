@@ -1,5 +1,7 @@
 # V256 verification — 2026-10-03
 
+Current local update: **v256-trade-hub-2 is tested but not yet deployed**. See [identity update](IDENTITY-UPDATE-V256.md) for changes, 134-test verification and the publishing blocker. The deployment records below describe the preceding live release.
+
 **125 tests passed in each of three consecutive complete runs; zero failures, skips or cancellations.** The release check also passed project integrity, the Vite production build, the unbundled static resource smoke test (55 resources), and the production resource/cache smoke test (38 resources).
 
 The publication follow-up added a build-metadata consistency check and made the cache-preservation fixture independent of the release suffix. **The final local release check passed all 126 tests**, the build and both resource checks. [Final log](FINAL-RELEASE-CHECK.txt).

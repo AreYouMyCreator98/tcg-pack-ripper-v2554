@@ -1,0 +1,183 @@
+$ pnpm run validate && pnpm run build && pnpm run smoke:production
+$ node scripts/generate-asset-manifest.mjs && node scripts/validate-project.mjs && node --test tests/*.test.mjs && node scripts/make-static-deploy.mjs && node scripts/smoke-static.mjs
+Wrote 36 assets to /C:/Users/angus/Documents/Codex/2026-10-03/le/work/tcg-pack-ripper-v256/public/assets/manifest.json
+Project integrity OK
+✔ Binder artwork is a real source module, not a legacy runtime facade (0.7494ms)
+✔ artwork cache keeps V239-compatible keys (0.9789ms)
+✔ generic card backs are never accepted as front artwork (0.3766ms)
+✔ legacy Binder dependency is isolated behind one bridge (1.2866ms)
+✔ artwork failures cannot delete Binder ownership (0.1682ms)
+✔ 172 unique Binder cards create 20 nine-slot pages (1.8851ms)
+✔ duplicates remain one Binder slot while total quantity stacks (0.2177ms)
+✔ filtering/sorting never mutates Binder card records (9.4304ms)
+✔ double-tapping Sell pays once and never makes inventory negative (2.1849ms)
+✔ card removed during price hydration cannot be sold again (1.6868ms)
+✔ invalid market values do not corrupt currency (0.8063ms)
+✔ failed hydration releases the sale lock for a later retry (0.7615ms)
+✔ branded launch screen exists before module boot (1.4325ms)
+✔ boot suppresses achievement visuals until ready (0.8836ms)
+✔ first frame is prewarmed before launch completes (0.1228ms)
+✔ service worker cache and launch module are current (0.1242ms)
+✔ network-first startup recovery cannot wait forever on stale runtime (0.1722ms)
+✔ secondary runtime remains non-blocking after app ready (0.7327ms)
+✔ Binder module is installed before critical runtime starts (0.1181ms)
+✔ rank-frame image renderer replaces the old artwork-runtime dependency (0.1837ms)
+✔ modular pack engine is additive and cannot gate legacy startup (0.9808ms)
+✔ all relative ES-module imports from main resolve (25.705ms)
+✔ pack orchestration is isolated behind a tiny compatibility bridge (1.4093ms)
+✔ Reveal All routes only from current index onward and uses existing route functions (0.1547ms)
+✔ pack generator contract requires exactly ten awarded cards (0.9279ms)
+✔ generator metadata is descriptive only (1.0395ms)
+✔ live HUD is mounted to Rip screen instead of hidden at top of stage (0.8081ms)
+✔ Reveal All copy describes uncollected cards accurately (0.1442ms)
+✔ session value reconciles final resolved opening value before recap renders (0.1906ms)
+✔ mobile summary hides duplicate legacy stats and demotes reset action (0.1194ms)
+✔ V253.2 collector HUD is one bottom glass pill and hides during card activity (0.1964ms)
+✔ V253.2 completed opening starts with card fan and scrolls to Open Another (0.2032ms)
+✔ Android extraction compositor keeps pulled cards behind the pack wrapper (0.2068ms)
+✔ V253 informational rates remain identical to V252 generator constants (0.738ms)
+✔ recap flags missing, invalid, and minimum fallback prices as estimates (2.2693ms)
+✔ pack recap reports binder, bulk, hit and value totals (9.3121ms)
+✔ best pull prioritises rarity tier before market value (0.1995ms)
+✔ single pack generator remains exactly ten cards and owns payment (0.7256ms)
+✔ ten-pack batch remains exactly ten calls to the proven pack generator (0.1327ms)
+✔ Reveal All starts at the currently displayed card and never calls payment (0.1021ms)
+✔ card-specific reveal identity is tied to awarded card id and index (0.1202ms)
+✔ session tracks hit streaks without changing pack outcomes (2.1022ms)
+✔ God Pack counter resets only when generated pack is marked God Pack (0.3805ms)
+✔ collection tracking counts new ownership separately from copies (0.1485ms)
+✔ session best pull never downgrades rarity tier for a higher market price (0.8385ms)
+✔ session value can reconcile generation-time placeholders to final resolved value (0.3139ms)
+✔ required hits in a subset count as reachable from their parent pack (1.7486ms)
+✔ network failures remain unknown and can recover on retry (1.4065ms)
+✔ future-proof source areas exist (5.8125ms)
+✔ published build metadata matches the application and package release (3.8836ms)
+✔ current saves preserve metadata and future saves cannot be downgraded (1.4811ms)
+✔ corrupt numeric values cannot poison pack totals or persistent counters (1.6773ms)
+✔ service worker activation preserves unrelated origin caches (3.4537ms)
+✔ production hashed bundles load from the precache while offline (1.6556ms)
+✔ reveal intensity follows existing rarity tiers (1.1608ms)
+✔ God Pack finish overrides reveal intensity without changing tier (0.4096ms)
+✔ 4,000 core pack generations across four eras award ten valid cards and charge exactly once (146.2591ms)
+✔ empty catalog returns without charging or hanging (0.8886ms)
+✔ a tiny fallback catalog still finishes with ten awarded cards (0.8237ms)
+✔ unaffordable packs do not generate, charge, or increment counters (0.6918ms)
+✔ batch false restores balances and progress after partial generation (1.1216ms)
+✔ batch throw restores balances and progress after partial generation (0.9993ms)
+✔ Reveal All awards exactly the remaining 73 cards; repeated calls award none (1.6761ms)
+✔ locked decision emits no collection event (0.7182ms)
+✔ Reveal All retry after finish failure never duplicates awards (1.1106ms)
+✔ failed batches do not publish provisional pack-generation events (1.1369ms)
+✔ optional systems never gate startup (1.5219ms)
+✔ critical runtime order remains compatible with legacy globals (0.2924ms)
+✔ every runtime manifest entry exists (4.5104ms)
+✔ all loaded classic runtime chunks parse as JavaScript (34.6331ms)
+✔ legacy save is identified without mutation (2.1509ms)
+✔ current envelope remains current (2.2495ms)
+✔ duplicate auth events create one subscription and timers are cleaned up (3.9243ms)
+✔ account switch rejects old responses and isolates pending receipts (8.6856ms)
+✔ a stale poll cannot overwrite a successful mutation (0.9197ms)
+✔ persist-before-send, single operation and duplicate-click protection (1.3025ms)
+✔ lost response retains receipt and recovery reuses identical payload without flushing save (1.4541ms)
+✔ database rejection clears pending operation and restores collection sync (0.4121ms)
+✔ reload recovery holds inventory before polling, and timeout remains recoverable (111.0452ms)
+✔ account change during save flush cannot write receipt under another account (0.8509ms)
+✔ blocked local storage prevents sending a financial request (0.4237ms)
+✔ foreground command waits behind quiet heartbeat without losing its recovery receipt (0.8255ms)
+✔ quiet heartbeat failure remains recoverable and a queued action cannot overtake it (0.5151ms)
+✔ account switch cancels an action queued behind maintenance (0.5608ms)
+✔ database enforces authentication, private tables and helper permissions (1576.4985ms)
+✔ listing reserves inventory, buyer receives exactly once, cash conserved (882.4263ms)
+✔ listing cancellation returns card once and cannot be stolen (856.0476ms)
+✔ invalid prices and stale saves do not mutate collection (848.4374ms)
+✔ insufficient balance rolls back purchase and keeps escrow (865.0032ms)
+✔ trade escrow prevents selling offered cards; failed edits roll back (875.5757ms)
+✔ both confirmations trade atomically and inventory totals remain six (872.1013ms)
+✔ changing an offer clears both ready flags; stale review is rejected (855.7297ms)
+✔ leaving a trade returns both reserved offers without duplicates (760.47ms)
+✔ expired trade returns offers during heartbeat (751.2699ms)
+✔ waiting rooms reject outsiders even when guest is NULL (718.6072ms)
+✔ queue pairs once and excludes self, blocked users and private-code joining (755.2104ms)
+✔ server generates and awards both packs only at ready gate; opponent cards hidden (711.8273ms)
+✔ ranked result recorded once; forged scores ignored; reveal recovery safe (733.257ms)
+✔ started ranked cancellation forfeits; cannot reroll without a loss (690.4579ms)
+✔ private battles award cards without changing ranks (674.5751ms)
+✔ ready gate rolls back both charges if opponent lacks funds (678.4963ms)
+✔ changing a private battle set clears the opponent confirmation (667.6858ms)
+✔ chat validates, limits rate, blocks users, deduplicates and records reports (659.7792ms)
+✔ competing purchases commit once and conserve cards and cash (1691.2736ms)
+✔ blocked collectors cannot match, join rooms or buy one another listings (924.231ms)
+✔ abandoned ranked matches cannot farm tie RP; timeout with progress awards a forfeit (938.1042ms)
+✔ ranked set cannot be changed to a different probability pool (830.8051ms)
+✔ three-pack battles debit starter, credit and cash once and update history (861.3576ms)
+✔ profiles honor record privacy, sanitize avatars and reject unearned badges (810.6833ms)
+✔ escrow remains part of collection progress and disappears after a sale (829.62ms)
+✔ transferred card metadata cannot inject markup into legacy collection screens (819.4389ms)
+✔ real 6,889-card seed installs and 100 generated packs use valid catalog identities (1103.1899ms)
+✔ cutover imports escrow without deducting again and disables old commands (1012.9716ms)
+✔ all 32 sets retain XP and prestige unlock requirements in private battles (1090.3675ms)
+✔ each of the first five real sets completes a ranked match with equal pools and retained cards (16622.6023ms)
+✔ identity trackers reject forged values and preserve privacy and older clients (712.1727ms)
+✔ new identity data remains backward compatible with existing room and chat snapshots (664.5961ms)
+✔ price, invite, rank boundaries and unsafe image inputs are handled deterministically (1.0465ms)
+✔ marketplace forms reserve, confirm, purchase and synchronize the actual collection (1673.744ms)
+✔ trade UI resets confirmation on draft edit and completes reviewed exchange (968.3403ms)
+✔ matchmaking, both-ready gate, sequential reveals, result and ranked panel work together (1060.4396ms)
+✔ chat rendering prevents markup injection; blocking and reporting use the same account (853.6751ms)
+✔ all tabs, profile form, local shops and sign-out render without losing offline access (817.5808ms)
+✔ earned chat portraits, ranked portrait and live identity editor share saved battle identity (887.9632ms)
+✔ quiet maintenance leaves chat drafts editable and never renders a saving message (841.5042ms)
+✔ new hub replaces every old online runtime and is available offline through the cache (3.5189ms)
+✔ hub install is idempotent and offline shops remain available (7.0115ms)
+✔ cloud transaction holds keyboard and background collection operations until a verified pull (3.6359ms)
+✔ failed pre-transaction sync releases interaction and a playing pack cannot be interrupted (1.8436ms)
+✔ collection bridge preserves rank tiers and counts reserved cards in master progress (4.7521ms)
+✔ startup session restoration holds a saved financial receipt before autosync (1.6283ms)
+✔ essential UI contract survives modular extraction (0.9422ms)
+✔ Binder taps keep their card target; horizontal swipes capture the page (1.9762ms)
+✔ legacy artwork 404 preserves the card and its quantity (0.9857ms)
+ℹ tests 134
+ℹ suites 0
+ℹ pass 134
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18336.3806
+Static deploy written to C:\Users\angus\Documents\Codex\2026-10-03\le\work\tcg-pack-ripper-v256/deploy
+Static smoke OK (55 resources)
+$ node scripts/generate-asset-manifest.mjs && node node_modules/vite/bin/vite.js build && node scripts/build-precache.mjs
+Wrote 36 assets to /C:/Users/angus/Documents/Codex/2026-10-03/le/work/tcg-pack-ripper-v256/public/assets/manifest.json
+vite v8.3.2 building client environment for production...
+transforming...
+
+./styles/core.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/collection.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/packs.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/pack-v253.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/pack-v2533.css?v=2533 doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/pack-v254.css?v=2540 doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/multiplayer.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/trade-hub.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/binder.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+./styles/mobile-performance.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+✓ 56 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     8.76 kB │ gzip:  3.08 kB
+dist/assets/trade-hub-DqjCGf-4.js  37.17 kB │ gzip: 13.17 kB │ map:  76.49 kB
+dist/assets/index-BOCND61i.js      57.44 kB │ gzip: 20.08 kB │ map: 165.24 kB
+
+✓ built in 440ms
+Production offline manifest: 35 resources
+$ node scripts/smoke-static.mjs --production
+Production smoke OK (38 resources)

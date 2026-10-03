@@ -1,5 +1,7 @@
 # V256 deployment and live verification
 
+Current local update: **v256-trade-hub-2 is tested but not yet deployed**. See [identity update](IDENTITY-UPDATE-V256.md) for changes, 134-test verification and the publishing blocker. The deployment records below describe the preceding live release.
+
 **V256 is deployed to the existing GitHub Pages site and Supabase project as of 2026-10-03.** [Release PR #1](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/pull/1) merged as `8f7c40f0cbc953a241732f46b928a763629ff912`. [The Pages deployment](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/actions/runs/37113073698) passed its build, 125 tests, resource checks and deployment.
 
 Production applied migration versions are `20261003091126` (schema) and `20261003092631` (cutover). The catalog seed was loaded in 29 idempotent client-side batches: 32 expansions and 6,889 cards. All 32 expansions generated valid ten-card packs on PostgreSQL 17.11 without touching player saves. Five active listings and existing ranked records transferred with zero mismatches. Legacy mutation RPCs are revoked; private tables have RLS and internal helpers are inaccessible to player roles. A request without a valid user identity was rejected with `AUTH_REQUIRED`.

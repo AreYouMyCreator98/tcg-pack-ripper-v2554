@@ -9,6 +9,8 @@ import {database,USERS} from './hub-database.mjs';
 const [A,B]=USERS;
 async function player(db,uid){
  const {document}=parseHTML('<html><body><div id="root"></div><div id="shops"><button>Local shop</button></div></body></html>');let localSave,view;
+ // Linkedom has no checkbox IDL state; model checked controls for DOM events.
+ Object.defineProperty(document.createElement('input').constructor.prototype,'checked',{configurable:true,get(){return this.hasAttribute('checked');},set(value){this.toggleAttribute('checked',Boolean(value));}});
  const channel={on:()=>channel,subscribe:()=>channel};
  const client={channel:()=>channel,removeChannel:async()=>{},rpc:async(_,{p_action,p_payload,p_request_id})=>{try{return {data:await db.call(uid,p_action,p_payload,p_request_id)};}catch(e){return {error:{message:e.message,code:e.code}};}}};
  const clock={setTimeout,clearTimeout,setInterval:()=>0,clearInterval:()=>{}};
@@ -16,7 +18,7 @@ async function player(db,uid){
  view=new HubView(document.getElementById('root'),controller,{shops:document.getElementById('shops')});await controller.setUser({id:uid});
  const click=async selector=>{const target=view.root.querySelector(selector);assert.ok(target,'missing '+selector);await view.onClick({target});};
  const tab=async name=>click(`[data-hub-tab="${name}"]`);
- const input=(name,value,checked)=>{const el=view.root.querySelector(`[name="${name}"]`);assert.ok(el,'missing input '+name);if(el.tagName==='SELECT'){for(const option of el.querySelectorAll('option'))option.selected=option.value===value;}else el.value=value;if(checked!==undefined)el.checked=checked;view.onInput({target:el,type:'change'});};
+ const input=(name,value,checked)=>{const el=view.root.querySelector(`[name="${name}"]`);assert.ok(el,'missing input '+name);if(el.tagName==='SELECT'){for(const option of el.querySelectorAll('option'))option.selected=false;[...el.querySelectorAll('option')].find(option=>option.value===value).selected=true;}else el.value=value;if(checked!==undefined)el.checked=checked;view.onInput({target:el,type:'change'});};
  const submit=async name=>{const target=view.root.querySelector(`[data-hub-form="${name}"]`);assert.ok(target);await view.onSubmit({target,preventDefault(){}});assert.equal(controller.state.error,'',controller.state.error);};
  return {controller,view,document,click,tab,input,submit,get localSave(){return localSave;},close:async()=>{view.dispose();await controller.dispose();}};
 }
@@ -61,4 +63,49 @@ test('all tabs, profile form, local shops and sign-out render without losing off
  await a.tab('ranked');a.input('name','New Collector');a.input('title','Pack Explorer');a.input('style','ember');a.input('show_record','',false);await a.submit('profile');assert.equal(a.controller.state.data.profile.name,'New Collector');assert.equal(a.controller.state.data.profile.show_record,false);
  for(const tab of ['market','trades','battles','chat','ranked','activity','shops'])await a.tab(tab);
  assert.equal(a.document.getElementById('shops').hidden,false);await a.controller.setUser(null);await a.tab('market');assert.match(a.view.root.textContent,/Sign in through Profile/);await a.tab('shops');assert.equal(a.document.getElementById('shops').hidden,false);
+}));
+
+test('earned chat portraits, ranked portrait and live identity editor share saved battle identity',fixture(async({db,a,b})=>{
+ const avatar='data:image/png;base64,iVBORw0KGgo=';
+ await db.db.query("update user_saves set save_data=save_data || jsonb_build_object('state',(save_data->'state') || $1::jsonb) where user_id=$2",[JSON.stringify({profileV227:{avatarData:avatar},profileFramesV228:{selected:'bronze',owned:{bronze:true}},badges:{first_pull:true}}),A]);
+ await db.db.query('update hub_private.profiles set rp=168,wins=5,losses=2,season_high=168,streak=2 where user_id=$1',[A]);
+ await a.controller.refresh();await a.tab('ranked');
+ assert.equal(a.view.root.querySelector('.hub-rank-portrait .hub-avatar').getAttribute('src'),avatar);
+ assert.match(a.view.root.querySelector('.hub-rank-portrait .hub-frame').getAttribute('src'),/bronze/);
+ const preview=()=>a.view.root.querySelector('.hub-identity-preview');
+ const nameInput=a.view.root.querySelector('[name="name"]');
+ a.input('name','Pearl Collector');a.input('title','First five specialist');a.input('style','crystal');
+ assert.equal(a.view.root.querySelector('[name="name"]'),nameInput,'preview must not replace the active editor');
+ assert.match(preview().textContent,/Pearl Collector/);assert.ok(preview().querySelector('.hub-banner-crystal'));
+ a.input('badge','first_pull',true);assert.match(preview().textContent,/first pull/);
+ const tracker=(id,checked)=>{const target=a.view.root.querySelector(`[name="tracker"][value="${id}"]`);target.checked=checked;a.view.onInput({target});};
+ tracker('wins',false);tracker('losses',true);tracker('ties',true);
+ assert.equal(a.view.root.querySelector('[name="tracker"][value="ties"]').checked,false,'fourth tracker cannot be selected');
+ assert.match(preview().textContent,/Ranked losses/);
+ a.input('show_record','',false);assert.equal(preview().querySelector('.hub-trackers'),null);
+ a.input('show_record','',true);await a.submit('profile');
+ assert.deepEqual(a.controller.state.data.profile.trackers,['losses','season_high','streak']);
+ await a.tab('trades');await a.click('[data-hub-action="create"]');const room=a.controller.state.data.rooms[0];
+ await b.tab('trades');b.input('code',room.code);await b.submit('join');await a.controller.refresh();
+ const actual=b.view.root.querySelector('.hub-versus .hub-banner').outerHTML;
+ await a.tab('ranked');assert.equal(preview().firstElementChild.outerHTML,actual,'preview must be identical to the banner seen by opponents');
+ await a.tab('chat');a.input('message','Hello with my earned frame');await a.submit('chat');
+ assert.equal(a.view.notice,'');assert.doesNotMatch(a.view.root.textContent,/Action complete/);
+ await b.controller.refresh();await b.tab('chat');
+ assert.equal(b.view.root.querySelector('.hub-message .hub-avatar').getAttribute('src'),avatar);
+ assert.match(b.view.root.querySelector('.hub-message .hub-frame').getAttribute('src'),/bronze/);
+ await db.db.query("update user_saves set save_data=jsonb_set(save_data,'{state,profileFramesV228,owned,bronze}','false') where user_id=$1",[A]);
+ await b.controller.refresh();assert.equal(b.view.root.querySelector('.hub-message .hub-frame'),null,'unearned frames stay hidden');
+}));
+
+test('quiet maintenance leaves chat drafts editable and never renders a saving message',fixture(async({a})=>{
+ await a.tab('chat');a.input('message','Draft preserved');
+ a.controller.emit({busy:true,background:true,action:'heartbeat'});
+ assert.equal(a.view.root.querySelector('.hub-working'),null);
+ assert.equal(a.view.root.querySelector('[name="message"]').disabled,false);
+ assert.equal(a.view.root.querySelector('[name="message"]').value,'Draft preserved');
+ a.controller.emit({busy:true,background:false,action:'chat_send'});
+ assert.equal(a.view.root.querySelector('.hub-working').textContent,'Sending message…');
+ assert.equal(a.view.root.querySelector('[name="message"]').disabled,true);
+ a.controller.emit({busy:false,background:false,action:null});
 }));

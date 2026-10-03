@@ -54,3 +54,30 @@ test('blocked local storage prevents sending a financial request',async()=>{
  let mutations=0;const f=fixture(async(_,{p_action})=>{if(p_action!=='snapshot')mutations++;return {data:data()};});await f.c.setUser({id:'A'});
  f.storage.setItem=()=>{throw Error('storage full');};await assert.rejects(f.c.command('listing_buy',{}),/storage full/);assert.equal(mutations,0);await f.c.dispose();
 });
+
+test('foreground command waits behind quiet heartbeat without losing its recovery receipt',async()=>{
+ const heartbeat=deferred(),sent=[];let begins=0,finishes=0;
+ const f=fixture(async(_,{p_action})=>{sent.push(p_action);return p_action==='heartbeat'?heartbeat.promise:{data:data()};});
+ f.c.bridge={begin:async()=>{begins++;return 1;},finish:async()=>{finishes++;}};
+ await f.c.setUser({id:'A'});const background=f.c.command('heartbeat',{}, {quiet:true});await tick();
+ assert.equal(f.c.state.background,true);assert.equal(f.c.pending.action,'heartbeat');
+ const foreground=f.c.command('chat_send',{message:'hello'});await tick();assert.equal(sent.includes('chat_send'),false);
+ heartbeat.resolve({data:data()});await Promise.all([background,foreground]);
+ assert.deepEqual(sent,['snapshot','heartbeat','chat_send']);assert.equal(begins,1);assert.equal(finishes,1);assert.equal(f.c.pending,null);assert.equal(f.c.state.background,false);await f.c.dispose();
+});
+
+test('quiet heartbeat failure remains recoverable and a queued action cannot overtake it',async()=>{
+ const heartbeat=deferred();const f=fixture(async(_,{p_action})=>p_action==='heartbeat'?heartbeat.promise:{data:data()});
+ await f.c.setUser({id:'A'});const background=f.c.command('heartbeat',{}, {quiet:true});await tick();
+ const foreground=f.c.command('profile',{name:'Alice'});const rejection=assert.rejects(foreground,/pending action/);
+ heartbeat.reject(Error('Connection interrupted'));await background;await rejection;
+ assert.equal(f.c.pending.action,'heartbeat');assert.equal(f.c.state.status,'recovering');assert.equal(f.c.state.busy,false);await f.c.dispose();
+});
+
+test('account switch cancels an action queued behind maintenance',async()=>{
+ const heartbeat=deferred();let sentProfile=false;const f=fixture(async(_,{p_action})=>{if(p_action==='profile')sentProfile=true;return p_action==='heartbeat'?heartbeat.promise:{data:data()};});
+ await f.c.setUser({id:'A'});const background=f.c.command('heartbeat',{}, {quiet:true});await tick();
+ const foreground=f.c.command('profile',{name:'Alice'});const rejection=assert.rejects(foreground,/Account changed/);
+ await f.c.setUser({id:'B'});heartbeat.resolve({data:data()});await background;await rejection;
+ assert.equal(sentProfile,false);assert.equal(f.c.uid,'B');await f.c.dispose();
+});
