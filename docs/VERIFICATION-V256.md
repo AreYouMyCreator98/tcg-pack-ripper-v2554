@@ -2,7 +2,11 @@
 
 **125 tests passed in each of three consecutive complete runs; zero failures, skips or cancellations.** The release check also passed project integrity, the Vite production build, the unbundled static resource smoke test (55 resources), and the production resource/cache smoke test (38 resources).
 
-This is local verification of the rebuilt code. It is not a claim that every possible state or live-service failure has been tested. No browser, pointer, webview or screenshot testing was used for this release, following the request to use code and tests.
+The publication follow-up added a build-metadata consistency check and made the cache-preservation fixture independent of the release suffix. **The final local release check passed all 126 tests**, the build and both resource checks. [Final log](FINAL-RELEASE-CHECK.txt).
+
+Initial development verification used code tests. The user subsequently authorized browser publishing and live visual checks. The same 125-test suite, build and resource checks also passed in GitHub Actions. This does not cover every possible live-service failure.
+
+Production verification on 2026-10-03: PostgreSQL 17.11 accepted both migrations; 32 expansions and 6,889 catalog cards loaded with zero invalid identity/tier rows; all 32 expansions generated valid ten-card packs. Five existing listings and ranked records transferred with zero mismatches. Private table RLS and helper grants passed inspection, retired RPC access is revoked, and missing authentication was rejected. The signed-out live game opened the rebuilt hub with the existing local cash balance intact. The browser check found and corrected a legacy theme heading/button contrast conflict and stale build metadata. Two-account online gameplay, real reconnects and concurrent-device behavior remain unverified.
 
 ## Evidence
 

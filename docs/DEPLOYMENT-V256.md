@@ -1,6 +1,10 @@
 # V256 deployment and live verification
 
-This release was built and tested locally. **The live database and public V255.4 site have not been updated.** The supplied web build needs the V256 database service before online tabs can work. Local shops remain usable if that service is absent.
+**V256 is deployed to the existing GitHub Pages site and Supabase project as of 2026-10-03.** [Release PR #1](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/pull/1) merged as `8f7c40f0cbc953a241732f46b928a763629ff912`. [The Pages deployment](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/actions/runs/37113073698) passed its build, 125 tests, resource checks and deployment.
+
+Production applied migration versions are `20261003091126` (schema) and `20261003092631` (cutover). The catalog seed was loaded in 29 idempotent client-side batches: 32 expansions and 6,889 cards. All 32 expansions generated valid ten-card packs on PostgreSQL 17.11 without touching player saves. Five active listings and existing ranked records transferred with zero mismatches. Legacy mutation RPCs are revoked; private tables have RLS and internal helpers are inaccessible to player roles. A request without a valid user identity was rejected with `AUTH_REQUIRED`.
+
+The signed-out public page loaded, opened the rebuilt Trade Hub, and retained the existing local cash balance. Browser inspection identified a legacy theme contrast conflict; the follow-up CSS scopes headings and buttons to the new hub and refreshes the offline cache. Two-account online gameplay remains unverified.
 
 ## Coordinated cutover
 
@@ -15,7 +19,7 @@ Do not automatically roll the frontend back to V255 after the cutover: its old c
 
 ## Read-only production preflight
 
-The inspection on 2026-10-03 found no missing sale receipts and no out-of-range/inconsistent active listings. Five listings were active at that observation; three legacy trades and four legacy battles were unfinished. These counts can change while players are active. No production rows or schema were changed by this work.
+The pre-cutover inspection on 2026-10-03 found no missing sale receipts or invalid listings. Five listings were active. Three legacy trades and four legacy battles were unfinished but none had been active in the previous 30 minutes. Their records remain archived; no duplicate offer cards were refunded. A private local snapshot retained profiles, active listings, original grants and save fingerprints before the migration; this is not a full point-in-time database backup.
 
 ## Moderation and operations
 
@@ -26,9 +30,9 @@ Retain `hub_private.requests` receipt keys for idempotency; do not delete them b
 ## Remaining live checks
 
 - Actual Supabase Auth, JWT refresh, Realtime, RLS behavior and network outages using two accounts.
-- PostgreSQL 17.11 deployment compatibility; local SQL tests ran in PGlite/PostgreSQL 18.3.
+- Full gameplay parity between production PostgreSQL 17.11 and local PGlite/PostgreSQL 18.3; deployment and pure pack-generation checks passed on production.
 - Parallel database sessions, latency and lock behavior under production load.
-- Mobile Safari/Chrome layout, image loading, touch, keyboard and screen-reader behavior. No browser, webview, pointer automation or screenshots were used for V256, as requested.
+- Mobile Safari/Chrome, touch, keyboard and screen-reader behavior. Initial development used code tests; the user subsequently authorized browser publishing and live visual checks.
 - External card-art availability and current monetary card quotes.
 
 Local tests provide reproducible evidence, not a guarantee of zero defects.
