@@ -1,0 +1,5 @@
+export const STYLES=[['aurora','Pearl aurora'],['crystal','Glacier'],['gold','Champagne'],['ember','Rose quartz'],['neon','Prism'],['obsidian','Moonstone']];
+export const AVATARS=[['✦','Starlight','#9b8dcc'],['◆','Gem','#7b9dba'],['☾','Moon','#8e94b9'],['✿','Bloom','#bd8aaf'],['⚡','Spark','#b39853'],['♜','Guardian','#739b97'],['♥','Heart','#c48999'],['✧','Nova','#9993bd']];
+export function lookOf(p={}){return {title:String(p.title??'Collector').slice(0,28),style:STYLES.some(([id])=>id===p.style)?p.style:'aurora',badges:[...new Set(p.badges||[])].slice(0,3),trackers:[...new Set(p.trackers??['wins','season_high','streak'])].slice(0,3),show_record:p.show_record!==false};}
+export function restoreLook(look,earned){const next=lookOf(look);next.badges=next.badges.filter(id=>earned.includes(id));return next;}
+export function pageSlice(total,page,size){const pages=Math.max(1,Math.ceil(total/size)),current=Math.min(Math.max(0,page),pages-1);return {page:current,pages,start:current*size,end:Math.min(total,(current+1)*size)};}
