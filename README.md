@@ -1,6 +1,6 @@
 # TCG Pack Ripper+ — V256 Trade Hub
 
-Rebuilt marketplace, trading, multiplayer, global chat, pack battles, matchmaking and ranked play. Start with [the system guide](docs/TRADE-HUB-V256.md), [verification](docs/VERIFICATION-V256.md), and [deployment instructions](docs/DEPLOYMENT-V256.md). The new online backend has not yet been installed on the public deployment.
+Rebuilt marketplace, trading, multiplayer, global chat, pack battles, matchmaking and ranked play. [Play the live game](https://areyoumycreator98.github.io/tcg-pack-ripper-v2554/). V256 and its matching backend were deployed on 2026-10-03. Start with [the system guide](docs/TRADE-HUB-V256.md), [verification](docs/VERIFICATION-V256.md), and [deployment notes](docs/DEPLOYMENT-V256.md).
 
 Requires Node 22.12+ and pnpm 11.19.0. Run `pnpm install --frozen-lockfile --ignore-scripts`, then `pnpm run release:check`. `dist/` is the production build; `deploy/` is the unbundled static build. Serve over HTTP(S).
 

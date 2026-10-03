@@ -2,7 +2,9 @@ V256 TRADE HUB REBUILD
 
 Read docs/DEPLOYMENT-V256.md before publishing.
 This frontend requires the matching schema, catalog seed and coordinated cutover.
-The live V255.4 database and website have not been changed.
+V256 was deployed to the existing GitHub Pages site and Supabase project on 2026-10-03.
+The schema, 6,889-card catalog and cutover are installed. Do not reapply them.
+Refresh any previously opened game tab to load the new hub.
 
 Local: pnpm install --frozen-lockfile --ignore-scripts
 Verify: pnpm run release:check
