@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 concurrency:
@@ -15,33 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Import verified release source if needed
-        shell: bash
-        run: |
-          if [ -f tcg-pack-ripper-v255.4-source.zip ]; then
-            python3 - <<'PY'
-          from pathlib import Path
-          import hashlib, shutil, tempfile, zipfile
-          assert hashlib.sha256(Path('tcg-pack-ripper-v255.4-source.zip').read_bytes()).hexdigest() == 'dd2aa8651f6dff4ee6421dc87ad735e2b5cb4133324dad50b580aef4f48ec920'
-          with tempfile.TemporaryDirectory() as temp:
-              with zipfile.ZipFile('tcg-pack-ripper-v255.4-source.zip') as archive:
-                  archive.extractall(temp)
-              root = Path(temp) / 'tcg-pack-ripper-v255.4'
-              for item in root.iterdir():
-                  if item.name == '.github':
-                      continue
-                  if item.is_dir():
-                      shutil.copytree(item, Path(item.name), dirs_exist_ok=True)
-                  else:
-                      shutil.copy2(item, item.name)
-          PY
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git rm tcg-pack-ripper-v255.4-source.zip
-            git add .
-            git commit -m 'Import verified v255.4 game source'
-            git push
-          fi
       - uses: actions/setup-node@v4
         with:
           node-version: 22
