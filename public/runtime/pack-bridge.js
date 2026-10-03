@@ -127,6 +127,13 @@
     return {ok:true,collected,binder,bulk,newCards};
   }
 
+  function collectCurrent(){
+    if(!busy||!pulls?.[idx]||window.decisionLock||window.v128HeroPlaying||Date.now()<Number(window.v124RareLockUntil||0)||document.getElementById('stack')?.dataset.faceReady!=='1')return false;
+    if(!autoCollectV74(pulls[idx]))return false;
+    setTimeout(()=>{window.v74CollectLock=false;advance(false)},220);
+    return true;
+  }
+
   function readPersistentStats(){
     const x=state?.packStatsV253||{};
     return {
@@ -143,7 +150,7 @@
 
   window.TCG_PACK_LEGACY=Object.freeze({
     version:'0.253.2',snapshot,currentCard:()=>cloneCard(pulls?.[idx]),cards:()=>cloneCards(pulls),
-    tier:cardTier,route:routeOf,collectRemaining,readPersistentStats,writePersistentStats,
+    tier:cardTier,route:routeOf,collectRemaining,collectCurrent,readPersistentStats,writePersistentStats,
     begin:()=>{try{return beginRip()}catch(error){return Promise.reject(error)}},
     selectedSet,mode:()=>Number(v114PackCount)===10?10:1
   });
