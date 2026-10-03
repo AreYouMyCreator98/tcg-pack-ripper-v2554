@@ -34,14 +34,21 @@ export function installPackHUD({ onToggleFast, onRevealAll, onResetSession } = {
     const stageBusy = stage.classList.contains('cardModeV89')
       || stage.classList.contains('v91Cinematic')
       || stage.classList.contains('v114TenRipping');
-    const hidden = summaryOpen || extractOpen || stageBusy || !rip.classList.contains('active');
+    const hidden = summaryOpen || extractOpen || stageBusy || rip.classList.contains('studio-opening')
+      || !!el('v128Hero')?.classList.contains('on') || !rip.classList.contains('active');
     hud.classList.toggle('v253HudHidden', hidden);
+    hud.hidden = hidden;
+    hud.setAttribute('aria-hidden', String(hidden));
+    el('v253FastToggle').disabled = hidden;
   }
 
   const stageObserver = new MutationObserver(syncHudVisibility);
   stageObserver.observe(stage, { attributes: true, attributeFilter: ['class'], childList: true });
   const bodyObserver = new MutationObserver(syncHudVisibility);
   bodyObserver.observe(document.body, { childList: true });
+  const modalObserver = new MutationObserver(syncHudVisibility);
+  for(const node of [rip,el('v128Extract'),el('v128Hero')].filter(Boolean))modalObserver.observe(node,{attributes:true,attributeFilter:['class']});
+  bodyObserver.observe(rip, { childList: true });
   window.addEventListener('tcg:card-reveal-start', syncHudVisibility);
   window.addEventListener('tcg:pack-summary', syncHudVisibility);
   window.addEventListener('tcg:app-ready', syncHudVisibility);

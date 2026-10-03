@@ -169,15 +169,8 @@ export function installProfileStudio(win=window,doc=document){
    settings.classList.add('studio-settings');settings.setAttribute('role','dialog');settings.setAttribute('aria-modal','true');settings.setAttribute('aria-label','Game settings');
    $('closeProfileSettingsV158').setAttribute('aria-label','Close settings');$('closeSettingsShadeV158').setAttribute('aria-label','Close settings backdrop');
    settings.querySelectorAll('.settingsGroupV158').forEach(group=>{const title=group.querySelector('.settingsGroupHeadV158 small')?.textContent||'Options';fold(group,title);if(group.id==='cloudAccountV190')group.parentElement.open=true;});
-   const settingsKeys=event=>{
-     if(!settings.classList.contains('show'))return;
-     if(event.key==='Escape'){event.preventDefault();$('closeProfileSettingsV158').click();$('openProfileSettingsV158').focus();}
-     if(event.key==='Tab'){
-       const controls=[...settings.querySelectorAll('button,input,select,summary')].filter(el=>!el.disabled&&el.getClientRects().length&&el.id!=='closeSettingsShadeV158');
-       const first=controls[0],last=controls.at(-1);if(event.shiftKey&&doc.activeElement===first){event.preventDefault();last?.focus();}else if(!event.shiftKey&&doc.activeElement===last){event.preventDefault();first?.focus();}
-     }
-   };settings.addEventListener('keydown',settingsKeys);
-   const settingsObserver=new win.MutationObserver(()=>{if(settings.classList.contains('show'))$('closeProfileSettingsV158').focus();});settingsObserver.observe(settings,{attributes:true,attributeFilter:['class']});observers.push(settingsObserver);
+   // The shared settings overlay owns scrolling, focus and dismissal.
+
  }
  bridge.refresh();switchTab('overview');refresh();
  win.tcgProfileStudio={refresh,switchTab,dispose(){observers.forEach(o=>o.disconnect());win.removeEventListener('tcg:profile-updated',schedule);doc.removeEventListener('click',onNav);root.removeEventListener('click',click);root.removeEventListener('input',input);root.removeEventListener('change',input);root.removeEventListener('keydown',keyboard);}};

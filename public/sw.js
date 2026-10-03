@@ -1,7 +1,8 @@
-const VERSION = 'tcg-pack-ripper-0.256.0-10';
+const VERSION = 'tcg-pack-ripper-0.256.0-11';
 const STATIC = `${VERSION}-static`;
 const MEDIA = `${VERSION}-media`;
 const CORE = [
+  './runtime/supabase.js','./src/app/settings-overlay.js',
   './styles/collector-studio.css','./styles/collector-cinematics.css','./src/screens/rip/index.js','./src/screens/binder/studio.js','./src/animations/packs/cinematic-profile.js',
   './styles/profile-studio.css','./runtime/profile-bridge.js','./src/screens/profile/index.js','./src/screens/profile/model.js',
   './styles/bulk.css','./runtime/bulk-bridge.js','./src/screens/bulk/index.js','./src/screens/bulk/model.js',

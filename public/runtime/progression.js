@@ -1604,6 +1604,7 @@ try{
   const CONFLICT_BACKUP_KEY='tcgRipperConflictBackupV237';
   let client=null,user=null,syncTimer=null,syncBusy=false,authBusy=false,pushPausedUntil=0,cloudVersion=null,recoveryPending=false;
   let hubHold=false;
+  let sessionState='restoring',sessionRetry=null;
   let deviceId='';
   try{deviceId=localStorage.getItem(DEVICE_KEY)||('dev_'+crypto.randomUUID());localStorage.setItem(DEVICE_KEY,deviceId)}catch(_){deviceId='dev_'+Math.random().toString(36).slice(2)}
   const cfg=()=>window.TCG_CLOUD_CONFIG||{};
@@ -1642,6 +1643,7 @@ try{
       else setStatus('warn','Local-only mode','Log in to protect progress with your account. Local browser data can be cleared by the device.');
       if(saveStatus)saveStatus.textContent='LOCAL ONLY';
     }
+    if(sessionState!=='ready'){setStatus('warn',sessionState==='restoring'?'Restoring sign-in':'Reconnecting account',sessionState==='restoring'?'Checking your saved sign-in. You can close Settings while this finishes.':'Your saved sign-in is kept. Reconnecting automatically when the connection returns.');if(saveStatus)saveStatus.textContent='CONNECTING';}
     let t=0;try{t=Number(localStorage.getItem(STAMP_KEY)||0)}catch(_){}if(el('cloudLastSyncV190'))el('cloudLastSyncV190').textContent=t?new Date(t).toLocaleString():'Not synced yet';
   }
   function snapshot(){
@@ -1697,7 +1699,19 @@ try{
   }
   async function refreshSession(){
     if(!client)return null;
-    try{const {data,error}=await client.auth.getSession();if(error)throw error;const session=data?.session||null;user=session?.user||null;if(user){setPendingEmail('');try{const pending=JSON.parse(localStorage.getItem('tcg-hub-v256-pending:'+user.id)||'null');if(pending&&['listing_create','listing_buy','listing_cancel','trade_offer','room_ready','room_cancel','heartbeat'].includes(pending.action))holdHubTransaction();}catch(_){}}syncUI();return session}catch(e){user=null;syncUI();return null}
+    try{
+      const {data,error}=await client.auth.getSession();if(error)throw error;
+      const session=data?.session||null;user=session?.user||null;sessionState='ready';
+      clearTimeout(sessionRetry);sessionRetry=null;
+      if(user){setPendingEmail('');try{const pending=JSON.parse(localStorage.getItem('tcg-hub-v256-pending:'+user.id)||'null');if(pending&&['listing_create','listing_buy','listing_cancel','trade_offer','room_ready','room_cancel','heartbeat'].includes(pending.action))holdHubTransaction();}catch(_){}}
+      syncUI();return session;
+    }catch(e){
+      // A failed refresh is not a sign-out. Let the SDK retain/refresh its stored
+      // session; never replace the account or enable a cloud write on this path.
+      sessionState='retry';syncUI();
+      if(!sessionRetry)sessionRetry=setTimeout(()=>{sessionRetry=null;refreshSession().then(session=>{if(session?.user&&!recoveryPending)reconcile();});},5000);
+      return null;
+    }
   }
   async function getRemote(){
     if(!client)return null;const session=await refreshSession();if(!session?.user)return null;
@@ -1722,7 +1736,7 @@ try{
   function pausePush(ms=3000){pushPausedUntil=Math.max(pushPausedUntil,Date.now()+Math.max(250,Number(ms)||3000));clearTimeout(syncTimer);syncTimer=null}
   function queuePush(){if(!user||!client||recoveryPending)return;if(hubHold){setDirty(true);return;}setDirty(true);clearTimeout(syncTimer);const wait=Date.now()<pushPausedUntil?Math.max(80,pushPausedUntil-Date.now()+80):350;syncTimer=setTimeout(()=>pushNow(false),wait)}
   async function reconcile(){
-    if(!client||recoveryPending||hubHold)return;const session=await refreshSession();if(!session?.user)return;
+    if(!client||recoveryPending||hubHold||(typeof busy!=='undefined'&&busy))return;const session=await refreshSession();if(!session?.user)return;
     try{
       const remote=await getRemote();
       if(!remote?.save_data){setBound();setStoredVersion(null);setDirty(true);await pushNow(false,true);return}
@@ -1786,18 +1800,42 @@ try{
   }
   async function login(){
     if(authBusy)return;if(!configured())return toast('Cloud backend is not configured yet.');const email=el('cloudEmailV190')?.value.trim(),password=el('cloudPasswordV190')?.value||'';if(!email||password.length<6)return toast('Enter your email and a password of at least 6 characters.');authBusy=true;
-    try{const {data,error}=await client.auth.signInWithPassword({email,password});if(error)throw error;if(!data?.session?.user)throw new Error('No authenticated session returned.');user=data.session.user;cloudVersion=null;setPendingEmail('');syncUI();toast('☁️ Logged in');await reconcile()}catch(e){user=null;const msg=String(e?.message||'Login failed');if(/email.*confirm|confirm.*email/i.test(msg)){setPendingEmail(email);syncUI();toast('Confirm your email first, then log in.')}else{syncUI();toast(msg)}}finally{authBusy=false}
+    try{const {data,error}=await client.auth.signInWithPassword({email,password});if(error)throw error;if(!data?.session?.user)throw new Error('No authenticated session returned.');user=data.session.user;sessionState='ready';cloudVersion=null;setPendingEmail('');syncUI();toast('☁️ Logged in');await reconcile()}catch(e){user=null;const msg=String(e?.message||'Login failed');if(/email.*confirm|confirm.*email/i.test(msg)){setPendingEmail(email);syncUI();toast('Confirm your email first, then log in.')}else{syncUI();toast(msg)}}finally{authBusy=false}
   }
   async function signup(){
     if(authBusy)return;if(!configured())return toast('Cloud backend is not configured yet.');const email=el('cloudEmailV190')?.value.trim(),password=el('cloudPasswordV190')?.value||'';if(!email||password.length<6)return toast('Enter your email and a password of at least 6 characters.');authBusy=true;
     try{const {data,error}=await client.auth.signUp({email,password});if(error)throw error;if(data?.session?.user){user=data.session.user;cloudVersion=null;setPendingEmail('');setBound();setStoredVersion(null);setDirty(true);syncUI();toast('☁️ Account created and signed in');await pushNow(false,true)}else{user=null;setPendingEmail(email);syncUI();toast('📧 Account created • confirm the email, then log in.')}}catch(e){user=null;syncUI();toast(e?.message||'Could not create account')}finally{authBusy=false}
   }
-  async function logout(){if(!client)return;try{await pushNow(false);await client.auth.signOut();user=null;cloudVersion=null;recoveryPending=false;syncUI();toast('Signed out • this device now has an offline-only copy')}catch(e){toast('Could not sign out')}}
+  async function logout(){if(!client)return;try{await pushNow(false);const {error}=await client.auth.signOut({scope:'local'});if(error)throw error;user=null;sessionState='ready';cloudVersion=null;recoveryPending=false;clearTimeout(sessionRetry);sessionRetry=null;syncUI();toast('Signed out • this device now has an offline-only copy')}catch(e){toast('Could not sign out')}}
   async function init(){
-    if(configured()){
-      try{client=(window.__tcgSupabaseClient ||= window.supabase.createClient(cfg().supabaseUrl,cfg().supabaseAnonKey,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}}));await refreshSession();client.auth.onAuthStateChange((event,session)=>{const next=session?.user||null,changed=next?.id!==user?.id;user=next;cloudVersion=null;if(user)setPendingEmail('');syncUI();if(event==='PASSWORD_RECOVERY'){setTimeout(showPasswordRecovery,50);return}if(changed&&user)setTimeout(reconcile,100)});window.addEventListener('online',()=>{if(user&&!recoveryPending)setTimeout(reconcile,100)});document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'&&user&&isDirty()&&!recoveryPending)pushNow(false)});window.addEventListener('pagehide',()=>{if(user&&isDirty()&&!recoveryPending)pushNow(false)});setInterval(()=>{if(user&&isDirty()&&!syncBusy&&!recoveryPending)pushNow(false)},10000)}catch(e){console.error(e)}
-    }
-    el('cloudLoginBtnV190')?.addEventListener('click',login);el('cloudSignupBtnV190')?.addEventListener('click',signup);el('cloudLogoutBtnV190')?.addEventListener('click',logout);el('cloudSyncBtnV190')?.addEventListener('click',()=>pushNow(true));const loginBox=el('cloudLoginV190');if(loginBox&&!document.getElementById('cloudForgotBtnV238')){const b=document.createElement('button');b.id='cloudForgotBtnV238';b.type='button';b.textContent='FORGOT PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',requestPasswordReset);loginBox.appendChild(b)}const signedBox=el('cloudSignedV190');if(signedBox&&!document.getElementById('cloudChangePasswordBtnV238')){const b=document.createElement('button');b.id='cloudChangePasswordBtnV238';b.type='button';b.textContent='CHANGE PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',showPasswordRecovery);signedBox.appendChild(b)}syncUI();if(user)setTimeout(reconcile,500);
+    // Bind dismissal/account controls before awaiting session recovery. A slow
+    // mobile connection must never leave Settings as an unresponsive overlay.
+    el('cloudLoginBtnV190')?.addEventListener('click',login);el('cloudSignupBtnV190')?.addEventListener('click',signup);el('cloudLogoutBtnV190')?.addEventListener('click',logout);el('cloudSyncBtnV190')?.addEventListener('click',()=>pushNow(true));const loginBox=el('cloudLoginV190');if(loginBox&&!document.getElementById('cloudForgotBtnV238')){const b=document.createElement('button');b.id='cloudForgotBtnV238';b.type='button';b.textContent='FORGOT PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',requestPasswordReset);loginBox.appendChild(b)}const signedBox=el('cloudSignedV190');if(signedBox&&!document.getElementById('cloudChangePasswordBtnV238')){const b=document.createElement('button');b.id='cloudChangePasswordBtnV238';b.type='button';b.textContent='CHANGE PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',showPasswordRecovery);signedBox.appendChild(b)}syncUI();
+
+    if(!configured())return;
+    try{
+      client=(window.__tcgSupabaseClient ||= window.supabase.createClient(cfg().supabaseUrl,cfg().supabaseAnonKey,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}}));
+      client.auth.onAuthStateChange((event,session)=>{
+        const next=session?.user||null,changed=next?.id!==user?.id;
+        // Only confirmed SDK session events clear the displayed account.
+        if(next||event==='SIGNED_OUT'||event==='INITIAL_SESSION'){user=next;sessionState='ready';}
+        if(changed)cloudVersion=null;
+        if(user)setPendingEmail('');syncUI();
+        if(event==='SIGNED_OUT'){clearTimeout(sessionRetry);sessionRetry=null;}
+        if(event==='PASSWORD_RECOVERY'){setTimeout(showPasswordRecovery,50);return;}
+        if(changed&&user)setTimeout(reconcile,100);
+      });
+      const resume=()=>{if(!recoveryPending)refreshSession().then(session=>{if(session?.user)reconcile();});};
+      window.addEventListener('online',resume);
+      document.addEventListener('visibilitychange',()=>{
+        if(document.visibilityState==='visible')resume();
+        else if(user&&isDirty()&&!recoveryPending)pushNow(false);
+      });
+      window.addEventListener('pageshow',event=>{if(event.persisted)resume();});
+      window.addEventListener('pagehide',()=>{if(user&&isDirty()&&!recoveryPending)pushNow(false);});
+      setInterval(()=>{if(user&&isDirty()&&!syncBusy&&!recoveryPending)pushNow(false);},10000);
+      await refreshSession();if(user)setTimeout(reconcile,500);
+    }catch(e){sessionState='retry';syncUI();console.error('Account initialization failed',e);}
   }
   try{const baseSave=save;save=function(){markLocalChange();const r=baseSave.apply(this,arguments);queuePush();return r}}catch(e){console.warn('Cloud save wrapper not installed',e)}
   async function beginHubTransaction(){
@@ -1816,11 +1854,11 @@ try{
   const hubInert=new Map();
   function hubBarrier(on){
     document.documentElement.classList.toggle('hub-transaction-pending',on);
-    if(on){for(const node of document.querySelectorAll('.screen:not(#earn),#earn .exchangeV154')){if(!hubInert.has(node))hubInert.set(node,node.inert);node.inert=true;}}
+    if(on){for(const node of document.querySelectorAll('.screen:not(#earn):not(#settings),#earn .exchangeV154')){if(!hubInert.has(node))hubInert.set(node,node.inert);node.inert=true;}}
     else{for(const [node,value]of hubInert)node.inert=value;hubInert.clear();}
   }
   for(const type of ['click','submit','keydown','pointerdown'])document.addEventListener(type,e=>{
-    if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub,.nav')){e.preventDefault();e.stopImmediatePropagation();}
+    if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub,.nav,#closeProfileSettingsV158,#closeSettingsShadeV158')){e.preventDefault();e.stopImmediatePropagation();}
   },true);
   function holdHubTransaction(){hubHold=true;clearTimeout(syncTimer);syncTimer=null;hubBarrier(true);}
   function resetHubTransaction(){hubHold=false;hubBarrier(false);}
