@@ -1,6 +1,6 @@
 # V256 deployment and live verification
 
-Current local update: **v256-trade-hub-2 is tested but not yet deployed**. See [identity update](IDENTITY-UPDATE-V256.md) for changes, 134-test verification and the publishing blocker. The deployment records below describe the preceding live release.
+Current update: **v256-trade-hub-2 was merged through [PR #2](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/pull/2)** after all 134 tests passed locally and in GitHub. The matching database migration is installed. See [identity update](IDENTITY-UPDATE-V256.md) and [Pages deployment](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/actions/runs/37117766122). The earlier deployment records below describe the preceding release.
 
 **V256 is deployed to the existing GitHub Pages site and Supabase project as of 2026-10-03.** [Release PR #1](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/pull/1) merged as `8f7c40f0cbc953a241732f46b928a763629ff912`. [The Pages deployment](https://github.com/AreYouMyCreator98/tcg-pack-ripper-v2554/actions/runs/37113073698) passed its build, 125 tests, resource checks and deployment.
 
