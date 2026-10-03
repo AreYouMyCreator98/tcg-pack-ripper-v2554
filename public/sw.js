@@ -1,7 +1,8 @@
-const VERSION = 'tcg-pack-ripper-0.256.0-6';
+const VERSION = 'tcg-pack-ripper-0.256.0-8';
 const STATIC = `${VERSION}-static`;
 const MEDIA = `${VERSION}-media`;
 const CORE = [
+  './styles/profile-studio.css','./runtime/profile-bridge.js','./src/screens/profile/index.js','./src/screens/profile/model.js',
   './styles/bulk.css','./runtime/bulk-bridge.js','./src/screens/bulk/index.js','./src/screens/bulk/model.js',
   './','./index.html','./src/main.js','./src/trade-hub/index.js','./src/trade-hub/model.js','./src/trade-hub/controller.js','./src/trade-hub/view.js','./src/data/ranks.js','./src/ui.js','./src/app/runtime-loader.js','./src/app/diagnostics.js','./src/app/launch-screen.js','./src/pwa/register.js',
   './src/config/app-config.js','./src/config/runtime-manifest.js','./src/utils/async.js','./src/app/navigation-preload.js','./src/app/navigation-input.js','./src/systems/binder.js','./src/systems/packs.js','./src/systems/rank-frame-renderer.js','./src/packs/index.js','./src/packs/pack-engine.js','./src/packs/pack-generator.js','./src/packs/pack-results.js','./src/packs/pack-session.js','./src/packs/pack-history.js','./src/packs/pack-costs.js','./src/packs/pack-hud.js','./src/packs/pack-rates.js','./src/animations/packs/reveal-profile.js','./src/animations/packs/reveal-controller.js','./src/animations/packs/ten-pack-controller.js','./src/animations/packs/pack-summary.js','./src/screens/binder/index.js','./src/screens/binder/binder-bridge.js','./src/screens/binder/binder-model.js','./src/screens/binder/binder-renderer.js','./src/screens/binder/binder-inspector.js','./src/screens/binder/binder-status.js','./src/artwork/index.js','./src/artwork/card-identity.js','./src/artwork/artwork-db.js','./src/artwork/artwork-queue.js','./src/artwork/artwork-resolver.js','./src/artwork/artwork-cache.js',
