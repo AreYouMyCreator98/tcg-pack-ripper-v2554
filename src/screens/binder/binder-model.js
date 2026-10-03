@@ -5,15 +5,18 @@ export function binderEntries(binder) {
 export function filterBinderCards(cards, {
   query = '',
   set = 'all',
-  tier = () => 0
+  tier = () => 0,
+  rarity = 'all', sort = 'rarity', duplicates = false
 } = {}) {
   const q = String(query || '').trim().toLowerCase();
   return (cards || [])
     .filter(card => card && Number(card.qty || 0) > 0)
     .filter(card => set === 'all' || card.set === set)
-    .filter(card => !q || String(card.name || '').toLowerCase().includes(q))
+    .filter(card => !q || [card.name,card.number,card.rarity,card.set].join(' ').toLowerCase().includes(q))
+    .filter(card => rarity === 'all' || (rarity === 'chase' ? tier(card)>=4 : rarity === 'hits' ? tier(card)>=2 : tier(card)<=1))
+    .filter(card => !duplicates || Number(card.qty)>1)
     .slice()
-    .sort((a, b) => Number(tier(b) || 0) - Number(tier(a) || 0) || String(a.name || '').localeCompare(String(b.name || '')));
+    .sort((a, b) => (sort==='name'?0:sort==='value'?Number(b.market||0)-Number(a.market||0):sort==='copies'?Number(b.qty||0)-Number(a.qty||0):Number(tier(b)||0)-Number(tier(a)||0)) || String(a.name || '').localeCompare(String(b.name || '')));
 }
 
 export function binderStats(cards) {
