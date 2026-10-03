@@ -17,5 +17,6 @@ export const packRuntime = [
 export const secondaryRuntime = [
   'runtime/profile-extras.js',
   'runtime/rank-frames.js',
-  'runtime/hub-bridge.js'
+  'runtime/hub-bridge.js',
+  'runtime/profile-bridge.js'
 ];

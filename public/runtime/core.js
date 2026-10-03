@@ -84,7 +84,8 @@ function hasMeaningfulProgressV200(o){
 /* V200: iPhone/Files can leave an empty or partial save object behind. Treat a truly
    unplayed shell as a fresh game, while established saves keep all progress. */
 const newGameV199=!hasMeaningfulProgressV200(old);
-let state=(newGameV199?{}:old)||{};
+// Cosmetic-only profiles are valid even before the first pack is opened.
+let state=(newGameV199?{profileV227:old?.profileV227,profileStudioV257:old?.profileStudioV257,profileFramesV228:old?.profileFramesV228}:old)||{};
 if(newGameV199){state.coins=80;state.packs=0;state.hits=0;state.binder={};state.history=[]}
 else if(!Number.isFinite(Number(state.coins)))state.coins=0;
 state.history=state.history||[];state.binder=state.binder||{};state.bulkV64=state.bulkV64||{};state.trashed=state.trashed||0;state.jobs=state.jobs||{rescue:0,sort:0,counter:0};state.xp=Number(state.xp||0);state.badges=state.badges||{};state.miniStats=state.miniStats||{price:0,sleeve:0,memory:0,delivery:0};state.achievements=state.achievements||{};state.chaseBadges=state.chaseBadges||{};state.jobCareer=state.jobCareer||{earnings:0,perfect:0,orders:0};state.earnV83=state.earnV83||{played:{},streak:0,contract:[],claimed:false};state.shopV84=state.shopV84||{rep:0,deals:0,profit:0,visits:0,ledger:[]};state.binderOwned=state.binderOwned||['classic'];state.binderTheme=state.binderTheme||'classic';
