@@ -1,4 +1,5 @@
 import { mountUI } from './ui.js';
+import { installBulkModule } from './screens/bulk/index.js';
 import { configurePlatform } from './platform/mobile.js';
 import { loadCriticalRuntime, loadPackRuntime, loadBinderRuntime, loadSecondaryRuntime, scheduleSecondaryRuntime } from './app/runtime-loader.js';
 import { installNavigationPreload } from './app/navigation-preload.js';
@@ -77,6 +78,7 @@ async function boot() {
     bootStage = 'starting critical game systems';
     setLaunchStage('LOADING COLLECTION', 47, 'Restoring packs, progress and collection systems…');
     await loadCriticalRuntime();
+    installBulkModule();
     bootMark('critical-runtime-ready');
 
     bootStage = 'starting pack engine';
