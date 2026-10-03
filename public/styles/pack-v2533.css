@@ -1,0 +1,40 @@
+/* V253.3 — final pack-screen alignment polish
+   Only:
+   1) lift collector pill slightly above the 1/10 selector
+   2) give completed 1-pack / 10-pack card fans enough top clearance
+*/
+#rip.active #v253PackHUD{
+  bottom:max(152px,calc(env(safe-area-inset-bottom) + 142px))!important;
+}
+
+/* The fan intentionally overflows its own box because the outer cards are rotated.
+   Keep the fan full-size, but start the summary lower so no card is hidden behind
+   the upper set shelf / stage boundary. */
+#rip #v88Summary.v253SummaryActive{
+  padding-top:max(72px,calc(env(safe-area-inset-top) + 60px))!important;
+  scroll-padding-top:max(72px,calc(env(safe-area-inset-top) + 60px))!important;
+}
+#rip #v88Summary.v253SummaryActive .v88Fan{
+  margin-top:0!important;
+  overflow:visible!important;
+}
+
+@media(max-width:620px){
+  #rip.active #v253PackHUD{
+    bottom:max(150px,calc(env(safe-area-inset-bottom) + 140px))!important;
+  }
+  #rip #v88Summary.v253SummaryActive{
+    padding-top:max(78px,calc(env(safe-area-inset-top) + 66px))!important;
+    scroll-padding-top:max(78px,calc(env(safe-area-inset-top) + 66px))!important;
+  }
+}
+
+@media(max-height:760px){
+  #rip.active #v253PackHUD{
+    bottom:max(140px,calc(env(safe-area-inset-bottom) + 132px))!important;
+  }
+  #rip #v88Summary.v253SummaryActive{
+    padding-top:max(64px,calc(env(safe-area-inset-top) + 52px))!important;
+    scroll-padding-top:max(64px,calc(env(safe-area-inset-top) + 52px))!important;
+  }
+}

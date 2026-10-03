@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-10-02",
+  "projectRef": "ddeuwrnfmdgvizkrjhii",
+  "applied": [
+    {
+      "version": "20261001041136",
+      "name": "create_user_saves"
+    },
+    {
+      "version": "20261002061630",
+      "name": "v218_multiplayer_market_trades_battles"
+    },
+    {
+      "version": "20261002062044",
+      "name": "v218_multiplayer_security_hardening"
+    },
+    {
+      "version": "20261002064555",
+      "name": "v219_market_atomic_reconcile"
+    },
+    {
+      "version": "20261002080054",
+      "name": "v220_fast_rooms_battle_progress"
+    },
+    {
+      "version": "20261002091933",
+      "name": "v224_cancel_multiplayer_room"
+    },
+    {
+      "version": "20261002092246",
+      "name": "v224_cancel_room_guard"
+    },
+    {
+      "version": "20261002092901",
+      "name": "v225_allow_ongoing_battle_cancel"
+    },
+    {
+      "version": "20261002094643",
+      "name": "v226_matchmaking_private_rooms"
+    },
+    {
+      "version": "20261002101217",
+      "name": "v229_multiplayer_rank_frames"
+    },
+    {
+      "version": "20261002113512",
+      "name": "v236_account_authoritative_saves"
+    },
+    {
+      "version": "20261002121126",
+      "name": "enable_pg_net_for_auth_recovery_v238"
+    }
+  ]
+}

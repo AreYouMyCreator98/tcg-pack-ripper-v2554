@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="modern-booting">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#11172b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>TCG Pack Ripper+</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles/core.css">
+  <link rel="stylesheet" href="./styles/collection.css">
+  <link rel="stylesheet" href="./styles/packs.css">
+  <link rel="stylesheet" href="./styles/pack-v253.css">
+  <link rel="stylesheet" href="./styles/pack-v2533.css?v=2533">
+  <link rel="stylesheet" href="./styles/pack-v254.css?v=2540">
+  <link rel="stylesheet" href="./styles/multiplayer.css">
+  <link rel="stylesheet" href="./styles/multiplayer-v255.css?v=2553">
+  <link rel="stylesheet" href="./styles/binder.css">
+  <link rel="stylesheet" href="./styles/mobile-performance.css">
+  <style>
+    html,body{margin:0;min-height:100%;background:#11172b}
+    html.modern-booting body{overflow:hidden!important}
+    html.modern-booting #app-root{visibility:hidden!important;pointer-events:none!important}
+    html.modern-booting #v163UnlockBurst{display:none!important}
+    #modern-boot-status{display:none!important}
+
+    #tcgLaunch{position:fixed;inset:0;z-index:1000000;display:grid;place-items:center;overflow:hidden;background:
+      radial-gradient(circle at 50% 22%,rgba(178,132,255,.34),transparent 30%),
+      radial-gradient(circle at 18% 76%,rgba(90,224,255,.18),transparent 32%),
+      radial-gradient(circle at 88% 70%,rgba(255,176,220,.14),transparent 30%),
+      linear-gradient(160deg,#0c1120 0%,#17172e 48%,#0c1424 100%);color:white;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;transition:opacity .42s ease,visibility .42s ease}
+    #tcgLaunch.v2541Leaving{opacity:0;visibility:hidden;pointer-events:none}
+    #tcgLaunch:before{content:"";position:absolute;inset:-30%;background:conic-gradient(from 120deg,transparent 0 20%,rgba(121,229,255,.06) 25%,transparent 31% 51%,rgba(225,150,255,.07) 58%,transparent 65% 82%,rgba(255,229,133,.045) 88%,transparent 94%);animation:launchAurora 9s linear infinite;filter:blur(12px)}
+    .launchNoise{position:absolute;inset:0;opacity:.22;background-image:radial-gradient(circle,rgba(255,255,255,.8) 0 1px,transparent 1.4px);background-size:39px 39px;mask-image:linear-gradient(to bottom,transparent,#000 18%,#000 82%,transparent);animation:launchDrift 12s linear infinite}
+    .launchShell{position:relative;width:min(430px,88vw);display:flex;flex-direction:column;align-items:center;gap:15px;padding:26px 20px 22px;border:1px solid rgba(255,255,255,.13);border-radius:36px;background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));box-shadow:0 38px 90px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.12);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+    .launchMark{position:relative;width:150px;height:210px;margin-top:-4px;filter:drop-shadow(0 24px 30px rgba(0,0,0,.32))}
+    .launchCard{position:absolute;left:50%;top:50%;width:108px;height:154px;border-radius:11px;border:1px solid rgba(255,255,255,.14);background:linear-gradient(145deg,#172546,#25376a);box-shadow:0 16px 30px rgba(0,0,0,.26);transform-origin:50% 90%}
+    .launchCard.c1{transform:translate(-72%,-43%) rotate(-12deg);opacity:.72}.launchCard.c2{transform:translate(-28%,-43%) rotate(12deg);opacity:.72}
+    .launchPack{position:absolute;left:50%;top:50%;width:126px;height:184px;transform:translate(-50%,-50%);border-radius:13px 13px 10px 10px;background:
+      linear-gradient(115deg,transparent 0 26%,rgba(255,255,255,.30) 38%,transparent 51% 100%),
+      radial-gradient(circle at 70% 24%,rgba(221,153,255,.80),transparent 24%),
+      radial-gradient(circle at 26% 74%,rgba(90,231,255,.54),transparent 28%),
+      linear-gradient(155deg,#563b9e,#243b7e 50%,#182748 100%);background-size:240% 100%,100% 100%,100% 100%,100% 100%;border:1px solid rgba(255,255,255,.38);box-shadow:inset 0 1px rgba(255,255,255,.42),0 0 42px rgba(127,103,255,.26);overflow:hidden;animation:launchPackFloat 2.8s ease-in-out infinite,launchFoil 2.4s ease-in-out infinite}
+    .launchPack:before,.launchPack:after{content:"";position:absolute;left:0;right:0;height:13px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.28) 0 3px,rgba(255,255,255,.06) 3px 7px)}.launchPack:before{top:0}.launchPack:after{bottom:0}
+    .launchPackLogo{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:22px 12px;color:white;text-shadow:0 5px 16px rgba(0,0,0,.4)}
+    .launchPackLogo strong{display:block;font-size:17px;line-height:.92;letter-spacing:-.6px}.launchPackLogo small{display:block;margin-top:7px;font-size:7px;letter-spacing:2.2px;font-weight:900;color:#dff7ff}.launchPackLogo em{display:block;margin-top:30px;font-style:normal;font-size:8px;font-weight:900;letter-spacing:1.5px;color:#ffeaa6}
+    .launchRing{position:absolute;left:50%;top:50%;width:174px;height:174px;transform:translate(-50%,-50%);border-radius:50%;border:1px solid rgba(176,228,255,.18);box-shadow:0 0 60px rgba(124,172,255,.10);animation:launchRing 2.8s ease-out infinite}
+    .launchCopy{text-align:center}.launchCopy small{display:block;font-size:8px;font-weight:900;letter-spacing:3.5px;color:#aeb9d8}.launchCopy h1{margin:6px 0 0;font-size:clamp(25px,7vw,34px);line-height:1;font-weight:1000;letter-spacing:-1.2px;background:linear-gradient(90deg,#fff,#cbeaff 32%,#e2c9ff 62%,#ffe9b1);-webkit-background-clip:text;background-clip:text;color:transparent}.launchCopy p{margin:7px 0 0;font-size:9px;font-weight:800;letter-spacing:1.7px;color:#8290b1}
+    .launchProgress{width:100%;padding:11px 12px 10px;border-radius:18px;border:1px solid rgba(255,255,255,.10);background:rgba(4,8,20,.23);box-sizing:border-box}.launchProgressTop{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}.launchProgressTop b{font-size:8px;letter-spacing:1.4px;color:#e9efff}.launchProgressTop span{font-size:8px;font-weight:900;color:#a8b5d4}.launchTrack{height:5px;border-radius:999px;overflow:hidden;background:rgba(255,255,255,.08)}.launchTrack i{display:block;width:8%;height:100%;border-radius:inherit;background:linear-gradient(90deg,#7fe9ff,#ab82ff 54%,#ffe17d);box-shadow:0 0 18px rgba(151,160,255,.65);transition:width .32s cubic-bezier(.2,.75,.25,1)}
+    .launchHint{font-size:7px;letter-spacing:1.1px;font-weight:800;color:#6f7d9c;text-transform:uppercase}
+    #tcgLaunch.failed .launchTrack i{background:#ff7a82}#tcgLaunch.failed .launchProgressTop b{color:#ffb2b6}#tcgLaunch.failed{cursor:pointer}
+    @keyframes launchPackFloat{0%,100%{transform:translate(-50%,-50%) translateY(0) rotate(-1deg)}50%{transform:translate(-50%,-50%) translateY(-8px) rotate(1deg)}}
+    @keyframes launchFoil{0%,100%{background-position:170% 0,0 0,0 0,0 0}50%{background-position:-60% 0,0 0,0 0,0 0}}
+    @keyframes launchRing{0%{opacity:.12;transform:translate(-50%,-50%) scale(.76)}52%{opacity:.5}100%{opacity:0;transform:translate(-50%,-50%) scale(1.35)}}
+    @keyframes launchAurora{to{transform:rotate(360deg)}}@keyframes launchDrift{to{background-position:39px 39px}}
+    @media(max-height:720px){.launchShell{padding:17px 18px 16px;gap:10px}.launchMark{width:118px;height:158px}.launchPack{width:98px;height:143px}.launchCard{width:82px;height:118px}.launchRing{width:140px;height:140px}.launchPackLogo strong{font-size:14px}.launchPackLogo em{margin-top:20px}.launchCopy h1{font-size:25px}}
+    @media(prefers-reduced-motion:reduce){#tcgLaunch:before,.launchNoise,.launchPack,.launchRing{animation:none!important}}
+  </style>
+  <script>window.__TCG_BOOT_PHASE__=true;window.__TCG_BOOT_STARTED__=performance.now();</script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2"></script>
+</head>
+<body>
+  <div id="app-root"></div>
+  <div id="modern-boot-status">Loading TCG Pack Ripper+…</div>
+  <div id="tcgLaunch" role="status" aria-live="polite">
+    <div class="launchNoise"></div>
+    <div class="launchShell">
+      <div class="launchMark" aria-hidden="true">
+        <div class="launchRing"></div>
+        <div class="launchCard c1"></div><div class="launchCard c2"></div>
+        <div class="launchPack"><div class="launchPackLogo"><div><strong>TCG<br>PACK RIPPER+</strong><small>COLLECTOR EDITION</small><em>RIP • PULL • COLLECT</em></div></div></div>
+      </div>
+      <div class="launchCopy"><small>COLLECTOR SYSTEM</small><h1>TCG PACK RIPPER+</h1><p>RIP • COLLECT • TRADE • GRADE</p></div>
+      <div class="launchProgress">
+        <div class="launchProgressTop"><b id="tcgLaunchStage">PREPARING COLLECTION</b><span id="tcgLaunchPct">8%</span></div>
+        <div class="launchTrack"><i id="tcgLaunchBar"></i></div>
+      </div>
+      <div class="launchHint" id="tcgLaunchHint">Loading your collector room…</div>
+    </div>
+  </div>
+  <script type="module" src="./src/main.js?v=2554"></script>
+</body>
+</html>

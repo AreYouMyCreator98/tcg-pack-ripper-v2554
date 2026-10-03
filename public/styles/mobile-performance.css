@@ -1,0 +1,15 @@
+/* Modern shell performance hints. These do not alter game rules. */
+html{background:#070a10;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+html[data-platform="ios"] .screen:not(.active),
+html[data-platform="android"] .screen:not(.active){contain:layout style paint}
+.packShell,.cardStack,.revealCard,.gradeReturnPack,.v128HeroCard{transform:translateZ(0);backface-visibility:hidden}
+img{content-visibility:auto}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+html[data-performance="balanced"] .foil::after,
+html[data-performance="balanced"] .foilTop::after{animation-duration:4s!important}
+html[data-performance="balanced"] .panel,
+html[data-performance="balanced"] .top{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+/* Status messages must never block the game, including after fading out. */
+.toast, .achievementToastV56 { pointer-events: none; }

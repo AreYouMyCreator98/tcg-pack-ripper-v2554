@@ -1,0 +1,57 @@
+/* original style 127 id=v232-binder-image-reliability-style */
+
+#binder .slot.cardArtPendingV232{overflow:hidden!important}
+#binder .slot.cardArtPendingV232:before{content:"";position:absolute;inset:0;border-radius:7px;background:linear-gradient(110deg,rgba(255,255,255,.025) 24%,rgba(190,219,255,.12) 42%,rgba(255,255,255,.025) 60%);background-size:230% 100%;animation:v232ArtShimmer 1.55s linear infinite;z-index:0;pointer-events:none}
+#binder .slot .binderArtV232{position:relative;z-index:1;opacity:0;transition:opacity .18s ease;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:translateZ(0)}
+#binder .slot.cardArtReadyV232 .binderArtV232{opacity:1}
+#binder .slot.cardArtReadyV232:before{display:none}
+#binder .slot.cardArtFailedV232:before{display:none}
+#binder .binderArtRetryV232{position:absolute;inset:5px;z-index:3;display:grid;place-items:center;text-align:center;border:0;border-radius:7px;background:linear-gradient(145deg,rgba(18,27,39,.94),rgba(7,12,20,.96));color:#aebdd2;font:900 8px/1.35 system-ui;letter-spacing:.45px;padding:8px;cursor:pointer}
+#binder .binderArtRetryV232 b{display:block;color:#e8f0fb;font-size:10px;margin-bottom:4px}
+#cardModal #inspect3d.inspectArtPendingV232{position:relative;overflow:hidden;border-radius:14px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(88,111,145,.08))}
+#cardModal #inspect3d.inspectArtPendingV232:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 24%,rgba(202,226,255,.14) 44%,transparent 64%);background-size:230% 100%;animation:v232ArtShimmer 1.45s linear infinite;z-index:0}
+#cardModal #inspectImg{position:relative;z-index:1;opacity:1;transition:opacity .18s ease}
+#cardModal #inspect3d.inspectArtPendingV232 #inspectImg{opacity:0}
+#cardModal .inspectArtFailedV232{position:absolute;inset:0;z-index:8;display:grid;place-items:center;padding:24px;text-align:center;background:linear-gradient(145deg,rgba(14,23,36,.96),rgba(7,12,20,.97));color:#b9c7d9;font:900 11px/1.45 system-ui;border:0;cursor:pointer}
+@keyframes v232ArtShimmer{0%{background-position:130% 0}100%{background-position:-130% 0}}
+
+
+/* original style 128 id=v239-binder-art-cache-style */
+
+#v239ArtBoot{position:fixed;inset:0;z-index:2147482500;display:none;align-items:center;justify-content:center;padding:20px;background:linear-gradient(155deg,rgba(246,251,255,.96),rgba(232,249,249,.94) 50%,rgba(245,236,255,.96));backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);font-family:system-ui,-apple-system,sans-serif;color:#15223a}
+#v239ArtBoot.show{display:flex}.v239ArtCard{width:min(460px,100%);padding:22px;border-radius:30px;background:rgba(255,255,255,.86);border:1px solid rgba(255,255,255,.95);box-shadow:0 26px 80px rgba(46,58,87,.18),inset 0 1px 0 #fff}.v239ArtCard small{display:block;font-size:9px;font-weight:1000;letter-spacing:2px;color:#8a72e8}.v239ArtCard h2{margin:5px 0 7px;font-size:26px;line-height:1.05}.v239ArtCard p{margin:0;color:#66748a;font-size:12px;line-height:1.45;font-weight:650}.v239ArtProgress{height:9px;border-radius:99px;background:rgba(113,126,154,.12);overflow:hidden;margin:18px 0 9px}.v239ArtProgress i{display:block;width:0;height:100%;border-radius:inherit;background:linear-gradient(90deg,#63d9e8,#8a67ef);transition:width .18s ease}.v239ArtMeta{display:flex;justify-content:space-between;gap:10px;color:#69768b;font-size:10px;font-weight:850}.v239ArtCurrent{margin-top:10px;padding:10px 12px;border-radius:14px;background:rgba(231,238,248,.62);font-size:10px;color:#516078;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.v239ArtActions{display:none;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}.v239ArtActions.show{display:grid}.v239ArtActions button{border:0;border-radius:14px;padding:12px;font:900 10px system-ui;letter-spacing:.4px}.v239Retry{background:#7457e8;color:#fff}.v239Offline{background:#e7edf6;color:#34425a}
+#binder .slot.v239ArtPending:after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,#edf2f7 20%,#fff 38%,#edf2f7 58%);background-size:220% 100%;animation:v239Shimmer 1.2s linear infinite;z-index:0}#binder .slot.v239ArtPending>*{position:relative;z-index:1}#binder .slot .v239ArtStatus{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:8px;color:#6d7990;font:900 9px/1.35 system-ui;background:rgba(246,249,253,.94);z-index:4}.v239ArtStatus b{display:block;font-size:10px;color:#3e4c65;margin-bottom:3px}@keyframes v239Shimmer{to{background-position:-120% 0}}
+
+
+/* original style 129 id=v240-rank-frame-img-fix-style */
+
+/* V240: render all season/profile rank frames as real IMG elements.
+   Safari/Messenger reliably renders the exact same assets this way in the ranked ladder. */
+#profileFramesVaultV228 .miniFrameV228{background-image:none!important;overflow:visible!important}
+#profileFramesVaultV228 .miniFrameV228>.rankFrameImgV240{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:contain;object-position:center;pointer-events:none;user-select:none;-webkit-user-drag:none;filter:drop-shadow(0 0 10px rgba(255,255,255,.18))}
+#profile .profileAvatarV227 .profileFrameImageV228{background-image:none!important}
+#profile .profileAvatarV227 .profileFrameImageV228>.rankFrameImgV240{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:contain;object-position:center;pointer-events:none;user-select:none;-webkit-user-drag:none}
+
+
+/* original style 130 id=v245-boot-isolation-style */
+
+/* Boot must never cover or gate the game. Binder networking is isolated to Binder itself. */
+#bootSplashV104{display:none!important;opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+
+
+/* V252 modular Binder + local-first artwork */
+#binder .binderArtworkStatusV252{display:flex;align-items:center;gap:8px;margin:10px 0 12px;padding:10px 12px;border-radius:16px;background:rgba(255,255,255,.58);border:1px solid rgba(255,255,255,.82);box-shadow:0 10px 30px rgba(72,82,112,.08);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:#35445e}
+#binder .binderArtworkStatusV252>span{min-width:0;flex:1;display:grid;gap:2px}#binder .binderArtworkStatusV252 b{font:900 10px/1.2 system-ui;letter-spacing:.2px;color:#1d2b43}#binder .binderArtworkStatusV252 small{font:750 9px/1.3 system-ui;color:#748197;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#binder .binderArtworkStatusV252 button{border:0;border-radius:11px;padding:8px 10px;background:#7558e8;color:#fff;font:900 8px/1 system-ui;letter-spacing:.5px}#binder .binderArtworkStatusV252 button[hidden]{display:none}
+#binder .slot.v252ArtPending{overflow:hidden;background:linear-gradient(145deg,rgba(226,233,242,.94),rgba(246,249,253,.98))}
+#binder .slot.v252ArtPending:before{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(110deg,rgba(255,255,255,.03) 22%,rgba(255,255,255,.88) 43%,rgba(255,255,255,.03) 63%);background-size:230% 100%;animation:v252ArtShimmer 1.25s linear infinite}
+#binder .slot .binderArtV252{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .16s ease;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:translateZ(0)}
+#binder .slot.v252ArtReady .binderArtV252{opacity:1}#binder .slot.v252ArtReady:before{display:none}
+#binder .slot.v252ArtFailed:before{display:none}#binder .slot.v252ArtFailed .binderArtV252{opacity:0}
+#binder .v252ArtRetry{position:absolute;inset:5px;z-index:6;display:grid;place-items:center;align-content:center;gap:3px;border:0;border-radius:8px;background:linear-gradient(145deg,rgba(25,35,50,.95),rgba(8,14,23,.97));color:#c4cfde;text-align:center;padding:7px;font:800 8px/1.3 system-ui}
+#binder .v252ArtRetry b{font-size:9px;color:#fff;letter-spacing:.4px}#binder .v252ArtRetry span{opacity:.8}
+#cardModal #inspect3d.v252InspectPending{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(237,242,248,.94),rgba(250,252,255,.98))}
+#cardModal #inspect3d.v252InspectPending:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 20%,rgba(255,255,255,.88) 44%,transparent 66%);background-size:230% 100%;animation:v252ArtShimmer 1.2s linear infinite}
+#cardModal #inspect3d.v252InspectPending #inspectImg{opacity:0}#cardModal #inspect3d.v252InspectFailed:after{content:"Artwork unavailable\A Tap the card again to retry";white-space:pre;position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#738198;font:900 10px/1.5 system-ui;padding:24px;background:rgba(244,248,252,.96)}
+@keyframes v252ArtShimmer{0%{background-position:130% 0}100%{background-position:-130% 0}}
+@media(max-width:520px){#binder .binderArtworkStatusV252{margin:8px 2px 10px;padding:8px 10px}#binder .binderArtworkStatusV252 small{max-width:210px}}

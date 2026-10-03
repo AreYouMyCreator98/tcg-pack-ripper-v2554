@@ -1,0 +1,10 @@
+V255.3 RANKED BATTLE RELIABILITY
+================================
+1. Extract the update ZIP.
+2. Copy the CONTENTS into the root of your local tcg-pack-ripper-v3 repo.
+3. Choose Replace files in destination.
+4. In GitHub Desktop, confirm files remain in their folders.
+5. Commit: V255.3 ranked battle reliability
+6. Push origin.
+7. Wait for GitHub Actions to go green.
+8. Both players should fully close/reopen the game once before the next ranked test.

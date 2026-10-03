@@ -1,0 +1,23 @@
+V255.4 LOCAL RELIABILITY UPDATE
+==============================
+
+This package is based on the supplied V255.3 source ZIP. It has not been
+published or applied to a live Supabase project during this review.
+
+SOURCE PACKAGE
+1. Back up your source and export your game save before updating.
+2. Extract the tcg-pack-ripper-v255.4 folder from the source ZIP.
+3. Read docs/VERIFICATION-V2554.md, including the remaining service gaps.
+4. Use Node 22.12+ and pnpm 11.19.0.
+5. Run: pnpm install --frozen-lockfile --ignore-scripts
+6. Run: pnpm run release:check
+7. The production website is in dist/. Preview with pnpm run serve:static.
+
+WEB PACKAGE
+The web ZIP contains the tested production output. Serve its contents through
+HTTP(S). Opening index.html through file:// is unsupported. Keep your existing
+site origin/path to retain browser-local saves. Save schema remains 1.
+
+No database migration was run. Statements in older update instructions about
+previously applied live migrations are historical claims, not verified here.
+Complete the staging checklist in the verification report before online release.
