@@ -2,7 +2,8 @@ export const criticalRuntime = [
   'runtime/core.js',
   'runtime/progression.js',
   'runtime/special-collection.js',
-  'runtime/packs.js'
+  'runtime/packs.js',
+  'runtime/bulk-bridge.js'
 ];
 
 export const binderRuntime = [

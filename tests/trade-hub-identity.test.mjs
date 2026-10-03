@@ -31,7 +31,11 @@ test('each of the first five real sets completes a ranked match with equal pools
    assert.equal(s.profile.wins+s.profile.losses+s.profile.ties,5);assert.equal(raw.packs,5);assert.equal(raw.starterV199.remaining,5);
    assert.equal(Object.values(raw.binder).concat(Object.values(raw.bulkV64)).reduce((n,c)=>n+c.qty,0),53);
  }
- // Ranked access must not unlock the regular collection or private rooms.
+ // Ranked rewards legitimately earn random XP, which can reach sv08's 80 XP
+ // requirement. Restore a below-threshold fixture to test access isolation.
+ await d.db.query("update user_saves set save_data=jsonb_set(save_data,'{state,xp}','0'::jsonb) where user_id=$1",[A]);
+ assert.ok(!(await d.call(A,'snapshot')).sets.some(s=>s.set_id==='sv08'));
+ // Ranked access alone must not unlock the collection or private rooms.
  await assert.rejects(d.call(A,'room_create',{kind:'battle',set_id:'sv08',pack_count:1}),/SET_LOCKED/);
 }));
 
