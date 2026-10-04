@@ -97,3 +97,20 @@
 #earn .exchangeV154 .exchangeSourceV154 small{font-size:9px!important}
 @media(max-width:500px){#earn>.exchangeV154:not([hidden]){padding:16px!important}.exchangeV154 .exchangeSourceGridV154{grid-template-columns:1fr!important}.hub-message header{flex-wrap:wrap}.hub-message header>time{margin-left:auto;font-size:9px}.trade-hub .hub-rank-portrait{margin:10px}.hub-rank-hero{gap:10px}}
 @media(prefers-reduced-motion:reduce){#earn .exchangeV154 button{transition:none!important}}
+
+/* Stable, thumb-first battle stage: touch feedback never waits on the network. */
+.hub-battle-identities{margin:12px 0}.hub-battle-identities>summary{min-height:44px;display:flex;align-items:center;cursor:pointer;font-weight:700}
+.hub-battle-stage{align-items:start;gap:20px}.hub-battle-stage>div{min-width:0;text-align:center}
+.hub-reveal{position:relative;isolation:isolate;overflow:hidden;min-height:290px;border-radius:24px;padding:14px;background:radial-gradient(ellipse at 30% 20%,#fff,#eef0fa 70%);animation:hub-card-arrive .24s ease-out both}
+.hub-reveal img{display:block;width:min(100%,220px);height:auto;aspect-ratio:245/342;object-fit:contain;margin:0 auto;animation:none!important}
+.hub-reveal::after{content:'';position:absolute;inset:-50%;z-index:2;pointer-events:none;background:linear-gradient(110deg,transparent 40%,#ffffffb3 50%,transparent 60%);transform:translateX(-75%);animation:hub-card-shine .8s ease-out both}
+.hub-reveal-base::after{display:none}.hub-reveal-ex,.hub-reveal-ultra{box-shadow:inset 0 0 30px #b4c3ff88,0 6px 22px #7e89ce33}.hub-reveal-chase,.hub-reveal-apex,.hub-reveal-god{box-shadow:inset 0 0 45px #f2d08d88,0 6px 30px #b09af066}
+.hub-reveal .hub-card-fallback{min-height:240px;display:grid;place-items:center;font-size:48px;color:#7a7392}
+.hub-battle-stage [data-hub-action="reveal"]{width:min(100%,360px);min-height:52px;margin-top:12px;touch-action:manipulation}
+.trade-hub button:active{transform:scale(.98)}.trade-hub select{width:100%;min-width:0;min-height:48px;font-size:16px;touch-action:manipulation}
+@keyframes hub-card-arrive{from{opacity:.5;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes hub-card-shine{to{transform:translateX(75%)}}
+@media(max-width:600px){.hub-battle-stage{grid-template-columns:1fr!important}.hub-battle-stage>aside{padding:12px!important}.hub-battle-stage>aside p{font-size:12px}.hub-reveal{min-height:260px}.hub-reveal img{width:min(100%,190px)}.hub-room{padding:14px!important}.hub-room>header{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.hub-reveal,.hub-reveal::after{animation:none!important}.hub-reveal::after{display:none}.trade-hub button:active{transform:none}}
+
+@media(max-width:600px){.trade-hub[data-battle-playing="true"]{padding-top:14px}.trade-hub[data-battle-playing="true"]>.hub-header{margin-bottom:12px}.trade-hub[data-battle-playing="true"]>.hub-header h1{font-size:26px}.trade-hub[data-battle-playing="true"]>.hub-header p{display:none}.trade-hub[data-battle-playing="true"] .hub-room>header{gap:8px;padding-bottom:10px;margin-bottom:8px}.trade-hub[data-battle-playing="true"] .hub-room>header>div{flex:1 1 100%}.trade-hub[data-battle-playing="true"] .hub-room>header h2{font-size:18px;line-height:1.2;margin:4px 0}.trade-hub[data-battle-playing="true"] .hub-room>header button{font-size:12px;min-height:44px;padding:9px 12px}.trade-hub[data-battle-playing="true"] .hub-battle-identities{margin:0}.trade-hub[data-battle-playing="true"] .hub-reveal{padding:10px;min-height:0}.trade-hub[data-battle-playing="true"] .hub-reveal img{width:160px}.trade-hub[data-battle-playing="true"] .hub-reveal h3{font-size:17px;margin:8px 0 2px}.trade-hub[data-battle-playing="true"] .hub-reveal p{margin:2px 0}}

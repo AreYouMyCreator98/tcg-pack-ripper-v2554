@@ -59,3 +59,6 @@ html body #studioExtract,html body #studioCollect{transform:translateX(-50%)!imp
 /* The legacy hero card uses layer 12000; surround it with the new effects. */
 #v254RevealFX{z-index:13000!important}
 #v128Hero.v145Hyper:before{inset:-45px!important;width:auto!important;height:auto!important;aspect-ratio:auto!important;transform:none!important;border-radius:0!important;box-shadow:none!important;z-index:-1!important;animation:none!important;opacity:1!important}
+
+#stack[data-art-unavailable="true"]::before{content:attr(data-card-name) " — artwork loading";position:absolute;inset:0;display:grid;place-items:center;padding:28px;text-align:center;border-radius:18px;background:linear-gradient(145deg,#fff,#e8e5f5);color:#51476d;font:700 18px system-ui;z-index:1;pointer-events:none}
+body.collector-pack-opening #starterBonusV199{display:none!important}
