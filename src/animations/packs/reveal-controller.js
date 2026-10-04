@@ -76,29 +76,16 @@ export function installRevealController(target = window) {
   let fast = false;
   try { fast = localStorage.getItem(FAST_KEY) === '1'; } catch {}
 
-  const originalHero = typeof target.v128PlayHero === 'function' ? target.v128PlayHero : null;
-  const originalRare = typeof target.v125ForceRareReveal === 'function' ? target.v125ForceRareReveal : null;
+  // One presentation owner. The legacy hero used a second high-resolution
+  // download and could play after this effect, leaving collection locked.
+  target.tcgModernRevealActive = true;
+  target.v128PlayHero = () => false;
+  target.v125ForceRareReveal = () => {};
+  target.v128HeroPlaying = false;
+  target.v124RareLockUntil = 0;
   let clearTimer = null;
   let readyFrame = 0, serial = 0;
   const reduced = () => document.documentElement.classList.contains('v158ReducedMotion') || !!target.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-
-  if (originalHero) {
-    target.v128PlayHero = function(card) {
-      if (fast || reduced()) return false;
-      return originalHero.apply(this, arguments);
-    };
-  }
-
-  if (originalRare) {
-    target.v125ForceRareReveal = function(card, stack) {
-      if (!fast && !reduced()) return originalRare.apply(this, arguments);
-      const st = stack || document.getElementById('stack');
-      if (!st) return;
-      target.v124RareLockUntil = Date.now() + 220;
-      st.classList.add('v254FastRare');
-      setTimeout(() => st.classList.remove('v254FastRare'), 260);
-    };
-  }
 
   function cleanupVisuals() {
     serial++;

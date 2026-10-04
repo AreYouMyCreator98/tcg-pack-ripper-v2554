@@ -16,9 +16,9 @@ export function installScreenTransitions(root = document) {
   root.querySelectorAll?.('.screen.active').forEach(animateIn);
   const observer = new MutationObserver(records => {
     for (const record of records) {
-      if (record.type === 'attributes' && record.attributeName === 'class') animateIn(record.target);
+      if (record.type === 'attributes' && record.attributeName === 'class' && !String(record.oldValue||'').split(/\s+/).includes('active')) animateIn(record.target);
     }
   });
-  root.querySelectorAll?.('.screen').forEach(screen => observer.observe(screen, { attributes: true, attributeFilter: ['class'] }));
+  root.querySelectorAll?.('.screen').forEach(screen => observer.observe(screen, { attributes: true, attributeOldValue:true, attributeFilter: ['class'] }));
   return observer;
 }

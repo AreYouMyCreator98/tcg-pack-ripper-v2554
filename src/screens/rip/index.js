@@ -52,6 +52,10 @@ export function installRipStudio(target=window,doc=document){
  $('studioOpenPack').addEventListener('click',async()=>{if(opening||bridge.snapshot().busy||target.tcgCloudV192?.hubHeld)return;opening=true;sync();try{await bridge.begin();}catch(error){target.toast?.(error.message||'Could not open pack.');}finally{opening=false;schedule();}});
  const observer=new target.MutationObserver(schedule);observer.observe($('packArt'),{attributes:true,attributeFilter:['src']});observer.observe(stage,{attributes:true,attributeFilter:['class'],childList:true});observer.observe($('sets'),{childList:true});
  for(const node of [extract,$('v128Hero')].filter(Boolean))observer.observe(node,{attributes:true,attributeFilter:['class']});
+ // Recovery and loading may finish without changing the pack/stage itself.
+ observer.observe(doc.documentElement,{attributes:true,attributeFilter:['class']});
+ if($('loading'))observer.observe($('loading'),{attributes:true,attributeFilter:['class']});
+ target.addEventListener('tcg:set-selected',()=>{close();schedule();});
  doc.addEventListener('click',event=>{if(event.target.closest('.nav,[data-count]'))schedule();});
  for(const event of ['tcg:card-reveal','tcg:pack-summary','tcg:pack-generated','tcg:app-ready'])target.addEventListener(event,schedule);
  sync();return target.tcgRipStudio={refresh:sync};

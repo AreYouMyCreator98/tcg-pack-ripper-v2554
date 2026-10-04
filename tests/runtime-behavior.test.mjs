@@ -10,7 +10,7 @@ function generator(){
  const P={all:cards,common:cards.slice(0,30),uncommon:cards.slice(30,50),rare:cards.slice(50,70),big:cards.slice(70)};
  for(const r of ['Illustration rare','Ultra Rare','Special illustration rare','Hyper rare','Double rare','ACE SPEC Rare','Rare Holo','Holo Rare','Secret Rare','Prism Star'])P[r]=cards.slice(70);
  const ctx=vm.createContext({P,sel:{id:'test',name:'Test Set',series:'sv'},state:{coins:80000,packs:0,starterV199:{eligible:false}},pulls:[],GOD_PACK_RATE:.001,Math,Number,Set,Object,Array,console,navigator:{},setTimeout:()=>0,toast:()=>{},resetPack:()=>{},save:()=>{},warmPack:()=>{},tier:c=>c.tier||0,buildPools:async()=>ctx.P,canAffordPackV161:()=>ctx.state.coins>=8,payForPackV161:()=>{ctx.state.coins-=8},addWildcard:()=>false,maybeSubsetHitV187:()=>false});
- vm.runInContext(section('function pick(a)','async function buildPools()')+section('function weighted(groups)','function makeGodPack(')+section('function makeGodPack(','function v114RenderMode()'),ctx);
+ vm.runInContext(section('function pick(a)','async function buildPools(')+section('function weighted(groups)','function makeGodPack(')+section('function makeGodPack(','function v114RenderMode()'),ctx);
  return ctx;
 }
 test('4,000 core pack generations across four eras award ten valid cards and charge exactly once',async()=>{
