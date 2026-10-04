@@ -12,7 +12,7 @@ test('a cosmetic-only new player retains identity and presets without losing sta
  const source=await readFile(new URL('../public/runtime/core.js',import.meta.url),'utf8');
  const part=source.slice(source.indexOf('function hasMeaningfulProgressV200'),source.indexOf('let sel=SETS.find'));
  const old={profileFramesV228:{owned:{rookie:true},selected:'rookie'},profileV227:{name:'Pearl',avatarData:'photo'},profileStudioV257:{account:'local',looks:[{style:'gold'}]}};
- const result=vm.runInNewContext(part+';({state,newGameV199})',{old});
+ const result=vm.runInNewContext(part+';({state,newGameV199})',{old,routeRegularExV260:()=>false});
  assert.equal(result.state.profileFramesV228.selected,'rookie');assert.equal(result.newGameV199,true);assert.equal(result.state.profileV227.name,'Pearl');assert.equal(result.state.profileStudioV257.looks[0].style,'gold');assert.equal(result.state.starterV199.remaining,10);assert.equal(result.state.coins,80);
 });
 function bridgeFixture(){
