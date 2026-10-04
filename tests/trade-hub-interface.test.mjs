@@ -50,7 +50,8 @@ test('matchmaking, both-ready gate, sequential reveals, result and ranked panel 
  await a.click('[data-hub-action="ready"]');await b.controller.refresh();await b.click('[data-hub-action="ready"]');await a.controller.refresh();
  assert.equal(a.localSave.state.packs,undefined); // First ready did not charge a pack.
  assert.equal(b.localSave.state.packs,1);assert.equal(a.controller.state.data.rooms[0].opponent_cards.length,0);
- for(let i=0;i<10;i++){await a.click('[data-hub-action="reveal"]');await b.click('[data-hub-action="reveal"]');}
+ for(let i=0;i<10;i++){await a.click('[data-hub-action="reveal"]');await b.click('[data-hub-action="reveal"]');await new Promise(r=>setTimeout(r,185));}
+ for(let i=0;i<100&&(a.controller.state.busy||b.controller.state.busy||a.controller.revealTask||b.controller.revealTask);i++)await new Promise(r=>setTimeout(r,10));
  await a.controller.refresh();assert.ok(a.view.root.querySelector('.hub-result'));await a.tab('ranked');assert.equal(a.view.root.querySelectorAll('.hub-ladder li').length,8);assert.equal(a.controller.state.data.profile.wins+a.controller.state.data.profile.losses+a.controller.state.data.profile.ties,1);
 }));
 test('chat rendering prevents markup injection; blocking and reporting use the same account',fixture(async({a,b})=>{
