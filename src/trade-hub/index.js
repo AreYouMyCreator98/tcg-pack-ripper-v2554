@@ -31,11 +31,11 @@ export function installTradeHub(target=window,doc=document) {
     const initialRevision=authRevision;
     client.auth.getSession().then(({data,error})=>{if(error)throw error;if(authRevision===initialRevision)return controller.setUser(data?.session?.user);}).catch(e=>controller.emit({status:'offline',error:e.message}));
   }
-  const resume=async()=>{await controller.refresh();if(controller.uid&&!controller.pending&&!controller.state.busy)await controller.command('heartbeat',{}, {quiet:true});};
+  const resume=()=>controller.resume();
   const onVisible=()=>{if(doc.visibilityState!=='hidden')resume().catch(()=>{});};
   const onPageShow=event=>{if(event.persisted)onVisible();};
   target.addEventListener('pageshow',onPageShow);
-  const onOnline=()=>controller.refresh();
+  const onOnline=()=>controller.resume().catch(()=>{});
   const onNavigation=event=>{if(event.target.closest?.('.nav [data-s="earn"]'))controller.refresh();};
   doc.addEventListener('visibilitychange',onVisible);target.addEventListener('online',onOnline);
   doc.addEventListener('click',onNavigation);
