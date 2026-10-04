@@ -150,3 +150,34 @@ html body #binder.binder-studio.binder-gallery #binderBook .pageControls,html bo
 html body #binder.binder-studio.binder-gallery #binderBook #closeBinderTab{display:none!important}
 
 html body #binder.binder-studio.binder-gallery .pageControlsV147,html body #binder.binder-studio.binder-gallery #prevPage,html body #binder.binder-studio.binder-gallery #nextPage{pointer-events:auto!important;opacity:1!important}
+/* Compact expansion library: override old carousel positioning and lock overlays. */
+html.set-picker-open,html.set-picker-open body{overflow:hidden!important;overscroll-behavior:none}
+html.set-picker-open :is(.nav,#v114PackMode,#v253PackHUD){visibility:hidden!important;pointer-events:none!important}
+#rip.rip-studio .studio-set-card{display:flex;flex-direction:column;overflow:hidden;width:min(760px,100%);height:min(760px,88vh);height:min(760px,88dvh);padding:18px;box-sizing:border-box;box-shadow:0 16px 48px #30283e25}
+#rip.rip-studio .studio-set-card header{flex:none;align-items:flex-start}
+#rip.rip-studio .studio-set-card header h2{font-size:22px;margin:5px 0 16px;letter-spacing:-.7px}
+#rip.rip-studio #studioCloseSets{min-width:44px;min-height:44px;padding:0!important;font-size:24px}
+#rip.rip-studio #studioSetSearch{font-size:16px!important;margin-top:5px;min-height:44px}
+#rip.rip-studio #studioSetCount{flex:none;margin:10px 0;color:#776d8c;font:600 11px system-ui}
+#rip.rip-studio #sets{flex:1;min-height:0;overflow:auto!important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;grid-template-columns:repeat(2,minmax(0,1fr))!important;align-content:start;gap:10px!important;padding:2px 3px 12px!important;scroll-behavior:auto!important}
+html body #rip.rip-studio #sets .set{position:relative!important;display:grid!important;grid-template-columns:64px minmax(0,1fr)!important;grid-template-rows:auto auto auto 44px!important;align-items:center!important;gap:3px 12px!important;padding:12px!important;min-height:0!important;overflow:hidden!important;border:1px solid #ded8eb!important;border-radius:17px!important;background:linear-gradient(125deg,#ffffffed,#f4f0fbe6)!important;box-shadow:inset 0 1px 0 #fff!important;text-align:left!important;cursor:pointer}
+html body #rip.rip-studio #sets .set.selected{border-color:#9a83c3!important;box-shadow:inset 3px 0 #9a83c3!important;background:linear-gradient(125deg,#fff,#eae3f6)!important}
+html body #rip.rip-studio #sets .set:after,html body #rip.rip-studio #sets .set:before{display:none!important}
+html body #rip.rip-studio #sets .set>img{grid-column:1;grid-row:1/4;width:64px!important;height:56px!important;margin:0!important;display:block!important;opacity:1!important;object-fit:contain!important}
+html body #rip.rip-studio #sets .set>b{grid-column:2;grid-row:1;position:static!important;transform:none!important;margin:0!important;font:750 13px/1.3 system-ui!important;color:#3e3652!important;white-space:normal!important}
+html body #rip.rip-studio #sets .set>small{grid-column:2;grid-row:2;position:static!important;margin:0!important;font:11px/1.4 system-ui!important;color:#80758e!important}
+html body #rip.rip-studio #sets .set :is(.setLock,.setOpen){grid-column:2;grid-row:3;position:static!important;inset:auto!important;transform:none!important;display:block!important;width:auto!important;max-width:none!important;padding:2px 0!important;margin:0!important;border:0!important;background:none!important;box-shadow:none!important;font:650 10px/1.4 system-ui!important;color:#88759e!important}
+html body #rip.rip-studio #sets .set :is(.setReqBtn,.setInfoIconV186){position:static!important;inset:auto!important;transform:none!important;width:auto!important;height:40px!important;min-width:0!important;margin:4px 0 0!important;padding:0 8px!important;display:flex!important;align-items:center!important;justify-content:center!important;border:1px solid #e4deef!important;border-radius:10px!important;background:#ffffffe6!important;box-shadow:inset 0 1px #fff!important;color:#6b587d!important;font:650 10px/1.2 system-ui!important;letter-spacing:0!important;z-index:auto!important;opacity:1!important;filter:none!important;white-space:nowrap!important;touch-action:manipulation}
+html body #rip.rip-studio #sets .set .setReqBtn{grid-row:4;grid-column:1/3;justify-self:start!important;width:48%!important}
+html body #rip.rip-studio #sets .set .setInfoIconV186{grid-row:4;grid-column:1/3;justify-self:end!important;width:48%!important}
+html body #rip.rip-studio #sets .set :is(.setMasterV58,.setMegaTag,.setLevelTag,.setXPProgress){display:none!important}
+#rip.rip-studio .studio-set-shade{backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background:#ddd8e5ed!important}
+@media(max-width:600px){#rip.rip-studio #sets{grid-template-columns:minmax(0,1fr)!important}#rip.rip-studio .studio-set-drawer{padding:max(10px,env(safe-area-inset-top)) 10px max(10px,env(safe-area-inset-bottom))}#rip.rip-studio .studio-set-card{height:calc(100vh - 40px);height:calc(100dvh - 40px);max-height:100%;padding:15px;border-radius:22px}}
+/* Remove the final fixed-row and 20px icon rules from the retired carousel. */
+html body #rip.rip-studio #sets{grid-template-rows:none!important;grid-auto-rows:max-content!important;align-items:start!important;scroll-snap-type:none!important}
+html body #rip.rip-studio #sets .set{align-self:start!important;top:auto!important;left:auto!important;bottom:auto!important;right:auto!important;scroll-snap-align:none!important;box-sizing:border-box!important}
+html body #rip.rip-studio #sets .set>img{transform:none!important;inset:auto!important;max-width:none!important}
+html body #rip.rip-studio #sets .set>b{width:auto!important;max-width:none!important;opacity:1!important}
+html body #rip.rip-studio #sets .set>small{width:auto!important;max-width:none!important;opacity:1!important}
+html body #rip.rip-studio #sets .set :is(.setReqBtn,.setInfoIconV186){max-width:none!important;box-sizing:border-box!important}
+html body #rip.rip-studio #sets .set :is(.setReqBtn,.setInfoIconV186,.setLock):before,html body #rip.rip-studio #sets .set :is(.setReqBtn,.setInfoIconV186,.setLock):after{display:none!important}
