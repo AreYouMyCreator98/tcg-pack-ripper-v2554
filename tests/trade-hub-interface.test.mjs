@@ -110,3 +110,11 @@ test('quiet maintenance leaves chat drafts editable and never renders a saving m
  assert.equal(a.view.root.querySelector('[name="message"]').disabled,true);
  a.controller.emit({busy:false,background:false,action:null});
 }));
+
+test('market card picker shows artwork and selects the exact inventory card',fixture(async({a})=>{
+ const card=a.controller.state.data.inventory[0];assert.ok(card);card.thumb='https://example.com/card.webp';a.view.render();
+ const button=a.view.root.querySelector(`[data-hub-action="pick-card"][data-id="${card.id}"]`);assert.ok(button);assert.ok(button.textContent.includes(card.name));assert.equal(button.querySelector('img').getAttribute('src'),card.thumb);
+ await a.click(`[data-hub-action="pick-card"][data-id="${card.id}"]`);assert.equal(a.view.drafts.card_id,card.id);
+ assert.equal(a.view.root.querySelector('[name="card_id"]').value,card.id);
+ a.view.own=true;a.view.query='hidden';await a.tab('market');await a.controller.refreshTask;assert.equal(a.view.own,false);assert.equal(a.view.query,'');
+}));

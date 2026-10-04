@@ -108,3 +108,22 @@ test('legacy raw listing submits to the shared market without removing local car
  runInNewContext(body,ctx);await ctx.createListingV57();assert.deepEqual(sent,[['machamp','12.50']]);assert.equal(card.qty,2);assert.equal(submit.disabled,false);
  ctx.window.tcgTradeHub.listCard=async()=>{throw Error('offline');};await ctx.createListingV57();assert.equal(card.qty,2);assert.equal(submit.disabled,false);
 });
+
+test('public listings keep updating while a slow collection restore is in progress',async()=>{
+ const restore=deferred();let calls=0;const f=fixture(async()=>({data:{...data(),listings:[{id:String(++calls)}]}}));f.c.bridge={sync:()=>restore.promise};
+ await f.c.setUser({id:'A'});await f.c.refresh();assert.equal(f.c.state.data.listings[0].id,'2');
+ restore.resolve();await f.c.dispose();
+});
+test('a snapshot started before purchase completion cannot restore a sold listing',async()=>{
+ const pending=deferred(),stale=deferred();let snapshots=0;
+ const f=fixture(async(_,{p_action})=>p_action==='snapshot'?(++snapshots===1?{data:data()}:stale.promise):pending.promise);
+ await f.c.setUser({id:'A'});const purchase=f.c.command('listing_buy',{id:'x'});await tick();const poll=f.c.refresh();
+ pending.resolve({data:{...data(),listings:[]}});await purchase;stale.resolve({data:{...data(),listings:[{id:'x'}]}});await poll;
+ assert.equal(f.c.state.data.listings.length,0);await f.c.dispose();
+});
+
+test('suspending drops stale snapshots and returning reconnects without reload',async()=>{
+ const old=deferred();let calls=0,visible=true;const f=fixture(async()=>++calls===2?old.promise:{data:{...data(),listings:[{id:String(calls)}]}});f.c.bridge={visible:()=>visible};
+ await f.c.setUser({id:'A'});const poll=f.c.refresh();visible=false;f.c.suspend();visible=true;await f.c.resume();assert.equal(f.c.state.data.listings[0].id,'3');
+ old.reject(new TypeError('Failed to fetch'));await poll;assert.equal(f.c.state.error,'');assert.equal(f.c.state.status,'connected');await f.c.dispose();
+});
