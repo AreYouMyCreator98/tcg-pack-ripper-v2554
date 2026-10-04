@@ -50,7 +50,7 @@ export class HubController {
     await this.refresh();
     if(epoch!==this.epoch||this.disposed)return;
     this.channel=this.client.channel(`hub-v256:${uid}`)
-      .on('postgres_changes',{event:'UPDATE',schema:'public',table:'hub_signals'},()=>{if(this.bridge.active?.()!==false)this.refresh();})
+      .on('postgres_changes',{event:'UPDATE',schema:'public',table:'hub_signals'},()=>{if(this.bridge.active?.()!==false)this.requestRefresh();})
       .subscribe(status=>{if(epoch!==this.epoch)return; if(status==='SUBSCRIBED')this.refresh();else if(status==='CHANNEL_ERROR'||status==='TIMED_OUT')this.emit({status:'reconnecting'});});
     // Polling recovers dropped realtime events. It is bounded, account-scoped and cleaned up.
     this.timer=this.clock.setInterval(()=>{if(!this.state.busy&&this.bridge.active?.()!==false)this.refresh();},5000);
@@ -71,8 +71,10 @@ export class HubController {
       this.bridge.rank?.(data.profile,data);
     }).catch(e=>{if(epoch===this.epoch&&revision===this.revision&&!this.disposed)this.emit({status:'offline',error:errorMessage(e)});});
     this.refreshTask=task;
-    try {await task;} finally {if(this.refreshTask===task)this.refreshTask=null;this.scheduleRecovery();this.drainReveals();}
+    try {await task;} finally {if(this.refreshTask===task)this.refreshTask=null;this.scheduleRecovery();this.drainReveals();this.flushRefresh();}
   }
+  requestRefresh(){this.refreshQueued=true;this.flushRefresh();}
+  flushRefresh(){if(!this.refreshQueued||this.state.busy||this.refreshTask||!this.uid||this.disposed)return;this.refreshQueued=false;this.refresh();}
   async command(action,payload={},options={}) {
     const epoch=this.epoch;
     if(this.state.busy&&this.state.background&&!options.quiet)await this.commandTask;
@@ -104,6 +106,8 @@ export class HubController {
       const {action:a,payload:p,id}=this.pending;
       const data=await this.rpc(a,p,id);
       if(epoch!==this.epoch||this.disposed)return;
+      // Show the committed listing immediately; keep controls held until the save is restored.
+      this.emit({data,status:'connected',error:''});
       if(economic)await this.bridge.finish?.(true);
       if(epoch!==this.epoch||this.disposed)return;
       this.pending=null;this.persistPending();this.recoveryAttempts=0;
@@ -117,7 +121,7 @@ export class HubController {
         this.emit({error:errorMessage(e),status:e.uncertain?'recovering':this.state.status});
       }
       if(!quiet)throw e;
-    } finally {if(epoch===this.epoch&&uid===this.uid&&!this.disposed){this.emit({busy:false,background:false,action:null});this.scheduleRecovery();queueMicrotask(()=>this.drainReveals());}}
+    } finally {if(epoch===this.epoch&&uid===this.uid&&!this.disposed){this.emit({busy:false,background:false,action:null});this.scheduleRecovery();queueMicrotask(()=>{this.drainReveals();this.flushRefresh();});}}
   }
   retry() {this.clock.clearTimeout(this.recoveryTimer);this.recoveryTimer=null;if(!this.pending)return this.refresh();return this.command(this.pending.action,this.pending.payload,{retry:true});}
   needsHeartbeat() {
@@ -177,6 +181,7 @@ export class HubController {
     finally{if(this.revealTask===task)this.revealTask=null;}
   }
   async disconnect() {
+    this.refreshQueued=false;
     this.clock.clearTimeout(this.recoveryTimer);this.recoveryTimer=null;
     this.clock.clearInterval(this.timer);this.clock.clearInterval(this.heartbeatTimer);
     this.timer=null;this.heartbeatTimer=null;
