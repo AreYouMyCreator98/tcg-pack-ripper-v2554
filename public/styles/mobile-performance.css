@@ -31,3 +31,11 @@ html body #rip #v253PackHUD[hidden],html body #rip #v253PackHUD.v253HudHidden,
 html body.collector-pack-opening #v114PackMode,html body.collector-pack-opening #v253PackHUD{display:none!important;visibility:hidden!important;pointer-events:none!important}
 html body.collector-pack-opening .nav{opacity:0!important;pointer-events:none!important}
 @media(max-height:500px){html body #settings.settingsOverlayV158 .settingsTopV158{padding:8px 0}.settingsTopV158 p{display:none}}
+/* iPhone / lower-memory devices keep the pearl surface with smaller GPU layers. */
+html[data-performance="balanced"] .rip-studio-backdrop{max-height:950px}
+html[data-performance="balanced"] .rip-studio-backdrop img{width:50%;height:50%;transform:scale(2.2);transform-origin:top left;filter:blur(15px) saturate(.9)!important}
+html[data-performance="balanced"] #rip.rip-studio #pack{filter:drop-shadow(4px 9px 8px #6e608b30)!important}
+html[data-performance="balanced"] :is(.profile-studio,.bulk-studio,#tradeHub) :is(button,.panel,.hub-card){backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+html[data-performance="balanced"] #v254RevealFX :is(.v254FxHalo,.v254FxBolts i,.collectorFxAurora){filter:none!important}
+html[data-performance="balanced"] #rip.rip-studio:not(.studio-opening) #pack .foil:after{animation:none!important;background-position:45% 0!important}
+html.app-backgrounded *,html.app-backgrounded *:before,html.app-backgrounded *:after,.screen:not(.active) *,.screen:not(.active) *:before,.screen:not(.active) *:after{animation-play-state:paused!important}

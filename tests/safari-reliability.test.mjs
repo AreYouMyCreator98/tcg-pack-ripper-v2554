@@ -12,7 +12,7 @@ const sessionCode=progression.slice(progression.indexOf('  async function refres
 
 test('returning to the browser cannot reconcile or reload in the middle of an opening',async()=>{
  const code=progression.slice(progression.indexOf('  async function reconcile(){'),progression.indexOf('  async function pullInPlace('));
- let reads=0;const ctx=vm.createContext({client:{},recoveryPending:false,hubHold:false,busy:true,refreshSession:async()=>{reads++;return null;}});
+ let reads=0;const ctx=vm.createContext({client:{},syncBusy:false,reconcileBusy:false,recoveryPending:false,hubHold:false,busy:true,refreshSession:async()=>{reads++;return null;}});
  vm.runInContext(code,ctx);await ctx.reconcile();assert.equal(reads,0);
  ctx.busy=false;await ctx.reconcile();assert.equal(reads,1);
 });

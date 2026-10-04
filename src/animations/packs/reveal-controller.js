@@ -37,7 +37,7 @@ function clearFx(root = ensureFxRoot()) {
 function spawnParticles(root, profile) {
   const host = root.querySelector('.v254FxParticles');
   host.innerHTML = '';
-  const count = profile.particles || 0;
+  const count = document.documentElement.dataset.performance === 'balanced' ? Math.min(12, profile.particles || 0) : profile.particles || 0;
   for (let i = 0; i < count; i++) {
     const s = document.createElement('span');
     const angle = (360 / Math.max(6, count)) * i + Math.random() * 18;
@@ -55,7 +55,7 @@ function spawnParticles(root, profile) {
 function spawnBolts(root, profile) {
   const host = root.querySelector('.v254FxBolts');
   host.innerHTML = '';
-  const count = profile.bolts || 0;
+  const count = document.documentElement.dataset.performance === 'balanced' ? Math.min(4, profile.bolts || 0) : profile.bolts || 0;
   for (let i = 0; i < count; i++) {
     const bolt = document.createElement('i');
     bolt.style.setProperty('--x', `${i % 2 ? 80 + Math.random() * 12 : 8 + Math.random() * 12}%`);
