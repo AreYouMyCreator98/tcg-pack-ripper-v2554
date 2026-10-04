@@ -53,12 +53,12 @@ export class HubController {
       .on('postgres_changes',{event:'UPDATE',schema:'public',table:'hub_signals'},()=>{if(this.bridge.active?.()!==false)this.requestRefresh();})
       .subscribe(status=>{if(epoch!==this.epoch)return; if(status==='SUBSCRIBED')this.refresh();else if(status==='CHANNEL_ERROR'||status==='TIMED_OUT')this.emit({status:'reconnecting'});});
     // Polling recovers dropped realtime events. It is bounded, account-scoped and cleaned up.
-    this.timer=this.clock.setInterval(()=>{if(!this.state.busy&&this.bridge.active?.()!==false)this.refresh();},5000);
+    this.timer=this.clock.setInterval(()=>{if(this.bridge.active?.()!==false)this.refresh();},2000);
     this.heartbeatTimer=this.clock.setInterval(()=>{if(!this.pending&&!this.state.busy&&this.bridge.active?.()!==false&&this.needsHeartbeat())this.command('heartbeat',{}, {quiet:true}).catch(()=>{});},25000);
     this.scheduleRecovery();this.drainReveals();
   }
   async refresh() {
-    if(!this.uid||this.disposed||this.state.busy)return;
+    if(!this.uid||this.disposed)return;
     if(this.refreshTask)return this.refreshTask;
     const epoch=this.epoch,revision=this.revision;
     const task=this.rpc('snapshot').then(async data=>{
@@ -66,10 +66,14 @@ export class HubController {
       // A slow collection pull must not hide a newly matched opponent.
       // Economic controls still pass through beginHubTransaction before mutating.
       this.emit({data,status:'connected',error:this.pending?'Reconnecting your last action safely…':''});
-      if(!this.pending)await this.bridge.sync?.(data.save_version);
+      // Collection restoration must not freeze the public market feed.
+      if(!this.pending&&!this.state.busy&&!this.syncTask){
+        const sync=Promise.resolve().then(()=>this.bridge.sync?.(data.save_version)).catch(e=>{if(epoch===this.epoch&&!this.disposed)this.emit({error:errorMessage(e)});});
+        this.syncTask=sync;sync.finally(()=>{if(this.syncTask===sync)this.syncTask=null;});
+      }
       if(epoch!==this.epoch||revision!==this.revision||this.disposed)return;
       this.bridge.rank?.(data.profile,data);
-    }).catch(e=>{if(epoch===this.epoch&&revision===this.revision&&!this.disposed)this.emit({status:'offline',error:errorMessage(e)});});
+    }).catch(e=>{if(epoch===this.epoch&&revision===this.revision&&!this.disposed)this.emit({status:'offline',error:this.bridge.visible?.()===false?'':errorMessage(e)});});
     this.refreshTask=task;
     try {await task;} finally {if(this.refreshTask===task)this.refreshTask=null;this.scheduleRecovery();this.drainReveals();this.flushRefresh();}
   }
@@ -93,6 +97,7 @@ export class HubController {
     let economic=false;
     try {
       await this.refreshTask;
+      await this.syncTask;
       if(epoch!==this.epoch||this.disposed)return;
       // Persist BEFORE sending. A reload after a lost response can reuse the same receipt.
       if(!retry) {
@@ -106,6 +111,7 @@ export class HubController {
       const {action:a,payload:p,id}=this.pending;
       const data=await this.rpc(a,p,id);
       if(epoch!==this.epoch||this.disposed)return;
+      ++this.revision; // Discard snapshots started before this transaction committed.
       // Show the committed listing immediately; keep controls held until the save is restored.
       this.emit({data,status:'connected',error:''});
       if(economic)await this.bridge.finish?.(true);
@@ -118,7 +124,7 @@ export class HubController {
       if(epoch===this.epoch&&!this.disposed) {
         if(!e.uncertain) {this.pending=null;this.persistPending();}
         if(economic&&!e.uncertain)await this.bridge.finish?.(false).catch(()=>{});
-        this.emit({error:errorMessage(e),status:e.uncertain?'recovering':this.state.status});
+        this.emit({error:this.bridge.visible?.()===false?'':errorMessage(e),status:e.uncertain?'recovering':this.state.status});
       }
       if(!quiet)throw e;
     } finally {if(epoch===this.epoch&&uid===this.uid&&!this.disposed){this.emit({busy:false,background:false,action:null});this.scheduleRecovery();queueMicrotask(()=>{this.drainReveals();this.flushRefresh();});}}
@@ -130,18 +136,21 @@ export class HubController {
     return (this.state.data?.rooms||[]).some(r=>!['completed','cancelled','expired'].includes(r.status)&&((r.ranked&&r.status==='waiting')||Date.parse(r.expires_at)<=Date.now()));
   }
   scheduleRecovery() {
-    if(!this.pending||this.disposed||this.recoveryTimer||this.recoveryAttempts>=3)return;
+    if(!this.pending||this.disposed||this.recoveryTimer||this.recoveryAttempts>=3||this.bridge.visible?.()===false)return;
     const epoch=this.epoch,delay=[1000,3000,8000][this.recoveryAttempts];
     this.recoveryTimer=this.clock.setTimeout(async()=>{
       this.recoveryTimer=null;
       if(epoch!==this.epoch||this.disposed||!this.pending)return;
+      if(this.bridge.visible?.()===false)return;
       if(this.state.busy){this.scheduleRecovery();return;}
       this.recoveryAttempts++;
       try{await this.command(this.pending.action,this.pending.payload,{retry:true,quiet:true});}catch{}
     },delay);
   }
+  suspend(){++this.revision;this.refreshTask=null;this.refreshQueued=false;this.clock.clearTimeout(this.recoveryTimer);this.recoveryTimer=null;}
   async resume() {
     this.recoveryAttempts=0;
+    if(this.uid)this.emit({status:'reconnecting',error:''});
     if(this.pending){this.scheduleRecovery();return;}
     await this.refresh();
     if(this.uid&&!this.pending&&!this.state.busy&&this.bridge.active?.()!==false&&this.needsHeartbeat())await this.command('heartbeat',{}, {quiet:true});
