@@ -75,6 +75,7 @@ export const ERROR_TEXT = {
 };
 export function errorMessage(error) {
   const message = String(error?.message || error || 'Could not complete that action.');
+  if(/failed to fetch|load failed|networkerror|network request failed|connection timed out/i.test(message))return 'Connection interrupted. Reconnecting safely; any pending action will be checked before it is retried.';
   return Object.entries(ERROR_TEXT).find(([key]) => message.includes(key))?.[1]
     || (/PGRST202|hub_command|does not exist/.test(message) ? 'The new Trade Hub service has not been installed on this server yet.' : message.slice(0,220));
 }

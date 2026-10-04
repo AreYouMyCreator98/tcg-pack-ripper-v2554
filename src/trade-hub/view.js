@@ -14,7 +14,7 @@ export const TRACKERS={wins:'Ranked wins',losses:'Ranked losses',ties:'Ranked ti
 const badgeName=id=>String(id).replace(/[_-]+/g,' ');
 export const portrait=(p={},extra='')=>`<div class="hub-portrait ${extra}">${avatar(p.avatar)?`<img class="hub-avatar" src="${e(p.avatar)}" alt="${e(p.name)} avatar">`:`<span class="hub-initials" aria-label="${e(p.name)} avatar">${e((p.name||'Collector').slice(0,2).toUpperCase())}</span>`}${RANKS.some(r=>r.id===p.frame)?`<img class="hub-frame" src="assets/rank-frames/${e(p.frame)}.webp" alt="${e(p.frame)} frame">`:''}</div>`;
 export const banner=p=>p?`<div class="hub-banner hub-banner-${e(['aurora','obsidian','gold','neon','crystal','ember'].includes(p.style)?p.style:'aurora')}">${portrait(p)}<div class="hub-banner-copy"><small>${e(p.title)}</small><h3>${e(p.name)}</h3><p>${rankProgress(p.rp).rank.name} · ${Number(p.rp)||0} RP</p><div class="hub-badges">${(p.badges||[]).slice(0,3).map(b=>`<span>✦ ${e(badgeName(b))}</span>`).join('')}</div>${p.show_record?`<dl class="hub-trackers">${(p.trackers||['wins','season_high','streak']).filter(id=>TRACKERS[id]).slice(0,3).map(id=>`<div><dt>${TRACKERS[id]}</dt><dd>${Number(p.stat_values?.[id]??p[id])||0}</dd></div>`).join('')}</dl>`:''}</div></div>`:empty('Waiting for a collector');
-const workingLabel=action=>({chat_send:'Sending message…',profile:'Saving identity…',queue_join:'Finding a match…',battle_reveal:'Revealing card…',room_ready:'Confirming readiness…',listing_buy:'Completing purchase…',trade_offer:'Reserving your offer…'}[action]||'Updating…');
+const workingLabel=action=>({chat_send:'Sending message…',profile:'Saving identity…',queue_join:'Finding a match…',battle_reveal:'Revealing card…',room_ready:'Confirming readiness…',listing_create:'Posting your card…',listing_cancel:'Returning your card…',listing_buy:'Completing purchase…',trade_offer:'Reserving your offer…'}[action]||'Updating…');
 
 export class HubView {
   constructor(root,controller,{shops=null,clipboard=globalThis.navigator?.clipboard}={}) {
@@ -63,11 +63,13 @@ export class HubView {
   }
   market(d) {
     const rows=filterListings(d.listings,this.query,this.sort,this.own,d.user_id);
+    const pickQuery=(this.drafts.pick_search||'').toLowerCase(),cards=d.inventory.filter(c=>`${c.name} ${c.set}`.toLowerCase().includes(pickQuery));
+    const limit=this.pickLimit||24;
     return `<div class="hub-section-title"><div><h2>The marketplace</h2><p>Buy and sell cards using your game balance. Listed cards are held until sold or cancelled.</p></div>${button('refresh','↻ Refresh')}</div>
     <div class="hub-market-layout"><div><div class="hub-filters"><label>Find a card<input name="search" type="search" value="${e(this.query)}" placeholder="Card, set or collector"></label><label>Sort<select name="sort">${['newest','price-low','price-high'].map(x=>`<option value="${x}" ${x===this.sort?'selected':''}>${{newest:'Newest first','price-low':'Price: low to high','price-high':'Price: high to low'}[x]}</option>`).join('')}</select></label><label class="hub-check"><input name="own" type="checkbox" ${this.own?'checked':''}>My listings</label></div>
     ${this.confirm?`<section class="hub-confirm" role="alertdialog" aria-label="Confirm purchase"><h3>Buy ${e(this.confirm.card.name)}?</h3><p>${money(this.confirm.price)} will be paid to ${e(this.confirm.seller_name)}. One card will join your Binder.</p>${button('confirm-buy','Confirm purchase')}${button('dismiss','Keep browsing')}</section>`:''}
     <div class="hub-card-grid">${rows.length?rows.map(l=>`<article class="hub-listing">${art(l.card)}<div><small>${e(l.card.set)}</small><h3>${e(l.card.name)}</h3><p>${e(l.seller_name)}</p><strong>${money(l.price)}</strong>${button(l.seller_id===d.user_id?'cancel-listing':'buy',l.seller_id===d.user_id?'Return to Binder':'Buy card',`data-id="${e(l.id)}"`)}</div></article>`).join(''):empty('No listings found','Try another search or list a card from your Binder.')}</div><small>Showing up to 200 latest active listings.</small></div>
-    <aside class="hub-compose"><span class="hub-eyebrow">FROM YOUR BINDER</span><h3>List a card</h3><p>One copy is held safely while your listing is active.</p><form data-hub-form="listing"><label>Card<select required name="card_id"><option value="">Choose a card</option>${options(d.inventory,this.drafts.card_id)}</select></label><label>Asking price<input name="price" inputmode="decimal" placeholder="8.00" value="${e(this.drafts.price||'')}" required></label><button type="submit" ${d.inventory.length?'':'disabled'}>Create listing</button></form><p class="hub-footnote">30 active listings per collector. Cancel an unsold listing to return its card.</p></aside></div>`;
+    <aside class="hub-compose"><span class="hub-eyebrow">FROM YOUR BINDER</span><h3>List a card</h3><p>One copy is held safely while your listing is active.</p><form data-hub-form="listing"><label>Selected card<select required name="card_id"><option value="">Choose a card</option>${options(d.inventory,this.drafts.card_id)}</select></label><label>Find a card<input name="pick_search" type="search" placeholder="Search your collection" value="${e(this.drafts.pick_search||'')}"></label><div class="hub-sell-picker">${cards.slice(0,limit).map(c=>`<button type="button" data-hub-action="pick-card" data-id="${e(c.id)}" aria-label="Select ${e(c.name)}" aria-pressed="${this.drafts.card_id===c.id}">${art(c)}<strong>${e(c.name)}</strong><small>${e(c.set)} · ×${c.qty}</small></button>`).join('')}</div>${cards.length>limit?button('more-cards','Show more cards'):''}<label>Asking price<input name="price" inputmode="decimal" placeholder="8.00" value="${e(this.drafts.price||'')}" required></label><button type="submit" ${d.inventory.length?'':'disabled'}>Create listing</button></form><p class="hub-footnote">30 active listings per collector. Cancel an unsold listing to return its card.</p></aside></div>`;
   }
   rooms(d,r) {
     const kind=this.tab==='trades'?'trade':'battle';
@@ -130,6 +132,8 @@ export class HubView {
     }
     if(name==='show_record'){this.drafts.show_record=el.checked;this.previewIdentity();return;}
     this.drafts[name]=el.value;
+    if(name==='pick_search'){this.pickLimit=24;this.render();return;}
+    if(name==='card_id'){this.render();return;}
     if(el.closest('[data-hub-form="profile"]'))this.previewIdentity();
     if(name==='room_set'&&event.type==='change')this.run('battle_set',{id:this.room().id,set_id:el.value});
   }
@@ -141,14 +145,17 @@ export class HubView {
       if(action==='profile')for(const key of ['name','title','style','badges','show_record','trackers'])delete this.drafts[key];
       if(action==='trade_offer')this.offerDirty=false;
       if(action==='chat_send')this.drafts.message='';
+      if(action==='listing_create'){this.own=false;this.query='';delete this.drafts.card_id;delete this.drafts.price;}
       this.render();return result;
     } catch(error){this.notice=errorMessage(error);this.render();}
   }
   async onClick(event) {
     const tab=event.target.closest('[data-hub-tab]');
-    if(tab){this.tab=tab.dataset.hubTab;this.confirm=null;this.notice='';if(this.tab==='chat')this.unread=0;this.render();return;}
+    if(tab){this.tab=tab.dataset.hubTab;if(this.tab==='market'){this.own=false;this.query='';this.controller.requestRefresh();}this.confirm=null;this.notice='';if(this.tab==='chat')this.unread=0;this.render();return;}
     const b=event.target.closest('[data-hub-action]');if(!b||b.disabled)return;
     const a=b.dataset.hubAction,d=this.controller.state.data,r=this.room();
+    if(a==='pick-card'){this.drafts.card_id=b.dataset.id;this.render();return;}
+    if(a==='more-cards'){this.pickLimit=(this.pickLimit||24)+24;this.render();return;}
     if(a==='refresh'){await this.controller.refresh();return;}
     if(a==='account'){this.root.ownerDocument.querySelector('.nav [data-s="profile"]')?.click();return;}
     if(a==='retry'){try{await this.controller.retry();}catch{}this.render();return;}

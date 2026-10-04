@@ -15,6 +15,7 @@ export function installTradeHub(target=window,doc=document) {
     reset:()=>target.tcgCloudV192?.resetHubTransaction?.(),
     sync:version=>target.tcgCloudV192?.syncHubSnapshot?.(version),
     active:()=>screen.classList.contains('active')&&doc.visibilityState!=='hidden',
+    visible:()=>doc.visibilityState!=='hidden',
     rank:(profile,data)=>target.tcgHubBridge?.applyRank?.(profile,data)
   };
   // The signed-out view and local district work even if the auth SDK is unavailable.
@@ -32,11 +33,11 @@ export function installTradeHub(target=window,doc=document) {
     const initialRevision=authRevision;
     client.auth.getSession().then(({data,error})=>{if(error)throw error;if(authRevision===initialRevision)return controller.setUser(data?.session?.user);}).catch(e=>controller.emit({status:'offline',error:e.message}));
   }
-  const resume=()=>controller.resume();
-  const onVisible=()=>{if(doc.visibilityState!=='hidden')resume().catch(()=>{});};
+  const resume=()=>{view.notice='';return controller.resume();};
+  const onVisible=()=>{if(doc.visibilityState!=='hidden')resume().catch(()=>{});else controller.suspend();};
   const onPageShow=event=>{if(event.persisted)onVisible();};
   target.addEventListener('pageshow',onPageShow);
-  const onOnline=()=>controller.resume().catch(()=>{});
+  const onOnline=()=>resume().catch(()=>{});
   const onNavigation=event=>{if(event.target.closest?.('.nav [data-s="earn"]'))controller.refresh();};
   doc.addEventListener('visibilitychange',onVisible);target.addEventListener('online',onOnline);
   doc.addEventListener('click',onNavigation);
@@ -46,7 +47,7 @@ export function installTradeHub(target=window,doc=document) {
     if(!controller.uid)throw new Error('Sign in through Profile Settings to list cards for other players.');
     const cents=parsePrice(price);
     // Leave ownership changes to the same server transaction used by the hub form.
-    view.tab='market';view.query='';view.own=true;
+    view.tab='market';view.query='';view.own=false;
     doc.getElementById('marketModalV57')?.classList.remove('show');
     doc.getElementById('cardModal')?.classList.remove('show');
     doc.querySelector('.nav [data-s="earn"]')?.click();
