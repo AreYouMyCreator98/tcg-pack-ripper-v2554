@@ -726,7 +726,7 @@
    const ten=(typeof v114PackCount!=='undefined'&&v114PackCount===10);
    /* v114MakeBatch calls makePack ten times. Skip the ten temporary 10-card warmups. */
    if(ten&&out.length===10)return out;
-   const limit=ten?Math.min(16,out.length):Math.min(10,out.length);
+   const limit=ten?Math.min(4,out.length):Math.min(4,out.length);
    for(let i=0;i<limit;i++)preloadImg(out[i]?.thumb||out[i]?.img,i<4?'high':'auto');
    /* Detail/pricing requests are background work now, prioritising hits only. */
    idle(()=>{
@@ -744,6 +744,7 @@
  }
 
  /* Reveal immediately from the set checklist thumbnail. Card-detail hydration can finish later. */
+ let faceSerial=0,faceTimer=0;
  showBack=function(autoReveal=false){
    const c=pulls[idx],img=document.getElementById('cardImg'),st=document.getElementById('stack');if(!c||!img||!st)return;
    st.className='cardStack show faceVisible flipped';st.style.transform='';st.style.opacity='1';st.dataset.faceReady='0';
@@ -752,23 +753,29 @@
    const instr=document.getElementById('instruction');if(instr)instr.textContent=v114PackCount===10?'Swipe through all 100 cards':'Swipe the card away to continue';
    const chip=document.getElementById('v74RouteChip');if(chip){chip.classList.remove('show');chip.textContent=''};
 
-   const immediate=c.thumb||c.img||'';
+   const immediate=c.thumb||c.img||'',serial=++faceSerial,at=idx;
+   clearTimeout(faceTimer);img.style.opacity='0';delete st.dataset.artUnavailable;
+   st.dataset.cardName=c.name||'Card';
+   const current=()=>serial===faceSerial&&pulls[idx]===c&&idx===at;
    let fxDone=false;
-   const runFx=()=>{if(fxDone)return;fxDone=true;st.dataset.faceReady='1';requestAnimationFrame(()=>{if(typeof v128PlayHero==='function'&&v128PlayHero(c)){try{sfxV67('card')}catch(_e){}}else applyRevealEffects(c,st)})};
-   img.onload=runFx;img.onerror=runFx;
-   if(immediate){if(img.src!==immediate)img.src=immediate;if(img.complete&&img.naturalWidth)runFx()}else runFx();
+   const runFx=()=>{if(fxDone||!current())return;fxDone=true;clearTimeout(faceTimer);st.dataset.faceReady='1';requestAnimationFrame(()=>{if(!current())return;if(window.tcgModernRevealActive){try{sfxV67('card')}catch(_e){};return;}if(typeof v128PlayHero==='function'&&v128PlayHero(c)){try{sfxV67('card')}catch(_e){}}else applyRevealEffects(c,st)})};
+   img.onload=()=>{if(!current())return;img.style.opacity='1';delete st.dataset.artUnavailable;runFx();};
+   img.onerror=()=>{if(!current())return;st.dataset.artUnavailable='true';runFx();};
+   // Artwork is presentation, never a permanent lock on an already generated card.
+   faceTimer=setTimeout(()=>{if(current()){st.dataset.artUnavailable='true';runFx();}},1500);
+   if(immediate){img.src=immediate;if(img.complete){if(img.naturalWidth)img.onload();else img.onerror();}}else img.onerror();
 
    const bulk=isBulkCardV64(c);if(chip){chip.textContent=bulk?'🗃️ AUTO → BULK TUB':'📘 AUTO → BINDER';chip.classList.add('show');setTimeout(()=>chip.classList.remove('show'),650)}
-   preloadWindow(idx+1,8);
+   preloadWindow(idx+1,3);
    updatePeekLayersV76();
 
    /* High-res/detail data upgrades quietly and never block the swipe. */
    idle(async()=>{
      try{
        await hydrateCard(c);
-       if(!pulls[idx]||pulls[idx].id!==c.id)return;
+       if(!current())return;
        const hi=c.img||'';if(!hi||hi===img.src)return;
-       const up=new Image();up.decoding='async';up.onload=()=>{if(pulls[idx]?.id===c.id)img.src=hi};up.src=hi;
+       const up=new Image();up.decoding='async';up.onload=()=>{if(current())img.src=hi};up.src=hi;
      }catch(_e){}
    },1100);
  };
@@ -846,22 +853,24 @@
   if(!hero||!heroImg)return;
 
   let revealSerial=0;
-  let closeTimer=0,infoTimer=0;
+  let closeTimer=0,infoTimer=0,prepareTimer=0;
   const transparent='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
   const cardKey=c=>`${c?.id||''}|${c?.set||''}|${c?.number||''}|${c?.name||''}`;
 
   function cleanHero(){
-    clearTimeout(closeTimer);clearTimeout(infoTimer);
+    clearTimeout(closeTimer);clearTimeout(infoTimer);clearTimeout(prepareTimer);
     hero.className='';
     hero.removeAttribute('data-card-key');
     document.body.classList.remove('v128Hero');
     window.v128HeroPlaying=false;
+    window.v124RareLockUntil=0;
   }
 
   function launchExact(c,t,serial,src){
     if(serial!==revealSerial||!window.v128HeroPlaying)return;
     const key=cardKey(c);
     if(hero.dataset.cardKey!==key)return;
+    clearTimeout(prepareTimer);
     let r=String(c.rarity||'SPECIAL HIT').toUpperCase();
     if(rare)rare.textContent=r;
     if(meta)meta.textContent=`${c.name} · #${c.number}${c.market>0?' · $'+Number(c.market).toFixed(2):''}`;
@@ -892,6 +901,7 @@
     window.v128HeroPlaying=true;
     window.v124RareLockUntil=Date.now()+2600;
     const serial=++revealSerial;
+    prepareTimer=setTimeout(()=>{if(serial===revealSerial){revealSerial++;cleanHero();}},1800);
     const key=cardKey(c);
     hero.dataset.cardKey=key;
     hero.className='v214Preparing';
@@ -969,7 +979,8 @@
    const im=new Image();
    try{im.decoding='async';im.fetchPriority=priority}catch(_e){}
    const entry={im,promise,ready:false,ok:false};packWarm.set(url,entry);
-   const done=ok=>{entry.ready=true;entry.ok=ok;resolve(ok)};
+   let deadline=0;const done=ok=>{if(entry.ready)return;entry.ready=true;entry.ok=ok;clearTimeout(deadline);if(!ok)packWarm.delete(url);resolve(ok)};
+   deadline=setTimeout(()=>done(false),4000);
    im.onload=()=>done(true);im.onerror=()=>done(false);im.src=url;
    if(im.complete&&im.naturalWidth)done(true);
    return promise;
@@ -1056,7 +1067,7 @@
  function fastSelect(s,tile){
    if(!s||busy)return;
    if(!setUnlocked(s)){showSetRequirements(s);return}
-   if(sel?.id===s.id){setTileSelected(tile,s);warmAround(s);return}
+   if(sel?.id===s.id){setTileSelected(tile,s);warmAround(s);window.dispatchEvent(new Event('tcg:set-selected'));return}
    sel=s;
    setTileSelected(tile,s);
    /* resetPack is local-only and cheap; run immediately so the UI never feels stuck. */
@@ -1064,6 +1075,7 @@
    applyPackArt();
    warmAround(s);
    backgroundWarmCards(s);
+   window.dispatchEvent(new Event('tcg:set-selected'));
    try{navigator.vibrate?.(6)}catch(_e){}
  }
 
@@ -1097,7 +1109,7 @@
    if(row?.querySelector('b'))row.querySelector('b').textContent='V215 INSTANT SET SWITCH';
    const meta=document.querySelector('meta[name="tcg-cloud-build"]');if(meta)meta.setAttribute('content','V215-instant-set-switch');
  }
- function init(){stamp();warmAround(sel);warmAllUnlocked();setTimeout(()=>warmAround(sel),120)}
+ function init(){stamp();warmAround(sel);setTimeout(()=>warmAround(sel),120)}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 }catch(err){console.error('V215 instant set switch',err)}})();
 

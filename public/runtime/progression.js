@@ -1227,13 +1227,13 @@ try{
     return false;
   };
   const originalBuildPoolsV187=buildPools;
-  buildPools=async function(){
-    const P=await originalBuildPoolsV187.apply(this,arguments);
+  buildPools=async function(target=sel){
+    const P=await originalBuildPoolsV187.call(this,target);
     if(!P)return P;
-    const cfgs=SUBSET_CONFIG_V187[sel.id]||[];
+    const cfgs=SUBSET_CONFIG_V187[target.id]||[];
     P.subsetsV187=[];
     for(const cfg of cfgs){
-      const cards=await loadSubsetV187(sel,cfg);
+      const cards=await loadSubsetV187(target,cfg);
       if(cards.length)P.subsetsV187.push({name:cfg.name,rate:Number(cfg.rate||0),cards});
     }
     return P;
