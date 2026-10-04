@@ -1453,7 +1453,7 @@ try{
     primeSigV188=sig;
     primePromiseV188=(async()=>{
       let next=0;async function worker(){while(next<unlocked.length){const s=unlocked[next++];try{await completeCatalogV188(s)}catch(_e){}}}
-      await Promise.all(Array.from({length:Math.min(5,Math.max(1,unlocked.length))},worker));
+      await Promise.all(Array.from({length:Math.min(2,Math.max(1,unlocked.length))},worker));
       const pool=window.getAcquisitionPoolV188();
       try{renderMarketBuyV58()}catch(_e){}try{window.renderTradeBoardV154?.()}catch(_e){}
       return pool;
@@ -1537,11 +1537,11 @@ try{
   }
   window.runCardReachabilityAuditV188=async function(){await primeUnlockedCatalogV188(true);return auditV188()};
   const renderSetsBeforeV188=renderSets;
-  renderSets=function(){const r=renderSetsBeforeV188.apply(this,arguments);setTimeout(()=>primeUnlockedCatalogV188().then(auditV188).catch(()=>{}),0);return r};
+  renderSets=function(){const r=renderSetsBeforeV188.apply(this,arguments);if(document.getElementById('earn')?.classList.contains('active'))setTimeout(()=>primeUnlockedCatalogV188().catch(()=>{}),0);return r};
   const addXPBeforeV188=addXP;
-  addXP=function(){const before=SETS.filter(setUnlocked).length,r=addXPBeforeV188.apply(this,arguments),after=SETS.filter(setUnlocked).length;if(after!==before)setTimeout(()=>primeUnlockedCatalogV188(true).then(auditV188).catch(()=>{}),0);return r};
+  addXP=function(){const before=SETS.filter(setUnlocked).length,r=addXPBeforeV188.apply(this,arguments),after=SETS.filter(setUnlocked).length;if(after!==before&&document.getElementById('earn')?.classList.contains('active'))setTimeout(()=>primeUnlockedCatalogV188(true).catch(()=>{}),0);return r};
   const earn=document.getElementById('earn');if(earn)new MutationObserver(()=>{if(earn.classList.contains('active'))primeUnlockedCatalogV188().then(()=>{try{renderMarketBuyV58()}catch(_e){}try{window.renderTradeBoardV154?.()}catch(_e){}})}).observe(earn,{attributes:true,attributeFilter:['class']});
-  setTimeout(()=>primeUnlockedCatalogV188().then(auditV188).catch(()=>{}),350);
+  // Catalogues are fetched on demand by packs, shops and trading, not during startup.
 })();
 
 
@@ -1603,7 +1603,7 @@ try{
   const LINK_BACKUP_KEY='tcgRipperLinkBackupV237';
   const CONFLICT_BACKUP_KEY='tcgRipperConflictBackupV237';
   let client=null,user=null,syncTimer=null,syncBusy=false,authBusy=false,pushPausedUntil=0,cloudVersion=null,recoveryPending=false;
-  let hubHold=false;
+  let hubHold=false,localRevision=0,reconcileBusy=false;
   let sessionState='restoring',sessionRetry=null;
   let deviceId='';
   try{deviceId=localStorage.getItem(DEVICE_KEY)||('dev_'+crypto.randomUUID());localStorage.setItem(DEVICE_KEY,deviceId)}catch(_){deviceId='dev_'+Math.random().toString(36).slice(2)}
@@ -1634,8 +1634,9 @@ try{
       login?.classList.add('hide');signed?.classList.add('show');
       if(el('cloudUserEmailV190'))el('cloudUserEmailV190').textContent=user.email||user.id;
       if(recoveryPending)setStatus('warn','Choose which save to keep','Sync is paused until you choose the device save or account save.');
-      else setStatus('online','Account save active','Your account is the primary save. This device keeps an offline fallback copy.');
-      if(saveStatus)saveStatus.textContent=recoveryPending?'SAVE CHOICE':'ACCOUNT PRIMARY';
+      else if(isDirty())setStatus('warn','Saving progress','Progress is safe on this device. Keep the game online until it says Synced before switching devices.');
+      else setStatus('online','Synced to your account','Use the same account in Safari, the Home Screen app and other devices to continue this collection.');
+      if(saveStatus)saveStatus.textContent=recoveryPending?'SAVE CHOICE':isDirty()?'SAVE PENDING':'SYNCED';
     }else{
       login?.classList.remove('hide');signed?.classList.remove('show');
       const pe=pendingEmail();
@@ -1651,7 +1652,7 @@ try{
     return {version:239,saved_at:Date.now(),state:JSON.parse(JSON.stringify(state)),prefs,audio,selectedSetId:typeof sel!=='undefined'?sel?.id:null};
   }
   function localChangedAt(){return Number(state?.cloudV190?.changedAt||0)}
-  function markLocalChange(){state.cloudV190=state.cloudV190||{};state.cloudV190.changedAt=Date.now();}
+  function markLocalChange(){localRevision++;state.cloudV190=state.cloudV190||{};state.cloudV190.changedAt=Date.now();}
   function clone(v){return JSON.parse(JSON.stringify(v))}
   function qtyObj(o){return Object.values(o||{}).reduce((n,x)=>n+Math.max(0,Number(x?.qty??x??0)||0),0)}
   function saveSummary(st){
@@ -1718,11 +1719,11 @@ try{
     const {data,error}=await client.from(CLOUD_TABLE).select('save_data,save_version,device_id,updated_at').eq('user_id',session.user.id).maybeSingle();if(error)throw error;return data||null;
   }
   async function pushNow(showToast=false,force=false,inPlaceConflict=false){
-    if(!client||syncBusy||hubHold)return false;if(recoveryPending&&!force){if(showToast)toast('Choose which save to keep first.');return false}if(Date.now()<pushPausedUntil&&!showToast&&!force)return false;syncBusy=true;
+    if(!client||syncBusy||hubHold||(!isBound()&&!force))return false;if(recoveryPending&&!force){if(showToast)toast('Choose which save to keep first.');return false}if(Date.now()<pushPausedUntil&&!showToast&&!force)return false;syncBusy=true;
     try{
       const session=await refreshSession();if(!session?.user){if(showToast)toast('Log in before syncing account progress.');setStatus('warn','Sign-in required','Progress is only protected by the browser until you log in.');return false}
-      const data=snapshot(),expected=(cloudVersion??storedVersion())||null;
-      const {data:result,error}=await client.rpc('tcg_account_save',{p_save_data:data,p_expected_version:expected,p_device_id:deviceId});if(error)throw error;
+      const account=session.user.id,revision=localRevision,data=snapshot(),expected=(cloudVersion??storedVersion())||null;
+      const {data:result,error}=await client.rpc('tcg_account_save',{p_save_data:data,p_expected_version:expected,p_device_id:deviceId});if(error)throw error;if(user?.id!==account)return false;
       if(result?.conflict){
         try{localStorage.setItem(CONFLICT_BACKUP_KEY,JSON.stringify(state))}catch(_){ }
         setStoredVersion(result.save_version);setDirty(false);
@@ -1730,15 +1731,16 @@ try{
         if(result.save_data&&applySnapshot(result.save_data)){setStatus('warn','Account changed on another device','The newer account save was loaded. Your unsynced device copy was preserved as a safety backup.');if(showToast)toast('☁️ Newer account save loaded');setTimeout(()=>location.reload(),350)}
         return false;
       }
-      setStoredVersion(result?.save_version||expected||1);setDirty(false);setBound();try{localStorage.setItem(STAMP_KEY,String(Date.now()))}catch(_){}syncUI();if(showToast)toast('☁️ Account save synced');return true;
+      setStoredVersion(result?.save_version||expected||1);setDirty(localRevision!==revision);setBound();try{localStorage.setItem(STAMP_KEY,String(Date.now()))}catch(_){}syncUI();if(showToast)toast('☁️ Account save synced');return true;
     }catch(e){console.error('Account save failed',e);setDirty(true);const msg=String(e?.message||'');if(/row-level security|401|jwt|auth/i.test(msg))setStatus('warn','Sign-in required','Your account session needs to be refreshed. The offline backup is still safe on this device.');else setStatus('warn','Account sync pending','Your latest progress is queued on this device and will retry when the connection recovers.');if(showToast)toast('Account sync pending • offline backup is safe');return false}finally{syncBusy=false}
   }
   function pausePush(ms=3000){pushPausedUntil=Math.max(pushPausedUntil,Date.now()+Math.max(250,Number(ms)||3000));clearTimeout(syncTimer);syncTimer=null}
   function queuePush(){if(!user||!client||recoveryPending)return;if(hubHold){setDirty(true);return;}setDirty(true);clearTimeout(syncTimer);const wait=Date.now()<pushPausedUntil?Math.max(80,pushPausedUntil-Date.now()+80):350;syncTimer=setTimeout(()=>pushNow(false),wait)}
   async function reconcile(){
-    if(!client||recoveryPending||hubHold||(typeof busy!=='undefined'&&busy))return;const session=await refreshSession();if(!session?.user)return;
+    if(!client||recoveryPending||hubHold||syncBusy||reconcileBusy||(typeof busy!=='undefined'&&busy))return;reconcileBusy=true;
     try{
-      const remote=await getRemote();
+      const session=await refreshSession();if(!session?.user)return;const account=session.user.id;
+      const remote=await getRemote();if(user?.id!==account)return;
       if(!remote?.save_data){setBound();setStoredVersion(null);setDirty(true);await pushNow(false,true);return}
       const remoteVersion=Number(remote.save_version||1),cloud=remote.save_data,remoteState=cloud?.state||{};
       if(!isBound()){
@@ -1755,25 +1757,26 @@ try{
           }
           setDirty(false);applySnapshot(cloud);syncUI();toast('☁️ Account save kept');setTimeout(()=>location.reload(),300);return;
         }
-        setBound();setStoredVersion(remoteVersion);
         if(meaningful(candidate)&&!meaningful(remoteState)){
+          setBound();setStoredVersion(remoteVersion);
           if(candidate!==current){state=clone(candidate);localStorage.setItem('tcgRipperSave',JSON.stringify(state))}
           setDirty(true);await pushNow(false,true);return;
         }
-        if(meaningful(remoteState)&&!meaningful(current)){setDirty(false);if(applySnapshot(cloud))setTimeout(()=>location.reload(),300);return}
+        if(meaningful(remoteState)){if(!await pullInPlace(false))throw new Error('Account restore pending');return}
+        setBound();setStoredVersion(remoteVersion);
       }
       const knownVersion=storedVersion();
       if(isDirty()&&knownVersion===remoteVersion){setStoredVersion(remoteVersion);await pushNow(false);return}
       if(knownVersion!==remoteVersion){
         try{localStorage.setItem(CONFLICT_BACKUP_KEY,JSON.stringify(state))}catch(_){ }
-        setStoredVersion(remoteVersion);setDirty(false);if(applySnapshot(cloud)){toast('☁️ Newer account progress loaded');setTimeout(()=>location.reload(),300)}return;
+        if(await pullInPlace(false))toast('☁️ Newer account progress loaded');else throw new Error('Account restore pending');return;
       }
       setStoredVersion(remoteVersion);setDirty(false);try{localStorage.setItem(STAMP_KEY,String(Date.now()))}catch(_){}syncUI();
-    }catch(e){console.error('Account reconcile failed',e);setStatus('warn','Could not read account save','The offline backup remains available. Account sync will retry automatically.')}
+    }catch(e){console.error('Account reconcile failed',e);setStatus('warn','Could not read account save','The offline backup remains available. Account sync will retry automatically.')}finally{reconcileBusy=false}
   }
   async function pullInPlace(showToast=false){
     if(!client||recoveryPending)return false;const session=await refreshSession();if(!session?.user)return false;
-    try{const account=session.user.id,remote=await getRemote(),cloud=remote?.save_data;if(user?.id!==account||!cloud?.state)return false;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);state=clone(cloud.state);state.cloudV190=state.cloudV190||{};state.cloudV190.changedAt=Number(cloud.saved_at||Date.parse(remote.updated_at)||Date.now());localStorage.setItem('tcgRipperSave',JSON.stringify(state));if(cloud.prefs)localStorage.setItem('tcgPrefsV160',JSON.stringify(cloud.prefs));if(cloud.audio)localStorage.setItem('tcgAudioV68',JSON.stringify(cloud.audio));if(cloud.selectedSetId)localStorage.setItem('tcgCloudSelectedSetV190',cloud.selectedSetId);localStorage.setItem(STAMP_KEY,String(Date.now()));syncUI();try{stats()}catch(e){}try{updateProgressUI()}catch(e){}try{renderBinder()}catch(e){}try{renderSets()}catch(e){}try{renderMarketV57()}catch(e){}try{renderMarketHistoryV72()}catch(e){}try{renderProfile()}catch(e){}try{renderSlabVaultV52()}catch(e){}try{renderMasterV57()}catch(e){}if(showToast)toast('☁️ Live game state synced');return true}catch(e){console.error('Cloud in-place pull failed',e);return false}
+    try{const account=session.user.id,revision=localRevision,remote=await getRemote(),cloud=remote?.save_data;if(user?.id!==account||!cloud?.state||localRevision!==revision||(typeof busy!=='undefined'&&busy&&!hubHold))return false;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);state=clone(cloud.state);state.cloudV190=state.cloudV190||{};state.cloudV190.changedAt=Number(cloud.saved_at||Date.parse(remote.updated_at)||Date.now());localStorage.setItem('tcgRipperSave',JSON.stringify(state));if(cloud.prefs)localStorage.setItem('tcgPrefsV160',JSON.stringify(cloud.prefs));if(cloud.audio)localStorage.setItem('tcgAudioV68',JSON.stringify(cloud.audio));if(cloud.selectedSetId)localStorage.setItem('tcgCloudSelectedSetV190',cloud.selectedSetId);localStorage.setItem(STAMP_KEY,String(Date.now()));syncUI();try{stats()}catch(e){}try{updateProgressUI()}catch(e){}try{renderBinder()}catch(e){}try{renderSets()}catch(e){}try{renderMarketV57()}catch(e){}try{renderMarketHistoryV72()}catch(e){}try{renderProfile()}catch(e){}try{renderSlabVaultV52()}catch(e){}try{renderMasterV57()}catch(e){}if(showToast)toast('☁️ Live game state synced');return true}catch(e){console.error('Cloud in-place pull failed',e);return false}
   }
   function ensurePasswordRecoveryUI(){
     if(document.getElementById('v238PasswordRecovery'))return;

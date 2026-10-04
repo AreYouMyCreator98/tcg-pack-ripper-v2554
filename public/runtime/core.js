@@ -1242,7 +1242,7 @@ document.addEventListener('click',e=>{
 });
 document.getElementById('chaseSkipV57').onclick=closeChaseV57;
 setInterval(marketTickV57,45000);
-setInterval(()=>{renderMasterV57();renderMarketV57()},5000);
+setInterval(()=>{if(document.hidden||busy)return;if(document.getElementById('profile')?.classList.contains('active'))renderMasterV57();if(document.getElementById('earn')?.classList.contains('active'))renderMarketV57()},5000);
 renderMasterV57();renderMarketV57();renderMarketHistoryV72();
 
 /* Non-invasive chase hook: watches the already-rendered current card; never delays normal reveal. */
@@ -1267,7 +1267,7 @@ document.addEventListener('click',e=>{
  if(state.binder[id])state.binder[id].qty=(state.binder[id].qty||0)+1;else state.binder[id]={...c,qty:1,market:Number(c.market||.1)};
  state.masterV57.seen[id]={id,setId:c.setId||'',set:c.set||''};save();stats();renderBinder();renderSets();renderMarketBuyV58();toast(`Bought ${c.name} for $${price.toFixed(2)}`);
 });
-setInterval(renderMarketBuyV58,6000);renderMarketBuyV58();
+setInterval(()=>{if(!document.hidden&&!busy&&document.getElementById('earn')?.classList.contains('active'))renderMarketBuyV58()},6000);
 
 /* V60 migration retry after asynchronous startup; idempotent. */
 setTimeout(()=>{migrateExistingBinderToMasterV60();renderSets();},900);
