@@ -20,8 +20,8 @@ test('cloud transaction holds keyboard and background collection operations unti
  const source=await read('public/runtime/progression.js');const section=source.slice(source.indexOf('  async function beginHubTransaction(){'),source.indexOf('  window.tcgCloudV192='));
  const {document}=parseHTML('<html><body><nav class="nav"></nav><section class="screen" id="rip"></section><section class="screen" id="earn"><div id="tradeHub"><button>Retry</button></div><div class="exchangeV154"></div></section></body></html>');
  const events={};document.addEventListener=(name,fn)=>events[name]=fn;let canPull=false,pushes=0;
- const ctx=vm.createContext({document,Map,Date,Number,Promise,Error,Object,clearTimeout,setTimeout,user:{id:'A'},recoveryPending:false,syncBusy:false,hubHold:false,syncTimer:null,busy:false,cloudVersion:7,storedVersion:()=>7,isDirty:()=>false,pushNow:async()=>{pushes++;return true;},pullInPlace:async()=>canPull});
- vm.runInContext(section,ctx);assert.equal(await ctx.beginHubTransaction(),7);assert.equal(pushes,1);assert.equal(ctx.hubHold,true);assert.equal(document.querySelector('#rip').inert,true);
+ const ctx=vm.createContext({document,Map,Date,Number,Promise,Error,Object,clearTimeout,setTimeout,user:{id:'A'},recoveryPending:false,syncBusy:false,hubHold:false,syncTimer:null,busy:false,cloudVersion:7,storedVersion:()=>7,isBound:()=>true,isDirty:()=>false,pushNow:async()=>{pushes++;return true;},pullInPlace:async()=>canPull});
+ vm.runInContext(section,ctx);assert.equal(await ctx.beginHubTransaction(),7);assert.equal(pushes,0);assert.equal(ctx.hubHold,true);assert.equal(document.querySelector('#rip').inert,true);
  let stopped=0;events.keydown({target:document.querySelector('#rip'),preventDefault:()=>stopped++,stopImmediatePropagation:()=>stopped++});assert.equal(stopped,2);
  assert.notEqual(document.querySelector('.nav').inert,true);events.click({target:document.querySelector('.nav'),preventDefault:()=>stopped++,stopImmediatePropagation:()=>stopped++});assert.equal(stopped,2,'navigation stays available while collection controls remain protected');
  await assert.rejects(ctx.finishHubTransaction(),/pending/);assert.equal(ctx.hubHold,true);assert.equal(document.querySelector('#rip').inert,true);
@@ -29,7 +29,7 @@ test('cloud transaction holds keyboard and background collection operations unti
 });
 test('failed pre-transaction sync releases interaction and a playing pack cannot be interrupted',async()=>{
  const source=await read('public/runtime/progression.js');const section=source.slice(source.indexOf('  async function beginHubTransaction(){'),source.indexOf('  window.tcgCloudV192='));
- const {document}=parseHTML('<html><body><nav class="nav"></nav></body></html>');const ctx=vm.createContext({document,Map,Date,Number,Promise,Error,Object,clearTimeout,setTimeout,user:{id:'A'},recoveryPending:false,syncBusy:false,hubHold:false,syncTimer:null,busy:true,cloudVersion:7,storedVersion:()=>7,pushNow:async()=>false,pullInPlace:async()=>true});vm.runInContext(section,ctx);
+ const {document}=parseHTML('<html><body><nav class="nav"></nav></body></html>');const ctx=vm.createContext({document,Map,Date,Number,Promise,Error,Object,clearTimeout,setTimeout,user:{id:'A'},recoveryPending:false,syncBusy:false,hubHold:false,syncTimer:null,busy:true,cloudVersion:7,storedVersion:()=>7,isBound:()=>true,isDirty:()=>true,pushNow:async()=>false,pullInPlace:async()=>true});vm.runInContext(section,ctx);
  await assert.rejects(ctx.beginHubTransaction(),/Finish opening/);ctx.busy=false;await assert.rejects(ctx.beginHubTransaction(),/SYNC_REQUIRED/);assert.equal(document.documentElement.classList.contains('hub-transaction-pending'),false);
 });
 test('collection bridge preserves rank tiers and counts reserved cards in master progress',async()=>{

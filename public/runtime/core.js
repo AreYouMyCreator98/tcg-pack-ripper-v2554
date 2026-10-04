@@ -94,8 +94,9 @@ if(newGameV199){
 }else{
  state.starterV199=state.starterV199||{eligible:false,total:10,remaining:0,used:10,hitBoost:1,guaranteedHighAwarded:0,tutorialShown:true,tutorialPending:false,migrated:true};
 }
+routeRegularExV260(state);
 let sel=SETS.find(s=>s.unlock===1)||SETS[0],cache={},pulls=[],idx=0,busy=false,drag=false,startX=0,startY=0,openStyle=0;let v114PackCount=1,v114BatchGroups=[];
-function save(){try{localStorage.setItem('tcgRipperSave',JSON.stringify(state))}catch(e){storageLimitedV200=true}stats();updateProgressUI()}function stats(){$('#coins').textContent=Number(state.coins||0).toFixed(2);$('#packs').textContent=state.packs;$('#hits').textContent=state.hits;let bc=document.getElementById('binderCashV147');if(bc)bc.textContent=Number(state.coins||0).toFixed(2);let ec=document.getElementById('earnCashV153');if(ec)ec.textContent='$'+Number(state.coins||0).toFixed(2)}
+function save(){routeRegularExV260(state);try{localStorage.setItem('tcgRipperSave',JSON.stringify(state))}catch(e){storageLimitedV200=true}stats();updateProgressUI()}function stats(){$('#coins').textContent=Number(state.coins||0).toFixed(2);$('#packs').textContent=state.packs;$('#hits').textContent=state.hits;let bc=document.getElementById('binderCashV147');if(bc)bc.textContent=Number(state.coins||0).toFixed(2);let ec=document.getElementById('earnCashV153');if(ec)ec.textContent='$'+Number(state.coins||0).toFixed(2)}
 function asset(u,quality='high'){if(!u)return'';return u+'/'+quality+'.webp'}function logo(s){return `https://assets.tcgdex.net/en/${s.series}/${s.id}/logo.png`}
 const MEGA_SET_REQUIREMENTS={
  'sm12':{label:'MEGA RARE SET',xp:52000,badges:['elite','hit50'],hits:[{setId:'swsh7',card:'Umbreon VMAX'}]},
@@ -143,8 +144,16 @@ function emergencySet(set){
   return {cards,official:max,emergency:true};
 }
 async function fetchWithTimeout(url,ms=2200){
+  // Official set/rarity lists are immutable collection data, not live prices.
+  // Reuse them across Safari/app launches so every pack need not redownload them.
+  const catalog=/^https:\/\/api\.tcgdex\.net\/v2\/en\/(sets\/[^?]+|cards\?)/.test(url);
+  let catalogCache=null;
+  if(catalog&&typeof caches!=='undefined'){
+    let deadline;
+    try{const cached=await Promise.race([(async()=>{catalogCache=await caches.open('tcg-catalog-v260');return catalogCache.match(url)})(),new Promise(resolve=>{deadline=setTimeout(()=>resolve(null),150)})]);if(cached)return cached;}catch(_){}finally{clearTimeout(deadline)}
+  }
   const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),ms);
-  try{return await fetch(url,{signal:ctl.signal,cache:'default'})}finally{clearTimeout(tm)}
+  try{const response=await fetch(url,{signal:ctl.signal,cache:'default'});if(catalogCache&&response.ok){const copy=response.clone();catalogCache.put(url,copy).then(async()=>{const keys=await catalogCache.keys();for(const key of keys.slice(0,Math.max(0,keys.length-120)))await catalogCache.delete(key)}).catch(()=>{});}return response;}finally{clearTimeout(tm)}
 }
 async function getSet(target=sel){
   target=target||sel;
@@ -399,7 +408,24 @@ function applyRevealEffects(c,st){sfxV67('card');let t=tier(c),v125Rare=t>=3||!!
  /rare holo gx/.test(r)?'✦ POKÉMON-GX HIT ✦':
  '✦ HIT ✦';b.classList.add('show')}$('#cardName').textContent=(isNew?'NEW • ':'')+c.name;$('#cardRarity').textContent=c.rarity||'Card';$('#cardNo').textContent=`${c.set} • #${c.number}${c.finish?' • '+c.finish:''}`;let bulkRoute=isBulkCardV64(c),keepBtn=document.getElementById('keep');if(keepBtn)keepBtn.innerHTML=bulkRoute?'🗃️ ADD TO BULK TUB':'📘 STASH IN BINDER';$('#decisionHint').textContent=bulkRoute?'Bulk card — owning it in the Tub counts toward this Master Set.':'Hit card — owning it in the Binder counts toward this Master Set.';if(isHit){st.classList.add('hitMoment');$('#instruction').textContent=t>=4?'🔥 MASSIVE HIT!':'✨ HIT!';setTimeout(()=>{if(pulls[idx]!==c)return;st.classList.remove('hitMoment');$('#meta').classList.add('show','hitDecision');$('#instruction').textContent='Swipe this hit away to continue'},t>=4?900:620)}else{$('#meta').classList.add('show');$('#instruction').textContent=isReverse?'◇ REVERSE HOLO — swipe to continue':isFoil?'✦ HOLO — swipe to continue':'Swipe card away to continue'}}
 
+function isRegularExV260(c){
+ if(!c||c.secret||c.emergency)return false;
+ const r=String(c.rarity||'').toLowerCase().trim(),f=String(c.finish||'').toLowerCase();
+ if(/shiny|illustration|ultra|full art|secret|hyper|rainbow|gallery/.test(r+' '+f))return false;
+ return /\bex\b/i.test(String(c.name||''))&&/^(double rare|rare holo ex|holo rare ex)$/.test(r);
+}
+function routeRegularExV260(s){
+ if(!s?.binder)return false;let moved=false;
+ for(const [id,c]of Object.entries(s.binder)){
+   if(!isRegularExV260(c)||!Number.isSafeInteger(Number(c.qty))||Number(c.qty)<1)continue;
+   const existing=s.bulkV64?.[id],qty=Number(c.qty)+Number(existing?.qty||0);
+   if(!Number.isSafeInteger(qty)||qty<1)continue;
+   s.bulkV64||={};s.bulkV64[id]={...c,...existing,qty};delete s.binder[id];moved=true;
+ }
+ return moved;
+}
 function isBulkCardV64(c){
+ if(isRegularExV260(c))return true;
  const r=String(c?.rarity||'').toLowerCase().trim();
  if(!r||r==='card'||c?.emergency)return false;
  if(/shiny|illustration|ultra|double rare|secret|hyper|rainbow|radiant|amazing|trainer gallery|ace spec|rare holo v|max|vstar|gx|ex/.test(r))return false;
@@ -1332,10 +1358,10 @@ function wireLooseCardV64(d,id){
  d.addEventListener('pointermove',e=>{if(!d.hasPointerCapture?.(e.pointerId))return;const mx=e.clientX-sx,my=e.clientY-sy,vx=e.clientX-lx,vy=e.clientY-ly;lx=e.clientX;ly=e.clientY;if(Math.hypot(mx,my)>9){moved=true;if(timer){clearTimeout(timer);timer=null}d.classList.remove('held');d.classList.add('dragging');d.dataset.dx=Math.max(-115,Math.min(115,mx));d.dataset.dy=Math.max(-150,Math.min(150,my));d.style.transform=`translate(-50%,-50%) translate(${d.dataset.dx}px,${d.dataset.dy}px) rotate(${Number(d.dataset.rot||0)+vx*.35}deg)`;repelCardsV65(d,e.clientX,e.clientY,vx,vy)}});
  const up=e=>{if(timer){clearTimeout(timer);timer=null}d.classList.remove('held','dragging');if(moved){const tub=document.getElementById('bulkTubV64').getBoundingClientRect(),r=d.getBoundingClientRect();let nx=Math.max(9,Math.min(89,((r.left+r.width*.5-tub.left)/tub.width)*100)),ny=Math.max(16,Math.min(77,((r.top+r.height*.5-tub.top)/tub.height)*100));d.style.left=nx+'%';d.style.top=ny+'%';d.dataset.x=nx;d.dataset.y=ny;d.dataset.dx=0;d.dataset.dy=0}applyBulkTiltV64()};d.addEventListener('pointerup',up);d.addEventListener('pointercancel',up);
 }
-function openBulkCardV64(id){const c=state.bulkV64?.[id];if(!c)return;bulkInspectIdV64=id;document.getElementById('bulkInspectImgV64').src=c.img||c.thumb||'';document.getElementById('bulkInspectNameV64').textContent=c.name;document.getElementById('bulkInspectTypeV150').textContent=(c.finish||c.rarity||'Bulk card').toUpperCase();document.getElementById('bulkInspectInfoV64').textContent=`${c.set} • #${c.number} • ${c.rarity||'Card'}${c.finish?' • '+c.finish:''} • ${c.qty} in tub`;document.getElementById('bulkInspectValueV150').textContent=`Bulk value • $${(sellPrice(c)*Number(c.qty||0)).toFixed(2)}`;document.getElementById('bulkInspectV64').classList.add('show')}
+function openBulkCardV64(id){const c=state.bulkV64?.[id];if(!c)return;const move=document.getElementById('bulkMoveBinderV64');if(move){move.disabled=isRegularExV260(c);move.textContent=move.disabled?'Regular ex stays in Bulk':'Move one to Binder';}bulkInspectIdV64=id;document.getElementById('bulkInspectImgV64').src=c.img||c.thumb||'';document.getElementById('bulkInspectNameV64').textContent=c.name;document.getElementById('bulkInspectTypeV150').textContent=(c.finish||c.rarity||'Bulk card').toUpperCase();document.getElementById('bulkInspectInfoV64').textContent=`${c.set} • #${c.number} • ${c.rarity||'Card'}${c.finish?' • '+c.finish:''} • ${c.qty} in tub`;document.getElementById('bulkInspectValueV150').textContent=`Bulk value • $${(sellPrice(c)*Number(c.qty||0)).toFixed(2)}`;document.getElementById('bulkInspectV64').classList.add('show')}
 function closeBulkCardV64(){document.getElementById('bulkInspectV64').classList.remove('show');bulkInspectIdV64=null}
 function moveBulkToBinderV64(){
- const id=bulkInspectIdV64,c=state.bulkV64?.[id];if(!c)return;
+ const id=bulkInspectIdV64,c=state.bulkV64?.[id];if(!c||isRegularExV260(c))return;
  const copy={...c,qty:1,manualBinder:true};
  c.qty=Number(c.qty||1)-1;if(c.qty<=0)delete state.bulkV64[id];
  addToBinderV64(copy,1);if(state.binder?.[id])state.binder[id].manualBinder=true;
@@ -1370,7 +1396,7 @@ async function repairSavedCardsV66(){
      if(!c||(!c.emergency&&(c.rarity&&c.rarity!=='Card')&&c.img))continue;
      await hydrateCard(c);
      /* If a card in Bulk turns out to be a real hit, restore it to Binder. */
-     if(group===state.bulkV64&&c.rarity&&c.rarity!=='Card'&&tier(c)>=2){
+     if(group===state.bulkV64&&c.rarity&&c.rarity!=='Card'&&!isBulkCardV64(c)){
        const qty=Number(c.qty||1);addToBinderV64(c,qty);delete state.bulkV64[id];
      }
      save();await new Promise(r=>setTimeout(r,90));
