@@ -1244,14 +1244,17 @@ function openMarketPickerV57(card){
  };
  renderPicker('');document.getElementById('marketPriceV57').value=Number(marketPickV57.market||.1).toFixed(2);document.getElementById('marketCreateV57').textContent=marketPickV57.sourceType==='slab'?'LIST GRADED CARD':'LIST CARD';document.getElementById('marketModalV57').classList.add('show');
 }
-function createListingV57(){
+async function createListingV57(){
  const c=marketPickV57,ask=Math.max(.1,Number(document.getElementById('marketPriceV57').value||0));if(!c)return;
  if(c.sourceType==='slab'){
   const i=(state.gradingV44?.graded||[]).findIndex(j=>j.uid===c.uid);if(i<0){toast('That graded card is no longer in your Vault.');return}
   const j=state.gradingV44.graded.splice(i,1)[0],market=gradedValueV56(j);state.marketV57.listings.push({uid:'L'+Date.now()+Math.random(),kind:'slab',id:j.id,name:j.name,set:j.set||'',thumb:j.thumb||j.img||'',market:Number(market||.1),ask,age:0,grade:Number(j.grade||0),cert:j.cert||'',slab:j});save();document.getElementById('marketModalV57').classList.remove('show');renderMarketV57();renderSlabVaultV52();toast(`Listed graded ${j.name} ${Number(j.grade||0).toFixed(1)} for $${ask.toFixed(2)}`);return
  }
  const raw=c.sourceRef||c;if(!(state.binder?.[raw.id]&&Number(state.binder[raw.id].qty||0)>0)){toast('That card is no longer in your binder.');return}
- state.binder[raw.id].qty--;if(state.binder[raw.id].qty<=0)delete state.binder[raw.id];state.marketV57.listings.push({uid:'L'+Date.now()+Math.random(),kind:'card',id:raw.id,name:raw.name,set:raw.set||'',thumb:raw.thumb||raw.img||'',market:Number(raw.market||.1),ask,age:0,card:raw});save();document.getElementById('marketModalV57').classList.remove('show');renderMarketV57();renderBinder();renderSets();try{renderMasterV57()}catch(e){};toast(`Listed ${raw.name} for $${ask.toFixed(2)} • Master Sets recalculated`);
+ const submit=document.getElementById('marketCreateV57');if(submit.disabled)return;submit.disabled=true;
+ try{if(!window.tcgTradeHub?.listCard)throw new Error('Marketplace is connecting. Open Trade and try again.');await window.tcgTradeHub.listCard(raw.id,document.getElementById('marketPriceV57').value);toast('Listed for all players in Trade → Marketplace.');}
+ catch(e){toast(e.message||'Listing could not complete. Check Trade for recovery.');}
+ finally{submit.disabled=false;}
 }
 function hugeHitV57(c,isGod=false){
  if(!c)return false;const v=Number(c.market||0),rar=String(c.rarity||'').toLowerCase(),huge=isGod||v>=35||/secret|illustration rare|hyper rare|special art|rainbow|gold/.test(rar);if(!huge)return false;

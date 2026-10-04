@@ -86,3 +86,25 @@ test('account switch cancels an action queued behind maintenance',async()=>{
  await f.c.setUser({id:'B'});heartbeat.resolve({data:data()});await background;await rejection;
  assert.equal(sentProfile,false);assert.equal(f.c.uid,'B');await f.c.dispose();
 });
+
+test('committed listings appear while the collection restore is still finishing',async()=>{
+ const restore=deferred();const f=fixture(async(_,{p_action})=>({data:{...data(),listings:p_action==='listing_create'?[{id:'new'}]:[]}}));
+ f.c.bridge={begin:async()=>1,finish:()=>restore.promise};await f.c.setUser({id:'A'});
+ const action=f.c.command('listing_create',{card_id:'machamp',price:100});await tick();
+ assert.equal(f.c.state.data.listings[0].id,'new');assert.equal(f.c.state.busy,true);
+ restore.resolve();await action;assert.equal(f.c.pending,null);await f.c.dispose();
+});
+test('realtime signals during an existing fetch coalesce into a fresh follow-up',async()=>{
+ const wait=deferred();let calls=0;const f=fixture(async()=>++calls===2?wait.promise:{data:{...data(),listings:calls>2?[{id:'new'}]:[]}});
+ await f.c.setUser({id:'A'});const first=f.c.refresh();f.c.requestRefresh();f.c.requestRefresh();
+ wait.resolve({data:data()});await first;await tick();assert.equal(calls,3);assert.equal(f.c.state.data.listings[0].id,'new');await f.c.dispose();
+});
+test('legacy raw listing submits to the shared market without removing local cards',async()=>{
+ const {readFile}=await import('node:fs/promises'),{runInNewContext}=await import('node:vm');
+ const source=await readFile(new URL('../public/runtime/core.js',import.meta.url),'utf8');
+ const body=source.slice(source.indexOf('async function createListingV57(){'),source.indexOf('\n}',source.indexOf('async function createListingV57(){'))+2);
+ const card={id:'machamp',qty:2},submit={disabled:false},sent=[];
+ const ctx={marketPickV57:card,state:{binder:{machamp:card}},document:{getElementById:id=>id==='marketCreateV57'?submit:{value:'12.50'}},window:{tcgTradeHub:{listCard:async(...args)=>sent.push(args)}},toast:()=>{}};
+ runInNewContext(body,ctx);await ctx.createListingV57();assert.deepEqual(sent,[['machamp','12.50']]);assert.equal(card.qty,2);assert.equal(submit.disabled,false);
+ ctx.window.tcgTradeHub.listCard=async()=>{throw Error('offline');};await ctx.createListingV57();assert.equal(card.qty,2);assert.equal(submit.disabled,false);
+});

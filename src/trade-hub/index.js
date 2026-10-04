@@ -1,5 +1,6 @@
 import { HubController } from './controller.js';
 import { HubView } from './view.js';
+import { parsePrice } from './model.js';
 
 export function installTradeHub(target=window,doc=document) {
   if(target.tcgTradeHub)return target.tcgTradeHub;
@@ -41,6 +42,17 @@ export function installTradeHub(target=window,doc=document) {
   doc.addEventListener('click',onNavigation);
   const dispose=()=>{authSubscription?.unsubscribe();view.dispose();controller.dispose();doc.removeEventListener('visibilitychange',onVisible);doc.removeEventListener('click',onNavigation);target.removeEventListener('online',onOnline);target.removeEventListener('pageshow',onPageShow);};
   target.addEventListener('pagehide',event=>{if(!event.persisted)dispose();});
-  target.tcgTradeHub={controller,view,dispose};
+  const listCard=async(cardId,price)=>{
+    if(!controller.uid)throw new Error('Sign in through Profile Settings to list cards for other players.');
+    const cents=parsePrice(price);
+    // Leave ownership changes to the same server transaction used by the hub form.
+    view.tab='market';view.query='';view.own=true;
+    doc.getElementById('marketModalV57')?.classList.remove('show');
+    doc.getElementById('cardModal')?.classList.remove('show');
+    doc.querySelector('.nav [data-s="earn"]')?.click();
+    try{await controller.command('listing_create',{card_id:cardId,price:cents});view.notice='Card listed for all players.';}
+    finally{view.render();}
+  };
+  target.tcgTradeHub={controller,view,dispose,listCard};
   return target.tcgTradeHub;
 }
