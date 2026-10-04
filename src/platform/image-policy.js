@@ -1,6 +1,6 @@
 function tune(img) {
   if (!(img instanceof HTMLImageElement)) return;
-  const critical = img.classList.contains('packArt') || img.closest('.cardStack.show,.v128Hero,.gradeReturnStage,.mpModalV218');
+  const critical = img.classList.contains('packArt') || img.closest('.cardStack.show,.hub-reveal,.v128Hero,.gradeReturnStage,.mpModalV218');
   img.decoding = 'async';
   img.loading = critical ? 'eager' : 'lazy';
   if ('fetchPriority' in img) img.fetchPriority = critical ? 'high' : 'auto';
