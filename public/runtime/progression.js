@@ -1849,7 +1849,9 @@ try{
       if(hubHold)throw new Error('Retry the pending Trade Hub action first.');
       const deadline=Date.now()+8000;
       while(syncBusy&&Date.now()<deadline)await new Promise(r=>setTimeout(r,50));
-      if(syncBusy||!await pushNow(false,true,true)||user?.id!==account)throw new Error('SYNC_REQUIRED');
+      // A clean, versioned account needs no full collection upload before every
+      // market/battle action. The command still checks this version on the server.
+      if(syncBusy||((isDirty()||!isBound()||!(cloudVersion??storedVersion()))&&!await pushNow(false,true,true))||user?.id!==account)throw new Error('SYNC_REQUIRED');
       hubHold=true;clearTimeout(syncTimer);syncTimer=null;
       return cloudVersion??storedVersion();
     }catch(e){if(!hubHold)hubBarrier(false);throw e;}

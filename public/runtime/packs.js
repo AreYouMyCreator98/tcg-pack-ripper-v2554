@@ -1084,7 +1084,7 @@
  if(rail){
    rail.addEventListener('click',e=>{
      const tile=e.target.closest('.set[data-set-id]');
-     if(!tile||e.target.closest('.setReqBtn'))return;
+     if(!tile||e.target.closest('.setReqBtn,.setInfoIconV186'))return;
      const s=SETS.find(x=>x.id===tile.dataset.setId);if(!s)return;
      e.preventDefault();e.stopImmediatePropagation();
      fastSelect(s,tile);
