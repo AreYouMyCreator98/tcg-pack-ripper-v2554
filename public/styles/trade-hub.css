@@ -118,3 +118,16 @@
 .hub-sell-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;max-height:360px;overflow:auto;overscroll-behavior:contain;padding:4px}.hub-sell-picker button{display:flex;flex-direction:column;gap:4px;min-width:0;padding:7px;align-items:center;text-align:center}.hub-sell-picker img{width:100%;max-width:100px;aspect-ratio:63/88;object-fit:contain;border-radius:7px}.hub-sell-picker strong{font-size:11px}.hub-sell-picker small{font-size:10px}.hub-sell-picker button[aria-pressed="true"]{outline:2px solid #619ba7;background:#eaf7fa}
 
 .social-layout{display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,2fr);gap:16px;align-items:start}.social-friends{max-height:320px;overflow:auto}.social-friends article,.social-request{display:grid;gap:7px;padding:12px 0;border-bottom:1px solid #dce5ea}.social-friends article>div{display:flex;flex-wrap:wrap;gap:6px}.social-presence{font-size:12px;color:#62717e}.social-presence.online{color:#197552}.social-messages{max-height:420px;overflow:auto;overscroll-behavior:contain;padding:8px}.social-messages p{white-space:pre-wrap;overflow-wrap:anywhere}.social-conversation textarea{min-height:80px}.social-conversation header{display:flex;align-items:center;justify-content:space-between;gap:10px}.social-layout small{color:#62717e}.social-layout form{margin-top:14px}.social-layout details{margin-top:16px}@media(max-width:650px){.social-layout{grid-template-columns:1fr}.social-friends{max-height:220px}.social-messages{max-height:330px}.social-conversation{scroll-margin-top:20px}}
+/* Collector cards reuse the same public banner everywhere a name is shown. */
+.trade-hub .hub-collector-link{display:inline!important;width:auto!important;min-height:32px;padding:3px 0!important;border:0!important;border-radius:4px!important;background:transparent!important;box-shadow:none!important;color:inherit!important;font:inherit!important;text-align:inherit;text-decoration:underline;text-decoration-color:#aa93c166;text-underline-offset:3px;cursor:pointer}
+.hub-collector-profile{max-width:850px;margin:auto;scroll-margin-top:12px}
+.hub-collector-profile>header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}
+.hub-collector-profile>.hub-banner{width:100%;box-sizing:border-box}
+.hub-profile-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0 22px}
+.hub-profile-actions button{min-height:44px}
+.hub-profile-hits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:14px 0 22px}
+.hub-profile-hits article{min-width:0;padding:12px;background:#ffffffb8;border:1px solid white;border-radius:16px}
+.hub-profile-hits img{display:block;width:100%;aspect-ratio:2.5/3.5;object-fit:contain;border-radius:9px}
+.hub-profile-hits strong,.hub-profile-hits small{display:block;margin-top:6px;overflow-wrap:anywhere}
+.hub-profile-hits small{color:#73788d;font-size:11px}
+@media(max-width:520px){.hub-profile-hits{gap:8px}.hub-profile-hits article{padding:7px}.hub-profile-hits strong{font-size:11px}.hub-profile-hits small{font-size:10px}.hub-profile-actions button{flex:1 0 40%}}
