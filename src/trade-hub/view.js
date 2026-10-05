@@ -1,9 +1,9 @@
-import { TABS, TERMINAL, battleCost, money, rankProgress, escapeHtml as e, safeImage, filterListings, availableInventory, parsePrice, roomCode, errorMessage } from './model.js';
+import { TABS, TERMINAL, activityTitle, battleCost, money, rankProgress, escapeHtml as e, safeImage, filterListings, availableInventory, parsePrice, roomCode, errorMessage } from './model.js';
 import { patchMarkup, createArtWarmer } from './render.js';
 import { cinematicProfile } from '../animations/packs/cinematic-profile.js';
 import { RANKS } from '../data/ranks.js';
 
-const labels={market:'Marketplace',trades:'Trading',battles:'Pack battles',chat:'Global chat',ranked:'Ranked',activity:'Activity',shops:'Local shops'};
+const labels={market:'Marketplace',trades:'Trading',battles:'Pack battles',chat:'Global chat',friends:'Friends',ranked:'Ranked',activity:'Activity',shops:'Local shops'};
 const empty=(title,detail='')=>`<div class="hub-empty"><strong>${e(title)}</strong><p>${e(detail)}</p></div>`;
 const button=(action,text,attrs='')=>`<button type="button" data-hub-action="${action}" ${attrs}>${text}</button>`;
 const art=(card,eager=false)=>safeImage(card?.thumb||card?.img)?`<img src="${e(safeImage(card.thumb||card.img))}" alt="${e(card.name)}" loading="${eager?'eager':'lazy'}" decoding="async" fetchpriority="${eager?'high':'auto'}" data-fallback="${e(safeImage(card.img))}" referrerpolicy="no-referrer">`:'<span class="hub-card-fallback" aria-hidden="true">✦</span>';
@@ -47,9 +47,9 @@ export class HubView {
     <nav class="hub-tabs" aria-label="Trade Hub">${TABS.map(t=>`<button type="button" data-hub-tab="${t}" aria-current="${this.tab===t?'page':'false'}" class="${this.tab===t?'active':''}">${labels[t]}${t==='chat'&&this.unread?` <span class="hub-unread">${this.unread}</span>`:''}</button>`).join('')}</nav>
     <div class="hub-notice" role="status" aria-live="polite">${e(state.error||this.notice||'')}${this.controller.pending&&!state.busy?button('retry','Retry pending action'):''}${state.status==='offline'?button('refresh','Reconnect'):''}</div>
     ${foregroundBusy?`<div class="hub-working" role="status">${workingLabel(state.action)}</div>`:''}
-    ${matchAlert}<div class="hub-content" ${foregroundBusy?'aria-busy="true"':''}>${this.tab==='shops'?'<div class="hub-section-title"><h2>Collector district</h2><p>Singles, local listings, daily swaps, auctions, dealers and sealed products.</p></div>':!data?empty(state.status==='signed-out'?'Meet your next collector':'Connecting to Trade Hub',state.status==='signed-out'?'Sign in through Profile → Settings for the marketplace, multiplayer, chat and ranked. Your local collection is safe.':'Your collection stays unchanged while we connect.')+button('account','Open Profile')+button('refresh','Try connection again'):this.panel(data,room)}</div>`);
+    ${matchAlert}<div class="hub-content" ${foregroundBusy?'aria-busy="true"':''}>${this.tab==='friends'?(this.social?.markup()||empty('Friends & messages','Connecting…')):this.tab==='shops'?'<div class="hub-section-title"><h2>Collector district</h2><p>Singles, local listings, daily swaps, auctions, dealers and sealed products.</p></div>':!data?empty(state.status==='signed-out'?'Meet your next collector':'Connecting to Trade Hub',state.status==='signed-out'?'Sign in through Profile → Settings for the marketplace, multiplayer, chat and ranked. Your local collection is safe.':'Your collection stays unchanged while we connect.')+button('account','Open Profile')+button('refresh','Try connection again'):this.panel(data,room)}</div>`);
     if(this.shops)this.shops.hidden=this.tab!=='shops';
-    if(foregroundBusy)for(const b of this.root.querySelectorAll('.hub-content button,.hub-content input,.hub-content select,.hub-content textarea'))b.disabled=true;
+    if(foregroundBusy&&this.tab!=='friends')for(const b of this.root.querySelectorAll('.hub-content button,.hub-content input,.hub-content select,.hub-content textarea'))b.disabled=true;
     if(room?.status==='playing'){const at=this.controller.revealProgress?.(room)??this.controller.serverProgress?.(room)??0;this.warmArt(room.my_cards.slice(at,at+4).map(c=>safeImage(c.thumb||c.img)));}
     if(focus?.name){const input=[...this.root.querySelectorAll('[name]')].find(x=>x.name===focus.name);input?.focus();if(typeof input?.setSelectionRange==='function'&&focus.start!==null)try{input.setSelectionRange(focus.start,focus.end);}catch{}}
     const messages=this.root.querySelector('.hub-messages');if(messages)messages.scrollTop=scroll??messages.scrollHeight;
@@ -59,7 +59,7 @@ export class HubView {
     if(this.tab==='trades'||this.tab==='battles')return this.rooms(d,r);
     if(this.tab==='chat')return this.chat(d);
     if(this.tab==='ranked')return this.ranked(d);
-    return `<div class="hub-section-title"><h2>Collection activity</h2><p>Confirmed purchases, trades and battle results.</p></div>${d.activity.length?'<ol class="hub-activity">'+d.activity.map(a=>`<li><time>${e(date(a.created_at))}</time><div><strong>${e(a.kind.replaceAll('_',' '))}</strong><p>${e(a.detail.name||a.detail.result||a.detail.reason||'')}${a.detail.price!==undefined?' · '+money(a.detail.price):''}${a.detail.delta!==undefined?' · '+(a.detail.delta>=0?'+':'')+a.detail.delta+' RP':''}${a.detail.received?' · '+a.detail.received+' cards received':''}</p></div></li>`).join('')+'</ol>':empty('Your story starts here','Completed exchanges will appear here.')}`;
+    return `<div class="hub-section-title"><h2>Collection activity</h2><p>Confirmed purchases, trades and battle results.</p></div>${d.activity.length?'<ol class="hub-activity">'+d.activity.map(a=>`<li><time>${e(date(a.created_at))}</time><div><strong>${e(activityTitle(a))}</strong><p>${e(a.detail.name||a.detail.result||a.detail.reason||'')}${a.detail.price!==undefined?' · '+money(a.detail.price):''}${a.detail.delta!==undefined?' · '+(a.detail.delta>=0?'+':'')+a.detail.delta+' RP':''}${a.detail.received?' · '+a.detail.received+' cards received':''}</p></div></li>`).join('')+'</ol>':empty('Your story starts here','Completed exchanges will appear here.')}`;
   }
   market(d) {
     const rows=filterListings(d.listings,this.query,this.sort,this.own,d.user_id);
@@ -116,6 +116,7 @@ export class HubView {
     if(preview)preview.innerHTML=banner(this.draftProfile());
   }
   onInput(event) {
+    if(event.target.closest?.("[data-social-root]"))return this.social?.onInput(event);
     const el=event.target,name=el.name;if(!name)return;
     if(name==='search'){this.query=el.value;this.render();return;}
     if(name==='sort'){this.sort=el.value;this.render();return;}
@@ -150,8 +151,9 @@ export class HubView {
     } catch(error){this.notice=errorMessage(error);this.render();}
   }
   async onClick(event) {
+    if(event.target.closest?.("[data-social-root]"))return this.social?.onClick(event);
     const tab=event.target.closest('[data-hub-tab]');
-    if(tab){this.tab=tab.dataset.hubTab;if(this.tab==='market'){this.own=false;this.query='';this.controller.requestRefresh();}this.confirm=null;this.notice='';if(this.tab==='chat')this.unread=0;this.render();return;}
+    if(tab){this.tab=tab.dataset.hubTab;if(this.tab==='friends')this.social?.refresh();if(this.tab==='market'){this.own=false;this.query='';this.controller.requestRefresh();}this.confirm=null;this.notice='';if(this.tab==='chat')this.unread=0;this.render();return;}
     const b=event.target.closest('[data-hub-action]');if(!b||b.disabled)return;
     const a=b.dataset.hubAction,d=this.controller.state.data,r=this.room();
     if(a==='pick-card'){this.drafts.card_id=b.dataset.id;this.render();return;}
@@ -177,6 +179,7 @@ export class HubView {
     if(a==='mute'){this.muted=!this.muted;this.unread=0;try{this.controller.storage?.setItem('tcg-hub-chat-muted:'+this.controller.uid,String(this.muted));}catch{}this.render();}
   }
   async onSubmit(event) {
+    if(event.target.closest?.("[data-social-root]"))return this.social?.onSubmit(event);
     const form=event.target.closest('[data-hub-form]');if(!form)return;event.preventDefault();
     const get=name=>form.querySelector(`[name="${name}"]`)?.value;
     try {
