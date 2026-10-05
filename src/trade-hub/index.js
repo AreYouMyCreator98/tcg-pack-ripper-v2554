@@ -1,6 +1,7 @@
 import { HubController } from './controller.js';
 import { HubView } from './view.js';
 import { parsePrice } from './model.js';
+import { Social } from './social.js';
 
 export function installTradeHub(target=window,doc=document) {
   if(target.tcgTradeHub)return target.tcgTradeHub;
@@ -21,6 +22,9 @@ export function installTradeHub(target=window,doc=document) {
   // The signed-out view and local district work even if the auth SDK is unavailable.
   const controller=new HubController({client,bridge,notify:state=>view.render(state)});
   const view=new HubView(root,controller,{shops});
+  const social=new Social({client,active:()=>view.tab==='friends'&&bridge.active(),visible:bridge.visible,notify:()=>{if(view.tab==='friends')view.render();else {const b=root.querySelector('[data-hub-tab="friends"]');if(b)b.textContent='Friends'+(social.data.friends.some(f=>f.unread)?' •':'');}}});
+  view.social=social;
+  const setUser=user=>{social.setUser(user).catch(()=>{});return controller.setUser(user);};
   view.render();
   let authSubscription;
   if(client){
@@ -28,12 +32,12 @@ export function installTradeHub(target=window,doc=document) {
     const {data}=client.auth.onAuthStateChange((_event,session)=>{
       ++authRevision;
       // Do not await Supabase calls inside its auth callback.
-      queueMicrotask(()=>controller.setUser(session?.user).catch(e=>controller.emit({status:'offline',error:e.message})));
+      queueMicrotask(()=>setUser(session?.user).catch(e=>controller.emit({status:'offline',error:e.message})));
     });authSubscription=data?.subscription;
     const initialRevision=authRevision;
-    client.auth.getSession().then(({data,error})=>{if(error)throw error;if(authRevision===initialRevision)return controller.setUser(data?.session?.user);}).catch(e=>controller.emit({status:'offline',error:e.message}));
+    client.auth.getSession().then(({data,error})=>{if(error)throw error;if(authRevision===initialRevision)return setUser(data?.session?.user);}).catch(e=>controller.emit({status:'offline',error:e.message}));
   }
-  const resume=()=>{view.notice='';return controller.resume();};
+  const resume=()=>{view.notice='';social.resume().catch(()=>{});return controller.resume();};
   const onVisible=()=>{if(doc.visibilityState!=='hidden')resume().catch(()=>{});else controller.suspend();};
   const onPageShow=event=>{if(event.persisted)onVisible();};
   target.addEventListener('pageshow',onPageShow);
@@ -41,7 +45,7 @@ export function installTradeHub(target=window,doc=document) {
   const onNavigation=event=>{if(event.target.closest?.('.nav [data-s="earn"]'))controller.refresh();};
   doc.addEventListener('visibilitychange',onVisible);target.addEventListener('online',onOnline);
   doc.addEventListener('click',onNavigation);
-  const dispose=()=>{authSubscription?.unsubscribe();view.dispose();controller.dispose();doc.removeEventListener('visibilitychange',onVisible);doc.removeEventListener('click',onNavigation);target.removeEventListener('online',onOnline);target.removeEventListener('pageshow',onPageShow);};
+  const dispose=()=>{authSubscription?.unsubscribe();view.dispose();controller.dispose();social.dispose();doc.removeEventListener('visibilitychange',onVisible);doc.removeEventListener('click',onNavigation);target.removeEventListener('online',onOnline);target.removeEventListener('pageshow',onPageShow);};
   target.addEventListener('pagehide',event=>{if(!event.persisted)dispose();});
   const listCard=async(cardId,price)=>{
     if(!controller.uid)throw new Error('Sign in through Profile Settings to list cards for other players.');
@@ -54,6 +58,6 @@ export function installTradeHub(target=window,doc=document) {
     try{await controller.command('listing_create',{card_id:cardId,price:cents});view.notice='Card listed for all players.';}
     finally{view.render();}
   };
-  target.tcgTradeHub={controller,view,dispose,listCard};
+  target.tcgTradeHub={controller,view,social,dispose,listCard};
   return target.tcgTradeHub;
 }

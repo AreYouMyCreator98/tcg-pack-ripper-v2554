@@ -1,7 +1,7 @@
 import { RANKS } from '../data/ranks.js';
 
 export const HUB_VERSION = 256;
-export const TABS = ['market', 'trades', 'battles', 'chat', 'ranked', 'activity', 'shops'];
+export const TABS = ['market', 'trades', 'battles', 'chat', 'friends', 'ranked', 'activity', 'shops'];
 export const TERMINAL = new Set(['completed', 'cancelled', 'expired']);
 export const MONEY_LIMIT = 100_000_000;
 export function battleCost(data,setId,packs=1) {
@@ -78,4 +78,11 @@ export function errorMessage(error) {
   if(/failed to fetch|load failed|networkerror|network request failed|connection timed out/i.test(message))return 'Connection interrupted. Reconnecting safely; any pending action will be checked before it is retried.';
   return Object.entries(ERROR_TEXT).find(([key]) => message.includes(key))?.[1]
     || (/PGRST202|hub_command|does not exist/.test(message) ? 'The new Trade Hub service has not been installed on this server yet.' : message.slice(0,220));
+}
+
+export function activityTitle(activity){
+ const name=activity.detail?.counterparty_name;
+ if(activity.kind==='bought')return name?'BOUGHT FROM '+name:'BOUGHT';
+ if(activity.kind==='sold')return name?'SOLD TO '+name:'SOLD';
+ return activity.kind.replaceAll('_',' ');
 }

@@ -1,3 +1,4 @@
+import { installQuestShortcut } from './app/quest-shortcut.js';
 import { mountUI } from './ui.js';
 import { installBulkModule } from './screens/bulk/index.js';
 import { configurePlatform } from './platform/mobile.js';
@@ -61,6 +62,7 @@ async function boot() {
     bootStage = 'loading interface';
     setLaunchStage('BUILDING COLLECTOR ROOM', 18, 'Mounting the game interface…');
     await mountUI();
+    installQuestShortcut({load:loadSecondaryRuntime});
     bootMark('ui-mounted');
 
     bootStage = 'installing interface systems';

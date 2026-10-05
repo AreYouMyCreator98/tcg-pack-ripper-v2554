@@ -50,7 +50,7 @@ export class HubController {
     await this.refresh();
     if(epoch!==this.epoch||this.disposed)return;
     this.channel=this.client.channel(`hub-v256:${uid}`)
-      .on('postgres_changes',{event:'UPDATE',schema:'public',table:'hub_signals'},()=>{if(this.bridge.active?.()!==false)this.requestRefresh();})
+      .on('postgres_changes',{event:'UPDATE',schema:'public',table:'hub_signals',filter:'topic=eq.hub'},()=>{if(this.bridge.active?.()!==false)this.requestRefresh();})
       .subscribe(status=>{if(epoch!==this.epoch)return; if(status==='SUBSCRIBED')this.refresh();else if(status==='CHANNEL_ERROR'||status==='TIMED_OUT')this.emit({status:'reconnecting'});});
     // Polling recovers dropped realtime events. It is bounded, account-scoped and cleaned up.
     this.timer=this.clock.setInterval(()=>{if(this.bridge.active?.()!==false)this.refresh();},2000);
