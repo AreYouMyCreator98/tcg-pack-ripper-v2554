@@ -42,11 +42,31 @@ export function renderV253Summary(detail, { bridge, session, onResetSession } = 
     </div>
     <button type="button" class="v253ResetSession">RESET SESSION STATS</button>`;
   const openAnother = wrap.querySelector('#v117OpenAnother');
+  // Portal the existing summary to the viewport: transformed pack ancestors
+  // otherwise clip fixed elements on mobile. Keep the original reset handler.
+  if (wrap.parentElement !== document.body) {
+    document.body.appendChild(wrap);
+    document.body.classList.add('collector-recap-open');
+    wrap.setAttribute('role', 'dialog');
+    wrap.setAttribute('aria-modal', 'true');
+    wrap.setAttribute('aria-label', 'Pack results');
+    wrap.addEventListener('keydown', event => {
+      if(event.key==='Escape'){event.preventDefault();openAnother?.click();}
+      if(event.key==='Tab'){
+        const controls=[...wrap.querySelectorAll('button:not(:disabled)')];
+        const first=controls[0],last=controls.at(-1);
+        if(event.shiftKey&&document.activeElement===first){event.preventDefault();last?.focus();}
+        else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first?.focus();}
+      }
+    });
+    const cleanup = new MutationObserver(() => {
+      if(wrap.isConnected)return;
+      document.body.classList.remove('collector-recap-open');cleanup.disconnect();
+      document.getElementById('studioOpenPack')?.focus({preventScroll:true});
+    });
+    cleanup.observe(document.body,{childList:true});
+  }
   wrap.insertBefore(panel, openAnother || null);
   panel.querySelector('.v253ResetSession')?.addEventListener('click', () => onResetSession?.());
-  requestAnimationFrame(() => {
-    wrap.scrollTop = 0;
-    wrap.querySelector('.v88Fan')?.scrollIntoView?.({ block: 'start', behavior: 'instant' });
-    wrap.scrollTop = 0;
-  });
+  requestAnimationFrame(() => { if(wrap.isConnected)openAnother?.focus({preventScroll:true}); });
 }
