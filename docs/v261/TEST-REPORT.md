@@ -52,3 +52,9 @@ Measured longest tasks: 58 ms / 76 ms / 591 ms respectively. The strict ~50 ms a
 - Temporary preview URLs stop working when the tunnel/workspace stops. A separate static-host upload package is also prepared.
 
 The next recommended work is physical-device acceptance and any resulting V261 corrections, followed by review of the existing server-authority rollout. No V262 feature work is included.
+
+## Review delivery
+
+Review source commit: `d76f2c4899d43a4f7e6bcd30d8885c30c40d8424`, pushed to `v261-dark-silver`. Remote main was verified unchanged at `ff7f248cf713c9bbccebd8e8602b264e80fd1be7`.
+
+The generated preview passed boot, health, separate-save, production-sentinel, blocked-cloud-write, no-account-request and service-worker offline-reload checks. Public tunnel creation was blocked by refused DNS; an alternate static-preview host was denied by the network proxy. No usable public preview URL is claimed. The self-contained ZIP in `preview/` is the approved fallback, with Android upload instructions in `preview/README.md`.
