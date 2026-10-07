@@ -1,3 +1,4 @@
+import {installCardImagePolicy} from '../artwork/card-image.js';
 function tune(img) {
   if (!(img instanceof HTMLImageElement)) return;
   const critical = img.classList.contains('packArt') || img.closest('.cardStack.show,.hub-reveal,.v128Hero,.gradeReturnStage,.mpModalV218');
@@ -7,6 +8,7 @@ function tune(img) {
 }
 
 export function installImagePolicy(root = document) {
+  installCardImagePolicy(root);
   root.querySelectorAll?.('img').forEach(tune);
   const observer = new MutationObserver(records => {
     for (const record of records) {

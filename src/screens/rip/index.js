@@ -27,7 +27,9 @@ export function installRipStudio(target=window,doc=document){
    $('studioPackCount').textContent=s.mode===10?'TEN PACK SESSION':'SINGLE PACK SESSION';
    $('studioOpenPack').textContent=s.mode===10?'Open 10 packs':'Open pack';
    $('studioPackPayment').textContent=s.starterRemaining>0?`${s.starterRemaining} starter packs available`:s.credits>0?`${s.credits} set credits available`:'Uses your in-game balance';
+   const complete=!!$('v88Summary');
    const active=!!s.busy||opening;
+   root.dataset.ripState=complete?'COMPLETE':active?(stage.classList.contains('cardModeV89')?'REVEALING':'OPENING'):'IDLE';
    $('studioOpenPack').disabled=active||!!target.tcgCloudV192?.hubHeld||$('loading')?.classList.contains('show');
    $('studioChooseSet').disabled=active;root.classList.toggle('studio-opening',active);
    doc.body.classList.toggle('collector-pack-opening',active&&root.classList.contains('active'));
@@ -58,6 +60,6 @@ export function installRipStudio(target=window,doc=document){
  if($('loading'))observer.observe($('loading'),{attributes:true,attributeFilter:['class']});
  target.addEventListener('tcg:set-selected',()=>{close();schedule();});
  doc.addEventListener('click',event=>{if(event.target.closest('.nav,[data-count]'))schedule();});
- for(const event of ['tcg:card-reveal','tcg:pack-summary','tcg:pack-generated','tcg:app-ready'])target.addEventListener(event,schedule);
+ for(const event of ['tcg:rip-state','tcg:card-reveal','tcg:pack-summary','tcg:pack-generated','tcg:app-ready'])target.addEventListener(event,schedule);
  sync();return target.tcgRipStudio={refresh:sync};
 }

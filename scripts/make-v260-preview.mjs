@@ -13,8 +13,8 @@ async function isolate(dir){for(const entry of await readdir(dir,{withFileTypes:
  if(!/\.(js|html|json|webmanifest)$/.test(entry.name))continue;
  let source=await readFile(path,'utf8');
  for(const key of ['tcgRipperSave','tcgPrefsV160','tcgAudioV68','tcgAudioV67'])source=source.replaceAll(key,'tcgPreviewV260_'+key);
- source=source.replaceAll('tcg-pack-ripper-0.260.0-1','tcg-pack-ripper-preview-v260-1').replace("k.startsWith('tcg-pack-ripper-')","k.startsWith('tcg-pack-ripper-preview-')");
- if(entry.name==='manifest.webmanifest'){const manifest=JSON.parse(source);manifest.name='TCG Pack Ripper+ V260 Preview';manifest.short_name='V260 Preview';source=JSON.stringify(manifest,null,2);}
+ source=source.replace(/tcg-pack-ripper-0\.260\.[01]-1/g,'tcg-pack-ripper-preview-v2601-1').replace("k.startsWith('tcg-pack-ripper-')","k.startsWith('tcg-pack-ripper-preview-')");
+ if(entry.name==='manifest.webmanifest'){const manifest=JSON.parse(source);manifest.name='TCG Pack Ripper+ V260.1 Preview';manifest.short_name='V260.1 Preview';source=JSON.stringify(manifest,null,2);}
  await writeFile(path,source);
 }}
 await isolate(output.pathname);
@@ -22,7 +22,7 @@ const bootstrap=`window.TCG_PREVIEW=true;
 window.TCG_CLOUD_CONFIG=Object.freeze({});
 const previewFetch=window.fetch.bind(window);
 window.fetch=(input,options)=>{const url=new URL(typeof input==='string'||input instanceof URL?input:input.url,location.href);if(url.hostname.endsWith('.supabase.co')&&!url.pathname.startsWith('/functions/v1/card-art-v239'))return Promise.reject(new Error('Online accounts are disabled in this isolated preview.'));return previewFetch(input,options);};
-window.addEventListener('tcg:app-ready',()=>{const badge=document.createElement('p');badge.id='previewNotice';badge.textContent='V260 PREVIEW · separate local save · online accounts disabled';badge.style.cssText='text-align:center;font:700 10px/1.5 system-ui;color:#675074;margin:8px';document.getElementById('rip').prepend(badge);});`;
+window.addEventListener('tcg:app-ready',()=>{const badge=document.createElement('p');badge.id='previewNotice';badge.textContent='V260.1 PREVIEW · separate local save · online accounts disabled';badge.style.cssText='text-align:center;font:700 10px/1.5 system-ui;color:#675074;margin:8px';document.getElementById('rip').prepend(badge);});`;
 await writeFile(new URL('preview-bootstrap.js',output),bootstrap);
 let html=await readFile(new URL('index.html',output),'utf8');
 html=html.replace('<head>','<head>\n<script src="./preview-bootstrap.js"></script>');
@@ -33,7 +33,7 @@ await writeFile(new URL('serve.py',output),`from http.server import ThreadingHTT
 from pathlib import Path
 import os, socket
 os.chdir(Path(__file__).resolve().parent)
-print('V260 isolated preview. On the same Wi-Fi, open http://YOUR-COMPUTER-LAN-IP:8080 on your phone.')
+print('V260.1 isolated preview. On the same Wi-Fi, open http://YOUR-COMPUTER-LAN-IP:8080 on your phone.')
 print('Use a separate HTTPS preview host to test install/offline PWA behavior. Ctrl+C stops this server.')
 ThreadingHTTPServer(('0.0.0.0',8080),SimpleHTTPRequestHandler).serve_forever()
 `);

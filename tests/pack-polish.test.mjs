@@ -21,7 +21,7 @@ test('Reveal All copy describes uncollected cards accurately', () => {
 
 test('session value reconciles final resolved opening value before recap renders', () => {
   const reconcile = engine.indexOf('session.reconcileOpeningValue(openingGeneratedValue, resolvedOpeningValue)');
-  const render = engine.indexOf('renderV253Summary(detail');
+  const render = engine.indexOf('target.__tcgV253LastPayment');
   assert.ok(reconcile >= 0 && render > reconcile);
   assert.match(engine, /openingGeneratedValue = 0/);
 });

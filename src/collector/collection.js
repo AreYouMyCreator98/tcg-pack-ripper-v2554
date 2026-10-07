@@ -1,3 +1,4 @@
+import {cardImageMarkup} from '../artwork/card-image.js';
 import {cardRows,filterCards,collectionValue,esc,money} from './model.js';
 import {safeImage} from '../trade-hub/model.js';
 export function installCollection(bridge,transactions,win=window,doc=document){
@@ -7,7 +8,7 @@ export function installCollection(bridge,transactions,win=window,doc=document){
  const sealed=doc.createElement('section');sealed.dataset.binderPanel='sealed';sealed.className='binderModeV147 collector-panel';sealed.innerHTML='<h2>Sealed collection</h2><p>Keep, display, inspect or open your sealed products.</p><button class="collector-button" id="collectorOpenSealed">OPEN SEALED SHELF</button>';root.append(sealed);sealed.querySelector('button').onclick=()=>doc.getElementById('openSealedMainV180')?.click();
  let query='',filter='all',sort='value',set='all',page=0,selectedSet=null,checklist=[],missing=false,masterPage=0,catalogRequest=0;
  const catalog=new Map();
- const art=c=>safeImage(c.thumb||c.img)?`<img loading="lazy" decoding="async" src="${esc(safeImage(c.thumb||c.img))}" alt="${esc(c.name)}">`:'<span class="collector-no-art">✦</span>';
+ const art=c=>cardImageMarkup(c);
  function renderCards(){
   const state=bridge.state(),all=cardRows(state),rows=filterCards(all,{query,filter,sort,set,chases:state.collectorV260?.chases||[]}),value=collectionValue(state,bridge.price,bridge.slabValue,bridge.sealedValue?.()||0);page=Math.max(0,Math.min(page,Math.ceil(rows.length/36)-1));
   doc.getElementById('binderStat').textContent=all.length+' identities · '+all.reduce((n,c)=>n+c.qty,0)+' copies across your collection';

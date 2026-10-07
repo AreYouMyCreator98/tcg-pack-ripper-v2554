@@ -13,7 +13,7 @@
   let specialShownV217=specialBatchSizeV217;
   const escV198=s=>String(s==null?'':s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
   const completedAchievementsV198=()=>{try{updateBadges()}catch(_e){}return ACHIEVEMENTS.filter(a=>state.achievements?.[a[0]]).length};
-  const masterCountV198=()=>SETS.filter(s=>{try{let p=masterProgressV58(s);return p.total>0&&p.n>=p.total}catch(_e){return false}}).length;
+  const masterCountV198=()=>{const totals=setTotalsV57();return SETS.filter(s=>{try{let p=masterProgressV58(s,totals);return p.total>0&&p.n>=p.total}catch(_e){return false}}).length;};
   const tradeCountV198=()=>Number(state.tradeV154?.count||0);
   const streakV198=()=>Number(state.polishV163?.daily?.streak||0);
   const grade10V198=()=>Number((state.gradingV44?.graded||[]).filter(x=>Number(x.grade||0)>=10).length);
@@ -45,7 +45,8 @@
   }
   function checkSpecialUnlocksV198(queue=true){
     if(checkingV198)return 0;checkingV198=true;let n=0;
-    try{SPECIAL_CARDS_V198.forEach(c=>{if(!isOwnedV198(c.id)&&metricV198(c)>=Number(c.target||0)){if(awardV198(c,unlockTextV198(c),queue))n++}})}finally{checkingV198=false}
+    const metrics=new Map();
+    try{SPECIAL_CARDS_V198.forEach(c=>{if(!isOwnedV198(c.id)){if(!metrics.has(c.unlockType))metrics.set(c.unlockType,metricV198(c));}if(!isOwnedV198(c.id)&&metrics.get(c.unlockType)>=Number(c.target||0)){if(awardV198(c,unlockTextV198(c),queue))n++}})}finally{checkingV198=false}
     if(n&&queue)setTimeout(showNextUnlockV198,160);return n;
   }
   function ownedCountV198(rarity=''){return SPECIAL_CARDS_V198.filter(c=>(!rarity||c.rarity===rarity)&&isOwnedV198(c.id)).length}
@@ -62,7 +63,7 @@
   function fxMarkupV198(){return '<span class="specialFoilV198"></span><span class="specialDamascusV198"></span><span class="specialSparkV198"></span><span class="specialLightV198"></span>'}
   function tileV198(card){
     const owned=isOwnedV198(card.id),p=progressV198(card),rar=card.rarity==='Prismatic Rare'?'prismatic':'mythical';
-    return `<button type="button" class="specialTileV198 ${rar} ${owned?'owned':'locked'}" data-special-card-v198="${card.id}"><span class="specialRarityChipV198">${escV198(card.rarity).toUpperCase()}</span><span class="specialLockChipV198">${owned?'OWNED':'LOCKED'}</span><div class="specialCardFrameV198"><img data-v217-special-img="${card.id}" loading="lazy" decoding="async" alt="${escV198(card.name)}">${fxMarkupV198()}</div><div class="specialTileBodyV198"><b>${escV198(card.name)}</b><small>${escV198(card.group)} • ${escV198(card.subtitle)}</small><div class="specialTileProgressV198"><span>${owned?(state.specialCollectionV198.owned[card.id]?.via||'Unlocked'):unlockTextV198(card)}</span><strong>${owned?'✓':`${Math.min(p.value,p.target)}/${p.target}`}</strong></div><div class="specialMiniTrackV198"><i style="width:${owned?100:p.pct}%"></i></div></div></button>`;
+    return `<button type="button" class="specialTileV198 ${rar} ${owned?'owned':'locked'}" data-special-card-v198="${card.id}"><span class="specialRarityChipV198">${escV198(card.rarity).toUpperCase()}</span><span class="specialLockChipV198">${owned?'OWNED':'LOCKED'}</span><div class="specialCardFrameV198"><img src="${escV198(card.art)}" data-v217-special-img="${card.id}" loading="lazy" decoding="async" alt="${escV198(card.name)}">${fxMarkupV198()}</div><div class="specialTileBodyV198"><b>${escV198(card.name)}</b><small>${escV198(card.group)} • ${escV198(card.subtitle)}</small><div class="specialTileProgressV198"><span>${owned?(state.specialCollectionV198.owned[card.id]?.via||'Unlocked'):unlockTextV198(card)}</span><strong>${owned?'✓':`${Math.min(p.value,p.target)}/${p.target}`}</strong></div><div class="specialMiniTrackV198"><i style="width:${owned?100:p.pct}%"></i></div></div></button>`;
   }
   function hydrateSpecialImagesV217(root){
     if(!root||!root.closest('.specialsPanelV198.active'))return;
@@ -74,7 +75,7 @@
   }
   function releaseSpecialImagesV217(){
     if(!iosSpecialV217)return;
-    document.querySelectorAll('#specialGridV198 img[data-v217-special-img]').forEach(img=>{try{img.removeAttribute('src')}catch(_e){}});
+    document.querySelectorAll('#specialGridV198 img[data-v217-special-img]').forEach(img=>{try{img.loading='lazy'}catch(_e){}});
   }
   function filteredCardsV198(){if(filterV198==='duplicates')return [];return SPECIAL_CARDS_V198.filter(c=>filterV198==='all'||filterV198==='mythical'&&c.rarity==='Mythical Rare'||filterV198==='prismatic'&&c.rarity==='Prismatic Rare'||filterV198==='promos'||filterV198==='owned'&&isOwnedV198(c.id)||filterV198==='locked'&&!isOwnedV198(c.id))}
   function ensureBinderSpecialsV198(){
@@ -121,7 +122,7 @@
   function showNextUnlockV198(){if(unlockShowingV198||!unlockQueueV198.length)return;if(window.tcgCollector?.notify){const earned=unlockQueueV198.splice(0);for(const card of earned)window.tcgCollector.notify('SPECIAL UNLOCKED · '+card.name);renderSpecialCollectionV198();return;}ensureUnlockV198();const card=unlockQueueV198.shift();unlockShowingV198=true;const uc=document.querySelector('#specialUnlockV198 .specialUnlockContentV198');uc?.classList.toggle('prismatic',card.rarity==='Prismatic Rare');uc?.classList.toggle('mythical',card.rarity==='Mythical Rare');document.getElementById('specialUnlockRarityV198').textContent=card.rarity.toUpperCase()+' • UNLOCKED';document.getElementById('specialUnlockImgV198').src=card.art;document.getElementById('specialUnlockNameV198').textContent=card.name;document.getElementById('specialUnlockViaV198').textContent=state.specialCollectionV198.owned[card.id]?.via||unlockTextV198(card);document.getElementById('specialUnlockV198').classList.add('show');try{hitSound?.(5);navigator.vibrate?.([20,35,20,60,35])}catch(_e){}}
   window.showNextUnlockV198=showNextUnlockV198;
   // Keep unlock state current on every normal save without causing recursive saves.
-  const prevSaveV198=save;save=function(){const n=checkSpecialUnlocksV198(true),r=prevSaveV198.apply(this,arguments);if(n)setTimeout(showNextUnlockV198,180);try{renderSpecialCollectionV198()}catch(_e){}return r};
+  const prevSaveV198=save;save=function(){const n=checkSpecialUnlocksV198(true),r=prevSaveV198.apply(this,arguments);if(n)setTimeout(showNextUnlockV198,180);if(n||document.getElementById('specialsPanelV198')?.classList.contains('active'))try{renderSpecialCollectionV198()}catch(_e){}return r};
   const prevRenderProfileV198=renderProfile;renderProfile=function(){const r=prevRenderProfileV198.apply(this,arguments);try{renderSpecialCollectionV198()}catch(_e){}return r};
   // If V197 redraws its Level Road before Special Cards are present, redraw once now with the V198 database.
   function syncV198(){

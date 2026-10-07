@@ -1,0 +1,394 @@
+{
+  "engine": "Chromium",
+  "deviceSimulation": "samsung",
+  "largeCollection": true,
+  "physicalDevices": false,
+  "externalServices": "stubbed",
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "scroll": 684,
+      "client": 684,
+      "top": 52,
+      "bottom": 736,
+      "cta": 580.15625
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 728,
+      "client": 728,
+      "top": 52,
+      "bottom": 780,
+      "cta": 596.90625
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "scroll": 757,
+      "client": 757,
+      "top": 52,
+      "bottom": 809,
+      "cta": 598.625
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "scroll": 799,
+      "client": 799,
+      "top": 52,
+      "bottom": 851,
+      "cta": 609.21875
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "scroll": 816,
+      "client": 816,
+      "top": 52,
+      "bottom": 868,
+      "cta": 619.25
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scroll": 908,
+      "client": 908,
+      "top": 52,
+      "bottom": 960,
+      "cta": 675.46875
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scroll": 784,
+      "client": 784,
+      "top": 52,
+      "bottom": 836,
+      "cta": 643.28125
+    }
+  ],
+  "runs": [
+    {
+      "timings": {
+        "generation": 55.60000000055879,
+        "state": 48.39999999944121,
+        "progression": 183.70000000018626,
+        "renderAt": 13852,
+        "render": 27.699999999254942,
+        "save": 110.3999999994412,
+        "total": 644.3999999994412,
+        "imageLoad": {
+          "firstMs": 171.09999999962747,
+          "lastMs": 384.69999999925494,
+          "count": 160
+        }
+      },
+      "writes": 1,
+      "long": [
+        143
+      ],
+      "nodes": 545,
+      "heap": 8185532,
+      "listeners": 1021
+    },
+    {
+      "timings": {
+        "generation": 446,
+        "state": 43.40000000037253,
+        "progression": 154.20000000018626,
+        "renderAt": 5497.4000000003725,
+        "render": 24.90000000037253,
+        "save": 95.59999999962747,
+        "total": 1105.4000000003725,
+        "imageLoad": {
+          "firstMs": 195.09999999962747,
+          "lastMs": 435.79999999981374,
+          "count": 158
+        }
+      },
+      "writes": 6,
+      "long": [
+        92,
+        112,
+        340,
+        124,
+        92,
+        101,
+        110
+      ],
+      "nodes": 545,
+      "heap": 7781512,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 41,
+        "state": 42.700000000186265,
+        "progression": 161.90000000037253,
+        "renderAt": 7797.200000000186,
+        "render": 28.700000000186265,
+        "save": 103.70000000018626,
+        "total": 579.7999999998137,
+        "imageLoad": {
+          "firstMs": 217.20000000018626,
+          "lastMs": 576.9000000003725,
+          "count": 157
+        }
+      },
+      "writes": 4,
+      "long": [
+        93,
+        136,
+        90,
+        104
+      ],
+      "nodes": 545,
+      "heap": 7952196,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 38.59999999962747,
+        "state": 45.30000000074506,
+        "progression": 144.09999999962747,
+        "renderAt": 9892,
+        "render": 25.200000000186265,
+        "save": 92.5,
+        "total": 547,
+        "imageLoad": {
+          "firstMs": 151.1000000005588,
+          "lastMs": 457,
+          "count": 160
+        }
+      },
+      "writes": 4,
+      "long": [
+        87,
+        123,
+        103,
+        130
+      ],
+      "nodes": 545,
+      "heap": 8050980,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 37.200000000186265,
+        "state": 45.40000000037253,
+        "progression": 179.3999999994412,
+        "renderAt": 12144.400000000373,
+        "render": 35.200000000186265,
+        "save": 135,
+        "total": 634.6000000005588,
+        "imageLoad": {
+          "firstMs": 204.79999999981374,
+          "lastMs": 386.79999999981374,
+          "count": 158
+        }
+      },
+      "writes": 1,
+      "long": [
+        175
+      ],
+      "nodes": 545,
+      "heap": 8032092,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 57.09999999962747,
+        "state": 45.799999999813735,
+        "progression": 157.3999999994412,
+        "renderAt": 13798,
+        "render": 26.300000000745058,
+        "save": 97.8999999994412,
+        "total": 619.7000000001863,
+        "imageLoad": {
+          "firstMs": 209.80000000074506,
+          "lastMs": 321.80000000074506,
+          "count": 159
+        }
+      },
+      "writes": 1,
+      "long": [
+        128
+      ],
+      "nodes": 545,
+      "heap": 8077792,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 44.59999999962747,
+        "state": 45.09999999962747,
+        "progression": 160.90000000037253,
+        "renderAt": 15371,
+        "render": 26.600000000558794,
+        "save": 102.29999999981374,
+        "total": 584.7000000001863,
+        "imageLoad": {
+          "firstMs": 222.40000000037253,
+          "lastMs": 318.90000000037253,
+          "count": 159
+        }
+      },
+      "writes": 1,
+      "long": [
+        132
+      ],
+      "nodes": 545,
+      "heap": 8119296,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 52.40000000037253,
+        "state": 44.90000000037253,
+        "progression": 161.79999999981374,
+        "renderAt": 16909,
+        "render": 23.40000000037253,
+        "save": 105.79999999981374,
+        "total": 601.7999999998137,
+        "imageLoad": {
+          "firstMs": 234.6000000005588,
+          "lastMs": 325.40000000037253,
+          "count": 158
+        }
+      },
+      "writes": 1,
+      "long": [
+        134
+      ],
+      "nodes": 545,
+      "heap": 8148048,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 46.200000000186265,
+        "state": 46.200000000186265,
+        "progression": 144.69999999925494,
+        "renderAt": 18441.60000000056,
+        "render": 22.399999999441206,
+        "save": 92.90000000037253,
+        "total": 556.9000000003725,
+        "imageLoad": {
+          "firstMs": 190.5,
+          "lastMs": 315.59999999962747,
+          "count": 159
+        }
+      },
+      "writes": 1,
+      "long": [
+        119
+      ],
+      "nodes": 545,
+      "heap": 8218684,
+      "listeners": 1013
+    },
+    {
+      "timings": {
+        "generation": 50,
+        "state": 42.200000000186265,
+        "progression": 154.1000000005588,
+        "renderAt": 20026.800000000745,
+        "render": 26.699999999254942,
+        "save": 191.70000000018626,
+        "total": 706.5,
+        "imageLoad": {
+          "firstMs": 311.5,
+          "lastMs": 438.29999999981374,
+          "count": 160
+        }
+      },
+      "writes": 1,
+      "long": [
+        222
+      ],
+      "nodes": 545,
+      "heap": 8268800,
+      "listeners": 1013
+    }
+  ],
+  "specials": [
+    {
+      "id": "sp_eevee",
+      "width": 688
+    },
+    {
+      "id": "sp_charmeleon",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_gyarados",
+      "width": 688
+    },
+    {
+      "id": "sp_machamp_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_skeledirge_ex",
+      "width": 692
+    },
+    {
+      "id": "sp_mewtwo_sketch",
+      "width": 688
+    },
+    {
+      "id": "sp_rune_rayquaza",
+      "width": 689
+    },
+    {
+      "id": "sp_mega_charizard_slash",
+      "width": 697
+    },
+    {
+      "id": "sp_mew_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_lugia_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_mega_arceus_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_umbreon_ex",
+      "width": 697
+    },
+    {
+      "id": "sp_mega_rayquaza_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_mega_charizard_blue",
+      "width": 701
+    },
+    {
+      "id": "sp_dark_charizard_vstar",
+      "width": 688
+    },
+    {
+      "id": "sp_ashgreninja_lucario",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_forte",
+      "width": 687
+    },
+    {
+      "id": "sp_mewtwo_rocket",
+      "width": 682
+    }
+  ]
+}

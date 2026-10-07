@@ -1,0 +1,367 @@
+{
+  "engine": "Chromium",
+  "deviceSimulation": "iphone",
+  "largeCollection": false,
+  "physicalDevices": false,
+  "externalServices": "stubbed",
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "scroll": 684,
+      "client": 684,
+      "top": 52,
+      "bottom": 736,
+      "cta": 580.15625
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 728,
+      "client": 728,
+      "top": 52,
+      "bottom": 780,
+      "cta": 596.90625
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "scroll": 757,
+      "client": 757,
+      "top": 52,
+      "bottom": 809,
+      "cta": 598.625
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "scroll": 799,
+      "client": 799,
+      "top": 52,
+      "bottom": 851,
+      "cta": 609.21875
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "scroll": 816,
+      "client": 816,
+      "top": 52,
+      "bottom": 868,
+      "cta": 619.25
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scroll": 908,
+      "client": 908,
+      "top": 52,
+      "bottom": 960,
+      "cta": 675.46875
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scroll": 784,
+      "client": 784,
+      "top": 52,
+      "bottom": 836,
+      "cta": 643.28125
+    }
+  ],
+  "runs": [
+    {
+      "timings": {
+        "generation": 66.5,
+        "state": 57.700000000186265,
+        "progression": 82.1000000005588,
+        "renderAt": 10133.700000000186,
+        "render": 22.799999999813735,
+        "save": 15.5,
+        "total": 435.29999999981374,
+        "imageLoad": {
+          "firstMs": 67.29999999981374,
+          "lastMs": 268.09999999962747,
+          "count": 164
+        }
+      },
+      "writes": 1,
+      "long": [],
+      "nodes": 545,
+      "heap": 6485724,
+      "listeners": 802
+    },
+    {
+      "timings": {
+        "generation": 47.39999999944121,
+        "state": 54.09999999962747,
+        "progression": 55.10000000055879,
+        "renderAt": 3529,
+        "render": 20.700000000186265,
+        "save": 8.5,
+        "total": 380.29999999981374,
+        "imageLoad": {
+          "firstMs": 51.90000000037253,
+          "lastMs": 206.5,
+          "count": 172
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 6303056,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 36.59999999962747,
+        "state": 42.5,
+        "progression": 63.59999999962747,
+        "renderAt": 4843.4000000003725,
+        "render": 19.799999999813735,
+        "save": 8.299999999813735,
+        "total": 376.79999999981374,
+        "imageLoad": {
+          "firstMs": 59.09999999962747,
+          "lastMs": 238.79999999981374,
+          "count": 168
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 6426848,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 42.5,
+        "state": 43.89999999944121,
+        "progression": 70,
+        "renderAt": 6144.299999999814,
+        "render": 20.5,
+        "save": 12.600000000558794,
+        "total": 384.90000000037253,
+        "imageLoad": {
+          "firstMs": 65.6000000005588,
+          "lastMs": 267.70000000018626,
+          "count": 163
+        }
+      },
+      "writes": 4,
+      "long": [],
+      "nodes": 545,
+      "heap": 6520456,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 53.59999999962747,
+        "state": 49.5,
+        "progression": 68.79999999981374,
+        "renderAt": 7464.4000000003725,
+        "render": 20.59999999962747,
+        "save": 13.900000000372529,
+        "total": 397.30000000074506,
+        "imageLoad": {
+          "firstMs": 60,
+          "lastMs": 254.8999999994412,
+          "count": 167
+        }
+      },
+      "writes": 4,
+      "long": [],
+      "nodes": 545,
+      "heap": 6580840,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 54.200000000186265,
+        "state": 42.10000000055879,
+        "progression": 62.19999999925494,
+        "renderAt": 8808.200000000186,
+        "render": 23.799999999813735,
+        "save": 13.599999999627471,
+        "total": 413,
+        "imageLoad": {
+          "firstMs": 64.3999999994412,
+          "lastMs": 240,
+          "count": 166
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 6662112,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 45.59999999962747,
+        "state": 43.700000000186265,
+        "progression": 61,
+        "renderAt": 10164,
+        "render": 19.799999999813735,
+        "save": 13.900000000372529,
+        "total": 397.29999999981374,
+        "imageLoad": {
+          "firstMs": 61.09999999962747,
+          "lastMs": 227.40000000037253,
+          "count": 169
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 6706992,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 71.90000000037253,
+        "state": 56.39999999944121,
+        "progression": 69.40000000037253,
+        "renderAt": 11536.599999999627,
+        "render": 19.700000000186265,
+        "save": 14,
+        "total": 426.8999999994412,
+        "imageLoad": {
+          "firstMs": 63.60000000055879,
+          "lastMs": 227.70000000018626,
+          "count": 168
+        }
+      },
+      "writes": 1,
+      "long": [],
+      "nodes": 545,
+      "heap": 6772820,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 47.30000000074506,
+        "state": 42.299999999813735,
+        "progression": 63.299999999813735,
+        "renderAt": 12791.400000000373,
+        "render": 20.899999999441206,
+        "save": 14.299999999813735,
+        "total": 383.69999999925494,
+        "imageLoad": {
+          "firstMs": 67.3999999994412,
+          "lastMs": 207.59999999962747,
+          "count": 162
+        }
+      },
+      "writes": 1,
+      "long": [],
+      "nodes": 545,
+      "heap": 6828348,
+      "listeners": 799
+    },
+    {
+      "timings": {
+        "generation": 46.799999999813735,
+        "state": 43.89999999944121,
+        "progression": 72.1000000005588,
+        "renderAt": 14025,
+        "render": 26.5,
+        "save": 14.5,
+        "total": 395.5,
+        "imageLoad": {
+          "firstMs": 70.70000000018626,
+          "lastMs": 281.59999999962747,
+          "count": 162
+        }
+      },
+      "writes": 1,
+      "long": [],
+      "nodes": 545,
+      "heap": 6909704,
+      "listeners": 799
+    }
+  ],
+  "funding": [
+    "cash",
+    "starter",
+    "sealed"
+  ],
+  "specials": [
+    {
+      "id": "sp_eevee",
+      "width": 688
+    },
+    {
+      "id": "sp_charmeleon",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_gyarados",
+      "width": 688
+    },
+    {
+      "id": "sp_machamp_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_skeledirge_ex",
+      "width": 692
+    },
+    {
+      "id": "sp_mewtwo_sketch",
+      "width": 688
+    },
+    {
+      "id": "sp_rune_rayquaza",
+      "width": 689
+    },
+    {
+      "id": "sp_mega_charizard_slash",
+      "width": 697
+    },
+    {
+      "id": "sp_mew_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_lugia_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_mega_arceus_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_umbreon_ex",
+      "width": 697
+    },
+    {
+      "id": "sp_mega_rayquaza_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_mega_charizard_blue",
+      "width": 701
+    },
+    {
+      "id": "sp_dark_charizard_vstar",
+      "width": 688
+    },
+    {
+      "id": "sp_ashgreninja_lucario",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_forte",
+      "width": 687
+    },
+    {
+      "id": "sp_mewtwo_rocket",
+      "width": 682
+    }
+  ]
+}

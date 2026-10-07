@@ -1,0 +1,333 @@
+{
+  "engine": "Chromium",
+  "deviceSimulation": "samsung",
+  "largeCollection": false,
+  "physicalDevices": false,
+  "externalServices": "stubbed",
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "scroll": 684,
+      "client": 684,
+      "top": 52,
+      "bottom": 736,
+      "cta": 580.15625
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 728,
+      "client": 728,
+      "top": 52,
+      "bottom": 780,
+      "cta": 596.90625
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "scroll": 757,
+      "client": 757,
+      "top": 52,
+      "bottom": 809,
+      "cta": 598.625
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "scroll": 799,
+      "client": 799,
+      "top": 52,
+      "bottom": 851,
+      "cta": 609.21875
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "scroll": 816,
+      "client": 816,
+      "top": 52,
+      "bottom": 868,
+      "cta": 619.25
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scroll": 908,
+      "client": 908,
+      "top": 52,
+      "bottom": 960,
+      "cta": 675.46875
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scroll": 784,
+      "client": 784,
+      "top": 52,
+      "bottom": 836,
+      "cta": 643.28125
+    }
+  ],
+  "runs": [
+    {
+      "timings": {
+        "generation": 48.09999999962747,
+        "state": 48.80000000074506,
+        "progression": 11.699999999254942,
+        "render": 22.5,
+        "save": 74.3999999994412,
+        "total": 416.70000000018626
+      },
+      "writes": 1,
+      "long": [
+        115
+      ],
+      "nodes": 545,
+      "heap": 7974900,
+      "listeners": 808
+    },
+    {
+      "timings": {
+        "generation": 37.90000000037253,
+        "state": 56,
+        "progression": 9,
+        "render": 20.799999999813735,
+        "save": 24.600000000558794,
+        "total": 342.1000000005588
+      },
+      "writes": 3,
+      "long": [
+        58
+      ],
+      "nodes": 545,
+      "heap": 7778948,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 35.799999999813735,
+        "state": 46.200000000186265,
+        "progression": 10.099999999627471,
+        "render": 23.600000000558794,
+        "save": 25.5,
+        "total": 354.20000000018626
+      },
+      "writes": 5,
+      "long": [
+        63
+      ],
+      "nodes": 545,
+      "heap": 7890276,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 34.5,
+        "state": 42.30000000074506,
+        "progression": 11.799999999813735,
+        "render": 18.200000000186265,
+        "save": 44.19999999925494,
+        "total": 357.09999999962747
+      },
+      "writes": 5,
+      "long": [
+        77
+      ],
+      "nodes": 545,
+      "heap": 7994664,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 39.700000000186265,
+        "state": 42.200000000186265,
+        "progression": 13.699999999254942,
+        "render": 18.600000000558794,
+        "save": 52.09999999962747,
+        "total": 358.09999999962747
+      },
+      "writes": 4,
+      "long": [
+        56,
+        87,
+        50
+      ],
+      "nodes": 545,
+      "heap": 8050504,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 35.40000000037253,
+        "state": 50,
+        "progression": 12.699999999254942,
+        "render": 19.399999999441206,
+        "save": 50.90000000037253,
+        "total": 361.40000000037253
+      },
+      "writes": 4,
+      "long": [
+        59,
+        86,
+        54,
+        60
+      ],
+      "nodes": 545,
+      "heap": 8110484,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 30.399999999441206,
+        "state": 43.10000000055879,
+        "progression": 14.799999999813735,
+        "render": 19.899999999441206,
+        "save": 57.60000000055879,
+        "total": 359.1000000005588
+      },
+      "writes": 4,
+      "long": [
+        51,
+        96,
+        53,
+        57
+      ],
+      "nodes": 545,
+      "heap": 8177616,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 50.39999999944121,
+        "state": 46.59999999962747,
+        "progression": 14.100000000558794,
+        "render": 18.799999999813735,
+        "save": 58.700000000186265,
+        "total": 391.5
+      },
+      "writes": 2,
+      "long": [
+        53,
+        51,
+        95
+      ],
+      "nodes": 545,
+      "heap": 8196856,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 37.200000000186265,
+        "state": 46.5,
+        "progression": 13.800000000745058,
+        "render": 18.5,
+        "save": 54.90000000037253,
+        "total": 366.1000000005588
+      },
+      "writes": 1,
+      "long": [
+        90
+      ],
+      "nodes": 545,
+      "heap": 8313588,
+      "listeners": 805
+    },
+    {
+      "timings": {
+        "generation": 35.799999999813735,
+        "state": 46.80000000074506,
+        "progression": 14.899999999441206,
+        "render": 19,
+        "save": 126.79999999981374,
+        "total": 436.19999999925494
+      },
+      "writes": 1,
+      "long": [
+        164,
+        68
+      ],
+      "nodes": 545,
+      "heap": 8432064,
+      "listeners": 805
+    }
+  ],
+  "specials": [
+    {
+      "id": "sp_eevee",
+      "width": 688
+    },
+    {
+      "id": "sp_charmeleon",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_gyarados",
+      "width": 688
+    },
+    {
+      "id": "sp_machamp_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_skeledirge_ex",
+      "width": 692
+    },
+    {
+      "id": "sp_mewtwo_sketch",
+      "width": 688
+    },
+    {
+      "id": "sp_rune_rayquaza",
+      "width": 689
+    },
+    {
+      "id": "sp_mega_charizard_slash",
+      "width": 697
+    },
+    {
+      "id": "sp_mew_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_lugia_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_mega_arceus_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_umbreon_ex",
+      "width": 697
+    },
+    {
+      "id": "sp_mega_rayquaza_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_mega_charizard_blue",
+      "width": 701
+    },
+    {
+      "id": "sp_dark_charizard_vstar",
+      "width": 688
+    },
+    {
+      "id": "sp_ashgreninja_lucario",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_forte",
+      "width": 687
+    },
+    {
+      "id": "sp_mewtwo_rocket",
+      "width": 682
+    }
+  ]
+}

@@ -37,7 +37,7 @@ for(const failure of ['false','throw'])test('batch '+failure+' restores balances
 });
 function bridge(batchFailure=false){
  const events=[],owned=[];
- const ctx=vm.createContext({console:{error:()=>{}},state:{coins:80,packs:0,binder:{},bulkV64:{}},sel:{id:'test'},v114PackCount:10,idx:0,busy:true,pulls:Array.from({length:100},(_,i)=>({id:'card'+i,rarity:i%2?'Common':'Double rare'})),makePack:async()=>true,v114MakeBatch:async()=>true,showBack:()=>{},autoCollectV74:()=>false,decide:()=>{},showPackSummaryV88:()=>{},save:()=>{},tier:()=>0,isBulkCardV64:c=>c.rarity==='Common',awardChase:()=>{},addToBulkV64:c=>owned.push(c.id),addToBinderV64:c=>owned.push(c.id),advance:()=>{ctx.busy=false},queueMicrotask:fn=>fn(),CustomEvent:class{constructor(type,{detail}){this.type=type;this.detail=detail}},beginRip:()=>{}});
+ const ctx=vm.createContext({console:{error:()=>{}},state:{coins:80,packs:0,binder:{},bulkV64:{}},sel:{id:'test'},v114PackCount:10,idx:0,busy:true,pulls:Array.from({length:100},(_,i)=>({id:'card'+i,rarity:i%2?'Common':'Double rare'})),makePack:async()=>true,v114MakeBatch:async()=>true,showBack:()=>{},autoCollectV74:()=>false,decide:()=>{},showPackSummaryV88:()=>{},save:()=>{},tier:()=>0,isBulkCardV64:c=>c.rarity==='Common',awardChase:()=>{},addToBulkV64:c=>owned.push(c.id),addToBinderV64:c=>owned.push(c.id),advance:()=>{ctx.busy=false},queueMicrotask:fn=>fn(),CustomEvent:class{constructor(type,{detail}){this.type=type;this.detail=detail}},beginRip:()=>{},resetPack:()=>{},addEventListener:()=>{}});
  ctx.window=ctx;ctx.dispatchEvent=e=>events.push(e);if(batchFailure)ctx.v114MakeBatch=async()=>{await ctx.makePack();return false};vm.runInContext(bridgeSource,ctx);return {ctx,events,owned};
 }
 test('Reveal All awards exactly the remaining 73 cards; repeated calls award none',()=>{
@@ -64,4 +64,13 @@ test('single-card collection waits for artwork and rarity locks, then awards onc
  assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),true);assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),false);
  assert.deepEqual(owned,['card0']);advanceTimer();assert.equal(ctx.busy,false);
  assert.equal(ctx.TCG_PACK_LEGACY.collectCurrent(),false);
+});
+
+test('cached batch pools preserve the seeded original generator sequence and payments',async()=>{
+ const a=generator(),b=generator();
+ const seeded=()=>{let n=1234567;return()=>{n=(Math.imul(n,1664525)+1013904223)>>>0;return n/4294967296}};
+ a.Math=Object.assign(Object.create(Math),{random:seeded()});b.Math=Object.assign(Object.create(Math),{random:seeded()});
+ b.tcgPackTransaction={pools:b.P};b.buildPools=()=>{throw Error('batch rebuilt pools')};
+ for(let i=0;i<100;i++){assert.equal(await a.makePack(),true);assert.equal(await b.makePack(),true);assert.equal(JSON.stringify(a.pulls),JSON.stringify(b.pulls));}
+ assert.equal(a.state.coins,b.state.coins);assert.equal(a.state.packs,b.state.packs);
 });

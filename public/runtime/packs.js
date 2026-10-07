@@ -1272,7 +1272,7 @@
    if(mode==='specials'){
      setTimeout(()=>{try{window.scrollTo(0,0)}catch(_e){}},0);
    }else if(ios){
-     setTimeout(()=>{try{document.querySelectorAll('#specialGridV198 img[data-v217-special-img]').forEach(img=>img.removeAttribute('src'))}catch(_e){}},120);
+     setTimeout(()=>{try{document.querySelectorAll('#specialGridV198 img[data-v217-special-img]').forEach(img=>{img.loading='lazy'})}catch(_e){}},120);
    }
    return r;
  };

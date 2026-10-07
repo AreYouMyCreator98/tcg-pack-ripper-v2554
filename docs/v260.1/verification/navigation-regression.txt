@@ -1,0 +1,63 @@
+START 360 800
+DOM loaded
+BOOT ready
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 360x800
+START 390 844
+DOM loaded
+BOOT ready
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 390x844
+START 393 873
+DOM loaded
+BOOT ready
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 393x873
+START 412 915
+DOM loaded
+BOOT ready
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 412x915
+START 430 932
+DOM loaded
+BOOT ready
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 430x932
+START 768 1024
+DOM loaded
+BOOT ready
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 768x1024
+START 1440 900
+DOM loaded
+BOOT ready
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 1440x900

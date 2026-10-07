@@ -30,3 +30,9 @@ test('failed initial restore stays unbound and retries on the next reconciliatio
  Object.assign(c,{state:{},getRemote:async()=>({save_version:12,save_data:{state:{binder:{card:{qty:1}}}}}),readStateKey:()=>null,PRECLOUD_KEY:'pre',clone:x=>structuredClone(x),meaningful:st=>!!st.binder,materiallyDifferent:()=>false,pullInPlace:async()=>{reads++;return false;},console:{error(){}}});
  vm.runInContext(reconcileCode,c);await c.reconcile();await c.reconcile();assert.equal(bound,false);assert.equal(reads,2);
 });
+
+test('provisional pack transactions never upload a partial account snapshot',async()=>{
+ const c=fixture();let uploads=0;c.client.rpc=async()=>{uploads++;return{data:{save_version:2}}};
+ c.tcgPackTransaction={};assert.equal(await c.pushNow(),false);assert.equal(uploads,0);
+ c.tcgPackTransaction=null;c.refreshSession=async()=>{c.tcgPackTransaction={};return{user:{id:'A'}}};assert.equal(await c.pushNow(),false);assert.equal(uploads,0);assert.equal(c.syncBusy,false);
+});

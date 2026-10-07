@@ -1,3 +1,12 @@
+# V260.1 — Mobile UX and 10-pack hotfix (review build)
+
+- Batch pack generation, collection and persistence; yield between packs/card groups and avoid repeated ownership scans.
+- Replace stacked results with a compact single-pack recap and immediate filtered 10-pack grid.
+- Hide obstructing session controls during opening/revealing/results.
+- Fix Special artwork source lifecycle, shared fallback handling and iOS source removal.
+- Preserve odds, rewards, routing, saves and the four primary destinations; advance caches to V260.1.
+- See [root causes, measurements and limitations](docs/v260.1/HOTFIX.md). Production deployment pending approval.
+
 # V260 — Collector Overhaul (unreleased review build)
 
 - Consolidates navigation into RIP / COLLECTION / HUB / PROFILE with one safe-area bar and universal settings gear.

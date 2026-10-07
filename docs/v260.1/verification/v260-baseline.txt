@@ -1,0 +1,15 @@
+START 390 844
+DOM loaded
+BOOT ready
+GENERATED { ms: 3932, writes: 14 }
+COLLECT {
+  ms: 6993.700000000186,
+  writes: 112,
+  result: { ok: true, collected: 100, binder: 100, bulk: 0, newCards: 77 }
+}
+FINAL {
+  writes: 127,
+  long: [ 74, 106, 365, 7095, 79, 54 ],
+  nodes: 371,
+  summaryHeight: 1540
+}

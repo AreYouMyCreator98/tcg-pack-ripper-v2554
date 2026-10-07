@@ -5,7 +5,6 @@ import { GOD_PACK_RATE, PACK_RATE_SNAPSHOT, SV_REVERSE_UPGRADES } from './pack-r
 import { installRevealController } from '../animations/packs/reveal-controller.js';
 import { installPackHUD } from './pack-hud.js';
 import { installTenPackController } from '../animations/packs/ten-pack-controller.js';
-import { renderV253Summary } from '../animations/packs/pack-summary.js';
 import { installRipStudio } from '../screens/rip/index.js';
 
 let installed = null;
@@ -22,6 +21,11 @@ export function installPackEngine(target = window) {
   let tenController = null;
   let openingPayment = zeroPayment();
   let openingGeneratedValue = 0;
+
+  let batchCheckpoint=null;
+  target.addEventListener('tcg:pack-transaction-start',()=>{batchCheckpoint=session.snapshot();});
+  target.addEventListener('tcg:pack-transaction-committed',()=>{batchCheckpoint=null;});
+  target.addEventListener('tcg:pack-aborted',()=>{if(batchCheckpoint){session.session=batchCheckpoint.session;session.persistent=batchCheckpoint.persistent;}batchCheckpoint=null;openingPayment=zeroPayment();openingGeneratedValue=0;hud?.update(session.snapshot(),reveal.isFast());});
 
   const resetSession = () => {
     session.reset();
@@ -50,13 +54,13 @@ export function installPackEngine(target = window) {
     openingPayment.creditsUsed += result.meta.creditsUsed;
     openingGeneratedValue += summarizePackCards(detail.cards || [], bridge.route).value;
     bridge.writePersistentStats?.(session.snapshot().persistent);
-    hud?.update(session.snapshot(), reveal.isFast());
+    if(!target.tcgPackTransaction)hud?.update(session.snapshot(), reveal.isFast());
     target.TCG_DIAGNOSTICS?.mark?.('pack-generated', { set: detail.set?.id, god: !!detail.godPack, bestTier: result.meta.bestTier });
   };
 
   const onCollected = event => {
     session.recordCollection(event.detail || {});
-    hud?.update(session.snapshot(), reveal.isFast());
+    if(!target.tcgPackTransaction)hud?.update(session.snapshot(), reveal.isFast());
   };
 
   const onSummary = event => {
@@ -64,7 +68,7 @@ export function installPackEngine(target = window) {
     const resolvedOpeningValue = summarizePackCards(detail.cards || [], bridge.route).value;
     session.reconcileOpeningValue(openingGeneratedValue, resolvedOpeningValue);
     target.__tcgV253LastPayment = { ...openingPayment };
-    renderV253Summary(detail, { bridge, session, onResetSession: resetSession });
+    // V260.1 compact recap is rendered once by the collector summary listener.
     openingPayment = zeroPayment();
     openingGeneratedValue = 0;
     hud?.update(session.snapshot(), reveal.isFast());

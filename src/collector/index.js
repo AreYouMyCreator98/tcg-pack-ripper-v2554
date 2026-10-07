@@ -1,3 +1,4 @@
+import {renderCompactRecap} from '../packs/compact-recap.js';
 import {districtOffer} from './district.js';
 import {createCollectorClock} from './clock.js';
 import {installCollectorNotifications} from './notifications.js';
@@ -46,17 +47,17 @@ export function installCollector(win=window,doc=document){
  chases.addEventListener('click',e=>{const b=e.target.closest('[data-chase-id]');if(b)inspector.open(ensure().collectorV260.chases.find(c=>c.id===b.dataset.chaseId));});
  let before=null,discovered=new Set(),revealed=new Set(),highest=0;
  win.addEventListener('tcg:pack-generated',()=>{const s=ensure();if(!before){before=new Map(Object.entries(bridge.totals()).map(([id,t])=>[id,{count:t.owned.size,total:t.total}]));discovered=new Set();revealed=new Set();highest=Math.max(0,...cardRows(s).map(c=>Number(c.market)||0));}});
- win.addEventListener('tcg:card-collected',event=>{const {card,wasNew}=event.detail||{};if(!card)return;const s=ensure();if(wasNew){discovered.add(card.id);s.collectorV260.cards[card.id]={...s.collectorV260.cards[card.id],discoveredAt:Date.now()};}bridge.save();});
+ win.addEventListener('tcg:card-collected',event=>{const {card,wasNew}=event.detail||{};if(!card)return;const s=bridge.state();if(wasNew){discovered.add(card.id);s.collectorV260.cards[card.id]={...s.collectorV260.cards[card.id],discoveredAt:Date.now()};}if(!event.detail.auto)bridge.save();});
  win.addEventListener('tcg:card-reveal',event=>{revealActions.hidden=false;const c=event.detail?.card;if(!c)return;const s=ensure();if(s.collectorV260.chases.some(x=>x.id===c.id)&&!revealed.has(c.id)){revealed.add(c.id);doc.getElementById('stage').classList.add('collector-chase-pull');notify('PINNED CHASE! '+c.name);bridge.sound('perfect');setTimeout(()=>doc.getElementById('stage')?.classList.remove('collector-chase-pull'),1800);journal(s,{id:'chase:'+s.packs+':'+c.id,kind:'chase',title:'Pinned chase · '+c.name,value:c.market});bridge.save();}});
  win.addEventListener('tcg:pack-summary',event=>queueMicrotask(()=>{
   revealActions.hidden=true;const detail=event.detail;if(!detail?.cards?.length)return;
   const wrap=doc.getElementById('v88Summary');if(!wrap)return;
   const rows=cardRows(ensure()),cards=detail.cards,t=bridge.totals()[detail.set.id],previous=before?.get(detail.set.id),fresh=discovered.size,best=[...cards].sort((a,b)=>Number(b.market)-Number(a.market))[0];
-  const panel=doc.createElement('section');panel.className='collector-panel collector-smart-recap';panel.innerHTML=`<h2>Your pack, collected.</h2><div class="collector-grid"><div class="collector-stat"><small>NEW CARDS</small><b>${fresh}</b></div><div class="collector-stat"><small>DUPLICATES</small><b>${cards.length-fresh}</b></div><div class="collector-stat"><small>MASTER SET</small><b>${previous?.total?(previous.count/previous.total*100).toFixed(1)+'%':'—'} → ${t?.total?(t.owned.size/t.total*100).toFixed(1)+'%':'—'}</b></div><div class="collector-stat"><small>GRADE CANDIDATES</small><b>${cards.filter(c=>c.market>=5).length}</b></div></div><div class="collector-recap-cards">${cards.map((c,i)=>{const count=rows.find(r=>r.id===c.id)?.qty||1,tags=discovered.has(c.id)?'NEW · MASTER SET +1':count>1?'DUPLICATE ×'+count:'';return `<button class="collector-button" data-recap-card="${i}"><b>${esc(c.name)}</b><small>${tags}${safelyPinned(c)?' · CHASE':Number(c.market)>highest?' · PERSONAL BEST':Number(c.market)>=10?' · HIGH VALUE':''}</small></button>`;}).join('')}</div><p>Cards have been safely routed. Inspect a card to keep, grade, list, sell or move a copy.</p>`;
-  wrap.querySelector('.collector-smart-recap')?.remove();wrap.querySelector('.v253Recap')?.append(panel);panel.querySelectorAll('[data-recap-card]').forEach(b=>b.onclick=()=>inspector.open(cards[Number(b.dataset.recapCard)]));
+  renderCompactRecap(detail,{freshIds:discovered,previous,current:t,inspector,bridge:win.TCG_PACK_LEGACY});
   const s=ensure();if(s.collectorV260.stats.lastRecap!==s.packs){s.collectorV260.stats.lastRecap=s.packs;s.collectorV260.stats.packValue=(s.collectorV260.stats.packValue||0)+cards.reduce((n,c)=>n+Number(c.market||0),0);if(detail.mode===10)s.collectorV260.stats.tenPacks=(s.collectorV260.stats.tenPacks||0)+1;}if(best.market>=10||detail.cards.some(c=>c.god))journal(s,{id:'pack:'+s.packs,kind:'pull',title:'Pulled '+best.name,value:best.market});bridge.save();before=null;renderChases();
  }));
- const safelyPinned=c=>ensure().collectorV260.chases.some(x=>x.id===c.id);
+ win.addEventListener('tcg:pack-aborted',()=>{before=null;discovered=new Set();});
+ win.addEventListener('tcg:pack-result-restored',event=>renderCompactRecap(event.detail,{restored:true,inspector,bridge:win.TCG_PACK_LEGACY}));
  function updateDay(){const state=ensure(),day=contractDay(state,bridge.now()),sets=bridge.sets().filter(s=>s.unlocked),meta=state.collectorV260;
   if(meta.featured?.day!==day){meta.featured={day,setId:sets[day%Math.max(1,sets.length)]?.id};bridge.save();}
   const set=sets.find(s=>s.id===meta.featured?.setId);featured.textContent=`DAY ${day+1} · FEATURED: ${set?.name||'Your next set'} · +5% PACK XP`;

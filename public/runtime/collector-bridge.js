@@ -4,7 +4,7 @@
   state:()=>state,
   now:()=>window.tcgCollectorClock?.now()??Date.now(),
   account:()=>window.tcgCloudV192?.user?.id||'local',
-  blocked:()=>!!(busy||window.tcgCloudV192?.hubHeld||window.tcgCloudV192?.recoveryPending),
+  blocked:()=>!!(busy||window.tcgPackTransaction||window.tcgCloudV192?.hubHeld||window.tcgCloudV192?.recoveryPending),
   save:()=>save(),
   commit(next){const known=new Set((state.collectorV260?.journal||[]).map(e=>e.id));const events=(next.collectorV260?.journal||[]).filter(e=>!known.has(e.id));state=next;save();window.dispatchEvent(new CustomEvent('tcg:collector-updated',{detail:{events}}));},
   syncCosmetics(){

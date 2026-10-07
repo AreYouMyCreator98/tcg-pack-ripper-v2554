@@ -41,6 +41,7 @@ async function packs(page){
  await page.locator('#v253FastToggle').click();
  for(const count of [1,10]){
   console.log('PACK scenario',count);await page.locator(`[data-count="${count}"]`).click();await page.locator('#studioOpenPack').click();
+  if(count===10){await page.waitForSelector('.ten-results');await page.locator('[data-show-all]').click();assert.equal(await page.locator('.batch-grid [data-recap-card]').count(),100);await page.locator('#v117OpenAnother').click();continue;}
   await page.waitForFunction(expected=>window.TCG_PACK_LEGACY.cards().length===expected,count*10,{timeout:45000});
   await page.waitForFunction(()=>document.getElementById('stage').classList.contains('cardModeV89')||document.getElementById('v128Extract')?.classList.contains('on'));
   if(await page.locator('#studioExtract').isVisible())await page.locator('#studioExtract').click();
@@ -50,7 +51,7 @@ async function packs(page){
    const current=await page.evaluate(()=>window.TCG_PACK_LEGACY.snapshot().index);
    await page.locator('#studioCollect').click();
    await page.waitForFunction(id=>document.getElementById('v88Summary')||window.TCG_PACK_LEGACY.snapshot().index!==id,current);
-  }}else{await page.waitForFunction(()=>!window.v128HeroPlaying&&!window.decisionLock);await page.locator('#v253RevealAll').click();await page.locator('#v253RevealAll').click();}
+  }}
   await page.waitForSelector('.collector-smart-recap');assert.equal(await page.locator('[data-recap-card]').count(),count*10);
   await page.locator('#v117OpenAnother').click();
  }
