@@ -178,8 +178,8 @@ html#collectorTheme#collectorTheme.theme-v261 body #rip::before {
   border: 0 !important;
   z-index: -1 !important;
   pointer-events: none !important;
-  background: url('../assets/theme/collector-atmosphere.svg') center top / 100% 100% no-repeat !important;
-  opacity: .85 !important;
+  background: url('../assets/theme/smoke-fox.webp') right -15px top 85px / 340px auto no-repeat, url('../assets/theme/smoke-ghost.webp') left -175px top 235px / 350px auto no-repeat !important;
+  opacity: .4 !important;
 }
 html#collectorTheme#collectorTheme.theme-v261 body #rip:not([data-rip-state="IDLE"])::before { display: none !important; }
 html#collectorTheme#collectorTheme.theme-v261 body #rip .rip-studio-selection {
@@ -301,4 +301,52 @@ html#collectorTheme#collectorTheme.theme-v261 body .prismaticVaultKeyV198 {
   background: #e1c58b !important;
   color: #17191c !important;
   text-shadow: none !important;
+}
+
+/* User-supplied transparent smoke: one static, non-interactive layer per screen.
+ * Bound its height so long collections never allocate a page-sized texture. */
+html#collectorTheme#collectorTheme.theme-v261 body :is(#binder,#earn,#profile) {
+  position: relative !important;
+  isolation: isolate !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body :is(#binder,#earn,#profile)::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  inset: 60px 0 auto !important;
+  height: 540px !important;
+  width: auto !important;
+  z-index: -1 !important;
+  pointer-events: none !important;
+  background: url('../assets/theme/smoke-orb.webp') right -80px top / 360px auto no-repeat !important;
+  opacity: .16 !important;
+  transform: none !important;
+  filter: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #earn::before {
+  background-image: url('../assets/theme/smoke-vortex.webp') !important;
+  opacity: .22 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #profile::before {
+  background-image: url('../assets/theme/smoke-ethereal-fox.webp') !important;
+  opacity: .22 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .specialHeroV198::after {
+  background: url('../assets/theme/smoke-gold.webp') right bottom / 300px auto no-repeat !important;
+  opacity: .13 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .gradingHeroV147 {
+  background: linear-gradient(#181a1ed9,#181a1ef5), url('../assets/theme/smoke-vortex.webp') right center / 220px auto no-repeat, var(--surface) !important;
+}
+@media (min-width:700px) {
+  html#collectorTheme#collectorTheme.theme-v261 body #rip::before {
+    background-position: right -15px top 90px, left -70px top 310px !important;
+    background-size: 410px auto, 410px auto !important;
+  }
+}
+@media (prefers-contrast:more), (forced-colors:active) {
+  html#collectorTheme#collectorTheme.theme-v261 body :is(#rip,#binder,#earn,#profile)::before,
+  html#collectorTheme#collectorTheme.theme-v261 body .specialHeroV198::after { display: none !important; }
 }

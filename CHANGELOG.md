@@ -1,5 +1,13 @@
 # V261 — Dark Silver Collector (review branch)
 
+## V261 follow-up — supplied smoke artwork (review)
+
+- Replace the decorative line-art characters with six user-supplied transparent smoke assets.
+- Add restrained artwork to Rip, Collection, Hub, Profile, Grading and Specials without changing gameplay or card art.
+- Optimise local artwork for mobile; advance build/cache to `v261-silver-4` / `0.261.0-4`.
+- See [asset provenance and validation](docs/v261/supplied-smoke/REPORT.md).
+
+
 ## V261 follow-up — readable browser colours (review)
 
 - Fix dark-on-dark Set Info headings and restore consistent modal buttons.

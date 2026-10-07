@@ -1,0 +1,38 @@
+[
+  {
+    "source": "spectral_smoke_fox_spirit.png",
+    "sourceSHA256": "67a2bf2faf1ea181eff7ae85d6d1213d3f8b0a5641a0f526dd6eee9bddc05583",
+    "asset": "public/assets/theme/smoke-fox.webp",
+    "bytes": 136142
+  },
+  {
+    "source": "ghostly_smoke_spirit_with_silver_glow.png",
+    "sourceSHA256": "e9b5a049ca38b59b6b065f375362ff6ea15f577ebe5ef5d4fcc280ecf4215dec",
+    "asset": "public/assets/theme/smoke-ghost.webp",
+    "bytes": 111062
+  },
+  {
+    "source": "ethereal_smoke_vortex_flourish.png",
+    "sourceSHA256": "a50b5760469d391e85789c67613264bae28b27581b46ec3a829ddb65cc023e58",
+    "asset": "public/assets/theme/smoke-vortex.webp",
+    "bytes": 83444
+  },
+  {
+    "source": "smoky_silver_orb_emblem.png",
+    "sourceSHA256": "0edd9d4424432e41b816e826a7461427049ec06cea13ae3a69c62a71b485d8f4",
+    "asset": "public/assets/theme/smoke-orb.webp",
+    "bytes": 134094
+  },
+  {
+    "source": "ethereal_smoke_fox_spirit.png",
+    "sourceSHA256": "cbbf6a8bb39fecb89370e9f2b0b32e951fcaaac50444feb8e6c1184d8ed7c303",
+    "asset": "public/assets/theme/smoke-ethereal-fox.webp",
+    "bytes": 120536
+  },
+  {
+    "source": "ethereal_gold_smoke_beast_flourish.png",
+    "sourceSHA256": "18e92c1a3291b013a630506e826d42f113f2caa0ac4ca129900fa646e63f54cb",
+    "asset": "public/assets/theme/smoke-gold.webp",
+    "bytes": 76732
+  }
+]

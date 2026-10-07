@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T19:31:46.973Z",
+  "generatedAt": "2026-10-07T20:16:17.168Z",
   "assets": [
     {
       "path": "audio/hits/.gitkeep",
@@ -498,9 +498,34 @@
       "sha256": "814562fee701e63412b046e8b5116e2c3ab55a2361fcb72d7dbbde35d5d01b2d"
     },
     {
-      "path": "theme/collector-atmosphere.svg",
-      "bytes": 3564,
-      "sha256": "be007b8e4af5d933f99a563d5573126179e38153ee0ee375b375cd590c9a9496"
+      "path": "theme/smoke-ethereal-fox.webp",
+      "bytes": 120536,
+      "sha256": "7ac5c6f062a1f7fb5aa8178778a3752a359e2046547e9d36d76fcd77958be55e"
+    },
+    {
+      "path": "theme/smoke-fox.webp",
+      "bytes": 136142,
+      "sha256": "505a1c9c97259e6714ad71d04919460ed9239a8e123ea488ca62c576879e0b69"
+    },
+    {
+      "path": "theme/smoke-ghost.webp",
+      "bytes": 111062,
+      "sha256": "7c82a9fde8dfa06f8f07b8c72fea11d0415a4ed2543105c36fd64de7f7f4b45f"
+    },
+    {
+      "path": "theme/smoke-gold.webp",
+      "bytes": 76732,
+      "sha256": "c076c987f85d99eba77f8557dc8c554363ba28659a52339ced7c1f9518afca54"
+    },
+    {
+      "path": "theme/smoke-orb.webp",
+      "bytes": 134094,
+      "sha256": "332d1fe9115c913cc79908372ae927c514c0fe3ad6c08383233cf855c8aff34f"
+    },
+    {
+      "path": "theme/smoke-vortex.webp",
+      "bytes": 83444,
+      "sha256": "ce3215cc9d9d16cec19534d7fd93f2e7ac5318d49bfde40b1d94f6b139f0efe3"
     },
     {
       "path": "ui/.gitkeep",

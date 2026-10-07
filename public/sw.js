@@ -1,8 +1,7 @@
-const VERSION = 'tcg-pack-ripper-0.261.0-3';
+const VERSION = 'tcg-pack-ripper-0.261.0-4';
 const STATIC = `${VERSION}-static`;
 const MEDIA = `${VERSION}-media`;
 const CORE = [
-  './assets/theme/collector-atmosphere.svg',
   './styles/collector-v261.css','./src/screens/rip/silver-shell.js','./src/screens/rip/silver-model.js',
   './src/packs/compact-recap.js','./src/artwork/card-image.js',
   './src/utils/transaction-id.js','./src/collector/district.js','./src/collector/clock.js','./src/collector/notifications.js','./src/collector/catalog-counts.js','./src/collector/collection.js','./src/collector/contracts.js','./src/collector/inspector.js','./src/collector/index.js','./src/collector/transactions.js','./src/collector/model.js','./runtime/collector-bridge.js',
