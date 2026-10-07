@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 720" fill="none">
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6dcc4" stop-opacity=".6"/><stop offset=".5" stop-color="#9a9c9d" stop-opacity=".28"/><stop offset="1" stop-color="#74777c" stop-opacity="0"/></linearGradient>
+    <radialGradient id="smoke"><stop stop-color="#899092" stop-opacity=".17"/><stop offset="1" stop-color="#899092" stop-opacity="0"/></radialGradient>
+    <radialGradient id="warm"><stop stop-color="#d9bc7f" stop-opacity=".16"/><stop offset="1" stop-color="#d9bc7f" stop-opacity="0"/></radialGradient>
+    <linearGradient id="veil"><stop stop-color="white" stop-opacity=".85"/><stop offset=".32" stop-color="white" stop-opacity=".2"/><stop offset=".62" stop-color="white" stop-opacity=".08"/><stop offset="1" stop-color="white" stop-opacity=".8"/></linearGradient>
+    <mask id="edges"><path fill="url(#veil)" d="M0 0h420v720H0z"/></mask>
+    <path id="star" d="M0-8Q1-1 6 0Q1 1 0 8Q-1 1-6 0Q-1-1 0-8Z"/>
+  </defs>
+  <!-- Painted smoke: gradients and curved ribbons, no filters or moving textures. -->
+  <ellipse cx="412" cy="170" rx="170" ry="230" fill="url(#smoke)"/>
+  <ellipse cx="24" cy="456" rx="135" ry="226" fill="url(#smoke)"/>
+  <ellipse cx="223" cy="411" rx="163" ry="228" fill="url(#warm)"/>
+  <g stroke="url(#silver)" mask="url(#edges)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-40 300C110 210-68 147 64 53M-30 620C173 504-84 410 84 316M442 37C248 130 490 215 342 327M447 398C300 448 471 577 303 653" stroke-width="12" opacity=".13"/>
+    <path d="M-40 303C110 210-68 147 64 53M-30 622C173 504-84 410 84 316M442 40C248 130 490 215 342 327M447 401C300 448 471 577 303 653" opacity=".38"/>
+    <!-- Pikachu: long black-tipped ears, cheeks and lightning tail, ghosted at right. -->
+    <g transform="translate(280 140) rotate(12 70 100)" stroke-width="1.6">
+      <path fill="#131619" fill-opacity=".3" d="M22 106C7 88-4 39 2 0C26 19 42 58 46 86Q68 76 88 86C105 44 128 23 150 19C140 48 124 90 109 112Q127 143 111 172Q97 194 70 197Q32 197 13 173Q-2 140 22 106Z"/>
+      <path d="M2 0Q17 14 28 36L8 45M150 19L139 52L116 45"/>
+      <ellipse cx="36" cy="133" rx="7" ry="10"/><ellipse cx="93" cy="131" rx="7" ry="10"/>
+      <path d="m60 148 5 2 5-3M51 163q7 8 14 0q6 8 14-1"/>
+      <ellipse cx="21" cy="159" rx="13" ry="11"/><ellipse cx="110" cy="156" rx="13" ry="11"/>
+      <path d="m116 200 29-26-12-20 40-29-4 36-20 15 10 18-34 22"/>
+    </g>
+    <!-- Gengar: pointed ears, spiked outline and wide grin, low left of showcase. -->
+    <g transform="translate(-36 404) rotate(-10 64 78)" stroke-width="1.7">
+      <path fill="#141619" fill-opacity=".45" d="m4 77-9-64 49 32 7-21 15 16 13-22 13 18 13-11 7 20 42-29-11 64q24 37-2 65-35 33-92 17Q-3 143 4 77Z"/>
+      <path d="m20 77 31 16-24 8Zm66 15 33-19-8 25ZM20 112Q66 137 125 108Q106 159 57 144Q32 136 20 112Z"/>
+      <path d="m39 122 5 17m16-13 2 19m18-19-2 18m21-23-6 16"/>
+    </g>
+    <g transform="translate(390 602)" opacity=".45"><circle r="57"/><circle r="45"/><circle r="12"/><path d="M-57 0h45m24 0h45"/></g>
+  </g>
+  <g fill="#ebd5a4"><use href="#star" x="34" y="268" opacity=".5"/><use href="#star" x="375" y="370" opacity=".65"/><use href="#star" x="322" y="564" opacity=".35"/><use href="#star" x="100" y="630" opacity=".4"/></g>
+  <g fill="#e3ddcc" opacity=".35"><circle cx="16" cy="375" r="1"/><circle cx="403" cy="296" r="1"/><circle cx="369" cy="468" r="1.2"/><circle cx="52" cy="594" r=".8"/><circle cx="315" cy="54" r="1"/></g>
+</svg>

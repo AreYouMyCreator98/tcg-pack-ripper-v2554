@@ -152,3 +152,99 @@ html#collectorTheme#collectorTheme.theme-v261 body :is(.ratesClose,.silver-accou
 html#collectorTheme#collectorTheme.theme-v261 body .sealedProductV179::before{background:radial-gradient(circle at top right,#d9c69b12,transparent 35%)!important}
 html#collectorTheme#collectorTheme.theme-v261 body .gameMonthGridV170 span.today{background:var(--surface-raised)!important;color:var(--text-primary)!important;box-shadow:var(--glow-active)!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(.binderArtworkStatusV252,.sealedProductArtV179>span,.sealedProductArtV179>small){background:var(--surface)!important;color:var(--text-secondary)!important;border-color:var(--metal-1)!important}
+
+/* V261 collector polish. Paint only: no layout changes, extra listeners,
+ * filters, particles, or animation loops. Iconic art is deliberately set-neutral. */
+:root {
+  --accent-warm: #e1c58b !important;
+  --collector-warm-line: #b59b6e !important;
+  --collector-gleam: #f2dfad66 !important;
+  --glow-active: inset 0 0 0 1px #e6c98d, inset 0 1px 9px #efd59620, 0 0 12px #d7b87130 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body {
+  background-image: radial-gradient(ellipse at 100% 20%, #b7a78316, transparent 48%), radial-gradient(ellipse at 0% 65%, #737e8822, transparent 45%), linear-gradient(133deg, transparent 27%, #b4ab970d 27.2%, transparent 28%, transparent 71%, #aaaaaa0a 71.2%, transparent 72%) !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #rip::before {
+  content: '' !important;
+  position: absolute !important;
+  inset: 0 -14px !important;
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  transform: none !important;
+  filter: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+  border: 0 !important;
+  z-index: -1 !important;
+  pointer-events: none !important;
+  background: url('../assets/theme/collector-atmosphere.svg') center top / 100% 100% no-repeat !important;
+  opacity: .85 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #rip:not([data-rip-state="IDLE"])::before { display: none !important; }
+html#collectorTheme#collectorTheme.theme-v261 body #rip .rip-studio-selection {
+  border-color: var(--collector-warm-line) !important;
+  background: radial-gradient(ellipse at 100% 0, #d6b77c1c, transparent 55%), linear-gradient(110deg, #404245b0, #121416f2 40%, #1f2124f5) !important;
+  box-shadow: inset 0 1px 2px #fff5, inset -1px 0 0 var(--collector-gleam), 0 5px 15px #0006 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #rip[data-rip-state="IDLE"] #stage {
+  background: radial-gradient(ellipse at 50% 46%, #d9b97720, #aeb3b40a 43%, transparent 66%) !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #rip[data-rip-state="IDLE"] #pack {
+  border-color: #f0deba !important;
+  box-shadow: 0 0 0 6px #282a2b, 0 0 0 7px #b8a275bb, 0 0 21px #d0ad6a24, 0 10px 25px #0009 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #rip .silver-arrow {
+  border-color: #d7c6a4 !important;
+  box-shadow: inset 0 1px 2px #fff9, 0 0 9px #d8b97826 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .silver-quick button {
+  border-color: #8c826c !important;
+  background: radial-gradient(ellipse at 0 0, #d9c18e18, transparent 70%), linear-gradient(130deg, #303236, #141619) !important;
+  box-shadow: inset 0 1px #f2dfad44, inset 0 -1px #0007, 0 3px 8px #0004 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .silver-quick button:nth-child(2) svg { color: #edcc81 !important; fill: #edcc812b !important; }
+html#collectorTheme#collectorTheme.theme-v261 body #v114PackMode button.active,
+html#collectorTheme#collectorTheme.theme-v261 body #collectorPrimaryNav button.active {
+  background: radial-gradient(circle at 18% 35%, #ebcf952b, transparent 62%), linear-gradient(125deg, #454541, #202225) !important;
+  box-shadow: var(--glow-active) !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #collectorPrimaryNav {
+  border-color: #9e9279 !important;
+  box-shadow: inset 0 1px 2px #f3e2bf88, 0 5px 20px #0009 !important;
+}
+/* A shared warm top-edge reflection keeps the vault, exchange and overlays
+ * related without putting character artwork behind their dense text. */
+html#collectorTheme#collectorTheme.theme-v261 body :is(.collector-panel,.collector-modal-card,.settingsCardV158,.studio-set-drawer,.silver-info,.gradingHeroV147,.vaultHeroV147,.bulk-sale-panel,.profileHeroV158,.hub-panel) {
+  border-top-color: #a6977866 !important;
+  box-shadow: inset 0 1px #ead3a528, var(--shadow-soft) !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body :is(.specialHeroV198,.specialInfoV198,.specialCardBodyV198) {
+  background: radial-gradient(ellipse at 100% 0, #dac1881c, transparent 60%), var(--surface-glass) !important;
+  border-color: #a9987466 !important;
+  box-shadow: inset 0 1px #f2dfad33, var(--shadow-soft) !important;
+}
+@media (hover:hover) {
+  html#collectorTheme#collectorTheme.theme-v261 body .silver-quick button:hover { border-color: var(--accent-warm) !important; }
+}
+@media (prefers-contrast:more) {
+  html#collectorTheme#collectorTheme.theme-v261 body #rip::before { opacity: .25 !important; }
+}
+/* Replace the old broad animated Specials sweep with a quiet corner gleam. */
+html#collectorTheme#collectorTheme.theme-v261 body .specialHeroV198::after {
+  inset: 0 !important;
+  background: linear-gradient(125deg, transparent 68%, #ead6aa0d 78%, transparent 88%) !important;
+  animation: none !important;
+  transform: none !important;
+  pointer-events: none !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .prismaticVaultV198 {
+  background: radial-gradient(ellipse at 100% 0, #c5a6e314, transparent 65%), linear-gradient(125deg, #29282a, #17191c) !important;
+  border-color: #a9987477 !important;
+  box-shadow: inset 0 1px #ead3a52b !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body #v114PackMode::before {
+  background: linear-gradient(180deg, #f2dfad0a, transparent 45%) !important;
+  mix-blend-mode: normal !important;
+  pointer-events: none !important;
+}

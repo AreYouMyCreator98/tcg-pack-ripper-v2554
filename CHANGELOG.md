@@ -1,5 +1,13 @@
 # V261 — Dark Silver Collector (review branch)
 
+## V261 follow-up — collector atmosphere (review)
+
+- Add lightweight Pokémon outline/smoke artwork and champagne trim without changing layout or gameplay.
+- Refine pack halo, active navigation, quick actions and shared panel reflections; soften old Specials/selector glare.
+- Increment the V261 build/cache identity to `v261-silver-2` / `0.261.0-2`.
+- Verification and limitations: [polish report](docs/v261/polish/REPORT.md).
+
+
 - Rebuild Rip around a live account header, selected-set hero, calendar/rates row, metallic showcase, unlocked set arrows, connected 1/10 selector, quick actions and four-destination navigation.
 - Bind the header to actual cash, Collector Level, profile avatar and equipped rank frame. Expose selected-set Master Set navigation without duplicating progression.
 - Apply shared graphite/silver tokens to Collection, physical Binder controls, Master Sets, grading, slabs, Bulk, Specials, sealed, Hub, Profile, settings and dialogs.

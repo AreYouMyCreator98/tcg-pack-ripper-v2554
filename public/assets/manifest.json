@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T14:23:56.284Z",
+  "generatedAt": "2026-10-07T19:31:46.973Z",
   "assets": [
     {
       "path": "audio/hits/.gitkeep",
@@ -496,6 +496,11 @@
       "path": "specials/sp_umbreon_ex.webp",
       "bytes": 177394,
       "sha256": "814562fee701e63412b046e8b5116e2c3ab55a2361fcb72d7dbbde35d5d01b2d"
+    },
+    {
+      "path": "theme/collector-atmosphere.svg",
+      "bytes": 3564,
+      "sha256": "be007b8e4af5d933f99a563d5573126179e38153ee0ee375b375cd590c9a9496"
     },
     {
       "path": "ui/.gitkeep",
