@@ -100,6 +100,7 @@
  function setDisplayQtyV179(key,n){state.sealedV161.display[key]=Math.max(0,Math.floor(n)||0);if(state.sealedV161.display[key]<=0)delete state.sealedV161.display[key]}
  function ownedQtyV179(key){return Number(state.sealedV161.inventory?.[key]||0)}
  function shelfCountV179(){return Object.values(state.sealedV161.display||{}).reduce((a,b)=>a+Number(b||0),0)}
+ window.tcgSealedValue=()=>totalSealedValueV179();
  function totalSealedValueV179(){return Object.entries(state.sealedV161.inventory||{}).reduce((sum,[key,q])=>{const [setId,pid]=key.split('|'),p=sealedProductV179(pid);return sum+(p?sealedProductPriceV161(p,setId)*Number(q||0):0)},0)}
  window.canAffordPackV161=function(setId,count=1){const cr=packCreditsV161(setId),cashNeeded=Math.max(0,count-cr)*8;return Number(state.coins||0)+1e-9>=cashNeeded};
  window.payForPackV161=function(setId){const n=packCreditsV161(setId);if(n>0){state.sealedV161.packCredits[setId]=n-1}else state.coins=Math.round((Number(state.coins||0)-8)*100)/100;syncPackCreditV161()};
@@ -288,7 +289,6 @@
 
 
 /* ===== original script 20 id=v162-uniform-nav-script ===== */
-(()=>{const n=document.querySelector('.nav');if(!n)return;const labels={rip:'Rip Packs',binder:'Binder',bulk:'Bulk Tub',earn:'Trade',profile:'Profile'};Object.entries(labels).forEach(([k,v])=>{const b=n.querySelector(`button[data-s="${k}"]`);if(b)b.textContent=v})})();
 
 
 /* ===== original script 21 id=v163-achievements-polish-script ===== */
@@ -594,22 +594,24 @@ try{
  const parseDateKey=k=>{const m=String(k||'').match(/^(\d{4})-(\d{2})-(\d{2})$/);return m?{y:+m[1],m:+m[2],d:+m[3]}:null};
  const keyFromDate=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
  const safeBase=()=>{const fromDaily=parseDateKey(state?.polishV163?.daily?.day);const now=new Date();return fromDaily||{y:now.getFullYear(),m:now.getMonth()+1,d:now.getDate()}};
- state.gameClockV170=state.gameClockV170||{};
- const gc=state.gameClockV170;
- if(!Number.isFinite(Number(gc.anchorReal))||Number(gc.anchorReal)<=0)gc.anchorReal=Date.now();
- if(!parseDateKey(gc.anchorDate)){const b=safeBase();gc.anchorDate=`${b.y}-${pad(b.m)}-${pad(b.d)}`}
- gc.dayLengthMs=DAY_MS;
- const dayIndex=()=>Math.max(0,Math.floor(Math.max(0,Date.now()-Number(gc.anchorReal||Date.now()))/DAY_MS));
- const dateForOffset=(off=0)=>{const b=parseDateKey(gc.anchorDate)||safeBase();return new Date(b.y,b.m-1,b.d+dayIndex()+Number(off||0),12,0,0,0)};
+ const clockNowV260=()=>window.tcgCollectorClock?.now()??Date.now();
+ function currentClockV260(){
+  const clock=state.gameClockV170||(state.gameClockV170={});
+  if(!Number.isFinite(Number(clock.anchorReal))||Number(clock.anchorReal)<=0)clock.anchorReal=clockNowV260();
+  if(!parseDateKey(clock.anchorDate)){const b=safeBase();clock.anchorDate=`${b.y}-${pad(b.m)}-${pad(b.d)}`;}
+  clock.dayLengthMs=DAY_MS;return clock;
+ }
+ const dayIndex=()=>Math.max(0,Math.floor(Math.max(0,clockNowV260()-Number(currentClockV260().anchorReal||clockNowV260()))/DAY_MS));
+ const dateForOffset=(off=0)=>{const b=parseDateKey(currentClockV260().anchorDate)||safeBase();return new Date(b.y,b.m-1,b.d+dayIndex()+Number(off||0),12,0,0,0)};
  const gameKey=(off=0)=>keyFromDate(dateForOffset(off));
  window.gameDayKeyV170=()=>gameKey(0);
  window.gamePrevDayKeyV170=()=>gameKey(-1);
  window.gameDayKeyOffsetV170=off=>gameKey(off);
- function gameProgress(){const elapsed=Math.max(0,Date.now()-Number(gc.anchorReal||Date.now())),within=elapsed%DAY_MS,totalMinutes=Math.floor(within/DAY_MS*1440),left=DAY_MS-within;return {within,totalMinutes,left,h:Math.floor(totalMinutes/60)%24,m:totalMinutes%60}}
+ function gameProgress(){const elapsed=Math.max(0,clockNowV260()-Number(currentClockV260().anchorReal||clockNowV260())),within=elapsed%DAY_MS,totalMinutes=Math.floor(within/DAY_MS*1440),left=DAY_MS-within;return {within,totalMinutes,left,h:Math.floor(totalMinutes/60)%24,m:totalMinutes%60}}
  function fmtLeft(ms){ms=Math.max(0,Math.ceil(ms/1000));const mm=Math.floor(ms/60),ss=ms%60;return `${pad(mm)}:${pad(ss)}`}
  function fmtDate(d){return d.toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}
  function buildCalendar(d){const grid=document.getElementById('gameMonthGridV170');if(!grid)return;const y=d.getFullYear(),m=d.getMonth(),days=new Date(y,m+1,0,12).getDate(),first=new Date(y,m,1,12).getDay(),mondayIndex=(first+6)%7;let a=[];for(let i=0;i<mondayIndex;i++)a.push('<span class="blank"></span>');for(let n=1;n<=days;n++)a.push(`<span class="${n===d.getDate()?'today':''}">${n}</span>`);while(a.length%7)a.push('<span class="blank"></span>');grid.innerHTML=a.join('');const t=document.getElementById('gameMonthTitleV170');if(t)t.textContent=d.toLocaleDateString(undefined,{month:'long',year:'numeric'})}
- function resetDailySystems(force=false){const key=gameKey();if(!force&&gc.lastProcessedDay===key)return;const oldKey=gc.lastProcessedDay;gc.lastProcessedDay=key;
+ function resetDailySystems(force=false){const key=gameKey();if(!force&&currentClockV260().lastProcessedDay===key)return;const oldKey=currentClockV260().lastProcessedDay;currentClockV260().lastProcessedDay=key;
   try{if(state.polishV163?.daily&&state.polishV163.daily.day!==key){const prev=state.polishV163.daily;state.polishV163.daily={day:key,base:{packs:Number(state.packs||0),hits:Number(state.hits||0),xp:Number(state.xp||0)},claimed:false,streak:Number(prev.streak||0),lastClaim:prev.lastClaim||''}}}catch(_){ }
   try{state.tradeV154=state.tradeV154||{day:key,accepted:{},count:0};if(state.tradeV154.day!==key){state.tradeV154.day=key;state.tradeV154.accepted={}}}catch(_){ }
   try{state.collectorNetV161=state.collectorNetV161||{day:key,completed:{},count:0};if(state.collectorNetV161.day!==key){state.collectorNetV161.day=key;state.collectorNetV161.completed={}}}catch(_){ }
@@ -621,7 +623,7 @@ try{
   const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};set('gameDayV170',`DAY ${day} • ${dow}`);set('gameTimeV170',time);set('gameResetV170',left);set('gameCalendarDayV170',`DAY ${day}`);set('gameCalendarDateV170',fmtDate(d));set('gameCalendarTimeV170',time);set('gameCalendarResetV170',left);const tr=document.getElementById('tradeRefreshV154');if(tr)tr.textContent=`RESET ${left}`;buildCalendar(d)}
  const modal=document.getElementById('gameCalendarModalV170'),open=document.getElementById('gameClockV170'),close=document.getElementById('gameCalendarCloseV170');
  const openCal=()=>{renderClock();modal?.classList.add('show');modal?.setAttribute('aria-hidden','false')};const closeCal=()=>{modal?.classList.remove('show');modal?.setAttribute('aria-hidden','true')};open?.addEventListener('click',openCal);close?.addEventListener('click',closeCal);modal?.addEventListener('click',e=>{if(e.target===modal)closeCal()});
- resetDailySystems(true);renderClock();const timer=setInterval(renderClock,1000);window.addEventListener('pagehide',()=>clearInterval(timer),{once:true});
+ resetDailySystems(true);renderClock();const timer=setInterval(renderClock,1000);window.addEventListener('pagehide',event=>{if(!event.persisted)clearInterval(timer);});window.addEventListener('pageshow',event=>{if(event.persisted)renderClock();});
  try{save()}catch(_){ }
 }catch(err){console.error('V170 game clock',err)}})();
 
@@ -1339,7 +1341,8 @@ try{
     else cards.sort((a,b)=>(b.value-a.value)||(a.chance-b.chance));
     if(count)count.textContent=`Showing ${cards.length} of ${data.cards.length} chase / hit cards${(data.P.subsetsV187||[]).length?' • special subsets included':''}`;
     if(!cards.length){grid.innerHTML='<div class="setChaseEmptyV186">No chase cards match that search.</div>';return}
-    grid.innerHTML=cards.map((c,i)=>`<article class="setChaseCardV186 ${c._subsetName?'subsetV187':''}"><div class="setChaseThumbV186"><img src="${escV187(c.img||c.thumb||'')}" alt="${escV187(c.name)}"><span class="setChaseRankV186">${currentSortV187==='value'?'#'+(i+1):escV187(c.number||'HIT')}</span>${c.owned?'<span class="setChaseOwnedV186">OWNED</span>':''}</div><div class="setChaseBodyV186"><b>${escV187(c.name)}</b><small>${escV187(rarityLabelV187(c))} • ${escV187(c.number||'')}</small><div class="setChaseMetaV186"><span>${c.value>0.11?`$${c.value.toFixed(2)}`:'No live value'}</span><span>${pctV187(c.chance)} • ${oneInV187(c.chance)}</span></div><p>Approximate chance to pull this exact card from one pack using the game\'s current generator.</p>${c._subsetName?`<div class="setChaseSubsetTagV187">✦ ${escV187(c._subsetName)} included</div>`:''}${c.badge?'<div class="setChaseBadgeHintV186">🏆 Your current set badge chase</div>':''}</div></article>`).join('');
+    grid.innerHTML=cards.map((c,i)=>`<article class="setChaseCardV186 ${c._subsetName?'subsetV187':''}"><div class="setChaseThumbV186"><img loading="lazy" decoding="async" src="${escV187(c.img||c.thumb||'')}" alt="${escV187(c.name)}"><span class="setChaseRankV186">${currentSortV187==='value'?'#'+(i+1):escV187(c.number||'HIT')}</span>${c.owned?'<span class="setChaseOwnedV186">OWNED</span>':''}</div><div class="setChaseBodyV186"><b>${escV187(c.name)}</b><small>${escV187(rarityLabelV187(c))} • ${escV187(c.number||'')}</small><div class="setChaseMetaV186"><span>${c.value>0.11?`$${c.value.toFixed(2)}`:'No live value'}</span><span>${pctV187(c.chance)} • ${oneInV187(c.chance)}</span></div><button type="button" class="collector-button" data-chase-inspect="${i}">INSPECT / PIN CHASE</button><p>Approximate chance to pull this exact card from one pack using the game\'s current generator.</p>${c._subsetName?`<div class="setChaseSubsetTagV187">✦ ${escV187(c._subsetName)} included</div>`:''}${c.badge?'<div class="setChaseBadgeHintV186">🏆 Your current set badge chase</div>':''}</div></article>`).join('');
+    grid.querySelectorAll('[data-chase-inspect]').forEach(button=>button.onclick=()=>window.tcgCardInspector?.open(cards[Number(button.dataset.chaseInspect)],{source:'guide'}));
   }
   async function showGuideV187(set){
     const modal=document.getElementById('setChaseOverlayV186');if(!modal||!set)return;

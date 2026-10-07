@@ -17,7 +17,7 @@ export function parsePrice(value) {
   if (!/^\d{1,7}(\.\d{1,2})?$/.test(text)) throw new Error('Enter a price with up to two decimal places.');
   const [whole, fraction = ''] = text.split('.');
   const cents = Number(whole) * 100 + Number(fraction.padEnd(2, '0'));
-  if (!Number.isSafeInteger(cents) || cents < 10 || cents > MONEY_LIMIT) throw new Error('Price must be between $0.10 and $1,000,000.00.');
+  if (!Number.isSafeInteger(cents) || cents < 10 || cents > 1_000_000) throw new Error('Price must be between $0.10 and $10,000.00.');
   return cents;
 }
 export function roomCode(value) {
@@ -60,6 +60,9 @@ export const ERROR_TEXT = {
   ROOM_NOT_FOUND: 'Room not found, full, private to other players, or expired.',
   OFFER_CHANGED: 'The offer changed. Review both sides before confirming again.',
   BOTH_READY_REQUIRED: 'Both collectors must confirm before the battle starts.',
+  CARD_LOCKED: 'Unlock this card before listing or trading it.',
+  PRICE_LIMIT: 'Listings are limited to $10,000. Review your asking price.',
+  STAKES_NOT_ENABLED: 'Cash Stakes is not enabled on this server.',
   CHAT_RATE_LIMIT: 'Wait a moment before sending another message.',
   BLOCKED: 'This interaction is unavailable because a player is blocked.',
   CATALOG_UNAVAILABLE: 'Battle cards are temporarily unavailable. Try another set.',

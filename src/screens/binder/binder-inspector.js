@@ -30,6 +30,7 @@ async function setInspectorArtwork(img, card, token) {
 }
 
 export async function openBinderCardV252(id) {
+  if(window.tcgCardInspector)return window.tcgCardInspector.open(binderBridgeNow()?.getCard(id),{source:"binder"});
   const bridge = binderBridgeNow();
   const card = bridge?.getCard(id);
   if (!bridge || !card) return false;

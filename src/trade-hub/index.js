@@ -20,11 +20,11 @@ export function installTradeHub(target=window,doc=document) {
     rank:(profile,data)=>target.tcgHubBridge?.applyRank?.(profile,data)
   };
   // The signed-out view and local district work even if the auth SDK is unavailable.
-  const controller=new HubController({client,bridge,notify:state=>view.render(state)});
+  const controller=new HubController({client,bridge,notify:state=>{view.render(state);if(target.CustomEvent)target.dispatchEvent(new target.CustomEvent('tcg:hub-updated',{detail:state}));}});
   const view=new HubView(root,controller,{shops});
   const social=new Social({client,active:()=>view.tab==='friends'&&bridge.active(),visible:bridge.visible,notify:()=>{if(view.tab==='friends')view.render();else {const b=root.querySelector('[data-hub-tab="friends"]');if(b)b.textContent='Friends'+(social.data.friends.some(f=>f.unread)?' •':'');}}});
   view.social=social;
-  const setUser=user=>{social.setUser(user).catch(()=>{});return controller.setUser(user);};
+  const setUser=user=>{if(controller.uid!==(user?.id||null))target.tcgCardInspector?.close();social.setUser(user).catch(()=>{});return controller.setUser(user);};
   view.render();
   let authSubscription;
   if(client){

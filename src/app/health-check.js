@@ -6,7 +6,7 @@ const REQUIRED_IDS = Object.freeze([
 export function runHealthCheck() {
   const missing = REQUIRED_IDS.filter(id => !document.getElementById(id));
   const navTargets = [...document.querySelectorAll('.nav [data-s]')].map(el => el.dataset.s);
-  const requiredNav = ['rip', 'binder', 'bulk', 'earn', 'profile'];
+  const requiredNav = ['rip', 'binder', 'earn', 'profile'];
   const missingNav = requiredNav.filter(id => !navTargets.includes(id));
   const result = Object.freeze({
     ok: missing.length === 0 && missingNav.length === 0,

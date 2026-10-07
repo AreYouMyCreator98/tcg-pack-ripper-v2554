@@ -1,3 +1,5 @@
+import { installCollector } from './collector/index.js';
+import { installCollectorNavigation } from './app/collector-navigation.js';
 import { installQuestShortcut } from './app/quest-shortcut.js';
 import { mountUI } from './ui.js';
 import { installBulkModule } from './screens/bulk/index.js';
@@ -15,7 +17,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=256';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=260';
 
 beginLaunch();
 exposeAppConfig();
@@ -83,6 +85,7 @@ async function boot() {
     setLaunchStage('LOADING COLLECTION', 47, 'Restoring packs, progress and collection systems…');
     await loadCriticalRuntime();
     installBulkModule();
+    installCollectorNavigation();
     bootMark('critical-runtime-ready');
 
     bootStage = 'starting pack engine';
@@ -110,6 +113,7 @@ async function boot() {
       Promise.race([warmOptional, sleep(2200)])
     ]);
 
+    installCollector();
     bootStage = 'finishing startup';
     setLaunchStage('FINAL CHECK', 96, 'Everything is almost ready…');
 

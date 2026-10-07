@@ -1,0 +1,42 @@
+{
+  "engine": "Chromium",
+  "externalServices": "stubbed",
+  "physicalDevices": false,
+  "results": [
+    {
+      "width": 360,
+      "height": 800,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "passed": true
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "passed": true
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "passed": true
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "passed": true
+    }
+  ]
+}

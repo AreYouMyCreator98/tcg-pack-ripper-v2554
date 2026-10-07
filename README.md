@@ -1,4 +1,8 @@
-# TCG Pack Ripper+ — V256 Trade Hub
+# TCG Pack Ripper+ — V260 Collector Overhaul (review branch)
+
+Four destinations: **RIP · COLLECTION · HUB · PROFILE**. Start with the [implementation map](docs/v260/IMPLEMENTATION-MAP.md), [architecture](docs/v260/ARCHITECTURE.md), [migration notes](docs/v260/MIGRATION.md), [test report](docs/v260/TEST-REPORT.md) and [phone preview instructions](docs/v260/PHONE-PREVIEW.md). Main, production SQL and live GitHub Pages are not changed by this review branch.
+
+## Previously published V256 Trade Hub
 
 Rebuilt marketplace, trading, multiplayer, global chat, pack battles, matchmaking and ranked play. [Play the live game](https://areyoumycreator98.github.io/tcg-pack-ripper-v2554/). V256 and its matching backend were deployed on 2026-10-03. Start with [the system guide](docs/TRADE-HUB-V256.md), [verification](docs/VERIFICATION-V256.md), and [deployment notes](docs/DEPLOYMENT-V256.md).
 

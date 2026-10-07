@@ -1,3 +1,18 @@
+# V260 — Collector Overhaul (unreleased review build)
+
+- Consolidates navigation into RIP / COLLECTION / HUB / PROFILE with one safe-area bar and universal settings gear.
+- Adds a shared card inspector, three saved chases, contextual actions, pack-specific recap and safe routing without normal Trash actions.
+- Adds paged Collection cards/checklists, retains physical Binder/Bulk/Sealed, and introduces Master milestones and cosmetic Master Set+ grading goals.
+- Adds rotating Collector Contracts and daily District stock, atomic local purchase/delivery/sale validation, bounded XP and legacy Shop Rep/Jobs preservation.
+- Preserves grading condition across submission; service price affects waiting time, not the returned grade. Adds local population and light inspection.
+- Groups Hub systems, gives trades explicit value comparison, adds watchlists/reference price guidance and hardens staged server boundaries.
+- Simplifies Profile to four tabs with Journal, value dashboard, consolidated statistics and combined notifications.
+- Fixes established-save loader observer loop, preserves cash-only saves, prevents artwork failure from deleting inventory, and protects manually routed Bulk on reload.
+- Adds additive SQL for opponent-based Ranked RP and disabled Stakes capability. No live migration, destructive reset or Pages deployment.
+- Adds an isolated preview packager and expanded migration, transaction, catalog, mobile and browser gameplay verification.
+
+See [migration](docs/v260/MIGRATION.md), [verification](docs/v260/TEST-REPORT.md) and [release limits](docs/v260/KNOWN-ISSUES.md).
+
 # V256 — Trade Hub rebuild
 
 - Replaced the layered online runtimes with a modular Hub and authenticated transactional service.

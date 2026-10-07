@@ -1,8 +1,9 @@
+import {transactionId} from '../utils/transaction-id.js';
 import { errorMessage } from './model.js';
 
 const ECONOMIC = new Set(['listing_create','listing_buy','listing_cancel','trade_offer','room_ready','room_cancel','heartbeat']);
 export class HubController {
-  constructor({client,bridge={},storage=globalThis.localStorage,notify=()=>{},clock=globalThis,timeout=15000,uuid=()=>crypto.randomUUID()}) {
+  constructor({client,bridge={},storage=globalThis.localStorage,notify=()=>{},clock=globalThis,timeout=15000,uuid=transactionId}) {
     Object.assign(this,{client,bridge,storage,notify,clock,timeout,uuid});
     this.state={status:'signed-out',data:null,error:'',busy:false,background:false,action:null,online:0};
     this.epoch=0; this.revision=0; this.uid=null; this.pending=null; this.channel=null; this.timer=null; this.refreshTask=null; this.disposed=false;

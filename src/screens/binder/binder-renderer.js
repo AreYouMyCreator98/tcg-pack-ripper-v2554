@@ -2,8 +2,7 @@ import {
   getArtworkUrl,
   peekArtworkUrl,
   prefetchCards,
-  prepareCollectionInBackground,
-  clearFailureForCard
+  prepareCollectionInBackground
 } from '../../artwork/index.js';
 import { binderEntries, binderStats, filterBinderCards, paginateBinder } from './binder-model.js';
 import { binderBridgeNow } from './binder-bridge.js';
@@ -11,7 +10,7 @@ import { updateBinderArtworkStatus } from './binder-status.js';
 
 let renderToken = 0;
 
-function ensureRemovalStyles() {
+function ensureArtworkStatusStyles() {
   if (document.getElementById('v254BinderRemovalStyles')) return;
   const style = document.createElement('style');
   style.id = 'v254BinderRemovalStyles';
@@ -21,7 +20,6 @@ function ensureRemovalStyles() {
     #binder .v254ArtFailurePanel>span{font:750 7px/1.25 system-ui;opacity:.84}
     #binder .v254ArtFailureActions{display:grid;grid-template-columns:1fr 1fr;gap:4px;width:100%;margin-top:2px}
     #binder .v254ArtFailureActions button{min-width:0;border:1px solid rgba(255,255,255,.24);border-radius:7px;padding:6px 3px;background:rgba(255,255,255,.14);color:#fff;font:900 6.5px/1 system-ui;letter-spacing:.35px}
-    #binder .v254ArtFailureActions button.v254RemoveBrokenCard{background:rgba(31,19,52,.52);border-color:rgba(255,255,255,.18)}
   `;
   document.head.appendChild(style);
 }
@@ -43,45 +41,6 @@ export function currentBinderCards() {
     ...filterControls(),
     tier: bridge.tier
   });
-}
-
-function binderKeyForCard(map, card) {
-  if (!map || !card) return '';
-  if (card.id && map[card.id]) return card.id;
-  return Object.keys(map).find(key => String(map[key]?.id || '') === String(card.id || '')) || '';
-}
-
-function flushRemoval(bridge, card, qty) {
-  try { bridge.save?.(); } catch {}
-  try { window.v213FlushSave?.(); } catch {}
-  try { window.renderSets?.(); } catch {}
-  window.dispatchEvent(new CustomEvent('tcg:binder-card-removed', {
-    detail: { id: card?.id || '', name: card?.name || 'Card', qty: Number(qty || 0), reason: 'broken-artwork' }
-  }));
-}
-
-export function permanentlyRemoveBinderCard(card, { confirmRemoval = true } = {}) {
-  const bridge = binderBridgeNow();
-  if (!bridge || !card) return false;
-  const map = bridge.getBinderMap();
-  const key = binderKeyForCard(map, card);
-  if (!key) return false;
-  const owned = map[key];
-  const qty = Math.max(1, Number(owned?.qty || card.qty || 1));
-  if (confirmRemoval) {
-    const copy = qty > 1 ? ` and all ${qty} copies` : '';
-    const ok = window.confirm(
-      `Permanently remove ${owned?.name || card.name || 'this card'}${copy} from the Binder?\n\n` +
-      `This lowers collection/Master Set progress and cannot be undone. The card must be pulled, bought or traded again to return.`
-    );
-    if (!ok) return false;
-  }
-  delete map[key];
-  clearFailureForCard(owned || card);
-  flushRemoval(bridge, owned || card, qty);
-  try { window.toast?.(`${owned?.name || card.name || 'Card'} removed from Binder.`); } catch {}
-  queueMicrotask(() => renderBinderPage(false));
-  return true;
 }
 
 function makeSlot(card, bridge) {
@@ -118,7 +77,7 @@ function makeSlot(card, bridge) {
 
 function showSlotFailure(slot, img, card) {
   if (!slot.isConnected) return;
-  ensureRemovalStyles();
+  ensureArtworkStatusStyles();
   slot.classList.remove('v252ArtPending', 'v252ArtReady');
   slot.classList.add('v252ArtFailed');
 

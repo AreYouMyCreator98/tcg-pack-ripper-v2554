@@ -17,15 +17,15 @@ async function player(db,uid){
  const controller=new HubController({client,clock,storage:null,bridge:{begin:async()=>(await db.call(uid,'snapshot')).save_version,finish:async()=>{localSave=(await db.db.query('select save_data from user_saves where user_id=$1',[uid])).rows[0].save_data;}},notify:state=>view.render(state)});
  view=new HubView(document.getElementById('root'),controller,{shops:document.getElementById('shops')});await controller.setUser({id:uid});
  const click=async selector=>{const target=view.root.querySelector(selector);assert.ok(target,'missing '+selector);await view.onClick({target});};
- const tab=async name=>click(`[data-hub-tab="${name}"]`);
+ const tab=async name=>{if(name==='chat')await click('[data-hub-tab="friends"]');if(name==='ranked')await click('[data-hub-tab="battles"]');if(name==='activity'){await click('[data-hub-tab="market"]');return click('[data-market-mode="sold"]');}return click(`[data-hub-tab="${name}"]`);};
  const input=(name,value,checked)=>{const el=view.root.querySelector(`[name="${name}"]`);assert.ok(el,'missing input '+name);if(el.tagName==='SELECT'){for(const option of el.querySelectorAll('option'))option.selected=false;[...el.querySelectorAll('option')].find(option=>option.value===value).selected=true;}else el.value=value;if(checked!==undefined)el.checked=checked;view.onInput({target:el,type:'change'});};
  const submit=async name=>{const target=view.root.querySelector(`[data-hub-form="${name}"]`);assert.ok(target);await view.onSubmit({target,preventDefault(){}});assert.equal(controller.state.error,'',controller.state.error);};
  return {controller,view,document,click,tab,input,submit,get localSave(){return localSave;},close:async()=>{view.dispose();await controller.dispose();}};
 }
 const fixture=fn=>async()=>{const db=await database();const a=await player(db,A),b=await player(db,B);try{await fn({db,a,b});}finally{await a.close();await b.close();await db.close();}};
 test('price, invite, rank boundaries and unsafe image inputs are handled deterministically',()=>{
- assert.equal(parsePrice('12.05'),1205);assert.equal(parsePrice('1000000.00'),100000000);
- for(const x of ['-1','NaN','1e3','.50','0.001','1000000.01',''])assert.throws(()=>parsePrice(x));
+ assert.equal(parsePrice('12.05'),1205);assert.equal(parsePrice('10000.00'),1000000);
+ for(const x of ['-1','NaN','1e3','.50','0.001','10000.01',''])assert.throws(()=>parsePrice(x));
  assert.equal(roomCode(' abcd0123 '),'ABCD0123');assert.throws(()=>roomCode('<script>'));
  assert.equal(rankProgress(119).rank.id,'rookie');assert.equal(rankProgress(120).rank.id,'bronze');assert.equal(rankProgress(1900).percent,100);
  assert.equal(safeImage('javascript:alert(1)'),'');assert.equal(safeImage('http://insecure.test/a'),'');assert.equal(escapeHtml('<img onerror="x">'),'&lt;img onerror=&quot;x&quot;&gt;');
@@ -63,7 +63,7 @@ test('chat rendering prevents markup injection; blocking and reporting use the s
 test('all tabs, profile form, local shops and sign-out render without losing offline access',fixture(async({a})=>{
  await a.tab('ranked');a.input('name','New Collector');a.input('title','Pack Explorer');a.input('style','ember');a.input('show_record','',false);await a.submit('profile');assert.equal(a.controller.state.data.profile.name,'New Collector');assert.equal(a.controller.state.data.profile.show_record,false);
  for(const tab of ['market','trades','battles','chat','ranked','activity','shops'])await a.tab(tab);
- assert.equal(a.document.getElementById('shops').hidden,false);await a.controller.setUser(null);await a.tab('market');assert.match(a.view.root.textContent,/Sign in through Profile/);await a.tab('shops');assert.equal(a.document.getElementById('shops').hidden,false);
+ assert.equal(a.document.getElementById('shops').hidden,false);await a.controller.setUser(null);await a.tab('market');assert.match(a.view.root.textContent,/Sign in through the settings gear/);await a.tab('shops');assert.equal(a.document.getElementById('shops').hidden,false);
 }));
 
 test('earned chat portraits, ranked portrait and live identity editor share saved battle identity',fixture(async({db,a,b})=>{

@@ -82,6 +82,6 @@ test('daily claim grants exactly $80 once and retains streak pack credits',async
 test('Quests waits for Profile to load, opens challenges and does not claim rewards',async()=>{
  const {document}=parseHTML('<button id="openQuests">Quests</button><nav class="nav"><button data-s="profile">Profile</button></nav><details><summary>Challenges</summary><div id="profileChallengesSlot"></div></details>');let loaded=false,navigated=false;
  document.querySelector('[data-s]').addEventListener('click',()=>{assert.equal(loaded,true);navigated=true;});
- installQuestShortcut({doc:document,win:{tcgProfileStudio:{switchTab:mode=>assert.equal(mode,'overview')}},load:async()=>{loaded=true;}});
+ installQuestShortcut({doc:document,win:{tcgProfileStudio:{switchTab:mode=>assert.equal(mode,'progress')}},load:async()=>{loaded=true;}});
  document.getElementById('openQuests').click();await new Promise(r=>setImmediate(r));assert.equal(navigated,true);assert.equal(document.querySelector('details').open,true);assert.equal(document.getElementById('openQuests').disabled,false);
 });

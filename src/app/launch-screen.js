@@ -1,4 +1,4 @@
-const MIN_SPLASH_MS = 1180;
+const MIN_SPLASH_MS = 0;
 let bootObserver = null;
 let lastProgress = 8;
 
@@ -10,7 +10,7 @@ function suppressAchievementBurst() {
   if (!window.__TCG_BOOT_PHASE__) return;
   const burst = document.getElementById('v163UnlockBurst');
   if (!burst) return;
-  burst.classList.remove('show');
+  if (burst.classList.contains('show')) burst.classList.remove('show');
   burst.style.setProperty('display', 'none', 'important');
   burst.dataset.bootSuppressed = '1';
 }
@@ -78,7 +78,7 @@ export async function finishLaunch() {
   // reconciliation, not a new player event. Clear only the visual burst.
   const burst = document.getElementById('v163UnlockBurst');
   if (burst) {
-    burst.classList.remove('show');
+    if (burst.classList.contains('show')) burst.classList.remove('show');
     burst.style.removeProperty('display');
     burst.textContent = '';
     delete burst.dataset.bootSuppressed;
@@ -88,7 +88,7 @@ export async function finishLaunch() {
   await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
   const root = launchEl('tcgLaunch');
   root?.classList.add('v2541Leaving');
-  await sleep(440);
+  await sleep(140);
   root?.remove();
   window.__TCG_BOOT_PHASE__ = false;
   bootObserver?.disconnect();

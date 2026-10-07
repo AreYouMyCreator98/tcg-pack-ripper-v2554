@@ -18,6 +18,6 @@ test('critical runtime order remains compatible with legacy globals', () => {
     'runtime/progression.js',
     'runtime/special-collection.js',
     'runtime/packs.js',
-    'runtime/bulk-bridge.js'
+    'runtime/bulk-bridge.js', 'runtime/collector-bridge.js'
   ]);
 });

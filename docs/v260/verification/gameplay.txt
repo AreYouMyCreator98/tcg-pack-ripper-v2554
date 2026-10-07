@@ -1,0 +1,14 @@
+START 390 844
+DOM loaded
+BOOT ready
+PACK scenario 1
+PACK scenario 10
+PACK PASS: 1 + 10, 110 retained cards, $88 paid once
+GRADING PASS: submission, pack wait, return, slab
+DISTRICT PASS: contract, walk-in, auction, mystery collection
+NAV binder
+NAV earn
+NAV profile
+NAV rip
+SETTINGS
+PASS 390x844

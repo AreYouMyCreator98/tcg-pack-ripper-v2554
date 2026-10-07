@@ -21,7 +21,7 @@ test('essential UI contract survives modular extraction', () => {
   for (const id of requiredIds) {
     assert.match(html, new RegExp(`id=["']${id}["']`), `missing #${id}`);
   }
-  for (const target of ['rip','binder','bulk','earn','profile']) {
+  for (const target of ['rip','binder','earn','profile']) {
     assert.match(html, new RegExp(`data-s=["']${target}["']`), `missing nav target ${target}`);
   }
 });

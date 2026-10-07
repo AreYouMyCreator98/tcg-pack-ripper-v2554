@@ -113,6 +113,7 @@ export function installProfileStudio(win=window,doc=document){
    if(changed){dirty=false;busy=false;notice('');pages.forEach(p=>p.page=0);}
    data=next;if(!draft||changed||!dirty){draft=lookOf(data.profile);fill();}
    arrange();preview();renderLooks();
+   $('profileTitleChips').innerHTML=['Collector','Chase Seeker','Vault Keeper','Pack Explorer',...(data.titles||[])].map(title=>`<button type="button" data-studio-title="${e(title.slice(0,28))}">${e(title)}</button>`).join('');
  }
  function schedule(){if(queued)return;queued=true;queueMicrotask(()=>{queued=false;refresh();});}
  function change(){dirty=JSON.stringify(draft)!==JSON.stringify(lookOf(data.profile));notice('');preview();}

@@ -65,9 +65,10 @@
     return out;
   };
 
+  const ownsCardV260=id=>!!(state?.binder?.[id]||state?.bulkV64?.[id]||state?.gradingV44?.submissions?.some(c=>c.id===id)||state?.gradingV44?.graded?.some(c=>c.id===id)||state?.marketV57?.listings?.some(c=>(c.card?.id||c.slab?.id||c.id)===id)||state?.hubEscrowV256?.some(c=>(c.card?.id||c.id)===id));
   const rawAutoCollect=autoCollectV74;
   autoCollectV74=function(c){
-    const route=routeOf(c),wasOwned=!!(state?.binder?.[c?.id]||state?.bulkV64?.[c?.id]);
+    const route=routeOf(c),wasOwned=ownsCardV260(c?.id);
     const ok=rawAutoCollect.apply(this,arguments);
     if(ok)emit('tcg:card-collected',{card:cloneCard(c),route,wasNew:!wasOwned,index:Number(idx||0),mode:Number(v114PackCount)===10?10:1,auto:false});
     return ok;
@@ -75,9 +76,10 @@
 
   const rawDecide=decide;
   decide=function(keep){
+    keep=true; // V260: every revealed card is retained by the established route.
     if(window.decisionLock)return;
-    const c=pulls?.[idx],route=keep?routeOf(c):'trash',wasOwned=!!(state?.binder?.[c?.id]||state?.bulkV64?.[c?.id]);
-    const out=rawDecide.apply(this,arguments);
+    const c=pulls?.[idx],route=keep?routeOf(c):'trash',wasOwned=ownsCardV260(c?.id);
+    const out=rawDecide.call(this,true);
     if(c)emit('tcg:card-collected',{card:cloneCard(c),route,wasNew:!!keep&&!wasOwned,index:Number(idx||0),mode:Number(v114PackCount)===10?10:1,auto:false});
     return out;
   };
@@ -106,7 +108,7 @@
     try{
       for(let i=start;i<pulls.length;i++){
         const c=pulls[i];if(!c||done.has(i))continue;
-        const wasOwned=!!(state?.binder?.[c.id]||state?.bulkV64?.[c.id]);
+        const wasOwned=ownsCardV260(c.id);
         try{awardChase(c)}catch(_e){}
         const route=routeOf(c);
         if(route==='bulk'){addToBulkV64(c);bulk++}else{addToBinderV64(c);binder++}

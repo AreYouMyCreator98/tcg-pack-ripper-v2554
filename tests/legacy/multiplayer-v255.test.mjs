@@ -39,15 +39,14 @@ test('global chat is realtime with presence, unread and mute controls', () => {
   assert.match(js, /tcgGlobalChatMutedV255/);
 });
 
-test('v255 loads after ranked runtime', () => {
-  assert.ok(manifest.indexOf("runtime/ranked.js") < manifest.indexOf("runtime/multiplayer-v255.js"));
+test('archived v255 multiplayer is excluded from the active runtime', () => {
+  assert.doesNotMatch(manifest, /runtime\/multiplayer-v255\.js/);
+  assert.match(manifest, /runtime\/hub-bridge\.js/);
 });
 
-test('v255 assets are linked and service-worker precached', () => {
-  assert.match(index, /multiplayer-v255\.css/);
-  assert.match(sw, /multiplayer-v255\.js/);
-  assert.match(sw, /multiplayer-v255\.css/);
-  assert.match(sw, /tcg-pack-ripper-0\.255\.4/);
+test('archived assets are not shipped or precached, while their source remains intact', () => {
+  assert.doesNotMatch(index, /multiplayer-v255\.css/);
+  assert.doesNotMatch(sw, /multiplayer-v255\.(js|css)/);
   assert.match(js, /wireReadyButton/);
   assert.match(js, /pollReadyRoom/);
   assert.match(js, /MATCH FOUND/);

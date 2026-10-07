@@ -1,0 +1,1 @@
+PASS: preview boot, healthy UI, separate save, production sentinel unchanged, no account requests, blocked cloud write, service-worker offline reload. Chromium simulation only.

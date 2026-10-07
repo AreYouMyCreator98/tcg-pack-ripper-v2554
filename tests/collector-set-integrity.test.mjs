@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import {readFileSync} from 'node:fs';
+import {CATALOG_COUNTS} from '../src/collector/catalog-counts.js';
+import {GOD_PACK_RATE} from '../src/packs/pack-rates.js';
+const source=readFileSync('public/runtime/core.js','utf8');
+const extract=(start,end)=>source.slice(source.indexOf(start),source.indexOf(end,source.indexOf(start)));
+const sets=vm.runInNewContext(extract('const SETS=','const CHASE_CARDS')+';SETS');
+test('every supported set has a local checklist, art identity, rarity, unlock and pack artwork',()=>{assert.equal(sets.length,32);const ids=new Set();for(const set of sets){const catalog=JSON.parse(readFileSync('public/catalog/'+set.id+'.json','utf8'));assert.equal(catalog.length,CATALOG_COUNTS[set.id]);assert.ok(catalog.length>0);assert.ok(Number.isFinite(set.unlock));assert.match(source,new RegExp('"'+set.id.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'":\\["https://images\\.sealeddex\\.com'));const local=new Set();for(const card of catalog){assert.ok(card.id&&card.name&&card.rarity);assert.equal(card.setId,set.id);assert.equal(local.has(card.id),false);local.add(card.id);ids.add(card.id);assert.ok(new URL(card.img).hostname==='assets.tcgdex.net');assert.ok(card.img!==card.thumb);}}assert.ok(ids.size>=6800);});
+test('God Pack rate remains exposed as one in one thousand',()=>{assert.equal(GOD_PACK_RATE,.001);assert.match(source,/1 IN 1,000/);assert.match(source,/isGod=Math\.random\(\)<GOD_PACK_RATE/);});
+test('every set produces ten God Pack cards from its real catalog without cross-set substitution',()=>{const code=extract('function makeGodPack(','function starterActiveV199(');for(const set of sets){const catalog=JSON.parse(readFileSync('supabase/catalog/'+set.id+'.json','utf8'));const cards=catalog.map(r=>({...r.card,tier:r.tier})),P={all:cards,big:cards.filter(c=>c.tier>=3),rare:cards.filter(c=>c.tier>=1)},u=new Set();const context=vm.createContext({sel:set,P,u,unique:(pool,used)=>{const c=pool.find(c=>!used.has(c.id))||pool[0];if(c)used.add(c.id);return c;}});vm.runInContext(code,context);const pack=context.makeGodPack(P,u);assert.equal(pack.length,10,set.id);assert.ok(pack.every(c=>cards.some(x=>x.id===c.id)),set.id);assert.ok(pack.every(c=>c.setId===set.id),set.id);}});

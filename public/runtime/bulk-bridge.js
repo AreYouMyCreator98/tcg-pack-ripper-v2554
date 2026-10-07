@@ -9,6 +9,7 @@
     snapshot(){return {account:account(),cash:Number(state.coins||0),blocked:blocked(),cards:Object.entries(state.bulkV64||{}).filter(([,c])=>c&&Number.isSafeInteger(Number(c.qty))&&Number(c.qty)>0).map(([id,c])=>({...c,id,qty:Number(c.qty),set:c.set||'Unknown set',rarity:c.rarity||'Unclassified',unitCents:Number.isFinite(unit(c))?unit(c):0}))};},
     inspect(id){if(!blocked())openBulkCardV64(id);},
     sell(plan){
+      if(window.tcgCollector?.transactions){const tx=window.tcgCollector.transactions;return tx.transact('bulkSale',{...tx.review(),...plan});}
       if(blocked())throw new Error('Your collection is syncing. Try again when it finishes.');
       if(!plan||plan.account!==account())throw new Error('The account changed. Review the sale again.');
       if(!Array.isArray(plan.lines)||!plan.lines.length)throw new Error('No cards are selected for sale.');
