@@ -1,3 +1,12 @@
+# V261 — Dark Silver Collector (review branch)
+
+- Rebuild Rip around a live account header, selected-set hero, calendar/rates row, metallic showcase, unlocked set arrows, connected 1/10 selector, quick actions and four-destination navigation.
+- Bind the header to actual cash, Collector Level, profile avatar and equipped rank frame. Expose selected-set Master Set navigation without duplicating progression.
+- Apply shared graphite/silver tokens to Collection, physical Binder controls, Master Sets, grading, slabs, Bulk, Specials, sealed, Hub, Profile, settings and dialogs.
+- Bundle all 32 official pack images and 32 set logos/symbols locally; correct three broken logo identities/format paths and retain remote source URLs for provenance.
+- Fix the locked-set drawer interception bug; preserve V260.1 batch opening, compact recaps, every save field, economy rules and pull odds.
+- Advance runtime/service-worker cache to V261. No backend migration or production deployment. See [implementation map](docs/v261/IMPLEMENTATION.md) and [phone preview instructions](docs/v261/PHONE-PREVIEW.md).
+
 # V260.1 — Mobile UX and 10-pack hotfix (review build)
 
 - Batch pack generation, collection and persistence; yield between packs/card groups and avoid repeated ownership scans.

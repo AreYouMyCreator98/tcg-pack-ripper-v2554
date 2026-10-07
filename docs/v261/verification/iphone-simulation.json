@@ -1,0 +1,377 @@
+{
+  "engine": "Chromium",
+  "deviceSimulation": "iphone",
+  "largeCollection": false,
+  "physicalDevices": false,
+  "externalServices": "stubbed",
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "scroll": 662,
+      "client": 662,
+      "top": 58,
+      "bottom": 720,
+      "cta": 586.15625
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 706,
+      "client": 706,
+      "top": 58,
+      "bottom": 764,
+      "cta": 602.90625
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "scroll": 735,
+      "client": 735,
+      "top": 58,
+      "bottom": 793,
+      "cta": 604.625
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "scroll": 777,
+      "client": 777,
+      "top": 58,
+      "bottom": 835,
+      "cta": 615.21875
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "scroll": 794,
+      "client": 794,
+      "top": 58,
+      "bottom": 852,
+      "cta": 625.25
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scroll": 886,
+      "client": 886,
+      "top": 58,
+      "bottom": 944,
+      "cta": 681.46875
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scroll": 762,
+      "client": 762,
+      "top": 58,
+      "bottom": 820,
+      "cta": 649.28125
+    }
+  ],
+  "runs": [
+    {
+      "timings": {
+        "generation": 42.20000000111759,
+        "state": 51.5,
+        "progression": 63.5,
+        "renderAt": 9821.599999999627,
+        "render": 25.700000001117587,
+        "save": 12.799999998882413,
+        "total": 385,
+        "imageLoad": {
+          "firstMs": 68.40000000037253,
+          "lastMs": 202.90000000037253,
+          "count": 160
+        }
+      },
+      "writes": 1,
+      "long": [],
+      "nodes": 545,
+      "heap": 8293868,
+      "listeners": 861
+    },
+    {
+      "timings": {
+        "generation": 58.40000000037253,
+        "state": 50.09999999962747,
+        "progression": 63.29999999888241,
+        "renderAt": 3470.39999999851,
+        "render": 24.600000001490116,
+        "save": 7.699999999254942,
+        "total": 400.19999999925494,
+        "imageLoad": {
+          "firstMs": 64.10000000149012,
+          "lastMs": 242.40000000037253,
+          "count": 163
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 7956020,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 39.90000000037253,
+        "state": 48.40000000037253,
+        "progression": 57.90000000037253,
+        "renderAt": 4748.0999999996275,
+        "render": 25.40000000037253,
+        "save": 12.599999999627471,
+        "total": 374.59999999962747,
+        "imageLoad": {
+          "firstMs": 71.90000000037253,
+          "lastMs": 226.5,
+          "count": 183
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 8059200,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 44.59999999962747,
+        "state": 52.30000000074506,
+        "progression": 70.19999999925494,
+        "renderAt": 6070.799999998882,
+        "render": 24,
+        "save": 13.900000000372529,
+        "total": 417.80000000074506,
+        "imageLoad": {
+          "firstMs": 86.70000000111759,
+          "lastMs": 222.7000000011176,
+          "count": 178
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 8159704,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 60.59999999962747,
+        "state": 46.80000000074506,
+        "progression": 75.19999999925494,
+        "renderAt": 7465.299999998882,
+        "render": 25.59999999962747,
+        "save": 16.90000000037253,
+        "total": 427.40000000037253,
+        "imageLoad": {
+          "firstMs": 90,
+          "lastMs": 268.90000000037253,
+          "count": 175
+        }
+      },
+      "writes": 5,
+      "long": [
+        52
+      ],
+      "nodes": 545,
+      "heap": 8236548,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 47.69999999925494,
+        "state": 50.40000000037253,
+        "progression": 83.69999999925494,
+        "renderAt": 8815.199999999255,
+        "render": 24,
+        "save": 12.199999999254942,
+        "total": 415.2999999988824,
+        "imageLoad": {
+          "firstMs": 87.59999999962747,
+          "lastMs": 253.40000000037253,
+          "count": 176
+        }
+      },
+      "writes": 5,
+      "long": [],
+      "nodes": 545,
+      "heap": 8315100,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 41.90000000037253,
+        "state": 67.90000000037253,
+        "progression": 106.30000000074506,
+        "renderAt": 10269.199999999255,
+        "render": 54.69999999925494,
+        "save": 16.40000000037253,
+        "total": 519.7999999988824,
+        "imageLoad": {
+          "firstMs": 120.30000000074506,
+          "lastMs": 358.09999999962747,
+          "count": 181
+        }
+      },
+      "writes": 5,
+      "long": [
+        76
+      ],
+      "nodes": 545,
+      "heap": 8377412,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 50.40000000037253,
+        "state": 50.80000000074506,
+        "progression": 81.89999999850988,
+        "renderAt": 11817.89999999851,
+        "render": 36.600000001490116,
+        "save": 22.699999999254942,
+        "total": 467.69999999925494,
+        "imageLoad": {
+          "firstMs": 104.60000000149012,
+          "lastMs": 271.90000000037253,
+          "count": 178
+        }
+      },
+      "writes": 1,
+      "long": [
+        65
+      ],
+      "nodes": 545,
+      "heap": 8445892,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 53.79999999888241,
+        "state": 50.09999999962747,
+        "progression": 85.19999999925494,
+        "renderAt": 13171.39999999851,
+        "render": 36.100000001490116,
+        "save": 15.699999999254942,
+        "total": 451.69999999925494,
+        "imageLoad": {
+          "firstMs": 98.30000000074506,
+          "lastMs": 278.90000000037253,
+          "count": 176
+        }
+      },
+      "writes": 1,
+      "long": [
+        59
+      ],
+      "nodes": 545,
+      "heap": 8508772,
+      "listeners": 823
+    },
+    {
+      "timings": {
+        "generation": 55.5,
+        "state": 42.09999999962747,
+        "progression": 77.70000000111759,
+        "renderAt": 14553.599999999627,
+        "render": 27.09999999962747,
+        "save": 17,
+        "total": 418.90000000037253,
+        "imageLoad": {
+          "firstMs": 98.5,
+          "lastMs": 285,
+          "count": 188
+        }
+      },
+      "writes": 1,
+      "long": [
+        51
+      ],
+      "nodes": 545,
+      "heap": 8565120,
+      "listeners": 823
+    }
+  ],
+  "funding": [
+    "cash",
+    "starter",
+    "sealed"
+  ],
+  "specials": [
+    {
+      "id": "sp_eevee",
+      "width": 688
+    },
+    {
+      "id": "sp_charmeleon",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_gyarados",
+      "width": 688
+    },
+    {
+      "id": "sp_machamp_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_skeledirge_ex",
+      "width": 692
+    },
+    {
+      "id": "sp_mewtwo_sketch",
+      "width": 688
+    },
+    {
+      "id": "sp_rune_rayquaza",
+      "width": 689
+    },
+    {
+      "id": "sp_mega_charizard_slash",
+      "width": 697
+    },
+    {
+      "id": "sp_mew_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_lugia_ex",
+      "width": 688
+    },
+    {
+      "id": "sp_mega_arceus_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_umbreon_ex",
+      "width": 697
+    },
+    {
+      "id": "sp_mega_rayquaza_ex",
+      "width": 693
+    },
+    {
+      "id": "sp_mega_charizard_blue",
+      "width": 701
+    },
+    {
+      "id": "sp_dark_charizard_vstar",
+      "width": 688
+    },
+    {
+      "id": "sp_ashgreninja_lucario",
+      "width": 688
+    },
+    {
+      "id": "sp_reshiram_forte",
+      "width": 687
+    },
+    {
+      "id": "sp_mewtwo_rocket",
+      "width": 682
+    }
+  ]
+}

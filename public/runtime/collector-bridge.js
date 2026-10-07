@@ -34,6 +34,15 @@
   toast:message=>toast(message),
   sound:name=>{try{sfxEventV70(name)}catch{}},
   day:()=>window.gameDayKeyV170?.()||'day-0',
+  selectSet(id){
+   if(this.blocked())return false;
+   const set=SETS.find(s=>s.id===id);if(!set)return false;
+   if(!setUnlocked(set)){showSetRequirements(set);return false;}
+   const tile=[...document.querySelectorAll('#sets .set')].find(t=>t.dataset.setId===id);
+   if(!tile)return false;tile.click();return sel.id===id;
+  },
+  affordable:count=>window.canAffordPackV161?.(sel.id,count)!==false,
+  requirements:()=>showSetRequirements(sel),
   selectedSet:()=>sel.id
  };
 })();

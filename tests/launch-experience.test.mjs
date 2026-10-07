@@ -9,7 +9,7 @@ const html = fs.readFileSync('index.html','utf8');
 
 test('branded launch screen exists before module boot', () => {
   assert.match(html, /id="tcgLaunch"/);
-  assert.ok(html.indexOf('id="tcgLaunch"') < html.indexOf('src=".\/src\/main.js?v=2600"'));
+  assert.ok(html.indexOf('id="tcgLaunch"') < html.indexOf('src=".\/src\/main.js?v=2610"'));
 });
 
 test('boot suppresses achievement visuals until ready', () => {
@@ -23,7 +23,7 @@ test('first frame is prewarmed before launch completes', () => {
 });
 
 test('service worker cache and launch module are current', () => {
-  assert.match(sw, /0\.260\.1/);
+  assert.match(sw, /0\.261\.0/);
   assert.match(sw, /src\/app\/launch-screen\.js/);
   assert.match(sw, /styles\/pack-v254\.css/);
   assert.match(sw, /styles\/trade-hub\.css/);

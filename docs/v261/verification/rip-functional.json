@@ -1,0 +1,55 @@
+{
+  "engine": "Chromium",
+  "externalServices": "fixture responses",
+  "results": [
+    {
+      "width": 360,
+      "height": 800,
+      "quickBottom": 713.375,
+      "navTop": 730,
+      "innerWidth": 360
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "quickBottom": 763.5625,
+      "navTop": 774,
+      "innerWidth": 390
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "quickBottom": 792.796875,
+      "navTop": 803,
+      "innerWidth": 393
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "quickBottom": 836.375,
+      "navTop": 845,
+      "innerWidth": 412
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "quickBottom": 854.859375,
+      "navTop": 862,
+      "innerWidth": 430
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "quickBottom": 927.796875,
+      "navTop": 954,
+      "innerWidth": 768
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "quickBottom": 803.796875,
+      "navTop": 830,
+      "innerWidth": 1440
+    }
+  ]
+}

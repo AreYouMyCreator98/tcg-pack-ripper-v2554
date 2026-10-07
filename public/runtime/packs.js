@@ -252,6 +252,10 @@
     },true);
 
     function place(){
+      if(document.documentElement.classList.contains('theme-v261')){
+        const slot=document.getElementById('v261Mode');if(slot&&mode.parentNode!==slot)slot.append(mode);
+        mode.classList.remove('v202PackSelectorPortal');syncVisible();return;
+      }
       if(coarse()){
         if(mode.parentNode!==document.body)document.body.appendChild(mode);
         mode.classList.add('v202PackSelectorPortal');

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "rip-final",
+    "light": []
+  },
+  {
+    "name": "cards",
+    "light": []
+  },
+  {
+    "name": "master",
+    "light": []
+  },
+  {
+    "name": "grading",
+    "light": []
+  },
+  {
+    "name": "slabs",
+    "light": []
+  },
+  {
+    "name": "bulk",
+    "light": []
+  },
+  {
+    "name": "sealed",
+    "light": []
+  },
+  {
+    "name": "specials",
+    "light": []
+  },
+  {
+    "name": "hub",
+    "light": []
+  },
+  {
+    "name": "hub-market",
+    "light": []
+  },
+  {
+    "name": "hub-trades",
+    "light": []
+  },
+  {
+    "name": "hub-battles",
+    "light": []
+  },
+  {
+    "name": "hub-shops",
+    "light": []
+  },
+  {
+    "name": "hub-friends",
+    "light": []
+  },
+  {
+    "name": "profile-overview",
+    "light": []
+  },
+  {
+    "name": "profile-progress",
+    "light": []
+  },
+  {
+    "name": "profile-customise",
+    "light": []
+  },
+  {
+    "name": "profile-stats",
+    "light": []
+  },
+  {
+    "name": "settings",
+    "light": []
+  },
+  {
+    "name": "rates",
+    "light": []
+  },
+  {
+    "name": "calendar",
+    "light": []
+  },
+  {
+    "name": "set-selector",
+    "light": []
+  },
+  {
+    "name": "chase-guide",
+    "light": []
+  },
+  {
+    "name": "sealed-shop",
+    "light": [
+      {
+        "id": "",
+        "cls": "",
+        "color": "rgba(255, 255, 255, 0.58)"
+      },
+      {
+        "id": "",
+        "cls": "",
+        "color": "rgba(255, 255, 255, 0.58)"
+      }
+    ]
+  },
+  {
+    "name": "inspector",
+    "light": []
+  },
+  {
+    "name": "physical-binder",
+    "light": [
+      {
+        "id": "binderArtworkStatusV252",
+        "cls": "binderArtworkStatusV252",
+        "color": "rgba(255, 255, 255, 0.58)"
+      }
+    ]
+  }
+]

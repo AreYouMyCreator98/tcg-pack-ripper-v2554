@@ -1,0 +1,12 @@
+{
+  "engine": "Chromium",
+  "externalServices": "stubbed",
+  "physicalDevices": false,
+  "results": [
+    {
+      "width": 390,
+      "height": 844,
+      "passed": true
+    }
+  ]
+}

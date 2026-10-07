@@ -39,5 +39,5 @@ export function installCollection(bridge,transactions,win=window,doc=document){
   if(b.dataset.masterReward)try{transactions.transact('master',{...transactions.review(),setId:selectedSet,milestone:Number(b.dataset.masterReward)});renderMaster();}catch(error){bridge.toast(error.message);}
  });
  function refresh(){const route=win.tcgNavigation.snapshot();if(route.destination==='collection'){if(route.section==='cards')renderCards();if(route.section==='master')renderMaster();}}
- win.addEventListener('tcg:navigation',refresh);win.addEventListener('tcg:collector-updated',refresh);renderCards();renderMaster();return {refresh};
+ win.addEventListener('tcg:navigation',refresh);win.addEventListener('tcg:collector-updated',refresh);renderCards();renderMaster();return {refresh,openSet:loadSet};
 }
