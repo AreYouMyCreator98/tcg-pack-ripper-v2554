@@ -1,3 +1,4 @@
+import {cardImageCandidates,CARD_PLACEHOLDER} from './card-assets.js';
 import { APP_CONFIG } from '../config/app-config.js';
 import {
   cardNumber,
@@ -26,18 +27,6 @@ async function fetchWithTimeout(url, options = {}, timeoutMs = 14000) {
   }
 }
 
-function localCandidate(card, size) {
-  const raw = preferredArtworkSource(card, size);
-  if (!raw) return '';
-  if (raw.startsWith('data:image/') || raw.startsWith('blob:')) return raw;
-  try {
-    const url = new URL(raw, document.baseURI);
-    return url.origin === location.origin ? url.href : '';
-  } catch {
-    return '';
-  }
-}
-
 function proxyUrl(card, size, deep = false) {
   const url = new URL(PROXY);
   const add = (key, value) => {
@@ -57,25 +46,12 @@ function proxyUrl(card, size, deep = false) {
 }
 
 export async function resolveArtworkBlob(card, size = 'low', { force = false } = {}) {
-  const local = localCandidate(card, size);
-  if (local && !force) {
-    try {
-      return await fetchWithTimeout(local, { cache: 'force-cache', credentials: 'same-origin' }, 9000);
-    } catch {}
+  let lastError;
+  for(const source of cardImageCandidates(card,size)){
+    if(source===CARD_PLACEHOLDER)break;
+    try{return await fetchWithTimeout(source,{cache:force?'reload':'force-cache',credentials:'omit'},7000);}catch(error){lastError=error;}
   }
-
-  let lastError = null;
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      return await fetchWithTimeout(proxyUrl(card, size, attempt > 0), {
-        mode: 'cors',
-        cache: force || attempt ? 'reload' : 'force-cache',
-        credentials: 'omit'
-      }, attempt ? 18000 : 12000);
-    } catch (error) {
-      lastError = error;
-      if (!attempt) await new Promise(resolve => setTimeout(resolve, 250));
-    }
-  }
-  throw lastError || new Error('Artwork unavailable');
+  // Retain the existing source-repair proxy as a last network fallback.
+  try{return await fetchWithTimeout(proxyUrl(card,size),{credentials:'omit'},7000);}catch(error){lastError=error;}
+  throw lastError||new Error('Artwork unavailable');
 }

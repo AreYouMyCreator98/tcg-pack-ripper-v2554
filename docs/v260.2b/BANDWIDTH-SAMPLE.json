@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sv04.5-003",
+    "sourceLowBytes": 20084,
+    "mirrorThumbBytes": 10856,
+    "mirrorMediumBytes": 65246,
+    "mirrorHighBytes": 84538,
+    "sourceHighBytes": 84538
+  },
+  {
+    "id": "xy12-1",
+    "sourceLowBytes": 21370,
+    "mirrorThumbBytes": 12038,
+    "mirrorMediumBytes": 64582,
+    "mirrorHighBytes": 78904,
+    "sourceHighBytes": 78904
+  },
+  {
+    "id": "swsh12.5-001",
+    "sourceLowBytes": 13760,
+    "mirrorThumbBytes": 7674,
+    "mirrorMediumBytes": 39842,
+    "mirrorHighBytes": 50068,
+    "sourceHighBytes": 50068
+  },
+  {
+    "id": "swsh12.5gg-GG01",
+    "sourceLowBytes": 20106,
+    "mirrorThumbBytes": 10992,
+    "mirrorMediumBytes": 59728,
+    "mirrorHighBytes": 71016,
+    "sourceHighBytes": 71016
+  },
+  {
+    "id": "swsh4.5-1",
+    "sourceLowBytes": 14124,
+    "mirrorThumbBytes": 7838,
+    "mirrorMediumBytes": 40986,
+    "mirrorHighBytes": 49496,
+    "sourceHighBytes": 49496
+  },
+  {
+    "id": "swsh4.5sv-SV001",
+    "sourceLowBytes": 18054,
+    "mirrorThumbBytes": 10172,
+    "mirrorMediumBytes": 52170,
+    "mirrorHighBytes": 63622,
+    "sourceHighBytes": 63622
+  },
+  {
+    "id": "sv08-001",
+    "sourceLowBytes": 18826,
+    "mirrorThumbBytes": 10076,
+    "mirrorMediumBytes": 63164,
+    "mirrorHighBytes": 82528,
+    "sourceHighBytes": 82528
+  },
+  {
+    "id": "sv03-001",
+    "sourceLowBytes": 14818,
+    "mirrorThumbBytes": 7980,
+    "mirrorMediumBytes": 45788,
+    "mirrorHighBytes": 56088,
+    "sourceHighBytes": 56088
+  },
+  {
+    "id": "sv02-003",
+    "sourceLowBytes": 16034,
+    "mirrorThumbBytes": 8600,
+    "mirrorMediumBytes": 48338,
+    "mirrorHighBytes": 60804,
+    "sourceHighBytes": 60804
+  },
+  {
+    "id": "sv01-002",
+    "sourceLowBytes": 17832,
+    "mirrorThumbBytes": 9600,
+    "mirrorMediumBytes": 54332,
+    "mirrorHighBytes": 68490,
+    "sourceHighBytes": 68490
+  },
+  {
+    "id": "sv07-001",
+    "sourceLowBytes": 24592,
+    "mirrorThumbBytes": 13706,
+    "mirrorMediumBytes": 73054,
+    "mirrorHighBytes": 88680,
+    "sourceHighBytes": 88680
+  },
+  {
+    "id": "sv06.5-001",
+    "sourceLowBytes": 15624,
+    "mirrorThumbBytes": 8310,
+    "mirrorMediumBytes": 49366,
+    "mirrorHighBytes": 61570,
+    "sourceHighBytes": 61570
+  }
+]

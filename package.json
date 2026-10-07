@@ -20,7 +20,9 @@
     "cap:open:ios": "pnpm exec cap open ios",
     "deploy:static": "node scripts/generate-asset-manifest.mjs && node scripts/make-static-deploy.mjs",
     "smoke:static": "node scripts/make-static-deploy.mjs && node scripts/smoke-static.mjs",
-    "test:hub": "node --test tests/trade-hub*.test.mjs"
+    "test:hub": "node --test tests/trade-hub*.test.mjs",
+    "cards:sync": "node scripts/cards-run.mjs sync",
+    "cards:audit": "node scripts/cards-run.mjs audit"
   },
   "devDependencies": {
     "@capacitor/cli": "8.5.2",

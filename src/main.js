@@ -1,3 +1,4 @@
+import {loadCardAssetManifest,resolveCardImage} from './artwork/card-assets.js';
 import { installSilverShell } from './screens/rip/silver-shell.js';
 import { installCollector } from './collector/index.js';
 import { installCollectorNavigation } from './app/collector-navigation.js';
@@ -20,6 +21,8 @@ import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
 import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=261';
 
+const cardManifestReady=loadCardAssetManifest();
+window.tcgCardAssets={resolve:resolveCardImage};
 beginLaunch();
 exposeAppConfig();
 installDiagnostics();
@@ -73,6 +76,7 @@ async function boot() {
     installNavigationPreload();
     installNavigationInput();
     installSettingsOverlay();
+    await cardManifestReady;
     installImagePolicy(document);
     installScreenTransitions(document);
     installBinderModule();

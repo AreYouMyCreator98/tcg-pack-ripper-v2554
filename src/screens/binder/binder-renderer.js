@@ -139,7 +139,7 @@ function prefetchAround(cards, page, pageSize) {
   const next = cards.slice((page + 1) * pageSize, (page + 2) * pageSize);
   const run = () => {
     prefetchCards([...next, ...previous], { priority: 55 }).catch(() => {});
-    prepareCollectionInBackground(cards).catch(() => {});
+    // Only neighbouring pages are preloaded; never scan/decode the entire Binder.
   };
   if ('requestIdleCallback' in window) requestIdleCallback(run, { timeout: 900 });
   else setTimeout(run, 250);

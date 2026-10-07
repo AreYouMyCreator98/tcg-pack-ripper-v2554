@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T20:16:17.168Z",
+  "generatedAt": "2026-10-07T22:50:28.679Z",
   "assets": [
     {
       "path": "audio/hits/.gitkeep",
@@ -531,6 +531,11 @@
       "path": "ui/.gitkeep",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/card-unavailable.svg",
+      "bytes": 556,
+      "sha256": "b90297a45e3ad69cb55a80c7795277161f654b1d79eb5c58ec8bd93a8ad669ac"
     }
   ]
 }

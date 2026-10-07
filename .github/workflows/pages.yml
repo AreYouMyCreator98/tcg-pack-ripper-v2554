@@ -21,6 +21,8 @@ jobs:
       - uses: pnpm/action-setup@v4
         with:
           version: 11.19.0
+      - name: Image conversion test dependency
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
       - run: pnpm install --frozen-lockfile --ignore-scripts
       - run: pnpm run validate
       - run: pnpm run build

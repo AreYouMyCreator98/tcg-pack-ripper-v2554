@@ -1,0 +1,76 @@
+{
+  "playableSets": 32,
+  "uniqueCards": 6908,
+  "selected": 6908,
+  "custom": 19,
+  "external": 6889,
+  "missingSource": 0,
+  "separatePrintingRecords": 0,
+  "mirrored": 0,
+  "missingMirror": 6908,
+  "fallbackOnly": 6908,
+  "localValid": 6908,
+  "invalidLocal": 0,
+  "failed": {},
+  "localBytes": {
+    "thumb": 73875166,
+    "medium": 422354460,
+    "high": 528422086
+  },
+  "uploadedBytes": {
+    "thumb": 0,
+    "medium": 0,
+    "high": 0
+  },
+  "averageLocalBytes": {
+    "thumb": 10694,
+    "medium": 61140,
+    "high": 76494
+  },
+  "largestLocal": [
+    {
+      "id": "sp_machamp_ex",
+      "bytes": 375978
+    },
+    {
+      "id": "sv02-203",
+      "bytes": 352196
+    },
+    {
+      "id": "sv01-210",
+      "bytes": 341306
+    },
+    {
+      "id": "sv09-165",
+      "bytes": 339182
+    },
+    {
+      "id": "sv10-195",
+      "bytes": 337834
+    },
+    {
+      "id": "sv04-207",
+      "bytes": 334396
+    },
+    {
+      "id": "swsh11-186",
+      "bytes": 318850
+    },
+    {
+      "id": "sv10-196",
+      "bytes": 303570
+    },
+    {
+      "id": "sv08-213",
+      "bytes": 303550
+    },
+    {
+      "id": "sv09-161",
+      "bytes": 298928
+    }
+  ],
+  "wouldDownload": 0,
+  "wouldConvert": 0,
+  "wouldUpload": 20724,
+  "wouldSkip": 0
+}

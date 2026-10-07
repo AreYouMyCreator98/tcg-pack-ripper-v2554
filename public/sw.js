@@ -1,7 +1,10 @@
-const VERSION = 'tcg-pack-ripper-0.261.0-4';
+const VERSION = 'tcg-pack-ripper-0.261.0-5';
 const STATIC = `${VERSION}-static`;
+const ART_LIMITS={thumb:1000,medium:300,high:100};
+const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));
 const MEDIA = `${VERSION}-media`;
 const CORE = [
+  './card-assets.json','./assets/ui/card-unavailable.svg',
   './styles/collector-v261.css','./src/screens/rip/silver-shell.js','./src/screens/rip/silver-model.js',
   './src/packs/compact-recap.js','./src/artwork/card-image.js',
   './src/utils/transaction-id.js','./src/collector/district.js','./src/collector/clock.js','./src/collector/notifications.js','./src/collector/catalog-counts.js','./src/collector/collection.js','./src/collector/contracts.js','./src/collector/inspector.js','./src/collector/index.js','./src/collector/transactions.js','./src/collector/model.js','./runtime/collector-bridge.js',
@@ -28,7 +31,7 @@ self.addEventListener('install', event => {
 
 self.addEventListener('activate', event => {
   event.waitUntil(caches.keys()
-    .then(keys => Promise.all(keys.filter(k => k.startsWith('tcg-pack-ripper-') && ![STATIC, MEDIA].includes(k)).map(k => caches.delete(k))))
+    .then(keys => Promise.all(keys.filter(k => k.startsWith('tcg-pack-ripper-') && ![STATIC, MEDIA, ...Object.values(ART_NAMES)].includes(k)).map(k => caches.delete(k))))
     .then(() => self.clients.claim()));
 });
 
@@ -44,6 +47,16 @@ self.addEventListener('fetch', event => {
   const req = event.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
+  const sourceCard=url.hostname==='assets.tcgdex.net'&&/\/(low|high)\.(webp|png|jpg)$/.test(url.pathname);
+  const mirrorCard=url.hostname==='ddeuwrnfmdgvizkrjhii.supabase.co'&&url.pathname.includes('/storage/v1/object/public/card-assets/cards/');
+  if(sourceCard||mirrorCard){
+    const q=/\/high\./.test(url.pathname)?'high':/\/medium\./.test(url.pathname)?'medium':'thumb';
+    event.respondWith((async()=>{
+      let cache;try{cache=await caches.open(ART_NAMES[q]);const hit=await cache.match(req);if(hit)return hit;}catch{}
+      try{let res;try{res=await fetch(new Request(req,{mode:'cors',credentials:'omit'}));}catch{res=await fetch(req);}if(res.ok&&res.headers.get('content-type')?.startsWith('image/')&&cache)event.waitUntil((async()=>{try{await cache.put(req,res.clone());const keys=await cache.keys();for(const k of keys.slice(0,Math.max(0,keys.length-ART_LIMITS[q])))await cache.delete(k);}catch{}})());return res;}
+      catch{return await caches.match('./assets/ui/card-unavailable.svg').catch(()=>null)||Response.error();}
+    })());return;
+  }
   if (url.origin !== location.origin) return;
 
   if (req.mode === 'navigate') {
@@ -56,9 +69,9 @@ self.addEventListener('fetch', event => {
       const hit = await (await caches.open(STATIC)).match(req) || await cache.match(req);
       if (hit) return hit;
       const res = await fetch(req);
-      if (res.ok) cache.put(req, res.clone());
+      if (res.ok) event.waitUntil(cache.put(req,res.clone()).then(async()=>{const keys=await cache.keys();for(const k of keys.slice(0,Math.max(0,keys.length-1000)))await cache.delete(k);}).catch(()=>{}));
       return res;
-    }));
+    }).catch(()=>fetch(req)));
     return;
   }
 
@@ -69,21 +82,21 @@ self.addEventListener('fetch', event => {
     event.respondWith(caches.open(STATIC).then(async cache => {
       try {
         const res = await fetch(req, { cache: 'no-store' });
-        if (res.ok) cache.put(req, res.clone());
+        if (res.ok) event.waitUntil(cache.put(req, res.clone()).catch(()=>{}));
         return res;
       } catch (_) {
         return await cachedFallback(cache, req, url) || Response.error();
       }
-    }));
+    }).catch(()=>fetch(req)));
     return;
   }
 
   event.respondWith(caches.open(STATIC).then(async cache => {
     const hit = await cache.match(req);
     const network = fetch(req).then(res => {
-      if (res.ok) cache.put(req, res.clone());
+      if (res.ok) event.waitUntil(cache.put(req, res.clone()).catch(()=>{}));
       return res;
     }).catch(() => null);
     return hit || await network || Response.error();
-  }));
+  }).catch(()=>fetch(req)));
 });
