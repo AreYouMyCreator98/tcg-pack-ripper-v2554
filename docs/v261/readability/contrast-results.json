@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "light",
+    "textNodes": 15,
+    "minContrast": 10.081486734073849
+  },
+  {
+    "mode": "dark",
+    "textNodes": 15,
+    "minContrast": 10.081486734073849
+  },
+  {
+    "mode": "auto-dark",
+    "textNodes": 15,
+    "minContrast": 10.081486734073849
+  },
+  {
+    "mode": "forced-colors",
+    "textNodes": 15,
+    "minContrast": 21
+  }
+]

@@ -3,7 +3,7 @@
  * inject !important declarations after boot. This scoped boundary wins without
  * changing their gameplay/cosmetic rendering or adding inline styles per card.
  */
-:root{color-scheme:dark!important;--bg-0:#0b0c0e!important;--bg-1:#121416!important;--surface:#1c1e21!important;--surface-raised:#292c30!important;--surface-glass:#181a1ef5!important;--metal-1:#55585d!important;--metal-2:#91938f!important;--metal-highlight:#e6e3d9!important;--text-primary:#f2f1ed!important;--text-secondary:#b5b6b8!important;--accent-warm:#d9c69b!important;--danger:#f19993!important;--success:#a8c7b1!important;--radius-sm:10px!important;--radius-md:16px!important;--radius-lg:24px!important;--radius-pill:999px!important;--shadow-soft:0 6px 18px #0005!important;--shadow-raised:0 12px 35px #0008!important;--glow-active:inset 0 0 0 1px #e1d4b9,0 0 12px #d7c39425!important;--collector-ink:var(--text-primary)!important;--collector-muted:var(--text-secondary)!important;--collector-line:#777a8066!important;--collector-surface:var(--surface-glass)!important;--collector-nav-height:70px!important}
+:root{color-scheme:only dark!important;--bg-0:#0b0c0e!important;--bg-1:#121416!important;--surface:#1c1e21!important;--surface-raised:#292c30!important;--surface-glass:#181a1ef5!important;--metal-1:#55585d!important;--metal-2:#91938f!important;--metal-highlight:#e6e3d9!important;--text-primary:#f2f1ed!important;--text-secondary:#b5b6b8!important;--accent-warm:#d9c69b!important;--danger:#f19993!important;--success:#a8c7b1!important;--radius-sm:10px!important;--radius-md:16px!important;--radius-lg:24px!important;--radius-pill:999px!important;--shadow-soft:0 6px 18px #0005!important;--shadow-raised:0 12px 35px #0008!important;--glow-active:inset 0 0 0 1px #e1d4b9,0 0 12px #d7c39425!important;--collector-ink:var(--text-primary)!important;--collector-muted:var(--text-secondary)!important;--collector-line:#777a8066!important;--collector-surface:var(--surface-glass)!important;--collector-nav-height:70px!important}
 html#collectorTheme#collectorTheme.theme-v261,html#collectorTheme#collectorTheme.theme-v261 body{background:var(--bg-0)!important;color:var(--text-primary)!important;font-family:Arial,Helvetica,sans-serif!important}
 html#collectorTheme#collectorTheme.theme-v261 body{background-image:radial-gradient(ellipse at 95% 20%,#45474b33,transparent 40%),linear-gradient(133deg,transparent 27%,#7274780b 27.2%,transparent 28%,transparent 71%,#aaaaaa0a 71.2%,transparent 72%)!important;background-attachment:fixed!important}
 html#collectorTheme#collectorTheme.theme-v261 body::before,html#collectorTheme#collectorTheme.theme-v261 body::after{display:none!important}
@@ -85,11 +85,11 @@ html#collectorTheme#collectorTheme.theme-v261 #rip[data-rip-state="IDLE"] :is(.t
 html#collectorTheme#collectorTheme.theme-v261 body :is(#binder,#bulk,#earn,#profile,.trade-hub){--collector-glass:var(--surface-glass);--collector-shadow:var(--shadow-soft);--studio-ink:var(--text-primary);--studio-muted:var(--text-secondary);--studio-accent:var(--accent-warm);--studio-glass:var(--surface-glass);--studio-shadow:var(--shadow-soft);--hub-border:var(--collector-line);--hub-muted:var(--text-secondary);--hub-accent:var(--accent-warm);--hub-glass:var(--surface-glass);--hub-glass-shadow:var(--shadow-soft);background:transparent!important;color:var(--text-primary)!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(#binder,#bulk,#profile){padding:18px 0 90px!important}
 html#collectorTheme#collectorTheme.theme-v261 body .trade-hub{padding:18px 0 90px!important}
-html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard,.starterGuideCardV199) :is(h1,h2,h3,h4,b,strong){color:var(--text-primary)!important;text-shadow:none!important}
-html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard,.starterGuideCardV199) :is(p,small,label,summary,em){color:var(--text-secondary)!important;text-shadow:none!important}
-html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard,.starterGuideCardV199) button:not(.settingsShadeV158):not(.studio-set-shade):not(.collector-modal-shade):not(.pack-result-tile):not(.collector-grade-art){color:var(--text-primary)!important;background:linear-gradient(145deg,var(--surface-raised),var(--surface))!important;border-color:var(--metal-1)!important;box-shadow:inset 0 1px #ffffff15!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;text-shadow:none!important;min-height:44px}
-html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard) :is(input:not([type=range]):not([type=checkbox]):not([type=color]),select,textarea){background:var(--bg-1)!important;color:var(--text-primary)!important;border-color:var(--metal-1)!important;border-radius:var(--radius-sm)!important;min-height:44px;box-shadow:none!important;accent-color:var(--accent-warm)}
-html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.collector-modal,.settingsOverlayV158) button:is(.active,[aria-pressed=true],[aria-selected=true]){background:linear-gradient(125deg,#57564f,#27292b)!important;border-color:var(--accent-warm)!important;color:var(--text-primary)!important;box-shadow:var(--glow-active)!important}
+html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.silver-info,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard,.starterGuideCardV199) :is(h1,h2,h3,h4,b,strong){color:var(--text-primary)!important;text-shadow:none!important}
+html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.silver-info,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard,.starterGuideCardV199) :is(p,small,label,summary,em){color:var(--text-secondary)!important;text-shadow:none!important}
+html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.silver-info,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard,.starterGuideCardV199) button:not(.settingsShadeV158):not(.studio-set-shade):not(.collector-modal-shade):not(.pack-result-tile):not(.collector-grade-art){color:var(--text-primary)!important;background:linear-gradient(145deg,var(--surface-raised),var(--surface))!important;border-color:var(--metal-1)!important;box-shadow:inset 0 1px #ffffff15!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;text-shadow:none!important;min-height:44px}
+html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.silver-info,.collector-modal,.settingsOverlayV158,.studio-set-drawer,.reqModal,.setChaseModalV186,.gameCalendarSheetV170,.marketCardV156,.mpCardV218,.sealedModalV161,.sealedCardV161,.bulk-sale-panel,.inspectCard,.v195AuditCard) :is(input:not([type=range]):not([type=checkbox]):not([type=color]),select,textarea){background:var(--bg-1)!important;color:var(--text-primary)!important;border-color:var(--metal-1)!important;border-radius:var(--radius-sm)!important;min-height:44px;box-shadow:none!important;accent-color:var(--accent-warm)}
+html#collectorTheme#collectorTheme.theme-v261 body :is(.screen,.silver-info,.collector-modal,.settingsOverlayV158) button:is(.active,[aria-pressed=true],[aria-selected=true]){background:linear-gradient(125deg,#57564f,#27292b)!important;border-color:var(--accent-warm)!important;color:var(--text-primary)!important;box-shadow:var(--glow-active)!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(.collector-panel,.collector-tile,.collector-set,.collector-stat,.collector-no-art,.collector-modal-card,.collector-journal-event,.collector-notifications,.studio-set-card,.settingsCardV158,.studio-details,.settingRowV158,.settingRangeRowV158,.cloudStatusCardV190,.cloudUserV190,.settingsDataLineV158,.reqModal,.reqHeroV185,.reqItem,.reqMasterV98,.setChaseModalV186,.setChaseCardV186,.setChaseRateBoxV186,.setChaseSummaryV186>div,.gameCalendarSheetV170,.gameMonthV170,.gameResetCardV170,.marketCardV156,.marketPriceBlockV156,.mpCardV218,.v195AuditCard,.v195AuditScore,.starterGuideCardV199,.starterGuideStepV199,.starterGuideTipV199,.toast,.achievementToastV56){background:var(--surface-glass)!important;border-color:var(--metal-1)!important;color:var(--text-primary)!important;box-shadow:var(--shadow-soft)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(.collector-panel,.collector-modal-card,.studio-set-card,.settingsCardV158,.reqModal,.gameCalendarSheetV170,.setChaseModalV186,.marketCardV156,.mpCardV218,.v195AuditCard){border-radius:var(--radius-lg)!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(.collector-modal-shade,.settingsShadeV158,.studio-set-shade){background:#050608de!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
@@ -247,4 +247,58 @@ html#collectorTheme#collectorTheme.theme-v261 body #v114PackMode::before {
   background: linear-gradient(180deg, #f2dfad0a, transparent 45%) !important;
   mix-blend-mode: normal !important;
   pointer-events: none !important;
+}
+
+/* Own both sides of each text/surface pair. "only" opts out of supported
+ * browser auto-darkening; it does not disable accessibility forced colours. */
+html#collectorTheme#collectorTheme.theme-v261 body .silver-info {
+  background: var(--surface) !important;
+  color: var(--text-primary) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .silver-info :is(h2,b,strong) {
+  color: var(--text-primary) !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .silver-info p {
+  color: #c8c9cb !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .silver-info button {
+  background: var(--surface-raised) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--metal-2) !important;
+  box-shadow: inset 0 1px #ffffff20 !important;
+  text-shadow: none !important;
+}
+@media (forced-colors: active) {
+  html#collectorTheme#collectorTheme.theme-v261 body .silver-info {
+    background: Canvas !important;
+    color: CanvasText !important;
+    border-color: CanvasText !important;
+  }
+  html#collectorTheme#collectorTheme.theme-v261 body .silver-info :is(h2,b,strong,p) { color: CanvasText !important; }
+  html#collectorTheme#collectorTheme.theme-v261 body .silver-info button {
+    background: ButtonFace !important;
+    color: ButtonText !important;
+    border-color: ButtonText !important;
+  }
+}
+html#collectorTheme#collectorTheme.theme-v261 body :is(input,select,textarea,button) {
+  color-scheme: only dark !important;
+}
+/* Previously relied on light gradients behind dark glyphs. Explicit pairs
+ * keep the pack gesture and vault-key badge readable after browser theming. */
+html#collectorTheme#collectorTheme.theme-v261 body #rip #tear {
+  background: var(--surface-raised) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--metal-2) !important;
+  opacity: 1 !important;
+}
+html#collectorTheme#collectorTheme.theme-v261 body .prismaticVaultKeyV198 {
+  background: #e1c58b !important;
+  color: #17191c !important;
+  text-shadow: none !important;
 }

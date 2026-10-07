@@ -1,5 +1,13 @@
 # V261 — Dark Silver Collector (review branch)
 
+## V261 follow-up — readable browser colours (review)
+
+- Fix dark-on-dark Set Info headings and restore consistent modal buttons.
+- Declare the site's dark colour scheme early, support browser light/dark preferences and retain forced-colour accessibility.
+- Add computed contrast regressions for light, dark, auto-dark and high-contrast modes.
+- See [validation and device limits](docs/v261/readability/REPORT.md).
+
+
 ## V261 follow-up — collector atmosphere (review)
 
 - Add lightweight Pokémon outline/smoke artwork and champagne trim without changing layout or gameplay.

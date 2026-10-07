@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.261.0-2';
+const VERSION = 'tcg-pack-ripper-0.261.0-3';
 const STATIC = `${VERSION}-static`;
 const MEDIA = `${VERSION}-media`;
 const CORE = [
