@@ -1,3 +1,5 @@
+> Update: authenticated verification after user-applied SQL is documented in [LIVE-VERIFICATION.md](LIVE-VERIFICATION.md). The pre-application findings below are retained as history.
+
 # Collector Hub timeout hotfix — review before applying
 
 Branch: `fix/hub-timeout-hotfix`. Proposed client build: `v261-hub-hotfix-1`.
