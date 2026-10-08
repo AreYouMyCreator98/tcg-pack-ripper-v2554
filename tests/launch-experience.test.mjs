@@ -50,3 +50,31 @@ test('achievement suppression is idempotent under repeated boot observation', as
   try {const module=await import('../src/app/launch-screen.js');module.beginLaunch();for(let i=0;i<10;i++)callback();assert.equal(removals,1);}
   finally {Object.assign(globalThis,prior);}
 });
+
+test('cinematic assets are real, bounded and included in offline shell', () => {
+  const precache=fs.readFileSync('scripts/build-precache.mjs','utf8');
+  for(const path of ['theme/smoke-gold','theme/smoke-ghost','theme/smoke-vortex','packs/swsh12.5','packs/sv04.5','packs/swsh11']) {
+    assert.match(html,new RegExp(path.replaceAll('.','\\.')));
+    assert.ok(fs.statSync(`public/assets/${path}.webp`).size>1000);
+    assert.ok(precache.includes(path));
+  }
+  assert.ok(!html.includes('launchPackLogo'));
+});
+
+test('loader progress is monotonic and failure gives an accessible retry without raw errors', async () => {
+  const {parseHTML}=await import('linkedom');
+  const {window}=parseHTML(html);
+  const old={window:globalThis.window,document:globalThis.document};
+  globalThis.window=window;globalThis.document=window.document;
+  try {
+    const loader=await import('../src/app/launch-screen.js?progress-test');
+    loader.setLaunchStage('POLISHING FIRST FRAME',89,'runtime-secret.js');
+    loader.setLaunchStage('LOADING COLLECTION',47,'runtime-secret.js');
+    assert.equal(document.getElementById('tcgLaunchPct').textContent,'89%');
+    assert.equal(document.getElementById('tcgLaunchMeter').getAttribute('aria-valuenow'),'89');
+    assert.ok(!document.getElementById('tcgLaunchHint').textContent.includes('runtime-secret'));
+    loader.failLaunch('internal-stage',new Error('sensitive-debug'));
+    assert.equal(document.getElementById('tcgLaunchRetry').hidden,false);
+    assert.ok(!document.getElementById('tcgLaunchHint').textContent.includes('sensitive-debug'));
+  } finally {Object.assign(globalThis,old);}
+});

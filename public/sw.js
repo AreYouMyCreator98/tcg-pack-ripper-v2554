@@ -1,9 +1,9 @@
-const VERSION = 'tcg-pack-ripper-0.261.0-8';
+const VERSION = 'tcg-pack-ripper-0.261.0-9';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));
 const MEDIA = `${VERSION}-media`;
-const CORE = [
+const CORE = ['./styles/launch-cinematic.css','./assets/theme/smoke-gold.webp','./assets/theme/smoke-ghost.webp','./assets/theme/smoke-vortex.webp','./assets/packs/sv04.5.webp','./assets/packs/swsh12.5.webp','./assets/packs/swsh11.webp',
   './card-assets.json','./assets/ui/card-unavailable.svg',
   './styles/collector-v261.css','./src/screens/rip/silver-shell.js','./src/screens/rip/silver-model.js',
   './src/packs/compact-recap.js','./src/artwork/card-image.js',

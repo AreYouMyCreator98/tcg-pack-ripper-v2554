@@ -54,12 +54,6 @@ html#collectorTheme#collectorTheme.theme-v261 body #v253FastToggle span{display:
 html#collectorTheme#collectorTheme.theme-v261 body #rip:not([data-rip-state="IDLE"]) #v253PackHUD{display:none!important}
 html#collectorTheme#collectorTheme.theme-v261 body #rip #instruction,html#collectorTheme#collectorTheme.theme-v261 body #rip #packGestureHint{display:none!important}
 html#collectorTheme#collectorTheme.theme-v261 body .v257FloatingCash,html#collectorTheme#collectorTheme.theme-v261 body #ripCashV193{display:none!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunch{background:var(--bg-0)!important;color:var(--text-primary)!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunch .launchShell{background:linear-gradient(140deg,var(--surface-raised),var(--bg-0))!important;border-color:var(--metal-1)!important;color:var(--text-primary)!important;box-shadow:var(--shadow-raised)!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunch :is(.launchPack,.launchTitle){background:var(--surface)!important;color:var(--metal-highlight)!important;text-shadow:none!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunch :is(.launchNoise,.launchGlow){display:none!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunchBar{background:linear-gradient(90deg,var(--metal-1),var(--metal-highlight))!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunchHint{display:none!important}
 html#collectorTheme#collectorTheme.theme-v261 body #rip .silver-tools #openQuests{display:none!important}
 html#collectorTheme#collectorTheme.theme-v261 body #collectorPrimaryNav{translate:none!important;left:12px!important;right:12px!important;transform:none!important}
 html#collectorTheme#collectorTheme.theme-v261 body #rip .silver-tools #gameClockV170 .gameClockOrbV170{display:none!important}
@@ -139,9 +133,6 @@ html#collectorTheme#collectorTheme.theme-v261 body :is(.ratesCard,.ratesTop,.rat
 html#collectorTheme#collectorTheme.theme-v261 body :is(.ratesCard,.reqModal,.shopModalCard,.shopCardV84,.shopCardV85,.auctionModalCard,.dealerModalCard,.workModal) :is(h2,h3,b,strong){color:var(--text-primary)!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(.ratesCard,.reqModal,.shopModalCard,.shopCardV84,.shopCardV85,.auctionModalCard,.dealerModalCard,.workModal) :is(p,small,span,.sub){color:var(--text-secondary)!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(.ratesCard,.reqModal,.shopModalCard,.shopCardV84,.shopCardV85,.auctionModalCard,.dealerModalCard,.workModal) button{min-height:44px!important;background:var(--surface-raised)!important;color:var(--text-primary)!important;border-color:var(--metal-1)!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunch :is(.launchCard,.launchPackLogo,.launchProgress,.launchTrack){background:var(--surface)!important;border-color:var(--metal-1)!important;box-shadow:none!important;color:var(--text-primary)!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunch :is(h1,strong,b,small,em,span,p){color:var(--metal-highlight)!important;text-shadow:none!important}
-html#collectorTheme#collectorTheme.theme-v261 body #tcgLaunch .launchRing{border-color:var(--metal-1)!important;box-shadow:none!important;background:none!important}
 @media(prefers-reduced-motion:reduce){html#collectorTheme#collectorTheme.theme-v261 body :is(.silver-header,.silver-hero,.silver-quick,.silver-mode,.silver-tools) *{animation:none!important;transition:none!important}}
 html#collectorTheme#collectorTheme.theme-v261 body :is(#v128Hero,#v128Extract){background:var(--bg-0)!important}
 html#collectorTheme#collectorTheme.theme-v261 body :is(#v128Hero,#v128Extract)::before{background:radial-gradient(ellipse,#62646326,transparent 65%)!important;filter:none!important}
