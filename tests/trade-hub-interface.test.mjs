@@ -47,6 +47,7 @@ test('trade UI resets confirmation on draft edit and completes reviewed exchange
 test('matchmaking, both-ready gate, sequential reveals, result and ranked panel work together',fixture(async({a,b})=>{
  await a.tab('battles');await b.tab('battles');await a.click('[data-hub-action="queue"]');await b.click('[data-hub-action="queue"]');await a.controller.refresh();
  assert.equal(a.view.root.querySelector('[name="room_set"]').disabled,true);
+ assert.ok(a.view.root.querySelector('.hub-matchup'));assert.equal(a.view.root.querySelectorAll('.hub-matchup .hub-banner').length,2);
  await a.click('[data-hub-action="ready"]');await b.controller.refresh();await b.click('[data-hub-action="ready"]');await a.controller.refresh();
  assert.equal(a.localSave.state.packs,undefined); // First ready did not charge a pack.
  assert.equal(b.localSave.state.packs,1);assert.equal(a.controller.state.data.rooms[0].opponent_cards.length,0);

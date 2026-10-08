@@ -127,3 +127,20 @@ test('suspending drops stale snapshots and returning reconnects without reload',
  await f.c.setUser({id:'A'});const poll=f.c.refresh();visible=false;f.c.suspend();visible=true;await f.c.resume();assert.equal(f.c.state.data.listings[0].id,'3');
  old.reject(new TypeError('Failed to fetch'));await poll;assert.equal(f.c.state.error,'');assert.equal(f.c.state.status,'connected');await f.c.dispose();
 });
+
+test('battle reveals bypass slow collection sync and coalesce rapid taps with server capability',async()=>{
+ const wait=deferred(),calls=[],room={id:'r',kind:'battle',status:'playing',host_id:'A',host_progress:0,my_cards:Array.from({length:10},(_,id)=>({id}))};
+ const f=fixture(async(name,{p_action,p_payload})=>{calls.push({name,p_action,p_payload});if(p_action==='snapshot')return {data:{...data(),battle_stream:true,rooms:[room]}};return {data:{...data(),partial:true,battle_stream:true,rooms:[{...room,host_progress:p_payload.progress}]}};});
+ await f.c.setUser({id:'A'});f.c.syncTask=wait.promise;
+ for(let i=0;i<10;i++)f.c.reveal(f.c.state.data.rooms[0]);
+ await tick();await tick();
+ const reveals=calls.filter(c=>c.p_action==='battle_reveal');assert.ok(reveals.length<=2);assert.equal(reveals.at(-1).p_payload.progress,10);assert.ok(reveals.every(c=>c.name==='hub_battle_update'));assert.equal(f.c.serverProgress(f.c.state.data.rooms[0]),10);
+ wait.resolve();await f.c.dispose();
+});
+
+test('waiting ranked queue rechecks matching at three seconds without a collection flush',async()=>{
+ const calls=[],f=fixture(async(name,{p_action})=>{calls.push({name,p_action});return {data:{...data(),battle_stream:true,rooms:[{id:'q',kind:'battle',ranked:true,status:'waiting'}]}};});
+ await f.c.setUser({id:'A'});f.c.bridge.begin=()=>{throw Error('Queue must not flush collection');};
+ const poll=[...f.intervals.values()][0];for(let i=0;i<4;i++){poll();await tick();}
+ assert.equal(calls.filter(c=>c.p_action==='queue_tick').length,1);assert.equal(calls.find(c=>c.p_action==='queue_tick').name,'hub_battle_update');await f.c.dispose();
+});

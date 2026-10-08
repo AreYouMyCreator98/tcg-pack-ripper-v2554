@@ -58,10 +58,10 @@ test('expired queue can be restarted immediately after a mobile suspension',fixt
  await d.call(A,'queue_join');await d.db.exec("update hub_private.rooms set expires_at=now()-interval '1 second'");
  const s=await d.call(A,'queue_join');assert.equal(s.rooms.filter(r=>r.status==='waiting').length,1);assert.equal(s.rooms.filter(r=>r.status==='expired').length,1);
 }));
-test('matched room and readiness precede setup panels and banners; other tabs announce it',fixture(async d=>{
+test('matched profiles clash before readiness; active room precedes setup and other tabs announce it',fixture(async d=>{
  await d.call(A,'queue_join');await d.call(B,'queue_join');const data=await d.call(A,'snapshot');
  const {document}=parseHTML('<html><body><div id="root"></div></body></html>');const controller={uid:A,state:{data,status:'connected'},storage:null};const v=new HubView(document.getElementById('root'),controller);v.tab='battles';v.render();
- const html=v.root.innerHTML;assert.ok(html.indexOf('class="hub-room"')<html.indexOf('class="hub-entry-grid"'));assert.ok(html.indexOf('Ready to battle')<html.indexOf('class="hub-versus"'));assert.match(html,/Match found/);
+ const html=v.root.innerHTML;assert.ok(html.indexOf('class="hub-room"')<html.indexOf('class="hub-entry-grid"'));assert.ok(html.indexOf('class="hub-matchup"')<html.indexOf('Ready to battle'));assert.equal(v.root.querySelectorAll('.hub-matchup .hub-banner').length,2);assert.match(html,/Match found/);
  v.tab='chat';v.render();assert.ok(v.root.querySelector('[data-hub-action="resume-room"]'));v.dispose();
 }));
 test('insufficient battle balance is visible and cannot send a readiness click',fixture(async d=>{

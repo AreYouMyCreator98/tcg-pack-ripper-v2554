@@ -18,8 +18,9 @@ export class HubController {
   async rpc(action,payload={},id=null) {
     let timer;
     try {
+      const stream=this.state.data?.battle_stream&&(['battle_reveal','queue_tick'].includes(action)||(action==='snapshot'&&this.liveBattle()));
       const result=await Promise.race([
-        this.client.rpc('hub_command',{p_action:action,p_payload:payload,p_request_id:id}),
+        this.client.rpc(stream?'hub_battle_update':'hub_command',{p_action:action,p_payload:payload,p_request_id:id}),
         new Promise((_,reject)=>{timer=this.clock.setTimeout(()=>reject(Object.assign(new Error('Connection timed out. Retry the pending action to check its outcome.'),{uncertain:true})),this.timeout);})
       ]);
       if(result.error) {
@@ -29,7 +30,7 @@ export class HubController {
         throw e;
       }
       if(result.data?.version!==256)throw Object.assign(new Error('Unexpected Trade Hub response. Refresh to reconnect.'),{uncertain:true});
-      return result.data;
+      return result.data?.partial?{...this.state.data,...result.data,profile:{...this.state.data?.profile,...result.data.profile}}:result.data;
     } catch(e) {if(e.uncertain===undefined)e.uncertain=true;throw e;}
     finally {this.clock.clearTimeout(timer);}
   }
@@ -54,10 +55,21 @@ export class HubController {
       .on('postgres_changes',{event:'UPDATE',schema:'public',table:'hub_signals',filter:'topic=eq.hub'},()=>{if(this.bridge.active?.()!==false)this.requestRefresh();})
       .subscribe(status=>{if(epoch!==this.epoch)return; if(status==='SUBSCRIBED')this.refresh();else if(status==='CHANNEL_ERROR'||status==='TIMED_OUT')this.emit({status:'reconnecting'});});
     // Polling recovers dropped realtime events. It is bounded, account-scoped and cleaned up.
-    this.timer=this.clock.setInterval(()=>{if(this.bridge.active?.()!==false)this.refresh();},2000);
+    this.pollTicks=0;
+    this.timer=this.clock.setInterval(()=>{
+      if(this.bridge.active?.()===false)return;
+      const live=this.liveBattle(),stream=this.state.data?.battle_stream;
+      ++this.pollTicks;
+      // Older servers retain the slower full-snapshot cadence.
+      if((!live||!stream)&&this.pollTicks%3)return;
+      if(live?.ranked&&live.status==='waiting'&&stream&&this.pollTicks%4===0&&!this.state.busy&&!this.pending){
+        this.command('queue_tick',{}, {quiet:true}).catch(()=>{});
+      }else this.refresh();
+    },750);
     this.heartbeatTimer=this.clock.setInterval(()=>{if(!this.pending&&!this.state.busy&&this.bridge.active?.()!==false&&this.needsHeartbeat())this.command('heartbeat',{}, {quiet:true}).catch(()=>{});},25000);
     this.scheduleRecovery();this.drainReveals();
   }
+  liveBattle(){return this.state.data?.rooms?.find(r=>r.kind==='battle'&&['waiting','ready','playing'].includes(r.status));}
   async refresh() {
     if(!this.uid||this.disposed)return;
     if(this.refreshTask)return this.refreshTask;
@@ -68,7 +80,7 @@ export class HubController {
       // Economic controls still pass through beginHubTransaction before mutating.
       this.emit({data,status:'connected',error:this.pending?'Reconnecting your last action safely…':''});
       // Collection restoration must not freeze the public market feed.
-      if(!this.pending&&!this.state.busy&&!this.syncTask){
+      if(!data.partial&&!this.pending&&!this.state.busy&&!this.syncTask){
         const sync=Promise.resolve().then(()=>this.bridge.sync?.(data.save_version)).catch(e=>{if(epoch===this.epoch&&!this.disposed)this.emit({error:errorMessage(e)});});
         this.syncTask=sync;sync.finally(()=>{if(this.syncTask===sync)this.syncTask=null;});
       }
@@ -97,8 +109,7 @@ export class HubController {
     this.emit({busy:true,background:quiet,action,error:''});
     let economic=false;
     try {
-      await this.refreshTask;
-      await this.syncTask;
+      if(!['battle_reveal','queue_tick','queue_join'].includes(action)){await this.refreshTask;await this.syncTask;}
       if(epoch!==this.epoch||this.disposed)return;
       // Persist BEFORE sending. A reload after a lost response can reuse the same receipt.
       if(!retry) {
@@ -164,7 +175,7 @@ export class HubController {
     const progress=this.revealProgress(room);
     if(progress>=room.my_cards.length)return;
     // Presentation may advance immediately: the server already awarded these
-    // exact cards. Persist intent before painting; send each ordinal in order.
+    // exact cards. Persist intent before painting; coalesce acknowledged ordinals.
     const next={...this.revealTargets,[room.id]:progress+1};
     this.storage?.setItem(this.revealKey(),JSON.stringify(next));
     this.revealTargets=next;this.emit();this.drainReveals();
@@ -183,7 +194,7 @@ export class HubController {
         else this.storage?.removeItem(this.revealKey());
         const room=rooms.find(r=>r.status==='playing'&&this.revealProgress(r)>this.serverProgress(r));
         if(!room)break;
-        try{await this.command('battle_reveal',{id:room.id,progress:this.serverProgress(room)+1},{quiet:true});}
+        try{await this.command('battle_reveal',{id:room.id,progress:this.state.data?.battle_stream?this.revealProgress(room):this.serverProgress(room)+1},{quiet:true});}
         catch{break;}
         if(this.state.error)break;
       }
