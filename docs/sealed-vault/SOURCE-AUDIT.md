@@ -1,0 +1,13 @@
+# Sealed source and migration audit — 8 October 2026
+
+Before replacement: 32 sets × 6 templates = 192 product identities. Every identity uses CSS-generated packaging, not verified product photography. Types are `pack` (1), `bundle` (6), `binder` (5), `tin` (2), `etb` (9), `box` (36). Pricing is an existing deterministic in-game daily price, not live retail pricing. Inventory and shelf use `setId|templateId`; credits, history and display quantities are in `sealedV161`.
+
+There are 32 existing source-documented booster-pack artworks. Their provider URLs are recorded individually in `docs/v261/ARTWORK-SOURCES.json`. They depict loose boosters, not the generic legacy 'Sleeved Booster'; the display name will therefore become Booster Pack without changing its ID, value or single-pack entitlement. These existing images are reused; this work neither establishes new redistribution rights nor mirrors additional copies. All tiers resolve to the same existing modest 512px resource; no invented high-resolution tier.
+
+The other 160 identities have no verified matching product photographs. Generic nine-pack ETBs are unsafe to equate across releases; Crown Zenith normally has ten and Lost Origin eight. Special sets must not be represented as authentic 36-pack booster boxes. Binder collections and tins also need exact contents/variant verification, not a matching set logo. These identities remain LEGACY CUSTOM PRODUCT with unchanged historical pack contents and value. No canonical-ID rewrite or destructive migration.
+
+Attempted primary verification: official expansion pages at `https://tcg.pokemon.com/en-us/expansions/{paldean-fates,crown-zenith,lost-origin}/`, the Pokémon Paldean Fates ETB product gallery, and SealedDex expansion pages. The environment returned proxy 403; the recorded SealedDex pack image endpoint also returned 403. No new product imagery is accepted on this evidence. Exact real box/ETB mappings remain pending, rather than presenting unverified packaging as authentic.
+
+Storage decision: no new Supabase uploads, no retailer scraping, no new licensed photography claims. Use existing project booster art and neutral local SVG fallback with explicit IMAGE UNAVAILABLE text. A dedicated manifest/resolver supports approved mirrored and verified remote photography later. Source-backed means documented provenance, not a claim that Pokémon granted redistribution rights.
+
+Preserve all existing quantities, displayed quantities (including old shelves over capacity), price formula, 88% resale and pack credits. New shelf additions are capped at 12; only 12 slots render per shelf page. Unknown historical keys remain visible and removable from display, with PRICE UNAVAILABLE and no destructive economic actions.

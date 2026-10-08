@@ -1,3 +1,4 @@
+import { installSealedVault } from './sealed/index.js';
 import {loadCardAssetManifest,resolveCardImage} from './artwork/card-assets.js';
 import { installSilverShell } from './screens/rip/silver-shell.js';
 import { installCollector } from './collector/index.js';
@@ -119,6 +120,7 @@ async function boot() {
     ]);
 
     installCollector();
+    installSealedVault();
     installSilverShell();
     bootStage = 'finishing startup';
     setLaunchStage('FINAL CHECK', 96, 'Everything is almost ready…');

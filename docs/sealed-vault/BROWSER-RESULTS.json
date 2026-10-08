@@ -1,0 +1,90 @@
+{
+  "engine": "Chromium simulation",
+  "network": "External services stubbed; isolated synthetic saves",
+  "viewports": [
+    {
+      "width": 336,
+      "height": 800,
+      "openMs": 111,
+      "stressCards": 0,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 360,
+      "viewport": 360
+    },
+    {
+      "width": 366,
+      "height": 844,
+      "openMs": 46,
+      "stressCards": 0,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "width": 369,
+      "height": 873,
+      "openMs": 41,
+      "stressCards": 0,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 393,
+      "viewport": 393
+    },
+    {
+      "width": 388,
+      "height": 915,
+      "openMs": 32,
+      "stressCards": 0,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 412,
+      "viewport": 412
+    },
+    {
+      "width": 406,
+      "height": 932,
+      "openMs": 42,
+      "stressCards": 0,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 430,
+      "viewport": 430
+    },
+    {
+      "width": 744,
+      "height": 1024,
+      "openMs": 38,
+      "stressCards": 0,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "width": 1100,
+      "height": 900,
+      "openMs": 42,
+      "stressCards": 0,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  ],
+  "largeCollection": [
+    {
+      "width": 366,
+      "height": 844,
+      "openMs": 142,
+      "stressCards": 5000,
+      "transactions": true,
+      "persistence": true,
+      "scroll": 390,
+      "viewport": 390
+    }
+  ],
+  "physicalDevices": false,
+  "webkitExecuted": false
+}

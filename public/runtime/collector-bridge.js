@@ -21,6 +21,7 @@
   totals:()=>setTotalsV57(),
   catalog:async id=>{const s=SETS.find(s=>s.id===id);if(!s)return [];const d=await getSet(s);return (d?.cards||cache[id]?.cards||cache[id]?.base?.cards||[]).map(c=>({...c,setId:id,set:s.name,number:c.number||c.localId,img:c.img||(c.image?c.image+'/high.webp':''),thumb:c.thumb||(c.image?c.image+'/low.webp':'')}));},
   level:()=>levelFromXP(state.xp),
+  sealedProduct:id=>window.tcgSealedLegacy?.product(id),
   sealedValue:()=>window.tcgSealedValue?.()||0,
   gradingTier:()=>state.gradingV44?.tierV56||'standard',
   canBinder:c=>!isRegularExV260(c),

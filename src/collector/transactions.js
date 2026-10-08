@@ -42,6 +42,42 @@ export function createTransactions(bridge,{now=()=>bridge.now?.()??Date.now(),id
    for(const line of payload.lines){next.bulkV64[line.id].qty-=line.qty;if(!next.bulkV64[line.id].qty)delete next.bulkV64[line.id];}
    next.coins=(cents(next.coins)+total)/100;result={copies:payload.lines.reduce((n,l)=>n+l.qty,0),total};meta.stats.sales=(meta.stats.sales||0)+result.copies;
    journal(next,{id:receipt,kind:'sale',title:'Bulk delivery · '+result.copies+' cards',value:total/100});
+  }else if(kind==='sealed'){
+   const key=payload.productId,p=bridge.sealedProduct?.(key),store=next.sealedV161;
+   if(typeof key!=='string'||!key.includes('|')||!store?.inventory)throw Error('Unknown sealed product.');
+   const qty=Number(store.inventory[key]||0),shown=Number(store.display?.[key]||0);
+   if(!Number.isSafeInteger(qty)||qty<0||!Number.isSafeInteger(shown)||shown<0)throw Error('Invalid sealed quantity.');
+   if(qty!==payload.owned||shown!==payload.displayed)throw Error('Sealed inventory changed. Review again.');
+   const action=payload.action;store.display??={};
+   meta.sealed??={favourites:{},order:[]};meta.sealed.favourites??={};meta.sealed.order??=[];
+   if(action==='favourite')meta.sealed.favourites[key]=!meta.sealed.favourites[key];
+   else if(action==='display'){
+    if(qty<1)throw Error('You do not own this product.');
+    if(shown>0)delete store.display[key];
+    else {if(Object.entries(store.display).reduce((a,[k,n])=>a+(Number(store.inventory[k]||0)>0?Number(n||0):0),0)>=12)throw Error('Your shelf is full. Remove a product first.');store.display[key]=1;}
+   }else if(action==='reorder'){
+    if(!shown||![-1,1].includes(payload.direction))throw Error('Choose a displayed product.');
+    const keys=[...new Set([...meta.sealed.order,...Object.keys(store.display)])].filter(k=>store.display[k]>0);
+    const at=keys.indexOf(key),to=at+payload.direction;if(to>=0&&to<keys.length)[keys[at],keys[to]]=[keys[to],keys[at]];meta.sealed.order=keys;
+   }else {
+    if(!p||!Number.isFinite(p.marketValue)||p.marketValue<=0||!Number.isSafeInteger(p.packCount)||p.packCount<1)throw Error('Product information unavailable.');
+    const unit=cents(p.marketValue);if(unit!==payload.unitCents)throw Error('The price changed. Review again.');
+    let value=p.marketValue;
+    if(action==='buy'){
+     if(!p.unlocked)throw Error('Unlock this set before buying.');
+     if(cents(next.coins)<unit)throw Error('Not enough cash.');
+     next.coins=(cents(next.coins)-unit)/100;store.inventory[key]=qty+1;
+    }else {
+     if(qty<1||qty<=shown)throw Error('Remove a copy from your shelf first.');
+     if(action==='open'){store.packCredits??={};store.packCredits[p.setId]=Number(store.packCredits[p.setId]||0)+p.packCount;}
+     else if(action==='sell'){value=Math.round(unit*.88)/100;next.coins=(cents(next.coins)+cents(value))/100;}
+     else throw Error('Unknown sealed action.');
+     store.inventory[key]=qty-1;if(!store.inventory[key]){delete store.inventory[key];delete store.display[key];}
+    }
+    store.history??=[];store.history.unshift({time:now(),type:action,setId:p.setId,pid:p.legacyType,price:value,...(action==='open'?{packs:p.packCount}:{})});store.history=store.history.slice(0,30);
+    journal(next,{id:receipt,kind:'sealed',title:`${action==='open'?'Opened':action==='buy'?'Bought':'Sold'} ${p.setName} · ${p.name}`,value});
+    result={kind,action,productId:key,packCount:p.packCount,value};
+   }
   }else if(kind==='districtPurchase'){
    const district=meta.district,offer=district?.offers?.[payload.key],day=contractDay(next,now());
    if(!offer||district.day!==payload.day||day!==payload.day||district.used[payload.key])throw Error('This daily offer is no longer available.');

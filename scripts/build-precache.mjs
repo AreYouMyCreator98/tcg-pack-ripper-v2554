@@ -6,5 +6,5 @@ async function walk(dir){const out=[];for(const entry of await readdir(dir,{with
 const core=(await walk(root)).sort();
 const worker=join(root,'sw.js');
 const source=await readFile(worker,'utf8');
-await writeFile(worker,source.replace(/const CORE = \[[\s\S]*?\];/, 'const CORE = '+JSON.stringify(['./','./card-assets.json',...['theme/smoke-gold','theme/smoke-ghost','theme/smoke-vortex','packs/sv04.5','packs/swsh12.5','packs/swsh11'].map(p=>'./assets/'+p+'.webp'),'./assets/ui/card-unavailable.svg',...core],null,2)+';'));
+await writeFile(worker,source.replace(/const CORE = \[[\s\S]*?\];/, 'const CORE = '+JSON.stringify(['./','./card-assets.json',...['theme/smoke-gold','theme/smoke-ghost','theme/smoke-vortex','packs/sv04.5','packs/swsh12.5','packs/swsh11'].map(p=>'./assets/'+p+'.webp'),'./assets/ui/card-unavailable.svg','./assets/ui/sealed-unavailable.svg',...core],null,2)+';'));
 console.log('Production offline manifest: '+core.length+' resources');
