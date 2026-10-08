@@ -1719,8 +1719,37 @@ try{
     }catch(e){console.error('Account reconcile failed',e);setStatus('warn','Could not read account save','The offline backup remains available. Account sync will retry automatically.')}finally{reconcileBusy=false}
   }
   async function pullInPlace(showToast=false){
-    if(!client||recoveryPending)return false;const session=await refreshSession();if(!session?.user)return false;
-    try{const account=session.user.id,revision=localRevision,remote=await getRemote(),cloud=remote?.save_data;if(user?.id!==account||!cloud?.state||localRevision!==revision||(typeof busy!=='undefined'&&busy&&!hubHold))return false;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);state=clone(cloud.state);state.cloudV190=state.cloudV190||{};state.cloudV190.changedAt=Number(cloud.saved_at||Date.parse(remote.updated_at)||Date.now());localStorage.setItem('tcgRipperSave',JSON.stringify(state));if(cloud.prefs)localStorage.setItem('tcgPrefsV160',JSON.stringify(cloud.prefs));if(cloud.audio)localStorage.setItem('tcgAudioV68',JSON.stringify(cloud.audio));if(cloud.selectedSetId)localStorage.setItem('tcgCloudSelectedSetV190',cloud.selectedSetId);localStorage.setItem(STAMP_KEY,String(Date.now()));syncUI();try{stats()}catch(e){}try{updateProgressUI()}catch(e){}try{if(document.getElementById('binder')?.classList.contains('active'))renderBinder()}catch(e){}try{if(document.getElementById('rip')?.classList.contains('active'))renderSets()}catch(e){}try{renderMarketV57()}catch(e){}try{renderMarketHistoryV72()}catch(e){}try{if(document.getElementById('profile')?.classList.contains('active'))renderProfile()}catch(e){}try{renderSlabVaultV52()}catch(e){}try{if(document.getElementById('profile')?.classList.contains('active'))renderMasterV57()}catch(e){}if(showToast)toast('☁️ Live game state synced');return true}catch(e){console.error('Cloud in-place pull failed',e);return false}
+    pullInPlace.lastFailure='';
+    const fail=message=>{pullInPlace.lastFailure=message;return false;};
+    if(!client||recoveryPending)return fail('Account recovery must finish before collection sync.');
+    const session=await refreshSession();if(!session?.user)return fail('Account session could not be restored. Reconnect and retry.');
+    try{
+      const account=session.user.id,revision=localRevision,remote=await getRemote(),cloud=remote?.save_data;
+      if(user?.id!==account)return fail('Account changed during collection sync. Retry on the current account.');
+      if(!cloud?.state)return fail('The account collection could not be read. Reconnect and retry.');
+      if(localRevision!==revision)return fail('Local progress changed during collection sync. Stop other actions and retry.');
+      if(typeof busy!=='undefined'&&busy&&!hubHold)return fail('Finish opening your pack before collection sync.');
+      const next=clone(cloud.state);next.cloudV190=next.cloudV190||{};
+      next.cloudV190.changedAt=Number(cloud.saved_at||Date.parse(remote.updated_at)||Date.now());
+      // Persist the collection before acknowledging its version or replacing live state.
+      // A quota failure must leave the previous state/version and receipt intact.
+      localStorage.setItem('tcgRipperSave',JSON.stringify(next));
+      state=next;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);
+      // Optional caches must not turn a successful authoritative restore into a
+      // permanently pending financial transaction when browser storage is full.
+      for(const [key,value] of [
+        ['tcgPrefsV160',cloud.prefs?JSON.stringify(cloud.prefs):null],
+        ['tcgAudioV68',cloud.audio?JSON.stringify(cloud.audio):null],
+        ['tcgCloudSelectedSetV190',cloud.selectedSetId||null],
+        [STAMP_KEY,String(Date.now())]
+      ]){if(value!==null)try{localStorage.setItem(key,value)}catch(_){}}
+      syncUI();try{stats()}catch(e){}try{updateProgressUI()}catch(e){}try{if(document.getElementById('binder')?.classList.contains('active'))renderBinder()}catch(e){}try{if(document.getElementById('rip')?.classList.contains('active'))renderSets()}catch(e){}try{renderMarketV57()}catch(e){}try{renderMarketHistoryV72()}catch(e){}try{if(document.getElementById('profile')?.classList.contains('active'))renderProfile()}catch(e){}try{renderSlabVaultV52()}catch(e){}try{if(document.getElementById('profile')?.classList.contains('active'))renderMasterV57()}catch(e){}if(showToast)toast('☁️ Live game state synced');return true;
+    }catch(e){
+      console.error('Cloud in-place pull failed',e);
+      return fail(e?.name==='QuotaExceededError'||e?.code===22||e?.code===1014
+        ?'Browser storage is full. Collection restore is pending; your cloud save and pending action are retained.'
+        :'The account collection could not be restored. Reconnect and retry.');
+    }
   }
   function ensurePasswordRecoveryUI(){
     if(document.getElementById('v238PasswordRecovery'))return;
@@ -1830,7 +1859,7 @@ try{
     if(hubFinishTask?.account===account&&hubFinishTask.generation===generation)return hubFinishTask.promise;
     const task={account,generation};hubFinishTask=task;
     task.promise=(async()=>{
-      if(!await pullInPlace(false))throw Object.assign(new Error('Collection sync is pending. Reconnect before continuing.'),{uncertain:true});
+      if(!await pullInPlace(false))throw Object.assign(new Error(pullInPlace.lastFailure||'Collection sync is pending. Reconnect before continuing.'),{uncertain:true});
       if(user?.id!==account||hubHoldGeneration!==generation)return;
       resetHubTransaction();
     })();
