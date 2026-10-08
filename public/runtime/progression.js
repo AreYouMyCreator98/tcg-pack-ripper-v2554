@@ -1,3 +1,42 @@
+/* Preserve legacy backups outside localStorage's small synchronous quota. */
+globalThis.tcgBackupArchiveV262=(()=>{
+  const keys=['tcgRipperBackupsV163','tcgRipperSaveV147Backup','tcgRipperPreCloudBackupV190','tcgRipperLinkBackupV237','tcgRipperConflictBackupV237'];
+  const marker=raw=>{try{return JSON.parse(raw)?.backupArchiveV262||null}catch(_){return null}};
+  function open(){return new Promise((resolve,reject)=>{
+    let settled=false;const timer=setTimeout(()=>{settled=true;reject(new Error('Backup archive unavailable'));},5000);
+    try{const q=indexedDB.open('tcgSaveBackupsV262',1);
+      q.onupgradeneeded=()=>{if(!q.result.objectStoreNames.contains('backups'))q.result.createObjectStore('backups')};
+      q.onsuccess=()=>{clearTimeout(timer);if(settled)q.result.close();else{settled=true;resolve(q.result)}};
+      q.onerror=()=>{clearTimeout(timer);settled=true;reject(q.error)};
+    }catch(e){clearTimeout(timer);settled=true;reject(e)}
+  })}
+  async function access(id,value){const db=await open();try{return await new Promise((resolve,reject)=>{
+    const tx=db.transaction('backups',value===undefined?'readonly':'readwrite'),store=tx.objectStore('backups');
+    const q=value===undefined?store.get(id):store.put(value,id);
+    const timer=setTimeout(()=>{try{tx.abort()}catch(_){}reject(new Error('Backup archive timed out'));},5000);
+    tx.oncomplete=()=>{clearTimeout(timer);resolve(q.result)};
+    tx.onabort=tx.onerror=()=>{clearTimeout(timer);reject(tx.error||new Error('Backup archive failed'))};
+  })}finally{db.close()}}
+  async function read(key){const raw=localStorage.getItem(key),id=marker(raw);if(!id)return raw;const saved=await access(id);if(typeof saved!=='string')throw new Error('Archived backup unavailable');return saved}
+  async function move(key){
+    if(!keys.includes(key))return false;
+    const raw=localStorage.getItem(key);if(!raw||marker(raw))return false;
+    const id=key+':'+(crypto.randomUUID?.()||Array.from(crypto.getRandomValues(new Uint32Array(4)),n=>n.toString(16).padStart(8,'0')).join(''));await access(id,raw);
+    if(await access(id)!==raw)throw new Error('Backup verification failed');
+    // A save/account change while IndexedDB was writing must not be overwritten.
+    if(localStorage.getItem(key)!==raw)return false;
+    localStorage.setItem(key,JSON.stringify({backupArchiveV262:id}));return true;
+  }
+  const quota=e=>e?.name==='QuotaExceededError'||e?.code===22||e?.code===1014;
+  async function writePrimary(raw,stillCurrent=()=>true){
+    const write=()=>{if(!stillCurrent())throw new Error('Collection changed during storage recovery');localStorage.setItem('tcgRipperSave',raw)};
+    try{write();return}catch(e){if(!quota(e))throw e}
+    for(const key of keys){if(!stillCurrent())throw new Error('Collection changed during storage recovery');await move(key);try{write();return}catch(e){if(!quota(e))throw e}}
+    throw Object.assign(new Error('Browser storage is full'),{name:'QuotaExceededError'});
+  }
+  return {read,move,writePrimary};
+})();
+
 
 /* ===== original script 19 id=v161-next-level-controller ===== */
 
@@ -362,9 +401,9 @@ try{
 
  // Rolling local backups (max 5 snapshots).
  const BACKUP_KEY_V163='tcgRipperBackupsV163';
- function readBackupsV163(){try{return JSON.parse(localStorage.getItem(BACKUP_KEY_V163)||'[]')}catch(e){return[]}}
- function backupV163(force=false){if(!force&&Date.now()-Number(p.backupStamp||0)<120000)return;try{let a=readBackupsV163(),snap=JSON.stringify(state);if(a[0]?.data===snap)return;p.backupStamp=Date.now();a.unshift({time:Date.now(),data:snap});a=a.slice(0,5);localStorage.setItem(BACKUP_KEY_V163,JSON.stringify(a))}catch(e){}}
- function restoreBackupV163(){let a=readBackupsV163();if(!a.length)return toast('No local backup exists yet.');let x;try{x=JSON.parse(a[0].data)}catch(e){return toast('Backup could not be read.')}if(confirm(`Restore backup from ${new Date(a[0].time).toLocaleString()}? Current progress will be replaced.`)){localStorage.setItem('tcgRipperSave',JSON.stringify(x));location.reload()}}
+ async function readBackupsV163(){const a=JSON.parse(await globalThis.tcgBackupArchiveV262.read(BACKUP_KEY_V163)||'[]');return Array.isArray(a)?a:[]}
+ async function backupV163(force=false){if(!force&&Date.now()-Number(p.backupStamp||0)<120000)return;try{let a=await readBackupsV163(),snap=JSON.stringify(state);if(a[0]?.data===snap)return;p.backupStamp=Date.now();a.unshift({time:Date.now(),data:snap});a=a.slice(0,5);localStorage.setItem(BACKUP_KEY_V163,JSON.stringify(a))}catch(e){}}
+ async function restoreBackupV163(){let a;try{a=await readBackupsV163()}catch(_){return toast('Backup storage is unavailable. Retry without clearing site data.')}if(!a.length)return toast('No local backup exists yet.');let x;try{x=JSON.parse(a[0].data)}catch(e){return toast('Backup could not be read.')}if(confirm(`Restore backup from ${new Date(a[0].time).toLocaleString()}? Current progress will be replaced.`)){try{await globalThis.tcgBackupArchiveV262.writePrimary(JSON.stringify(x));location.reload()}catch(_){toast('Backup restore could not be saved. Your backup is retained.')}}}
 
  // Make all future core saves evaluate the new progression and create rolling snapshots.
  const baseSaveV163=save;
@@ -1608,7 +1647,7 @@ try{
     const x=saveSummary(a),y=saveSummary(b);
     return Math.abs(x.binder-y.binder)>=2||Math.abs(x.bulk-y.bulk)>=5||Math.abs(x.graded-y.graded)>=1||Math.abs(x.packs-y.packs)>=3||Math.abs(x.hits-y.hits)>=2||Math.abs(x.xp-y.xp)>=100||Math.abs(x.coins-y.coins)>=20||(x.coins<0)!=(y.coins<0);
   }
-  function readStateKey(k){try{const v=JSON.parse(localStorage.getItem(k)||'null');return v&&typeof v==='object'?v:null}catch(_){return null}}
+  async function readStateKey(k){try{const v=JSON.parse(await globalThis.tcgBackupArchiveV262.read(k)||'null');return v&&typeof v==='object'?v:null}catch(_){return null}}
   function applySnapshot(data){
     if(!data?.state)return false;
     try{
@@ -1688,7 +1727,7 @@ try{
       if(!remote?.save_data){setBound();setStoredVersion(null);setDirty(true);await pushNow(false,true);return}
       const remoteVersion=Number(remote.save_version||1),cloud=remote.save_data,remoteState=cloud?.state||{};
       if(!isBound()){
-        const pre=readStateKey(PRECLOUD_KEY);const current=clone(state);const candidate=(pre&&meaningful(pre)&&materiallyDifferent(pre,remoteState))?pre:current;
+        const pre=await readStateKey(PRECLOUD_KEY);const current=clone(state);const candidate=(pre&&meaningful(pre)&&materiallyDifferent(pre,remoteState))?pre:current;
         const recovering=!!(pre&&candidate===pre);
         if(meaningful(candidate)&&meaningful(remoteState)&&materiallyDifferent(candidate,remoteState)){
           try{localStorage.setItem(LINK_BACKUP_KEY,JSON.stringify(current))}catch(_){ }
@@ -1733,7 +1772,9 @@ try{
       next.cloudV190.changedAt=Number(cloud.saved_at||Date.parse(remote.updated_at)||Date.now());
       // Persist the collection before acknowledging its version or replacing live state.
       // A quota failure must leave the previous state/version and receipt intact.
-      localStorage.setItem('tcgRipperSave',JSON.stringify(next));
+      if(globalThis.tcgBackupArchiveV262)await globalThis.tcgBackupArchiveV262.writePrimary(JSON.stringify(next),()=>user?.id===account&&localRevision===revision);
+      else localStorage.setItem('tcgRipperSave',JSON.stringify(next));
+      if(user?.id!==account||localRevision!==revision)return fail('Account or local progress changed during storage recovery. Retry.');
       state=next;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);
       // Optional caches must not turn a successful authoritative restore into a
       // permanently pending financial transaction when browser storage is full.
