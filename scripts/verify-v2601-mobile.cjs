@@ -76,11 +76,11 @@ async function packs(page){
  await page.locator('.nav [data-s="binder"]').click();await page.locator('[data-collection-tab="cards"]').click();await page.getByRole('button',{name:'SPECIAL COLLECTION',exact:true}).click();
  const specialImages=page.locator('#specialGridV198 img');assert.ok(await specialImages.count()>0);
  await specialImages.first().scrollIntoViewIfNeeded();await page.waitForFunction(()=>document.querySelector('#specialGridV198 img')?.naturalWidth>0);
- assert.ok(await specialImages.evaluateAll(es=>es.every(e=>e.getAttribute('src')?.startsWith('assets/specials/'))));
+ assert.ok(await specialImages.evaluateAll(es=>es.every(e=>{const src=e.getAttribute('src')||'';return src.startsWith('assets/specials/')||(src.includes('/storage/v1/object/public/card-assets/cards/specials/sp_')&&src.endsWith('/thumb.webp'));})));
  await page.locator('[data-special-filter-v198="prismatic"]').click();await specialImages.first().scrollIntoViewIfNeeded();await page.waitForFunction(()=>document.querySelector('#specialGridV198 img')?.naturalWidth>0);
  await page.screenshot({path:'/tmp/v2601-specials.png'});
  // Real local WebP decoding for all nineteen paths, then an injected failure.
  const images=await page.evaluate(async()=>Promise.all(specialCardsV198.map(c=>new Promise(resolve=>{const i=new Image();i.onload=()=>resolve({id:c.id,width:i.naturalWidth});i.onerror=()=>resolve({id:c.id,width:0});i.src=c.art;}))));assert.ok(images.every(x=>x.width>0));
- await specialImages.first().evaluate(img=>{img.src='assets/specials/missing-fixture.webp';});await page.waitForSelector('.specialCardFrameV198.artwork-unavailable');assert.match(await page.locator('.specialCardFrameV198.artwork-unavailable').innerText(),/ARTWORK UNAVAILABLE/);
+ await specialImages.first().evaluate(img=>{img.src='assets/specials/sp_missing-fixture.webp';});await page.waitForSelector('.specialCardFrameV198.artwork-unavailable');assert.match(await page.locator('.specialCardFrameV198.artwork-unavailable').innerText(),/ARTWORK UNAVAILABLE/);
  const report={engine:'Chromium',deviceSimulation:device,largeCollection:!!process.env.V2601_LARGE,physicalDevices:false,externalServices:'stubbed',viewports,runs,funding:['cash','starter','sealed'],specials:images};fs.writeFileSync('/tmp/v2601-'+device+(process.env.V2601_LARGE?'-large':'')+'-report.json',JSON.stringify(report,null,2));console.log('V260.1 PASS',JSON.stringify(report));
 }

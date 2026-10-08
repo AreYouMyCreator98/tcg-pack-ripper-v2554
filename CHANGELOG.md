@@ -1,4 +1,4 @@
-## V260.2B asset pipeline — review, upload pending
+## V260.2B asset pipeline — complete mirror, review
 
 - Add resumable current-catalogue WebP preparation, verified Supabase uploads,
   dry-run, per-set/failed-card sync and storage audit commands.
@@ -7,8 +7,8 @@
 - Bound runtime/IndexedDB art caches and preserve offline placeholders; remove
   whole-Binder artwork prewarming.
 - Preserve sets, card pools, pull rates, progression and save schema.
-- Live mirror activation is pending a build-side Storage credential. The runtime
-  manifest stays empty until each uploaded card passes verification.
+- Mirror all 6,908 current artwork identities into 20,724 checksum-verified public
+  Supabase objects; no failed/fallback-only records remain. Production is unchanged.
 - See [pipeline operations](docs/v260.2b/ASSET-PIPELINE.md).
 
 # V261 — Dark Silver Collector (review branch)

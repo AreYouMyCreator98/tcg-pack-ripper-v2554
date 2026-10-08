@@ -1,0 +1,1791 @@
+{
+  "publicCanonicalUrls": true,
+  "tlsVerified": true,
+  "corsVerified": true,
+  "sampleCount": 198,
+  "setsAndSpecials": 33,
+  "samples": [
+    {
+      "id": "sv04.5-001",
+      "set": "sv04.5",
+      "tier": "thumb",
+      "bytes": 7572,
+      "width": 200,
+      "height": 275,
+      "ms": 576
+    },
+    {
+      "id": "sv04.5-001",
+      "set": "sv04.5",
+      "tier": "medium",
+      "bytes": 44042,
+      "width": 500,
+      "height": 688,
+      "ms": 590
+    },
+    {
+      "id": "sv04.5-001",
+      "set": "sv04.5",
+      "tier": "high",
+      "bytes": 56330,
+      "width": 600,
+      "height": 825,
+      "ms": 587
+    },
+    {
+      "id": "sv04.5-141",
+      "set": "sv04.5",
+      "tier": "thumb",
+      "bytes": 10798,
+      "width": 200,
+      "height": 275,
+      "ms": 1187
+    },
+    {
+      "id": "sv04.5-141",
+      "set": "sv04.5",
+      "tier": "medium",
+      "bytes": 53124,
+      "width": 500,
+      "height": 688,
+      "ms": 1180
+    },
+    {
+      "id": "sv04.5-141",
+      "set": "sv04.5",
+      "tier": "high",
+      "bytes": 65948,
+      "width": 600,
+      "height": 825,
+      "ms": 1293
+    },
+    {
+      "id": "xy12-100",
+      "set": "xy12",
+      "tier": "thumb",
+      "bytes": 16676,
+      "width": 200,
+      "height": 275,
+      "ms": 237
+    },
+    {
+      "id": "xy12-100",
+      "set": "xy12",
+      "tier": "medium",
+      "bytes": 81776,
+      "width": 500,
+      "height": 688,
+      "ms": 241
+    },
+    {
+      "id": "xy12-100",
+      "set": "xy12",
+      "tier": "high",
+      "bytes": 98350,
+      "width": 600,
+      "height": 825,
+      "ms": 276
+    },
+    {
+      "id": "xy12-69",
+      "set": "xy12",
+      "tier": "thumb",
+      "bytes": 8392,
+      "width": 200,
+      "height": 275,
+      "ms": 785
+    },
+    {
+      "id": "xy12-69",
+      "set": "xy12",
+      "tier": "medium",
+      "bytes": 55298,
+      "width": 500,
+      "height": 688,
+      "ms": 831
+    },
+    {
+      "id": "xy12-69",
+      "set": "xy12",
+      "tier": "high",
+      "bytes": 71982,
+      "width": 600,
+      "height": 825,
+      "ms": 869
+    },
+    {
+      "id": "sp_eevee",
+      "set": "specials",
+      "tier": "thumb",
+      "bytes": 7034,
+      "width": 200,
+      "height": 279,
+      "ms": 213
+    },
+    {
+      "id": "sp_eevee",
+      "set": "specials",
+      "tier": "medium",
+      "bytes": 32320,
+      "width": 500,
+      "height": 698,
+      "ms": 255
+    },
+    {
+      "id": "sp_eevee",
+      "set": "specials",
+      "tier": "high",
+      "bytes": 59798,
+      "width": 688,
+      "height": 960,
+      "ms": 225
+    },
+    {
+      "id": "sp_machamp_ex",
+      "set": "specials",
+      "tier": "thumb",
+      "bytes": 22016,
+      "width": 200,
+      "height": 279,
+      "ms": 757
+    },
+    {
+      "id": "sp_machamp_ex",
+      "set": "specials",
+      "tier": "medium",
+      "bytes": 122372,
+      "width": 500,
+      "height": 698,
+      "ms": 1156
+    },
+    {
+      "id": "sp_machamp_ex",
+      "set": "specials",
+      "tier": "high",
+      "bytes": 231590,
+      "width": 688,
+      "height": 960,
+      "ms": 439
+    },
+    {
+      "id": "swsh12.5-005",
+      "set": "swsh12.5",
+      "tier": "thumb",
+      "bytes": 8248,
+      "width": 200,
+      "height": 275,
+      "ms": 208
+    },
+    {
+      "id": "swsh12.5-005",
+      "set": "swsh12.5",
+      "tier": "medium",
+      "bytes": 46356,
+      "width": 500,
+      "height": 688,
+      "ms": 212
+    },
+    {
+      "id": "swsh12.5-005",
+      "set": "swsh12.5",
+      "tier": "high",
+      "bytes": 58138,
+      "width": 600,
+      "height": 825,
+      "ms": 247
+    },
+    {
+      "id": "swsh12.5gg-GG54",
+      "set": "swsh12.5",
+      "tier": "thumb",
+      "bytes": 18212,
+      "width": 200,
+      "height": 275,
+      "ms": 849
+    },
+    {
+      "id": "swsh12.5gg-GG54",
+      "set": "swsh12.5",
+      "tier": "medium",
+      "bytes": 115594,
+      "width": 500,
+      "height": 688,
+      "ms": 790
+    },
+    {
+      "id": "swsh12.5gg-GG54",
+      "set": "swsh12.5",
+      "tier": "high",
+      "bytes": 153688,
+      "width": 600,
+      "height": 825,
+      "ms": 749
+    },
+    {
+      "id": "swsh4.5-12",
+      "set": "swsh4.5",
+      "tier": "thumb",
+      "bytes": 9364,
+      "width": 200,
+      "height": 275,
+      "ms": 724
+    },
+    {
+      "id": "swsh4.5-12",
+      "set": "swsh4.5",
+      "tier": "medium",
+      "bytes": 47418,
+      "width": 500,
+      "height": 688,
+      "ms": 831
+    },
+    {
+      "id": "swsh4.5-12",
+      "set": "swsh4.5",
+      "tier": "high",
+      "bytes": 58020,
+      "width": 600,
+      "height": 825,
+      "ms": 826
+    },
+    {
+      "id": "swsh4.5sv-SV119",
+      "set": "swsh4.5",
+      "tier": "thumb",
+      "bytes": 9828,
+      "width": 200,
+      "height": 275,
+      "ms": 717
+    },
+    {
+      "id": "swsh4.5sv-SV119",
+      "set": "swsh4.5",
+      "tier": "medium",
+      "bytes": 47942,
+      "width": 500,
+      "height": 688,
+      "ms": 460
+    },
+    {
+      "id": "swsh4.5sv-SV119",
+      "set": "swsh4.5",
+      "tier": "high",
+      "bytes": 55732,
+      "width": 600,
+      "height": 825,
+      "ms": 744
+    },
+    {
+      "id": "sv08-001",
+      "set": "sv08",
+      "tier": "thumb",
+      "bytes": 10076,
+      "width": 200,
+      "height": 275,
+      "ms": 985
+    },
+    {
+      "id": "sv08-001",
+      "set": "sv08",
+      "tier": "medium",
+      "bytes": 63164,
+      "width": 500,
+      "height": 688,
+      "ms": 471
+    },
+    {
+      "id": "sv08-001",
+      "set": "sv08",
+      "tier": "high",
+      "bytes": 82528,
+      "width": 600,
+      "height": 825,
+      "ms": 741
+    },
+    {
+      "id": "sv08-239",
+      "set": "sv08",
+      "tier": "thumb",
+      "bytes": 11128,
+      "width": 200,
+      "height": 275,
+      "ms": 862
+    },
+    {
+      "id": "sv08-239",
+      "set": "sv08",
+      "tier": "medium",
+      "bytes": 60438,
+      "width": 500,
+      "height": 688,
+      "ms": 820
+    },
+    {
+      "id": "sv08-239",
+      "set": "sv08",
+      "tier": "high",
+      "bytes": 74394,
+      "width": 600,
+      "height": 825,
+      "ms": 822
+    },
+    {
+      "id": "sv03-003",
+      "set": "sv03",
+      "tier": "thumb",
+      "bytes": 9916,
+      "width": 200,
+      "height": 275,
+      "ms": 691
+    },
+    {
+      "id": "sv03-003",
+      "set": "sv03",
+      "tier": "medium",
+      "bytes": 53780,
+      "width": 500,
+      "height": 688,
+      "ms": 698
+    },
+    {
+      "id": "sv03-003",
+      "set": "sv03",
+      "tier": "high",
+      "bytes": 68130,
+      "width": 600,
+      "height": 825,
+      "ms": 797
+    },
+    {
+      "id": "sv03-227",
+      "set": "sv03",
+      "tier": "thumb",
+      "bytes": 11320,
+      "width": 200,
+      "height": 275,
+      "ms": 786
+    },
+    {
+      "id": "sv03-227",
+      "set": "sv03",
+      "tier": "medium",
+      "bytes": 55734,
+      "width": 500,
+      "height": 688,
+      "ms": 575
+    },
+    {
+      "id": "sv03-227",
+      "set": "sv03",
+      "tier": "high",
+      "bytes": 67336,
+      "width": 600,
+      "height": 825,
+      "ms": 1188
+    },
+    {
+      "id": "sv02-002",
+      "set": "sv02",
+      "tier": "thumb",
+      "bytes": 10050,
+      "width": 200,
+      "height": 275,
+      "ms": 717
+    },
+    {
+      "id": "sv02-002",
+      "set": "sv02",
+      "tier": "medium",
+      "bytes": 58760,
+      "width": 500,
+      "height": 688,
+      "ms": 822
+    },
+    {
+      "id": "sv02-002",
+      "set": "sv02",
+      "tier": "high",
+      "bytes": 73728,
+      "width": 600,
+      "height": 825,
+      "ms": 698
+    },
+    {
+      "id": "sv02-257",
+      "set": "sv02",
+      "tier": "thumb",
+      "bytes": 14072,
+      "width": 200,
+      "height": 275,
+      "ms": 798
+    },
+    {
+      "id": "sv02-257",
+      "set": "sv02",
+      "tier": "medium",
+      "bytes": 83860,
+      "width": 500,
+      "height": 688,
+      "ms": 699
+    },
+    {
+      "id": "sv02-257",
+      "set": "sv02",
+      "tier": "high",
+      "bytes": 103994,
+      "width": 600,
+      "height": 825,
+      "ms": 905
+    },
+    {
+      "id": "sv01-002",
+      "set": "sv01",
+      "tier": "thumb",
+      "bytes": 9600,
+      "width": 200,
+      "height": 275,
+      "ms": 695
+    },
+    {
+      "id": "sv01-002",
+      "set": "sv01",
+      "tier": "medium",
+      "bytes": 54332,
+      "width": 500,
+      "height": 688,
+      "ms": 707
+    },
+    {
+      "id": "sv01-002",
+      "set": "sv01",
+      "tier": "high",
+      "bytes": 68490,
+      "width": 600,
+      "height": 825,
+      "ms": 776
+    },
+    {
+      "id": "sv01-257",
+      "set": "sv01",
+      "tier": "thumb",
+      "bytes": 5586,
+      "width": 200,
+      "height": 275,
+      "ms": 655
+    },
+    {
+      "id": "sv01-257",
+      "set": "sv01",
+      "tier": "medium",
+      "bytes": 24248,
+      "width": 500,
+      "height": 688,
+      "ms": 698
+    },
+    {
+      "id": "sv01-257",
+      "set": "sv01",
+      "tier": "high",
+      "bytes": 27218,
+      "width": 600,
+      "height": 825,
+      "ms": 685
+    },
+    {
+      "id": "sv07-003",
+      "set": "sv07",
+      "tier": "thumb",
+      "bytes": 12484,
+      "width": 200,
+      "height": 275,
+      "ms": 799
+    },
+    {
+      "id": "sv07-003",
+      "set": "sv07",
+      "tier": "medium",
+      "bytes": 76154,
+      "width": 500,
+      "height": 688,
+      "ms": 765
+    },
+    {
+      "id": "sv07-003",
+      "set": "sv07",
+      "tier": "high",
+      "bytes": 97486,
+      "width": 600,
+      "height": 825,
+      "ms": 667
+    },
+    {
+      "id": "sv07-161",
+      "set": "sv07",
+      "tier": "thumb",
+      "bytes": 13130,
+      "width": 200,
+      "height": 275,
+      "ms": 656
+    },
+    {
+      "id": "sv07-161",
+      "set": "sv07",
+      "tier": "medium",
+      "bytes": 69538,
+      "width": 500,
+      "height": 688,
+      "ms": 1133
+    },
+    {
+      "id": "sv07-161",
+      "set": "sv07",
+      "tier": "high",
+      "bytes": 83100,
+      "width": 600,
+      "height": 825,
+      "ms": 730
+    },
+    {
+      "id": "sv06.5-003",
+      "set": "sv06.5",
+      "tier": "thumb",
+      "bytes": 8956,
+      "width": 200,
+      "height": 275,
+      "ms": 710
+    },
+    {
+      "id": "sv06.5-003",
+      "set": "sv06.5",
+      "tier": "medium",
+      "bytes": 48250,
+      "width": 500,
+      "height": 688,
+      "ms": 722
+    },
+    {
+      "id": "sv06.5-003",
+      "set": "sv06.5",
+      "tier": "high",
+      "bytes": 60090,
+      "width": 600,
+      "height": 825,
+      "ms": 848
+    },
+    {
+      "id": "sv06.5-062",
+      "set": "sv06.5",
+      "tier": "thumb",
+      "bytes": 9868,
+      "width": 200,
+      "height": 275,
+      "ms": 847
+    },
+    {
+      "id": "sv06.5-062",
+      "set": "sv06.5",
+      "tier": "medium",
+      "bytes": 48224,
+      "width": 500,
+      "height": 688,
+      "ms": 663
+    },
+    {
+      "id": "sv06.5-062",
+      "set": "sv06.5",
+      "tier": "high",
+      "bytes": 57200,
+      "width": 600,
+      "height": 825,
+      "ms": 762
+    },
+    {
+      "id": "sv06-003",
+      "set": "sv06",
+      "tier": "thumb",
+      "bytes": 9702,
+      "width": 200,
+      "height": 275,
+      "ms": 1138
+    },
+    {
+      "id": "sv06-003",
+      "set": "sv06",
+      "tier": "medium",
+      "bytes": 48822,
+      "width": 500,
+      "height": 688,
+      "ms": 792
+    },
+    {
+      "id": "sv06-003",
+      "set": "sv06",
+      "tier": "high",
+      "bytes": 57924,
+      "width": 600,
+      "height": 825,
+      "ms": 686
+    },
+    {
+      "id": "sv06-138",
+      "set": "sv06",
+      "tier": "thumb",
+      "bytes": 11030,
+      "width": 200,
+      "height": 275,
+      "ms": 696
+    },
+    {
+      "id": "sv06-138",
+      "set": "sv06",
+      "tier": "medium",
+      "bytes": 58488,
+      "width": 500,
+      "height": 688,
+      "ms": 698
+    },
+    {
+      "id": "sv06-138",
+      "set": "sv06",
+      "tier": "high",
+      "bytes": 71852,
+      "width": 600,
+      "height": 825,
+      "ms": 692
+    },
+    {
+      "id": "sv05-003",
+      "set": "sv05",
+      "tier": "thumb",
+      "bytes": 7998,
+      "width": 200,
+      "height": 275,
+      "ms": 719
+    },
+    {
+      "id": "sv05-003",
+      "set": "sv05",
+      "tier": "medium",
+      "bytes": 44852,
+      "width": 500,
+      "height": 688,
+      "ms": 1149
+    },
+    {
+      "id": "sv05-003",
+      "set": "sv05",
+      "tier": "high",
+      "bytes": 58154,
+      "width": 600,
+      "height": 825,
+      "ms": 686
+    },
+    {
+      "id": "sv05-039",
+      "set": "sv05",
+      "tier": "thumb",
+      "bytes": 9996,
+      "width": 200,
+      "height": 275,
+      "ms": 652
+    },
+    {
+      "id": "sv05-039",
+      "set": "sv05",
+      "tier": "medium",
+      "bytes": 64234,
+      "width": 500,
+      "height": 688,
+      "ms": 812
+    },
+    {
+      "id": "sv05-039",
+      "set": "sv05",
+      "tier": "high",
+      "bytes": 85260,
+      "width": 600,
+      "height": 825,
+      "ms": 723
+    },
+    {
+      "id": "sv04-006",
+      "set": "sv04",
+      "tier": "thumb",
+      "bytes": 8000,
+      "width": 200,
+      "height": 275,
+      "ms": 817
+    },
+    {
+      "id": "sv04-006",
+      "set": "sv04",
+      "tier": "medium",
+      "bytes": 45222,
+      "width": 500,
+      "height": 688,
+      "ms": 812
+    },
+    {
+      "id": "sv04-006",
+      "set": "sv04",
+      "tier": "high",
+      "bytes": 56944,
+      "width": 600,
+      "height": 825,
+      "ms": 717
+    },
+    {
+      "id": "sv04-245",
+      "set": "sv04",
+      "tier": "thumb",
+      "bytes": 16890,
+      "width": 200,
+      "height": 275,
+      "ms": 836
+    },
+    {
+      "id": "sv04-245",
+      "set": "sv04",
+      "tier": "medium",
+      "bytes": 95942,
+      "width": 500,
+      "height": 688,
+      "ms": 865
+    },
+    {
+      "id": "sv04-245",
+      "set": "sv04",
+      "tier": "high",
+      "bytes": 119820,
+      "width": 600,
+      "height": 825,
+      "ms": 795
+    },
+    {
+      "id": "sv03.5-004",
+      "set": "sv03.5",
+      "tier": "thumb",
+      "bytes": 9328,
+      "width": 200,
+      "height": 275,
+      "ms": 723
+    },
+    {
+      "id": "sv03.5-004",
+      "set": "sv03.5",
+      "tier": "medium",
+      "bytes": 49198,
+      "width": 500,
+      "height": 688,
+      "ms": 817
+    },
+    {
+      "id": "sv03.5-004",
+      "set": "sv03.5",
+      "tier": "high",
+      "bytes": 61824,
+      "width": 600,
+      "height": 825,
+      "ms": 685
+    },
+    {
+      "id": "sv03.5-206",
+      "set": "sv03.5",
+      "tier": "thumb",
+      "bytes": 10414,
+      "width": 200,
+      "height": 275,
+      "ms": 857
+    },
+    {
+      "id": "sv03.5-206",
+      "set": "sv03.5",
+      "tier": "medium",
+      "bytes": 51658,
+      "width": 500,
+      "height": 688,
+      "ms": 779
+    },
+    {
+      "id": "sv03.5-206",
+      "set": "sv03.5",
+      "tier": "high",
+      "bytes": 60106,
+      "width": 600,
+      "height": 825,
+      "ms": 687
+    },
+    {
+      "id": "sv09-001",
+      "set": "sv09",
+      "tier": "thumb",
+      "bytes": 8670,
+      "width": 200,
+      "height": 275,
+      "ms": 797
+    },
+    {
+      "id": "sv09-001",
+      "set": "sv09",
+      "tier": "medium",
+      "bytes": 50586,
+      "width": 500,
+      "height": 688,
+      "ms": 661
+    },
+    {
+      "id": "sv09-001",
+      "set": "sv09",
+      "tier": "high",
+      "bytes": 65188,
+      "width": 600,
+      "height": 825,
+      "ms": 743
+    },
+    {
+      "id": "sv09-172",
+      "set": "sv09",
+      "tier": "thumb",
+      "bytes": 12548,
+      "width": 200,
+      "height": 275,
+      "ms": 787
+    },
+    {
+      "id": "sv09-172",
+      "set": "sv09",
+      "tier": "medium",
+      "bytes": 66386,
+      "width": 500,
+      "height": 688,
+      "ms": 687
+    },
+    {
+      "id": "sv09-172",
+      "set": "sv09",
+      "tier": "high",
+      "bytes": 81138,
+      "width": 600,
+      "height": 825,
+      "ms": 678
+    },
+    {
+      "id": "sv10-002",
+      "set": "sv10",
+      "tier": "thumb",
+      "bytes": 10232,
+      "width": 200,
+      "height": 275,
+      "ms": 675
+    },
+    {
+      "id": "sv10-002",
+      "set": "sv10",
+      "tier": "medium",
+      "bytes": 66994,
+      "width": 500,
+      "height": 688,
+      "ms": 710
+    },
+    {
+      "id": "sv10-002",
+      "set": "sv10",
+      "tier": "high",
+      "bytes": 89126,
+      "width": 600,
+      "height": 825,
+      "ms": 695
+    },
+    {
+      "id": "sv10-217",
+      "set": "sv10",
+      "tier": "thumb",
+      "bytes": 11874,
+      "width": 200,
+      "height": 275,
+      "ms": 702
+    },
+    {
+      "id": "sv10-217",
+      "set": "sv10",
+      "tier": "medium",
+      "bytes": 66544,
+      "width": 500,
+      "height": 688,
+      "ms": 714
+    },
+    {
+      "id": "sv10-217",
+      "set": "sv10",
+      "tier": "high",
+      "bytes": 81572,
+      "width": 600,
+      "height": 825,
+      "ms": 811
+    },
+    {
+      "id": "swsh12-002",
+      "set": "swsh12",
+      "tier": "thumb",
+      "bytes": 9516,
+      "width": 200,
+      "height": 275,
+      "ms": 733
+    },
+    {
+      "id": "swsh12-002",
+      "set": "swsh12",
+      "tier": "medium",
+      "bytes": 49828,
+      "width": 500,
+      "height": 688,
+      "ms": 821
+    },
+    {
+      "id": "swsh12-002",
+      "set": "swsh12",
+      "tier": "high",
+      "bytes": 59802,
+      "width": 600,
+      "height": 825,
+      "ms": 676
+    },
+    {
+      "id": "swsh12tg-TG18",
+      "set": "swsh12",
+      "tier": "thumb",
+      "bytes": 14226,
+      "width": 200,
+      "height": 275,
+      "ms": 814
+    },
+    {
+      "id": "swsh12tg-TG18",
+      "set": "swsh12",
+      "tier": "medium",
+      "bytes": 81578,
+      "width": 500,
+      "height": 688,
+      "ms": 821
+    },
+    {
+      "id": "swsh12tg-TG18",
+      "set": "swsh12",
+      "tier": "high",
+      "bytes": 99780,
+      "width": 600,
+      "height": 825,
+      "ms": 802
+    },
+    {
+      "id": "swsh11-001",
+      "set": "swsh11",
+      "tier": "thumb",
+      "bytes": 7390,
+      "width": 200,
+      "height": 275,
+      "ms": 385
+    },
+    {
+      "id": "swsh11-001",
+      "set": "swsh11",
+      "tier": "medium",
+      "bytes": 39280,
+      "width": 500,
+      "height": 688,
+      "ms": 711
+    },
+    {
+      "id": "swsh11-001",
+      "set": "swsh11",
+      "tier": "high",
+      "bytes": 49972,
+      "width": 600,
+      "height": 825,
+      "ms": 714
+    },
+    {
+      "id": "swsh11tg-TG06",
+      "set": "swsh11",
+      "tier": "thumb",
+      "bytes": 16496,
+      "width": 200,
+      "height": 275,
+      "ms": 661
+    },
+    {
+      "id": "swsh11tg-TG06",
+      "set": "swsh11",
+      "tier": "medium",
+      "bytes": 99152,
+      "width": 500,
+      "height": 688,
+      "ms": 691
+    },
+    {
+      "id": "swsh11tg-TG06",
+      "set": "swsh11",
+      "tier": "high",
+      "bytes": 124098,
+      "width": 600,
+      "height": 825,
+      "ms": 830
+    },
+    {
+      "id": "swsh10-003",
+      "set": "swsh10",
+      "tier": "thumb",
+      "bytes": 9818,
+      "width": 200,
+      "height": 275,
+      "ms": 694
+    },
+    {
+      "id": "swsh10-003",
+      "set": "swsh10",
+      "tier": "medium",
+      "bytes": 52076,
+      "width": 500,
+      "height": 688,
+      "ms": 721
+    },
+    {
+      "id": "swsh10-003",
+      "set": "swsh10",
+      "tier": "high",
+      "bytes": 65586,
+      "width": 600,
+      "height": 825,
+      "ms": 677
+    },
+    {
+      "id": "swsh10tg-TG04",
+      "set": "swsh10",
+      "tier": "thumb",
+      "bytes": 11030,
+      "width": 200,
+      "height": 275,
+      "ms": 695
+    },
+    {
+      "id": "swsh10tg-TG04",
+      "set": "swsh10",
+      "tier": "medium",
+      "bytes": 59884,
+      "width": 500,
+      "height": 688,
+      "ms": 451
+    },
+    {
+      "id": "swsh10tg-TG04",
+      "set": "swsh10",
+      "tier": "high",
+      "bytes": 71898,
+      "width": 600,
+      "height": 825,
+      "ms": 839
+    },
+    {
+      "id": "swsh9-002",
+      "set": "swsh9",
+      "tier": "thumb",
+      "bytes": 8836,
+      "width": 200,
+      "height": 275,
+      "ms": 843
+    },
+    {
+      "id": "swsh9-002",
+      "set": "swsh9",
+      "tier": "medium",
+      "bytes": 46526,
+      "width": 500,
+      "height": 688,
+      "ms": 685
+    },
+    {
+      "id": "swsh9-002",
+      "set": "swsh9",
+      "tier": "high",
+      "bytes": 59258,
+      "width": 600,
+      "height": 825,
+      "ms": 746
+    },
+    {
+      "id": "swsh9tg-TG26",
+      "set": "swsh9",
+      "tier": "thumb",
+      "bytes": 11398,
+      "width": 200,
+      "height": 275,
+      "ms": 696
+    },
+    {
+      "id": "swsh9tg-TG26",
+      "set": "swsh9",
+      "tier": "medium",
+      "bytes": 59418,
+      "width": 500,
+      "height": 688,
+      "ms": 788
+    },
+    {
+      "id": "swsh9tg-TG26",
+      "set": "swsh9",
+      "tier": "high",
+      "bytes": 71322,
+      "width": 600,
+      "height": 825,
+      "ms": 690
+    },
+    {
+      "id": "swsh8-1",
+      "set": "swsh8",
+      "tier": "thumb",
+      "bytes": 9294,
+      "width": 200,
+      "height": 275,
+      "ms": 816
+    },
+    {
+      "id": "swsh8-1",
+      "set": "swsh8",
+      "tier": "medium",
+      "bytes": 50460,
+      "width": 500,
+      "height": 688,
+      "ms": 726
+    },
+    {
+      "id": "swsh8-1",
+      "set": "swsh8",
+      "tier": "high",
+      "bytes": 63148,
+      "width": 600,
+      "height": 825,
+      "ms": 738
+    },
+    {
+      "id": "swsh8-84",
+      "set": "swsh8",
+      "tier": "thumb",
+      "bytes": 8114,
+      "width": 200,
+      "height": 275,
+      "ms": 831
+    },
+    {
+      "id": "swsh8-84",
+      "set": "swsh8",
+      "tier": "medium",
+      "bytes": 57688,
+      "width": 500,
+      "height": 688,
+      "ms": 692
+    },
+    {
+      "id": "swsh8-84",
+      "set": "swsh8",
+      "tier": "high",
+      "bytes": 75746,
+      "width": 600,
+      "height": 825,
+      "ms": 713
+    },
+    {
+      "id": "swsh7-106",
+      "set": "swsh7",
+      "tier": "thumb",
+      "bytes": 8866,
+      "width": 200,
+      "height": 275,
+      "ms": 684
+    },
+    {
+      "id": "swsh7-106",
+      "set": "swsh7",
+      "tier": "medium",
+      "bytes": 56570,
+      "width": 500,
+      "height": 688,
+      "ms": 711
+    },
+    {
+      "id": "swsh7-106",
+      "set": "swsh7",
+      "tier": "high",
+      "bytes": 73860,
+      "width": 600,
+      "height": 825,
+      "ms": 786
+    },
+    {
+      "id": "swsh7-49",
+      "set": "swsh7",
+      "tier": "thumb",
+      "bytes": 9304,
+      "width": 200,
+      "height": 275,
+      "ms": 839
+    },
+    {
+      "id": "swsh7-49",
+      "set": "swsh7",
+      "tier": "medium",
+      "bytes": 49860,
+      "width": 500,
+      "height": 688,
+      "ms": 682
+    },
+    {
+      "id": "swsh7-49",
+      "set": "swsh7",
+      "tier": "high",
+      "bytes": 63718,
+      "width": 600,
+      "height": 825,
+      "ms": 674
+    },
+    {
+      "id": "swsh6-1",
+      "set": "swsh6",
+      "tier": "thumb",
+      "bytes": 7906,
+      "width": 200,
+      "height": 275,
+      "ms": 709
+    },
+    {
+      "id": "swsh6-1",
+      "set": "swsh6",
+      "tier": "medium",
+      "bytes": 42406,
+      "width": 500,
+      "height": 688,
+      "ms": 689
+    },
+    {
+      "id": "swsh6-1",
+      "set": "swsh6",
+      "tier": "high",
+      "bytes": 53296,
+      "width": 600,
+      "height": 825,
+      "ms": 710
+    },
+    {
+      "id": "swsh6-85",
+      "set": "swsh6",
+      "tier": "thumb",
+      "bytes": 11300,
+      "width": 200,
+      "height": 275,
+      "ms": 834
+    },
+    {
+      "id": "swsh6-85",
+      "set": "swsh6",
+      "tier": "medium",
+      "bytes": 68398,
+      "width": 500,
+      "height": 688,
+      "ms": 817
+    },
+    {
+      "id": "swsh6-85",
+      "set": "swsh6",
+      "tier": "high",
+      "bytes": 86834,
+      "width": 600,
+      "height": 825,
+      "ms": 700
+    },
+    {
+      "id": "swsh5-1",
+      "set": "swsh5",
+      "tier": "thumb",
+      "bytes": 8290,
+      "width": 200,
+      "height": 275,
+      "ms": 1143
+    },
+    {
+      "id": "swsh5-1",
+      "set": "swsh5",
+      "tier": "medium",
+      "bytes": 50768,
+      "width": 500,
+      "height": 688,
+      "ms": 379
+    },
+    {
+      "id": "swsh5-1",
+      "set": "swsh5",
+      "tier": "high",
+      "bytes": 65650,
+      "width": 600,
+      "height": 825,
+      "ms": 703
+    },
+    {
+      "id": "swsh5-81",
+      "set": "swsh5",
+      "tier": "thumb",
+      "bytes": 6988,
+      "width": 200,
+      "height": 275,
+      "ms": 1096
+    },
+    {
+      "id": "swsh5-81",
+      "set": "swsh5",
+      "tier": "medium",
+      "bytes": 43362,
+      "width": 500,
+      "height": 688,
+      "ms": 709
+    },
+    {
+      "id": "swsh5-81",
+      "set": "swsh5",
+      "tier": "high",
+      "bytes": 55482,
+      "width": 600,
+      "height": 825,
+      "ms": 693
+    },
+    {
+      "id": "swsh4-10",
+      "set": "swsh4",
+      "tier": "thumb",
+      "bytes": 7496,
+      "width": 200,
+      "height": 275,
+      "ms": 1264
+    },
+    {
+      "id": "swsh4-10",
+      "set": "swsh4",
+      "tier": "medium",
+      "bytes": 40318,
+      "width": 500,
+      "height": 688,
+      "ms": 5697
+    },
+    {
+      "id": "swsh4-10",
+      "set": "swsh4",
+      "tier": "high",
+      "bytes": 49802,
+      "width": 600,
+      "height": 825,
+      "ms": 712
+    },
+    {
+      "id": "swsh4-94",
+      "set": "swsh4",
+      "tier": "thumb",
+      "bytes": 7608,
+      "width": 200,
+      "height": 275,
+      "ms": 651
+    },
+    {
+      "id": "swsh4-94",
+      "set": "swsh4",
+      "tier": "medium",
+      "bytes": 51378,
+      "width": 500,
+      "height": 688,
+      "ms": 897
+    },
+    {
+      "id": "swsh4-94",
+      "set": "swsh4",
+      "tier": "high",
+      "bytes": 66580,
+      "width": 600,
+      "height": 825,
+      "ms": 665
+    },
+    {
+      "id": "swsh3-100",
+      "set": "swsh3",
+      "tier": "thumb",
+      "bytes": 9074,
+      "width": 200,
+      "height": 275,
+      "ms": 692
+    },
+    {
+      "id": "swsh3-100",
+      "set": "swsh3",
+      "tier": "medium",
+      "bytes": 57452,
+      "width": 500,
+      "height": 688,
+      "ms": 559
+    },
+    {
+      "id": "swsh3-100",
+      "set": "swsh3",
+      "tier": "high",
+      "bytes": 74170,
+      "width": 600,
+      "height": 825,
+      "ms": 707
+    },
+    {
+      "id": "swsh3-68",
+      "set": "swsh3",
+      "tier": "thumb",
+      "bytes": 9082,
+      "width": 200,
+      "height": 275,
+      "ms": 663
+    },
+    {
+      "id": "swsh3-68",
+      "set": "swsh3",
+      "tier": "medium",
+      "bytes": 48018,
+      "width": 500,
+      "height": 688,
+      "ms": 712
+    },
+    {
+      "id": "swsh3-68",
+      "set": "swsh3",
+      "tier": "high",
+      "bytes": 59898,
+      "width": 600,
+      "height": 825,
+      "ms": 675
+    },
+    {
+      "id": "swsh2-10",
+      "set": "swsh2",
+      "tier": "thumb",
+      "bytes": 7748,
+      "width": 200,
+      "height": 275,
+      "ms": 696
+    },
+    {
+      "id": "swsh2-10",
+      "set": "swsh2",
+      "tier": "medium",
+      "bytes": 39610,
+      "width": 500,
+      "height": 688,
+      "ms": 432
+    },
+    {
+      "id": "swsh2-10",
+      "set": "swsh2",
+      "tier": "high",
+      "bytes": 49454,
+      "width": 600,
+      "height": 825,
+      "ms": 846
+    },
+    {
+      "id": "swsh2-80",
+      "set": "swsh2",
+      "tier": "thumb",
+      "bytes": 9100,
+      "width": 200,
+      "height": 275,
+      "ms": 759
+    },
+    {
+      "id": "swsh2-80",
+      "set": "swsh2",
+      "tier": "medium",
+      "bytes": 56176,
+      "width": 500,
+      "height": 688,
+      "ms": 705
+    },
+    {
+      "id": "swsh2-80",
+      "set": "swsh2",
+      "tier": "high",
+      "bytes": 71242,
+      "width": 600,
+      "height": 825,
+      "ms": 531
+    },
+    {
+      "id": "swsh1-100",
+      "set": "swsh1",
+      "tier": "thumb",
+      "bytes": 9614,
+      "width": 200,
+      "height": 275,
+      "ms": 767
+    },
+    {
+      "id": "swsh1-100",
+      "set": "swsh1",
+      "tier": "medium",
+      "bytes": 59264,
+      "width": 500,
+      "height": 688,
+      "ms": 698
+    },
+    {
+      "id": "swsh1-100",
+      "set": "swsh1",
+      "tier": "high",
+      "bytes": 75838,
+      "width": 600,
+      "height": 825,
+      "ms": 852
+    },
+    {
+      "id": "swsh1-69",
+      "set": "swsh1",
+      "tier": "thumb",
+      "bytes": 9194,
+      "width": 200,
+      "height": 275,
+      "ms": 674
+    },
+    {
+      "id": "swsh1-69",
+      "set": "swsh1",
+      "tier": "medium",
+      "bytes": 47722,
+      "width": 500,
+      "height": 688,
+      "ms": 409
+    },
+    {
+      "id": "swsh1-69",
+      "set": "swsh1",
+      "tier": "high",
+      "bytes": 59436,
+      "width": 600,
+      "height": 825,
+      "ms": 804
+    },
+    {
+      "id": "sm12-101",
+      "set": "sm12",
+      "tier": "thumb",
+      "bytes": 8030,
+      "width": 200,
+      "height": 275,
+      "ms": 699
+    },
+    {
+      "id": "sm12-101",
+      "set": "sm12",
+      "tier": "medium",
+      "bytes": 52330,
+      "width": 500,
+      "height": 688,
+      "ms": 721
+    },
+    {
+      "id": "sm12-101",
+      "set": "sm12",
+      "tier": "high",
+      "bytes": 69330,
+      "width": 600,
+      "height": 825,
+      "ms": 394
+    },
+    {
+      "id": "sm12-41",
+      "set": "sm12",
+      "tier": "thumb",
+      "bytes": 11054,
+      "width": 200,
+      "height": 275,
+      "ms": 700
+    },
+    {
+      "id": "sm12-41",
+      "set": "sm12",
+      "tier": "medium",
+      "bytes": 78396,
+      "width": 500,
+      "height": 688,
+      "ms": 810
+    },
+    {
+      "id": "sm12-41",
+      "set": "sm12",
+      "tier": "high",
+      "bytes": 107484,
+      "width": 600,
+      "height": 825,
+      "ms": 794
+    },
+    {
+      "id": "sm115-1",
+      "set": "sm11.5",
+      "tier": "thumb",
+      "bytes": 9640,
+      "width": 200,
+      "height": 275,
+      "ms": 1172
+    },
+    {
+      "id": "sm115-1",
+      "set": "sm11.5",
+      "tier": "medium",
+      "bytes": 61122,
+      "width": 500,
+      "height": 688,
+      "ms": 755
+    },
+    {
+      "id": "sm115-1",
+      "set": "sm11.5",
+      "tier": "high",
+      "bytes": 80848,
+      "width": 600,
+      "height": 825,
+      "ms": 847
+    },
+    {
+      "id": "sma-SV56",
+      "set": "sm11.5",
+      "tier": "thumb",
+      "bytes": 15744,
+      "width": 200,
+      "height": 275,
+      "ms": 753
+    },
+    {
+      "id": "sma-SV56",
+      "set": "sm11.5",
+      "tier": "medium",
+      "bytes": 80878,
+      "width": 500,
+      "height": 688,
+      "ms": 664
+    },
+    {
+      "id": "sma-SV56",
+      "set": "sm11.5",
+      "tier": "high",
+      "bytes": 98696,
+      "width": 600,
+      "height": 825,
+      "ms": 682
+    },
+    {
+      "id": "sm9-100",
+      "set": "sm9",
+      "tier": "thumb",
+      "bytes": 10732,
+      "width": 200,
+      "height": 275,
+      "ms": 852
+    },
+    {
+      "id": "sm9-100",
+      "set": "sm9",
+      "tier": "medium",
+      "bytes": 79982,
+      "width": 500,
+      "height": 688,
+      "ms": 673
+    },
+    {
+      "id": "sm9-100",
+      "set": "sm9",
+      "tier": "high",
+      "bytes": 93360,
+      "width": 600,
+      "height": 825,
+      "ms": 708
+    },
+    {
+      "id": "sm9-95",
+      "set": "sm9",
+      "tier": "thumb",
+      "bytes": 13330,
+      "width": 200,
+      "height": 275,
+      "ms": 781
+    },
+    {
+      "id": "sm9-95",
+      "set": "sm9",
+      "tier": "medium",
+      "bytes": 94654,
+      "width": 500,
+      "height": 688,
+      "ms": 708
+    },
+    {
+      "id": "sm9-95",
+      "set": "sm9",
+      "tier": "high",
+      "bytes": 111770,
+      "width": 600,
+      "height": 825,
+      "ms": 774
+    },
+    {
+      "id": "xy6-10",
+      "set": "xy6",
+      "tier": "thumb",
+      "bytes": 10712,
+      "width": 200,
+      "height": 275,
+      "ms": 1030
+    },
+    {
+      "id": "xy6-10",
+      "set": "xy6",
+      "tier": "medium",
+      "bytes": 57340,
+      "width": 500,
+      "height": 688,
+      "ms": 713
+    },
+    {
+      "id": "xy6-10",
+      "set": "xy6",
+      "tier": "high",
+      "bytes": 69288,
+      "width": 600,
+      "height": 825,
+      "ms": 715
+    },
+    {
+      "id": "xy6-87",
+      "set": "xy6",
+      "tier": "thumb",
+      "bytes": 10916,
+      "width": 200,
+      "height": 275,
+      "ms": 691
+    },
+    {
+      "id": "xy6-87",
+      "set": "xy6",
+      "tier": "medium",
+      "bytes": 59782,
+      "width": 500,
+      "height": 688,
+      "ms": 708
+    },
+    {
+      "id": "xy6-87",
+      "set": "xy6",
+      "tier": "high",
+      "bytes": 72238,
+      "width": 600,
+      "height": 825,
+      "ms": 812
+    }
+  ]
+}

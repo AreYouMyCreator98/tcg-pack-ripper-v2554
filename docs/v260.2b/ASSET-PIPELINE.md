@@ -25,8 +25,11 @@ pnpm run cards:audit
 
 Preparation, source downloads and checkpoints live in ignored
 `.temp/card-mirror/`. Preserve that directory when moving machines to retain
-local-only progress. Valid tier hashes are reused; existing source downloads are
-reused when a tier needs repairing. One sync process may run at a time.
+local-only progress. Preparation uses at most six workers; verified uploads permit at most thirty-two.
+Valid tier hashes are reused; existing source downloads are
+reused when a tier needs repairing. One sync process may run at a time. `--resume-verified` skips remote revalidation
+of complete, previously checksum-verified manifest entries; use it to continue
+an interrupted bulk upload. Omit it when auditing/revalidating existing objects.
 `--card <id>` can be repeated; `--set specials` selects custom art. No command
 imports a set outside the current registry. Dry-run/audit do not mutate files or
 contact Storage; uploaded figures reflect the verified manifest, not a live
@@ -51,7 +54,9 @@ pnpm run release:check
 
 `--create-bucket` creates a dedicated public WebP bucket only when missing. An
 existing private bucket is rejected, not made public. The default prepared-tier
-budget is 2 GiB; `--max-total-mb` changes it after a storage review. Normal CI/build
+budget is 2 GiB; `--max-total-mb` changes it after a storage review. Do not run a full release check while a sync is publishing the manifest;
+finish the sync first so read-only snapshot assertions see a stable file.
+Normal CI/build
 never runs the catalogue sync. CI only converts a local sample during importer
 tests. Do not commit `.temp`, source images, credentials or the generated image
 library.
@@ -72,7 +77,15 @@ read back and their SHA-256 hashes verified before a card entry is published to
 `public/card-assets.json`. Partial uploads do not publish partial cards. Subsequent
 syncs HEAD-check complete mirrored cards and can skip without downloading their
 source again. Interrupted uploads recover by checking existing hashed objects.
-Failures record set, immutable card ID, source URL and reason in the checkpoint.
+Failed publication never adds an incomplete card. Uploads use the build-side
+Supabase API key in the `apikey` header. If the gateway requests authorization
+context, a bounded retry adds the same key in `Authorization`; an invalid-JWT
+response removes that header on the next retry. The key never enters runtime code.
+A resumed duplicate is accepted only after public content passes its checksum.
+Verification bypasses cached missing-object responses and tolerates a short
+read-after-write delay. The observed intermittent gateway `Invalid Compact JWS`
+response has bounded retries using the same API key; other authorization failures
+are reported, not retried as though they succeeded. Failures record set, immutable card ID, source URL and reason in the checkpoint.
 A missing TCGdex high WebP may use the same card’s PNG export; card identity and
 catalogue source data are not changed.
 
@@ -112,6 +125,6 @@ build ID were advanced to avoid mixed runtime assets.
 - Existing mobile stress tests cover ten consecutive 10-pack openings, charging,
   ownership, reload, listeners, heap and Specials fallback.
 
-Mocked Storage tests are not a live upload certification. A populated verified
-manifest and live CDN measurements require the upload credential. Native Safari,
+Mocked Storage tests are not a live upload certification. The complete manifest now contains 6,908 verified cards. Live phone performance
+measurements remain a release acceptance check. Native Safari,
 Samsung Internet and real-device performance still require physical testing.

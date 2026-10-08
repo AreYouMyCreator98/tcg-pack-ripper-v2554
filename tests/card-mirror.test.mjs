@@ -52,3 +52,13 @@ test('shared frames and frameless tiles each expose exactly one card identity',a
   assert.equal(document.querySelector('img').dataset.cardQuality,'thumb');
  }
 });
+
+test('legacy source URLs retain subset identities from the mirror manifest',()=>{
+ const subset=JSON.parse(readFileSync('public/catalog/swsh12.5.json','utf8')).find(c=>c.id.startsWith('swsh12.5gg-'));
+ assert.ok(subset);
+ setCardAssetManifest({version:1,cards:{[subset.id]:{set:subset.setId,fallback:subset.img,...urls}}});
+ for(const source of [subset.img,subset.thumb+'?_art_retry=1']){
+  const resolved=cardFromImageSource(source);assert.equal(resolved.id,subset.id);assert.equal(resolveCardImage(resolved),urls.thumb);
+ }
+ setCardAssetManifest({version:1,cards:{}});
+});

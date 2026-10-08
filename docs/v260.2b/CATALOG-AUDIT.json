@@ -6,9 +6,9 @@
   "external": 6889,
   "missingSource": 0,
   "separatePrintingRecords": 0,
-  "mirrored": 0,
-  "missingMirror": 6908,
-  "fallbackOnly": 6908,
+  "mirrored": 6908,
+  "missingMirror": 0,
+  "fallbackOnly": 0,
   "localValid": 6908,
   "invalidLocal": 0,
   "failed": {},
@@ -18,9 +18,9 @@
     "high": 528422086
   },
   "uploadedBytes": {
-    "thumb": 0,
-    "medium": 0,
-    "high": 0
+    "thumb": 73875166,
+    "medium": 422354460,
+    "high": 528422086
   },
   "averageLocalBytes": {
     "thumb": 10694,
@@ -71,6 +71,6 @@
   ],
   "wouldDownload": 0,
   "wouldConvert": 0,
-  "wouldUpload": 20724,
-  "wouldSkip": 0
+  "wouldUpload": 0,
+  "wouldSkip": 6908
 }

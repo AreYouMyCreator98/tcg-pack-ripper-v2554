@@ -2,6 +2,7 @@
 export const CARD_PLACEHOLDER='assets/ui/card-unavailable.svg';
 export const normalizeQuality=q=>q==='high'?'high':q==='medium'?'medium':'thumb';
 let manifest={version:1,cards:{}};
+let sourceCards=new Map();
 const safe=url=>typeof url==='string'&&/^(https:\/\/|blob:|data:image\/|\.?\/?assets\/)/i.test(url)&&!/[<>"']/.test(url)?url:'';
 export function setCardAssetManifest(value){
  if(value?.version!==1||!value.cards||Array.isArray(value.cards))throw Error('Invalid card artwork manifest');
@@ -9,6 +10,11 @@ export function setCardAssetManifest(value){
   if(!id||!c.set||!['thumb','medium','high'].every(q=>/^https:\/\//.test(safe(c[q]))))throw Error('Invalid mirrored card '+id);
  }
  manifest=value;
+ sourceCards=new Map();
+ for(const [id,c] of Object.entries(value.cards))if(safe(c.fallback)){
+  const art={id,setId:c.set,img:c.fallback,thumb:c.fallback.replace('/high.','/low.')};
+  sourceCards.set(art.img,art);sourceCards.set(art.thumb,art);
+ }
 }
 export async function loadCardAssetManifest(){
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),2500);
@@ -16,6 +22,7 @@ export async function loadCardAssetManifest(){
 }
 export function cardFromImageSource(source){
  if(!source)return null;
+ const known=sourceCards.get(source.split(/[?#]/)[0]);if(known)return {...known};
  const custom=source.match(/(?:^|\/)assets\/specials\/(sp_[\w-]+)\.webp(?:\?|$)/);
  if(custom)return {id:custom[1],setId:'specials',art:'assets/specials/'+custom[1]+'.webp'};
  try{const u=new URL(source);

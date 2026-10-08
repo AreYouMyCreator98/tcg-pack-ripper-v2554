@@ -1,5 +1,5 @@
 """Explicit maintenance only. Downloads/checkpoints stay in ignored .temp/."""
-import shutil,fcntl,argparse,concurrent.futures,hashlib,json,os,pathlib,subprocess,tempfile,threading,time,urllib.request,urllib.error
+import io,shutil,fcntl,argparse,concurrent.futures,hashlib,json,os,pathlib,subprocess,tempfile,threading,time,urllib.request,urllib.error
 from catalog import ROOT,catalog
 os.environ.setdefault('MAGICK_THREAD_LIMIT','1')
 MAGICK=shutil.which('magick') or shutil.which('convert') or 'magick'
@@ -10,14 +10,28 @@ def atomic(path,data):
  path.parent.mkdir(parents=True,exist_ok=True)
  tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(data,separators=(',',':'))+'\n');tmp.replace(path)
 def request(url,method='GET',data=None,headers=None):
- for attempt in range(3):
+ for attempt in range(5):
   try:
    with urllib.request.urlopen(urllib.request.Request(url,data=data,method=method,headers=headers or {}),timeout=30) as r:return r.status,dict(r.headers),r.read()
   except urllib.error.HTTPError as e:
-   if e.code not in (429,500,502,503,504) or attempt==2:raise
+   body=e.read();e=urllib.error.HTTPError(e.url,e.code,e.msg,e.headers,io.BytesIO(body))
+   transient_key=e.code==400 and headers and 'apikey' in headers and (b'Invalid Compact JWS' in body or (b'headers must have required property' in body and b'authorization' in body))
+   if (e.code not in (429,500,502,503,504) and not transient_key) or attempt==4:raise e from None
+   if transient_key:
+    headers=dict(headers)
+    if b'Invalid Compact JWS' in body:headers.pop('Authorization',None)
+    else:headers['Authorization']='Bearer '+headers['apikey']
+    time.sleep(.2*(attempt+1));continue
   except (TimeoutError,OSError):
-   if attempt==2:raise
+   if attempt==4:raise
   time.sleep(1+attempt)
+def public_bytes(url,sha):
+ # Bypass a cached missing-object response from the pre-upload HEAD request.
+ for attempt in range(5):
+  try:return request(url+'?verify='+sha,headers={'Cache-Control':'no-cache'})[2]
+  except urllib.error.HTTPError as error:
+   if error.code not in (400,404) or attempt==4:raise
+   time.sleep(.5*(attempt+1))
 def dimensions(path):
  out=subprocess.check_output([MAGICK,'-regard-warnings',str(path),'-format','%m %w %h','info:'],stderr=subprocess.DEVNULL,text=True).split()
  if len(out)!=3:raise ValueError('Animated/multiple or invalid image')
@@ -29,7 +43,7 @@ def valid_local(rec,folder,source):
  except (KeyError,OSError):return False
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('action',choices=['sync','audit']);p.add_argument('--set',dest='set_id');p.add_argument('--card',action='append');p.add_argument('--retry-failed',action='store_true');p.add_argument('--dry-run',action='store_true');p.add_argument('--local-only',action='store_true');p.add_argument('--create-bucket',action='store_true');p.add_argument('--limit',type=int);p.add_argument('--concurrency',type=int,default=3);p.add_argument('--max-total-mb',type=int,default=2048);args=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('action',choices=['sync','audit']);p.add_argument('--set',dest='set_id');p.add_argument('--card',action='append');p.add_argument('--retry-failed',action='store_true');p.add_argument('--resume-verified',action='store_true',help='Trust complete previously verified manifest entries; omit for remote revalidation');p.add_argument('--dry-run',action='store_true');p.add_argument('--local-only',action='store_true');p.add_argument('--create-bucket',action='store_true');p.add_argument('--limit',type=int);p.add_argument('--concurrency',type=int,default=3);p.add_argument('--max-total-mb',type=int,default=2048);args=p.parse_args()
  sets,cards=catalog();allcards=cards
  if args.set_id:
   if args.set_id not in sets+['specials']:p.error('Set is not currently playable')
@@ -49,12 +63,12 @@ def main():
  if args.action=='audit' or args.dry_run:
   local=[c for c in cards if valid(c)];uploaded=[c for c in cards if mirrored(c)];sizes={q:sum(state['cards'][c['id']]['tiers'][q]['bytes'] for c in local) for q in TIERS}
   storage={q:sum(manifest['cards'][c['id']].get('bytes',{}).get(q,0) for c in uploaded) for q in TIERS}
-  print(json.dumps({'playableSets':len(sets),'uniqueCards':len(allcards),'selected':len(cards),'custom':sum(c['custom'] for c in cards),'external':sum(not c['custom'] for c in cards),'missingSource':sum(not c['source'] for c in cards),'separatePrintingRecords':0,'mirrored':len(uploaded),'missingMirror':len(cards)-len(uploaded),'fallbackOnly':len(cards)-len(uploaded),'localValid':len(local),'invalidLocal':sum(c['id'] in state['cards'] and not valid(c) for c in cards),'failed':{c['id']:state['failures'][c['id']] for c in cards if c['id'] in state['failures']},'localBytes':sizes,'uploadedBytes':storage,'averageLocalBytes':{q:round(n/max(1,len(local))) for q,n in sizes.items()},'largestLocal':sorted([{'id':c['id'],'bytes':sum(t['bytes'] for t in state['cards'][c['id']]['tiers'].values())} for c in local],key=lambda x:x['bytes'],reverse=True)[:10],'wouldDownload':sum(not c['custom'] and not valid(c) and not (cache/c['set']/c['id']/'source.image').exists() for c in cards),'wouldConvert':len(cards)-len(local),'wouldUpload':sum(not mirrored(c) for c in cards)*3,'wouldSkip':len(uploaded)},indent=2));return
+  print(json.dumps({'playableSets':len(sets),'uniqueCards':len(allcards),'selected':len(cards),'custom':sum(c['custom'] for c in cards),'external':sum(not c['custom'] for c in cards),'missingSource':sum(not c['source'] for c in cards),'separatePrintingRecords':0,'mirrored':len(uploaded),'missingMirror':len(cards)-len(uploaded),'fallbackOnly':len(cards)-len(uploaded),'localValid':len(local),'invalidLocal':sum(c['id'] in state['cards'] and not valid(c) for c in cards),'failed':{c['id']:state['failures'][c['id']] for c in cards if c['id'] in state['failures']},'localBytes':sizes,'uploadedBytes':storage,'averageLocalBytes':{q:round(n/max(1,len(local))) for q,n in sizes.items()},'largestLocal':sorted([{'id':c['id'],'bytes':sum(t['bytes'] for t in state['cards'][c['id']]['tiers'].values())} for c in local],key=lambda x:x['bytes'],reverse=True)[:10],'wouldDownload':sum(not c['custom'] and not valid(c) and (args.local_only or not mirrored(c)) and not (cache/c['set']/c['id']/'source.image').exists() for c in cards),'wouldConvert':sum(not valid(c) and (args.local_only or not mirrored(c)) for c in cards),'wouldUpload':0 if args.local_only else sum(not mirrored(c) for c in cards)*3,'wouldSkip':len(local) if args.local_only else len(uploaded)},indent=2));return
  base=os.environ.get('CARD_ASSET_SUPABASE_URL','').rstrip('/');bucket=os.environ.get('CARD_ASSET_BUCKET','card-assets');key=os.environ.get('SUPABASE_SERVICE_ROLE_KEY','')
  if not args.local_only and (not base.startswith('https://') or not key):p.error('Upload requires CARD_ASSET_SUPABASE_URL and build-side SUPABASE_SERVICE_ROLE_KEY. Use --local-only for preparation.')
  if not re_safe(bucket):p.error('Invalid bucket name')
  if not args.local_only:
-  auth={'Authorization':'Bearer '+key,'apikey':key}
+  auth={'apikey':key} # Start with API-key auth; request() handles gateway-required context.
   try:
    _,_,raw=request(base+'/storage/v1/bucket/'+bucket,headers=auth)
    if not json.loads(raw).get('public'):p.error('Existing bucket is private; use a dedicated public card-assets bucket. No policies were changed.')
@@ -71,6 +85,10 @@ def main():
   folder=cache/c['set']/c['id'];rec=state['cards'].get(c['id'],{})
   try:
    if mirrored(c) and not args.local_only:
+    if args.resume_verified:
+     with LOCK:
+      if c['id'] in state['failures']:state['failures'].pop(c['id'],None);atomic(statefile,state)
+     print('SKIP VERIFIED',c['id'],flush=True);return
     entry=manifest['cards'][c['id']]
     intact=True
     for q in TIERS:
@@ -123,17 +141,21 @@ def main():
     if total>args.max_total_mb*1024*1024:raise ValueError('Storage budget exceeded; stop and review before any further upload')
    if not args.local_only:
     entry={'set':c['set'],'source':'supabase','custom':c['custom'],'fallback':c['source'],'bytes':{q:t['bytes'] for q,t in rec['tiers'].items()}}
-    auth={'Authorization':'Bearer '+key,'apikey':key}
+    auth={'apikey':key} # Start with API-key auth; request() handles gateway-required context.
     for q,t in rec['tiers'].items():
      path='/'.join(['cards',c['set'],c['id'],t['sha256'][:20],q+'.webp']);obj=base+'/storage/v1/object/'+bucket+'/'+path;public=base+'/storage/v1/object/public/'+bucket+'/'+path
-     try:
-      _,headers,_=request(public,method='HEAD');exists=int(next((v for k,v in headers.items() if k.lower()=='content-length'),'0'))==t['bytes']
-     except urllib.error.HTTPError as e:
-      if e.code not in (400,404):raise
-      exists=False
-     if not exists:request(obj,method='POST',data=(folder/(q+'.webp')).read_bytes(),headers={**auth,'Content-Type':'image/webp','Cache-Control':'public, max-age=31536000, immutable','x-upsert':'false'})
+     # Create atomically without overwrite; avoid a negative CDN HEAD cache.
+     try:request(obj,method='POST',data=(folder/(q+'.webp')).read_bytes(),headers={**auth,'Content-Type':'image/webp','Cache-Control':'public, max-age=31536000, immutable','x-upsert':'false'})
+     except urllib.error.HTTPError as error:
+      if error.code not in (400,409):raise
+      if error.code==400:
+       try:detail=json.loads(error.read())
+       except Exception:detail={}
+       if detail.get('code')!='KeyAlreadyExists' and detail.get('error')!='Duplicate':raise RuntimeError('Upload rejected: '+str(detail.get('code') or error.code)+' '+str(detail.get('message') or 'Bad request'))
+      # A resumed object may already exist. Only checksum-verified public bytes
+      # below can establish success; other 400s cannot publish missing art.
      # Do not publish private/unreadable objects to browsers.
-     _,_,remote=request(public)
+     remote=public_bytes(public,t['sha256'])
      if hashlib.sha256(remote).hexdigest()!=t['sha256']:raise ValueError('Uploaded object checksum mismatch')
      entry[q]=public
     with LOCK:
@@ -142,10 +164,16 @@ def main():
     state['failures'].pop(c['id'],None);atomic(statefile,state)
    print('READY' if args.local_only else 'MIRRORED',c['id'],flush=True)
   except Exception as e:
+   if isinstance(e,urllib.error.HTTPError):
+    try:
+     detail=json.loads(e.read());e=RuntimeError(str(e)+' '+str(detail.get('code') or detail.get('error') or '')+' '+str(detail.get('message') or ''))
+    except Exception:pass
    with LOCK:
     state['failures'][c['id']]={'set':c['set'],'source':c['source'],'reason':str(e)[:300]};atomic(statefile,state)
    print('FAILED',c['id'],type(e).__name__,flush=True)
- with concurrent.futures.ThreadPoolExecutor(max_workers=max(1,min(6,args.concurrency))) as pool:list(pool.map(job,cards))
+ try:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=max(1,min(6 if args.local_only else 32,args.concurrency))) as pool:list(pool.map(job,cards))
+ finally:lockfile.close()
  if any(c['id'] in state['failures'] for c in cards):raise SystemExit(1)
 def re_safe(s):return bool(s) and all(c.isalnum() or c in '-_' for c in s)
 if __name__=='__main__':main()
