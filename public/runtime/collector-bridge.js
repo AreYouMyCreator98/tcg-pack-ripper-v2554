@@ -4,7 +4,7 @@
   state:()=>state,
   now:()=>window.tcgCollectorClock?.now()??Date.now(),
   account:()=>window.tcgCloudV192?.user?.id||'local',
-  blocked:()=>!!(busy||window.tcgPackTransaction||window.tcgCloudV192?.hubHeld||window.tcgCloudV192?.recoveryPending),
+  blocked:()=>!!(busy||window.tcgPackTransaction||window.tcgCloudV192?.hubHeld||window.tcgCloudV192?.recoveryPending||(window.tcgCloudV192?.user&&window.tcgCloudV192?.accountPrimary===false)),
   save:()=>save(),
   commit(next){const known=new Set((state.collectorV260?.journal||[]).map(e=>e.id));const events=(next.collectorV260?.journal||[]).filter(e=>!known.has(e.id));state=next;save();window.dispatchEvent(new CustomEvent('tcg:collector-updated',{detail:{events}}));},
   syncCosmetics(){
@@ -27,6 +27,15 @@
   canBinder:c=>!isRegularExV260(c),
   route:c=>isBulkCardV64(c)?'bulk':'binder',
   price:c=>sellPrice(c),slabValue:c=>gradedValueV56(c),
+  async refreshMarket(card){
+   const original=state,account=this.account();if(this.blocked())return null;
+   const copy={...card};if(detailCache[card.id]&&!marketQuoteFromDetail(detailCache[card.id],card.finish))delete detailCache[card.id];await hydrateCard(copy);
+   const quote=marketQuoteFromDetail(detailCache[card.id],card.finish);
+   if(detailCache[card.id]?.id!==card.id||!quote||state!==original||this.account()!==account||this.blocked())return null;
+   let changed=false;for(const collection of [state.binder,state.bulkV64]){const c=collection?.[card.id];if(c&&(!c.finish||!card.finish||c.finish===card.finish)){c.market=quote.amount;c.marketQuoteV262=quote;changed=true;}}
+   for(const c of [...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])])if(c.id===card.id&&(!c.finish||!card.finish||c.finish===card.finish)){c.raw=quote.amount;c.marketQuoteV262=quote;changed=true;}
+   if(changed)this.save();return quote;
+  },
   condition:c=>conditionForGradingV161(c,'V260-'+c.id),
   refresh(){stats();updateProgressUI();if(document.getElementById('binder')?.classList.contains('active'))renderBinder();if(document.getElementById('bulk')?.classList.contains('active'))renderBulkV64();renderGradingV44();renderSlabVaultV52();},
   grade:id=>{selectedBinderCard=id;submitBinderCardV44();},

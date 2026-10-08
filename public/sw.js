@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.262.6-account1';
+const VERSION = 'tcg-pack-ripper-0.262.7-prices1';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));

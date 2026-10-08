@@ -187,13 +187,19 @@ async function getSet(target=sel){
   return cache[target.id].base;
 }
 const detailCache={};
-function marketFromDetail(x,finish=''){let p=x?.pricing?.tcgplayer||{},f=(finish||'').toLowerCase(),v;if(f.includes('reverse'))v=p['reverse-holofoil'];else if(f.includes('holo')||f.includes('foil'))v=p.holofoil||p.normal;else v=p.normal||p.holofoil;let n=v?.marketPrice??v?.midPrice??v?.lowPrice; if(!(n>0)){let cm=x?.pricing?.cardmarket;n=(f.includes('holo')?(cm?.['trend-holo']??cm?.['avg-holo']??cm?.['low-holo']):(cm?.trend??cm?.avg??cm?.low));}return Math.max(.10,Math.round((Number(n)||.10)*100)/100)}
+function marketQuoteFromDetail(x,finish=''){
+ const p=x?.pricing?.tcgplayer;if(!p||(p.unit&&p.unit!=='USD'))return null;
+ const f=String(finish).toLowerCase(),v=f.includes('reverse')?p['reverse-holofoil']:(f.includes('foil')||f.includes('holo'))?(p.holofoil||p.normal):(p.normal||p.holofoil);
+ const amount=[v?.marketPrice,v?.midPrice,v?.lowPrice].map(Number).find(n=>Number.isFinite(n)&&n>0);
+ return amount?{amount:Math.round(amount*100)/100,currency:'USD',source:'TCGplayer via TCGdex',updated:p.updated||null}:null;
+}
+function marketFromDetail(x,finish=''){return marketQuoteFromDetail(x,finish)?.amount??.10}
 async function hydrateCard(c){
  if(!c)return c;
  const sid=c.setId||masterResolveSetV66Early(c);
  if(sid){c.setId=sid;c.set=c.set||SETS.find(x=>x.id===sid)?.name||''}
  if(detailCache[c.id]){
-   let x=detailCache[c.id];Object.assign(c,{name:x.name||c.name,number:x.localId||c.number,rarity:x.rarity||c.rarity||'Card',variants:x.variants||c.variants,market:marketFromDetail(x,c.finish)});
+   let x=detailCache[c.id];Object.assign(c,{name:x.name||c.name,number:x.localId||c.number,rarity:x.rarity||c.rarity||'Card',variants:x.variants||c.variants,market:marketQuoteFromDetail(x,c.finish)?.amount||Number(c.market||c.raw)||.10});
    if(x.image){c.img=asset(x.image,'high');c.thumb=asset(x.image,'low')}return c
  }
  for(let attempt=0;attempt<2;attempt++){
@@ -201,7 +207,7 @@ async function hydrateCard(c){
      let rr=await fetchWithTimeout(`https://api.tcgdex.net/v2/en/cards/${encodeURIComponent(c.id)}`,attempt?7000:4500);
      if(rr.ok){
        let x=await rr.json();detailCache[c.id]=x;
-       c.name=x.name||c.name;c.number=x.localId||c.number;c.rarity=x.rarity||c.rarity||'Card';c.variants=x.variants;c.market=marketFromDetail(x,c.finish);
+       c.name=x.name||c.name;c.number=x.localId||c.number;c.rarity=x.rarity||c.rarity||'Card';c.variants=x.variants;c.market=marketQuoteFromDetail(x,c.finish)?.amount||Number(c.market||c.raw)||.10;
        c.setId=x.set?.id||c.setId||sid;c.set=x.set?.name||c.set||SETS.find(z=>z.id===c.setId)?.name||'';
        if(x.image){c.img=asset(x.image,'high');c.thumb=asset(x.image,'low')}
        c.emergency=false;return c
@@ -209,7 +215,7 @@ async function hydrateCard(c){
    }catch(e){}
    if(attempt===0)await new Promise(r=>setTimeout(r,120))
  }
- if(!(c.market>0))c.market=.10;
+ if(!(c.market>0))c.market=Number(c.raw)>0?Number(c.raw):.10;
  return c
 }
 function masterResolveSetV66Early(c){let id=c?.id||'';if(c?.setId)return c.setId;if(c?.set){let st=SETS.find(x=>x.name===c.set);if(st)return st.id}let st=SETS.find(x=>id===x.id||id.startsWith(x.id+'-'));return st?.id||''}
@@ -614,7 +620,7 @@ function closeBinderShop(){$('#binderShopModal').classList.remove('show')}
 
 function sellPrice(c){return Math.max(.10,Math.round((Number(c.market)||.10)*100)/100)}
 function binderCards(){let q=($('#search').value||'').toLowerCase(),f=$('#setFilter').value;return Object.values(state.binder).filter(c=>c&&c.qty>0&&(f==='all'||c.set===f)&&String(c.name||'').toLowerCase().includes(q)).sort((a,b)=>tier(b)-tier(a)||String(a.name).localeCompare(String(b.name)))}
-async function repairBinderImage(img,id){let c=state.binder[id];if(!c||img.dataset.repairing)return;img.dataset.repairing='1';try{let r=await fetch(`https://api.tcgdex.net/v2/en/cards/${id}`);if(r.status===404)throw new Error('Artwork identity unavailable; ownership preserved');if(!r.ok)throw 0;let j=await r.json();detailCache[id]=j;c.rarity=j.rarity||c.rarity;c.market=marketFromDetail(j,c.finish);if(j.image){c.img=asset(j.image,'high');c.thumb=asset(j.image,'low');save();img.onerror=null;img.src=c.img||c.thumb;img.dataset.repairing='';return}}catch(e){}let slot=img.closest('.slot');if(slot){slot.innerHTML=`<div style="display:grid;place-items:center;height:100%;padding:5px;text-align:center;font-size:9px;color:#9aa6ba">${c.name||'Card'}<br><small>art unavailable</small></div>`}}
+async function repairBinderImage(img,id){let c=state.binder[id];if(!c||img.dataset.repairing)return;img.dataset.repairing='1';try{let r=await fetch(`https://api.tcgdex.net/v2/en/cards/${id}`);if(r.status===404)throw new Error('Artwork identity unavailable; ownership preserved');if(!r.ok)throw 0;let j=await r.json();detailCache[id]=j;c.rarity=j.rarity||c.rarity;c.market=marketQuoteFromDetail(j,c.finish)?.amount||Number(c.market||c.raw)||.10;if(j.image){c.img=asset(j.image,'high');c.thumb=asset(j.image,'low');save();img.onerror=null;img.src=c.img||c.thumb;img.dataset.repairing='';return}}catch(e){}let slot=img.closest('.slot');if(slot){slot.innerHTML=`<div style="display:grid;place-items:center;height:100%;padding:5px;text-align:center;font-size:9px;color:#9aa6ba">${c.name||'Card'}<br><small>art unavailable</small></div>`}}
 function migrateBinderImages(){Object.keys(state.binder).forEach(k=>{let c=state.binder[k];if(!c||!(c.qty>0)){delete state.binder[k];return}/* Early builds saved invented placeholder records such as 'Surging Sparks Card #31'. They have no real TCGdex identity and can never load valid art. */if(/\bCard #?\d+$/i.test(String(c.name||''))||/^(common|uncommon|rare)-?\d+$/i.test(String(c.id||''))){delete state.binder[k];return}if(c.img)c.img=c.img.replace(/\.(high|low)\.webp$/,'/$1.webp');if(c.thumb)c.thumb=c.thumb.replace(/\.(high|low)\.webp$/,'/$1.webp');if(!(c.market>0))c.market=.10});save()}
 function renderBinder(anim=false){applyBinderTheme();let arr=binderCards(),pages=Math.max(1,Math.ceil(arr.length/CARDS_PER_PAGE));binderPageNo=Math.max(0,Math.min(binderPageNo,pages-1));$('#binderStat').textContent=`${arr.length} unique • ${arr.reduce((n,c)=>n+(c.qty||0),0)} total cards`;if(typeof renderBinderShelfV147==='function')renderBinderShelfV147();$('#pageLabel').textContent=`Page ${binderPageNo+1} / ${pages}`;$('#prevPage').disabled=binderPageNo===0;$('#nextPage').disabled=binderPageNo>=pages-1;let g=$('#binderGrid');g.innerHTML='';let page=arr.slice(binderPageNo*CARDS_PER_PAGE,(binderPageNo+1)*CARDS_PER_PAGE);page.forEach(c=>{if(!c.img||/\/low\.webp$/.test(c.img)){hydrateCard(c).then(()=>{let im=g.querySelector(`[data-card-id=\"${CSS.escape(c.id)}\"] img`);if(im&&c.img)im.src=c.img})}let d=document.createElement('div'),fx=effectClass(c);d.dataset.cardId=c.id;d.className='slot'+(fx?' cardFx '+fx:'');let src=(c.img||c.thumb||'').replace('/low.webp','/high.webp');if(src&&c.img!==src)c.img=src;d.innerHTML=src?`<img loading="eager" decoding="async" fetchpriority="high" src="${src}" onerror="repairBinderImage(this,'${c.id}')"><span class="rarity-stars" aria-hidden="true"></span><span class="qty">${Math.max(1,Number(c.qty||1))}x</span>`:`<div style="display:grid;place-items:center;height:100%;padding:5px;text-align:center;font-size:9px;color:#9aa6ba">${c.name||'Card'}<br><small>art unavailable</small></div>`;d.onclick=()=>openBinderCard(c.id);g.appendChild(d)});for(let i=page.length;i<CARDS_PER_PAGE;i++){let d=document.createElement('div');d.className='slot emptySlot';d.style.opacity='.12';g.appendChild(d)}if(anim){let pg=$('#binderPage'),ghost=pg.querySelector('.pageGhost');if(ghost)ghost.remove();g.classList.remove('page-arrive-next','page-arrive-prev');void g.offsetWidth;g.classList.add(anim==='prev'?'page-arrive-prev':'page-arrive-next');setTimeout(()=>g.classList.remove('page-arrive-next','page-arrive-prev'),620)}}
 async function openBinderCard(id){let c=state.binder[id];if(!c)return;selectedBinderCard=id;let inspect=$('#inspect3d'),fx=effectClass(c);inspect.className='inspect3d'+(fx?' cardFx '+fx:'');$('#inspectImg').src=c.img||c.thumb||'';$('#inspectName').textContent=c.name;$('#inspectInfo').textContent=`${c.set} • #${c.number} • ${c.rarity||'Card'}${c.finish?' • '+c.finish:''} • ${c.qty} ${c.qty===1?'copy':'copies'}`;$('#sellValue').textContent='Loading market value…';$('#cardModal').classList.add('show');if(typeof syncGradeLaunchV147==='function')syncGradeLaunchV147();if(fx){if(tier(c)>=2){hitSound(Math.min(5,tier(c)));if(navigator.vibrate)navigator.vibrate(tier(c)>=4?[18,25,35]:[12,18,22])}else holoSound()}await hydrateCard(c);if(selectedBinderCard===id&&state.binder[id]===c){state.binder[id].market=c.market;save();$('#inspectImg').src=c.img||c.thumb||'';$('#sellValue').textContent=`Market sell value: $${sellPrice(c).toFixed(2)} each`}}
