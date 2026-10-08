@@ -21,7 +21,7 @@ function bridgeFixture(){
  const state={profileV227:{name:'Alice',avatarData:''},xp:0,coins:100,badges:{first:true},rankedV221:{rp:150,wins:2}};
  const cloud={user:null},calls=[];let saves=0;
  window.tcgCloudV192=cloud;window.tcgRankedV221={currentRank:()=>({id:'bronze'})};window.tcgProfileV227={renderIdentity(){}};
- vm.runInNewContext(code,{window,document,state,BADGE_DEFS:[['first','First pack']],levelFromXP:()=>1,save(){saves++;},renderProfile(){},MutationObserver:domWindow.MutationObserver,CustomEvent:domWindow.CustomEvent});
+ vm.runInNewContext(code,{window,document,state,BADGE_DEFS:[['first','First pack']],levelFromXP:()=>1,save(){saves++;},renderProfile(){},hasCollectedHit:()=>false,collectedHitIndexV262:()=>({}),binderTotal:()=>0,maxCardValue:()=>0,setTotalsV57:()=>({}),MutationObserver:domWindow.MutationObserver,CustomEvent:domWindow.CustomEvent});
  return {api:window.tcgProfileStudioBridge,state,cloud,window,calls,saves:()=>saves};
 }
 test('profile cosmetics strip authority fields and restore only earned badges',()=>{

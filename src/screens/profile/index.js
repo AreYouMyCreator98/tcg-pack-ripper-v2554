@@ -166,7 +166,7 @@ export function installProfileStudio(win=window,doc=document){
  root.addEventListener('click',click);root.addEventListener('input',input);root.addEventListener('change',input);root.addEventListener('keydown',keyboard);
  win.addEventListener('tcg:profile-updated',schedule);
  const headingObserver=new win.MutationObserver(schedule);headingObserver.observe($('profileDisplayNameV227'),{childList:true});observers.push(headingObserver);
- const onNav=event=>{const nav=event.target.closest?.('.nav [data-s]');if(nav){doc.documentElement.classList.toggle('studio-profile-active',nav.dataset.s==='profile');if(nav.dataset.s==='profile'){bridge.refresh();schedule();}}};doc.addEventListener('click',onNav);
+ const onNav=event=>{const nav=event.target.closest?.('.nav [data-s]');if(nav){doc.documentElement.classList.toggle('studio-profile-active',nav.dataset.s==='profile');if(nav.dataset.s==='profile'){schedule();}}};doc.addEventListener('click',onNav);
  const settings=$('settings');
  if(settings){
    settings.classList.add('studio-settings');settings.setAttribute('role','dialog');settings.setAttribute('aria-modal','true');settings.setAttribute('aria-label','Game settings');

@@ -1,0 +1,62 @@
+{
+  "scope": "Full app, authenticated large isolated QA collection; Chromium 390x844, CPU throttle 4x. Certificate-verified HTTPS adapter, native WebSocket unavailable; timings are environment-specific, not physical Samsung guarantees. Navigation measurements include browser automation, network and layout variability.",
+  "collection": {
+    "binderUnique": 4809,
+    "bulkUnique": 315
+  },
+  "before": {
+    "profileRenderCalls": 4,
+    "profileRenderMs": [
+      5402.099999997765,
+      5222.900000002235,
+      5501.5,
+      5601.5
+    ],
+    "profileMedianMs": 5451.799999998882,
+    "navigationTapToTwoFramesMs": [
+      {
+        "target": "rip",
+        "ms": 822
+      },
+      {
+        "target": "earn",
+        "ms": 13641
+      },
+      {
+        "target": "profile",
+        "ms": 13118
+      },
+      {
+        "target": "rip",
+        "ms": 570
+      }
+    ],
+    "nodes": 12095
+  },
+  "after": {
+    "profileRenderCalls": 1,
+    "profileRenderMs": [
+      785.6999999992549
+    ],
+    "profileMedianMs": 785.6999999992549,
+    "navigationTapToTwoFramesMs": [
+      {
+        "target": "rip",
+        "ms": 616
+      },
+      {
+        "target": "earn",
+        "ms": 1524
+      },
+      {
+        "target": "profile",
+        "ms": 2165
+      },
+      {
+        "target": "rip",
+        "ms": 1313
+      }
+    ],
+    "nodes": 12094
+  }
+}

@@ -44,8 +44,26 @@
    refresh(){renderProfile();return api.snapshot();}
  };
  window.tcgProfileStudioBridge=api;
+ // Profile composes badges, achievements, unlock roads and Master Sets. These
+ // read the same collection many times synchronously. Reuse their reads only
+ // within one render; never retain ownership/value results across actions.
+ let collectionReads=null;
+ function withCollectionReads(render){
+   if(collectionReads)return render();
+   collectionReads=new Map();try{return render();}finally{collectionReads=null;}
+ }
+ function memoCollectionRead(key,read){
+   if(!collectionReads)return read();
+   if(!collectionReads.has(key))collectionReads.set(key,read());
+   return collectionReads.get(key);
+ }
+ const readHit=hasCollectedHit,readBinderTotal=binderTotal,readMaxValue=maxCardValue,readMasterTotals=setTotalsV57;
+ hasCollectedHit=function(h){return memoCollectionRead('hit:'+JSON.stringify([h.setId,h.card]),()=>readHit(h,collectionReads?memoCollectionRead('hit-index',collectedHitIndexV262):undefined));};
+ binderTotal=function(){return memoCollectionRead('binder-total',()=>readBinderTotal());};
+ maxCardValue=function(){return memoCollectionRead('max-value',()=>readMaxValue());};
+ setTotalsV57=function(){return memoCollectionRead('master-totals',()=>readMasterTotals());};
  const previous=renderProfile;
- renderProfile=function(){const result=previous.apply(this,arguments);announce();return result;};
+ renderProfile=function(){return withCollectionReads(()=>{const result=previous.apply(this,arguments);announce();return result;});};
  // The old photo/name editor remains a supported path into the same preview.
  const identity=window.tcgProfileV227?.renderIdentity;
  if(identity)window.tcgProfileV227.renderIdentity=function(){const result=identity.apply(this,arguments);announce();return result;};
