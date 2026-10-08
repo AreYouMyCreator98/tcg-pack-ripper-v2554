@@ -7,7 +7,7 @@ export class HubController {
     Object.assign(this,{client,bridge,storage,notify,clock,timeout,uuid});
     this.state={status:'signed-out',data:null,error:'',busy:false,background:false,action:null,online:0};
     this.epoch=0; this.revision=0; this.uid=null; this.pending=null; this.channel=null; this.timer=null; this.refreshTask=null; this.disposed=false;
-    this.revealTargets={};this.recoveryAttempts=0;this.recoveryTimer=null;this.revealTask=null;
+    this.autoRefreshAfter=0;this.snapshotFailures=0;this.revealTargets={};this.recoveryAttempts=0;this.recoveryTimer=null;this.revealTask=null;
   }
   emit(patch={}) {Object.assign(this.state,patch); this.notify(this.state);}
   pendingKey() {return `tcg-hub-v256-pending:${this.uid}`;}
@@ -43,7 +43,7 @@ export class HubController {
     this.emit({data:null,error:'',busy:false,background:false,action:null,status:uid?'connecting':'signed-out'});
     await this.disconnect();
     if(epoch!==this.epoch)return;
-    this.pending=null;this.refreshTask=null;this.revealTargets={};this.revealTask=null;this.recoveryAttempts=0;
+    this.autoRefreshAfter=0;this.snapshotFailures=0;this.pending=null;this.refreshTask=null;this.revealTargets={};this.revealTask=null;this.recoveryAttempts=0;
     await this.bridge.reset?.();
     if(!uid)return;
     try {this.pending=JSON.parse(this.storage?.getItem(this.pendingKey())||'null');} catch {this.pending=null;}
@@ -57,11 +57,12 @@ export class HubController {
     // Polling recovers dropped realtime events. It is bounded, account-scoped and cleaned up.
     this.pollTicks=0;
     this.timer=this.clock.setInterval(()=>{
-      if(this.bridge.active?.()===false)return;
+      if(this.bridge.active?.()===false||Date.now()<this.autoRefreshAfter)return;
       const live=this.liveBattle(),stream=this.state.data?.battle_stream;
       ++this.pollTicks;
       // Older servers retain the slower full-snapshot cadence.
-      if((!live||!stream)&&this.pollTicks%3)return;
+      if((!live||!stream)&&this.pollTicks%20)return;
+      if(live&&stream&&this.pollTicks%2)return;
       if(live?.ranked&&live.status==='waiting'&&stream&&this.pollTicks%4===0&&!this.state.busy&&!this.pending){
         this.command('queue_tick',{}, {quiet:true}).catch(()=>{});
       }else this.refresh();
@@ -76,6 +77,7 @@ export class HubController {
     const epoch=this.epoch,revision=this.revision;
     const task=this.rpc('snapshot').then(async data=>{
       if(epoch!==this.epoch||revision!==this.revision||this.disposed)return;
+      this.autoRefreshAfter=0;this.snapshotFailures=0;
       // A slow collection pull must not hide a newly matched opponent.
       // Economic controls still pass through beginHubTransaction before mutating.
       this.emit({data,status:'connected',error:this.pending?'Reconnecting your last action safely…':''});
@@ -86,12 +88,12 @@ export class HubController {
       }
       if(epoch!==this.epoch||revision!==this.revision||this.disposed)return;
       this.bridge.rank?.(data.profile,data);
-    }).catch(e=>{if(epoch===this.epoch&&revision===this.revision&&!this.disposed)this.emit({status:'offline',error:this.bridge.visible?.()===false?'':errorMessage(e)});});
+    }).catch(e=>{if(epoch===this.epoch&&revision===this.revision&&!this.disposed){this.autoRefreshAfter=Date.now()+Math.min(30000,5000*2**this.snapshotFailures++);this.refreshQueued=false;this.emit({status:'offline',error:this.bridge.visible?.()===false?'':errorMessage(e)});}});
     this.refreshTask=task;
     try {await task;} finally {if(this.refreshTask===task)this.refreshTask=null;this.scheduleRecovery();this.drainReveals();this.flushRefresh();}
   }
-  requestRefresh(){this.refreshQueued=true;this.flushRefresh();}
-  flushRefresh(){if(!this.refreshQueued||this.state.busy||this.refreshTask||!this.uid||this.disposed)return;this.refreshQueued=false;this.refresh();}
+  requestRefresh(){if(Date.now()<this.autoRefreshAfter)return;this.refreshQueued=true;this.flushRefresh();}
+  flushRefresh(){if(Date.now()<this.autoRefreshAfter||!this.refreshQueued||this.state.busy||this.refreshTask||!this.uid||this.disposed)return;this.refreshQueued=false;this.refresh();}
   async command(action,payload={},options={}) {
     const epoch=this.epoch;
     if(this.state.busy&&this.state.background&&!options.quiet)await this.commandTask;

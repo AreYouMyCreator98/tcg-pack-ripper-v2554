@@ -7,6 +7,7 @@ const [A,B,C]=USERS;
 test('live battle transport coalesces reveals, discloses only confirmed cards and settles once',async()=>{
  const d=await database();try{
  await d.db.exec(await readFile(new URL('../supabase/migrations/20261008010000_battle_live_sync.sql',import.meta.url),'utf8'));
+ await d.db.exec(await readFile(new URL('../supabase/migrations/20261008020000_hub_snapshot_timeout.sql',import.meta.url),'utf8'));
  const stream=(u,action,payload={},key=randomUUID())=>d.db.transaction(async tx=>{
   await tx.query("select set_config('request.jwt.claim.sub',$1,true)",[u||'']);await tx.exec('set local role authenticated');
   return (await tx.query('select public.hub_battle_update($1,$2,$3) as result',[action,JSON.stringify(payload),key])).rows[0].result;
@@ -33,6 +34,7 @@ test('live battle transport coalesces reveals, discloses only confirmed cards an
 test('light battle snapshots omit large inventory and queue ticks recheck eligibility',async()=>{
  const d=await database();try{
  await d.db.exec(await readFile(new URL('../supabase/migrations/20261008010000_battle_live_sync.sql',import.meta.url),'utf8'));
+ await d.db.exec(await readFile(new URL('../supabase/migrations/20261008020000_hub_snapshot_timeout.sql',import.meta.url),'utf8'));
  const stream=u=>d.db.transaction(async tx=>{await tx.query("select set_config('request.jwt.claim.sub',$1,true)",[u]);await tx.exec('set local role authenticated');return (await tx.query("select public.hub_battle_update('queue_tick') as result")).rows[0].result;});
  await d.call(A,'queue_join');await d.call(B,'snapshot');await d.db.query('update hub_private.profiles set rp=1000 where user_id=$1',[B]);await d.call(B,'queue_join');
  assert.equal((await d.call(A,'snapshot')).rooms[0].status,'waiting');

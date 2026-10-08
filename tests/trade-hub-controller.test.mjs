@@ -144,3 +144,10 @@ test('waiting ranked queue rechecks matching at three seconds without a collecti
  const poll=[...f.intervals.values()][0];for(let i=0;i<4;i++){poll();await tick();}
  assert.equal(calls.filter(c=>c.p_action==='queue_tick').length,1);assert.equal(calls.find(c=>c.p_action==='queue_tick').name,'hub_battle_update');await f.c.dispose();
 });
+
+test('snapshot timeouts back off automatic polling and realtime without blocking explicit reconnect',async()=>{
+ let calls=0,fail=true;const f=fixture(async()=>{calls++;if(fail)return {error:{code:'57014',message:'canceling statement due to statement timeout'}};return {data:data()};});
+ await f.c.setUser({id:'A'});assert.equal(f.c.state.status,'offline');const before=calls;
+ for(let i=0;i<40;i++){[...f.intervals.values()][0]();f.c.requestRefresh();}await tick();assert.equal(calls,before);
+ fail=false;await f.c.resume();assert.equal(f.c.state.status,'connected');assert.equal(f.c.snapshotFailures,0);await f.c.dispose();
+});
