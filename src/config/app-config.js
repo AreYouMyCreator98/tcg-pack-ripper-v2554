@@ -1,7 +1,7 @@
 export const APP_CONFIG = Object.freeze({
   name: 'TCG Pack Ripper+',
-  version: '0.261.0',
-  buildId: 'v261-sealed-vault-1',
+  version: '0.262.0',
+  buildId: 'v262-league-internal-qa1',
   saveSchemaVersion: 1,
   assetSchemaVersion: 1,
   cacheVersion: 'tcg-v261-1',

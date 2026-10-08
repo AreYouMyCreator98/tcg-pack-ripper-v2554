@@ -97,6 +97,8 @@ export function installProfileStudio(win=window,doc=document){
    const p={...data.profile,...draft};
    $('profileBannerPreview').innerHTML=banner(p);
    $('profileBannerSummary').innerHTML=banner(data.profile);
+   let competitive=$('profileCompetitiveEdit');if(!competitive){competitive=doc.createElement('button');competitive.id='profileCompetitiveEdit';competitive.type='button';competitive.textContent='Competitive banner';competitive.addEventListener('click',()=>{doc.querySelector('.nav [data-s="earn"]')?.click();win.tcgLeague?.customize();});$('profileBannerSummary').after(competitive);}competitive.hidden=!win.tcgLeague?.controller.state.data?.enabled;
+
    let level=$('profileLevelSummary');if(!level){level=doc.createElement('p');level.id='profileLevelSummary';$('profileBannerSummary').after(level);}level.textContent=`${$('profileLevel').textContent} · ${$('xpText').textContent}`;
    $('profileDraftState').textContent=dirty?'Preview · not equipped':'Equipped';
    $('profilePreviewHint').textContent=data.online?'This is the card shown in trading and pack battles.':'Local collector card. Sign in to share an identity in multiplayer.';

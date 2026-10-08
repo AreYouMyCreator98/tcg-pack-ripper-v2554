@@ -1,3 +1,4 @@
+import { installLeague } from '../league/index.js';
 import { HubController } from './controller.js';
 import { HubView } from './view.js';
 import { parsePrice } from './model.js';
@@ -9,13 +10,15 @@ export function installTradeHub(target=window,doc=document) {
   const root=doc.createElement('div');root.className='trade-hub';root.id='tradeHub';screen.prepend(root);
   const shops=screen.querySelector('.exchangeV154');
   const client=target.__tcgSupabaseClient;
+  let league;
+  const leagueHeld=()=>league?.controller?.held||target.localStorage?.getItem('tcg-league-ready:'+target.tcgCloudV192?.user?.id)==='true';
   const bridge={
     begin:()=>target.tcgCloudV192?.beginHubTransaction?.()??Promise.reject(new Error('SYNC_REQUIRED')),
     hold:()=>target.tcgCloudV192?.holdHubTransaction?.(),
     finish:ok=>target.tcgCloudV192?.finishHubTransaction?.(ok)??Promise.reject(new Error('SYNC_REQUIRED')),
-    reset:()=>target.tcgCloudV192?.resetHubTransaction?.(),
-    sync:version=>target.tcgCloudV192?.syncHubSnapshot?.(version),
-    active:()=>screen.classList.contains('active')&&doc.visibilityState!=='hidden',
+    reset:()=>leagueHeld()?undefined:target.tcgCloudV192?.resetHubTransaction?.(),
+    sync:version=>leagueHeld()?Promise.resolve():target.tcgCloudV192?.syncHubSnapshot?.(version),
+    active:()=>!league?.active()&&screen.classList.contains('active')&&doc.visibilityState!=='hidden',
     visible:()=>doc.visibilityState!=='hidden',
     rank:(profile,data)=>target.tcgHubBridge?.applyRank?.(profile,data)
   };
@@ -24,7 +27,8 @@ export function installTradeHub(target=window,doc=document) {
   const view=new HubView(root,controller,{shops});
   const social=new Social({client,active:()=>view.tab==='friends'&&bridge.active(),visible:bridge.visible,notify:()=>{if(view.tab==='friends')view.render();else {const b=root.querySelector('[data-hub-tab="friends"]');if(b)b.textContent='Friends'+(social.data.friends.some(f=>f.unread)?' •':'');}}});
   view.social=social;
-  const setUser=user=>{if(controller.uid!==(user?.id||null))target.tcgCardInspector?.close();social.setUser(user).catch(()=>{});return controller.setUser(user);};
+  league=installLeague({target,doc,client,bridge:{...bridge,reset:()=>target.tcgCloudV192?.resetHubTransaction?.(),sync:version=>target.tcgCloudV192?.syncHubSnapshot?.(version),rank:(p,d)=>bridge.rank(p,{...d,escrow:controller.state.data?.escrow,totals:controller.state.data?.totals})},hubRoot:root,hubView:view});
+  const setUser=user=>{if(controller.uid!==(user?.id||null))target.tcgCardInspector?.close();social.setUser(user).catch(()=>{});const leagueTask=league.setUser(user);return Promise.all([controller.setUser(user),leagueTask]);};
   view.render();
   let authSubscription;
   if(client){
@@ -37,15 +41,15 @@ export function installTradeHub(target=window,doc=document) {
     const initialRevision=authRevision;
     client.auth.getSession().then(({data,error})=>{if(error)throw error;if(authRevision===initialRevision)return setUser(data?.session?.user);}).catch(e=>controller.emit({status:'offline',error:e.message}));
   }
-  const resume=()=>{view.notice='';social.resume().catch(()=>{});return controller.resume();};
+  const resume=()=>{league.resume().catch(()=>{});view.notice='';social.resume().catch(()=>{});return league.active()?Promise.resolve():controller.resume();};
   const onVisible=()=>{if(doc.visibilityState!=='hidden')resume().catch(()=>{});else controller.suspend();};
   const onPageShow=event=>{if(event.persisted)onVisible();};
   target.addEventListener('pageshow',onPageShow);
   const onOnline=()=>resume().catch(()=>{});
-  const onNavigation=event=>{if(event.target.closest?.('.nav [data-s="earn"]'))controller.refresh();};
+  const onNavigation=event=>{if(event.target.closest?.('.nav [data-s="earn"]')){if(league.active())league.resume();else controller.refresh();}};
   doc.addEventListener('visibilitychange',onVisible);target.addEventListener('online',onOnline);
   doc.addEventListener('click',onNavigation);
-  const dispose=()=>{authSubscription?.unsubscribe();view.dispose();controller.dispose();social.dispose();doc.removeEventListener('visibilitychange',onVisible);doc.removeEventListener('click',onNavigation);target.removeEventListener('online',onOnline);target.removeEventListener('pageshow',onPageShow);};
+  const dispose=()=>{authSubscription?.unsubscribe();league.dispose();view.dispose();controller.dispose();social.dispose();doc.removeEventListener('visibilitychange',onVisible);doc.removeEventListener('click',onNavigation);target.removeEventListener('online',onOnline);target.removeEventListener('pageshow',onPageShow);};
   target.addEventListener('pagehide',event=>{if(!event.persisted)dispose();});
   const listCard=async(cardId,price)=>{
     if(!controller.uid)throw new Error('Sign in through Profile Settings to list cards for other players.');

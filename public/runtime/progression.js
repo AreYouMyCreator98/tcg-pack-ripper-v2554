@@ -1647,7 +1647,7 @@ try{
       const {data,error}=await client.auth.getSession();if(error)throw error;
       const session=data?.session||null;user=session?.user||null;sessionState='ready';
       clearTimeout(sessionRetry);sessionRetry=null;
-      if(user){setPendingEmail('');try{const pending=JSON.parse(localStorage.getItem('tcg-hub-v256-pending:'+user.id)||'null');if(pending&&['listing_create','listing_buy','listing_cancel','trade_offer','room_ready','room_cancel','heartbeat'].includes(pending.action))holdHubTransaction();}catch(_){}}
+      if(user){setPendingEmail('');try{const pending=JSON.parse(localStorage.getItem('tcg-hub-v256-pending:'+user.id)||'null');if(pending&&['listing_create','listing_buy','listing_cancel','trade_offer','room_ready','room_cancel','heartbeat'].includes(pending.action))holdHubTransaction();if(localStorage.getItem('tcg-league-ready:'+user.id)==='true')holdHubTransaction();}catch(_){}}
       syncUI();return session;
     }catch(e){
       // A failed refresh is not a sign-out. Let the SDK retain/refresh its stored
@@ -1807,7 +1807,7 @@ try{
     else{for(const [node,value]of hubInert)node.inert=value;hubInert.clear();}
   }
   for(const type of ['click','submit','keydown','pointerdown'])document.addEventListener(type,e=>{
-    if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub,.nav,#closeProfileSettingsV158,#closeSettingsShadeV158')){e.preventDefault();e.stopImmediatePropagation();}
+    if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub,#collectorLeague,.league-launch,.nav,#closeProfileSettingsV158,#closeSettingsShadeV158')){e.preventDefault();e.stopImmediatePropagation();}
   },true);
   function holdHubTransaction(){hubHold=true;clearTimeout(syncTimer);syncTimer=null;hubBarrier(true);}
   function resetHubTransaction(){hubHold=false;hubBarrier(false);}

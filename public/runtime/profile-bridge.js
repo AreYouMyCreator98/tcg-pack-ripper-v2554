@@ -23,10 +23,12 @@
    snapshot(){
      const h=hub(),s=store(),r=state.rankedV221||{},p=state.profileV227||{};
      const online=h?.state.data?.profile;
+     const league=window.tcgLeague?.controller?.state.data;
+     const competitive=league?.enabled&&league.user_id===account()?{competitive:true,banner:league.profile?.league_banner,league_stats:league.profile?.league_stats,rp:league.profile?.rp,wins:league.profile?.wins,losses:league.profile?.losses,ties:league.profile?.ties,streak:league.profile?.streak,season_high:league.profile?.season_high,highest:league.profile?.highest}:{};
      const rp=Number(r.rp)||0,rank=window.tcgRankedV221?.currentRank?.(rp);
      const local={name:p.name||'Collector',avatar:p.avatarData||'',rp,wins:r.wins||0,losses:r.losses||0,ties:r.ties||0,streak:r.streak||0,season_high:r.seasonHigh||0,frame:rank?.id==='rookie'?null:rank?.id,title:'Collector',style:'aurora',badges:[],trackers:['wins','season_high','streak'],show_record:true,...s.identity};
      const frames=state.profileFramesV228,frame=frames?(frames.selected&&frames.owned?.[frames.selected]?frames.selected:null):online?.frame||null;
-     return {account:account(),blocked:blocked(),online:account()!=='local',connected:!!online,profile:{...(online||local),frame,avatar:p.avatarData!==undefined?p.avatarData:(online?.avatar||'')},titles:[...(state.collectorV260?.titles||[]),...(state.collectorV260?.legacy?.title?[state.collectorV260.legacy.title]:[])],badges:earned().map(id=>({id,name:BADGE_DEFS.find(b=>b[0]===id)?.[1]||id.replace(/[_-]/g,' ')})),looks:s.looks||[],level:levelFromXP(state.xp)};
+     return {account:account(),blocked:blocked(),online:account()!=='local',connected:!!online,profile:{...(online||local),...competitive,frame,avatar:p.avatarData!==undefined?p.avatarData:(online?.avatar||'')},titles:[...(state.collectorV260?.titles||[]),...(state.collectorV260?.legacy?.title?[state.collectorV260.legacy.title]:[])],badges:earned().map(id=>({id,name:BADGE_DEFS.find(b=>b[0]===id)?.[1]||id.replace(/[_-]/g,' ')})),looks:s.looks||[],level:levelFromXP(state.xp)};
    },
    async equip(input,owner){
      guard(owner);const value=cosmetic(input),h=hub();
