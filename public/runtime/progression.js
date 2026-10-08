@@ -34,7 +34,13 @@ globalThis.tcgBackupArchiveV262=(()=>{
     for(const key of keys){if(!stillCurrent())throw new Error('Collection changed during storage recovery');await move(key);try{write();return}catch(e){if(!quota(e))throw e}}
     throw Object.assign(new Error('Browser storage is full'),{name:'QuotaExceededError'});
   }
-  return {read,move,writePrimary};
+  async function preserve(raw){const id='account-switch:'+Date.now()+':'+crypto.randomUUID();await access(id,raw);if(await access(id)!==raw)throw new Error('Recovery backup verification failed');return id}
+  async function exportRecovery(){
+    const db=await open();let archived;try{archived=await new Promise((resolve,reject)=>{const tx=db.transaction('backups'),q=tx.objectStore('backups').getAll();tx.oncomplete=()=>resolve(q.result);tx.onerror=tx.onabort=()=>reject(tx.error)})}finally{db.close()}
+    const local={};for(const key of [...keys,'tcgRipperSave']){const raw=localStorage.getItem(key);if(raw)local[key]=raw}
+    const blob=new Blob([JSON.stringify({format:'tcg-recovery-backups-v1',local,archived})],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='tcg-recovery-backups.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  return {read,move,writePrimary,preserve,exportRecovery};
 })();
 
 
@@ -1586,6 +1592,7 @@ try{
   const CONFLICT_BACKUP_KEY='tcgRipperConflictBackupV237';
   let client=null,user=null,syncTimer=null,syncBusy=false,authBusy=false,pushPausedUntil=0,cloudVersion=null,recoveryPending=false;
   let hubHold=false,localRevision=0,reconcileBusy=false;
+  let switchBackupOwner=undefined;let saveOwner=null;try{saveOwner=localStorage.getItem('tcgActiveSaveOwnerV262')||null}catch(_){}
   let sessionState='restoring',sessionRetry=null;
   let deviceId='';
   try{deviceId=localStorage.getItem(DEVICE_KEY)||('dev_'+crypto.randomUUID());localStorage.setItem(DEVICE_KEY,deviceId)}catch(_){deviceId='dev_'+Math.random().toString(36).slice(2)}
@@ -1616,6 +1623,7 @@ try{
       login?.classList.add('hide');signed?.classList.add('show');
       if(el('cloudUserEmailV190'))el('cloudUserEmailV190').textContent=user.email||user.id;
       if(recoveryPending)setStatus('warn','Choose which save to keep','Sync is paused until you choose the device save or account save.');
+      else if(saveOwner!==user.id)setStatus('warn','Restoring account collection','Uploads are blocked until this account’s collection is restored.');
       else if(isDirty())setStatus('warn','Saving progress','Progress is safe on this device. Keep the game online until it says Synced before switching devices.');
       else setStatus('online','Synced to your account','Use the same account in Safari, the Home Screen app and other devices to continue this collection.');
       if(saveStatus)saveStatus.textContent=recoveryPending?'SAVE CHOICE':isDirty()?'SAVE PENDING':'SYNCED';
@@ -1701,10 +1709,10 @@ try{
     const {data,error}=await client.from(CLOUD_TABLE).select('save_data,save_version,device_id,updated_at').eq('user_id',session.user.id).maybeSingle();if(error)throw error;return data||null;
   }
   async function pushNow(showToast=false,force=false,inPlaceConflict=false){
-    if(globalThis.tcgPackTransaction||!client||syncBusy||hubHold||(!isBound()&&!force))return false;if(recoveryPending&&!force){if(showToast)toast('Choose which save to keep first.');return false}if(Date.now()<pushPausedUntil&&!showToast&&!force)return false;syncBusy=true;
+    if(saveOwner!==user?.id||globalThis.tcgPackTransaction||!client||syncBusy||hubHold||(!isBound()&&!force))return false;if(recoveryPending&&!force){if(showToast)toast('Choose which save to keep first.');return false}if(Date.now()<pushPausedUntil&&!showToast&&!force)return false;syncBusy=true;
     try{
       const session=await refreshSession();if(!session?.user){if(showToast)toast('Log in before syncing account progress.');setStatus('warn','Sign-in required','Progress is only protected by the browser until you log in.');return false}
-      if(globalThis.tcgPackTransaction)return false;
+      if(saveOwner!==session.user.id||globalThis.tcgPackTransaction)return false;
       const account=session.user.id,revision=localRevision,data=snapshot(),expected=(cloudVersion??storedVersion())||null;
       const {data:result,error}=await client.rpc('tcg_account_save',{p_save_data:data,p_expected_version:expected,p_device_id:deviceId});if(error)throw error;if(user?.id!==account)return false;
       if(result?.conflict){
@@ -1718,16 +1726,24 @@ try{
     }catch(e){console.error('Account save failed',e);setDirty(true);const msg=String(e?.message||'');if(/row-level security|401|jwt|auth/i.test(msg))setStatus('warn','Sign-in required','Your account session needs to be refreshed. The offline backup is still safe on this device.');else setStatus('warn','Account sync pending','Your latest progress is queued on this device and will retry when the connection recovers.');if(showToast)toast('Account sync pending • offline backup is safe');return false}finally{syncBusy=false}
   }
   function pausePush(ms=3000){pushPausedUntil=Math.max(pushPausedUntil,Date.now()+Math.max(250,Number(ms)||3000));clearTimeout(syncTimer);syncTimer=null}
-  function queuePush(){if(!user||!client||recoveryPending)return;if(hubHold){setDirty(true);return;}setDirty(true);clearTimeout(syncTimer);const wait=Date.now()<pushPausedUntil?Math.max(80,pushPausedUntil-Date.now()+80):350;syncTimer=setTimeout(()=>pushNow(false),wait)}
+  function queuePush(){if(!user||saveOwner!==user.id||!client||recoveryPending)return;if(hubHold){setDirty(true);return;}setDirty(true);clearTimeout(syncTimer);const wait=Date.now()<pushPausedUntil?Math.max(80,pushPausedUntil-Date.now()+80):350;syncTimer=setTimeout(()=>pushNow(false),wait)}
   async function reconcile(){
     if(!client||recoveryPending||hubHold||syncBusy||reconcileBusy||(typeof busy!=='undefined'&&busy))return;reconcileBusy=true;
     try{
       const session=await refreshSession();if(!session?.user)return;const account=session.user.id;
       const remote=await getRemote();if(user?.id!==account)return;
+      if(saveOwner!==account){
+        if(!remote?.save_data){setStatus('warn','Account collection unavailable','Upload paused: the displayed collection belongs to a different or unverified account.');return;}
+        // Preserve the device collection before replacing it; never adopt it just
+        // because this browser has previously signed into the destination account.
+        if(switchBackupOwner!==saveOwner){await globalThis.tcgBackupArchiveV262?.preserve?.(JSON.stringify({owner:saveOwner,state}));switchBackupOwner=saveOwner;}
+        if(user?.id!==account)return;
+        if(!await pullInPlace(false))throw new Error('Account restore pending');return;
+      }
       if(!remote?.save_data){setBound();setStoredVersion(null);setDirty(true);await pushNow(false,true);return}
       const remoteVersion=Number(remote.save_version||1),cloud=remote.save_data,remoteState=cloud?.state||{};
       if(!isBound()){
-        const pre=await readStateKey(PRECLOUD_KEY);const current=clone(state);const candidate=(pre&&meaningful(pre)&&materiallyDifferent(pre,remoteState))?pre:current;
+        const pre=null;const current=clone(state);const candidate=(pre&&meaningful(pre)&&materiallyDifferent(pre,remoteState))?pre:current;
         const recovering=!!(pre&&candidate===pre);
         if(meaningful(candidate)&&meaningful(remoteState)&&materiallyDifferent(candidate,remoteState)){
           try{localStorage.setItem(LINK_BACKUP_KEY,JSON.stringify(current))}catch(_){ }
@@ -1775,7 +1791,7 @@ try{
       if(globalThis.tcgBackupArchiveV262)await globalThis.tcgBackupArchiveV262.writePrimary(JSON.stringify(next),()=>user?.id===account&&localRevision===revision);
       else localStorage.setItem('tcgRipperSave',JSON.stringify(next));
       if(user?.id!==account||localRevision!==revision)return fail('Account or local progress changed during storage recovery. Retry.');
-      state=next;setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);
+      state=next;saveOwner=account;try{localStorage.setItem('tcgActiveSaveOwnerV262',account)}catch(_){}setBound();setStoredVersion(remote.save_version||1);setDirty(false);pausePush(2600);
       // Optional caches must not turn a successful authoritative restore into a
       // permanently pending financial transaction when browser storage is full.
       for(const [key,value] of [
@@ -1820,8 +1836,9 @@ try{
     try{const {data,error}=await client.auth.signInWithPassword({email,password});if(error)throw error;if(!data?.session?.user)throw new Error('No authenticated session returned.');user=data.session.user;sessionState='ready';cloudVersion=null;setPendingEmail('');syncUI();toast('☁️ Logged in');await reconcile()}catch(e){user=null;const msg=String(e?.message||'Login failed');if(/email.*confirm|confirm.*email/i.test(msg)){setPendingEmail(email);syncUI();toast('Confirm your email first, then log in.')}else{syncUI();toast(msg)}}finally{authBusy=false}
   }
   async function signup(){
+    if(saveOwner)return toast('Create a new account from a separate browser profile to keep collections separate.');
     if(authBusy)return;if(!configured())return toast('Cloud backend is not configured yet.');const email=el('cloudEmailV190')?.value.trim(),password=el('cloudPasswordV190')?.value||'';if(!email||password.length<6)return toast('Enter your email and a password of at least 6 characters.');authBusy=true;
-    try{const {data,error}=await client.auth.signUp({email,password});if(error)throw error;if(data?.session?.user){user=data.session.user;cloudVersion=null;setPendingEmail('');setBound();setStoredVersion(null);setDirty(true);syncUI();toast('☁️ Account created and signed in');await pushNow(false,true)}else{user=null;setPendingEmail(email);syncUI();toast('📧 Account created • confirm the email, then log in.')}}catch(e){user=null;syncUI();toast(e?.message||'Could not create account')}finally{authBusy=false}
+    try{const {data,error}=await client.auth.signUp({email,password});if(error)throw error;if(data?.session?.user){user=data.session.user;saveOwner=user.id;try{localStorage.setItem('tcgActiveSaveOwnerV262',saveOwner)}catch(_){}cloudVersion=null;setPendingEmail('');setBound();setStoredVersion(null);setDirty(true);syncUI();toast('☁️ Account created and signed in');await pushNow(false,true)}else{user=null;setPendingEmail(email);syncUI();toast('📧 Account created • confirm the email, then log in.')}}catch(e){user=null;syncUI();toast(e?.message||'Could not create account')}finally{authBusy=false}
   }
   async function logout(){if(!client)return;try{await pushNow(false);const {error}=await client.auth.signOut({scope:'local'});if(error)throw error;user=null;sessionState='ready';cloudVersion=null;recoveryPending=false;clearTimeout(sessionRetry);sessionRetry=null;syncUI();toast('Signed out • this device now has an offline-only copy')}catch(e){toast('Could not sign out')}}
   async function init(){
@@ -1829,6 +1846,7 @@ try{
     // mobile connection must never leave Settings as an unresponsive overlay.
     el('cloudLoginBtnV190')?.addEventListener('click',login);el('cloudSignupBtnV190')?.addEventListener('click',signup);el('cloudLogoutBtnV190')?.addEventListener('click',logout);el('cloudSyncBtnV190')?.addEventListener('click',()=>pushNow(true));const loginBox=el('cloudLoginV190');if(loginBox&&!document.getElementById('cloudForgotBtnV238')){const b=document.createElement('button');b.id='cloudForgotBtnV238';b.type='button';b.textContent='FORGOT PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',requestPasswordReset);loginBox.appendChild(b)}const signedBox=el('cloudSignedV190');if(signedBox&&!document.getElementById('cloudChangePasswordBtnV238')){const b=document.createElement('button');b.id='cloudChangePasswordBtnV238';b.type='button';b.textContent='CHANGE PASSWORD';b.style.cssText='width:100%;margin-top:8px;border:0;border-radius:14px;padding:11px 12px;background:rgba(230,237,248,.88);color:#24324a;font:800 12px system-ui;letter-spacing:.04em';b.addEventListener('click',showPasswordRecovery);signedBox.appendChild(b)}syncUI();
 
+    const recoveryBox=el('cloudSignedV190');if(recoveryBox&&!el('exportRecoveryV262')){const b=document.createElement('button');b.id='exportRecoveryV262';b.type='button';b.textContent='EXPORT RECOVERY BACKUPS';b.onclick=()=>globalThis.tcgBackupArchiveV262.exportRecovery().catch(()=>toast('Backup export failed. Keep site data and retry.'));recoveryBox.appendChild(b)}
     if(!configured())return;
     try{
       client=(window.__tcgSupabaseClient ||= window.supabase.createClient(cfg().supabaseUrl,cfg().supabaseAnonKey,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}}));
@@ -1836,7 +1854,7 @@ try{
         const next=session?.user||null,changed=next?.id!==user?.id;
         // Only confirmed SDK session events clear the displayed account.
         if(next||event==='SIGNED_OUT'||event==='INITIAL_SESSION'){user=next;sessionState='ready';}
-        if(changed)cloudVersion=null;
+        if(changed){cloudVersion=null;clearTimeout(syncTimer);syncTimer=null;resetHubTransaction();}
         if(user)setPendingEmail('');syncUI();
         if(event==='SIGNED_OUT'){clearTimeout(sessionRetry);sessionRetry=null;}
         if(event==='PASSWORD_RECOVERY'){setTimeout(showPasswordRecovery,50);return;}
@@ -1857,6 +1875,7 @@ try{
   try{const baseSave=save;save=function(){markLocalChange();const r=baseSave.apply(this,arguments);queuePush();return r}}catch(e){console.warn('Cloud save wrapper not installed',e)}
   async function beginHubTransaction(){
     if(!user||recoveryPending)throw new Error('AUTH_REQUIRED');
+    if(saveOwner!==user.id)throw new Error('SYNC_REQUIRED');
     if(typeof busy!=='undefined'&&busy)throw new Error('Finish opening your current pack first.');
     const account=user.id;hubBarrier(true);
     try{
@@ -1906,7 +1925,7 @@ try{
     })();
     try{return await task.promise;}finally{if(hubFinishTask===task)hubFinishTask=null;}
   }
-  window.tcgCloudV192={beginHubTransaction,holdHubTransaction,finishHubTransaction,resetHubTransaction,syncHubSnapshot,get hubHeld(){return hubHold},push:()=>pushNow(true),pushSilent:()=>pushNow(false),reconcile,pullInPlace,pausePush,requestPasswordReset,get user(){return user},get saveVersion(){return cloudVersion??storedVersion()},get accountPrimary(){return !!user&&!recoveryPending},get recoveryPending(){return recoveryPending},configured,refreshSession};
+  window.tcgCloudV192={beginHubTransaction,holdHubTransaction,finishHubTransaction,resetHubTransaction,syncHubSnapshot,get hubHeld(){return hubHold},push:()=>pushNow(true),pushSilent:()=>pushNow(false),reconcile,pullInPlace,pausePush,requestPasswordReset,get user(){return user},get saveVersion(){return cloudVersion??storedVersion()},get accountPrimary(){return !!user&&saveOwner===user.id&&!recoveryPending},get recoveryPending(){return recoveryPending},configured,refreshSession};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
 

@@ -50,7 +50,7 @@ export class HubView {
     patchMarkup(this.root,`<header class="hub-header"><div><span class="hub-eyebrow">COLLECTOR EXCHANGE</span><h1>Collector Hub<span>+</span></h1><p>Your collection. A whole world of collectors.</p></div><div class="hub-status"><span class="hub-connection ${state.status==='connected'?'on':''}">${e(state.status.replaceAll('-',' '))}</span><strong>${data?money(data.coins):'Play together'}</strong><small>${data?`${e(rank.rank.name)} · ${rank.rp} RP`:'Local shops available offline'}</small></div></header>
     <nav class="hub-tabs" aria-label="Collector Hub">${primaryTabs.map(([t,label])=>`<button type="button" data-hub-tab="${t}" aria-current="${group(this.tab)===t?'page':'false'}" class="${group(this.tab)===t?'active':''}">${label}${t==='friends'&&this.unread?' •':''}</button>`).join('')}</nav>
     ${group(this.tab)==='friends'?`<nav class="collector-tabs" aria-label="Social sections"><button data-hub-tab="friends">FRIENDS & MESSAGES</button><button data-hub-tab="chat">GLOBAL CHAT</button></nav>`:''}
-    ${group(this.tab)==='battles'?`<nav class="collector-tabs" aria-label="Battle sections"><button data-hub-tab="battles">CASUAL & MATCHMAKING</button><button data-hub-tab="ranked">RANKED LADDER</button></nav><p class="hub-footnote">Ranked RP is a server-calculated rating, never a wager. Cash Stakes requires the protected economy ledger and is not enabled on this server.</p>`:''}
+    ${group(this.tab)==='battles'?`<nav class="collector-tabs" aria-label="Battle sections">${button('league','RANKED · DRAFT DUEL')}<button data-hub-tab="battles">CASUAL & MATCHMAKING</button><button data-hub-tab="ranked">RANKED LADDER</button></nav><p class="hub-footnote">Ranked RP is a server-calculated rating, never a wager. Cash Stakes requires the protected economy ledger and is not enabled on this server.</p>`:''}
     ${group(this.tab)==='market'?`<nav class="collector-tabs" aria-label="Market sections">${['buy','sell','own','sold','watch'].map(mode=>`<button data-market-mode="${mode}" class="${(this.marketMode||'buy')===mode?'active':''}">${{buy:'BUY',sell:'SELL',own:'MY LISTINGS',sold:'SOLD',watch:'WATCHLIST'}[mode]}</button>`).join('')}</nav>`:''}
     <div class="hub-notice" role="status" aria-live="polite">${e(state.error||this.notice||'')}${this.controller.pending&&!state.busy?button('retry','Retry pending action'):''}${state.status==='offline'?button('refresh','Reconnect'):''}</div>
     ${foregroundBusy?`<div class="hub-working" role="status">${workingLabel(state.action)}</div>`:''}
@@ -171,6 +171,7 @@ export class HubView {
     if(a==='watch'){const list=this.watchlist(),id=b.dataset.id,next=list.includes(id)?list.filter(x=>x!==id):[...list,id].slice(-100);try{this.controller.storage?.setItem('tcg-v260-watch:'+this.controller.uid,JSON.stringify(next));}catch{}this.render();return;}
     if(a==='pick-card'){this.drafts.card_id=b.dataset.id;this.render();return;}
     if(a==='more-cards'){this.pickLimit=(this.pickLimit||24)+24;this.render();return;}
+    if(a==='league'){this.league?.open();return;}
     if(a==='refresh'){await this.controller.refresh();return;}
     if(a==='account'){this.root.ownerDocument.querySelector('.nav [data-s="profile"]')?.click();return;}
     if(a==='retry'){try{await this.controller.retry();}catch{}this.render();return;}
