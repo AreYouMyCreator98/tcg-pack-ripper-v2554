@@ -9,11 +9,11 @@ export class LeagueController {
  persist(){try{this.pending?this.storage?.setItem(this.key(),JSON.stringify(this.pending)):this.storage?.removeItem(this.key());}catch{}}
  async rpc(action,payload={},id=null){let timer;const start=performance.now();try{const r=await Promise.race([this.client.rpc('league_command',{p_action:action,p_payload:payload,p_request_id:id}),new Promise((_,reject)=>{timer=this.clock.setTimeout(()=>reject(Object.assign(Error('Connection interrupted. Reconnect to confirm your action.'),{uncertain:true})),10000);})]);if(r.error)throw Object.assign(Error(r.error.message),{uncertain:!r.error.code||/^PGRST00|^50/.test(r.error.code)});if(r.data?.version!==262)throw Object.assign(Error('League response unavailable.'),{uncertain:true});this.metrics.push({action,ms:performance.now()-start,bytes:JSON.stringify(r.data).length});if(this.metrics.length>100)this.metrics.shift();return r.data;}finally{this.clock.clearTimeout(timer);}}
  async accept(data,epoch){if(epoch!==this.epoch)return;this.offset=Date.parse(data.server_time)-Date.now();const old=this.state.data?.match;if(old?.id!==data.match?.id)this.revealTarget=0;this.revealTarget=Math.max(this.revealTarget,data.match?.my_progress||0);const identity=JSON.stringify(data.profile);if(identity!==this.lastIdentity){this.lastIdentity=identity;this.bridge.rank?.(data.profile,data);}this.emit({data,phase:phaseOf(data),error:''});this.loadArt(data,epoch);this.connect(epoch);
-  try{if(data.match?.phase==='clash'&&data.match.my_ready)this.storage?.setItem('tcg-league-ready:'+this.uid,'true');else if(!this.pending)this.storage?.removeItem('tcg-league-ready:'+this.uid);}catch{}
+  try{if(data.match?.phase==='clash'&&data.match.my_ready)this.storage?.setItem('tcg-league-ready:'+this.uid,'true');}catch{}
   // Keep the economic barrier until BOTH packs are committed, including reloads.
   const waiting=(data.match?.phase==='clash'&&data.match.my_ready)||this.pending?.action==='ready';
   if(waiting){this.held=true;this.bridge.hold?.();}
-  else if(this.held){await this.bridge.finish?.(true);if(epoch===this.epoch)this.held=false;}
+  else if(this.held){await this.bridge.finish?.(true);if(epoch===this.epoch){this.held=false;try{this.storage?.removeItem('tcg-league-ready:'+this.uid);}catch{}}}
   else await this.bridge.sync?.(data.save_version);
  }
  loadArt(data,epoch){for(const p of [data.match?.host_profile,data.match?.guest_profile]){const id=p?.user_id;if(!id||this.art.has(id))continue;this.art.set(id,null);this.client.rpc('league_identity_art',{p_user_id:id}).then(({data:art,error})=>{if(epoch!==this.epoch)return;if(!error){this.art.set(id,art?.avatar||'');if(this.art.size>8)this.art.delete(this.art.keys().next().value);this.emit();}}).catch(()=>{});}}

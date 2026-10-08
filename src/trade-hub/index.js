@@ -27,7 +27,7 @@ export function installTradeHub(target=window,doc=document) {
   const view=new HubView(root,controller,{shops});
   const social=new Social({client,active:()=>view.tab==='friends'&&bridge.active(),visible:bridge.visible,notify:()=>{if(view.tab==='friends')view.render();else {const b=root.querySelector('[data-hub-tab="friends"]');if(b)b.textContent='Friends'+(social.data.friends.some(f=>f.unread)?' •':'');}}});
   view.social=social;
-  league=installLeague({target,doc,client,bridge:{...bridge,reset:()=>target.tcgCloudV192?.resetHubTransaction?.(),sync:version=>target.tcgCloudV192?.syncHubSnapshot?.(version),rank:(p,d)=>bridge.rank(p,{...d,escrow:controller.state.data?.escrow,totals:controller.state.data?.totals})},hubRoot:root,hubView:view});
+  league=installLeague({target,doc,client,bridge:{...bridge,reset:()=>target.tcgCloudV192?.resetHubTransaction?.(),sync:version=>(controller.pending||controller.state.busy||controller.syncTask)?Promise.resolve():target.tcgCloudV192?.syncHubSnapshot?.(version),rank:(p,d)=>bridge.rank(p,{...d,escrow:controller.state.data?.escrow,totals:controller.state.data?.totals})},hubRoot:root,hubView:view});
   const setUser=user=>{if(controller.uid!==(user?.id||null))target.tcgCardInspector?.close();social.setUser(user).catch(()=>{});const leagueTask=league.setUser(user);return Promise.all([controller.setUser(user),leagueTask]);};
   view.render();
   let authSubscription;

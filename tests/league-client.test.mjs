@@ -12,3 +12,16 @@ test('competitive banner respects hidden records, earned server selection and es
 test('Realtime wakeups during a read coalesce into one fresh follow-up',async()=>{const first=deferred();let calls=0;const {c}=harness(async()=>{const n=++calls;if(n===1)await first.p;return {data:data('battle',{revision:n,action_locked:n>1})};});const read=c.refresh();c.refresh();c.refresh();first.resolve();await read;await new Promise(r=>setTimeout(r,0));assert.equal(calls,2);assert.equal(c.state.data.match.revision,2);});
 test('snapshot failures back off automatic polling but manual reconnect can recover',async()=>{let calls=0;const {c}=harness(async()=>{calls++;throw Error('network');});await c.refresh();await c.refresh();await c.pulse();assert.equal(calls,1);c.client.rpc=async()=>({data:data('battle')});await c.resume();assert.equal(c.state.phase,'BATTLE');assert.equal(c.failures,0);});
 test('account switches and disposal remove subscriptions/timers without accumulating listeners',async()=>{let created=0,removed=0;const timers=new Set(),client={rpc:async()=>({data:{...data('result'),user_id:'qa'}}),channel:()=>{created++;return {on(){return this;},subscribe(){return this;}};},removeChannel:()=>removed++};const clock={setTimeout,clearTimeout,setInterval:fn=>{timers.add(fn);return fn;},clearInterval:fn=>timers.delete(fn)};const c=new LeagueController({client,clock,storage:null});for(let i=0;i<10;i++){await c.setUser({id:'qa-'+i});assert.equal(timers.size,1);}c.dispose();assert.equal(timers.size,0);assert.equal(created,10);assert.equal(removed,10);await c.refresh();assert.equal(created,10);});
+
+test('failed collection handoff preserves the reload recovery marker until a verified restore',async()=>{
+ const {c,map}=harness(async()=>({data:data('opening')}));c.held=true;map.set('tcg-league-ready:qa','true');let fail=true;
+ c.bridge.finish=async()=>{if(fail)throw Object.assign(Error('Collection sync pending'),{uncertain:true});};
+ await assert.rejects(c.accept(data('opening'),c.epoch),/pending/);assert.equal(map.get('tcg-league-ready:qa'),'true');assert.equal(c.held,true);
+ fail=false;await c.accept(data('opening'),c.epoch);assert.equal(c.held,false);assert.equal(map.has('tcg-league-ready:qa'),false);
+});
+test('same-account auth refresh preserves the visible duel, changing account closes it',async()=>{
+ const {parseHTML}=await import('linkedom');const {installLeague}=await import('../src/league/index.js');const {window,document}=parseHTML('<html><body><div id="tradeHub"></div></body></html>');
+ const api=installLeague({target:window,doc:document,client:null,bridge:{},hubRoot:document.getElementById('tradeHub'),hubView:{render(){}}});
+ await api.setUser({id:'qa'});api.open();assert.equal(api.active(),true);await api.setUser({id:'qa'});assert.equal(api.active(),true);assert.equal(document.getElementById('collectorLeague').hidden,false);
+ await api.setUser(null);assert.equal(api.active(),false);api.dispose();
+});

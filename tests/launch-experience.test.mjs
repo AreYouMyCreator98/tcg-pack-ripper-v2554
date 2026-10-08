@@ -23,7 +23,7 @@ test('first frame is prewarmed before launch completes', () => {
 });
 
 test('service worker cache and launch module are current', () => {
-  assert.match(sw, /0\.262\.0/);
+  assert.ok(sw.includes('tcg-pack-ripper-'+JSON.parse(fs.readFileSync('public/build-info.json','utf8')).version));
   assert.match(sw, /src\/app\/launch-screen\.js/);
   assert.match(sw, /styles\/pack-v254\.css/);
   assert.match(sw, /styles\/trade-hub\.css/);

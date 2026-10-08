@@ -1800,6 +1800,7 @@ try{
       return cloudVersion??storedVersion();
     }catch(e){if(!hubHold)hubBarrier(false);throw e;}
   }
+  let hubFinishTask=null,hubHoldGeneration=0;
   const hubInert=new Map();
   function hubBarrier(on){
     document.documentElement.classList.toggle('hub-transaction-pending',on);
@@ -1810,7 +1811,7 @@ try{
     if(document.documentElement.classList.contains('hub-transaction-pending')&&!e.target.closest?.('#tradeHub,#collectorLeague,.league-launch,.nav,#closeProfileSettingsV158,#closeSettingsShadeV158')){e.preventDefault();e.stopImmediatePropagation();}
   },true);
   function holdHubTransaction(){hubHold=true;clearTimeout(syncTimer);syncTimer=null;hubBarrier(true);}
-  function resetHubTransaction(){hubHold=false;hubBarrier(false);}
+  function resetHubTransaction(){hubHoldGeneration++;hubHold=false;hubBarrier(false);}
   async function syncHubSnapshot(version){
     if(!user||recoveryPending)return;
     if(hubHold){await finishHubTransaction();return;}
@@ -1823,8 +1824,17 @@ try{
   }
   async function finishHubTransaction(){
     if(!hubHold)return;
-    if(!await pullInPlace(false))throw Object.assign(new Error('Collection sync is pending. Reconnect before continuing.'),{uncertain:true});
-    resetHubTransaction();
+    const account=user?.id,generation=hubHoldGeneration;
+    // Resume, polling and receipt recovery may arrive together. Share the pull;
+    // a second pull must not race the first one's UI/save hydration.
+    if(hubFinishTask?.account===account&&hubFinishTask.generation===generation)return hubFinishTask.promise;
+    const task={account,generation};hubFinishTask=task;
+    task.promise=(async()=>{
+      if(!await pullInPlace(false))throw Object.assign(new Error('Collection sync is pending. Reconnect before continuing.'),{uncertain:true});
+      if(user?.id!==account||hubHoldGeneration!==generation)return;
+      resetHubTransaction();
+    })();
+    try{return await task.promise;}finally{if(hubFinishTask===task)hubFinishTask=null;}
   }
   window.tcgCloudV192={beginHubTransaction,holdHubTransaction,finishHubTransaction,resetHubTransaction,syncHubSnapshot,get hubHeld(){return hubHold},push:()=>pushNow(true),pushSilent:()=>pushNow(false),reconcile,pullInPlace,pausePush,requestPasswordReset,get user(){return user},get saveVersion(){return cloudVersion??storedVersion()},get accountPrimary(){return !!user&&!recoveryPending},get recoveryPending(){return recoveryPending},configured,refreshSession};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();

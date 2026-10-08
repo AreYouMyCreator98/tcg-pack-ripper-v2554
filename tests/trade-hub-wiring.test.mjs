@@ -41,3 +41,24 @@ test('startup session restoration holds a saved financial receipt before autosyn
  const source=await read('public/runtime/progression.js');const section=source.slice(source.indexOf('  async function refreshSession(){'),source.indexOf('  async function getRemote(){'));
  let holds=0;const ctx=vm.createContext({sessionState:'restoring',sessionRetry:null,clearTimeout,setTimeout,client:{auth:{getSession:async()=>({data:{session:{user:{id:'A'}}}})}},user:null,setPendingEmail:()=>{},syncUI:()=>{},localStorage:{getItem:key=>key.endsWith(':A')?JSON.stringify({action:'listing_buy',id:'saved-request'}):null},holdHubTransaction:()=>holds++,JSON});vm.runInContext(section,ctx);await ctx.refreshSession();assert.equal(holds,1);assert.equal(ctx.user.id,'A');
 });
+
+test('concurrent resume restorations share one collection pull and keep the hold on failure',async()=>{
+ const source=await read('public/runtime/progression.js');const section=source.slice(source.indexOf('  async function beginHubTransaction(){'),source.indexOf('  window.tcgCloudV192='));
+ const {document}=parseHTML('<html><body><section id="rip" class="screen"></section></body></html>');let resolve,calls=0;
+ const ctx=vm.createContext({document,Map,Date,Number,Promise,Error,Object,clearTimeout,setTimeout,user:{id:'A'},hubHold:false,syncTimer:null,pullInPlace:()=>{calls++;return new Promise(r=>resolve=r);}});vm.runInContext(section,ctx);
+ ctx.holdHubTransaction();const a=ctx.finishHubTransaction(),b=ctx.finishHubTransaction();assert.equal(calls,1);resolve(false);await Promise.all([assert.rejects(a,/pending/),assert.rejects(b,/pending/)]);assert.equal(ctx.hubHold,true);
+ const retry=ctx.finishHubTransaction();assert.equal(calls,2);resolve(true);await retry;assert.equal(ctx.hubHold,false);
+});
+test('a late collection restoration cannot release a newer account transaction hold',async()=>{
+ const source=await read('public/runtime/progression.js');const section=source.slice(source.indexOf('  async function beginHubTransaction(){'),source.indexOf('  window.tcgCloudV192='));
+ const {document}=parseHTML('<html><body></body></html>');const resolves=[];
+ const ctx=vm.createContext({document,Map,Date,Number,Promise,Error,Object,clearTimeout,setTimeout,user:{id:'A'},hubHold:false,syncTimer:null,pullInPlace:()=>new Promise(r=>resolves.push(r))});vm.runInContext(section,ctx);
+ ctx.holdHubTransaction();const a=ctx.finishHubTransaction();ctx.resetHubTransaction();ctx.user={id:'B'};ctx.holdHubTransaction();const b=ctx.finishHubTransaction();resolves[0](true);await a;assert.equal(ctx.hubHold,true);resolves[1](true);await b;assert.equal(ctx.hubHold,false);
+});
+
+test('Draft Duel snapshots cannot finish a Hub-owned pending collection transaction',async()=>{
+ const {window,document}=parseHTML('<html><body><section id="earn"><div class="exchangeV154"></div></section></body></html>');let syncs=0;window.tcgCloudV192={syncHubSnapshot:async()=>syncs++,user:{id:'qa'}};
+ const hub=installTradeHub(window,document);hub.controller.pending={action:'room_ready'};const league=window.tcgLeague.controller;league.uid='qa';
+ const snapshot={version:262,enabled:false,user_id:'qa',profile:{},save_version:2,server_time:new Date().toISOString()};await league.accept(snapshot,league.epoch);assert.equal(syncs,0);
+ hub.controller.pending=null;await league.accept(snapshot,league.epoch);assert.equal(syncs,1);hub.dispose();
+});
