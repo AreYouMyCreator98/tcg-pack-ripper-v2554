@@ -1,0 +1,180 @@
+[
+  {
+    "transport": "real authenticated HTTPS and Realtime via certificate-verified local adapter; real controller/view, Chromium 4x CPU throttle",
+    "art": "fallback path (browser TLS restriction)",
+    "before": [
+      {
+        "copies": 5130,
+        "coins": 2476,
+        "packs": 13
+      },
+      {
+        "copies": 130,
+        "coins": 2476,
+        "packs": 13
+      }
+    ],
+    "after": [
+      {
+        "copies": 5140,
+        "coins": 2468,
+        "packs": 14
+      },
+      {
+        "copies": 140,
+        "coins": 2468,
+        "packs": 14
+      }
+    ],
+    "results": [
+      {
+        "signals": 57,
+        "nodesAtResult": 70,
+        "longTasksMs": [
+          53,
+          53
+        ],
+        "overflow": false,
+        "rp": 26,
+        "turn": 17,
+        "matchId": "61c1df25-e688-4989-b1a2-45557fef2d9f",
+        "result": {
+          "reason": "knockouts",
+          "winner": "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91",
+          "pack_values": {
+            "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1,
+            "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1
+          },
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+            "after": 26,
+            "delta": 22,
+            "before": 4
+          },
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+            "after": 21,
+            "delta": -22,
+            "before": 43
+          }
+        }
+      },
+      {
+        "signals": 57,
+        "nodesAtResult": 70,
+        "longTasksMs": [
+          66,
+          50
+        ],
+        "overflow": false,
+        "rp": 21,
+        "turn": 17,
+        "matchId": "61c1df25-e688-4989-b1a2-45557fef2d9f",
+        "result": {
+          "reason": "knockouts",
+          "winner": "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91",
+          "pack_values": {
+            "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1,
+            "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1
+          },
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+            "after": 26,
+            "delta": 22,
+            "before": 4
+          },
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+            "after": 21,
+            "delta": -22,
+            "before": 43
+          }
+        }
+      }
+    ],
+    "pageErrors": []
+  },
+  {
+    "transport": "real authenticated HTTPS and Realtime via certificate-verified local adapter; real controller/view, Chromium 4x CPU throttle",
+    "art": "verified HTTPS artwork adapter",
+    "before": [
+      {
+        "copies": 5140,
+        "coins": 2468,
+        "packs": 14
+      },
+      {
+        "copies": 140,
+        "coins": 2468,
+        "packs": 14
+      }
+    ],
+    "after": [
+      {
+        "copies": 5150,
+        "coins": 2460,
+        "packs": 15
+      },
+      {
+        "copies": 150,
+        "coins": 2460,
+        "packs": 15
+      }
+    ],
+    "results": [
+      {
+        "signals": 54,
+        "nodesAtResult": 70,
+        "longTasksMs": [
+          57
+        ],
+        "overflow": false,
+        "rp": 6,
+        "turn": 17,
+        "matchId": "f6659df3-be6c-4c15-973b-c3dc6db7bf1b",
+        "result": {
+          "reason": "knockouts",
+          "winner": "cb6bc783-c1f4-4c14-b95a-98a7e61e1682",
+          "pack_values": {
+            "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.47,
+            "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 2.19
+          },
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+            "after": 6,
+            "delta": -20,
+            "before": 26
+          },
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+            "after": 41,
+            "delta": 20,
+            "before": 21
+          }
+        }
+      },
+      {
+        "signals": 57,
+        "nodesAtResult": 70,
+        "longTasksMs": [],
+        "overflow": false,
+        "rp": 41,
+        "turn": 17,
+        "matchId": "f6659df3-be6c-4c15-973b-c3dc6db7bf1b",
+        "result": {
+          "reason": "knockouts",
+          "winner": "cb6bc783-c1f4-4c14-b95a-98a7e61e1682",
+          "pack_values": {
+            "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.47,
+            "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 2.19
+          },
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+            "after": 6,
+            "delta": -20,
+            "before": 26
+          },
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+            "after": 41,
+            "delta": 20,
+            "before": 21
+          }
+        }
+      }
+    ],
+    "pageErrors": []
+  }
+]

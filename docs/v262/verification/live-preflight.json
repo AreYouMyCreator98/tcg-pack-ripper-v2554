@@ -1,0 +1,87 @@
+{
+  "status": "migration reachable; QA allowlist not active for either isolated account",
+  "draftDuelsCompleted": 0,
+  "requiredDraftDuels": 10,
+  "leaguePreflight": [
+    {
+      "account": "QA Hotfix 1",
+      "authenticated": true,
+      "version": 262,
+      "enabled": false,
+      "match": null,
+      "rpc": {
+        "account": "QA Hotfix 1",
+        "action": "snapshot",
+        "ms": 454.7,
+        "bytes": 652
+      }
+    },
+    {
+      "account": "QA Hotfix 2",
+      "authenticated": true,
+      "version": 262,
+      "enabled": false,
+      "match": null,
+      "rpc": {
+        "account": "QA Hotfix 2",
+        "action": "snapshot",
+        "ms": 279.8,
+        "bytes": 652
+      }
+    }
+  ],
+  "existingHubChecks": [
+    {
+      "account": "QA Hotfix 1",
+      "rpc": "hub_command",
+      "ok": true,
+      "rooms": 3,
+      "action": "snapshot",
+      "ms": 2007.1,
+      "bytes": 1410258
+    },
+    {
+      "account": "QA Hotfix 1",
+      "rpc": "hub_battle_update",
+      "ok": true,
+      "rooms": 1,
+      "action": "snapshot",
+      "ms": 283.5,
+      "bytes": 8650
+    },
+    {
+      "account": "QA Hotfix 1",
+      "saveReadable": true,
+      "cardCopies": 5030,
+      "packs": 3
+    },
+    {
+      "account": "QA Hotfix 2",
+      "rpc": "hub_command",
+      "ok": true,
+      "rooms": 3,
+      "action": "snapshot",
+      "ms": 657.6,
+      "bytes": 161435
+    },
+    {
+      "account": "QA Hotfix 2",
+      "rpc": "hub_battle_update",
+      "ok": true,
+      "rooms": 1,
+      "action": "snapshot",
+      "ms": 257.6,
+      "bytes": 8650
+    },
+    {
+      "account": "QA Hotfix 2",
+      "saveReadable": true,
+      "cardCopies": 30,
+      "packs": 3
+    }
+  ],
+  "tests": 323,
+  "releaseCheck": "passed",
+  "timingScope": "HTTPS round-trip, not server-only processing",
+  "mainMerged": false
+}

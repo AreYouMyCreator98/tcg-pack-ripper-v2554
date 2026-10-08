@@ -1,0 +1,439 @@
+{
+  "scope": "authenticated RPC QA; mobile and websocket checks are separate",
+  "matches": [
+    {
+      "match": "ea57d51d-a25b-4d34-a8c4-0341e54344e6",
+      "number": 1,
+      "turns": 19,
+      "seconds": 25.9,
+      "result": {
+        "reason": "knockouts",
+        "winner": "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.8,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 2.43
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 28,
+          "delta": 20,
+          "before": 8
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 0,
+          "delta": -8,
+          "before": 8
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "de27f053-e043-4364-885d-6a3f8ceb5e1a",
+      "number": 2,
+      "turns": 17,
+      "seconds": 24.0,
+      "result": {
+        "reason": "knockouts",
+        "winner": "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.0,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.0
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 46,
+          "delta": 18,
+          "before": 28
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 0,
+          "delta": 0,
+          "before": 0
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "53bc06b0-5c94-44a8-b45c-444a26266007",
+      "number": 3,
+      "turns": 19,
+      "seconds": 27.6,
+      "result": {
+        "reason": "knockouts",
+        "winner": "cb6bc783-c1f4-4c14-b95a-98a7e61e1682",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.38,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.77
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 23,
+          "delta": -23,
+          "before": 46
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 23,
+          "delta": 23,
+          "before": 0
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "1b5afb66-c796-40ba-ae86-c0b1d62789f2",
+      "number": 4,
+      "turns": 16,
+      "seconds": 22.8,
+      "result": {
+        "reason": "knockouts",
+        "winner": "cb6bc783-c1f4-4c14-b95a-98a7e61e1682",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.0,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.0
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 3,
+          "delta": -20,
+          "before": 23
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 43,
+          "delta": 20,
+          "before": 23
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "013934bf-7114-46a6-89b1-f46560f3b057",
+      "number": 5,
+      "turns": 16,
+      "seconds": 23.1,
+      "result": {
+        "reason": "knockouts",
+        "winner": "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.65,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.99
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 25,
+          "delta": 22,
+          "before": 3
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 21,
+          "delta": -22,
+          "before": 43
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "62403d80-f693-4267-b843-5ecc08078efb",
+      "number": 6,
+      "turns": 20,
+      "seconds": 28.0,
+      "result": {
+        "reason": "knockouts",
+        "winner": "cb6bc783-c1f4-4c14-b95a-98a7e61e1682",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.0,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.0
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 5,
+          "delta": -20,
+          "before": 25
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 41,
+          "delta": 20,
+          "before": 21
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "3c25aa5e-8138-4793-b3b2-0576ffc56bd7",
+      "number": 7,
+      "turns": 19,
+      "seconds": 25.7,
+      "result": {
+        "reason": "knockouts",
+        "winner": "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.0,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.0
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 27,
+          "delta": 22,
+          "before": 5
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 19,
+          "delta": -22,
+          "before": 41
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "1e0a7712-090c-4463-b0eb-1de68460ec1a",
+      "number": 8,
+      "turns": 19,
+      "seconds": 37.9,
+      "result": {
+        "reason": "knockouts",
+        "winner": "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 2.63,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 3.45
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 47,
+          "delta": 20,
+          "before": 27
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 0,
+          "delta": -19,
+          "before": 19
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "5f409186-7e10-4d1c-bf27-85f758ce69df",
+      "number": 9,
+      "turns": 20,
+      "seconds": 27.9,
+      "result": {
+        "reason": "turn_limit",
+        "winner": "cb6bc783-c1f4-4c14-b95a-98a7e61e1682",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 2.01,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.58
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 24,
+          "delta": -23,
+          "before": 47
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 23,
+          "delta": 23,
+          "before": 0
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    },
+    {
+      "match": "3f2e2905-d175-462e-af1a-30fc7b80eae1",
+      "number": 10,
+      "turns": 15,
+      "seconds": 21.8,
+      "result": {
+        "reason": "knockouts",
+        "winner": "cb6bc783-c1f4-4c14-b95a-98a7e61e1682",
+        "pack_values": {
+          "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": 1.0,
+          "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": 1.0
+        },
+        "a247f0f3-0a7b-44c4-ac19-6a2f8c03de91": {
+          "after": 4,
+          "delta": -20,
+          "before": 24
+        },
+        "cb6bc783-c1f4-4c14-b95a-98a7e61e1682": {
+          "after": 43,
+          "delta": 20,
+          "before": 23
+        }
+      },
+      "cardsAwarded": [
+        10,
+        10
+      ]
+    }
+  ],
+  "largeCollectionCopies": 5030,
+  "timings": {
+    "cancel": {
+      "count": 10,
+      "medianMs": 213.15,
+      "p95Ms": 216.3,
+      "maxMs": 218.3,
+      "maxBytes": 9337
+    },
+    "draft_confirm": {
+      "count": 20,
+      "medianMs": 213.75,
+      "p95Ms": 223.6,
+      "maxMs": 243.1,
+      "maxBytes": 8547
+    },
+    "queue_join": {
+      "count": 20,
+      "medianMs": 215.65,
+      "p95Ms": 228.7,
+      "maxMs": 229.7,
+      "maxBytes": 9432
+    },
+    "ready": {
+      "count": 20,
+      "medianMs": 430.9,
+      "p95Ms": 729.2,
+      "maxMs": 755.0,
+      "maxBytes": 5625
+    },
+    "reveal": {
+      "count": 50,
+      "medianMs": 227.39999999999998,
+      "p95Ms": 509.5,
+      "maxMs": 575.3,
+      "maxBytes": 5640
+    },
+    "snapshot": {
+      "count": 425,
+      "medianMs": 208.5,
+      "p95Ms": 234.1,
+      "maxMs": 1072.3,
+      "maxBytes": 9337
+    },
+    "tick": {
+      "count": 1,
+      "medianMs": 310.7,
+      "p95Ms": 310.7,
+      "maxMs": 310.7,
+      "maxBytes": 8735
+    },
+    "turn_submit": {
+      "count": 539,
+      "medianMs": 211.7,
+      "p95Ms": 239.8,
+      "maxMs": 558.4,
+      "maxBytes": 9337
+    }
+  },
+  "timingScope": "HTTPS round-trip, not isolated server execution",
+  "realtime": [
+    {
+      "subscribed": true,
+      "signals": [
+        {
+          "revision": 154,
+          "commitToReceiveMs": 290.9,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 153,
+          "commitToReceiveMs": 291.1,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 155,
+          "commitToReceiveMs": 374.8,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 156,
+          "commitToReceiveMs": 274.8,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 157,
+          "commitToReceiveMs": 275.0,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 158,
+          "commitToReceiveMs": 345.4,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 159,
+          "commitToReceiveMs": 241.9,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 160,
+          "commitToReceiveMs": 241.9,
+          "payloadBytes": 492
+        }
+      ],
+      "ok": true
+    },
+    {
+      "subscribed": true,
+      "signals": [
+        {
+          "revision": 324,
+          "commitToReceiveMs": 598.6,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 325,
+          "commitToReceiveMs": 172.7,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 326,
+          "commitToReceiveMs": 279.6,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 327,
+          "commitToReceiveMs": 272.7,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 328,
+          "commitToReceiveMs": 484.7,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 329,
+          "commitToReceiveMs": 277.8,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 330,
+          "commitToReceiveMs": 360.2,
+          "payloadBytes": 492
+        },
+        {
+          "revision": 331,
+          "commitToReceiveMs": 455.5,
+          "payloadBytes": 492
+        }
+      ],
+      "ok": true
+    }
+  ]
+}
