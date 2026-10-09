@@ -1,0 +1,17 @@
+{
+  "completed_matches": 14,
+  "requested_matches": 20,
+  "stop_reason": "User explicitly stopped further AI tests and requested deployment. Subsequent interrupted match is not counted as verified.",
+  "rpc_calls": 1507,
+  "rpc_median_ms": 284.7,
+  "rpc_p95_ms": 356.9,
+  "rpc_max_ms": 5285.1,
+  "queue_min_ms": 7524,
+  "queue_max_ms": 8332,
+  "average_match_seconds": 80.5,
+  "max_payload_bytes": 9465,
+  "automated_tests_passed": 359,
+  "release_check": "passed",
+  "physical_device_tests": "not performed",
+  "concurrent_live_human_ai_race": "not performed; local serialization/cancellation tests passed"
+}

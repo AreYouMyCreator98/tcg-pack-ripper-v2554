@@ -1,0 +1,342 @@
+{
+  "engine": "Chromium",
+  "kind": "isolated UI fixtures; not live QA",
+  "results": [
+    {
+      "width": 360,
+      "height": 800,
+      "colorScheme": "dark",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 67.25
+        },
+        {
+          "height": 56.375,
+          "width": 67.25
+        },
+        {
+          "height": 56.375,
+          "width": 67.25
+        },
+        {
+          "height": 56.375,
+          "width": 67.25
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "colorScheme": "light",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 67.25
+        },
+        {
+          "height": 56.375,
+          "width": 67.25
+        },
+        {
+          "height": 56.375,
+          "width": 67.25
+        },
+        {
+          "height": 56.375,
+          "width": 67.25
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "colorScheme": "dark",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 74.75
+        },
+        {
+          "height": 56.375,
+          "width": 74.75
+        },
+        {
+          "height": 56.375,
+          "width": 74.75
+        },
+        {
+          "height": 56.375,
+          "width": 74.75
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "colorScheme": "light",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 74.75
+        },
+        {
+          "height": 56.375,
+          "width": 74.75
+        },
+        {
+          "height": 56.375,
+          "width": 74.75
+        },
+        {
+          "height": 56.375,
+          "width": 74.75
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "colorScheme": "dark",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 75.5
+        },
+        {
+          "height": 56.375,
+          "width": 75.5
+        },
+        {
+          "height": 56.375,
+          "width": 75.5
+        },
+        {
+          "height": 56.375,
+          "width": 75.5
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "colorScheme": "light",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 75.5
+        },
+        {
+          "height": 56.375,
+          "width": 75.5
+        },
+        {
+          "height": 56.375,
+          "width": 75.5
+        },
+        {
+          "height": 56.375,
+          "width": 75.5
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "colorScheme": "dark",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 80.0625
+        },
+        {
+          "height": 56.375,
+          "width": 80.078125
+        },
+        {
+          "height": 56.375,
+          "width": 80.0625
+        },
+        {
+          "height": 56.375,
+          "width": 80.078125
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "colorScheme": "light",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 80.0625
+        },
+        {
+          "height": 56.375,
+          "width": 80.078125
+        },
+        {
+          "height": 56.375,
+          "width": 80.0625
+        },
+        {
+          "height": 56.375,
+          "width": 80.078125
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "colorScheme": "dark",
+      "buttons": [
+        {
+          "height": 44,
+          "width": 84.296875
+        },
+        {
+          "height": 44,
+          "width": 84.3125
+        },
+        {
+          "height": 44,
+          "width": 84.296875
+        },
+        {
+          "height": 44,
+          "width": 84.3125
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "colorScheme": "light",
+      "buttons": [
+        {
+          "height": 44,
+          "width": 84.296875
+        },
+        {
+          "height": 44,
+          "width": 84.3125
+        },
+        {
+          "height": 44,
+          "width": 84.296875
+        },
+        {
+          "height": 44,
+          "width": 84.3125
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "colorScheme": "dark",
+      "buttons": [
+        {
+          "height": 44,
+          "width": 163.234375
+        },
+        {
+          "height": 44,
+          "width": 163.234375
+        },
+        {
+          "height": 44,
+          "width": 163.234375
+        },
+        {
+          "height": 44,
+          "width": 163.234375
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "colorScheme": "light",
+      "buttons": [
+        {
+          "height": 44,
+          "width": 163.234375
+        },
+        {
+          "height": 44,
+          "width": 163.234375
+        },
+        {
+          "height": 44,
+          "width": 163.234375
+        },
+        {
+          "height": 44,
+          "width": 163.234375
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "colorScheme": "dark",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 81.75
+        },
+        {
+          "height": 56.375,
+          "width": 81.75
+        },
+        {
+          "height": 56.375,
+          "width": 81.75
+        },
+        {
+          "height": 56.375,
+          "width": 81.75
+        }
+      ],
+      "nodes": 82
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "colorScheme": "light",
+      "buttons": [
+        {
+          "height": 56.375,
+          "width": 81.75
+        },
+        {
+          "height": 56.375,
+          "width": 81.75
+        },
+        {
+          "height": 56.375,
+          "width": 81.75
+        },
+        {
+          "height": 56.375,
+          "width": 81.75
+        }
+      ],
+      "nodes": 82
+    }
+  ]
+}

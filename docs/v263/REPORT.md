@@ -1,13 +1,26 @@
-# V263 review-branch report
+# V263 implementation and verification report
 
-**Status: implemented for review; NOT publicly enabled or merged.**
-**Authenticated live AI matches: 0 / 20 — blocked pending reviewed SQL installation.**
-No production data, migration or feature flag was changed during this task.
+**Status: user authorized deployment after stopping further AI tests.**
+**Authenticated full live AI matches: 14 passed; the 20-match gate was explicitly waived.**
+Migration and independent one-second pg_cron scheduler are installed in production.
+Public AI activation is separately controlled; see ROLLOUT-STATUS.md for deployment status.
+
+## Latest live verification
+
+- All 14 completed matches passed pack/cash/card-count checks, all four action types, reveal bounds, authentication refresh/reconnect, retry idempotency and expected RP settlement, including a human win.
+- No further AI matches are being run. An interrupted later match is not counted as fully verified. Both QA accounts were confirmed idle afterward.
+- Human-only search is configured at 3 seconds and fallback at 7 seconds. Measured queue response: 7.524–8.332 seconds including network/poll cadence. Average full match: 80.5 seconds.
+- RPC median 284.7 ms, p95 356.9 ms; maximum 5,285.1 ms on one turn submission. These are end-to-end timings, not server compute. The outlier's cause is unconfirmed.
+- Worker heartbeat advances independently, recent cron runs succeeded, zero worker errors at checks. Browser roles cannot execute the private worker directly.
+- Both authenticated Realtime subscriptions joined successfully and received live League signals (23 and 10 during the observation window).
+- Fresh automated suite: 359/359 passed; release:check and production smoke passed. Fourteen additional Chromium mobile/desktop layout/input cases passed.
+- Physical Android/Safari timing and a truly concurrent live human/AI queue race are not certified. Existing resume handlers and human-priority locks are retained; local tests pass.
+- `ENABLE-PRODUCTION-APPROVED.sql` is the user-authorized activation alternative to the standard 20-match gate. It still requires healthy cron, a fresh heartbeat and enabled public League. No Stakes or player-save mutation.
 
 ## Source changes
 
 - 20 persistent, private AI collectors, stable names/initials avatars, existing competitive banners and verified private AI rank history. No login accounts, fake badges or social profiles.
-- Human-only near-RP search for 3 seconds, then wider search; fallback threshold 7 seconds, with existing 1.5-second client queue tick. Expected 7–9 seconds plus network time, **not yet live-measured**.
+- Human-only near-RP search for 3 seconds, then wider search; fallback threshold 7 seconds, with existing 1.5-second client queue tick. Measured 7.524–8.332 seconds including network/poll cadence.
 - Existing queue transaction lock protects human selection/cancel. AI rechecks eligible humans before insertion. Local both-order/cancel/idempotency checks pass; genuinely concurrent live races still need QA.
 - Prefer AI within 200 RP, widen to 400; Grandmaster may widen farther to Master+ only. Avoid the last five opponents where suitable alternatives exist; relax within the RP band when necessary.
 - AI skill derives from persistent rating: Bronze .24, Silver .42, Gold .60, Platinum .75, Diamond .86, Master .92, Grandmaster .96.
@@ -32,7 +45,7 @@ No production data, migration or feature flag was changed during this task.
 | master | 200 | 52.50 | 15.61 | 62.05 | 200 | 9.005 | 0.225 | 3.081 |
 | apex | 200 | 48.00 | 15.41 | 62.42 | -160 | 7.778 | 0.192 | 2.700 |
 
-Timings are local PGlite PostgreSQL/WASM averages, excluding artificial reaction delays, network and human decision time. See `simulation-results.json` for the exact migration SHA-256, action distribution and maximum draft timings. Wall-clock match length remains unmeasured until live QA; ~15 turns is the measured result. Initial unpaired run is retained separately and had Gold 44.5% / Diamond 56%; the paired protocol controls seat/pool variance rather than tuning to those samples.
+Timings are local PGlite PostgreSQL/WASM averages, excluding artificial reaction delays, network and human decision time. See `simulation-results.json` for the exact migration SHA-256, action distribution and maximum draft timings. Live QA averaged 80.5 seconds per full match; simulation averaged about 15 turns. Initial unpaired run is retained separately and had Gold 44.5% / Diamond 56%; the paired protocol controls seat/pool variance rather than tuning to those samples.
 
 ## Verification
 
@@ -46,7 +59,7 @@ Timings are local PGlite PostgreSQL/WASM averages, excluding artificial reaction
 
 ## Live compatibility check
 
-The production Hub uses a SECURITY INVOKER wrapper with an explicit authenticated grant on `hub_private.command`. V263 now revokes access only to its new AI objects, preserving that existing grant. A regression test exercises the exact live wrapper pattern. The migration remains unapplied because administrative queries execute as `supabase_read_only_user`; its CREATE TABLE transaction was rejected and rolled back. The earlier simulation still covers the unchanged AI engine; its recorded whole-file hash predates this privilege-only correction.
+The production Hub uses a SECURITY INVOKER wrapper with an explicit authenticated grant on `hub_private.command`. V263 now revokes access only to its new AI objects, preserving that existing grant. A regression test exercises the exact live wrapper pattern. The user subsequently installed the migration through SQL Editor because the Management API binding remains read-only. The earlier simulation still covers the unchanged AI engine; its recorded whole-file hash predates this privilege-only correction.
 
 ## SQL review/application order
 
@@ -57,15 +70,15 @@ The production Hub uses a SECURITY INVOKER wrapper with an explicit authenticate
 
 5. After every live gate passes, run `docs/v263/ENABLE-PRODUCTION.sql`; it requires a healthy one-second scheduler and at least twenty completed isolated QA matches before enabling the seven-second fallback. Then run `VERIFY-PRODUCTION.sql` twice to confirm an advancing heartbeat.
 
-**Do not enable public AI until all live gates pass.** `ROLLBACK.sql` disables public and QA fallback without dropping data or interrupting human Ranked. Keep scheduler running for already-started AI matches.
+The user subsequently waived the remaining live-match gate and requested deployment; use the explicit approved activation script for this rollout. `ROLLBACK.sql` disables public and QA fallback without dropping data or interrupting human Ranked. Keep scheduler running for already-started AI matches.
 
 ## Remaining gates / known limitations
 
-- SQL not yet applied; pg_cron availability/permissions and actual cadence unverified.
-- **0/20 authenticated matches**, actual Realtime delivery, concurrent queue races, physical Android/Safari backgrounding and mobile frame performance remain unverified.
+- Public activation still requires the SQL Editor step while Management API access remains read-only.
+- **14 full authenticated matches passed**; Realtime delivery passed. Concurrent live queue races and physical Android/Safari backgrounding/frame performance remain unverified.
 - Pure self-play cannot establish human-equivalent skill. Beginner usability and high-rank farming need live calibration.
 - Finite persistent roster can drift out of a lower-rank RP band over time. Admission retains human search if no appropriate AI is eligible; monitor/tune roster coverage before claiming an unconditional always-available guarantee.
 - Worker is single-job, bounded throughput. Sustained concurrent load/production compute targets need measurement; existing timeouts remain recovery fallback.
 - Initials-based avatars reuse current renderer. No new AI creature/profile artwork or unrelated system changes.
 
-Recommended next step: review/apply the migration, scheduler and QA-only setup, then run live QA before any merge/public rollout.
+Recommended next step: deploy the user-approved release, apply the approved activation SQL, and verify the production flag. Monitor latency outliers and roster coverage.

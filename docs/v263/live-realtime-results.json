@@ -1,0 +1,14 @@
+[
+  {
+    "account": "QA Hotfix 1",
+    "joined": true,
+    "subscription_authorized": true,
+    "signals_received": 23
+  },
+  {
+    "account": "QA Hotfix 2",
+    "joined": true,
+    "subscription_authorized": true,
+    "signals_received": 10
+  }
+]
