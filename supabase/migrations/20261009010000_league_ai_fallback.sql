@@ -505,8 +505,23 @@ begin
  end if;
  return result;
 end $$;
-revoke all on all tables in schema hub_private from public,anon,authenticated;
-revoke all on all functions in schema hub_private from public,anon,authenticated;
+-- Preserve existing Hub RPC grants: some deployed wrappers are SECURITY INVOKER.
+revoke all on hub_private.league_ai_config,hub_private.league_ai_profiles,hub_private.league_ai_history from public,anon,authenticated;
+revoke all on function hub_private.league_ai_rank(integer) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_skill(integer) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_delay(integer) from public,anon,authenticated;
+revoke all on function hub_private.league_search_window(numeric) from public,anon,authenticated;
+revoke all on function hub_private.league_command_core(text,jsonb,uuid) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_draft(jsonb,numeric) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_observation(jsonb,text,integer,jsonb) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_action(jsonb,numeric,text) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_ready(uuid) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_settle(uuid,uuid,text) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_try_match(uuid) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_schedule() from public,anon,authenticated;
+revoke all on function hub_private.league_ai_validate_action(jsonb,jsonb) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_step(uuid) from public,anon,authenticated;
+revoke all on function hub_private.league_ai_worker() from public,anon,authenticated;
 revoke all on function public.league_command(text,jsonb,uuid) from public,anon;
 grant execute on function public.league_command(text,jsonb,uuid) to authenticated;
 revoke all on function public.league_identity_art(uuid) from public,anon;

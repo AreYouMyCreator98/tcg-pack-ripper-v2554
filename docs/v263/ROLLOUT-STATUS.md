@@ -8,19 +8,21 @@ Production has **not** been updated by this rollout attempt. Live `build-info.js
 - Existing frontend resumes League on `visibilitychange`, `pageshow` and network `online`, fetching the authoritative snapshot. Those mobile timers/handlers were not changed.
 - Reviewed backend retains human-priority queue transaction locks and durable action/reward idempotency; local regression tests pass.
 - Production activation SQL is prepared and tested: refuses activation without a healthy scheduler and twenty completed QA AI matches, then sets server-configurable 3-second initial human search / 7-second AI fallback.
-- Fresh full automated suite and `pnpm run release:check`: 358 passed, zero failed; production smoke passed.
+- Fresh full automated suite and `pnpm run release:check`: 359 passed, zero failed; production smoke passed.
 
 ## Blocked production operations
 
-No Supabase management access token or database connection credential is available in this environment. The available service-role API key is not a SQL-management credential. No cached CLI access token or linked database connection was found. `api.supabase.com` is blocked by the environment network proxy (CONNECT 403). GitHub repository secret-list access also returns 403; existing GitHub source/deploy access remains available.
+The management token and network access now work. However, the Management API executes queries as `supabase_read_only_user` (`session_user` is also that role), with transaction read-only enabled even when `read_only:false` is explicitly requested using the documented API field. Supabase rejected the V263 migration with SQLSTATE 25006: cannot execute CREATE TABLE in a read-only transaction.
 
-Consequently, migration application, scheduler installation/heartbeat verification, 20 live AI matches, production flag activation, main merge and Pages deployment remain pending. None is reported as completed.
+The transaction rolled back: `hub_private.league_ai_config` remains absent. Verification before/after: 13 save rows, 14 League matches, aggregate human RP 916. No pack was opened in the cancelled isolated QA queue probe. No migration, scheduler or public AI enablement was completed.
 
-The live Hub snapshot omits `stakes_enabled`; a read-only snapshot with a zero-valued stake field was accepted, so that call does not establish an explicit Stakes guard. No Stakes feature, Casual mode or player data was modified. Confirm the backend guard through administrative SQL before claiming a production OFF flag.
+Both existing QA accounts have fresh temporary administrative magic-link sessions; no email was sent and their passwords were not changed. Session material remains outside Git and is never printed.
+
+The live Hub wrapper differs from the fixture: it retains a grant to its private command. The migration now preserves that grant and restricts only newly added AI objects; a regression test passes against that exact wrapper pattern. No other live system was changed.
 
 ## Resume
 
-Preferred: provide `SUPABASE_ACCESS_TOKEN` securely in environment settings and allow `api.supabase.com`. Do not paste secrets in chat. A supported direct database credential is another administrative option.
+Required: use a Supabase account/token with database-write access for this project, replacing the existing secure `SUPABASE_ACCESS_TOKEN` binding if necessary. Network access is now working and needs no duplicate request. Do not paste tokens in chat. A supported administrative database connection or manual SQL Editor application is another option.
 
 Manual alternative, in order:
 

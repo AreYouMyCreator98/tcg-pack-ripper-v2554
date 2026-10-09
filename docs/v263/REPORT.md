@@ -36,13 +36,17 @@ Timings are local PGlite PostgreSQL/WASM averages, excluding artificial reaction
 
 ## Verification
 
-- Full automated suite: **358 passing, zero failures**; includes 10 new AI database/activation tests.
+- Full automated suite: **359 passing, zero failures**; includes 11 new AI database/activation tests.
 - `pnpm run release:check`: **PASS**, including static and production smoke.
 - Human-vs-human completes on extended schema with original settlement; no AI history created.
 - AI full flow, paced revealed-card bounds, legal budget, hidden-action independence, illegal-action rejection, stale scheduler, idle/background worker progress, cancellation, repeated ready/result requests, permanent RP highs and transparent modifier checks pass locally.
 - 10,000-entry collection snapshot: about **6.5 KB**; no collection rows in payload. `EXPLAIN ANALYZE` selects the new partial due-work index with 2,000 historical rooms.
 - Chromium isolated layouts: all five match phases at **360×800, 390×844, 412×915, 430×932**; AI disclosure present, no horizontal overflow.
 - Existing account isolation, recovery and pricing regression tests pass. No saves or ownership migrated.
+
+## Live compatibility check
+
+The production Hub uses a SECURITY INVOKER wrapper with an explicit authenticated grant on `hub_private.command`. V263 now revokes access only to its new AI objects, preserving that existing grant. A regression test exercises the exact live wrapper pattern. The migration remains unapplied because administrative queries execute as `supabase_read_only_user`; its CREATE TABLE transaction was rejected and rolled back. The earlier simulation still covers the unchanged AI engine; its recorded whole-file hash predates this privilege-only correction.
 
 ## SQL review/application order
 
