@@ -1,0 +1,7 @@
+{
+  "environment": "Local Chromium with isolated synthetic League snapshots; not a physical Android or Safari test",
+  "viewports": ["360x800", "390x844", "412x915", "430x932"],
+  "phases": ["clash", "opening", "draft", "battle", "result"],
+  "checks": {"horizontal_overflow": false, "ai_disclosure_visible_every_phase": true},
+  "pending": ["physical Android responsiveness", "Safari", "authenticated Realtime", "network switching and background resume"]
+}

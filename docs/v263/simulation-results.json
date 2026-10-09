@@ -1,0 +1,133 @@
+{
+  "migration_sha256": "d7c580bcf2e2e5b6f113d6f0c9060622d040a72fa12e0fc0a17949ed9b504113",
+  "generated": "2026-10-09T00:11:13.364Z",
+  "environment": "Local PGlite PostgreSQL WASM; not production server or human skill calibration",
+  "matches": 1400,
+  "reference": "Same-rank heuristic self-play, paired swapped seats with identical packs and per-player decision seeds, representative live catalog metadata, no real players. Win rate measures symmetry, not human difficulty.",
+  "elapsed_ms": 111384,
+  "ranks": [
+    {
+      "rank": "apex",
+      "matches": 200,
+      "wins": 96,
+      "draws": 0,
+      "score_percent": "48.00",
+      "average_turns": "15.41",
+      "draft_cost": "62.42",
+      "advantage_attacks": "1.68",
+      "rp_movement": -160,
+      "draft_ms": "7.778",
+      "draft_max_ms": "18.500",
+      "decision_ms": "0.192",
+      "resolve_ms": "2.700"
+    },
+    {
+      "rank": "platinum",
+      "matches": 200,
+      "wins": 103,
+      "draws": 0,
+      "score_percent": "51.50",
+      "average_turns": "15.22",
+      "draft_cost": "63.55",
+      "advantage_attacks": "1.19",
+      "rp_movement": 120,
+      "draft_ms": "10.780",
+      "draft_max_ms": "33.500",
+      "decision_ms": "0.267",
+      "resolve_ms": "3.112"
+    },
+    {
+      "rank": "gold",
+      "matches": 200,
+      "wins": 100,
+      "draws": 0,
+      "score_percent": "50.00",
+      "average_turns": "15.08",
+      "draft_cost": "62.68",
+      "advantage_attacks": "1.48",
+      "rp_movement": 0,
+      "draft_ms": "8.933",
+      "draft_max_ms": "23.500",
+      "decision_ms": "0.212",
+      "resolve_ms": "2.328"
+    },
+    {
+      "rank": "silver",
+      "matches": 200,
+      "wins": 104,
+      "draws": 0,
+      "score_percent": "52.00",
+      "average_turns": "15.13",
+      "draft_cost": "62.90",
+      "advantage_attacks": "1.17",
+      "rp_movement": 160,
+      "draft_ms": "7.628",
+      "draft_max_ms": "14.000",
+      "decision_ms": "0.190",
+      "resolve_ms": "1.837"
+    },
+    {
+      "rank": "master",
+      "matches": 200,
+      "wins": 105,
+      "draws": 0,
+      "score_percent": "52.50",
+      "average_turns": "15.61",
+      "draft_cost": "62.05",
+      "advantage_attacks": "1.63",
+      "rp_movement": 200,
+      "draft_ms": "9.005",
+      "draft_max_ms": "26.000",
+      "decision_ms": "0.225",
+      "resolve_ms": "3.081"
+    },
+    {
+      "rank": "bronze",
+      "matches": 200,
+      "wins": 101,
+      "draws": 0,
+      "score_percent": "50.50",
+      "average_turns": "15.23",
+      "draft_cost": "63.13",
+      "advantage_attacks": "1.36",
+      "rp_movement": 40,
+      "draft_ms": "7.710",
+      "draft_max_ms": "13.500",
+      "decision_ms": "0.199",
+      "resolve_ms": "1.690"
+    },
+    {
+      "rank": "diamond",
+      "matches": 200,
+      "wins": 104,
+      "draws": 0,
+      "score_percent": "52.00",
+      "average_turns": "15.40",
+      "draft_cost": "61.67",
+      "advantage_attacks": "1.44",
+      "rp_movement": 160,
+      "draft_ms": "10.210",
+      "draft_max_ms": "26.000",
+      "decision_ms": "0.248",
+      "resolve_ms": "3.165"
+    }
+  ],
+  "actions": [
+    {
+      "action": "ability",
+      "count": 4555
+    },
+    {
+      "action": "attack",
+      "count": 15837
+    },
+    {
+      "action": "defend",
+      "count": 786
+    },
+    {
+      "action": "swap",
+      "count": 234
+    }
+  ]
+}

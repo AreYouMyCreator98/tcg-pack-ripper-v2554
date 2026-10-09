@@ -16,7 +16,7 @@ export class LeagueController {
   else if(this.held){await this.bridge.finish?.(true);if(epoch===this.epoch){this.held=false;try{this.storage?.removeItem('tcg-league-ready:'+this.uid);}catch{}}}
   else await this.bridge.sync?.(data.save_version);
  }
- loadArt(data,epoch){for(const p of [data.match?.host_profile,data.match?.guest_profile]){const id=p?.user_id;if(!id||this.art.has(id))continue;this.art.set(id,null);this.client.rpc('league_identity_art',{p_user_id:id}).then(({data:art,error})=>{if(epoch!==this.epoch)return;if(!error){this.art.set(id,art?.avatar||'');if(this.art.size>8)this.art.delete(this.art.keys().next().value);this.emit();}}).catch(()=>{});}}
+ loadArt(data,epoch){for(const p of [data.match?.host_profile,data.match?.guest_profile]){const id=p?.user_id;if(!id||this.art.has(id))continue;if(p.ai_collector){this.art.set(id,p.avatar||'');continue;}this.art.set(id,null);this.client.rpc('league_identity_art',{p_user_id:id}).then(({data:art,error})=>{if(epoch!==this.epoch)return;if(!error){this.art.set(id,art?.avatar||'');if(this.art.size>8)this.art.delete(this.art.keys().next().value);this.emit();}}).catch(()=>{});}}
  async setUser(user){if(this.disposed)return;const uid=user?.id||null;if(uid===this.uid)return;if(this.uid)this.bridge.reset?.();this.disconnect();const epoch=++this.epoch;this.uid=uid;this.pending=null;this.held=false;this.revealTarget=0;this.art.clear();this.lastIdentity=null;this.emit({data:null,error:'',phase:'IDLE',busy:false});if(!uid||!this.client)return;
   try{this.pending=JSON.parse(this.storage?.getItem(this.key())||'null');}catch{}
   let held=false;try{held=this.storage?.getItem('tcg-league-ready:'+uid)==='true';}catch{}
