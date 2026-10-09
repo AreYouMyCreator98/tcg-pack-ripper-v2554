@@ -341,3 +341,21 @@ html#collectorTheme#collectorTheme.theme-v261 body .gradingHeroV147 {
   html#collectorTheme#collectorTheme.theme-v261 body :is(#rip,#binder,#earn,#profile)::before,
   html#collectorTheme#collectorTheme.theme-v261 body .specialHeroV198::after { display: none !important; }
 }
+
+/* V263.1: pair legacy Hub surfaces with the collector ink in either OS mode. */
+html#collectorTheme#collectorTheme.theme-v261 body :is(.hub-rank-hero,.hub-notice,.hub-match-alert,.hub-offers section,.hub-messages,.hub-select-card,.hub-reveal,.hub-trackers>div){background:var(--surface)!important;color:var(--text-primary)!important;border-color:var(--metal-1)!important;box-shadow:var(--shadow-soft)!important}
+html#collectorTheme#collectorTheme.theme-v261 body :is(.hub-ladder li.active,.hub-leaderboard .you){background:var(--surface-raised)!important;color:var(--text-primary)!important;border-color:var(--accent-warm)!important}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-trackers dt{color:var(--text-secondary)!important}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-trackers dd{color:var(--text-primary)!important}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-rank-hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(12px,3vw,24px);padding:clamp(16px,4vw,32px)}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-rank-hero>div:first-child{min-width:0;overflow-wrap:anywhere}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-rank-portrait{margin:12px;justify-self:center;align-self:center}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-leaderboard{table-layout:fixed}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-leaderboard :is(th,td){padding:12px 6px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-leaderboard :is(th,td):first-child{width:13%}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-leaderboard :is(th,td):nth-child(3){width:17%;text-align:right}
+html#collectorTheme#collectorTheme.theme-v261 body .hub-leaderboard :is(th,td):last-child{width:24%;text-align:right}
+html#collectorTheme#collectorTheme.theme-v261 body .trade-hub progress{appearance:none;overflow:hidden;background:var(--surface-raised);border-radius:8px}
+html#collectorTheme#collectorTheme.theme-v261 body .trade-hub progress::-webkit-progress-bar{background:var(--surface-raised);border-radius:8px}
+html#collectorTheme#collectorTheme.theme-v261 body .trade-hub progress::-webkit-progress-value{background:var(--accent-warm);border-radius:8px}
+html#collectorTheme#collectorTheme.theme-v261 body .trade-hub progress::-moz-progress-bar{background:var(--accent-warm);border-radius:8px}
