@@ -36,7 +36,7 @@ Timings are local PGlite PostgreSQL/WASM averages, excluding artificial reaction
 
 ## Verification
 
-- Full automated suite: **357 passing, zero failures**; includes 9 new AI database tests.
+- Full automated suite: **358 passing, zero failures**; includes 10 new AI database/activation tests.
 - `pnpm run release:check`: **PASS**, including static and production smoke.
 - Human-vs-human completes on extended schema with original settlement; no AI history created.
 - AI full flow, paced revealed-card bounds, legal budget, hidden-action independence, illegal-action rejection, stale scheduler, idle/background worker progress, cancellation, repeated ready/result requests, permanent RP highs and transparent modifier checks pass locally.
@@ -50,6 +50,8 @@ Timings are local PGlite PostgreSQL/WASM averages, excluding artificial reaction
 2. `docs/v263/INSTALL-SCHEDULER.sql` — separately installs/updates named one-second pg_cron job. Requires supported Supabase pg_cron. No public enablement.
 3. `docs/v263/ENABLE-QA-ONLY.sql` — only the two previously authorized isolated QA IDs; does not enable public AI.
 4. Run `LEAGUE_QA_CREDENTIALS=<private-file> python scripts/verify-league-ai-live.py` using existing server-side environment credentials. Requires accounts idle; refuses to play an unexpected human match. Completes twenty real matches and records timing, reveal samples, reconnect, save/RP integrity, idempotency. Physical browser/Realtime checks are separate.
+
+5. After every live gate passes, run `docs/v263/ENABLE-PRODUCTION.sql`; it requires a healthy one-second scheduler and at least twenty completed isolated QA matches before enabling the seven-second fallback. Then run `VERIFY-PRODUCTION.sql` twice to confirm an advancing heartbeat.
 
 **Do not enable public AI until all live gates pass.** `ROLLBACK.sql` disables public and QA fallback without dropping data or interrupting human Ranked. Keep scheduler running for already-started AI matches.
 
