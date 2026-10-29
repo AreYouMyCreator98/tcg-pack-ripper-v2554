@@ -116,3 +116,40 @@ test('new expansion catalogs are loaded on demand instead of congesting install 
   assert.doesNotMatch(generator, /newSets\.flatMap|\.\.\.extras/);
   assert.match(fs.readFileSync('public/runtime/core.js', 'utf8'), /id:'base1'/);
 });
+
+test('market rotation never enters a hydration-render microtask loop on local V264 cards or failed remote hydration', async () => {
+  const source = fs.readFileSync('public/runtime/progression.js', 'utf8');
+  const from = source.indexOf('  const marketHydratingV188=new Set();');
+  const to = source.indexOf('  /* NPC collector trading receives', from);
+  assert.ok(from >= 0 && to > from, 'marketplace hydration needs a testable implementation');
+  const cards = [
+    { id: 'me05-001', setId: 'me05', rarity: 'Ultra Rare' },
+    { id: 'sv01-001', setId: 'sv01', rarity: 'Ultra Rare' }
+  ];
+  let hydrateCalls = 0;
+  let marketRenders = 0;
+  const context = vm.createContext({
+    Date, Number, String, Math, Set, Map,
+    window: { getAcquisitionPoolV188: () => cards },
+    state: { gameClockV170: { anchorReal: Date.now(), dayLengthMs: 3600000 } },
+    tier: () => 3,
+    V264_SET_IDS: new Set(['me05']),
+    detailCache: {},
+    hydrateCard: async () => { hydrateCalls++; },
+    renderMarketBuyV58: () => { marketRenders++; context.marketCandidatesV58(); },
+    marketCandidatesV58: () => []
+  });
+  vm.runInContext(source.slice(from, to), context);
+  assert.equal(context.marketCandidatesV58().length, 2);
+  await new Promise(resolve => setTimeout(resolve, 10));
+  assert.equal(hydrateCalls, 1, 'bundled local cards must not be fetched again');
+  assert.equal(marketRenders, 1, 'a remote cache miss must not cause immediate recursive rendering');
+  context.marketCandidatesV58();
+  assert.equal(hydrateCalls, 1, 'failed remote metadata has a bounded retry interval');
+});
+
+test('background catalogue prefetch cannot start a render cascade during boot', () => {
+  const progression = fs.readFileSync('public/runtime/progression.js', 'utf8');
+  assert.doesNotMatch(progression, /setTimeout\(\(\)=>\{try\{window\.primeUnlockedCatalogV188\?\.\(true\)/);
+  assert.match(progression, /if\(earn\.classList\.contains\('active'\)\)primeUnlockedCatalogV188\(\)/);
+});
