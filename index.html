@@ -42,7 +42,6 @@
     // application caches never removes localStorage, IndexedDB or account saves.
     (function () {
       const appScope = new URL('./', document.baseURI).href;
-      const directRepair = new URL(location.href).searchParams.get('repair') === '1';
       let repairing = false;
       const show = () => {
         const screen = document.getElementById('tcgLaunch');
@@ -62,29 +61,23 @@
         if (navigator.onLine !== false) {
           // Scope deletion to this game's generated caches and worker only.
           const cleanup = (async () => {
-            const jobs = [];
-            if ('caches' in window) jobs.push((async () => {
+            if ('caches' in window) {
               const keys = await caches.keys();
               await Promise.allSettled(keys.filter(key => key.startsWith('tcg-pack-ripper-')).map(key => caches.delete(key)));
-            })());
-            if ('serviceWorker' in navigator) jobs.push((async () => {
+            }
+            if ('serviceWorker' in navigator) {
               const registration = await navigator.serviceWorker.getRegistration(appScope);
               if (registration?.scope === appScope) await registration.unregister();
-            })());
-            await Promise.allSettled(jobs);
+            }
           })();
           await Promise.race([cleanup.catch(() => {}), new Promise(resolve => setTimeout(resolve, 5000))]);
         }
         const fresh = new URL(location.href);
-        fresh.searchParams.delete('repair');
         fresh.searchParams.set('boot-refresh', String(Date.now()));
         location.replace(fresh.href);
       };
       const watchdog = setTimeout(show, 30000);
       window.TCG_BOOT_RECOVERY = { show, repair, done: () => clearTimeout(watchdog) };
-      // A direct, bookmarkable rescue URL works even if the app module cannot
-      // load far enough to display its recovery button.
-      if (directRepair) repair();
     })();
   </script>
   <script defer src="./runtime/supabase.js"></script>
@@ -122,6 +115,6 @@
       </footer>
     </div>
   </div>
-  <script type="module" src="./src/main.js?v=2642"></script>
+  <script type="module" src="./src/main.js?v=2641"></script>
 </body>
 </html>
