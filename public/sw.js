@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.264.5-first-frame1';
+const VERSION = 'tcg-pack-ripper-0.264.6-mobile-freeze1';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));
@@ -23,13 +23,20 @@ const CORE = ['./src/league/index.js','./src/league/controller.js','./src/league
 // V264.3: extra expansion catalogs and pack art load when opened rather than
 // competing with critical startup scripts during initial PWA installation.
 
-// Do not flood a mobile connection with 200+ simultaneous precache requests;
-// doing so previously competed with the game's critical startup chunks.
+// Only the offline landing shell is installed up front. Every successfully
+// visited JS/CSS/HTML resource is cached by the network-first fetch handler.
+// Preloading the full CORE list with every release repeated hundreds of
+// downloads and CacheStorage writes while Android was loading/animating.
+const INSTALL_SHELL = [
+  './', './index.html', './styles/launch-cinematic.css',
+  './assets/theme/smoke-gold.webp', './assets/theme/smoke-ghost.webp',
+  './assets/theme/smoke-vortex.webp', './assets/packs/sv04.5.webp'
+];
 async function precacheCore(cache) {
   let next = 0;
-  await Promise.all(Array.from({ length: Math.min(6, CORE.length) }, async () => {
-    while (next < CORE.length) {
-      const url = CORE[next++];
+  await Promise.all(Array.from({ length: Math.min(2, INSTALL_SHELL.length) }, async () => {
+    while (next < INSTALL_SHELL.length) {
+      const url = INSTALL_SHELL[next++];
       try { const response = await fetch(url, { cache: 'reload' }); if (response.ok) await cache.put(url, response); }
       catch (_) { /* Online retry or the existing offline worker covers failures. */ }
     }
