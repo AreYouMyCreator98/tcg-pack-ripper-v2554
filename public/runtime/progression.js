@@ -1511,13 +1511,27 @@ try{
   shopCardPick84=function(minTier=0){const all=shopPool84(),p=all.filter(c=>tier(c)>=minTier);return weightedPickV188(p.length?p:all,c=>recentPenaltyV188(c))};
   /* Marketplace BUY now rotates through the entire unlocked hit catalog instead of the same top eight. */
   const marketHydratingV188=new Set();
+  // A local V264 card is already hydrated. Older cards can also resolve without
+  // filling detailCache (offline / missing remote art). Never immediately start
+  // another fetch from the render triggered by the previous fetch's finally.
+  const marketHydrationAttemptV2648=new Map();
   function gameDayIndexV188(){const a=Number(state.gameClockV170?.anchorReal||Date.now()),len=Number(state.gameClockV170?.dayLengthMs||3600000);return Math.max(0,Math.floor((Date.now()-a)/Math.max(1,len)))}
   marketCandidatesV58=function(){
     let pool=window.getAcquisitionPoolV188({hitsOnly:true}).filter(c=>tier(c)>=2||c.secret||c._subsetName);
     pool.sort((a,b)=>String(a.setId).localeCompare(String(b.setId))||String(a.id).localeCompare(String(b.id),undefined,{numeric:true}));
     if(!pool.length)return[];const n=Math.min(8,pool.length),start=(gameDayIndexV188()*n)%pool.length,out=[];
     for(let i=0;i<n;i++)out.push(pool[(start+i)%pool.length]);
-    out.forEach(c=>{if(detailCache[c.id]||marketHydratingV188.has(c.id))return;marketHydratingV188.add(c.id);hydrateCard(c).catch(()=>{}).finally(()=>{marketHydratingV188.delete(c.id);try{renderMarketBuyV58()}catch(_e){}})});
+    out.forEach(c=>{
+      const id=c?.id,localSet=c?._parentSetId||c?.setId;
+      if(!id||V264_SET_IDS.has(localSet)||detailCache[id]||marketHydratingV188.has(id))return;
+      if(Date.now()-Number(marketHydrationAttemptV2648.get(id)||0)<60000)return;
+      marketHydratingV188.add(id);
+      marketHydrationAttemptV2648.set(id,Date.now());
+      hydrateCard(c).catch(()=>{}).finally(()=>{
+        marketHydratingV188.delete(id);
+        try{renderMarketBuyV58()}catch(_e){}
+      });
+    });
     return out;
   };
   /* NPC collector trading receives the same full catalog, including Gallery/Vault cards. */
@@ -2116,8 +2130,10 @@ try{
   document.getElementById('v195AuditModal').addEventListener('click',e=>{if(e.target.id==='v195AuditModal')document.getElementById('v195AuditClose').click()});
   const oldSettings=typeof mountSettingsV163==='function'?mountSettingsV163:null;if(oldSettings)mountSettingsV163=function(){const r=oldSettings.apply(this,arguments);mountHealthV195();return r};
   mountHealthV195();
-  /* Refresh complete Master Set totals in the background as catalogs become available. */
-  setTimeout(()=>{try{window.primeUnlockedCatalogV188?.(true).then(()=>{try{renderSets();renderProfile()}catch(_e){};try{save()}catch(_e){}})}catch(_e){}},600);
+  /* V264.8: do not fetch every unlocked catalogue during the first second of
+     launch. This was also what triggered the recursive marketplace hydration.
+     Earn/Marketplace navigation already primes catalogues when opened, while
+     packs use buildPools for the currently selected set on demand. */
   const ver=[...document.querySelectorAll('.settingsDataLineV158')].find(x=>x.querySelector('span')?.textContent.trim()==='Game Version')?.querySelector('b');if(ver)ver.textContent='V195 AUDITED';
   runSystemAuditV195();
 }catch(err){console.error('V195 hardening bootstrap',err)}})();
