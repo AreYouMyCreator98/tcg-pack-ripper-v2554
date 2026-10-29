@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.263.1-ui1';
+const VERSION = 'tcg-pack-ripper-0.264.0-sets1';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));
@@ -20,6 +20,9 @@ const CORE = ['./src/league/index.js','./src/league/controller.js','./src/league
   './src/app/health-check.js','./src/platform/mobile.js','./src/platform/image-policy.js','./src/animations/screen-transitions.js','./ui/components/binder-shop.html','./ui/components/bulk-inspect.html','./ui/screens/history.html','./ui/screens/marketplace.html',
   './ui/chrome.html','./ui/screens/rip.html','./ui/screens/binder.html','./ui/screens/bulk.html','./ui/screens/trade.html','./ui/screens/profile.html','./ui/overlays.html'
 ];
+// Bundle the new expansion data and artwork for installable mobile play.
+if(!CORE.includes('./catalog/base1.json'))CORE.push(...['base1','base2','base3','base5','neo1','sv08.5','sv10.5b','sv10.5w','me05','30th']
+  .flatMap(id=>[`./catalog/${id}.json`,`./assets/packs/${id}.webp`,`./assets/set-logos/${id}.webp`]));
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(STATIC)

@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "base3-1",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/1.ts",
+    "card": {
+      "id": "base3-1",
+      "name": "Aerodactyl",
+      "number": "1",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/1/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/1/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-2",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/2.ts",
+    "card": {
+      "id": "base3-2",
+      "name": "Articuno",
+      "number": "2",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/2/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/2/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-3",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/3.ts",
+    "card": {
+      "id": "base3-3",
+      "name": "Ditto",
+      "number": "3",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/3/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/3/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-4",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/4.ts",
+    "card": {
+      "id": "base3-4",
+      "name": "Dragonite",
+      "number": "4",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/4/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/4/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-5",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/5.ts",
+    "card": {
+      "id": "base3-5",
+      "name": "Gengar",
+      "number": "5",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/5/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/5/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-6",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/6.ts",
+    "card": {
+      "id": "base3-6",
+      "name": "Haunter",
+      "number": "6",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/6/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/6/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-7",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/7.ts",
+    "card": {
+      "id": "base3-7",
+      "name": "Hitmonlee",
+      "number": "7",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/7/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/7/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-8",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/8.ts",
+    "card": {
+      "id": "base3-8",
+      "name": "Hypno",
+      "number": "8",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/8/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/8/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-9",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/9.ts",
+    "card": {
+      "id": "base3-9",
+      "name": "Kabutops",
+      "number": "9",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/9/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/9/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-10",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/10.ts",
+    "card": {
+      "id": "base3-10",
+      "name": "Lapras",
+      "number": "10",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/10/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/10/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-11",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/11.ts",
+    "card": {
+      "id": "base3-11",
+      "name": "Magneton",
+      "number": "11",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/11/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/11/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-12",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/12.ts",
+    "card": {
+      "id": "base3-12",
+      "name": "Moltres",
+      "number": "12",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/12/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/12/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-13",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/13.ts",
+    "card": {
+      "id": "base3-13",
+      "name": "Muk",
+      "number": "13",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/13/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/13/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-14",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/14.ts",
+    "card": {
+      "id": "base3-14",
+      "name": "Raichu",
+      "number": "14",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/14/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/14/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-15",
+    "set_id": "base3",
+    "tier": 3,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/15.ts",
+    "card": {
+      "id": "base3-15",
+      "name": "Zapdos",
+      "number": "15",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare Holo",
+      "img": "https://assets.tcgdex.net/en/base/base3/15/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/15/low.webp",
+      "market": 11,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-16",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/16.ts",
+    "card": {
+      "id": "base3-16",
+      "name": "Aerodactyl",
+      "number": "16",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/16/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/16/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-17",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/17.ts",
+    "card": {
+      "id": "base3-17",
+      "name": "Articuno",
+      "number": "17",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/17/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/17/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-18",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/18.ts",
+    "card": {
+      "id": "base3-18",
+      "name": "Ditto",
+      "number": "18",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/18/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/18/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-19",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/19.ts",
+    "card": {
+      "id": "base3-19",
+      "name": "Dragonite",
+      "number": "19",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/19/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/19/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-20",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/20.ts",
+    "card": {
+      "id": "base3-20",
+      "name": "Gengar",
+      "number": "20",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/20/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/20/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-21",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/21.ts",
+    "card": {
+      "id": "base3-21",
+      "name": "Haunter",
+      "number": "21",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/21/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/21/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-22",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/22.ts",
+    "card": {
+      "id": "base3-22",
+      "name": "Hitmonlee",
+      "number": "22",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/22/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/22/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-23",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/23.ts",
+    "card": {
+      "id": "base3-23",
+      "name": "Hypno",
+      "number": "23",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/23/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/23/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-24",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/24.ts",
+    "card": {
+      "id": "base3-24",
+      "name": "Kabutops",
+      "number": "24",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/24/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/24/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-25",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/25.ts",
+    "card": {
+      "id": "base3-25",
+      "name": "Lapras",
+      "number": "25",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/25/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/25/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-26",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/26.ts",
+    "card": {
+      "id": "base3-26",
+      "name": "Magneton",
+      "number": "26",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/26/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/26/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-27",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/27.ts",
+    "card": {
+      "id": "base3-27",
+      "name": "Moltres",
+      "number": "27",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/27/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/27/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-28",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/28.ts",
+    "card": {
+      "id": "base3-28",
+      "name": "Muk",
+      "number": "28",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/28/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/28/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-29",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/29.ts",
+    "card": {
+      "id": "base3-29",
+      "name": "Raichu",
+      "number": "29",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/29/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/29/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-30",
+    "set_id": "base3",
+    "tier": 1,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/30.ts",
+    "card": {
+      "id": "base3-30",
+      "name": "Zapdos",
+      "number": "30",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Rare",
+      "img": "https://assets.tcgdex.net/en/base/base3/30/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/30/low.webp",
+      "market": 0.8,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-31",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/31.ts",
+    "card": {
+      "id": "base3-31",
+      "name": "Arbok",
+      "number": "31",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/31/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/31/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-32",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/32.ts",
+    "card": {
+      "id": "base3-32",
+      "name": "Cloyster",
+      "number": "32",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/32/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/32/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-33",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/33.ts",
+    "card": {
+      "id": "base3-33",
+      "name": "Gastly",
+      "number": "33",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/33/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/33/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-34",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/34.ts",
+    "card": {
+      "id": "base3-34",
+      "name": "Golbat",
+      "number": "34",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/34/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/34/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-35",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/35.ts",
+    "card": {
+      "id": "base3-35",
+      "name": "Golduck",
+      "number": "35",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/35/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/35/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-36",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/36.ts",
+    "card": {
+      "id": "base3-36",
+      "name": "Golem",
+      "number": "36",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/36/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/36/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-37",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/37.ts",
+    "card": {
+      "id": "base3-37",
+      "name": "Graveler",
+      "number": "37",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/37/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/37/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-38",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/38.ts",
+    "card": {
+      "id": "base3-38",
+      "name": "Kingler",
+      "number": "38",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/38/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/38/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-39",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/39.ts",
+    "card": {
+      "id": "base3-39",
+      "name": "Magmar",
+      "number": "39",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/39/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/39/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-40",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/40.ts",
+    "card": {
+      "id": "base3-40",
+      "name": "Omastar",
+      "number": "40",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/40/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/40/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-41",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/41.ts",
+    "card": {
+      "id": "base3-41",
+      "name": "Sandslash",
+      "number": "41",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/41/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/41/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-42",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/42.ts",
+    "card": {
+      "id": "base3-42",
+      "name": "Seadra",
+      "number": "42",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/42/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/42/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-43",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/43.ts",
+    "card": {
+      "id": "base3-43",
+      "name": "Slowbro",
+      "number": "43",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/43/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/43/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-44",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/44.ts",
+    "card": {
+      "id": "base3-44",
+      "name": "Tentacruel",
+      "number": "44",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/44/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/44/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-45",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/45.ts",
+    "card": {
+      "id": "base3-45",
+      "name": "Weezing",
+      "number": "45",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/45/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/45/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-46",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/46.ts",
+    "card": {
+      "id": "base3-46",
+      "name": "Ekans",
+      "number": "46",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/46/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/46/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-47",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/47.ts",
+    "card": {
+      "id": "base3-47",
+      "name": "Geodude",
+      "number": "47",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/47/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/47/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-48",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/48.ts",
+    "card": {
+      "id": "base3-48",
+      "name": "Grimer",
+      "number": "48",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/48/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/48/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-49",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/49.ts",
+    "card": {
+      "id": "base3-49",
+      "name": "Horsea",
+      "number": "49",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/49/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/49/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-50",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/50.ts",
+    "card": {
+      "id": "base3-50",
+      "name": "Kabuto",
+      "number": "50",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/50/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/50/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-51",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/51.ts",
+    "card": {
+      "id": "base3-51",
+      "name": "Krabby",
+      "number": "51",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/51/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/51/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-52",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/52.ts",
+    "card": {
+      "id": "base3-52",
+      "name": "Omanyte",
+      "number": "52",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/52/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/52/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-53",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/53.ts",
+    "card": {
+      "id": "base3-53",
+      "name": "Psyduck",
+      "number": "53",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/53/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/53/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-54",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/54.ts",
+    "card": {
+      "id": "base3-54",
+      "name": "Shellder",
+      "number": "54",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/54/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/54/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-55",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/55.ts",
+    "card": {
+      "id": "base3-55",
+      "name": "Slowpoke",
+      "number": "55",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/55/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/55/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-56",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/56.ts",
+    "card": {
+      "id": "base3-56",
+      "name": "Tentacool",
+      "number": "56",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/56/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/56/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-57",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/57.ts",
+    "card": {
+      "id": "base3-57",
+      "name": "Zubat",
+      "number": "57",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/57/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/57/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-58",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/58.ts",
+    "card": {
+      "id": "base3-58",
+      "name": "Mr. Fuji",
+      "number": "58",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Uncommon",
+      "img": "https://assets.tcgdex.net/en/base/base3/58/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/58/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-59",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/59.ts",
+    "card": {
+      "id": "base3-59",
+      "name": "Energy Search",
+      "number": "59",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/59/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/59/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-60",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/60.ts",
+    "card": {
+      "id": "base3-60",
+      "name": "Gambler",
+      "number": "60",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/60/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/60/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-61",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/61.ts",
+    "card": {
+      "id": "base3-61",
+      "name": "Recycle",
+      "number": "61",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/61/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/61/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  },
+  {
+    "id": "base3-62",
+    "set_id": "base3",
+    "tier": 0,
+    "metadataSource": "https://github.com/tcgdex/cards-database/blob/master/data/Base/Fossil/62.ts",
+    "card": {
+      "id": "base3-62",
+      "name": "Mysterious Fossil",
+      "number": "62",
+      "set": "Fossil",
+      "setId": "base3",
+      "rarity": "Common",
+      "img": "https://assets.tcgdex.net/en/base/base3/62/high.webp",
+      "thumb": "https://assets.tcgdex.net/en/base/base3/62/low.webp",
+      "market": 0.15,
+      "qty": 1
+    }
+  }
+]
