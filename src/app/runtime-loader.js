@@ -5,6 +5,13 @@ import { withTimeout } from '../utils/async.js';
 const loaded = new Map();
 const completed = new Set();
 const groupPromises = new Map();
+const startupTrace = new URLSearchParams(globalThis.location?.search || '').has('trace');
+function traceRuntime(stage, path) {
+  if (startupTrace) {
+    console.info(`[TCG TRACE] ${stage}: ${path} @ ${Math.round(performance.now())}ms`);
+    globalThis.TCG_TRACE_MARK?.(`${stage}: ${path}`);
+  }
+}
 
 function runtimeUrl(path, attempt = 0) {
   const url = new URL(path, document.baseURI);
@@ -26,14 +33,17 @@ function injectClassicScript(path, attempt) {
     tag.async = false;
     tag.dataset.runtimeChunk = path;
     tag.dataset.runtimeAttempt = String(attempt + 1);
+    traceRuntime('inject', `${path} attempt=${attempt + 1}`);
     tag.onload = () => {
       if (settled) return;
       settled = true;
+      traceRuntime('loaded', path);
       resolve(path);
     };
     tag.onerror = () => {
       if (settled) return;
       settled = true;
+      traceRuntime('error', path);
       tag.remove();
       reject(new Error(`Failed to load ${path} (attempt ${attempt + 1})`));
     };
@@ -63,6 +73,7 @@ async function loadWithRetry(path, timeoutMs) {
       return await withTimeout(task.promise, timeoutMs, `runtime ${path}`);
     } catch (error) {
       task.cancel('timed out');
+      traceRuntime('retry', path);
       // Prevent a rejected cancelled promise from surfacing after the timeout race.
       task.promise.catch(() => {});
       lastError = error;
@@ -85,6 +96,7 @@ export function loadClassicScript(path, timeoutMs = 12000) {
 async function loadSequence(paths, timeoutMs, group) {
   for (let index = 0; index < paths.length; index++) {
     const path = paths[index];
+    traceRuntime('begin', `${group} ${index + 1}/${paths.length} ${path}`);
     window.dispatchEvent(new CustomEvent('tcg:runtime-progress', {
       detail: { group, path, index, total: paths.length, phase: 'loading' }
     }));

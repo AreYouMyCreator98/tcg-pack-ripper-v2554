@@ -26,4 +26,8 @@ export function installDiagnostics() {
 
 export function bootMark(name, detail = {}) {
   push('mark', { name, detail });
+  if (new URLSearchParams(globalThis.location?.search || '').has('trace')) {
+    console.info(`[TCG TRACE] boot: ${name} @ ${Math.round(performance.now())}ms`);
+    globalThis.TCG_TRACE_MARK?.(`boot: ${name}`);
+  }
 }
