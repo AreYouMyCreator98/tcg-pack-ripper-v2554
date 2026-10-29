@@ -20,7 +20,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2642';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2641';
 
 const cardManifestReady=loadCardAssetManifest();
 window.tcgCardAssets={resolve:resolveCardImage};
@@ -35,17 +35,11 @@ let bootStage = 'initialising';
 let bootFinished = false;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// A worker update is deliberately postponed until the player can use the game.
-// On Samsung Internet, installing a replacement worker while restoring a large
-// account could contend for CacheStorage and stall the same page being updated.
-function refreshPWAWhenReady() {
-  if (!APP_CONFIG.featureFlags.pwa || !('serviceWorker' in navigator)) return;
-  setTimeout(() => {
-    registerPWA({ waitForControlMs: 1500 }).then(() => {
-      setTimeout(() => navigator.serviceWorker.controller?.postMessage({ type: 'PRUNE_OLD_CACHES' }), 10000);
-    }).catch(error => console.warn('[TCG] Background PWA refresh deferred', error));
-  }, 2000);
-}
+// Register/update the worker at the START of boot. A stale worker must not be able
+// to block the very boot that would otherwise install its replacement.
+const pwaRefresh = APP_CONFIG.featureFlags.pwa
+  ? registerPWA({ waitForControlMs: 1500 })
+  : Promise.resolve(false);
 
 window.addEventListener('tcg:runtime-progress', event => {
   const d = event.detail || {};
@@ -89,9 +83,9 @@ async function boot() {
     installBinderModule();
     installRankFrameRenderer();
 
-    bootStage = 'checking local game files';
-    setLaunchStage('REFRESHING GAME FILES', 40, 'Checking local game systems…');
-    await sleep(50);
+    bootStage = 'refreshing game files';
+    setLaunchStage('REFRESHING GAME FILES', 40, 'Checking the latest runtime and clearing stale cache…');
+    await Promise.race([pwaRefresh, sleep(1700)]);
 
     bootStage = 'starting critical game systems';
     setLaunchStage('LOADING COLLECTION', 47, 'Restoring packs, progress and collection systems…');
@@ -146,11 +140,13 @@ async function boot() {
     }));
     bootMark('app-ready');
 
+    scheduleSecondaryRuntime();
     await finishLaunch();
     bootFinished = true;
     clearTimeout(bootWatchdog);
-    scheduleSecondaryRuntime();
-    refreshPWAWhenReady();
+    if ('serviceWorker' in navigator) {
+      setTimeout(() => navigator.serviceWorker.controller?.postMessage({ type: 'PRUNE_OLD_CACHES' }), 10000);
+    }
   } catch (error) {
     clearTimeout(bootWatchdog);
     showBootFailure(error);
