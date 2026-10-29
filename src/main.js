@@ -20,7 +20,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2644';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2645';
 
 const cardManifestReady=loadCardAssetManifest();
 window.tcgCardAssets={resolve:resolveCardImage};
@@ -41,7 +41,9 @@ const pwaRefresh = APP_CONFIG.featureFlags.pwa
   ? registerPWA({ waitForControlMs: 1500 })
   : Promise.resolve(false);
 
-const liteStartup = new URLSearchParams(location.search).get('startup') === 'lite';
+const startupMode = new URLSearchParams(location.search).get('startup');
+const liteStartup = startupMode === 'lite';
+const directStartup = startupMode === 'direct';
 window.__TCG_TRACE__ = new URLSearchParams(location.search).has('trace');
 if (window.__TCG_TRACE__) {
   // Opt-in on-device startup breadcrumb. Shows the last completed action even
@@ -135,11 +137,15 @@ async function boot() {
     // Keep optional Binder/Ranked chunks out of the critical launch path. The
     // Binder and secondary loaders already warm on demand / after app-ready.
     bootStage = 'preparing first frame';
+    bootMark('first-frame-start');
     setLaunchStage('POLISHING FIRST FRAME', 89, 'Loading pack art and locking the layout into place…');
-    await prewarmFirstFrame();
+    bootMark('first-frame-stage-set');
+    if (!directStartup) await prewarmFirstFrame();
+    else bootMark('first-frame-warmup-skipped');
     bootStage = 'finishing startup';
     setLaunchStage('FINAL CHECK', 96, 'Everything is almost ready…');
-    await finishLaunch();
+    bootMark('finish-launch-entering');
+    await finishLaunch({ skipPaint: directStartup });
     bootFinished = true;
     clearTimeout(bootWatchdog);
     bootMark('pack-room-visible');

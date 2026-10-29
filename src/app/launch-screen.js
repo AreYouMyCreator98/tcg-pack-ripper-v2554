@@ -98,12 +98,14 @@ function imageReady(img) {
 }
 
 export async function prewarmFirstFrame() {
+  window.TCG_TRACE_MARK?.('prewarm: beginning');
   const mustExist = ['pack', 'v114PackMode', 'gameClockV170'];
   const started = performance.now();
   while (performance.now() - started < 1800) {
     if (mustExist.every(id => document.getElementById(id)) && document.querySelector('.nav')) break;
     await sleep(35);
   }
+  window.TCG_TRACE_MARK?.('prewarm: layout ready');
 
   const fontPromise = document.fonts?.ready || Promise.resolve();
   const images = [
@@ -114,10 +116,13 @@ export async function prewarmFirstFrame() {
     Promise.allSettled([fontPromise, ...images.map(imageReady)]),
     timeout(1400)
   ]);
+  window.TCG_TRACE_MARK?.('prewarm: image and font budget complete');
   await paintedFrames();
+  window.TCG_TRACE_MARK?.('prewarm: painted');
 }
 
-export async function finishLaunch() {
+export async function finishLaunch({ skipPaint = false } = {}) {
+  window.TCG_TRACE_MARK?.('finish: beginning');
   setLaunchStage('COLLECTION READY', 100, 'Welcome back, collector.');
   const elapsed = performance.now() - Number(window.__TCG_BOOT_STARTED__ || 0);
   cleanupPresentation();
@@ -133,13 +138,15 @@ export async function finishLaunch() {
   }
 
   document.documentElement.classList.remove('modern-booting');
-  await paintedFrames();
+  if (!skipPaint) await paintedFrames();
+  window.TCG_TRACE_MARK?.('finish: paint boundary cleared');
   const root = launchEl('tcgLaunch');
   root?.setAttribute('aria-busy', 'false');
   root?.classList.add('v2541Leaving');
   const exitMs = reducedMotion || elapsed < 1000 ? 120 : 360;
   if (root) root.style.transitionDuration = `${exitMs}ms`;
   await sleep(exitMs);
+  window.TCG_TRACE_MARK?.('finish: removing splash');
   root?.remove();
   window.TCG_BOOT_RECOVERY?.done?.();
   window.__TCG_BOOT_PHASE__ = false;

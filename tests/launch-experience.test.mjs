@@ -9,7 +9,7 @@ const html = fs.readFileSync('index.html','utf8');
 
 test('branded launch screen exists before module boot', () => {
   assert.match(html, /id="tcgLaunch"/);
-  assert.ok(html.indexOf('id="tcgLaunch"') < html.indexOf('src=".\/src\/main.js?v=2644"'));
+  assert.ok(html.indexOf('id="tcgLaunch"') < html.indexOf('src=".\/src\/main.js?v=2645"'));
 });
 
 test('boot suppresses achievement visuals until ready', () => {
