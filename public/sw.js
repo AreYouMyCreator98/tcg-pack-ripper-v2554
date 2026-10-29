@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.264.4-trace1';
+const VERSION = 'tcg-pack-ripper-0.264.5-first-frame1';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));

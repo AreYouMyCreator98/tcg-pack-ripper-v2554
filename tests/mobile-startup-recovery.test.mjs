@@ -87,19 +87,20 @@ test('service worker precache is connection-limited and old cache deletion follo
   assert.match(worker, /Math\.min\(6, CORE\.length\)/);
   assert.match(worker, /PRUNE_OLD_CACHES/);
   assert.match(main, /PRUNE_OLD_CACHES/);
-  assert.ok(main.indexOf('await finishLaunch()') < main.indexOf('PRUNE_OLD_CACHES'));
+  assert.ok(main.indexOf('await finishLaunch({ skipPaint: directStartup })') < main.indexOf('PRUNE_OLD_CACHES'));
   assert.doesNotMatch(worker.match(/self\.addEventListener\('activate',[\s\S]*?\n\}\);/)?.[0] || '', /caches\.delete/);
 });
 
 test('89 percent no longer blocks on optional collection and secondary runtime', () => {
   const main = fs.readFileSync('src/main.js', 'utf8');
   const criticalBoot = main.slice(main.indexOf('async function boot()'), main.indexOf('\nboot();'));
-  const visible = criticalBoot.indexOf('await finishLaunch()');
+  const visible = criticalBoot.indexOf('await finishLaunch({ skipPaint: directStartup })');
   const background = criticalBoot.indexOf('installPostLaunchFeatures()');
   assert.ok(visible >= 0 && background > visible);
   assert.doesNotMatch(criticalBoot, /await loadSecondaryRuntime\(|await loadBinderRuntime\(|await installCollector\(/);
   assert.match(main, /\['collector', installCollector\]/);
-  assert.match(main, /startup'\) === 'lite'/);
+  assert.match(main, /const liteStartup = startupMode === 'lite'/);
+  assert.match(main, /const directStartup = startupMode === 'direct'/);
 });
 
 test('new expansion catalogs are loaded on demand instead of congesting install precache', () => {
