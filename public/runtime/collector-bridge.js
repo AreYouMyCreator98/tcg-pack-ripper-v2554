@@ -27,11 +27,27 @@
   canBinder:c=>!isRegularExV260(c),
   route:c=>isBulkCardV64(c)?'bulk':'binder',
   price:c=>sellPrice(c),slabValue:c=>gradedValueV56(c),
+  savedMarketQuote(card){
+   if(!card?.id)return null;
+   const candidates=[state.binder?.[card.id],state.bulkV64?.[card.id],...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])];
+   for(const c of candidates){
+    if(c?.id!==card.id||(card.finish&&c.finish&&c.finish!==card.finish))continue;
+    const q=c.marketQuoteV262;
+    if(q?.currency==='USD'&&Number.isFinite(q.amount)&&q.amount>0&&q.source)return {...q,cached:true};
+   }
+   return null;
+  },
   async refreshMarket(card){
-   const original=state,account=this.account();if(this.blocked())return null;
-   const copy={...card};if(detailCache[card.id]&&!marketQuoteFromDetail(detailCache[card.id],card.finish))delete detailCache[card.id];await hydrateCard(copy);
+   const original=state,account=this.account(),previous=detailCache[card.id],previousQuote=marketQuoteFromDetail(previous,card.finish);
+   const saved=this.savedMarketQuote(card)||(previousQuote?{...previousQuote,cached:true}:null);
+   if(this.blocked())return saved;
+   // A manual or on-open refresh must actually ask the provider, even when
+   // artwork hydration cached an earlier quote. Keep that quote as fallback.
+   if(previous)delete detailCache[card.id];
+   const copy={...card};await hydrateCard(copy);
    const quote=marketQuoteFromDetail(detailCache[card.id],card.finish);
-   if(detailCache[card.id]?.id!==card.id||!quote||state!==original||this.account()!==account||this.blocked())return null;
+   if(this.account()!==account)return null;
+   if(detailCache[card.id]?.id!==card.id||!quote||state!==original||this.blocked())return saved;
    let changed=false;for(const collection of [state.binder,state.bulkV64]){const c=collection?.[card.id];if(c&&(!c.finish||!card.finish||c.finish===card.finish)){c.market=quote.amount;c.marketQuoteV262=quote;changed=true;}}
    for(const c of [...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])])if(c.id===card.id&&(!c.finish||!card.finish||c.finish===card.finish)){c.raw=quote.amount;c.marketQuoteV262=quote;changed=true;}
    if(changed)this.save();return quote;

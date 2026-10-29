@@ -13,7 +13,26 @@ test('missing prices and EUR-only data are not presented as dollar market quotes
 test('reverse foil pricing stays separate and invalid amounts do not mask valid quotes',()=>{
  const x={pricing:{tcgplayer:{normal:{marketPrice:1},holofoil:{marketPrice:3},'reverse-holofoil':{marketPrice:0,midPrice:2}}}};assert.equal(c.marketQuoteFromDetail(x,'Reverse Holo').amount,2);assert.equal(c.marketQuoteFromDetail(x,'Holo').amount,3);delete x.pricing.tcgplayer['reverse-holofoil'];assert.equal(c.marketQuoteFromDetail(x,'Reverse Holo'),null);
 });
+test('the official holo and reverse aliases are accepted without using a wrong printing',()=>{
+ const detail={pricing:{tcgplayer:{unit:'USD',normal:{marketPrice:1},holo:{marketPrice:324.63},reverse:{marketPrice:2}}}};
+ assert.equal(c.marketQuoteFromDetail(detail,'Holo / Rare+').amount,324.63);
+ assert.equal(c.marketQuoteFromDetail(detail,'Reverse Holo').amount,2);
+ assert.equal(c.marketQuoteFromDetail({pricing:{tcgplayer:{unit:'USD',normal:{marketPrice:1}}}},'Holo'),null);
+});
 const bridgeSource=await readFile(new URL('../public/runtime/collector-bridge.js',import.meta.url),'utf8');
 function bridgeFixture(){const state={binder:{},bulkV64:{},gradingV44:{graded:[{id:'sv04.5-234',raw:.1,grade:9.5,cert:'retained'}],submissions:[]}};let finish;const gate=new Promise(r=>finish=r),ctx=vm.createContext({window:{},state,detailCache:{},hydrateCard:async card=>{await gate;ctx.detailCache[card.id]={id:card.id,pricing:{tcgplayer:{unit:'USD',holofoil:{marketPrice:256.74}}}}},marketQuoteFromDetail:c.marketQuoteFromDetail});vm.runInContext(bridgeSource,ctx);const bridge=ctx.window.tcgCollectorBridge;let account='A',saves=0;bridge.account=()=>account;bridge.blocked=()=>false;bridge.save=()=>saves++;return{ctx,state,bridge,finish,setAccount:x=>account=x,get saves(){return saves}}}
 test('on-demand quote repairs raw slab valuation without changing grade, certificate or ownership',async()=>{const f=bridgeFixture(),p=f.bridge.refreshMarket({id:'sv04.5-234',finish:'Hit Foil'});f.finish();await p;assert.equal(f.state.gradingV44.graded[0].raw,256.74);assert.equal(f.state.gradingV44.graded[0].grade,9.5);assert.equal(f.state.gradingV44.graded[0].cert,'retained');assert.equal(f.state.gradingV44.graded.length,1);assert.equal(f.saves,1)});
+test('checking the price fetches current market data even after artwork cached an older quote',async()=>{
+ const f=bridgeFixture();f.ctx.detailCache['sv04.5-234']={id:'sv04.5-234',pricing:{tcgplayer:{unit:'USD',holofoil:{marketPrice:100}}}};
+ const p=f.bridge.refreshMarket({id:'sv04.5-234',finish:'Hit Foil'});f.finish();
+ assert.equal((await p).amount,256.74);
+ assert.equal(f.state.gradingV44.graded[0].raw,256.74);
+});
 test('late price replies cannot modify a switched account or replaced save',async()=>{for(const change of ['account','state']){const f=bridgeFixture(),p=f.bridge.refreshMarket({id:'sv04.5-234',finish:'Hit Foil'});if(change==='account')f.setAccount('B');else f.ctx.state={};f.finish();assert.equal(await p,null);assert.equal(f.state.gradingV44.graded[0].raw,.1);assert.equal(f.saves,0)}});
+test('saved USD market quote remains visible while pricing is offline, without mutating the slab',async()=>{
+ const f=bridgeFixture(),slab=f.state.gradingV44.graded[0];slab.marketQuoteV262={amount:256.74,currency:'USD',source:'TCGplayer via TCGdex',updated:'2026-10-14'};
+ f.ctx.hydrateCard=async()=>{};
+ const p=f.bridge.refreshMarket({id:slab.id,finish:'Holo'});
+ const value=await p;assert.equal(value.amount,256.74);assert.equal(value.cached,true);
+ assert.equal(slab.raw,.1);assert.equal(f.saves,0);
+});
