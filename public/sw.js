@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.264.0-sets1';
+const VERSION = 'tcg-pack-ripper-0.264.1-startup1';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));
@@ -24,22 +24,35 @@ const CORE = ['./src/league/index.js','./src/league/controller.js','./src/league
 if(!CORE.includes('./catalog/base1.json'))CORE.push(...['base1','base2','base3','base5','neo1','sv08.5','sv10.5b','sv10.5w','me05','30th']
   .flatMap(id=>[`./catalog/${id}.json`,`./assets/packs/${id}.webp`,`./assets/set-logos/${id}.webp`]));
 
+// Do not flood a mobile connection with 200+ simultaneous precache requests;
+// doing so previously competed with the game's critical startup chunks.
+async function precacheCore(cache) {
+  let next = 0;
+  await Promise.all(Array.from({ length: Math.min(6, CORE.length) }, async () => {
+    while (next < CORE.length) {
+      const url = CORE[next++];
+      try { const response = await fetch(url, { cache: 'reload' }); if (response.ok) await cache.put(url, response); }
+      catch (_) { /* Online retry or the existing offline worker covers failures. */ }
+    }
+  }));
+}
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(STATIC)
-    .then(cache => Promise.allSettled(CORE.map(async url => {
-      try { const r = await fetch(url, { cache: 'reload' }); if (r.ok) await cache.put(url, r); } catch (_) {}
-    })))
-    .then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(STATIC).then(precacheCore).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil(caches.keys()
-    .then(keys => Promise.all(keys.filter(k => k.startsWith('tcg-pack-ripper-') && ![STATIC, MEDIA, ...Object.values(ART_NAMES)].includes(k)).map(k => caches.delete(k))))
-    .then(() => self.clients.claim()));
+  // Removing huge previous artwork caches during activation can lock mobile
+  // storage for seconds. Claim the page first, prune when the app is ready.
+  event.waitUntil(self.clients.claim());
 });
 
 self.addEventListener('message', event => {
   if (event.data?.type === 'SKIP_WAITING') self.skipWaiting();
+  if (event.data?.type === 'PRUNE_OLD_CACHES') {
+    event.waitUntil(caches.keys().then(keys => Promise.allSettled(keys
+      .filter(k => k.startsWith('tcg-pack-ripper-') && ![STATIC, MEDIA, ...Object.values(ART_NAMES)].includes(k))
+      .map(k => caches.delete(k)))));
+  }
 });
 
 async function cachedFallback(cache, req, url) {

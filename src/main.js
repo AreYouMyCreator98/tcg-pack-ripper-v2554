@@ -20,7 +20,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=261';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2641';
 
 const cardManifestReady=loadCardAssetManifest();
 window.tcgCardAssets={resolve:resolveCardImage};
@@ -119,9 +119,19 @@ async function boot() {
       Promise.race([warmOptional, sleep(2200)])
     ]);
 
-    installCollector();
-    installSealedVault();
-    installSilverShell();
+    // These enhancements are optional. One failing on a particular mobile
+    // profile must not trap the entire pack room behind the loading screen.
+    for (const [name, install] of [
+      ['collector', installCollector],
+      ['sealed-vault', installSealedVault],
+      ['silver-shell', installSilverShell]
+    ]) {
+      try { install(); bootMark(`${name}-ready`); }
+      catch (error) {
+        console.error(`[TCG] ${name} enhancement unavailable`, error);
+        bootMark(`${name}-failed`, { message: String(error?.message || error) });
+      }
+    }
     bootStage = 'finishing startup';
     setLaunchStage('FINAL CHECK', 96, 'Everything is almost ready…');
 
@@ -134,6 +144,9 @@ async function boot() {
     await finishLaunch();
     bootFinished = true;
     clearTimeout(bootWatchdog);
+    if ('serviceWorker' in navigator) {
+      setTimeout(() => navigator.serviceWorker.controller?.postMessage({ type: 'PRUNE_OLD_CACHES' }), 10000);
+    }
   } catch (error) {
     clearTimeout(bootWatchdog);
     showBootFailure(error);

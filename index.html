@@ -35,7 +35,51 @@
     #modern-boot-status{display:none!important}
 
   </style>
-  <script>window.__TCG_BOOT_PHASE__=true;window.__TCG_BOOT_STARTED__=performance.now();</script>
+  <script>
+    window.__TCG_BOOT_PHASE__ = true;
+    window.__TCG_BOOT_STARTED__ = performance.now();
+    // Runs even when the module loader or an old service worker fails. Clearing
+    // application caches never removes localStorage, IndexedDB or account saves.
+    (function () {
+      const appScope = new URL('./', document.baseURI).href;
+      let repairing = false;
+      const show = () => {
+        const screen = document.getElementById('tcgLaunch');
+        if (!screen) return;
+        screen.classList.add('failed');
+        screen.setAttribute('aria-busy', 'false');
+        const hint = document.getElementById('tcgLaunchHint');
+        if (hint) hint.textContent = 'Your collection is safe. Refresh game files to continue.';
+        const button = document.getElementById('tcgLaunchRetry');
+        if (button) { button.textContent = 'REPAIR GAME FILES & RESTART'; button.hidden = false; button.onclick = repair; }
+      };
+      const repair = async () => {
+        if (repairing) return;
+        repairing = true;
+        const button = document.getElementById('tcgLaunchRetry');
+        if (button) { button.disabled = true; button.textContent = 'REFRESHING GAME FILES…'; }
+        if (navigator.onLine !== false) {
+          // Scope deletion to this game's generated caches and worker only.
+          const cleanup = (async () => {
+            if ('caches' in window) {
+              const keys = await caches.keys();
+              await Promise.allSettled(keys.filter(key => key.startsWith('tcg-pack-ripper-')).map(key => caches.delete(key)));
+            }
+            if ('serviceWorker' in navigator) {
+              const registration = await navigator.serviceWorker.getRegistration(appScope);
+              if (registration?.scope === appScope) await registration.unregister();
+            }
+          })();
+          await Promise.race([cleanup.catch(() => {}), new Promise(resolve => setTimeout(resolve, 5000))]);
+        }
+        const fresh = new URL(location.href);
+        fresh.searchParams.set('boot-refresh', String(Date.now()));
+        location.replace(fresh.href);
+      };
+      const watchdog = setTimeout(show, 30000);
+      window.TCG_BOOT_RECOVERY = { show, repair, done: () => clearTimeout(watchdog) };
+    })();
+  </script>
   <script defer src="./runtime/supabase.js"></script>
 <link rel="stylesheet" href="./styles/collector-v260.css">
 <link rel="stylesheet" href="./styles/collector-v261.css">
@@ -71,6 +115,6 @@
       </footer>
     </div>
   </div>
-  <script type="module" src="./src/main.js?v=2610"></script>
+  <script type="module" src="./src/main.js?v=2641"></script>
 </body>
 </html>

@@ -29,13 +29,15 @@ test('corrupt numeric values cannot poison pack totals or persistent counters', 
  assert.equal(snapshot.session.cashSpent,0); assert.ok(Number.isFinite(snapshot.session.valueGenerated));
  assert.ok(Number.isFinite(summarizePackCards(cards).value));
 });
-test('service worker activation preserves unrelated origin caches', async () => {
+test('service worker defers cache pruning until the app opens and preserves unrelated origin caches', async () => {
  const handlers={},deleted=[]; let pending;
  const worker=await readFile(new URL('../public/sw.js',import.meta.url),'utf8');
  const version=worker.match(/const VERSION = '([^']+)'/)[1];
  const context={self:{addEventListener:(name,fn)=>handlers[name]=fn,clients:{claim:async()=>{} }},caches:{keys:async()=>['other-app-cache','tcg-pack-ripper-old-static',`${version}-static`,`${version}-media`],delete:async key=>deleted.push(key)}};
  vm.runInNewContext(worker,context);
  handlers.activate({waitUntil:value=>pending=value}); await pending;
+ assert.deepEqual(deleted,[],'activation must not compete with game startup');
+ handlers.message({data:{type:'PRUNE_OLD_CACHES'},waitUntil:value=>pending=value});await pending;
  assert.deepEqual(deleted,['tcg-pack-ripper-old-static']);
 });
 
