@@ -36,3 +36,34 @@ test('saved USD market quote remains visible while pricing is offline, without m
  const value=await p;assert.equal(value.amount,256.74);assert.equal(value.cached,true);
  assert.equal(slab.raw,.1);assert.equal(f.saves,0);
 });
+test('same-origin verified backup repairs Mew ex 232 penny-valued slabs while keeping grades and ownership',async()=>{
+ const mew={id:'sv04.5-232',name:'Mew ex',finish:'Holo / Rare+',raw:.1,grade:9.5,uid:'mew-cert',cert:'VG-123'};
+ const existing={id:'sv04.5-234',raw:240,grade:10,uid:'another-cert'};
+ const state={binder:{},bulkV64:{},gradingV44:{graded:[mew,existing],submissions:[]}},backup={schema:1,cards:{'sv04.5-232':{unit:'USD',updated:'2026-10-14T22:55:10Z',holofoil:{marketPrice:863.85}}}};
+ const ctx=vm.createContext({window:{},document:{baseURI:'https://example.test/game/'},URL,fetch:async()=>({ok:true,json:async()=>backup}),state,detailCache:{},hydrateCard:async()=>{},marketQuoteFromDetail:c.marketQuoteFromDetail});
+ vm.runInContext(bridgeSource,ctx);const bridge=ctx.window.tcgCollectorBridge;
+ let saves=0,renders=0;bridge.account=()=> 'account-1';bridge.blocked=()=>false;bridge.save=()=>saves++;bridge.refresh=()=>renders++;
+ assert.equal(await bridge.restoreMissingPrices(),1);
+ assert.equal(mew.raw,863.85);assert.equal(mew.grade,9.5);assert.equal(mew.uid,'mew-cert');assert.equal(mew.cert,'VG-123');
+ assert.equal(state.gradingV44.graded.length,2);assert.equal(existing.raw,240);assert.equal(saves,1);assert.equal(renders,1);
+ assert.equal((await bridge.refreshMarket(mew)).amount,863.85);
+ assert.equal(saves,1);
+});
+test('verified fallback is visible immediately while a slow live refresh continues in background',async()=>{
+ const f=bridgeFixture(),slab=f.state.gradingV44.graded[0];slab.raw=.1;
+ f.ctx.document={baseURI:'https://example.test/game/'};f.ctx.URL=URL;
+ f.ctx.fetch=async()=>({ok:true,json:async()=>({schema:1,cards:{'sv04.5-234':{unit:'USD',updated:'2026-10-14',holofoil:{marketPrice:250}}}})});
+ const quote=await f.bridge.refreshMarket({id:slab.id,finish:'Hit Foil'},{useBackupImmediately:true});
+ assert.equal(quote.amount,250);assert.equal(quote.cached,true);assert.equal(slab.raw,250);
+ f.finish();await new Promise(resolve=>setImmediate(resolve));
+ assert.equal(slab.raw,256.74);
+});
+test('premium cards without any provider quote get a clearly flagged non-penny game estimate',async()=>{
+ const rare={id:'not-quoted-232',rarity:'Special illustration rare',finish:'Holo',raw:.1,grade:9.5,uid:'no-quote'},vintage={id:'base1-4',rarity:'Rare Holo',edition:'1st Edition',firstEdition:true,raw:.1,grade:9.5,uid:'vintage'};
+ const state={binder:{},bulkV64:{},gradingV44:{graded:[rare,vintage],submissions:[]}};
+ const ctx=vm.createContext({window:{},document:{baseURI:'https://example.test/game/'},URL,fetch:async()=>({ok:true,json:async()=>({schema:1,cards:{}})}),state,detailCache:{},hydrateCard:async()=>{},marketQuoteFromDetail:c.marketQuoteFromDetail});
+ vm.runInContext(bridgeSource,ctx);const bridge=ctx.window.tcgCollectorBridge;let saves=0;bridge.account=()=> 'a';bridge.blocked=()=>false;bridge.save=()=>saves++;bridge.refresh=()=>{};
+ assert.equal(await bridge.restoreMissingPrices(),1);assert.equal(rare.raw,26);assert.equal(rare.grade,9.5);
+ assert.equal(rare.gameEstimateSourceV26410,'Rarity-based game value');assert.equal(rare.marketQuoteV262,undefined);
+ assert.equal(vintage.raw,.1);assert.equal(saves,1);
+});

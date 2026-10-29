@@ -2,6 +2,7 @@ import {transactionId} from '../utils/transaction-id.js';
 import {migrateCollector,cents,journal} from './model.js';
 import {contractDay,refreshContracts} from './contracts.js';
 export function createTransactions(bridge,{now=()=>bridge.now?.()??Date.now(),id=transactionId}={}){
+ const missingPremiumPrice=c=>/special illustration|illustration rare|hyper rare|secret rare|shiny|ultra rare|rainbow|gold rare|rare holo|radiant|vmax|vstar/i.test(String(c?.rarity||''))&&Number(c?.market??c?.raw??0)<=.1;
  const begin=()=>{const state=bridge.state();if(migrateCollector(state,now()))bridge.save();return state;};
  function transact(kind,payload,receipt=id()){
   const current=begin(),account=bridge.account();
@@ -25,6 +26,7 @@ export function createTransactions(bridge,{now=()=>bridge.now?.()??Date.now(),id
    const {box,c}=requireCard(payload.source,payload.cardId,payload.qty);
    if(Number(c.qty)!==payload.owned)throw Error('The number of copies changed. Review this action again.');
    if(kind==='sell'){
+    if(missingPremiumPrice(c))throw Error('Premium card price is still the $0.10 placeholder. Check its verified market quote before selling.');
     const unit=cents(bridge.price(c));if(unit!==payload.unitCents||unit<1)throw Error('The price changed. Review the sale again.');
     const total=unit*payload.qty;if(!Number.isSafeInteger(total))throw Error('Invalid sale value.');
     next.coins=(cents(next.coins)+total)/100;meta.stats.sales=(meta.stats.sales||0)+payload.qty;result={kind,total,qty:payload.qty};
@@ -105,6 +107,7 @@ export function createTransactions(bridge,{now=()=>bridge.now?.()??Date.now(),id
    journal(next,{id:receipt,kind:'trade',title:c.name+' → '+take.name});
   }else if(kind==='grade'){
    const {box,c}=requireCard(payload.source,payload.cardId,1);
+   if(missingPremiumPrice(c))throw Error('Wait for the verified premium-card price before grading.');
    if(Number(c.qty)!==payload.owned)throw Error('Your copies changed.');
    const tiers={standard:{name:'Standard',fee:1200,packs:5},priority:{name:'Priority',fee:2500,packs:3},express:{name:'Express',fee:4500,packs:1}},tier=tiers[payload.tier];
    if(!tier)throw Error('Choose a grading service.');if(cents(next.coins)<tier.fee)throw Error('Not enough cash for this grading service.');
@@ -116,6 +119,7 @@ export function createTransactions(bridge,{now=()=>bridge.now?.()??Date.now(),id
   }else if(kind==='sellSlab'){
    const index=(next.gradingV44?.graded||[]).findIndex(s=>s.uid===payload.uid),slab=next.gradingV44?.graded[index];
    if(!slab||meta.cards[slab.id]?.locked)throw Error('This slab is unavailable or locked.');
+   if(missingPremiumPrice(slab))throw Error('Premium slab still has a $0.10 raw placeholder. Check its verified quote before selling.');
    const value=cents(bridge.slabValue(slab));if(value!==payload.unitCents)throw Error('Slab price changed. Review the sale again.');
    next.gradingV44.graded.splice(index,1);next.coins=(cents(next.coins)+value)/100;meta.stats.sales=(meta.stats.sales||0)+1;
    journal(next,{id:receipt,kind:'sale',title:'Sold slab · '+slab.name,value:value/100});
