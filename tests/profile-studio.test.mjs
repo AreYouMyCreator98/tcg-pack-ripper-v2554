@@ -62,9 +62,48 @@ test('avatars enforce type, size and save ownership and reset remains visible',(
  f.api.avatar('data:image/png;base64,AAAA','local');assert.equal(f.api.snapshot().profile.avatar,'data:image/png;base64,AAAA');
  f.state.profileV227.avatarData='';assert.equal(f.api.snapshot().profile.avatar,'');
 });
+test('five-card showcase persists raw cards and individual graded slabs without moving inventory',()=>{
+ const f=bridgeFixture();f.state.binder={alpha:{id:'alpha',name:'Mew ex',set:'Paldean Fates',qty:2,thumb:'assets/alpha.webp'}};
+ f.state.bulkV64={beta:{id:'beta',name:'Groudon',qty:1}};
+ f.state.gradingV44={graded:[{id:'alpha',uid:'slab-a',name:'Mew ex',grade:9.5,cert:'VG-A'},{id:'alpha',uid:'slab-b',name:'Mew ex',grade:10,cert:'VG-B'}]};
+ const candidates=f.api.showcaseCandidates();assert.equal(candidates.length,4);assert.equal(candidates[0].grade,10);
+ f.api.showcaseSlot(0,{kind:'slab',uid:'slab-a'},'local');
+ f.api.showcaseSlot(1,{kind:'raw',id:'alpha'},'local');
+ f.api.showcaseSlot(2,{kind:'slab',uid:'slab-b'},'local');
+ assert.equal(f.api.snapshot().showcase[0].owned.grade,9.5);
+ assert.equal(f.api.snapshot().showcase[1].owned.name,'Mew ex');
+ assert.equal(f.api.snapshot().showcase[2].owned.grade,10);
+ assert.equal(f.state.binder.alpha.qty,2);assert.equal(f.state.gradingV44.graded.length,2);
+ assert.equal(f.state.profileStudioV257.showcase[0].uid,'slab-a');
+ assert.throws(()=>f.api.showcaseSlot(3,{kind:'raw',id:'alpha'},'local'),/already on display/);
+ assert.throws(()=>f.api.showcaseSlot(4,{kind:'raw',id:'missing'},'local'),/no longer/);
+ assert.throws(()=>f.api.showcaseSlot(5,null,'local'),/five/);
+ f.state.gradingV44.graded.splice(0,1);assert.equal(f.api.snapshot().showcase[0].owned,null);
+ f.api.showcaseSlot(0,{kind:'raw',id:'beta'},'local');assert.equal(f.api.snapshot().showcase[0].owned.name,'Groudon');
+ f.api.showcaseSlot(0,null,'local');assert.equal(f.api.snapshot().showcase[0],null);
+ assert.equal(f.saves(),5);
+});
+test('showcase changes respect account ownership and cloud sync safety barriers',()=>{
+ const f=bridgeFixture();f.state.binder={alpha:{id:'alpha',name:'Mew',qty:1}};f.cloud.hubHeld=true;
+ assert.throws(()=>f.api.showcaseSlot(0,{kind:'raw',id:'alpha'},'local'),/syncing/);
+ f.cloud.hubHeld=false;f.api.showcaseSlot(0,{kind:'raw',id:'alpha'},'local');
+ f.cloud.user={id:'someone-else'};
+ assert.equal(f.api.snapshot().showcase[0],null);
+ assert.throws(()=>f.api.showcaseSlot(1,{kind:'raw',id:'alpha'},'local'),/account changed/);
+});
+test('earned permanent Special Collection cards can be featured, but locked rewards cannot',()=>{
+ const f=bridgeFixture();f.window.specialCardsV198=[{id:'sp_eevee',name:'Eevee — Ink Circle',art:'assets/specials/sp_eevee.webp',rarity:'Mythical Rare'},{id:'sp_mew_ex',name:'Mew ex',art:'assets/specials/sp_mew_ex.webp'}];
+ f.state.specialCollectionV198={owned:{sp_eevee:{via:'Level 5'}}};
+ assert.equal(f.api.showcaseCandidates().filter(c=>c.kind==='special').length,1);
+ f.api.showcaseSlot(4,{kind:'special',id:'sp_eevee'},'local');
+ assert.equal(f.api.snapshot().showcase[4].owned.name,'Eevee — Ink Circle');
+ assert.throws(()=>f.api.showcaseSlot(3,{kind:'special',id:'sp_mew_ex'},'local'),/no longer in your collection/);
+});
 test('profile retains every original render target and keeps all five panels in the shell',()=>{
  const {document}=parseHTML(html),panels=[...document.querySelectorAll('[role=tabpanel]')];assert.equal(panels.length,5);
  for(const p of panels)assert.equal(p.parentElement.className,'profileShellV158');
+ assert.equal(document.querySelectorAll('#profileCardShowcase .profile-showcase-grid').length,1);
+ for(const id of ['profileShowcasePicker','profileShowcaseSearch','profileShowcaseResults','profileShowcaseMore','profileShowcaseStatus'])assert.ok(document.getElementById(id),id);
  for(const id of ['profileRank','profileLevel','xpFill','xpText','collectorLevelBadgeV158','profileAvatarBtnV227','profileAvatarInputV227','profileAvatarChooseV227','profileAvatarResetV227','profileNameInputV227','profileSaveNameV227','careerGrid','showcase','badges','badgeCount','achievementCount','achPercent','achPoints','achievementGrid','unlockRoad','profileRoadCountV158','profileSetsUnlockedV158','chaseCount','profileMastersV158','chaseBadges','openProfileSettingsV158'])assert.ok(document.getElementById(id),id);
  const ids=[...document.querySelectorAll('[id]')].map(n=>n.id);assert.equal(ids.length,new Set(ids).size);
 });
