@@ -1,5 +1,69 @@
 /* Narrow access to classic lexical state; never retain it across cloud pulls. */
 (()=>{
+ let priceBackupPromise=null,priceBackupCheckedAt=0;
+ const pendingPriceProbes=new Map();
+ async function verifiedPriceBackup(){
+  if(typeof document==='undefined'||typeof fetch==='undefined')return null;
+  if(Date.now()-priceBackupCheckedAt>12*60*60*1000)priceBackupPromise=null;
+  if(!priceBackupPromise){
+   priceBackupCheckedAt=Date.now();
+   priceBackupPromise=fetch(new URL('catalog/market-prices-usd.json',document.baseURI),{cache:'default'})
+    .then(async response=>{if(!response.ok)throw Error('Price backup unavailable');const data=await response.json();if(data?.schema!==1||!data.cards||typeof data.cards!=='object')throw Error('Invalid price backup');return data.cards;})
+    .catch(()=>{priceBackupPromise=null;return null;});
+  }
+  return priceBackupPromise;
+ }
+ function backupQuoteFor(card,records){
+  if(!card?.id||!records||!Object.hasOwn(records,card.id))return null;
+  // TCGplayer card-level quotes do not prove a 1st-edition vintage premium.
+  if(card.id.startsWith('base1-')||card.firstEdition||/1st[ -]?edition/i.test(String(card.edition||'')))return null;
+  const q=marketQuoteFromDetail({pricing:{tcgplayer:records[card.id]}},card.finish);
+  return q?{...q,cached:true}:null;
+ }
+ function gameFallbackValue(card){
+  if(String(card.id||'').startsWith('base1-')||card.firstEdition||/1st[ -]?edition/i.test(String(card.edition||'')))return 0;
+  const other=[state.binder?.[card.id],state.bulkV64?.[card.id],...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])];
+  for(const entry of other){
+   if(entry?.id!==card.id||(card.finish&&entry.finish&&entry.finish!==card.finish))continue;
+   const value=Number(entry.market??entry.raw);
+   if(Number.isFinite(value)&&value>.1)return value;
+  }
+  const rarity=String(card.rarity||'').toLowerCase();
+  if(/hyper rare|secret rare|gold rare|rainbow/.test(rarity))return 48;
+  if(/special illustration|shiny ultra/.test(rarity))return 26;
+  if(/illustration rare|ultra rare|shiny rare|trainer gallery|galarian gallery/.test(rarity))return 11;
+  if(/rare holo|radiant|vmax|vstar/.test(rarity))return 4;
+  return 0;
+ }
+ function applyGameFallback(card){
+  const amount=gameFallbackValue(card);
+  if(!(amount>.1))return 0;
+  let changed=0;
+  for(const box of [state.binder,state.bulkV64]){
+   const entry=box?.[card.id];if(!entry||(card.finish&&entry.finish&&entry.finish!==card.finish)||Number(entry.market||0)>.1)continue;
+   entry.market=amount;entry.gameEstimateSourceV26410='Rarity-based game value';changed++;
+  }
+  for(const entry of [...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])]){
+   if(entry.id!==card.id||(card.finish&&entry.finish&&entry.finish!==card.finish)||Number(entry.raw||0)>.1)continue;
+   entry.raw=amount;entry.gameEstimateSourceV26410='Rarity-based game value';changed++;
+  }
+  return changed;
+ }
+ function applyVerifiedPrice(card,quote,{missingOnly=false}={}){
+  if(!quote?.amount||quote.currency!=='USD')return 0;
+  let changed=0;
+  for(const box of [state.binder,state.bulkV64]){
+   const entry=box?.[card.id];if(!entry||(card.finish&&entry.finish&&entry.finish!==card.finish))continue;
+   if(missingOnly&&Number(entry.market||0)>.1)continue;
+   if(Number(entry.market)!==quote.amount||!entry.marketQuoteV262){entry.market=quote.amount;entry.marketQuoteV262=quote;delete entry.gameEstimateSourceV26410;changed++;}
+  }
+  for(const entry of [...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])]){
+   if(entry.id!==card.id||(card.finish&&entry.finish&&entry.finish!==card.finish))continue;
+   if(missingOnly&&Number(entry.raw||0)>.1)continue;
+   if(Number(entry.raw)!==quote.amount||!entry.marketQuoteV262){entry.raw=quote.amount;entry.marketQuoteV262=quote;delete entry.gameEstimateSourceV26410;changed++;}
+  }
+  return changed;
+ }
  window.tcgCollectorBridge={
   state:()=>state,
   now:()=>window.tcgCollectorClock?.now()??Date.now(),
@@ -37,20 +101,54 @@
    }
    return null;
   },
-  async refreshMarket(card){
+  async restoreMissingPrices(){
+   const account=this.account(),records=await verifiedPriceBackup();
+   if(this.account()!==account||this.blocked())return 0;
+   let changed=0;
+   for(const box of [state.binder,state.bulkV64])for(const entry of Object.values(box||{})){
+    if(!entry?.id||Number(entry.market||0)>.1)continue;
+    const quote=backupQuoteFor(entry,records);
+    changed+=quote?applyVerifiedPrice(entry,quote,{missingOnly:true}):applyGameFallback(entry);
+   }
+   for(const entry of [...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])]){
+    if(!entry?.id||Number(entry.raw||0)>.1)continue;
+    const quote=backupQuoteFor(entry,records);
+    changed+=quote?applyVerifiedPrice(entry,quote,{missingOnly:true}):applyGameFallback(entry);
+   }
+   if(changed){this.save();this.refresh();}
+   return changed;
+  },
+  async refreshMarket(card,{useBackupImmediately=false}={}){
    const original=state,account=this.account(),previous=detailCache[card.id],previousQuote=marketQuoteFromDetail(previous,card.finish);
    const saved=this.savedMarketQuote(card)||(previousQuote?{...previousQuote,cached:true}:null);
-   if(this.blocked())return saved;
+   const records=await verifiedPriceBackup();
+   if(this.account()!==account)return null;
+   const backup=backupQuoteFor(card,records),fallback=backup||saved;
+   let repaired=0;
+   if(backup&&!this.blocked())repaired=applyVerifiedPrice(card,backup);
+   else if(!backup&&!this.blocked())repaired=applyGameFallback(card);
+   if(repaired)this.save();
+   if(this.blocked())return fallback;
+   if(useBackupImmediately&&(fallback||repaired)){
+    const key=card.id+'|'+String(card.finish||'');
+    if(!pendingPriceProbes.has(key)){
+     const task=this.refreshMarket(card).then(quote=>{
+      if(quote&&!quote.cached&&typeof CustomEvent!=='undefined')window.dispatchEvent(new CustomEvent('tcg:market-quote-updated',{detail:{id:card.id,finish:card.finish,quote}}));
+     }).catch(()=>{}).finally(()=>pendingPriceProbes.delete(key));
+     pendingPriceProbes.set(key,task);
+    }
+    return fallback;
+   }
    // A manual or on-open refresh must actually ask the provider, even when
    // artwork hydration cached an earlier quote. Keep that quote as fallback.
    if(previous)delete detailCache[card.id];
    const copy={...card};await hydrateCard(copy);
    const quote=marketQuoteFromDetail(detailCache[card.id],card.finish);
    if(this.account()!==account)return null;
-   if(detailCache[card.id]?.id!==card.id||!quote||state!==original||this.blocked())return saved;
-   let changed=false;for(const collection of [state.binder,state.bulkV64]){const c=collection?.[card.id];if(c&&(!c.finish||!card.finish||c.finish===card.finish)){c.market=quote.amount;c.marketQuoteV262=quote;changed=true;}}
-   for(const c of [...(state.gradingV44?.graded||[]),...(state.gradingV44?.submissions||[])])if(c.id===card.id&&(!c.finish||!card.finish||c.finish===card.finish)){c.raw=quote.amount;c.marketQuoteV262=quote;changed=true;}
-   if(changed)this.save();return quote;
+   if(state!==original&&!state.binder?.[card.id]&&!state.bulkV64?.[card.id]&&
+    !(state.gradingV44?.graded||[]).some(c=>c.id===card.id)&&!(state.gradingV44?.submissions||[]).some(c=>c.id===card.id))return null;
+   if(detailCache[card.id]?.id!==card.id||!quote||this.blocked())return fallback;
+   if(applyVerifiedPrice(card,quote))this.save();return quote;
   },
   condition:c=>conditionForGradingV161(c,'V260-'+c.id),
   refresh(){stats();updateProgressUI();if(document.getElementById('binder')?.classList.contains('active'))renderBinder();if(document.getElementById('bulk')?.classList.contains('active'))renderBulkV64();renderGradingV44();renderSlabVaultV52();},

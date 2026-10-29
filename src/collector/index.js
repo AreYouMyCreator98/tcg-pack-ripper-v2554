@@ -23,6 +23,13 @@ export function installCollector(win=window,doc=document){
  const profileTabs=doc.querySelector('.profileModeTabsV158');for(const tab of ['overview','progress','customise','stats']){const button=doc.getElementById('profile-tab-'+tab);if(button)profileTabs?.append(button);}
  const specials=doc.createElement('button');specials.className='collector-button';specials.textContent='SPECIAL COLLECTION';specials.onclick=()=>{win.setBinderModeV147?.('specials');};doc.querySelector('.binder-studio-toolbar')?.append(specials);
  const transactions=createTransactions(bridge),inspector=installCardInspector(bridge,transactions,win,doc),collection=installCollection(bridge,transactions,win,doc);
+ // Restore missing premium prices on entry to Collection, not during boot.
+ // This is one bounded same-origin request rather than a burst of third-party
+ // requests that can stall the Android pack-room animation.
+ win.addEventListener('tcg:navigation',()=>{
+  if(win.tcgNavigation?.snapshot?.()?.destination!=='collection')return;
+  bridge.restoreMissingPrices?.().then(changed=>{if(changed)collection.refresh();}).catch(()=>{});
+ });
  doc.addEventListener('click',event=>{
   if(event.target.closest('#exchangeSellBulkV154')){event.preventDefault();event.stopImmediatePropagation();win.tcgNavigation.go('collection','bulk');doc.getElementById('sellBulkTubV64')?.click();return;}
   const sellSlab=event.target.closest('[data-sell-slab]');if(sellSlab){const card=bridge.state().gradingV44?.graded?.find(s=>s.uid===sellSlab.dataset.sellSlab);if(card){event.preventDefault();event.stopImmediatePropagation();doc.getElementById('gradeRevealV48')?.classList.remove('show');inspector.open(card,{source:'slab',slab:card});}return;}
