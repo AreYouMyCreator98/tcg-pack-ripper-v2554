@@ -6,6 +6,14 @@ let lastProgress = 0;
 function launchEl(id) { return document.getElementById(id); }
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 function timeout(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
+function paintedFrames(maxWaitMs = 300) {
+  // Android WebViews and backgrounded PWAs can throttle requestAnimationFrame
+  // indefinitely. A decorative transition must never hold the whole app hostage.
+  return Promise.race([
+    new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+    timeout(maxWaitMs)
+  ]);
+}
 
 function suppressAchievementBurst() {
   if (!window.__TCG_BOOT_PHASE__) return;
@@ -106,7 +114,7 @@ export async function prewarmFirstFrame() {
     Promise.allSettled([fontPromise, ...images.map(imageReady)]),
     timeout(1400)
   ]);
-  await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+  await paintedFrames();
 }
 
 export async function finishLaunch() {
@@ -125,7 +133,7 @@ export async function finishLaunch() {
   }
 
   document.documentElement.classList.remove('modern-booting');
-  await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+  await paintedFrames();
   const root = launchEl('tcgLaunch');
   root?.setAttribute('aria-busy', 'false');
   root?.classList.add('v2541Leaving');
@@ -133,6 +141,7 @@ export async function finishLaunch() {
   if (root) root.style.transitionDuration = `${exitMs}ms`;
   await sleep(exitMs);
   root?.remove();
+  window.TCG_BOOT_RECOVERY?.done?.();
   window.__TCG_BOOT_PHASE__ = false;
   bootObserver?.disconnect();
   bootObserver = null;
@@ -146,7 +155,11 @@ export function failLaunch(stage, error) {
   setLaunchStage('STARTUP PROBLEM', lastProgress, 'Your collection is safe. Please retry startup.');
   root?.setAttribute('aria-busy', 'false');
   const retry = launchEl('tcgLaunchRetry');
-  if (retry) { retry.hidden = false; retry.onclick = () => location.reload(); }
+  if (retry) {
+    retry.hidden = false;
+    retry.textContent = 'REPAIR GAME FILES & RESTART';
+    retry.onclick = () => window.TCG_BOOT_RECOVERY?.repair?.() || location.reload();
+  }
   bootObserver?.disconnect();
   bootObserver = null;
   return message;
