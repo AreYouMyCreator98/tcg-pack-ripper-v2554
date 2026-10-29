@@ -20,7 +20,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2645';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2646';
 
 const cardManifestReady=loadCardAssetManifest();
 window.tcgCardAssets={resolve:resolveCardImage};
@@ -35,16 +35,21 @@ let bootStage = 'initialising';
 let bootFinished = false;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// Keep V264.1's bounded startup worker check. V264.2 moved this later and
-// regressed Chrome, so the V264.3 fix leaves that ordering untouched.
-const pwaRefresh = APP_CONFIG.featureFlags.pwa
-  ? registerPWA({ waitForControlMs: 1500 })
-  : Promise.resolve(false);
-
-const startupMode = new URLSearchParams(location.search).get('startup');
+// Updating a worker while it is caching the entire app can compete with the
+// main thread for the first paint on Android. The worker serves code
+// network-first; registration and update do not need to gate the pack room.
+const searchParams = new URLSearchParams(location.search);
+const startupMode = searchParams.get('startup');
 const liteStartup = startupMode === 'lite';
 const directStartup = startupMode === 'direct';
-window.__TCG_TRACE__ = new URLSearchParams(location.search).has('trace');
+const noEffects = searchParams.get('effects') === 'off';
+if (noEffects) {
+  const safeStyles = document.createElement('style');
+  safeStyles.textContent = 'html.tcg-static-effects *,html.tcg-static-effects *::before,html.tcg-static-effects *::after{animation:none!important;transition:none!important;filter:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;scroll-behavior:auto!important}';
+  document.head.append(safeStyles);
+  document.documentElement.classList.add('tcg-static-effects');
+}
+window.__TCG_TRACE__ = searchParams.has('trace');
 if (window.__TCG_TRACE__) {
   // Opt-in on-device startup breadcrumb. Shows the last completed action even
   // if the main thread hangs and remote developer tools cannot connect.
@@ -93,6 +98,20 @@ const bootWatchdog = setTimeout(() => {
   showBootFailure(new Error('Startup exceeded 28 seconds. Tap to retry with refreshed game files.'));
 }, 28000);
 
+function refreshWorkerAfterStartup() {
+  if (!APP_CONFIG.featureFlags.pwa || searchParams.get('pwa') === 'off') return;
+  // Keep install, cache writes and update arbitration outside initial loading.
+  const refresh = () => {
+    if (document.hidden) {
+      document.addEventListener('visibilitychange', refresh, { once: true });
+      return;
+    }
+    bootMark('pwa-update-started');
+    void registerPWA({ waitForControlMs: 900 }).then(() => bootMark('pwa-update-ready'));
+  };
+  setTimeout(refresh, 8000);
+}
+
 async function boot() {
   try {
     bootStage = 'loading interface';
@@ -112,9 +131,8 @@ async function boot() {
     installBinderModule();
     installRankFrameRenderer();
 
-    bootStage = 'refreshing game files';
-    setLaunchStage('REFRESHING GAME FILES', 40, 'Checking the latest runtime and clearing stale cache…');
-    await Promise.race([pwaRefresh, sleep(1700)]);
+    bootStage = 'verifying game files';
+    setLaunchStage('VERIFYING GAME FILES', 40, 'Loading the latest game code…');
 
     bootStage = 'starting critical game systems';
     setLaunchStage('LOADING COLLECTION', 47, 'Restoring packs, progress and collection systems…');
@@ -149,11 +167,12 @@ async function boot() {
     bootFinished = true;
     clearTimeout(bootWatchdog);
     bootMark('pack-room-visible');
+    refreshWorkerAfterStartup();
     // After the splash is gone, optional work may start. The timer creates a
     // genuine paint boundary; it does not block the boot watchdog or UI.
     setTimeout(() => { bootMark('post-launch-timer-fired'); void installPostLaunchFeatures(); }, 200);
     if ('serviceWorker' in navigator) {
-      setTimeout(() => navigator.serviceWorker.controller?.postMessage({ type: 'PRUNE_OLD_CACHES' }), 10000);
+      setTimeout(() => navigator.serviceWorker.controller?.postMessage({ type: 'PRUNE_OLD_CACHES' }), 18000);
     }
   } catch (error) {
     clearTimeout(bootWatchdog);
@@ -169,9 +188,9 @@ boot();
 async function installPostLaunchFeatures() {
   if (!liteStartup) {
     for (const [name, install] of [
+      ['silver-shell', installSilverShell],
       ['collector', installCollector],
-      ['sealed-vault', installSealedVault],
-      ['silver-shell', installSilverShell]
+      ['sealed-vault', installSealedVault]
     ]) {
       // Give Android an opportunity to paint and handle user input between jobs.
       await sleep(40);
@@ -190,5 +209,7 @@ async function installPostLaunchFeatures() {
     detail: { version: APP_CONFIG.version }
   }));
   bootMark('app-ready');
-  if (!liteStartup) scheduleSecondaryRuntime();
+  // The Hub/Profile routes already request their scripts on demand. Avoid
+  // parsing those optional chunks during Android's first shine animation.
+  if (!liteStartup && document.documentElement.dataset.platform !== 'android') scheduleSecondaryRuntime();
 }

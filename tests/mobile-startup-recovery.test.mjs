@@ -81,13 +81,17 @@ test('first-frame and exit animations have a time limit on throttled Android Web
   }
 });
 
-test('service worker precache is connection-limited and old cache deletion follows app readiness', () => {
+test('service worker precaches only offline shell after the game is interactive', () => {
   const worker = fs.readFileSync('public/sw.js', 'utf8');
   const main = fs.readFileSync('src/main.js', 'utf8');
-  assert.match(worker, /Math\.min\(6, CORE\.length\)/);
+  assert.match(worker, /Math\.min\(2, INSTALL_SHELL\.length\)/);
+  assert.match(worker, /const INSTALL_SHELL = \[/);
+  assert.doesNotMatch(worker, /const url = CORE\[next\+\+\]/);
   assert.match(worker, /PRUNE_OLD_CACHES/);
   assert.match(main, /PRUNE_OLD_CACHES/);
   assert.ok(main.indexOf('await finishLaunch({ skipPaint: directStartup })') < main.indexOf('PRUNE_OLD_CACHES'));
+  assert.match(main, /setTimeout\(refresh, 8000\)/);
+  assert.ok(main.lastIndexOf('refreshWorkerAfterStartup()') > main.indexOf('await finishLaunch({ skipPaint: directStartup })'));
   assert.doesNotMatch(worker.match(/self\.addEventListener\('activate',[\s\S]*?\n\}\);/)?.[0] || '', /caches\.delete/);
 });
 
@@ -99,8 +103,10 @@ test('89 percent no longer blocks on optional collection and secondary runtime',
   assert.ok(visible >= 0 && background > visible);
   assert.doesNotMatch(criticalBoot, /await loadSecondaryRuntime\(|await loadBinderRuntime\(|await installCollector\(/);
   assert.match(main, /\['collector', installCollector\]/);
+  assert.ok(main.indexOf("['silver-shell', installSilverShell]") < main.indexOf("['collector', installCollector]"));
   assert.match(main, /const liteStartup = startupMode === 'lite'/);
   assert.match(main, /const directStartup = startupMode === 'direct'/);
+  assert.match(main, /searchParams\.get\('effects'\) === 'off'/);
 });
 
 test('new expansion catalogs are loaded on demand instead of congesting install precache', () => {

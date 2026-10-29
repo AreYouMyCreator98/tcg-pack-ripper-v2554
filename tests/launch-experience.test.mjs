@@ -9,7 +9,7 @@ const html = fs.readFileSync('index.html','utf8');
 
 test('branded launch screen exists before module boot', () => {
   assert.match(html, /id="tcgLaunch"/);
-  assert.ok(html.indexOf('id="tcgLaunch"') < html.indexOf('src=".\/src\/main.js?v=2645"'));
+  assert.ok(html.indexOf('id="tcgLaunch"') < html.indexOf('src=".\/src\/main.js?v=2646"'));
 });
 
 test('boot suppresses achievement visuals until ready', () => {
@@ -30,7 +30,7 @@ test('service worker cache and launch module are current', () => {
 });
 
 test('network-first startup recovery cannot wait forever on stale runtime', () => {
-  assert.match(main, /REFRESHING GAME FILES/);
+  assert.match(main, /VERIFYING GAME FILES/);
   assert.match(main, /Startup exceeded 28 seconds/);
   assert.match(sw, /network-first/i);
   assert.match(sw, /cache: 'no-store'/);
