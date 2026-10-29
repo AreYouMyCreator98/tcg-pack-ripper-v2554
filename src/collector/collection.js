@@ -28,7 +28,11 @@ export function installCollection(bridge,transactions,win=window,doc=document){
  gallery.addEventListener('change',event=>{if(event.target.id==='collectorFilter')filter=event.target.value;if(event.target.id==='collectorSort')sort=event.target.value;if(event.target.id==='collectorSet')set=event.target.value;page=0;renderCards();});
  root.addEventListener('click',event=>{
   const b=event.target.closest('button');if(!b)return;
-  if(b.dataset.inspectCard){const card=cardRows(bridge.state()).find(c=>c.id===b.dataset.inspectCard);win.tcgCardInspector.open(card,{source:card.binder?'binder':'bulk'});}
+  if(b.dataset.inspectCard){
+   const card=cardRows(bridge.state()).find(c=>c.id===b.dataset.inspectCard);if(!card)return;
+   const slab=card.slabs?.[0];
+   win.tcgCardInspector.open(card,{source:card.binder?'binder':card.bulk?'bulk':'slab',...(slab?{slab}: {})});
+  }
   if(b.dataset.galleryPage){page+=Number(b.dataset.galleryPage);renderCards();}
   if(b.dataset.masterSet)loadSet(b.dataset.masterSet);
   if(b.hasAttribute('data-master-back')){selectedSet=null;catalogRequest++;renderMaster();}

@@ -296,7 +296,10 @@ async function getSet(target=sel){
 const detailCache={};
 function marketQuoteFromDetail(x,finish=''){
  const p=x?.pricing?.tcgplayer;if(!p||(p.unit&&p.unit!=='USD'))return null;
- const f=String(finish).toLowerCase(),v=f.includes('reverse')?p['reverse-holofoil']:(f.includes('foil')||f.includes('holo'))?(p.holofoil||p.normal):(p.normal||p.holofoil);
+ const f=String(finish).toLowerCase();
+ const v=f.includes('reverse')?(p['reverse-holofoil']||p.reverse)
+  :(f.includes('foil')||f.includes('holo'))?(p.holofoil||p.holo)
+  :(p.normal||p.holofoil||p.holo);
  const amount=[v?.marketPrice,v?.midPrice,v?.lowPrice].map(Number).find(n=>Number.isFinite(n)&&n>0);
  return amount?{amount:Math.round(amount*100)/100,currency:'USD',source:'TCGplayer via TCGdex',updated:p.updated||null}:null;
 }

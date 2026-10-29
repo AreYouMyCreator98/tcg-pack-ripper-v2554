@@ -1,6 +1,6 @@
 {
   "name": "tcg-pack-ripper-plus",
-  "version": "0.264.8",
+  "version": "0.264.9",
   "private": true,
   "type": "module",
   "scripts": {
