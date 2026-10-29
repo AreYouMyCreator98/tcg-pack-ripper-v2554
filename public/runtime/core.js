@@ -51,13 +51,49 @@ const SETS=[
 {id:'sm11.5',name:'Hidden Fates',series:'sm',a:'#4f70b5',b:'#d8a740',unlock:29},
 {id:'sm9',name:'Team Up',series:'sm',a:'#d74c4d',b:'#2e7694',unlock:31},
 {id:'xy12',name:'XY Evolutions',series:'xy',a:'#df4a3f',b:'#4e74b7',unlock:34},
-{id:'xy6',name:'Roaring Skies',series:'xy',a:'#5e9cc4',b:'#426b58',unlock:38}];
+{id:'xy6',name:'Roaring Skies',series:'xy',a:'#5e9cc4',b:'#426b58',unlock:38},
+// V264: ten real expansions, without altering any existing unlock thresholds.
+{id:'me05',name:'Pitch Black',series:'me',a:'#292d4f',b:'#a32e6d',unlock:1},
+{id:'sv10.5b',name:'Black Bolt',series:'sv',a:'#b6a8eb',b:'#252039',unlock:4},
+{id:'sv10.5w',name:'White Flare',series:'sv',a:'#faf0d0',b:'#dd6348',unlock:4},
+{id:'sv08.5',name:'Prismatic Evolutions',series:'sv',a:'#cf89ec',b:'#5ccbd1',unlock:10},
+{id:'base2',name:'Jungle',series:'base',a:'#6ec56a',b:'#39653b',unlock:26},
+{id:'base3',name:'Fossil',series:'base',a:'#b2bf99',b:'#596457',unlock:28},
+{id:'base5',name:'Team Rocket',series:'base',a:'#c94056',b:'#2d2a41',unlock:32},
+{id:'neo1',name:'Neo Genesis',series:'neo',a:'#e9b760',b:'#5a79bf',unlock:36},
+{id:'30th',name:'30th Celebration',series:'me',a:'#f5d56d',b:'#6653b9',unlock:39},
+{id:'base1',name:'Base Set — 1st Edition',series:'base',a:'#f0d266',b:'#4f6caf',unlock:50}];
+const V264_SET_IDS=new Set(['me05','sv10.5b','sv10.5w','sv08.5','base2','base3','base5','neo1','30th','base1']);
 const CHASE_CARDS={
 'sv04.5':['Mew ex','Charizard ex'],'swsh12.5':['Giratina VSTAR'],'swsh4.5':['Charizard VMAX'],'sv08':['Pikachu ex'],'sv03':['Charizard ex'],'sv02':['Magikarp'],'sv01':['Miriam'],'sv07':['Terapagos ex'],'sv06.5':['Cassiopeia'],'sv06':['Greninja ex'],'sv05':['Iron Crown ex','Walking Wake ex'],'sv04':['Roaring Moon ex'],'sv03.5':['Charizard ex'],'sv09':["Lillie's Clefairy ex"],'sv10':["Team Rocket's Mewtwo ex"],'swsh12':['Lugia V'],'swsh11':['Giratina V'],'swsh10':['Machamp V'],'swsh9':['Charizard V'],'swsh8':['Gengar VMAX'],'swsh7':['Umbreon VMAX'],'swsh6':['Blaziken VMAX','Galarian Moltres V'],'swsh5':['Tyranitar V'],'swsh4':['Pikachu VMAX'],'swsh3':['Charizard VMAX'],'swsh2':['Boss’s Orders','Boss\'s Orders','Sonia'],'swsh1':['Marnie'],'sm12':['Charizard & Braixen-GX','Rosa'],'sm11.5':['Charizard-GX','Charizard GX'],'sm9':['Latias & Latios-GX','Latias & Latios GX'],'xy12':['Charizard'],'xy6':['Rayquaza-EX','Rayquaza EX']};
-function isChaseCard(c){let names=CHASE_CARDS[c.setId]||[];return names.some(n=>String(c.name||'').toLowerCase()===n.toLowerCase())&&(tier(c)>=3||c.secret)}
+Object.assign(CHASE_CARDS,{
+  base1:['Charizard','Blastoise','Venusaur'],
+  base2:['Flareon','Vaporeon','Jolteon'],
+  base3:['Dragonite','Gengar','Articuno'],
+  base5:['Dark Charizard','Dark Blastoise','Dark Dragonite'],
+  neo1:['Lugia','Typhlosion','Meganium'],
+  'sv08.5':['Umbreon ex','Sylveon ex','Leafeon ex'],
+  'sv10.5b':['Zekrom ex'],
+  'sv10.5w':['Reshiram ex'],
+  me05:['Mega Darkrai ex','Mega Zeraora ex'],
+  '30th':['Charizard','Pikachu ex','Umbreon ex']
+});
+function isChaseCard(c){let names=CHASE_CARDS[c.setId]||[];return names.some(n=>String(c.name||'').toLowerCase()===n.toLowerCase())&&(tier(c)>=3||c.secret||/rare holo/i.test(c.rarity||''))}
 function awardChase(c){if(!isChaseCard(c)||state.chaseBadges[c.setId])return false;state.chaseBadges[c.setId]={name:c.name,time:Date.now()};addXP(40,'chase');let before=new Set(state.binderOwned||[]);syncRewardBinders(false);let earned=(state.binderOwned||[]).filter(x=>!before.has(x));save();let d=document.createElement('div');d.className='chaseToast';let extra=earned.length?`<span style="display:block;margin-top:7px;color:#e8c9ff">🔓 PRESTIGE BINDER UNLOCKED: ${BINDER_THEMES.find(t=>t.id===earned[0])?.name||'Binder'}</span>`:'';d.innerHTML=`<div style="font-size:44px">🏆✨</div><b>CHASE CARD BADGE EARNED!</b><span>${c.set} • ${c.name}</span>${extra}`;document.body.appendChild(d);hitSound(5);if(navigator.vibrate)navigator.vibrate([40,40,80,40,120]);setTimeout(()=>d.remove(),4200);return true}
 
 const OFFICIAL_PACK_ART={"sv10":["assets/packs/sv10.webp","https://images.sealeddex.com/images/expansions/destined-rivals/SV10_Booster_Cynthia_Garchomp.webp"],"sv09":["assets/packs/sv09.webp","https://images.sealeddex.com/images/expansions/journey-together/journey-together-pack-0.webp"],"sv08":["assets/packs/sv08.webp","https://images.sealeddex.com/images/expansions/surging-sparks/SV8_Booster_Pikachu.webp"],"sv07":["assets/packs/sv07.webp","https://images.sealeddex.com/images/expansions/stellar-crown/SV7_Booster_Terapagos.webp"],"sv06.5":["assets/packs/sv06.5.webp","https://images.sealeddex.com/images/expansions/shrouded-fable/shrouded-fable-pack-0.webp"],"sv06":["assets/packs/sv06.webp","https://images.sealeddex.com/images/expansions/twilight-masquerade/SV6_Booster_Sinistcha.webp"],"sv05":["assets/packs/sv05.webp","https://images.sealeddex.com/images/expansions/temporal-forces/SV5_Booster_Walking_Wake.webp"],"sv04.5":["assets/packs/sv04.5.webp","https://images.sealeddex.com/images/expansions/paldean-fates/paldean-fates-pack-0.webp"],"sv04":["assets/packs/sv04.webp","https://images.sealeddex.com/images/expansions/paradox-rift/SV4_Booster_Garchomp.webp"],"sv03.5":["assets/packs/sv03.5.webp","https://images.sealeddex.com/images/expansions/151/151-pack-0.webp"],"sv03":["assets/packs/sv03.webp","https://images.sealeddex.com/images/expansions/obsidian-flames/SV3_Booster_Revavroom.webp"],"sv02":["assets/packs/sv02.webp","https://images.sealeddex.com/images/expansions/paldea-evolved/SV2_Booster_Ting-Lu.webp"],"sv01":["assets/packs/sv01.webp","https://images.sealeddex.com/images/expansions/scarlet-and-violet/scarlet-and-violet-pack-0.webp"],"swsh12.5":["assets/packs/swsh12.5.webp","https://images.sealeddex.com/images/expansions/crown-zenith/crown-zenith-pack-0.webp"],"swsh12":["assets/packs/swsh12.webp","https://images.sealeddex.com/images/expansions/silver-tempest/SWSH12_Booster_Regidrago.webp"],"swsh11":["assets/packs/swsh11.webp","https://images.sealeddex.com/images/expansions/lost-origin/lost-origin-pack-0.webp"],"swsh10":["assets/packs/swsh10.webp","https://images.sealeddex.com/images/expansions/astral-radiance/astral-radiance-pack-0.webp"],"swsh9":["assets/packs/swsh9.webp","https://images.sealeddex.com/images/expansions/brilliant-stars/SWSH9_Booster_Whimsicott.webp"],"swsh8":["assets/packs/swsh8.webp","https://images.sealeddex.com/images/expansions/fusion-strike/SWSH8_Booster_Boltund.webp"],"swsh7":["assets/packs/swsh7.webp","https://images.sealeddex.com/images/expansions/evolving-skies/evolving-skies-pack-0.webp"],"swsh6":["assets/packs/swsh6.webp","https://images.sealeddex.com/images/expansions/chilling-reign/chilling-reign-pack-0.webp"],"swsh5":["assets/packs/swsh5.webp","https://images.sealeddex.com/images/expansions/battle-styles/battle-styles-pack-0.webp"],"swsh4.5":["assets/packs/swsh4.5.webp","https://images.sealeddex.com/images/expansions/shining-fates/shining-fates-pack-0.webp"],"swsh4":["assets/packs/swsh4.webp","https://images.sealeddex.com/images/expansions/vivid-voltage/SWSH4_Booster_Zarude.webp"],"swsh3":["assets/packs/swsh3.webp","https://images.sealeddex.com/images/expansions/darkness-ablaze/darkness-ablaze-pack-0.webp"],"swsh2":["assets/packs/swsh2.webp","https://images.sealeddex.com/images/expansions/rebel-clash/rebel-clash-pack-0.webp"],"swsh1":["assets/packs/swsh1.webp","https://images.sealeddex.com/images/expansions/sword-and-shield/sword-and-shield-pack-0.webp"],"sm12":["assets/packs/sm12.webp","https://images.sealeddex.com/images/expansions/cosmic-eclipse/SM12_Booster_Cleffa_Igglybuff_Togepi.webp"],"sm11.5":["assets/packs/sm11.5.webp","https://images.sealeddex.com/images/expansions/hidden-fates/Hidden_Fates_Booster_Mew.webp"],"sm9":["assets/packs/sm9.webp","https://images.sealeddex.com/images/expansions/team-up/SM9_Booster_Eevee_Snorlax.webp"],"xy12":["assets/packs/xy12.webp","https://images.sealeddex.com/images/expansions/evolutions/XY12_Booster_Raichu.webp"],"xy6":["assets/packs/xy6.webp","https://images.sealeddex.com/images/expansions/roaring-skies/XY6_Booster_Gallade.webp"]};
+Object.assign(OFFICIAL_PACK_ART,{
+  base1:['assets/packs/base1.webp','https://images.sealeddex.com/images/expansions/base-set/base-set-pack-0.webp'],
+  base2:['assets/packs/base2.webp','https://images.sealeddex.com/images/expansions/jungle/Jungle_Booster_Flareon.webp'],
+  base3:['assets/packs/base3.webp','https://images.sealeddex.com/images/expansions/fossil/Fossil_Booster_Zapdos.webp'],
+  base5:['assets/packs/base5.webp','https://images.sealeddex.com/images/expansions/team-rocket/team-rocket-pack-0.webp'],
+  neo1:['assets/packs/neo1.webp','https://images.sealeddex.com/images/expansions/neo-genesis/Neo_Genesis_Booster_Lugia.webp'],
+  'sv08.5':['assets/packs/sv08.5.webp','https://images.sealeddex.com/images/expansions/prismatic-evolutions/prismatic-evolutions-pack-0.webp'],
+  'sv10.5b':['assets/packs/sv10.5b.webp','https://images.sealeddex.com/images/expansions/black-bolt/black-bolt-pack-0.webp'],
+  'sv10.5w':['assets/packs/sv10.5w.webp','https://images.sealeddex.com/images/expansions/white-flare/white-flare-pack-0.webp'],
+  me05:['assets/packs/me05.webp','https://images.sealeddex.com/images/expansions/pitch-black/pitch-black_pack1.webp'],
+  '30th':['assets/packs/30th.webp','https://images.sealeddex.com/images/expansions/30th-celebration/30th-celebration_pack1.webp']
+});
 let packArtTry=0;
 const PACK_CACHE_DB='tcgPackArtCacheV31HD';
 function openPackDB(){return new Promise((res,rej)=>{try{let q=indexedDB.open(PACK_CACHE_DB,1);q.onupgradeneeded=()=>q.result.createObjectStore('art');q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)}catch(e){rej(e)}})}
@@ -98,12 +134,17 @@ routeRegularExV260(state);
 let sel=SETS.find(s=>s.unlock===1)||SETS[0],cache={},pulls=[],idx=0,busy=false,drag=false,startX=0,startY=0,openStyle=0;let v114PackCount=1,v114BatchGroups=[];
 function save(){routeRegularExV260(state);try{localStorage.setItem('tcgRipperSave',JSON.stringify(state))}catch(e){storageLimitedV200=true}stats();updateProgressUI()}function stats(){$('#coins').textContent=Number(state.coins||0).toFixed(2);$('#packs').textContent=state.packs;$('#hits').textContent=state.hits;let bc=document.getElementById('binderCashV147');if(bc)bc.textContent=Number(state.coins||0).toFixed(2);let ec=document.getElementById('earnCashV153');if(ec)ec.textContent='$'+Number(state.coins||0).toFixed(2)}
 function asset(u,quality='high'){if(!u)return'';return u+'/'+quality+'.webp'}function logo(s){return ({"sm11.5":"assets/set-logos/sm11.5.webp","sm12":"assets/set-logos/sm12.png","sm9":"assets/set-logos/sm9.png","sv01":"assets/set-logos/sv01.webp","sv02":"assets/set-logos/sv02.png","sv03.5":"assets/set-logos/sv03.5.png","sv03":"assets/set-logos/sv03.png","sv04.5":"assets/set-logos/sv04.5.png","sv04":"assets/set-logos/sv04.png","sv05":"assets/set-logos/sv05.png","sv06.5":"assets/set-logos/sv06.5.png","sv06":"assets/set-logos/sv06.png","sv07":"assets/set-logos/sv07.png","sv08":"assets/set-logos/sv08.png","sv09":"assets/set-logos/sv09.png","sv10":"assets/set-logos/sv10.png","swsh1":"assets/set-logos/swsh1.png","swsh10":"assets/set-logos/swsh10.png","swsh11":"assets/set-logos/swsh11.png","swsh12.5":"assets/set-logos/swsh12.5.png","swsh12":"assets/set-logos/swsh12.png","swsh2":"assets/set-logos/swsh2.png","swsh3":"assets/set-logos/swsh3.png","swsh4.5":"assets/set-logos/swsh4.5.png","swsh4":"assets/set-logos/swsh4.png","swsh5":"assets/set-logos/swsh5.png","swsh6":"assets/set-logos/swsh6.png","swsh7":"assets/set-logos/swsh7.png","swsh8":"assets/set-logos/swsh8.png","swsh9":"assets/set-logos/swsh9.png","xy12":"assets/set-logos/xy12.png","xy6":"assets/set-logos/xy6.png"})[s.id]||`https://assets.tcgdex.net/en/${s.series}/${s.id}/logo.webp`}
+const originalLogoV264=logo;
+logo=function(s){return V264_SET_IDS.has(s.id)?`assets/set-logos/${s.id}.webp`:originalLogoV264(s)};
 const MEGA_SET_REQUIREMENTS={
  'sm12':{label:'MEGA RARE SET',xp:52000,badges:['elite','hit50'],hits:[{setId:'swsh7',card:'Umbreon VMAX'}]},
  'sm11.5':{label:'MEGA RARE SET',xp:60000,badges:['elite','vault'],hits:[{setId:'sv03.5',card:'Charizard ex'},{setId:'swsh4.5',card:'Charizard VMAX'}]},
  'sm9':{label:'LEGENDARY SET',xp:68000,badges:['master','hit50'],hits:[{setId:'swsh8',card:'Gengar VMAX'},{setId:'swsh11',card:'Giratina V'}]},
  'xy12':{label:'LEGACY VAULT',xp:76000,badges:['master','vault'],hits:[{setId:'sv03',card:'Charizard ex'},{setId:'swsh9',card:'Charizard V'}]},
- 'xy6':{label:'ULTIMATE VAULT',xp:83655,badges:['icon','hit100','vault'],hits:[{setId:'swsh7',card:'Umbreon VMAX'},{setId:'swsh12',card:'Lugia V'},{setId:'swsh11',card:'Giratina V'}]}
+ 'xy6':{label:'ULTIMATE VAULT',xp:83655,badges:['icon','hit100','vault'],hits:[{setId:'swsh7',card:'Umbreon VMAX'},{setId:'swsh12',card:'Lugia V'},{setId:'swsh11',card:'Giratina V'}]},
+ // Prestige unlocks are independent of the normal numeric XP ladder.
+ '30th':{label:'30TH ANNIVERSARY',xp:0,skipXP:true,rankRP:1000},
+ 'base1':{label:'1ST EDITION LEGACY VAULT',xp:0,skipXP:true,rankRP:1000,collectorLevel:50,masterSets:5,packs:1000}
 };
 function badgeDef(id){return BADGE_DEFS.find(x=>x[0]===id)}
 function collectedHitIndexV262(){
@@ -126,17 +167,66 @@ async function auditRequirementHit(h){
  return result;
 }
 async function auditAllProgressionTargets(){let hits=Object.values(MEGA_SET_REQUIREMENTS).flatMap(x=>x.hits||[]),unique=[...new Map(hits.map(h=>[h.setId+'|'+h.card.toLowerCase(),h])).values()];let results=await Promise.all(unique.map(async h=>({h,ok:await auditRequirementHit(h)})));let bad=results.filter(x=>x.ok===false);if(bad.length)console.error('ANTI-SOFTLOCK AUDIT FAILED',JSON.stringify(bad));else console.info('ANTI-SOFTLOCK AUDIT',results.length,'required hits verified or awaiting network');return {total:results.length,bad}}
-function setRequirementState(s,legacy=false){if(!legacy&&!Array.isArray(state.setUnlocksV259)){state.setUnlocksV259=SETS.filter(x=>setRequirementState(x,true).done).map(x=>x.id);try{localStorage.setItem('tcgRipperSave',JSON.stringify(state))}catch(_){}}const retained=!legacy&&state.setUnlocksV259.includes(s.id);let m=MEGA_SET_REQUIREMENTS[s.id],items=[];let baseXP=Math.ceil((m?.xp??xpFloor(Number(s.unlock||1)))*(legacy?1:1.5));items.push({type:'xp',name:'Collector XP',detail:`Reach ${baseXP.toLocaleString()} total XP`,value:Math.min(Number(state.xp||0),baseXP),target:baseXP,done:Number(state.xp||0)>=baseXP});if(m){for(let id of m.badges||[]){let b=badgeDef(id),done=!!state.badges?.[id]||(b?!!b[3]():false);items.push({type:'badge',name:`Badge: ${b?.[1]||id}`,detail:b?.[2]||'Earn the required badge',value:done?1:0,target:1,done})}for(let h of m.hits||[]){let sn=SETS.find(x=>x.id===h.setId)?.name||h.setId,done=hasCollectedHit(h);items.push({type:'hit',name:`Pull ${h.card}`,detail:`Required hit • Open ${sn} packs`,value:done?1:0,target:1,done})}}if(retained)for(const item of items){item.done=true;item.retained=true;item.detail='Previously unlocked — access retained';}return {mega:!!m,label:m?.label||'SET PROGRESSION',items,done:items.every(x=>x.done)}}
+function setRequirementState(s,legacy=false){
+ if(!legacy&&!Array.isArray(state.setUnlocksV259)){
+   state.setUnlocksV259=SETS.filter(x=>setRequirementState(x,true).done).map(x=>x.id);
+   try{localStorage.setItem('tcgRipperSave',JSON.stringify(state))}catch(_){}
+ }
+ const retained=!legacy&&state.setUnlocksV259.includes(s.id),m=MEGA_SET_REQUIREMENTS[s.id],items=[];
+ const baseXP=Math.ceil((m?.xp??xpFloor(Number(s.unlock||1)))*(legacy?1:1.5));
+ if(!m?.skipXP)items.push({type:'xp',name:'Collector XP',detail:`Reach ${baseXP.toLocaleString()} total XP`,value:Math.min(Number(state.xp||0),baseXP),target:baseXP,done:Number(state.xp||0)>=baseXP});
+ if(m){
+   for(const id of m.badges||[]){const b=badgeDef(id),done=!!state.badges?.[id]||(b?!!b[3]():false);items.push({type:'badge',name:`Badge: ${b?.[1]||id}`,detail:b?.[2]||'Earn the required badge',value:done?1:0,target:1,done})}
+   for(const h of m.hits||[]){const sn=SETS.find(x=>x.id===h.setId)?.name||h.setId,done=hasCollectedHit(h);items.push({type:'hit',name:`Pull ${h.card}`,detail:`Required hit • Open ${sn} packs`,value:done?1:0,target:1,done})}
+   if(m.rankRP){const rp=Math.max(Number(state.rankedV221?.rp||0),Number(state.rankedV221?.seasonHigh||0));items.push({type:'rank',name:'Diamond Pack Battle Rank',detail:'Reach Diamond (1,000 RP) or higher in ranked pack battles',value:Math.min(rp,m.rankRP),target:m.rankRP,done:rp>=m.rankRP})}
+   if(m.collectorLevel){const level=levelFromXP(state.xp);items.push({type:'level',name:'Collector Level 50',detail:'Reach the maximum collector level',value:Math.min(level,m.collectorLevel),target:m.collectorLevel,done:level>=m.collectorLevel})}
+   if(m.packs){const count=Number(state.packs||0);items.push({type:'packs',name:'1,000 Packs Opened',detail:'Lifetime packs opened across every expansion',value:Math.min(count,m.packs),target:m.packs,done:count>=m.packs})}
+   if(m.masterSets){const totals=setTotalsV57(),complete=SETS.filter(x=>x.id!=='base1'&&x.id!=='30th'&&totals[x.id]?.total>0&&totals[x.id].owned.size>=totals[x.id].total).length;items.push({type:'masters',name:'5 Normal Master Sets',detail:'Complete five regular expansion checklists at 100%',value:Math.min(complete,m.masterSets),target:m.masterSets,done:complete>=m.masterSets})}
+ }
+ if(retained)for(const item of items){item.done=true;item.retained=true;item.detail='Previously unlocked — access retained'}
+ return {mega:!!m,label:m?.label||'SET PROGRESSION',items,done:items.every(x=>x.done)};
+}
 function showSetRequirements(s){updateBadges();let r=setRequirementState(s),mp=masterProgressV58(s);$('#reqMegaLabel').textContent=r.label;$('#reqSetName').textContent=s.name;$('#reqSetSub').textContent=r.mega?'Complete every requirement below to unlock this prestige expansion.':'Track the requirements below and your live Master Set progress.';let reqLogo=document.getElementById('reqSetLogoV185');if(reqLogo){reqLogo.src=logo(s)||'';reqLogo.style.display=reqLogo.src?'block':'none'};let reqHTML=r.items.map(x=>{let pc=x.target?Math.min(100,x.value/x.target*100):0;let val=x.retained?'UNLOCK RETAINED':x.type==='xp'?`${Math.floor(x.value).toLocaleString()} / ${x.target.toLocaleString()} XP`:x.done?'COMPLETE':'INCOMPLETE';return `<div class="reqItem ${x.done?'done':''}"><div class="reqItemHead"><span>${x.done?'✓':'🔒'} ${x.name}</span><strong>${val}</strong></div><small>${x.detail}</small><div class="reqTrack"><i style="width:${pc}%"></i></div></div>`}).join('');let masterText=mp.total?`${mp.n} / ${mp.total} cards`:`${mp.n} cards owned`;let pct=mp.total?mp.p:0;let milestones=[25,50,75,100].map(v=>`<span class="${pct>=v?'hit':''}">${pct>=v?'✓ ':''}${v}%</span>`).join('');let masterHTML=`<div class="reqMasterV98"><div class="reqMasterHeadV98"><div><span>MASTER SET</span><b>${masterText}</b></div><strong>${mp.total?pct.toFixed(1)+'%':'LOADING'}</strong></div><div class="reqMasterTrackV98"><i style="width:${pct}%"></i></div><div class="reqMasterMilestonesV98">${milestones}</div><small>Tracks cards currently held across your collection. Selling a card can reduce this progress.</small></div>`;$('#reqList').innerHTML=reqHTML+masterHTML;$('#reqStatus').className='reqStatus '+(r.done?'ready':'');$('#reqStatus').textContent=r.done?'✓ ALL REQUIREMENTS COMPLETE — SET UNLOCKED':`${r.items.filter(x=>x.done).length} / ${r.items.length} REQUIREMENTS COMPLETE`;$('#setReqModal').classList.add('show')}
 function xpFloor(lv){return Math.max(0,(lv-1)*(lv-1)*80)}
 function xpCeil(lv){return lv*lv*80}
 function levelFromXP(xp){let lv=1;while(lv<50&&Number(xp||0)>=xpCeil(lv))lv++;return lv}
 function rankName(lv){if(lv>=38)return 'TCG ICON';if(lv>=30)return 'VAULT LEGEND';if(lv>=22)return 'MASTER COLLECTOR';if(lv>=15)return 'ELITE COLLECTOR';if(lv>=8)return 'FOIL HUNTER';if(lv>=4)return 'PACK COLLECTOR';return 'ROOKIE COLLECTOR'}
-function setUnlocked(s){if(Array.isArray(state.setUnlocksV259)){if(state.setUnlocksV259.includes(s.id))return true;const required=Math.ceil((MEGA_SET_REQUIREMENTS[s.id]?.xp??xpFloor(Number(s.unlock||1)))*1.5);if(Number(state.xp||0)<required)return false;}return setRequirementState(s).done}
+function setUnlocked(s){
+ if(Array.isArray(state.setUnlocksV259)){
+   if(state.setUnlocksV259.includes(s.id))return true;
+   const required=Math.ceil((MEGA_SET_REQUIREMENTS[s.id]?.xp??xpFloor(Number(s.unlock||1)))*1.5);
+   if(Number(state.xp||0)<required)return false;
+ }
+ const done=setRequirementState(s).done;
+ if(done&&(s.id==='base1'||s.id==='30th')){
+   // Permanent prestige unlocks survive later ranked season changes.
+   state.setUnlocksV259=state.setUnlocksV259||[];
+   if(!state.setUnlocksV259.includes(s.id))state.setUnlocksV259.push(s.id);
+   if(s.id==='base1'&&!state.legacyVaultFirstPackV264){
+     state.legacyVaultFirstPackV264=true;
+     state.sealedV161=state.sealedV161||{};
+     state.sealedV161.packCredits=state.sealedV161.packCredits||{};
+     state.sealedV161.packCredits.base1=Number(state.sealedV161.packCredits.base1||0)+1;
+   }
+   try{localStorage.setItem('tcgRipperSave',JSON.stringify(state))}catch(_){}
+ }
+ return done;
+}
 function updateProgressUI(){let lv=levelFromXP(state.xp),lo=xpFloor(lv),hi=xpCeil(lv),pct=Math.max(0,Math.min(100,(state.xp-lo)/(hi-lo)*100));let a=$('#headerRank'),b=$('#headerLevel'),c=$('#miniXPFill'),d=$('#xpNextV104');if(a)a.textContent=rankName(lv);if(b)b.textContent='LV '+lv;if(c)c.style.width=pct+'%';if(d)d.textContent=Math.max(0,Math.ceil(hi-Number(state.xp||0))).toLocaleString()+' XP TO NEXT'}
 function addXP(n,why=''){if(why==='pack'&&state.collectorV260?.featured?.setId===sel?.id)n=Number(n)*1.05;let previousXP=Number(state.xp||0),before=levelFromXP(state.xp);state.xp=Number(state.xp||0)+Math.max(0,Number(n)||0);let after=levelFromXP(state.xp);updateProgressUI();if(after>before){toast(`⚡ LEVEL UP! Level ${after} • ${rankName(after)}`);renderSets()}else if(SETS.some(s=>{const required=Math.ceil((MEGA_SET_REQUIREMENTS[s.id]?.xp??xpFloor(Number(s.unlock||1)))*1.5);return previousXP<required&&state.xp>=required}))renderSets();save()}
 function renderSets(){const masterTotals=setTotalsV57();let g=$('#sets');g.innerHTML='';[...SETS].map((s,i)=>({s,i})).sort((a,b)=>(Number(a.s.unlock||99)-Number(b.s.unlock||99))||(a.i-b.i)).map(x=>x.s).forEach(s=>{let unlocked=setUnlocked(s),req=setRequirementState(s),d=document.createElement('div');d.className='set '+(unlocked?'unlocked':'locked')+(s.id===sel.id?' selected':'');d.dataset.setId=s.id;d.style.background=`linear-gradient(145deg,${s.a}33,${s.b}55,#101722)`;let era=s.series==='sv'?'Scarlet & Violet':s.series==='swsh'?'Sword & Shield':s.series==='sm'?'Sun & Moon':'XY';let mega=req.mega?`<span class="setMegaTag">✦ ${req.label}</span>`:'';let mp=masterProgressV58(s,masterTotals);d.innerHTML=`${mega}<img loading="lazy" decoding="async" src="${logo(s)}" onerror="this.style.display='none';this.closest('.set')?.classList.add('logoMissingV95')"><div class="setMasterV58"><div class="smTop"><span>MASTER SET</span><span>${mp.total?mp.n+'/'+mp.total:(mp.n?mp.n+' owned':'0')}</span></div><div class="smBar"><i style="width:${mp.p}%"></i></div></div><b>${s.name}</b><small>${era}</small>${unlocked?`<span class="setOpen">✓ UNLOCKED</span>`:`<div class="setLock">🔒 LOCKED</div>`}<button class="setReqBtn setReqBtn">${unlocked?'VIEW SET REQUIREMENTS':'🔒 SET REQUIREMENTS'}</button>`;d.querySelector('.setReqBtn').onclick=e=>{e.stopPropagation();showSetRequirements(s)};d.onclick=()=>{if(busy)return;if(!setUnlocked(s)){showSetRequirements(s);return}sel=s;renderSets();applyPackArt();resetPack();setTimeout(()=>buildPools(),80)};g.appendChild(d)});requestAnimationFrame(()=>{const a=g.querySelector('.set.selected');if(a)a.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'})})}
 function resetPack(){v142CancelTear();ripToken++;busy=false;pulls=[];idx=0;let p=$('#pack');p.classList.remove('ripping','rip0','rip1','rip2','v91Rip','v91Grab');p.style.display='block';p.style.opacity='1';p.style.transform='';document.getElementById('v88Summary')?.remove();document.getElementById('v90InsideCards')?.classList.remove('show','v91Emerge');$('#stage').classList.remove('cardModeV89');$('#foil').style.opacity='1';$('#foil').style.transform='';$('#foilTop').style.opacity='1';$('#foilTop').style.transform='';p.style.setProperty('--a',sel.a);p.style.setProperty('--b',sel.b);$('#foilTop').style.setProperty('--a',sel.a);$('#foilTop').style.setProperty('--b',sel.b);$('#logo').src=logo(sel);$('#packTitle').textContent=sel.name.toUpperCase();$('#tear').style.left='-5px';$('#tear').style.transform='';$('#tear').classList.add('pulse');$('#prog').style.width='0';$('#stack').className='cardStack';$('#stack').style.display='none';['v76Under1','v76Under2'].forEach(id=>{const e=document.getElementById(id);if(e)e.style.display='none'});$('#stage').style.removeProperty('--peekX');$('#stage').style.removeProperty('--peekY');$('#stage').style.removeProperty('--peekRX');$('#stage').style.removeProperty('--peekRY');$('#counter').style.display='none';$('#meta').classList.remove('show');$('#rarityBanner').classList.remove('show');$('#stage').className='stage';openStyle=0;$('#pack').dataset.open=openStyle;$('#tear').textContent=openStyle===0?'➜':openStyle===1?'↑':'↗';let gesture='DRAG SEAL RIGHT';$('#packGestureHint').textContent=gesture;$('#instruction').textContent=(v114PackCount===10?'$80.00 • swipe across all 10 packs':'$8.00 per pack • drag the foil seam to open');v114RenderMode()}
+const originalRenderSetsV264=renderSets;
+renderSets=function(){
+ const result=originalRenderSetsV264.apply(this,arguments);
+ for(const tile of document.querySelectorAll('#sets .set')){
+   const s=SETS.find(x=>x.id===tile.dataset.setId);
+   if(!s||!V264_SET_IDS.has(s.id))continue;
+   const label=tile.querySelector('small');
+   if(label)label.textContent=({base:'Original Series',neo:'Neo Series',me:'Mega Evolution',sv:'Scarlet & Violet'}[s.series]||s.series);
+ }
+ return result;
+};
 function emergencySet(set){
   /* Offline/network failsafe: keep packs playable even if TCGdex is temporarily unreachable.
      Uses predictable TCGdex asset paths; live card metadata hydrates again automatically when service returns. */
@@ -163,6 +253,23 @@ async function fetchWithTimeout(url,ms=2200){
 async function getSet(target=sel){
   target=target||sel;
   if(cache[target.id]?.base&&!cache[target.id].base.emergency)return cache[target.id].base;
+  // V264 checklists are bundled with the game: no network dependency, no
+  // invented emergency cards, and full first-edition / holo metadata retained.
+  if(V264_SET_IDS.has(target.id)){
+    try{
+      const response=await fetch(`catalog/${encodeURIComponent(target.id)}.json`,{cache:'default'});
+      if(!response.ok)throw Error('local catalog '+response.status);
+      const rows=await response.json();
+      const cards=rows.filter(c=>c.id.startsWith(target.id+'-'));
+      if(cards.length<10||cards.some(c=>!c.id||!c.rarity||!c.img))throw Error('incomplete local catalog '+target.id);
+      cache[target.id]=cache[target.id]||{};
+      cache[target.id].base={cards,official:cards.length};
+      state.masterTotalsV66=state.masterTotalsV66||{};
+      state.masterTotalsV66[target.id]=rows.length;
+      if(target.id===sel.id)applyPackArt();
+      return cache[target.id].base;
+    }catch(error){console.warn('V264 catalog retry via TCGdex',target.id,error);}
+  }
   let lastErr=null;
   for(let attempt=0;attempt<2;attempt++){
     try{
@@ -198,6 +305,9 @@ async function hydrateCard(c){
  if(!c)return c;
  const sid=c.setId||masterResolveSetV66Early(c);
  if(sid){c.setId=sid;c.set=c.set||SETS.find(x=>x.id===sid)?.name||''}
+ // V264's verified local metadata includes vintage holo/edition distinctions
+ // absent from the live card endpoint. Keep it intact when revealing cards.
+ if(V264_SET_IDS.has(sid))return c;
  if(detailCache[c.id]){
    let x=detailCache[c.id];Object.assign(c,{name:x.name||c.name,number:x.localId||c.number,rarity:x.rarity||c.rarity||'Card',variants:x.variants||c.variants,market:marketQuoteFromDetail(x,c.finish)?.amount||Number(c.market||c.raw)||.10});
    if(x.image){c.img=asset(x.image,'high');c.thumb=asset(x.image,'low')}return c
@@ -208,7 +318,7 @@ async function hydrateCard(c){
      if(rr.ok){
        let x=await rr.json();detailCache[c.id]=x;
        c.name=x.name||c.name;c.number=x.localId||c.number;c.rarity=x.rarity||c.rarity||'Card';c.variants=x.variants;c.market=marketQuoteFromDetail(x,c.finish)?.amount||Number(c.market||c.raw)||.10;
-       c.setId=x.set?.id||c.setId||sid;c.set=x.set?.name||c.set||SETS.find(z=>z.id===c.setId)?.name||'';
+       c.setId=c._parentSetId||x.set?.id||c.setId||sid;c.set=SETS.find(z=>z.id===c.setId)?.name||x.set?.name||c.set||'';
        if(x.image){c.img=asset(x.image,'high');c.thumb=asset(x.image,'low')}
        c.emergency=false;return c
      }
@@ -220,7 +330,7 @@ async function hydrateCard(c){
 }
 function masterResolveSetV66Early(c){let id=c?.id||'';if(c?.setId)return c.setId;if(c?.set){let st=SETS.find(x=>x.name===c.set);if(st)return st.id}let st=SETS.find(x=>id===x.id||id.startsWith(x.id+'-'));return st?.id||''}
 function warmPack(out){out.forEach((c,i)=>{let im=new Image();im.decoding='async';im.src=window.tcgCardAssets?.resolve?.(c,'thumb')||c.thumb;if(i<4)setTimeout(()=>hydrateCard(c),i*70)});return out}
-function tier(c){let r=(c?.rarity||'').toLowerCase().trim(),n=(c?.name||'').toLowerCase().trim(),f=(c?.finish||'').toLowerCase().trim(),x=`${r} ${n} ${f}`;if(c?.secret||/hyper|secret|rainbow|rare rainbow|rare secret|gold rare/.test(x))return 5;if(/special illustration|shiny ultra/.test(x))return 4;if(/illustration|shiny rare|rare shiny|ultra rare|amazing|radiant|trainer gallery|galarian gallery|rare holo vmax|holo rare vmax|rare holo vstar|holo rare vstar|\bvmax\b|\bvstar\b/.test(x))return 3;if(/double rare|ace spec|rare holo gx|holo rare gx|rare holo v|holo rare v|\bex\b|\bgx\b|(?:^|\s)v(?:$|\s)/.test(x))return 2;if(/rare|holo|reverse/.test(x))return 1;return Math.max(0,Math.min(5,Number(c?.tier||0)))}
+function tier(c){let r=(c?.rarity||'').toLowerCase().trim(),n=(c?.name||'').toLowerCase().trim(),f=(c?.finish||'').toLowerCase().trim(),x=`${r} ${n} ${f}`;if(c?.secret||/hyper|secret|rainbow|rare rainbow|rare secret|gold rare|black white rare/.test(x))return 5;if(/special illustration|shiny ultra|classic collection/.test(x))return 4;if((['base1','base2','base3','base5','neo1'].includes(c?.setId)&&r==='rare holo')||/illustration|shiny rare|rare shiny|ultra rare|amazing|radiant|trainer gallery|galarian gallery|rare holo vmax|holo rare vmax|rare holo vstar|holo rare vstar|\bvmax\b|\bvstar\b/.test(x))return 3;if(/double rare|ace spec|rare holo gx|holo rare gx|rare holo v|holo rare v|\bex\b|\bgx\b|(?:^|\s)v(?:$|\s)/.test(x))return 2;if(/rare|holo|reverse/.test(x))return 1;return Math.max(0,Math.min(5,Number(c?.tier||0)))}
 function pick(a){return a[Math.floor(Math.random()*a.length)]}function unique(a,used){let p=a.filter(c=>!used.has(c.id));let c=pick(p.length?p:a);if(c)used.add(c.id);return c}
 const poolCache={};
 const poolRequests=new Map();
@@ -238,6 +348,21 @@ async function rarityPool(set,rarity){
 }
 async function buildPools(target=sel){
  let base=await getSet(target);if(!base)return null;if(base.emergency){let all=base.cards;return {base,all,common:all,uncommon:all,rare:all,hits:all,big:all}};
+ if(V264_SET_IDS.has(target.id)){
+   const names=target.series==='base'||target.series==='neo'
+     ?['Common','Uncommon','Rare','Rare Holo']
+     :['Common','Uncommon','Rare','Double rare','Illustration rare','Ultra Rare','Special illustration rare','Hyper rare','Mega Hyper Rare','Black White Rare','ACE SPEC Rare','Shiny rare','Shiny Ultra Rare'];
+   const P={base,all:base.cards,names};
+   for(const name of names)P[name]=base.cards.filter(c=>String(c.rarity||'').toLowerCase()===name.toLowerCase());
+   P.common=P.Common||[];P.uncommon=target.id==='30th'?P.common:(P.Uncommon||[]);
+   P.rare=[...(P.Rare||[]),...(P['Rare Holo']||[])];
+   if(target.id==='30th'){
+     P['Illustration rare']=[...(P['Illustration rare']||[]),...base.cards.filter(c=>c.rarity==='Pikachu Rare')];
+     P['Special illustration rare']=[...(P['Special illustration rare']||[]),...base.cards.filter(c=>c.rarity==='Futuristic Rare')];
+   }
+   P.big=base.cards.filter(c=>tier(c)>=3);
+   return P;
+ }
  // TCGdex uses exact rarity labels. Keep era pools explicit so older sets do not inherit SWSH-only labels.
  const ERA_RARITIES={
   sv:['Common','Uncommon','Rare','Double rare','Illustration rare','Ultra Rare','Special illustration rare','Hyper rare','ACE SPEC Rare','Shiny rare','Shiny Ultra Rare'],
@@ -263,9 +388,17 @@ const SIM_PULL_RATES={
  sm:{wildcard:.015,rows:[['Rare Holo',.16,1],['Ultra Rare',.075,1],['Secret Rare',.025,1],['Prism Star',.01,1]]},
  xy:{wildcard:.015,rows:[['Rare Holo',.16,1],['Ultra Rare',.075,1],['Secret Rare',.025,1]]}
 };
+SIM_PULL_RATES.me={wildcard:.012,rows:[['Illustration Rare',.055,2],['Ultra Rare',.018,2],['Special Illustration Rare',.009,2],['Mega Hyper Rare',.003,2],['Double Rare',.17,1],['Ultra Rare',.055,1],['Special Illustration Rare',.025,1],['Mega Hyper Rare',.01,1]]};
+SIM_PULL_RATES.base=SIM_PULL_RATES.neo={wildcard:.015,rows:[['Vintage Holo Rare',.33,1]]};
 function pct(v){return (v*100).toFixed(v<.01?2:1).replace(/\.0$/,'')+'%'}
 function oneIn(v){return v>0?'1 in '+Math.round(1/v).toLocaleString():'—'}
 function showPullRates(){let cfg=SIM_PULL_RATES[sel.series]||SIM_PULL_RATES.xy;$('#ratesSetName').textContent=sel.name+' • '+(sel.series==='sv'?'Scarlet & Violet':sel.series==='swsh'?'Sword & Shield':sel.series==='sm'?'Sun & Moon':'XY')+' era';let rows=cfg.rows.map(([n,r,slots])=>{let pack=1-Math.pow(1-r,slots);return `<div class="rateRow"><div class="rateLine"><span>${n}</span><span>${pct(r)} per ${slots>1?'eligible slot':'pack slot'}</span></div><div class="rateBar"><i style="width:${Math.min(100,r*100)}%"></i></div>${slots>1?`<div class="rateNote">Across both reverse slots: ~${pct(pack)} chance before wildcard/God Pack override.</div>`:''}</div>`}).join('');$('#ratesBody').innerHTML=`<div class="rateHero"><div class="rateLine"><span>🌟 GOD PACK</span><b>${pct(GOD_PACK_RATE)} • ${oneIn(GOD_PACK_RATE)}</b></div><div class="rateNote">Hard-coded and checked against the pack generator. A God Pack replaces the normal pack with 10 cards drawn from the selected expansion's complete hit pool, including supported Gallery/Vault subsets.</div></div>${rows}<div class="rateRow"><div class="rateLine"><span>🃏 Checklist Wildcard</span><span>${pct(cfg.wildcard)} • ${oneIn(cfg.wildcard)}</span></div><div class="rateBar"><i style="width:${cfg.wildcard*100}%"></i></div><div class="rateNote">Anti-softlock route: can select any card in the selected set checklist. This means exact total rarity odds vary slightly with each set's rarity composition.</div></div><p class="rateNote"><b>Simulator rates, not official Pokémon odds.</b> Pokémon publishes pack structure but does not publish exact rarity pull ratios for physical English booster packs. These numbers are generated directly from this game's current probability constants, so this screen stays aligned with the code.</p>`;$('#ratesModal').classList.add('show')}
+const originalShowPullRatesV264=showPullRates;
+showPullRates=function(){
+ const result=originalShowPullRatesV264();
+ if(V264_SET_IDS.has(sel.id))$('#ratesSetName').textContent=sel.name+' • '+({base:'Original Series',neo:'Neo Series',me:'Mega Evolution',sv:'Scarlet & Violet'}[sel.series]||sel.series)+' era';
+ return result;
+};
 function makeGodPack(P,u){
  let parent=(typeof sel!=='undefined'&&sel)||null;
  let subsetHits=(P?.subsetsV187||[]).flatMap(g=>(g?.cards||[]).map(c=>({...c,setId:parent?.id||c.setId,set:parent?.name||c.set,secret:true,_subsetName:g.name||c._subsetName,_subsetRate:Number(g.rate||c._subsetRate||0),_parentSetId:parent?.id||c._parentSetId,_parentSetName:parent?.name||c._parentSetName,finish:`🌟 GOD PACK${g.name?' • '+g.name:''}`})));
@@ -303,19 +436,30 @@ async function makePack(){
  let P=globalThis.tcgPackTransaction?.pools||await buildPools();if(!P||!Array.isArray(P.all)||!P.all.some(c=>c?.id)){toast('Card data unavailable. Please retry when online.');resetPack();return false}
  let u=new Set(),out=[],isGod=Math.random()<GOD_PACK_RATE,add=(pool,finish)=>{let c=unique(pool?.length?pool:P.all,u);if(c){c={...c};if(finish)c.finish=finish;out.push(c)}};
  if(isGod){state.specialStatsV198=state.specialStatsV198||{godPacks:0,godBySet:{}};state.specialStatsV198.godPacks=Number(state.specialStatsV198.godPacks||0)+1;state.specialStatsV198.godBySet=state.specialStatsV198.godBySet||{};state.specialStatsV198.godBySet[sel.id]=Number(state.specialStatsV198.godBySet[sel.id]||0)+1;out=makeGodPack(P,u);setTimeout(()=>{toast('🌟 GOD PACK! 1 IN 1,000!');if(navigator.vibrate)navigator.vibrate([60,40,100,40,160])},850)}
- else if(sel.series==='sv'){
+ else if(sel.series==='sv'||sel.series==='me'){
   for(let i=0;i<4;i++)add(P.common);for(let i=0;i<3;i++)add(P.uncommon);
-  for(let i=0;i<2;i++){
+ for(let i=0;i<2;i++){
+   if(i===1&&sel.id==='30th'&&typeof maybeSubsetHitV187==='function'&&maybeSubsetHitV187(P,out,u,sel))continue;
    let upgrade;
    if(starter){const h=[.055,.018,.009,.003].map(x=>x*boost),base=Math.max(0,1-h.reduce((a,b)=>a+b,0));upgrade=weightedStarterV199([[h[0],P['Illustration rare']],[h[1],P['Ultra Rare']],[h[2],P['Special illustration rare']],[h[3],P['Hyper rare']],[base,[...(P.common||[]),...(P.uncommon||[]),...(P.rare||[])]]])}
-   else upgrade=weighted([[.055,P['Illustration rare']],[.018,P['Ultra Rare']],[.009,P['Special illustration rare']],[.003,P['Hyper rare']],[.915,[...(P.common||[]),...(P.uncommon||[]),...(P.rare||[])]]]);
+   else upgrade=weighted([[.055,P['Illustration rare']],[.018,P['Ultra Rare']],[.009,P['Special illustration rare']],[.003,[...(P['Hyper rare']||[]),...(P['Mega Hyper Rare']||[]),...(P['Black White Rare']||[])]],[.915,[...(P.common||[]),...(P.uncommon||[]),...(P.rare||[])]]]);
    if(upgrade){upgrade={...upgrade,finish:'Reverse Foil'};if(/Illustration|Ultra|Hyper/i.test(upgrade.rarity||''))upgrade.finish=starter?'Starter Boost Hit Foil':'Hit Foil';if(!u.has(upgrade.id)){u.add(upgrade.id);out.push(upgrade)}else add([...(P.common||[]),...(P.uncommon||[])],'Reverse Foil')}
   }
   if(!addWildcard(out,u,P,.012*boost)){
    let rare;
    if(starter){const h=[.17,.055,.035,.025,.01,.005].map(x=>x*boost),base=Math.max(0,1-h.reduce((a,b)=>a+b,0));rare=weightedStarterV199([[base,P.rare],[h[0],P['Double rare']],[h[1],P['Ultra Rare']],[h[2],P['Illustration rare']],[h[3],P['Special illustration rare']],[h[4],P['Hyper rare']],[h[5],P['ACE SPEC Rare']]])}
-   else rare=weighted([[.70,P.rare],[.17,P['Double rare']],[.055,P['Ultra Rare']],[.035,P['Illustration rare']],[.025,P['Special illustration rare']],[.01,P['Hyper rare']],[.005,P['ACE SPEC Rare']]]);
+   else rare=weighted([[.70,P.rare],[.17,P['Double rare']],[.055,P['Ultra Rare']],[.035,P['Illustration rare']],[.025,P['Special illustration rare']],[.01,[...(P['Hyper rare']||[]),...(P['Mega Hyper Rare']||[]),...(P['Black White Rare']||[])]],[.005,P['ACE SPEC Rare']]]);
    if(rare&&!u.has(rare.id)){u.add(rare.id);out.push({...rare,finish:starter?'Starter Boost • Holo / Rare+':'Holo / Rare+'})}else add(P.rare.length?P.rare:P.big,'Holo / Rare+')
+  }
+ }else if(sel.series==='base'||sel.series==='neo'){
+  // Vintage WotC-style packs: 10-card game format, with a separate real
+  // non-holo rare / vintage holo pool (no modern reverse-foil invention).
+  for(let i=0;i<6;i++)add(P.common);
+  for(let i=0;i<3;i++)add(P.uncommon);
+  if(!addWildcard(out,u,P,.015*boost)){
+   const holo=weighted([[.33*boost,P['Rare Holo']],[.67,P.Rare]]);
+   if(holo&&!u.has(holo.id)){u.add(holo.id);out.push({...holo,finish:holo.rarity==='Rare Holo'?'Vintage Holo':'Rare slot'})}
+   else add(P.rare,'Rare slot');
   }
  }else if(sel.series==='swsh'){
   for(let i=0;i<5;i++)add(P.common);for(let i=0;i<3;i++)add(P.uncommon);

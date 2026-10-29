@@ -19,7 +19,7 @@ test('Profile shares collection reads only during one synchronous render, includ
  assert.throws(()=>ctx.withCollectionReads(()=>{read();throw Error('render failed');}),/render failed/);value=9;assert.equal(ctx.binderTotal(),9);
 });
 test('boolean set access skips impossible XP scans but retains unlocked sets and migration evaluation',()=>{
- const code=core.split('\n').find(l=>l.startsWith('function setUnlocked('));let scans=0;const state={xp:0,setUnlocksV259:['retained']};const ctx=vm.createContext({state,MEGA_SET_REQUIREMENTS:{premium:{xp:100}},xpFloor:lv=>(lv-1)**2*80,setRequirementState:()=>{scans++;return {done:true};}});vm.runInContext(code,ctx);
+ const code=core.slice(core.indexOf('function setUnlocked('),core.indexOf('function updateProgressUI('));let scans=0;const state={xp:0,setUnlocksV259:['retained']};const ctx=vm.createContext({state,MEGA_SET_REQUIREMENTS:{premium:{xp:100}},xpFloor:lv=>(lv-1)**2*80,setRequirementState:()=>{scans++;return {done:true};}});vm.runInContext(code,ctx);
  assert.equal(ctx.setUnlocked({id:'retained',unlock:20}),true);assert.equal(ctx.setUnlocked({id:'premium'}),false);assert.equal(scans,0);
  state.xp=150;assert.equal(ctx.setUnlocked({id:'premium'}),true);assert.equal(scans,1);delete state.setUnlocksV259;ctx.setUnlocked({id:'premium'});assert.equal(scans,2);
 });

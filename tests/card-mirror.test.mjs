@@ -33,7 +33,7 @@ test('failed mirror advances to source then deliberate placeholder once, with no
  setCardAssetManifest({version:1,cards:{}});
 });
 test('dry run uses only registered catalogue and does not modify manifest',()=>{
- const before=readFileSync('public/card-assets.json','utf8');const p=spawnSync('python3',['scripts/cards/pipeline.py','sync','--dry-run','--set','sv04.5'],{encoding:'utf8'});assert.equal(p.status,0,p.stderr);const report=JSON.parse(p.stdout);assert.equal(report.playableSets,32);assert.equal(report.uniqueCards,6908);assert.equal(report.selected,245);assert.equal(readFileSync('public/card-assets.json','utf8'),before);
+ const before=readFileSync('public/card-assets.json','utf8');const p=spawnSync('python3',['scripts/cards/pipeline.py','sync','--dry-run','--set','sv04.5'],{encoding:'utf8'});assert.equal(p.status,0,p.stderr);const report=JSON.parse(p.stdout);assert.equal(report.playableSets,42);assert.equal(report.uniqueCards,8163);assert.equal(report.selected,245);assert.equal(readFileSync('public/card-assets.json','utf8'),before);
  const bad=spawnSync('python3',['scripts/cards/pipeline.py','sync','--dry-run','--set','pitch-black'],{encoding:'utf8'});assert.notEqual(bad.status,0);
 });
 test('runtime manifest contains only complete public mirrored records from current cards',()=>{

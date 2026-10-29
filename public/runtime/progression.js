@@ -44,6 +44,7 @@ globalThis.tcgBackupArchiveV262=(()=>{
 })();
 
 
+
 /* ===== original script 19 id=v161-next-level-controller ===== */
 
 (()=>{try{
@@ -1129,7 +1130,8 @@ try{
     'swsh10':[{ids:['swsh10.5tg','swsh10tg'],name:'Trainer Gallery',assetSet:'swsh10',rate:.12}],
     'swsh11':[{ids:['swsh11.5tg','swsh11tg'],name:'Trainer Gallery',assetSet:'swsh11',rate:.12}],
     'swsh12':[{ids:['swsh12.5tg','swsh12tg'],name:'Trainer Gallery',assetSet:'swsh12',rate:.12}],
-    'sm11.5':[{ids:['sma'],name:'Shiny Vault',assetSet:'sma',rate:.30}]
+    'sm11.5':[{ids:['sma'],name:'Shiny Vault',assetSet:'sma',rate:.30}],
+    '30th':[{ids:['30th-c'],name:'30th Classic Collection',assetSet:'30th-c',rate:.10}]
   };
   window.SUBSET_CONFIG_V187=SUBSET_CONFIG_V187;
   const subsetCacheV187={};
@@ -1140,7 +1142,10 @@ try{
     sv:['Common','Uncommon','Rare','Double rare','Illustration rare','Ultra Rare','Special illustration rare','Hyper rare','ACE SPEC Rare','Shiny rare','Shiny Ultra Rare'],
     swsh:['Common','Uncommon','Rare','Holo Rare','Holo Rare V','Holo Rare VMAX','Holo Rare VSTAR','Amazing Rare','Radiant Rare','Ultra Rare','Secret Rare','Shiny rare','Shiny rare V','Shiny rare VMAX','Full Art Trainer'],
     sm:['Common','Uncommon','Rare','Rare Holo','Ultra Rare','Secret Rare','Prism Star'],
-    xy:['Common','Uncommon','Rare','Rare Holo','Ultra Rare','Secret Rare']
+    xy:['Common','Uncommon','Rare','Rare Holo','Ultra Rare','Secret Rare'],
+    base:['Common','Uncommon','Rare','Rare Holo'],
+    neo:['Common','Uncommon','Rare','Rare Holo'],
+    me:['Common','Uncommon','Rare','Double rare','Illustration rare','Ultra Rare','Special illustration rare','Mega Hyper Rare']
   };
   function assetFallbackV187(parent,c,cfg,q='high'){
     if(c?.image)return asset(c.image,q);
@@ -1217,6 +1222,12 @@ try{
   buildPools=async function(target=sel){
     const P=await originalBuildPoolsV187.call(this,target);
     if(!P)return P;
+    if(target.id==='30th'){
+      // The Classic Collection is already bundled in the parent checklist.
+      const cards=P.all.filter(c=>c._subsetId==='30th-c');
+      P.subsetsV187=cards.length?[{name:'30th Classic Collection',rate:.10,cards}]:[];
+      return P;
+    }
     const cfgs=SUBSET_CONFIG_V187[target.id]||[];
     P.subsetsV187=[];
     for(const cfg of cfgs){
@@ -1230,6 +1241,7 @@ try{
     return !!(c?.secret||/double rare|illustration|ultra|special illustration|hyper|ace spec|shiny|rare holo v|vmax|vstar|radiant|amazing|secret rare|full art trainer|prism star|rare holo gx|rare ultra|rare rainbow/.test(r));
   }
   async function guidePoolsV187(set){
+    if(V264_SET_IDS.has(set.id))return buildPools(set);
     const base=await getSet(set);if(!base)return null;
     const names=eraRaritiesV187[set.series]||eraRaritiesV187.xy;
     const lists=await Promise.all(names.map(r=>rarityPool(set,r)));
@@ -1253,9 +1265,12 @@ try{
   function mainChanceV187(c,set,P){
     const cfg=SIM_PULL_RATES[set.series]||SIM_PULL_RATES.xy,total=Math.max(1,P.all?.length||1),r=String(c?.rarity||'').toLowerCase();
     let p=0;
-    if(set.series==='sv'){
+    if(set.series==='base'||set.series==='neo'){
+      if(r==='rare holo')p+=.33/poolCountV187(P,'Rare Holo');
+      else if(r==='rare')p+=.67/poolCountV187(P,'Rare');
+    }else if(set.series==='sv'||set.series==='me'){
       if(/special illustration/.test(r))p+=slot2V187(.009,poolCountV187(P,'Special illustration rare'))+.025/poolCountV187(P,'Special illustration rare');
-      else if(/hyper/.test(r))p+=slot2V187(.003,poolCountV187(P,'Hyper rare'))+.01/poolCountV187(P,'Hyper rare');
+      else if(/hyper|black white rare/.test(r)){const pool=[...(P['Hyper rare']||[]),...(P['Mega Hyper Rare']||[]),...(P['Black White Rare']||[])];p+=.013/Math.max(1,pool.length);}
       else if(/shiny ultra/.test(r))p+=.055/poolCountV187(P,'Shiny Ultra Rare');
       else if(/ultra/.test(r))p+=slot2V187(.018,poolCountV187(P,'Ultra Rare'))+.055/poolCountV187(P,'Ultra Rare');
       else if(/illustration/.test(r))p+=slot2V187(.055,poolCountV187(P,'Illustration rare'))+.035/poolCountV187(P,'Illustration rare');
@@ -2286,5 +2301,18 @@ try{
   function syncVersionV197(){const row=[...document.querySelectorAll('.settingsDataLineV158')].find(x=>x.querySelector('span')?.textContent.trim()==='Game Version');if(row?.querySelector('b'))row.querySelector('b').textContent='V197 REWARD ROAD'}
   const profile=document.getElementById('profile');profile?.addEventListener('click',e=>{const tab=e.target.closest('[data-profile-mode-v160="progress"]');if(tab)setTimeout(()=>{ensureLevelRoadV197()},20)});
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{ensureLevelRoadV197();syncVersionV197()});else{ensureLevelRoadV197();syncVersionV197()}
+})();
+
+// V264: the two prestige roads use ranked and career conditions, not XP alone.
+(function(){
+  const original=renderProfile;
+  renderProfile=function(){
+    const result=original.apply(this,arguments);
+    for(const [id,description] of [['30th','Reach Diamond in Pack Battles'],['base1','LV 50 • Diamond • 5 Master Sets • 1,000 packs']]){
+      const label=document.querySelector(`#unlockRoad [data-profile-set-v160="${id}"] .roadInfoV158 em`);
+      if(label&&label.closest('.roadSetV158.locked'))label.textContent=description;
+    }
+    return result;
+  };
 })();
 
