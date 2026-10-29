@@ -46,7 +46,13 @@ export function installRipStudio(target=window,doc=document){
  function filter(){const q=$('studioSetSearch').value.trim().toLowerCase();let count=0;for(const tile of $('sets').children){const show=!q||tile.textContent.toLowerCase().includes(q);tile.hidden=!show;if(show)count++;}$('studioSetCount').textContent=`${count} expansions`;}
  let drawerScroll=0,bodyStyle=null;
  function close(){const wasOpen=!shelf.hidden;shelf.hidden=true;doc.documentElement.classList.remove('set-picker-open');if(bodyStyle!==null){doc.body.style.cssText=bodyStyle;bodyStyle=null;target.scrollTo?.(0,drawerScroll);}$('studioChooseSet').setAttribute('aria-expanded','false');if(wasOpen)$('studioChooseSet').focus({preventScroll:true});}
- $('studioChooseSet').addEventListener('click',()=>{drawerScroll=target.scrollY||0;bodyStyle=doc.body.style.cssText;doc.body.style.position='fixed';doc.body.style.top=`-${drawerScroll}px`;doc.body.style.width='100%';doc.documentElement.classList.add('set-picker-open');shelf.hidden=false;$('studioChooseSet').setAttribute('aria-expanded','true');$('studioCloseSets').focus({preventScroll:true});});
+ $('studioChooseSet').addEventListener('click',()=>{
+   // Only rebuild the live set requirements when the drawer is requested.
+   // Rebuilding the hidden 42-set grid repeatedly during launch is wasteful
+   // and delays Android's first responsive frame.
+   bridge.refreshSets?.();
+   drawerScroll=target.scrollY||0;bodyStyle=doc.body.style.cssText;doc.body.style.position='fixed';doc.body.style.top=`-${drawerScroll}px`;doc.body.style.width='100%';doc.documentElement.classList.add('set-picker-open');shelf.hidden=false;$('studioChooseSet').setAttribute('aria-expanded','true');$('studioCloseSets').focus({preventScroll:true});
+ });
  $('studioCloseSets').addEventListener('click',close);$('studioSetShade').addEventListener('click',close);$('studioSetSearch').addEventListener('input',filter);
  shelf.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();close();}if(event.key==='Tab'){const list=[...shelf.querySelectorAll('button,input,[tabindex="0"]')].filter(e=>!e.disabled&&e.getClientRects().length);const first=list[0],last=list.at(-1);if(event.shiftKey&&doc.activeElement===first){event.preventDefault();last.focus();}else if(!event.shiftKey&&doc.activeElement===last){event.preventDefault();first.focus();}}});
  $('sets').addEventListener('keydown',event=>{if(event.target.matches('.set')&&(event.key==='Enter'||event.key===' ')){event.preventDefault();event.target.click();}});

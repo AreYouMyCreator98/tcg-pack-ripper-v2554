@@ -48,7 +48,11 @@ test('library renders all collection pages, escapes card text and clears selecti
  const {window,document}=parseHTML('<html><body>'+await read('public/ui/screens/bulk.html')+'</body></html>');
  for(const el of document.querySelectorAll('input,select,button')){if(el.tagName==='SELECT')Object.defineProperty(el,'value',{value:'',writable:true});el.focus=()=>{};}
  let account='A';window.tcgBulkBridge={snapshot:()=>({account,cash:10,cards:Array.from({length:30},(_,i)=>({...cards[0],id:'id'+i,name:i===0?'<img onerror=alert(1)>':'Card '+i})),blocked:false}),inspect(){},sell(){}};
- const view=installBulkModule(window,document);assert.equal(document.querySelectorAll('.bulk-library-card').length,24);assert.equal(document.querySelector('h3 img'),null);
+ const view=installBulkModule(window,document);
+ // The dormant Bulk Tub must not generate 24 hidden card tiles while Rip loads.
+ assert.equal(document.querySelectorAll('.bulk-library-card').length,0);
+ document.getElementById('bulk').classList.add('active');view.refresh();
+ assert.equal(document.querySelectorAll('.bulk-library-card').length,24);assert.equal(document.querySelector('h3 img'),null);
  document.getElementById('bulkMore').click();assert.equal(document.querySelectorAll('.bulk-library-card').length,30);
  document.getElementById('bulkSelectSpares').click();assert.match(document.getElementById('bulkSelectedCount').textContent,/30 card types/);
  account='B';view.refresh();assert.match(document.getElementById('bulkSelectedCount').textContent,/0 card types/);view.dispose();

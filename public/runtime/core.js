@@ -1464,8 +1464,15 @@ document.addEventListener('click',e=>{
 setInterval(()=>{if(!document.hidden&&!busy&&document.getElementById('earn')?.classList.contains('active'))renderMarketBuyV58()},6000);
 
 /* V60 migration retry after asynchronous startup; idempotent. */
-setTimeout(()=>{migrateExistingBinderToMasterV60();renderSets();},900);
-setTimeout(()=>{migrateExistingBinderToMasterV60();renderSets();},2600);
+// V264.7: after the first render, only refresh a visible set picker. The
+// drawer's open handler refreshes current progress on demand. These legacy
+// timers rebuilt all 42 set tiles while Android was still loading scripts.
+function refreshVisibleSetPickerV2647(){
+  const drawer=document.getElementById('studioSetDrawer');
+  if(drawer&&!drawer.hidden)renderSets();
+}
+setTimeout(()=>{migrateExistingBinderToMasterV60();refreshVisibleSetPickerV2647()},900);
+setTimeout(()=>{migrateExistingBinderToMasterV60();refreshVisibleSetPickerV2647()},2600);
 
 /* V62 keeps Master Set totals synchronized with binder + grading vault. */
 setInterval(()=>{try{migrateExistingBinderToMasterV60()}catch(e){}},4000);
@@ -1481,12 +1488,12 @@ async function hydrateMasterSetsV63(){
    const st=SETS.find(x=>x.id===id);if(!st)continue;
    try{if(!cache[id]?.base||cache[id].base.emergency)await getSet(st)}catch(e){}
  }
- masterHydratingV63=false;try{renderSets()}catch(e){};save();
+ masterHydratingV63=false;try{refreshVisibleSetPickerV2647()}catch(e){};save();
 }
 setTimeout(hydrateMasterSetsV63,500);
 
 /* Reconcile legacy graded records after databases have loaded. */
-setTimeout(()=>{migrateExistingBinderToMasterV60();try{renderSets()}catch(e){}},3500);
+setTimeout(()=>{migrateExistingBinderToMasterV60();try{refreshVisibleSetPickerV2647()}catch(e){}},3500);
 
 /* V64 physical loose-card Bulk Tub */
 let bulkInspectIdV64=null,bulkTiltX=0,bulkTiltY=0,bulkMotionOnV64=true,bulkDragV65=null,bulkSortV151='mixed';
@@ -1551,7 +1558,15 @@ document.getElementById('bulkCloseV64').onclick=closeBulkCardV64;
 document.getElementById('bulkInspectV64').onclick=e=>{if(e.target===e.currentTarget)closeBulkCardV64()};
 document.getElementById('bulkMoveBinderV64').onclick=moveBulkToBinderV64;
 document.getElementById('sellBulkTubV64').onclick=()=>{const a=bulkCardsV64();if(!a.length){toast('Bulk Tub is empty.');return}let n=0,v=0;a.forEach(c=>{n+=c.qty;v+=sellPrice(c)*c.qty});state.bulkV64={};money(Math.round(v*100)/100);save();renderBulkV64();renderSets();try{renderMasterV57()}catch(e){};toast(`Sold ${n} bulk cards • +$${v.toFixed(2)} • Master Sets recalculated`)};
-setTimeout(()=>{migrateExistingBinderToMasterV60();renderBulkV64();renderBinder();renderSets()},500);
+// V264.7: the initial Rip room must not synchronously construct two hidden
+// collection views and rebuild every set tile while startup is in progress.
+// The Binder module and Bulk module render their content when opened.
+setTimeout(()=>{
+  migrateExistingBinderToMasterV60();
+  if(document.getElementById('bulk')?.classList.contains('active'))renderBulkV64();
+  if(document.getElementById('binder')?.classList.contains('active'))renderBinder();
+  refreshVisibleSetPickerV2647();
+},500);
 setTimeout(autoEnableBulkMotionV65,650);
 
 /* V66 repair pass for cards saved while TCGdex was unavailable. */

@@ -70,6 +70,10 @@ export function installBulkModule(win=window,doc=document) {
   root.addEventListener('input',input);root.addEventListener('change',input);root.addEventListener('click',click);root.addEventListener('keydown',keydown);
   $('sellBulkTubV64').onclick=()=>review(true);
   const observer=new win.MutationObserver(update);observer.observe(root,{attributes:true,attributeFilter:['class']});
-  win.addEventListener('tcg:bulk-updated',update);render();
+  win.addEventListener('tcg:bulk-updated',update);
+  // The Bulk Tub can contain thousands of saved cards. Do not sort, price and
+  // generate its hidden gallery during the Rip screen's first paint. The
+  // existing activation observer renders it as soon as the player visits.
+  if(root.classList.contains('active'))render();
   return win.tcgBulkView={refresh:render,dispose(){observer.disconnect();root.removeEventListener('input',input);root.removeEventListener('change',input);root.removeEventListener('click',click);root.removeEventListener('keydown',keydown);win.removeEventListener('tcg:bulk-updated',update);delete win.tcgBulkView;}};
 }
