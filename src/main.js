@@ -7,7 +7,7 @@ import { installQuestShortcut } from './app/quest-shortcut.js';
 import { mountUI } from './ui.js';
 import { installBulkModule } from './screens/bulk/index.js';
 import { configurePlatform } from './platform/mobile.js';
-import { loadCriticalRuntime, loadPackRuntime, loadBinderRuntime, loadSecondaryRuntime, scheduleSecondaryRuntime } from './app/runtime-loader.js';
+import { loadCriticalRuntime, loadPackRuntime, loadSecondaryRuntime, scheduleSecondaryRuntime } from './app/runtime-loader.js';
 import { installNavigationPreload } from './app/navigation-preload.js';
 import { installNavigationInput } from './app/navigation-input.js';
 import { installSettingsOverlay } from './app/settings-overlay.js';
@@ -20,7 +20,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2641';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2643';
 
 const cardManifestReady=loadCardAssetManifest();
 window.tcgCardAssets={resolve:resolveCardImage};
@@ -35,11 +35,13 @@ let bootStage = 'initialising';
 let bootFinished = false;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// Register/update the worker at the START of boot. A stale worker must not be able
-// to block the very boot that would otherwise install its replacement.
+// Keep V264.1's bounded startup worker check. V264.2 moved this later and
+// regressed Chrome, so the V264.3 fix leaves that ordering untouched.
 const pwaRefresh = APP_CONFIG.featureFlags.pwa
   ? registerPWA({ waitForControlMs: 1500 })
   : Promise.resolve(false);
+
+const liteStartup = new URLSearchParams(location.search).get('startup') === 'lite';
 
 window.addEventListener('tcg:runtime-progress', event => {
   const d = event.detail || {};
@@ -105,45 +107,20 @@ async function boot() {
       bootMark('pack-engine-failed', { message: String(error?.message || error) });
     }
 
-    bootStage = 'warming collection systems';
-    setLaunchStage('WARMING COLLECTION', 76, 'Preloading Binder, ranked and multiplayer systems…');
-    const warmOptional = Promise.allSettled([
-      loadBinderRuntime(),
-      loadSecondaryRuntime()
-    ]);
-
+    // Keep optional Binder/Ranked chunks out of the critical launch path. The
+    // Binder and secondary loaders already warm on demand / after app-ready.
     bootStage = 'preparing first frame';
     setLaunchStage('POLISHING FIRST FRAME', 89, 'Loading pack art and locking the layout into place…');
-    await Promise.allSettled([
-      prewarmFirstFrame(),
-      Promise.race([warmOptional, sleep(2200)])
-    ]);
-
-    // These enhancements are optional. One failing on a particular mobile
-    // profile must not trap the entire pack room behind the loading screen.
-    for (const [name, install] of [
-      ['collector', installCollector],
-      ['sealed-vault', installSealedVault],
-      ['silver-shell', installSilverShell]
-    ]) {
-      try { install(); bootMark(`${name}-ready`); }
-      catch (error) {
-        console.error(`[TCG] ${name} enhancement unavailable`, error);
-        bootMark(`${name}-failed`, { message: String(error?.message || error) });
-      }
-    }
+    await prewarmFirstFrame();
     bootStage = 'finishing startup';
     setLaunchStage('FINAL CHECK', 96, 'Everything is almost ready…');
-
-    window.dispatchEvent(new CustomEvent('tcg:app-ready', {
-      detail: { version: APP_CONFIG.version }
-    }));
-    bootMark('app-ready');
-
-    scheduleSecondaryRuntime();
     await finishLaunch();
     bootFinished = true;
     clearTimeout(bootWatchdog);
+    bootMark('pack-room-visible');
+    // After the splash is gone, optional work may start. The timer creates a
+    // genuine paint boundary; it does not block the boot watchdog or UI.
+    setTimeout(() => { void installPostLaunchFeatures(); }, 200);
     if ('serviceWorker' in navigator) {
       setTimeout(() => navigator.serviceWorker.controller?.postMessage({ type: 'PRUNE_OLD_CACHES' }), 10000);
     }
@@ -154,3 +131,33 @@ async function boot() {
 }
 
 boot();
+
+// The collector gallery, sealed shop and modern shell are enhancements, not
+// prerequisites for showing the pack room. In particular installCollector()
+// can render a large owned-card group synchronously on older mobile profiles.
+async function installPostLaunchFeatures() {
+  if (!liteStartup) {
+    for (const [name, install] of [
+      ['collector', installCollector],
+      ['sealed-vault', installSealedVault],
+      ['silver-shell', installSilverShell]
+    ]) {
+      // Give Android an opportunity to paint and handle user input between jobs.
+      await sleep(40);
+      bootMark(`${name}-starting`);
+      try { install(); bootMark(`${name}-ready`); }
+      catch (error) {
+        console.error(`[TCG] ${name} enhancement unavailable`, error);
+        bootMark(`${name}-failed`, { message: String(error?.message || error) });
+      }
+    }
+  } else {
+    console.info('[TCG] Lite startup diagnostic: optional collector enhancements are paused. Player data is unchanged.');
+    bootMark('lite-startup');
+  }
+  window.dispatchEvent(new CustomEvent('tcg:app-ready', {
+    detail: { version: APP_CONFIG.version }
+  }));
+  bootMark('app-ready');
+  if (!liteStartup) scheduleSecondaryRuntime();
+}
