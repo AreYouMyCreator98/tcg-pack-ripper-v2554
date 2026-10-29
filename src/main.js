@@ -20,7 +20,7 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2643';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=2644';
 
 const cardManifestReady=loadCardAssetManifest();
 window.tcgCardAssets={resolve:resolveCardImage};
@@ -42,6 +42,31 @@ const pwaRefresh = APP_CONFIG.featureFlags.pwa
   : Promise.resolve(false);
 
 const liteStartup = new URLSearchParams(location.search).get('startup') === 'lite';
+window.__TCG_TRACE__ = new URLSearchParams(location.search).has('trace');
+if (window.__TCG_TRACE__) {
+  // Opt-in on-device startup breadcrumb. Shows the last completed action even
+  // if the main thread hangs and remote developer tools cannot connect.
+  const panel = document.createElement('output');
+  panel.id = 'tcgStartupTrace';
+  panel.setAttribute('aria-label', 'Startup diagnostic');
+  Object.assign(panel.style, {
+    position: 'fixed', left: '6px', right: '6px', bottom: '12vh', zIndex: '2147483647',
+    padding: '8px 10px', borderRadius: '8px', pointerEvents: 'none',
+    background: 'rgba(8,13,21,.92)', color: '#d6f8df', font: '12px monospace',
+    whiteSpace: 'pre-wrap', overflowWrap: 'anywhere'
+  });
+  document.body.append(panel);
+  const traceStart = performance.now();
+  window.TCG_TRACE_MARK = value => {
+    const line = `${Math.round(performance.now() - traceStart)}ms ${value}`;
+    panel.textContent = `DIAGNOSTIC MODE · SAVE DATA UNCHANGED\n${line}`;
+  };
+  window.TCG_TRACE_MARK('tracer installed');
+  setInterval(() => {
+    if (document.visibilityState !== 'visible') return;
+    panel.dataset.heartbeat = String(Math.round(performance.now() - traceStart));
+  }, 900);
+}
 
 window.addEventListener('tcg:runtime-progress', event => {
   const d = event.detail || {};
@@ -120,7 +145,7 @@ async function boot() {
     bootMark('pack-room-visible');
     // After the splash is gone, optional work may start. The timer creates a
     // genuine paint boundary; it does not block the boot watchdog or UI.
-    setTimeout(() => { void installPostLaunchFeatures(); }, 200);
+    setTimeout(() => { bootMark('post-launch-timer-fired'); void installPostLaunchFeatures(); }, 200);
     if ('serviceWorker' in navigator) {
       setTimeout(() => navigator.serviceWorker.controller?.postMessage({ type: 'PRUNE_OLD_CACHES' }), 10000);
     }
