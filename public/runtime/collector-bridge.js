@@ -38,8 +38,13 @@
    return null;
   },
   async refreshMarket(card){
-   const original=state,account=this.account(),saved=this.savedMarketQuote(card);if(this.blocked())return saved;
-   const copy={...card};if(detailCache[card.id]&&!marketQuoteFromDetail(detailCache[card.id],card.finish))delete detailCache[card.id];await hydrateCard(copy);
+   const original=state,account=this.account(),previous=detailCache[card.id],previousQuote=marketQuoteFromDetail(previous,card.finish);
+   const saved=this.savedMarketQuote(card)||(previousQuote?{...previousQuote,cached:true}:null);
+   if(this.blocked())return saved;
+   // A manual or on-open refresh must actually ask the provider, even when
+   // artwork hydration cached an earlier quote. Keep that quote as fallback.
+   if(previous)delete detailCache[card.id];
+   const copy={...card};await hydrateCard(copy);
    const quote=marketQuoteFromDetail(detailCache[card.id],card.finish);
    if(this.account()!==account)return null;
    if(detailCache[card.id]?.id!==card.id||!quote||state!==original||this.blocked())return saved;
