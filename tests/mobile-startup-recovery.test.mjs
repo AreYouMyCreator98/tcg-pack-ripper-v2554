@@ -26,10 +26,12 @@ test('a stalled module shows a recovery button even without the app booting', ()
   assert.match(window.document.getElementById('tcgLaunchHint').textContent, /collection is safe/i);
 });
 
-test('repair refreshes only game caches and app-scoped worker, preserving saves', async () => {
+test('recovery button refreshes only game caches and app-scoped worker, preserving saves', async () => {
   const { window } = parseHTML(html);
   const touched = [];
   const appScope = 'https://example.test/tcg-pack-ripper-v2554/';
+  let complete;
+  const repaired = new Promise(resolve => { complete = resolve; });
   Object.defineProperty(window.document, 'baseURI', { value: appScope });
   const context = {
     window, document: window.document, performance: { now: () => 0 }, URL, Date,
@@ -45,13 +47,14 @@ test('repair refreshes only game caches and app-scoped worker, preserving saves'
     },
     location: {
       href: appScope + '?a=1',
-      replace: url => touched.push(['replace', url])
+      replace: url => { touched.push(['replace', url]); complete(); }
     },
     setTimeout: () => 1, clearTimeout: () => {}
   };
   window.caches = context.caches;
   vm.runInNewContext(inline, context);
-  await window.TCG_BOOT_RECOVERY.repair();
+  void window.TCG_BOOT_RECOVERY.repair();
+  await repaired;
   assert.deepEqual(touched.filter(([op]) => op === 'delete').map(([, key]) => key).sort(),
     ['tcg-pack-ripper-old-media', 'tcg-pack-ripper-old-static']);
   assert.ok(touched.some(([op, scope]) => op === 'worker-lookup' && scope === appScope));
@@ -84,5 +87,25 @@ test('service worker precache is connection-limited and old cache deletion follo
   assert.match(worker, /Math\.min\(6, CORE\.length\)/);
   assert.match(worker, /PRUNE_OLD_CACHES/);
   assert.match(main, /PRUNE_OLD_CACHES/);
+  assert.ok(main.indexOf('await finishLaunch()') < main.indexOf('PRUNE_OLD_CACHES'));
   assert.doesNotMatch(worker.match(/self\.addEventListener\('activate',[\s\S]*?\n\}\);/)?.[0] || '', /caches\.delete/);
+});
+
+test('89 percent no longer blocks on optional collection and secondary runtime', () => {
+  const main = fs.readFileSync('src/main.js', 'utf8');
+  const criticalBoot = main.slice(main.indexOf('async function boot()'), main.indexOf('\nboot();'));
+  const visible = criticalBoot.indexOf('await finishLaunch()');
+  const background = criticalBoot.indexOf('installPostLaunchFeatures()');
+  assert.ok(visible >= 0 && background > visible);
+  assert.doesNotMatch(criticalBoot, /await loadSecondaryRuntime\(|await loadBinderRuntime\(|await installCollector\(/);
+  assert.match(main, /\['collector', installCollector\]/);
+  assert.match(main, /startup'\) === 'lite'/);
+});
+
+test('new expansion catalogs are loaded on demand instead of congesting install precache', () => {
+  const worker = fs.readFileSync('public/sw.js', 'utf8');
+  const generator = fs.readFileSync('scripts/build-precache.mjs', 'utf8');
+  assert.doesNotMatch(worker, /CORE\.push\(\.\.\.\[/);
+  assert.doesNotMatch(generator, /newSets\.flatMap|\.\.\.extras/);
+  assert.match(fs.readFileSync('public/runtime/core.js', 'utf8'), /id:'base1'/);
 });
