@@ -224,7 +224,7 @@
     version:'0.253.2',snapshot,currentCard:()=>cloneCard(pulls?.[idx]),cards:()=>cloneCards(pulls),
     tier:cardTier,route:routeOf,reset:()=>{resetPack();applyPackArt();save();},collectRemaining,collectCurrent,readPersistentStats,writePersistentStats,
     begin:()=>{try{return beginRip()}catch(error){return Promise.reject(error)}},
-    selectedSet,mode:()=>Number(v114PackCount)===10?10:1
+    selectedSet,refreshSets:()=>renderSets(),mode:()=>Number(v114PackCount)===10?10:1
   });
   emit('tcg:pack-bridge-ready',{version:'0.253.2'});
 }catch(error){console.error('[TCG] V253 pack bridge failed',error)}})();
