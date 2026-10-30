@@ -634,12 +634,15 @@ function v75PaintDrag(){
 }
 function v74SwipeStart(e){
  if(!busy||!pulls[idx]||window.v74CollectLock||Date.now()<Number(window.v124RareLockUntil||0))return;const st=$('#stack');if(st.style.display==='none')return;
- v74Drag={id:e.pointerId,x:e.clientX,y:e.clientY,dx:0,dy:0,lastX:e.clientX,lastY:e.clientY,lastT:performance.now(),vx:0,vy:0,t:performance.now()};
+ v74Drag={id:e.pointerId,x:e.clientX,y:e.clientY,dx:0,dy:0,lastX:e.clientX,lastY:e.clientY,lastT:performance.now(),vx:0,vy:0,speed:0,peakSpeed:0,t:performance.now()};
+ v266PrimeSwipeAudio();v266DecodeSwipeAudio();
  st.classList.remove('v75Snap','v75Enter','v76Dismiss');st.classList.add('v74Dragging','v75Held','v76Peeking');$('#stage').classList.add('v75Active');
  try{st.setPointerCapture?.(e.pointerId)}catch(_){} if(e.cancelable)e.preventDefault();
 }
 function v74SwipeMove(e){
  if(!v74Drag||e.pointerId!==v74Drag.id)return;const now=performance.now(),dt=Math.max(8,now-v74Drag.lastT),dx=e.clientX-v74Drag.x,dy=e.clientY-v74Drag.y;
+ const stepSpeed=Math.hypot(e.clientX-v74Drag.lastX,e.clientY-v74Drag.lastY)/dt;
+ v74Drag.speed=v74Drag.speed?(.65*v74Drag.speed+.35*stepSpeed):stepSpeed;v74Drag.peakSpeed=Math.max(v74Drag.peakSpeed,stepSpeed);
  v74Drag.vx=(e.clientX-v74Drag.lastX)/dt;v74Drag.vy=(e.clientY-v74Drag.lastY)/dt;v74Drag.lastX=e.clientX;v74Drag.lastY=e.clientY;v74Drag.lastT=now;v74Drag.dx=dx;v74Drag.dy=dy;
  if(!v75RAF)v75RAF=requestAnimationFrame(v75PaintDrag);if(e.cancelable)e.preventDefault();
 }
@@ -663,7 +666,7 @@ function v74SwipeEnd(e){
  const tx=d.dx+ux*travel,ty=d.dy+uy*travel,throwRot=Math.max(-52,Math.min(52,d.dx*.075+d.vx*14));
  const under=document.getElementById('v76Under1');if(under)under.classList.add('v76Promote');
  st.classList.add('v76Dismiss');st.style.opacity='1';requestAnimationFrame(()=>{st.style.transform=`translate3d(${tx}px,${ty}px,0) rotate(${throwRot}deg) scale(.96)`;st.style.opacity='0'});
- cardSound();if(navigator.vibrate)navigator.vibrate(isBulkCardV64(c)?7:[10,18,12]);
+ v266PlaySwipeAudio(v266SwipeMeasuredSpeed(d,dist,velocity));if(navigator.vibrate)navigator.vibrate(isBulkCardV64(c)?7:[10,18,12]);
  setTimeout(()=>{if(under)under.classList.remove('v76Promote');st.classList.remove('v76Dismiss');st.style.transition='';st.style.opacity='';st.style.transform='';window.v74CollectLock=false;advance(false)},220);
 }
 function advance(autoReveal=false){if(idx<pulls.length-1){let prevPack=Math.floor(idx/10)+1;idx++;let nextPack=Math.floor(idx/10)+1;if(v114PackCount===10&&nextPack!==prevPack){document.dispatchEvent(new CustomEvent('v128-packbeat',{detail:{from:prevPack,to:nextPack}}));setTimeout(()=>showBack(autoReveal),160)}else showBack(autoReveal)}else{let best=[...pulls].sort((a,b)=>tier(b)-tier(a))[0];if(v114PackCount===10){v114BatchFinish();toast('10 packs finished!');}else{let hit=pulls.some(c=>tier(c)>=2||c.secret);if(hit)state.hits++;let bestTier=tier(best);addXP(5+bestTier*3,'pack');state.history.unshift({set:sel.name,best:best.name,rarity:best.rarity||'Card',time:Date.now()});state.history=state.history.slice(0,40);save();toast('Pack finished!');}showPackSummaryV88(best);}}
@@ -1622,6 +1625,67 @@ setTimeout(repairSavedCardsV66,1200);
 const audioV67={ctx:null,master:null,music:null,sfx:null,musicOn:true,sfxOn:true,musicVol:.34,sfxVol:.62,timer:null,step:0};const settingsV68={haptics:true};
 try{let a=JSON.parse(localStorage.getItem('tcgAudioV68')||localStorage.getItem('tcgAudioV67')||'{}');if(typeof a.m==='boolean')audioV67.musicOn=a.m;if(typeof a.s==='boolean')audioV67.sfxOn=a.s;if(Number.isFinite(a.mv))audioV67.musicVol=a.mv;if(Number.isFinite(a.sv))audioV67.sfxVol=a.sv;if(typeof a.h==='boolean')settingsV68.haptics=a.h}catch(e){}
 function audioInitV67(){let A=window.AudioContext||window.webkitAudioContext;if(!A)return false;if(!audioV67.ctx){let c=audioV67.ctx=new A();audioV67.master=c.createGain();audioV67.music=c.createGain();audioV67.sfx=c.createGain();audioV67.master.gain.value=.8;audioV67.music.connect(audioV67.master);audioV67.sfx.connect(audioV67.master);audioV67.master.connect(c.destination);startMusicV67()}try{audioV67.ctx.resume()}catch(e){}updateAudioV68();return true}
+
+/* V265.1: sample-based, speed-sensitive pack-card flicks. Four individual takes
+   were extracted from the user-supplied sound, not synthesized or repeated in
+   a fixed pattern. All playback still follows the existing SFX settings. */
+const v266SwipeAudio={
+ urls:[1,2,3,4].map(n=>new URL(`./assets/audio/ui/card-swipe-${String(n).padStart(2,'0')}.m4a`,document.baseURI).href),
+ bytes:[],buffers:[],decoding:[],loading:null,last:-1,voice:null,fallback:null,retryAfter:0
+};
+function v266SwipeMeasuredSpeed(d,distance,releaseSpeed){
+ const average=distance/Math.max(16,performance.now()-d.t);
+ return Math.max(.08,Math.min(3,Math.max(releaseSpeed,average,d.speed*.8,d.peakSpeed*.45)));
+}
+function v266SwipeRate(speed){
+ const intensity=Math.max(0,Math.min(1,(Number(speed)-.12)/1.75));
+ return {rate:.66+1.23*intensity,intensity};
+}
+function v266DecodeSwipeAudio(){
+ const ctx=audioV67.ctx;if(!ctx)return;
+ v266SwipeAudio.bytes.forEach((bytes,i)=>{
+  if(!bytes||v266SwipeAudio.buffers[i]||v266SwipeAudio.decoding[i])return;
+  v266SwipeAudio.decoding[i]=true;
+  ctx.decodeAudioData(bytes.slice(0)).then(buffer=>{
+   v266SwipeAudio.buffers[i]=buffer;v266SwipeAudio.bytes[i]=null;
+  }).catch(()=>{v266SwipeAudio.decoding[i]=false});
+ });
+}
+function v266PrimeSwipeAudio(){
+ const s=v266SwipeAudio;if(s.loading||s.buffers.filter(Boolean).length===s.urls.length||Date.now()<s.retryAfter)return;
+ s.loading=Promise.all(s.urls.map(async(url,i)=>{
+  if(s.bytes[i]||s.buffers[i])return;
+  try{const response=await fetch(url,{cache:'force-cache'});if(response.ok)s.bytes[i]=await response.arrayBuffer()}catch(_){/* offline: optional audio */}
+ })).then(()=>v266DecodeSwipeAudio()).finally(()=>{
+  s.loading=null;
+  if(!s.bytes.some(Boolean)&&!s.buffers.some(Boolean))s.retryAfter=Date.now()+30000;
+ });
+}
+function v266PlaySwipeAudio(speed){
+ if(!audioV67.sfxOn||!audioInitV67())return;
+ v266PrimeSwipeAudio();v266DecodeSwipeAudio();
+ const s=v266SwipeAudio,{rate,intensity}=v266SwipeRate(speed),ctx=audioV67.ctx;
+ const ready=s.buffers.map((buffer,i)=>buffer?i:-1).filter(i=>i>=0);
+ const options=(ready.length?ready:s.urls.map((_,i)=>i)).filter(i=>i!==s.last);
+ const index=(options.length?options:ready)[Math.floor(Math.random()*Math.max(1,options.length))]??0;
+ s.last=index;
+ if(s.fallback){s.fallback.pause();s.fallback=null}
+ if(s.voice){try{const t=ctx.currentTime;s.voice.gain.gain.cancelScheduledValues(t);s.voice.gain.gain.setTargetAtTime(.0001,t,.014);s.voice.source.stop(t+.06)}catch(_){}s.voice=null}
+ if(!s.buffers[index]){
+  // First swipe can happen before decode completes, especially on iPhone.
+  // HTMLAudio is a one-shot fallback; subsequent gestures use Web Audio.
+  try{const clip=new Audio(s.urls[index]);clip.preload='auto';clip.preservesPitch=false;clip.playbackRate=rate;clip.volume=Math.min(1,(.55+.35*intensity)*audioV67.sfxVol*.8);s.fallback=clip;clip.play().catch(()=>{});}catch(_){}
+  return;
+ }
+ const source=ctx.createBufferSource(),gain=ctx.createGain(),now=ctx.currentTime;
+ source.buffer=s.buffers[index];source.playbackRate.value=rate;
+ gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(.80+.38*intensity,now+.008);
+ gain.gain.setTargetAtTime(.0001,now+Math.max(.045,source.buffer.duration/rate-.065),.02);
+ source.connect(gain);gain.connect(audioV67.sfx);s.voice={source,gain};
+ source.onended=()=>{if(s.voice?.source===source)s.voice=null;source.disconnect();gain.disconnect()};
+ source.start(now);
+}
+setTimeout(()=>{if(audioV67.sfxOn)v266PrimeSwipeAudio()},2200);
 function toneV67(freq,dur=.12,type='sine',vol=.08,delay=0,dest='sfx'){let c=audioV67.ctx;if(!c)return;let o=c.createOscillator(),g=c.createGain(),t=c.currentTime+delay;o.type=type;o.frequency.setValueAtTime(freq,t);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(.001,vol),t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+dur);o.connect(g);g.connect(dest==='music'?audioV67.music:audioV67.sfx);o.start(t);o.stop(t+dur+.04)}
 function noiseV67(dur=.05,vol=.025){if(!audioV67.ctx||!audioV67.sfxOn)return;let c=audioV67.ctx,b=c.createBuffer(1,Math.ceil(c.sampleRate*dur),c.sampleRate),a=b.getChannelData(0);for(let i=0;i<a.length;i++)a[i]=(Math.random()*2-1)*(1-i/a.length);let n=c.createBufferSource(),g=c.createGain();n.buffer=b;g.gain.value=vol;n.connect(g);g.connect(audioV67.sfx);n.start()}
 function sfxV67(k){if(!audioV67.sfxOn)return;audioInitV67();if(!audioV67.ctx)return;if(k==='tap')toneV67(560,.045,'sine',.07);else if(k==='keep'){toneV67(660,.09,'sine',.13);toneV67(880,.15,'sine',.1,.07)}else if(k==='trash'){noiseV67(.08,.08);toneV67(170,.1,'triangle',.06)}else if(k==='coin'){toneV67(880,.07,'sine',.13);toneV67(1320,.14,'sine',.11,.06)}else if(k==='card'){}else if(k==='hit'){[523,659,784,1047].forEach((f,i)=>toneV67(f,.24,'sine',.11,i*.065))}else if(k==='perfect'){[523,659,784,988,1319].forEach((f,i)=>toneV67(f,.32,'sine',.12,i*.075))}else if(k==='bulk')noiseV67(.04,.04)}
