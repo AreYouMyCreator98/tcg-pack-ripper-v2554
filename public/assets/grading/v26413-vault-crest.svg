@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 285" role="img" aria-label="Collector Vault crown and prism crest">
+  <defs>
+    <linearGradient id="metal" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".17" stop-color="#a0b7c7"/><stop offset=".34" stop-color="#f4dfad"/><stop offset=".52" stop-color="#e8f2ff"/><stop offset=".72" stop-color="#bfb6d9"/><stop offset="1" stop-color="#fff4d6"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#283847"/><stop offset=".45" stop-color="#0d1827"/><stop offset="1" stop-color="#16212b"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#f1eddc" stop-opacity=".35"/><stop offset="1" stop-color="#bfc8e7" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="130" cy="146" r="120" fill="url(#light)"/>
+  <g stroke="url(#metal)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="130" cy="149" r="101" stroke-width="1.3" opacity=".8"/>
+    <circle cx="130" cy="149" r="91" stroke-width=".65" opacity=".4" stroke-dasharray="2 6"/>
+    <path d="M130 41 203 81v88l-73 78-73-78V81z" stroke-width="5" fill="url(#glass)"/>
+    <path d="M130 54 192 87v75l-62 68-62-68V87z" stroke-width="1.3"/>
+    <path d="M130 68v153M76 91l54 27 54-27M80 166l50-48 49 48" stroke-width="1" opacity=".6"/>
+    <path d="M95 135 130 96l35 39-35 51z" fill="url(#metal)" stroke-width="2"/>
+    <path d="M130 96v90l-35-51z" fill="#0e2636" fill-opacity=".83" stroke="none"/>
+    <path d="m130 96 35 39-35 51" stroke="#fff4d6" stroke-width="1" opacity=".9"/>
+    <path d="M104 73 94 47l22 12 14-25 14 25 22-12-10 26z" fill="url(#metal)" stroke-width="1.4"/>
+    <path d="M103 74h54" stroke-width="3.5"/>
+    <path d="M113 71v-8m17 8V47m17 24v-8" stroke="#35414b" stroke-width="1.4"/>
+  </g>
+  <g fill="#fff7da" filter="url(#glow)">
+    <path d="m38 99 4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/>
+    <path d="m219 178 3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
+    <circle cx="220" cy="93" r="2.4"/>
+    <circle cx="44" cy="196" r="1.7"/>
+  </g>
+  <path d="M101 258h58" stroke="url(#metal)" stroke-width="1"/>
+  <text x="130" y="273" font-size="9" text-anchor="middle" fill="#dcd4be" font-family="serif" letter-spacing="5">VAULT</text>
+</svg>

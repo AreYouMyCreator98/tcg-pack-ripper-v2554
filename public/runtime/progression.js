@@ -79,7 +79,7 @@ globalThis.tcgBackupArchiveV262=(()=>{
  const originalGradedValueV161=gradedValueV56;
  gradedValueV56=function(j){
   const raw=marketValueV161({id:j.id,setId:j.setId,set:j.set,market:Number(j.raw||.1)}),g=Number(j.grade||0);
-  const mult=g>=10?4.8:g>=9.5?3.2:g>=9?2.25:g>=8.5?1.65:g>=8?1.3:g>=7?1.05:.85;
+  const mult=j.perfect10V26413?8.5:g>=10?4.8:g>=9.5?3.2:g>=9?2.25:g>=8.5?1.65:g>=8?1.3:g>=7?1.05:.85;
   return Math.round(raw*mult*100)/100;
  };
  function setTrendV161(id){const now=setFactorV161(id,0),prev=setFactorV161(id,-1);return ((now/prev)-1)*100}

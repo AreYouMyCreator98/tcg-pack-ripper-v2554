@@ -1171,29 +1171,43 @@ function finalGradeV48(c){
 function gradeNameV48(g){return g>=10?'GEM MINT':g>=9?'MINT':g>=8?'NM-MT':g>=7?'NEAR MINT':g>=6?'EX-MT':'EX'}
 function condWordV48(v){return v>=97?'Pristine':v>=93?'Excellent':v>=87?'Very Good':v>=80?'Good':'Fair'}
 let returnRevealJobV53=null;
-function returnFxV53(g){return g>=10?'fx-gem':g>=9?'fx-great':g>=8?'fx-good':'fx-common'}
+let returnTimersV26413=[];
+function returnFxV53(g,perfect=false){return perfect?'fx-perfect':g>=10?'fx-gem':g>=9?'fx-great':g>=8?'fx-good':'fx-common'}
+function gradeDisplayV26413(j){return j.perfect10V26413?'P10':Number(j.grade||0).toFixed(1)}
+function gradeTitleV26413(j){return j.perfect10V26413?'✦ PERFECT 10':Number(j.grade||0)===10?'GEM MINT 10':gradeNameV48(Number(j.grade||0))+' '+Number(j.grade||0).toFixed(1)}
 function slabMarkupV53(j){
- return `<div class="gradeSlab"><div class="gradeSlabLabel"><span>VAULT GRADE<br>${j.name}<br>${j.cert||'VAULT CERTIFIED'}</span><strong class="gradeBig">${Number(j.grade).toFixed(1)}</strong></div><img loading="lazy" decoding="async" data-card-quality="high" src="${window.tcgCardAssets?.resolve?.(j,'high')||j.thumb||''}"></div>`;
+ return `<div class="gradeSlab ${j.perfect10V26413?'perfect10SlabV26413':''}"><div class="gradeSlabLabel"><span>${j.perfect10V26413?'✦ VAULT PERFECT ✦':'VAULT GRADE'}<br>${j.name}<br>${j.cert||'VAULT CERTIFIED'}</span><strong class="gradeBig">${gradeDisplayV26413(j)}</strong></div><img loading="lazy" decoding="async" data-card-quality="high" src="${window.tcgCardAssets?.resolve?.(j,'high')||j.thumb||''}"></div>`;
 }
 function startReturnRevealV53(j){
  returnRevealJobV53=j;
+ returnTimersV26413.forEach(clearTimeout);returnTimersV26413=[];
  const st=document.getElementById('gradeReturnStageV53'),sl=document.getElementById('returnSlabBodyV53'),gt=document.getElementById('returnGradeTextV53');
- st.className='gradeReturnStage show '+returnFxV53(Number(j.grade));
- sl.innerHTML=slabMarkupV53(j);gt.innerHTML=`<strong>${Number(j.grade)===10?'💎 GEM MINT 10':Number(j.grade).toFixed(1)}</strong><span>${gradeNameV48(Number(j.grade))}</span>`;
+ // Do not expose the grade with pre-reveal lighting. Apply its tier only once cut.
+ st.className='gradeReturnStage show';st.dataset.returnFx=returnFxV53(Number(j.grade),!!j.perfect10V26413);
+ sl.innerHTML=slabMarkupV53(j);gt.innerHTML=`<strong>${gradeTitleV26413(j)}</strong><span>${j.perfect10V26413?'FOUR FLAWLESS SUBGRADES · ONE OF A KIND':gradeNameV48(Number(j.grade))}</span>`;
  st.classList.remove('torn','launch','revealed');const p=document.getElementById('tearProgressV55');if(p)p.style.width='0';
+}
+function perfectChimeV26413(){
+ try{
+  const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;
+  const ctx=new AC(),start=ctx.currentTime;
+  [659.25,880,1318.5,1760].forEach((hz,i)=>{const osc=ctx.createOscillator(),gain=ctx.createGain();osc.type='sine';osc.frequency.value=hz;osc.connect(gain);gain.connect(ctx.destination);const t=start+i*.115;gain.gain.setValueAtTime(.0001,t);gain.gain.exponentialRampToValueAtTime(.065,t+.026);gain.gain.exponentialRampToValueAtTime(.0001,t+.46);osc.start(t);osc.stop(t+.47)});
+  setTimeout(()=>ctx.close().catch(()=>{}),1300);
+ }catch(e){}
 }
 function tearReturnV53(){
  const st=document.getElementById('gradeReturnStageV53');if(!st.classList.contains('show')||st.classList.contains('torn'))return;
  st.classList.add('torn');try{binderUnclipSound()}catch(e){}
- setTimeout(()=>{st.classList.add('launch');try{cardSound()}catch(e){}},320);
- setTimeout(()=>{st.classList.add('revealed');if(Number(returnRevealJobV53?.grade)>=10)try{holoSound()}catch(e){}},1450);
+ returnTimersV26413.push(setTimeout(()=>{if(!st.classList.contains('show'))return;st.classList.add('launch',st.dataset.returnFx);try{cardSound()}catch(e){}},320));
+ returnTimersV26413.push(setTimeout(()=>{if(!st.classList.contains('show'))return;st.classList.add('revealed');if(Number(returnRevealJobV53?.grade)>=10)try{holoSound()}catch(e){};if(returnRevealJobV53?.perfect10V26413){perfectChimeV26413();try{navigator.vibrate?.([40,60,70,50,120])}catch(e){}}},1450));
 }
 function finishReturnV53(){
- const j=returnRevealJobV53,st=document.getElementById('gradeReturnStageV53');st.classList.remove('show','torn','launch','revealed');if(j)showSlabV52(j);
+ returnTimersV26413.forEach(clearTimeout);returnTimersV26413=[];
+ const j=returnRevealJobV53,st=document.getElementById('gradeReturnStageV53');returnRevealJobV53=null;st.className='gradeReturnStage';if(j)showSlabV52(j);
 }
 function showSlabV52(j){
  if(!j)return;const c=j.condition||{};
- document.getElementById('gradeRevealBodyV48').innerHTML=`<div class="gradeSlab"><div class="gradeSlabLabel"><span>VAULT GRADE<br>${j.name}<br>${j.cert||'VAULT CERTIFIED'}</span><strong class="gradeBig">${Number(j.grade||0).toFixed(1)}</strong></div><img loading="lazy" decoding="async" data-card-quality="high" src="${window.tcgCardAssets?.resolve?.(j,'high')||j.thumb||''}"></div><h2>${Number(j.grade||0)===10?'💎 GEM MINT 10':gradeNameV48(Number(j.grade||0))+' '+Number(j.grade||0).toFixed(1)}</h2><div class="subgrades">${Object.entries(c).map(([k,v])=>`<div><b>${k[0].toUpperCase()+k.slice(1)}</b><span>${(v/10).toFixed(1)} • ${condWordV48(v)}</span></div>`).join('')}</div><div class="sub" style="text-align:center">Authenticated • ${j.cert||''}</div><div class="slabValue" style="text-align:center;font-size:13px">Raw $${Number(j.raw||.1).toFixed(2)} → Graded $${gradedValueV56(j).toFixed(2)}</div><div class="slabActionBar"><button class="btn" onclick="document.getElementById('gradeRevealV48').classList.remove('show')">KEEP IN VAULT</button><button class="btn sellSlabBtn" data-sell-slab="${j.uid}">SELL SLAB • $${gradedValueV56(j).toFixed(2)}</button></div>`;
+ document.getElementById('gradeRevealBodyV48').innerHTML=`${slabMarkupV53(j)}<h2 class="${j.perfect10V26413?'perfectGradeTitleV26413':''}">${gradeTitleV26413(j)}</h2>${j.perfect10V26413?'<div class="perfectGradeCaptionV26413">THE PINNACLE · ALL FOUR SUBGRADES 10.0</div>':''}<div class="subgrades">${Object.entries(c).map(([k,v])=>`<div><b>${k[0].toUpperCase()+k.slice(1)}</b><span>${(v/10).toFixed(1)} • ${condWordV48(v)}</span></div>`).join('')}</div><div class="sub" style="text-align:center">Authenticated • ${j.cert||''}</div><div class="slabValue" style="text-align:center;font-size:13px">Raw $${Number(j.raw||.1).toFixed(2)} → Graded $${gradedValueV56(j).toFixed(2)}</div><div class="slabActionBar"><button class="btn" onclick="document.getElementById('gradeRevealV48').classList.remove('show')">KEEP IN VAULT</button><button class="btn sellSlabBtn" data-sell-slab="${j.uid}">SELL SLAB • $${gradedValueV56(j).toFixed(2)}</button></div>`;
  const copies=(state.gradingV44.graded||[]).filter(x=>x.id===j.id),avg=copies.length?(copies.reduce((n,x)=>n+Number(x.grade||0),0)/copies.length).toFixed(2):Number(j.grade||0).toFixed(2),hi=copies.length?Math.max(...copies.map(x=>Number(x.grade||0))).toFixed(1):Number(j.grade||0).toFixed(1);document.getElementById('gradeRevealBodyV48').insertAdjacentHTML('beforeend',`<div class="vaultStats" style="text-align:center">Your population: ${copies.length} • Average ${avg} • Highest ${hi}</div>`);document.getElementById('gradeRevealV48').classList.add('show');
 }
 function renderSlabVaultV52(){
@@ -1203,7 +1217,7 @@ function renderSlabVaultV52(){
  if(sort==='grade')a.sort((x,y)=>y.grade-x.grade);else if(sort==='value')a.sort((x,y)=>gradedValueV56(y)-gradedValueV56(x));else if(sort==='name')a.sort((x,y)=>x.name.localeCompare(y.name));else a.reverse();
  const all=state.gradingV44.graded||[];ct.textContent=`${all.length} SLAB${all.length===1?'':'S'}`;
  if(stats){const avg=all.length?(all.reduce((n,j)=>n+Number(j.grade||0),0)/all.length).toFixed(2):'—',hi=all.length?Math.max(...all.map(j=>Number(j.grade||0))).toFixed(1):'—',val=all.reduce((n,j)=>n+gradedValueV56(j),0).toFixed(2);stats.innerHTML=`<div><small>AVERAGE</small><b>${avg}</b></div><div><small>HIGHEST</small><b>${hi}</b></div><div><small>VAULT VALUE</small><b>$${val}</b></div>`}
- el.innerHTML=a.length?a.map(j=>`<button type="button" class="miniSlab slabInspectV52 grade${Number(j.grade)>=10?10:Number(j.grade)>=9?9:Number(j.grade)>=8?8:7}" data-slab-uid="${j.uid}"><div class="miniSlabCase"><span class="miniGrade">${Number(j.grade||0).toFixed(1)}</span><img loading="lazy" decoding="async" src="${window.tcgCardAssets?.resolve?.(j,'thumb')||j.thumb||''}"></div><div class="miniSlabLabel">${j.name}</div><div class="slabValue">$${gradedValueV56(j).toFixed(2)}</div></button>`).join(''):'<div class="sub" style="grid-column:1/-1">No matching slabs.</div>';
+ el.innerHTML=a.length?a.map(j=>`<button type="button" class="miniSlab slabInspectV52 grade${Number(j.grade)>=10?10:Number(j.grade)>=9?9:Number(j.grade)>=8?8:7} ${j.perfect10V26413?'perfectTenV26413':''}" data-slab-uid="${j.uid}"><div class="miniSlabCase"><span class="miniGrade">${gradeDisplayV26413(j)}</span><img loading="lazy" decoding="async" src="${window.tcgCardAssets?.resolve?.(j,'thumb')||j.thumb||''}"></div><div class="miniSlabLabel">${j.name}</div><div class="slabValue">$${gradedValueV56(j).toFixed(2)}</div></button>`).join(''):'<div class="sub" style="grid-column:1/-1">No matching slabs.</div>';
 }
 function revealGradeV48(uid){
  const i=state.gradingV44.submissions.findIndex(j=>j.uid===uid);if(i<0)return;
@@ -1213,9 +1227,20 @@ function revealGradeV48(uid){
  if(!j.condition||typeof j.condition!=='object'){
    j.condition=makeCondition({id:j.id||j.name,name:j.name||'Card'},j.uid||('LEGACY'+j.name));
  }
- const naturalGradeV81=finalGradeV48(j.condition);
- if(naturalGradeV81>=9){j.grade=naturalGradeV81;state.gradingV44.mintPityV81=0}
- else{if(!j.collectorV260)applyMintLuckV81(j);j.grade=finalGradeV48(j.condition)}
+ const engine=window.tcgGradingEngineV26413;
+ if(j.collectorV260&&engine){
+   // Previous collector submissions have no saved roll; new ones roll at submission.
+   // The result and Perfect designation are persisted with the slab, never rerolled.
+   const initial=j.gradeOutcomeV26413||engine.rollGradingOutcomeV26413();
+   const result=engine.applyGradingPityV26413(initial,state.gradingV44.mintPityV81);
+   j.gradeOutcomeV26413=result.outcome;j.grade=result.outcome.grade;
+   j.condition=result.outcome.condition;j.perfect10V26413=!!result.outcome.perfect10;
+   state.gradingV44.mintPityV81=result.nextMisses;
+ }else{
+   const naturalGradeV81=finalGradeV48(j.condition);
+   if(naturalGradeV81>=9){j.grade=naturalGradeV81;state.gradingV44.mintPityV81=0}
+   else{if(!j.collectorV260)applyMintLuckV81(j);j.grade=finalGradeV48(j.condition)}
+ }
  j.cert='VG-'+String(j.uid).slice(-8).toUpperCase();j.revealedAt=Date.now();
  state.gradingV44.submissions.splice(i,1);state.gradingV44.graded.push(j);save();checkGradeAchievementsV56(j);renderGradingV44();
  renderSlabVaultV52();startReturnRevealV53(j);
@@ -1245,10 +1270,10 @@ function renderGradingV44(){
 }
 const GRADE_TIERS_V56={standard:{name:'Standard',fee:12,packs:5},priority:{name:'Priority',fee:25,packs:3},express:{name:'Express',fee:45,packs:1}};
 state.gradingV44.tierV56=state.gradingV44.tierV56||'standard';state.gradingV44.achV56=state.gradingV44.achV56||{};
-function gradedValueV56(j){const raw=Math.max(.1,Number(j.raw||.1)),g=Number(j.grade||0);const mult=g>=10?4.8:g>=9.5?3.2:g>=9?2.25:g>=8.5?1.65:g>=8?1.3:g>=7?1.05:.85;return Math.round(raw*mult*100)/100}
+function gradedValueV56(j){const raw=Math.max(.1,Number(j.raw||.1)),g=Number(j.grade||0);const mult=j.perfect10V26413?8.5:g>=10?4.8:g>=9.5?3.2:g>=9?2.25:g>=8.5?1.65:g>=8?1.3:g>=7?1.05:.85;return Math.round(raw*mult*100)/100}
 function stageV56(j,left){const total=Number(j.dueOpen||5),done=Math.max(0,total-left),p=total?done/total:1;return p>=1?'RETURN READY':p>=.8?'RETURNING':p>=.65?'SLABBING':p>=.45?'GRADING':p>=.25?'AUTHENTICATING':p>0?'RECEIVED':'SUBMITTED'}
 function achV56(key,label){if(state.gradingV44.achV56[key])return;state.gradingV44.achV56[key]=1;save();const e=document.getElementById('achievementToastV56');if(e){e.textContent='🏆 '+label;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),2400)}}
-function checkGradeAchievementsV56(j){const a=state.gradingV44.graded||[];if(a.length>=1)achV56('first','FIRST SLAB');if(Number(j.grade)>=9)achV56('mint','MINT CONDITION');if(Number(j.grade)>=10)achV56('ten','PERFECT 10');if(a.length>=25)achV56('king','SLAB KING');if(a.filter(x=>Number(x.grade)>=10).length>=10)achV56('legend','VAULT LEGEND')}
+function checkGradeAchievementsV56(j){const a=state.gradingV44.graded||[];if(a.length>=1)achV56('first','FIRST SLAB');if(Number(j.grade)>=9)achV56('mint','MINT CONDITION');if(Number(j.grade)>=10)achV56('ten','GEM MINT 10');if(j.perfect10V26413)achV56('perfect10V26413','THE PERFECT 10');if(a.length>=25)achV56('king','SLAB KING');if(a.filter(x=>Number(x.grade)>=10).length>=10)achV56('legend','VAULT LEGEND')}
 function submitBinderCardV44(){
  const key=typeof selectedBinderCard!=='undefined'?selectedBinderCard:null;
  if(state.collectorV260?.cards?.[key]?.locked)return toast('Unlock this card before grading.');
@@ -1262,7 +1287,7 @@ function submitBinderCardV44(){
  state.gradingV44.submissions.push({
    uid,id:c.id,name:c.name,set:c.set||'',setId:c.setId||masterResolveSetV62(c,c.id)||'',thumb:img,raw:Number(c.market||.1),
    startOpen:Number(state.gradingV44.openedForGrading||0),dueOpen:tier.packs,tier:tier.name,v47:true,
-   collectorV260:true,finish:c.finish||'',rarity:c.rarity||'',number:c.number||'',condition,historyV161:[...(c.historyV161||[]),{time:Date.now(),label:'Submitted for grading'}],phase:'grading'
+   collectorV260:true,finish:c.finish||'',rarity:c.rarity||'',number:c.number||'',condition,gradeOutcomeV26413:window.tcgGradingEngineV26413?.rollGradingOutcomeV26413(),historyV161:[...(c.historyV161||[]),{time:Date.now(),label:'Submitted for grading'}],phase:'grading'
  });
  c.qty=Number(c.qty||1)-1;if(c.qty<=0)delete state.binder[key];
  save();stats();
@@ -1301,13 +1326,14 @@ document.addEventListener('click',e=>{const b=e.target.closest('.slabInspectV52'
  const move=e=>{
    if(pid!==e.pointerId||sx===null||cut)return;
    const r=tear.getBoundingClientRect(),x=Math.max(0,Math.min(r.width,e.clientX-r.left)),pct=x/r.width*100;
-   prog.style.width=pct+'%';blade.style.left=x+'px';
+   prog.style.width=pct+'%';blade.style.left=x+'px';tear.setAttribute('aria-valuenow',String(Math.round(pct)));
    if(pct>=88){cut=true;tear.releasePointerCapture?.(pid);tearReturnV53();if(navigator.vibrate)navigator.vibrate([18,25,35])}
  };
- tear.addEventListener('pointerdown',e=>{if(st.classList.contains('torn'))return;pid=e.pointerId;sx=e.clientX;cut=false;tear.classList.add('dragging');tear.setPointerCapture?.(pid);prog.style.width='3%';blade.style.left='3%'});
+ tear.addEventListener('pointerdown',e=>{if(!st.classList.contains('show')||st.classList.contains('torn'))return;pid=e.pointerId;sx=e.clientX;cut=false;tear.classList.add('dragging');tear.setPointerCapture?.(pid);prog.style.width='3%';blade.style.left='3%'});
  tear.addEventListener('pointermove',move);
  tear.addEventListener('pointerup',e=>{if(!cut){prog.style.width='0';blade.style.left='8px'}tear.classList.remove('dragging');sx=null;pid=null});
  tear.addEventListener('pointercancel',()=>{tear.classList.remove('dragging');prog.style.width='0';sx=null;pid=null});
+ tear.addEventListener('keydown',e=>{if(!['Enter',' ','ArrowRight','End'].includes(e.key)||!st.classList.contains('show')||st.classList.contains('torn'))return;e.preventDefault();prog.style.width='100%';tear.setAttribute('aria-valuenow','100');tearReturnV53()});
  skip.addEventListener('click',e=>{e.stopPropagation();finishReturnV53()});
  st.addEventListener('click',e=>{if(st.classList.contains('revealed')&&!e.target.closest('.returnSkip'))finishReturnV53()});
 }

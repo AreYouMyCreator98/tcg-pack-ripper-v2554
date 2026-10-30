@@ -20,10 +20,12 @@ import { installBinderModule } from './systems/binder.js';
 import { installPackModule } from './systems/packs.js';
 import { installRankFrameRenderer } from './systems/rank-frame-renderer.js';
 import { beginLaunch, setLaunchStage, prewarmFirstFrame, finishLaunch, failLaunch } from './app/launch-screen.js';
-import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=26410';
+import { APP_CONFIG, exposeAppConfig } from './config/app-config.js?v=26413';
+import { rollGradingOutcomeV26413, applyGradingPityV26413 } from './grading/grade-engine.js';
 
 const cardManifestReady=loadCardAssetManifest();
 window.tcgCardAssets={resolve:resolveCardImage};
+window.tcgGradingEngineV26413={rollGradingOutcomeV26413,applyGradingPityV26413};
 beginLaunch();
 exposeAppConfig();
 installDiagnostics();

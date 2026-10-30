@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.264.12-collector-icons';
+const VERSION = 'tcg-pack-ripper-0.264.13-premium-grading';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));
@@ -11,6 +11,7 @@ const CORE = ['./src/league/index.js','./src/league/controller.js','./src/league
   './src/app/collector-navigation.js','./styles/collector-v260.css',
   './runtime/supabase.js','./src/app/settings-overlay.js',
   './styles/collector-studio.css','./styles/collector-cinematics.css','./src/screens/rip/index.js','./src/screens/binder/studio.js','./src/animations/packs/cinematic-profile.js',
+  './styles/grading-v26413.css','./assets/grading/v26413-vault-crest.svg','./src/grading/grade-engine.js',
   './styles/profile-studio.css','./styles/profile-showcase.css','./styles/collector-icon-art.css','./runtime/profile-bridge.js','./src/screens/profile/index.js','./src/screens/profile/model.js','./src/screens/profile/showcase.js','./src/screens/profile/icon-art.js',
   './styles/bulk.css','./runtime/bulk-bridge.js','./src/screens/bulk/index.js','./src/screens/bulk/model.js',
   './','./index.html','./src/main.js','./src/trade-hub/index.js','./src/trade-hub/model.js','./src/trade-hub/controller.js','./src/trade-hub/view.js','./src/trade-hub/render.js','./src/data/ranks.js','./src/ui.js','./src/app/runtime-loader.js','./src/app/diagnostics.js','./src/app/launch-screen.js','./src/pwa/register.js',
