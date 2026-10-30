@@ -1,10 +1,10 @@
 export const APP_CONFIG = Object.freeze({
   name: 'TCG Pack Ripper+',
-  version: '0.265.0',
-  buildId: 'v265-battle-renaissance',
+  version: '0.265.1',
+  buildId: 'v2651-adaptive-card-swipes',
   saveSchemaVersion: 1,
   assetSchemaVersion: 1,
-  cacheVersion: 'tcg-v265-battle-renaissance',
+  cacheVersion: 'tcg-v2651-adaptive-card-swipes',
   supabase: Object.freeze({
     projectRef: 'ddeuwrnfmdgvizkrjhii',
     url: 'https://ddeuwrnfmdgvizkrjhii.supabase.co',
