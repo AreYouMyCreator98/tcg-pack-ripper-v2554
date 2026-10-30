@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T23:25:44.164Z",
+  "generatedAt": "2026-10-30T00:38:33.249Z",
   "assets": [
     {
       "path": "audio/hits/.gitkeep",
@@ -36,6 +36,71 @@
       "path": "foil/foil-1.webp",
       "bytes": 243088,
       "sha256": "8dad7730bf35a730973370b76d7c45199864d07302b168bb254a8cb4efb2dfd0"
+    },
+    {
+      "path": "icons/collector/arcade.png",
+      "bytes": 218102,
+      "sha256": "67055fd37ccf184a2752fe770f38ea88d2e3382146afde7267bd7b0c55b49347"
+    },
+    {
+      "path": "icons/collector/binder.png",
+      "bytes": 258513,
+      "sha256": "12fa022913d4d6d14992c7faf259217ddb5c7a50cf79fa5e1ca46e57307f2fed"
+    },
+    {
+      "path": "icons/collector/chase.png",
+      "bytes": 250093,
+      "sha256": "9f2c195d4778c7e32b5036442d00ee7e9be47cfc3ad8c43b4a8a27b4ff5b2537"
+    },
+    {
+      "path": "icons/collector/hit.png",
+      "bytes": 180356,
+      "sha256": "03ba955e87236f5cb0bedc0ce28c9035b9adc5c962a99400f4d3a04e650a1d9a"
+    },
+    {
+      "path": "icons/collector/legacy.png",
+      "bytes": 228042,
+      "sha256": "1f413b3489d512f51b50e823f1fde534328f970c1e61aa5c0fb8755bd089a0e1"
+    },
+    {
+      "path": "icons/collector/level.png",
+      "bytes": 171474,
+      "sha256": "7661b631c4b494cd0232f2902a8a459de46624f5ae6aff71e393db2600acbf0e"
+    },
+    {
+      "path": "icons/collector/pack.png",
+      "bytes": 212100,
+      "sha256": "6de7e02001bcebb6674014687e10bcf9d2747293db662f38468ea5af172688d9"
+    },
+    {
+      "path": "icons/collector/reward.png",
+      "bytes": 220057,
+      "sha256": "867e33c0b4ab9c009ee567d55fed99aa809844bec7936cdf57e26a21b5137d79"
+    },
+    {
+      "path": "icons/collector/sets.png",
+      "bytes": 253537,
+      "sha256": "6c6134b70edf64845557851f611702b8440a7c72e84b8d491822ec24f8f482f0"
+    },
+    {
+      "path": "icons/collector/shop.png",
+      "bytes": 213654,
+      "sha256": "d8b08afa8db36cb2e0124aed7e279f179e2a927d8562e445c1eaf01361f5428a"
+    },
+    {
+      "path": "icons/collector/slab.png",
+      "bytes": 191290,
+      "sha256": "473a18a5a7f82d05994b6454ecb0b68748b3ae631722c6e305370daec6d73fe1"
+    },
+    {
+      "path": "icons/collector/vault.png",
+      "bytes": 254578,
+      "sha256": "15a6f84a2dd9116e48db062a7959c7857fa921ea241890572efb036ad09f8d71"
+    },
+    {
+      "path": "icons/collector/wealth.png",
+      "bytes": 203124,
+      "sha256": "8b990be0dd8bffb86b01904a25bab4cb1773d7c8c9c901b89343621aaf29bd92"
     },
     {
       "path": "packs/.gitkeep",

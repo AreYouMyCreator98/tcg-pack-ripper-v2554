@@ -2,6 +2,7 @@ import {banner,TRACKERS} from '../../trade-hub/view.js';
 import {escapeHtml as e} from '../../trade-hub/model.js';
 import {STYLES,AVATARS,lookOf,restoreLook,pageSlice} from './model.js';
 import {installProfileShowcase} from './showcase.js';
+import {installProfileIconArt} from './icon-art.js';
 
 export function installProfileStudio(win=window,doc=document){
  if(win.tcgProfileStudio)return win.tcgProfileStudio;
@@ -9,7 +10,7 @@ export function installProfileStudio(win=window,doc=document){
  if(!root||!bridge)return;
  const $=id=>doc.getElementById(id);
  let data,draft,dirty=false,busy=false,section='overview',queued=false;
- const pages=new Map(),observers=[];let cardShowcase=null;
+ const pages=new Map(),observers=[];let cardShowcase=null,iconArt=null;
  const notice=text=>{$('profileStudioNotice').textContent=text;};
  function switchTab(mode,focus=false){
    if(!root.querySelector(`[data-profile-panel-v160="${mode}"]`))return;
@@ -115,7 +116,7 @@ export function installProfileStudio(win=window,doc=document){
    const next=bridge.snapshot(),changed=data&&data.account!==next.account;
    if(changed){dirty=false;busy=false;notice('');pages.forEach(p=>p.page=0);}
    data=next;if(!draft||changed||!dirty){draft=lookOf(data.profile);fill();}
-   arrange();preview();renderLooks();cardShowcase?.refresh(data);
+   arrange();preview();renderLooks();cardShowcase?.refresh(data);iconArt?.refresh();
    $('profileTitleChips').innerHTML=['Collector','Chase Seeker','Vault Keeper','Pack Explorer',...(data.titles||[])].map(title=>`<button type="button" data-studio-title="${e(title.slice(0,28))}">${e(title)}</button>`).join('');
  }
  function schedule(){if(queued)return;queued=true;queueMicrotask(()=>{queued=false;refresh();});}
@@ -177,7 +178,8 @@ export function installProfileStudio(win=window,doc=document){
 
  }
  cardShowcase=installProfileShowcase(win,doc,bridge);
+ iconArt=installProfileIconArt(doc,win);
  bridge.refresh();switchTab('overview');refresh();
- win.tcgProfileStudio={refresh,switchTab,dispose(){cardShowcase.dispose();observers.forEach(o=>o.disconnect());win.removeEventListener('tcg:profile-updated',schedule);doc.removeEventListener('click',onNav);root.removeEventListener('click',click);root.removeEventListener('input',input);root.removeEventListener('change',input);root.removeEventListener('keydown',keyboard);}};
+ win.tcgProfileStudio={refresh,switchTab,dispose(){iconArt.dispose();cardShowcase.dispose();observers.forEach(o=>o.disconnect());win.removeEventListener('tcg:profile-updated',schedule);doc.removeEventListener('click',onNav);root.removeEventListener('click',click);root.removeEventListener('input',input);root.removeEventListener('change',input);root.removeEventListener('keydown',keyboard);}};
  return win.tcgProfileStudio;
 }
