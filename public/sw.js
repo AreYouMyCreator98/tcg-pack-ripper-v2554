@@ -1,4 +1,4 @@
-const VERSION = 'tcg-pack-ripper-0.264.11-profile-showcase';
+const VERSION = 'tcg-pack-ripper-0.264.12-collector-icons';
 const STATIC = `${VERSION}-static`;
 const ART_LIMITS={thumb:1000,medium:300,high:100};
 const ART_NAMES=Object.fromEntries(Object.keys(ART_LIMITS).map(q=>[q,`${VERSION}-cards-${q}`]));
@@ -11,7 +11,7 @@ const CORE = ['./src/league/index.js','./src/league/controller.js','./src/league
   './src/app/collector-navigation.js','./styles/collector-v260.css',
   './runtime/supabase.js','./src/app/settings-overlay.js',
   './styles/collector-studio.css','./styles/collector-cinematics.css','./src/screens/rip/index.js','./src/screens/binder/studio.js','./src/animations/packs/cinematic-profile.js',
-  './styles/profile-studio.css','./styles/profile-showcase.css','./runtime/profile-bridge.js','./src/screens/profile/index.js','./src/screens/profile/model.js','./src/screens/profile/showcase.js',
+  './styles/profile-studio.css','./styles/profile-showcase.css','./styles/collector-icon-art.css','./runtime/profile-bridge.js','./src/screens/profile/index.js','./src/screens/profile/model.js','./src/screens/profile/showcase.js','./src/screens/profile/icon-art.js',
   './styles/bulk.css','./runtime/bulk-bridge.js','./src/screens/bulk/index.js','./src/screens/bulk/model.js',
   './','./index.html','./src/main.js','./src/trade-hub/index.js','./src/trade-hub/model.js','./src/trade-hub/controller.js','./src/trade-hub/view.js','./src/trade-hub/render.js','./src/data/ranks.js','./src/ui.js','./src/app/runtime-loader.js','./src/app/diagnostics.js','./src/app/launch-screen.js','./src/pwa/register.js',
   './src/config/app-config.js','./src/config/runtime-manifest.js','./src/utils/async.js','./src/app/navigation-preload.js','./src/app/navigation-input.js','./src/systems/binder.js','./src/systems/packs.js','./src/systems/rank-frame-renderer.js','./src/packs/index.js','./src/packs/pack-engine.js','./src/packs/pack-generator.js','./src/packs/pack-results.js','./src/packs/pack-session.js','./src/packs/pack-history.js','./src/packs/pack-costs.js','./src/packs/pack-hud.js','./src/packs/pack-rates.js','./src/animations/packs/reveal-profile.js','./src/animations/packs/reveal-controller.js','./src/animations/packs/ten-pack-controller.js','./src/animations/packs/pack-summary.js','./src/screens/binder/index.js','./src/screens/binder/binder-bridge.js','./src/screens/binder/binder-model.js','./src/screens/binder/binder-renderer.js','./src/screens/binder/binder-inspector.js','./src/screens/binder/binder-status.js','./src/artwork/index.js','./src/artwork/card-identity.js','./src/artwork/artwork-db.js','./src/artwork/artwork-queue.js','./src/artwork/artwork-resolver.js','./src/artwork/artwork-cache.js',
