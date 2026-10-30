@@ -1,6 +1,7 @@
 import {transactionId} from '../utils/transaction-id.js';
 import {migrateCollector,cents,journal} from './model.js';
 import {contractDay,refreshContracts} from './contracts.js';
+import {rollGradingOutcomeV26413} from '../grading/grade-engine.js';
 export function createTransactions(bridge,{now=()=>bridge.now?.()??Date.now(),id=transactionId}={}){
  const missingPremiumPrice=c=>/special illustration|illustration rare|hyper rare|secret rare|shiny|ultra rare|rainbow|gold rare|rare holo|radiant|vmax|vstar/i.test(String(c?.rarity||''))&&Number(c?.market??c?.raw??0)<=.1;
  const begin=()=>{const state=bridge.state();if(migrateCollector(state,now()))bridge.save();return state;};
@@ -113,7 +114,7 @@ export function createTransactions(bridge,{now=()=>bridge.now?.()??Date.now(),id
    if(!tier)throw Error('Choose a grading service.');if(cents(next.coins)<tier.fee)throw Error('Not enough cash for this grading service.');
    const condition=c.conditionV161||bridge.condition(c);if(Object.keys(condition||{}).length!==4)throw Error('Card condition unavailable.');
    next.gradingV44??={submissions:[],graded:[],openedForGrading:0};
-   next.gradingV44.submissions.push({uid:'V260-'+receipt,id:c.id,name:c.name,set:c.set,setId:c.setId,number:c.number,finish:c.finish,rarity:c.rarity,thumb:c.thumb||c.img,raw:c.market||.1,condition:structuredClone(condition),startOpen:next.gradingV44.openedForGrading||0,dueOpen:tier.packs,tier:tier.name,v47:true,collectorV260:true,phase:'grading',historyV161:[...(c.historyV161||[]),{time:now(),label:'Submitted for grading'}]});
+   next.gradingV44.submissions.push({uid:'V260-'+receipt,id:c.id,name:c.name,set:c.set,setId:c.setId,number:c.number,finish:c.finish,rarity:c.rarity,thumb:c.thumb||c.img,raw:c.market||.1,condition:structuredClone(condition),gradeOutcomeV26413:rollGradingOutcomeV26413(),startOpen:next.gradingV44.openedForGrading||0,dueOpen:tier.packs,tier:tier.name,v47:true,collectorV260:true,phase:'grading',historyV161:[...(c.historyV161||[]),{time:now(),label:'Submitted for grading'}]});
    next.coins=(cents(next.coins)-tier.fee)/100;c.qty--;if(!c.qty)delete box[payload.cardId];
    result={kind,fee:tier.fee,packs:tier.packs};
   }else if(kind==='sellSlab'){

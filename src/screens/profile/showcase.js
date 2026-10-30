@@ -2,7 +2,7 @@ import {cardImageMarkup} from '../../artwork/card-image.js';
 import {esc} from '../../collector/model.js';
 
 const key=choice=>choice?.kind==='slab'?`slab:${choice.uid}`:`${choice?.kind}:${choice?.id}`;
-const grade=card=>Number(card.grade||0).toFixed(1);
+const grade=card=>card.card?.perfect10V26413||card.perfect10V26413?'P10':Number(card.grade||0).toFixed(1);
 
 export function installProfileShowcase(win=window,doc=document,bridge=win.tcgProfileStudioBridge){
  const root=doc.getElementById('profileCardShowcase'),grid=doc.getElementById('profileShowcaseGrid'),picker=doc.getElementById('profileShowcasePicker');
@@ -15,13 +15,13 @@ export function installProfileShowcase(win=window,doc=document,bridge=win.tcgPro
  const status=text=>{$('profileShowcaseStatus').textContent=text;};
  function renderSlots(data=bridge.snapshot()){
    snapshot=data;
-   const next=JSON.stringify([data.account,data.blocked,(data.showcase||[]).map(s=>s&&[s.kind,s.id,s.uid,s.owned?.name,s.owned?.grade,s.owned?.card?.thumb,s.owned?.card?.img,s.owned?.card?.qty])]);
+   const next=JSON.stringify([data.account,data.blocked,(data.showcase||[]).map(s=>s&&[s.kind,s.id,s.uid,s.owned?.name,s.owned?.grade,s.owned?.card?.perfect10V26413,s.owned?.card?.thumb,s.owned?.card?.img,s.owned?.card?.qty])]);
    if(next===signature)return;signature=next;
    grid.innerHTML=Array.from({length:5},(_,i)=>{
      const saved=data.showcase?.[i],owned=saved?.owned,featured=i===0;
      const label=featured?'FEATURED CARD':`SLOT ${i+1}`;
-     const content=owned?`${cardImageMarkup(owned.card,{quality:featured?'high':'thumb'})}${owned.kind==='slab'?`<span class="profile-showcase-grade">${grade(owned)}</span>`:''}`:`<span class="profile-showcase-vacant"><span aria-hidden="true">✦</span><b>${saved?'Card no longer owned':'Add a card'}</b></span>`;
-     return `<article class="profile-showcase-slot ${featured?'featured':''} ${owned?'filled':''}"><div class="profile-showcase-label">${label}</div><div class="profile-showcase-art">${content}</div><div class="profile-showcase-meta"><b>${esc(owned?.name||'Your next favourite')}</b><small>${owned?esc(owned.set||'Collection')+(owned.kind==='slab'?` · GRADE ${grade(owned)}`:owned.kind==='special'?' · SPECIAL REWARD':' · RAW CARD'):saved?'Sold or moved out of your vault':'Choose from your collection'}</small></div><button type="button" data-showcase-slot="${i}" ${data.blocked?'disabled':''}>${owned?'Change card':'Choose card'}</button></article>`;
+     const content=owned?`${cardImageMarkup(owned.card,{quality:featured?'high':'thumb'})}${owned.kind==='slab'?`<span class="profile-showcase-grade ${grade(owned)==='P10'?'perfectTenV26413':''}">${grade(owned)}</span>`:''}`:`<span class="profile-showcase-vacant"><span aria-hidden="true">✦</span><b>${saved?'Card no longer owned':'Add a card'}</b></span>`;
+     return `<article class="profile-showcase-slot ${featured?'featured':''} ${owned?'filled':''} ${owned&&grade(owned)==='P10'?'perfectTenV26413':''}"><div class="profile-showcase-label">${label}</div><div class="profile-showcase-art">${content}</div><div class="profile-showcase-meta"><b>${esc(owned?.name||'Your next favourite')}</b><small>${owned?esc(owned.set||'Collection')+(owned.kind==='slab'?grade(owned)==='P10'?' · PERFECT 10':` · GRADE ${grade(owned)}`:owned.kind==='special'?' · SPECIAL REWARD':' · RAW CARD'):saved?'Sold or moved out of your vault':'Choose from your collection'}</small></div><button type="button" data-showcase-slot="${i}" ${data.blocked?'disabled':''}>${owned?'Change card':'Choose card'}</button></article>`;
    }).join('');
  }
  function matches(c){

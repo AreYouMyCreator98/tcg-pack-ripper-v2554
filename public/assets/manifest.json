@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T00:38:33.249Z",
+  "generatedAt": "2026-10-30T05:43:15.526Z",
   "assets": [
     {
       "path": "audio/hits/.gitkeep",
@@ -36,6 +36,11 @@
       "path": "foil/foil-1.webp",
       "bytes": 243088,
       "sha256": "8dad7730bf35a730973370b76d7c45199864d07302b168bb254a8cb4efb2dfd0"
+    },
+    {
+      "path": "grading/v26413-vault-crest.svg",
+      "bytes": 2420,
+      "sha256": "16c67d6e6927038c562d56293fedfc374218859abf33815d17e1a59fc8e90935"
     },
     {
       "path": "icons/collector/arcade.png",
