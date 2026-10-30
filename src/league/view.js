@@ -22,3 +22,60 @@ export class LeagueView {
  change(event){if(!this.custom)return;const t=event.target;if(t.dataset.leagueField)this.custom[t.dataset.leagueField]=t.value;if(t.dataset.leagueTracker!==undefined)this.custom.trackers[Number(t.dataset.leagueTracker)]=t.value;this.render();}
  dispose(){clearInterval(this.timer);this.root.removeEventListener('click',this.onClick);}
 }
+
+// V265's battle-only presentation is deliberately isolated from the existing
+// opening, drafting, profile and marketplace surfaces. Match state still comes
+// exclusively from server snapshots.
+const leagueLegacyBattle=LeagueView.prototype.battle;
+LeagueView.prototype.battle=function(m,uid){
+ const side=m.host_id===uid?'a':'b',other=side==='a'?'b':'a',you=m.combat[side],opp=m.combat[other];
+ const player=you.squad[you.active],enemy=opp.squad[opp.active],locked=m.action_locked||this.controller.state.busy;
+ if(!Array.isArray(player?.stats?.moves)||!player.stats.moves.length)return leagueLegacyBattle.call(this,m,uid);
+ const token=`${m.id}:${m.turn}`;if(this.actionTurn!==token){this.actionTurn=token;this.menu='root';}
+ const mode=this.menu||'root',energy=Math.min(4,(player.energy??2)+1),moves=player.stats.moves||[];
+ const hp=(c)=>Math.max(0,Math.min(100,Math.round(100*(c.hp||0)/Math.max(1,c.stats.max_hp||1))));
+ const panel=(c,who)=>`<div class="league-hp-panel ${who}"><div class="league-hp-title"><strong>${e(c.card.name||'Unknown card')}</strong><span class="league-element">${e(c.stats.type||'colorless')}</span></div><div class="league-hp-track" role="progressbar" aria-label="${e(c.card.name)} hit points" aria-valuenow="${c.hp}" aria-valuemin="0" aria-valuemax="${c.stats.max_hp}"><i style="width:${hp(c)}%;background:${hp(c)>50?'#65cf8b':hp(c)>20?'#dabc60':'#e77c7d'}"></i></div><div class="league-hp-digits">HP ${c.hp} / ${c.stats.max_hp}</div></div>`;
+ const events=m.last_turn?.events||[];
+ const line=m.last_turn?.turn?events.map(x=>{
+  const who=x.side===side?'Your':'Opposing';
+  if(x.kind==='attack')return `${who} ${e(x.name||'attack')} dealt ${x.damage} HP${Number(x.type_multiplier)>1?' · Super effective!':''}${x.ko?' · K.O.!':''}`;
+  if(x.kind==='ability')return `${who} ability activated`;
+  if(x.kind==='swap')return `${who} card switched`;
+  if(x.kind==='defend')return `${who} card defended`;
+  return `${who} attack needed more energy`;
+ }).join(' · '):`What will ${e(player.card.name)} do?`;
+ const action=(kind,label,disabled=false)=>button(kind,label,disabled?'disabled':'');
+ const ability=player.stats.ability||'none',abilityLabel=player.stats.ability_name||'League Ability';
+ const abilityDisabled=ability==='none'||(player.uses??0)<=0||(player.cooldown??0)>0;
+ const abilityExplanation=ability==='heal'?'League effect: restore up to 30 HP.':ability==='guard'?'League effect: shield half the next incoming hit.':'League effect: gain 2 energy for stronger attacks.';
+ const status=locked?'Action locked in. Waiting for your opponent…':m.opponent_locked?'Opponent ready. Choose your move.':'Choose a move—your opponent’s choice is hidden until both lock in.';
+ const prompt=`<div class="league-duel-prompt" role="status"><span>${line}</span><small>${e(status)}</small></div>`;
+ let controls='';
+ if(mode==='moves')controls=`<div class="league-duel-command-title">Choose an attack <span>${energy}/4 energy</span></div><div class="league-duel-moves">${moves.map((a,i)=>`<button type="button" data-league="move-choice" data-index="${i}" ${locked||a.energy>energy?'disabled':''}><span><strong>${e(a.name)}</strong><small>${a.printed?'Printed card attack':'League fallback'} · ${a.energy} energy</small></span><b>${a.damage} DMG</b>${a.effect?`<em>${e(a.effect)}</em>`:''}</button>`).join('')}</div>${action('back-moves','Back to actions')}`;
+ else if(mode==='swap')controls=`<div class="league-duel-command-title">Choose a card to switch in</div><div class="league-duel-reserves">${you.squad.map((c,i)=>`<button type="button" data-league="swap-target" data-index="${i}" ${locked||i===you.active||c.hp<=0?'disabled':''}>${art(c.card)}<strong>${e(c.card.name)}</strong><span>${c.hp}/${c.stats.max_hp} HP ${i===you.active?'· Active':c.hp<=0?'· K.O.':''}</span></button>`).join('')}</div>${action('back-moves','Back to actions')}`;
+ else if(mode==='ability')controls=`<div class="league-duel-ability"><h3>${e(abilityLabel)}</h3><p>${e(player.stats.ability_text||'This card has no printed ability available.')}</p><strong>${abilityExplanation}</strong><small>${Math.max(0,player.uses??0)} uses remaining${player.cooldown>0?` · ${player.cooldown} turn cooldown`:''}</small></div>${action('ability','Activate ability',locked||abilityDisabled)}${action('back-moves','Back to actions')}`;
+ else controls=`<div class="league-duel-choices">${action('fight-menu','FIGHT',locked)}${action('ability-menu','ABILITY',locked||ability==='none')}${action('defend','GUARD',locked)}${action('swap-menu','SWAP',locked)}</div>`;
+ return `<section class="league-duel" aria-label="Ranked tactical battle"><div class="league-duel-topline"><span>TURN ${m.turn} / 20</span><span>${opp.kos}/3 opponent K.O. · ${you.kos}/3 yours</span></div><div class="league-duel-arena"><div class="league-duel-enemy-stats">${panel(enemy,'enemy')}</div><div class="league-duel-enemy-art">${art(enemy.card,'medium')}</div><div class="league-duel-player-art">${art(player.card,'medium')}</div><div class="league-duel-player-stats">${panel(player,'player')}<div class="league-energy">ENERGY <b>${energy}/4</b></div></div></div>${prompt}<div class="league-duel-controls">${controls}</div><div class="league-duel-tips"><span>Weakness ${e(player.stats.weakness||'—')}</span><span>Resistance ${e(player.stats.resistance||'—')}</span><span>Energy regenerates each turn</span></div><details class="league-duel-help"><summary>Battle rules and card effects</summary><p>Printed HP, attack costs, damage, weaknesses and resistances drive battles. Exact-card weaknesses deal double damage; resistances reduce damage. Defend halves incoming damage. The League uses simplified effects for some printed cards because this is a five-card draft duel, not a full deck game.</p></details></section>`;
+};
+
+LeagueView.prototype.result=function(m,uid){
+ const r=m.result?.[uid],side=m.host_id===uid?'a':'b',metrics=m.combat?.[side]?.metrics||{};
+ const other=side==='a'?'b':'a',result=m.result?.winner===uid?'Victory':m.result?.winner?'Defeat':'Draw';
+ return `<section class="league-duel-result"><span class="league-result-eyebrow">COLLECTOR LEAGUE · MATCH COMPLETE</span><h2>${result}</h2><p>${e((m.result?.reason||'match complete').replaceAll('_',' '))}</p><div class="league-result-rp"><strong>${r?.before??0} <span>→</span> ${r?.after??0} RP</strong><span>${(r?.delta??0)>=0?'+':''}${r?.delta??0} RP · ${competitiveRank(r?.after||0).name}</span></div><div class="league-result-highlights"><div><small>Damage dealt</small><strong>${metrics.damage||0}</strong></div><div><small>Successful counters</small><strong>${metrics.advantage||0}</strong></div><div><small>Damage blocked</small><strong>${metrics.blocked||0}</strong></div><div><small>Smart switches</small><strong>${metrics.swaps||0}</strong></div></div>${button('again','Play again')}<details><summary>Full match breakdown</summary><dl class="league-metrics">${Object.entries(metrics).map(([key,v])=>`<div><dt>${e(key.replaceAll('_',' '))}</dt><dd>${v}</dd></div>`).join('')}<div><dt>Pack value · you</dt><dd>$${Number(m.result?.pack_values?.[uid]||0).toFixed(2)}</dd></div><div><dt>Pack value · opponent</dt><dd>$${Number(m.result?.pack_values?.[side==='a'?m.guest_id:m.host_id]||0).toFixed(2)}</dd></div></dl><p>Match performance informs the battle; RP changes depend on the win, loss or draw.</p></details></section>`;
+};
+
+const leaguePreviousClick=LeagueView.prototype.click;
+LeagueView.prototype.click=async function(event){
+ const b=event.target.closest('[data-league]');if(!b||b.disabled)return;
+ const action=b.dataset.league;
+ if(['fight-menu','ability-menu','swap-menu','back-moves'].includes(action)){
+  this.menu=action==='fight-menu'?'moves':action==='ability-menu'?'ability':action==='swap-menu'?'swap':'root';
+  this.render();return;
+ }
+ if(action==='move-choice'){
+  try{await this.controller.matchCommand('turn_submit',{action:{kind:'attack',move:Number(b.dataset.index)}});this.menu='root';}
+  catch(err){this.controller.emit({error:err.message});}
+  return;
+ }
+ return leaguePreviousClick.call(this,event);
+};
